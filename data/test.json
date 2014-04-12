@@ -1,0 +1,17 @@
+
+{
+  "course0":{
+    "title": "This is a course title",
+    "department": "Department",
+    "deptAbbrev": "Dept Abbrev"
+  },
+  "course1":{
+    "title": "course 1",
+    "department": "whatever",
+    "deptAbbrev": "lolol"
+  }
+}
+
+     
+  
+  
