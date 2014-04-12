@@ -1,0 +1,32 @@
+/****
+Berkeley Blue RGB 000 050 098 (HEX 003A70)
+California Gold RBG 253 181 021 (HEX FDB515)
+
+alternate blue & gold
+Founder’s Rock RBG 045 099 127 (HEX 2D637F) 
+Medalist RGB 224 158 025 (HEX E09E19) No Small Type
+
+secondary palette (neutrals)
+Bay Fog RGB 194 185 167 (HEX C2B9A7)
+Wellman Tile RGB 217 102 031 (HEX D9661F) 
+Sather Gate RGB 185 211 182 (HEX 89D3B6) No Small Type
+
+alternate secondary palette (darks)
+Pacific RGB 083 098 111 (HEX 53626F) 
+South Hall RGB 108 051 002 (HEX 6C3302) 
+Stone Pine RGB 088 079 041 (HEX 584F29) All Uses
+
+***/
+
+body {
+  background-color: #53626F;
+}
+
+
+
+
+
+
+#header img, #footer img{
+  width: 100%;
+}
