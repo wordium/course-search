@@ -1,0 +1,59 @@
+{
+"sampleCourse": {
+	"title": "This is a course title",
+	"type": "Lecture",
+	"department": "Department",
+	"deptAbbrev": "Dept Abbrev",
+	"number": "101",
+	"crossListing": ["one cross listed class", "another cross listed class", "a third cross listed class"],
+	"credit": 3,
+	"description": "This is a course description. Lorem ipsum dolor sit amet.",
+	"format": "Three hours of lecture and etc etc.",
+	"prereqs": "Department 1A or consent of instructor.",
+	"isPrereqFor": "This class is a prerequisite for Lorem Ipsum 101.",
+	"hasCoreqs": "Department 1A must be taken concurrently.",
+	"restrictions": "These are the course restrictions",
+	"offerHist": ["Spring 2013", "Spring 2011"],
+	"note": "These are the notes that are necessary to include.",
+	"courseThread": "This class is part of the Sample McSampleton course thread.",
+	"breadth": ["AC"],
+	"berkeleyConnect": true,
+	"classInstance": {
+		"semester": "Fall 2014",
+		"days": ["M", "W", "F"],
+		"time": "9-10 a.m.",
+		"location": {
+			"room": "room number",
+			"building": "building name"
+			},
+		"instructor": ["A. Professor", "C. O'Instructor"],
+		"ccn": 12345,
+		"seats": {
+			"max": 150,
+			"enrolled": 100,
+			"waitlist": 0,
+			"available": 50
+			},
+		"finalGroup": "This is when the final is"
+		},
+	"classInstance": {
+		"semester": "Fall 2014",
+		"days": ["M", "W", "F"],
+		"time": "10-11 a.m.",
+		"location": {
+			"room": "room number",
+			"building": "building name"
+			},
+		"instructor": ["T. Eacher"],
+		"ccn": 12346,
+		"seats": {
+			"max": 150,
+			"enrolled": 100,
+			"waitlist": 0,
+			"available": 50
+			},
+		"finalGroup": "This is when the final is"
+		}
+	}
+}
+  
