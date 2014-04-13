@@ -60,6 +60,14 @@ input[type="text"], select, input[type="button"] {
   margin-bottom: 25px;
 }
 
+label {
+  padding-bottom: 5px;
+  margin-bottom: 5px;
+}
+
+#basic, #advanced {
+}
+
 /* basic search */
 #basic {
   padding-bottom: 50px;
@@ -78,6 +86,19 @@ input[type="text"], select, input[type="button"] {
 
 select.units {
   width: 50px;
+}
+
+ul#lsBreadth, ul#courseLevel {
+    -moz-column-count: 2;
+    -moz-column-gap: 20px;
+    -webkit-column-count: 2;
+    -webkit-column-gap: 20px;
+    column-count: 2;
+    column-gap: 20px;
+}
+
+ul#courseLevel {
+  height: 4em;
 }
 
 /* time and day */
