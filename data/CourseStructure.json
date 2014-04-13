@@ -5,7 +5,7 @@
 		"department": "Department",
 		"deptAbbrev": "Dept Abbrev",
 		"number": "101",
-		"crossListing": ["one cross listed class", "another cross listed class", "a third cross listed class"],
+		"crossListing": "one cross listed class, another cross listed class, a third cross listed class",
 		"credit": 3,
 		"description": "This is a course description. Lorem ipsum dolor sit amet.",
 		"format": "Three hours of lecture and etc etc.",
@@ -52,10 +52,10 @@
 				"instructor": ["T. Eacher"],
 				"ccn": 12346,
 				"seats": {
-					"max": 150,
-					"enrolled": 100,
-					"waitlist": 0,
-					"available": 50
+					"max": 15,
+					"enrolled": 10,
+					"waitlist": 50,
+					"available": 0
 				},
 				"finalGroup": "This is when the final is"
 			}
@@ -68,7 +68,7 @@
 		"department": "Department2",
 		"deptAbbrev": "Dept Abbrev2",
 		"number": "1012",
-		"crossListing": ["one cross listed class2", "another cross listed class2"],
+		"crossListing": "one cross listed class2, another cross listed class2",
 		"credit": 2,
 		"description": "This is a course description. 2.",
 		"format": "Three hours of lecture 2.",

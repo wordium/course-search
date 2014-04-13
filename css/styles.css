@@ -1,3 +1,5 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans);
+
 /****
 Berkeley Blue RGB 000 050 098 (HEX 003A70)
 California Gold RBG 253 181 021 (HEX FDB515)
@@ -20,13 +22,74 @@ Stone Pine RGB 088 079 041 (HEX 584F29) All Uses
 
 body {
   background-color: #53626F;
+  font-family: "Open Sans", sans-serif;
+  min-width: 1280px;
 }
 
-
-
-
-
-
-#header img, #footer img{
+img.bulletin {
   width: 100%;
 }
+
+#main {  
+  margin: 0 83px;
+}
+
+#header {
+  background-color: #2D637F;
+  color: #fff;
+  padding: 15px 25px;
+}
+
+
+/* search form */
+#search {
+  padding: 25px;
+  background-color: #fff;
+}
+
+#search form {
+  width: 600px;
+}
+
+input[type="text"], select, input[type="button"] {
+  width: 400px;
+  float: right;
+}
+
+.formGroup {
+  margin-bottom: 25px;
+}
+
+/* basic search */
+#basic {
+  padding-bottom: 50px;
+}
+
+/* advanced search */
+#advanced {
+}
+
+#toggleAdvSearch {
+  text-decoration: underline;
+}
+#toggleAdvSearch:hover {
+  cursor: pointer;
+}
+
+select.units {
+  width: 50px;
+}
+
+/* time and day */
+#time td {
+  border: 1px solid black;
+  width: 50px;
+  height: 50px;
+}
+
+
+
+
+
+
+

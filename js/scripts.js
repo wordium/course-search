@@ -1,5 +1,32 @@
 $(document).ready(function () {
 
+  $('#advanced').hide();
+
+  $('#toggleAdvSearch').on('click', function () {
+    $('#advanced').toggle();
+    
+    if ($('#advancedState').text() === 'Show')
+      $('#advancedState').text('Hide');
+    else
+      $('#advancedState').text('Show');
+
+  });
+
+  $('#time td').on('click', function() {
+    var $td = $(this);
+    console.log($td.attr('data-selected'));
+
+    if($td.attr('data-selected') === 'true'){
+      $td.css('background-color', '#fff')
+         .attr('data-selected', 'false');
+
+    }
+    else {
+      $td.css('background-color', '#B9D3B6')
+         .attr('data-selected', 'true');
+    }
+  });
+
 	testJSON();
 
 	function testJSON () {

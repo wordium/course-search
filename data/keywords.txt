@@ -5,7 +5,7 @@
 		.department 
 		.deptAbbrev 
 		.number
-		.crossListing: []
+		.crossListing
 		.credit: int
 		.description 
 		.format 

@@ -2,6 +2,8 @@
 <html>
 
 <head>
+  <meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+
   <title>Berkeley Bulletin Course Search</title>
 
   <link rel="stylesheet" type="text/css" href="css/cssreset-min.css">
@@ -10,28 +12,203 @@
 
   <script src="js/jquery-1.11.0.min.js"></script>
   <script src="js/scripts.js"></script>
+
 </head>
 
 <body>
+  <img src="img/header.png" class="bulletin">
 
-  <div id="header">
-    <img src="img/header.png">
-  </div>
  
-  <div id="test">
+  <div id="main">
+    <div id="header">
+      COURSE SEARCH
+    </div>
 
+    <div id="helpText">
+    </div>
+
+    <div id="search">
+      <form>
+        <div id="basic">
+          <div class="formGroup">
+            <label>Semester</label>
+            <select>
+              <option value="2014fa">Fall 2014</option>
+              <option value="2014su">Summer 2014</option>
+              <option value="2014sp">Spring 2014</option>
+              <option value="all">Historic Course Listings</option>
+            </select>
+          </div>
+
+          <div class="formGroup">
+            <div><label>Department</label><input type="text" value="Enter a department name" /></div>
+            <div><label>Course Number</label><input type="text" /></div>
+            <div><label>Keyword(s)</label><input type="text" /></div>
+            <div><label>Title Keyword(s)</label><input type="text" /></div>
+          </div>
+        
+          <div class="formGroup">
+            <div><label>Instructor(s)</label><input type="text" /></div>
+          </div>
+          
+          <div><input type="button" value="Search" /></div>
+        </div>
+
+        <div id="toggleAdvSearch"><span id="advancedState">Show</span> Advanced Search Options</div>
+
+        <div id="advanced">
+          <div id="advCheckboxes">
+            <ul class="formGroup">
+              <li><input type="checkbox" id="openSeats"><label for="openSeats">Open Seats</label></input></li>
+              <li><input type="checkbox" id="openWaitlist"><label for="openWaitlist">Open Waitlist</label></input></li>
+              <li><input type="checkbox" id="exclude"><label for="exclude">Exclude Discussions and Labs</label></input></li>
+            </ul>
+
+            <div class="formGroup">
+              Units
+              <label>Min</label>
+              <select class="units">
+                <option value="0">0</option>
+                <option value="0">1</option>
+                <option value="0">2</option>
+                <option value="0">3</option>
+                <option value="0">4</option>
+                <option value="0">5+</option>
+              </select>
+              <label>Max</label>
+              <select class="units">
+                <option value="0">0</option>
+                <option value="0">1</option>
+                <option value="0">2</option>
+                <option value="0">3</option>
+                <option value="0">4</option>
+                <option value="0">5+</option>
+              </select>
+            </div>
+            <div class="formGroup">
+              Course Classification
+              <ul>
+                <li><input type="checkbox" id="lowerDiv" /><label for="lowerDiv">Lower Division (1-99)</label></li>
+                <li><input type="checkbox" id="upperDiv" /><label for="upperDiv">Upper Division (100-199)</label></li>
+                <li><input type="checkbox" id="graduate" /><label for="graduate">Graduate (200-299)</label></li>
+                <li><input type="checkbox" id="professional" /><label for="professional">Professional (300-399)</label></li>
+              </div>
+          </div>
+
+          <div id="requirements">
+            Campus Breadth Requirements
+            <ul class="formGroup">
+              <li><input type="checkbox" id="r-AC"/><label for="r-AC">American Cultures</label></li>
+              <li><input type="checkbox" id="r-RCA"/><label for="r-RCA">Reading and Composition A</label></li>
+              <li><input type="checkbox" id="r-RCB"/><label for="r-RCB">Reading and Composition B</label></li>
+            </ul>
+
+            Letters & Science 7 Course Breadth Requirements
+            <ul class="formGroup">
+              <li><input type="checkbox" id="r-AL"/><label for="r-AL">Arts and Literature</label></li>
+              <li><input type="checkbox" id="r-BS"/><label for="r-BS">Biological Science</label></li>
+              <li><input type="checkbox" id="r-HS"/><label for="r-HS">Historical Studies</label></li>
+              <li><input type="checkbox" id="r-IS"/><label for="r-IS">International Studies</label></li>
+              <li><input type="checkbox" id="r-PV"/><label for="r-PV">Philosophy and Values</label></li>
+              <li><input type="checkbox" id="r-PS"/><label for="r-PS">Physical Science</label></li>
+              <li><input type="checkbox" id="r-SBS"/><label for="r-SBS">Social and Behavioral Science</label></li>
+            </ul>
+
+            <div>
+              major
+          </div>
+          </div>
+
+          <div id="time" class="formGroup">
+            <!-- there is probably a good argument that this should semantically be divs and not a table, but I am cheating -->
+            <table>
+              <tr>
+                <td></td>
+                <td>Mon</td>
+                <td>Tue</td>
+                <td>Wed</td>
+                <td>Thu</td>
+                <td>Fri</td>
+                <td>Sat</td>
+                <td>Sun</td>
+              </tr>
+              <tr>
+                <td>8-11</td>
+                <td data-selected="false"></td>
+                <td data-selected="false"></td>
+                <td data-selected="false"></td>
+                <td data-selected="false"></td>
+                <td data-selected="false"></td>
+                <td data-selected="false"></td>
+                <td data-selected="false"></td>
+              </tr>
+              <tr>
+                <td>10-1</td>
+                <td data-selected="false"></td>
+                <td data-selected="false"></td>
+                <td data-selected="false"></td>
+                <td data-selected="false"></td>
+                <td data-selected="false"></td>
+                <td data-selected="false"></td>
+                <td data-selected="false"></td>
+              </tr>
+              <tr>
+                <td>12-3</td>
+                <td data-selected="false"></td>
+                <td data-selected="false"></td>
+                <td data-selected="false"></td>
+                <td data-selected="false"></td>
+                <td data-selected="false"></td>
+                <td data-selected="false"></td>
+                <td data-selected="false"></td>
+              </tr>
+              <tr>
+                <td>2-5</td>
+                <td data-selected="false"></td>
+                <td data-selected="false"></td>
+                <td data-selected="false"></td>
+                <td data-selected="false"></td>
+                <td data-selected="false"></td>
+                <td data-selected="false"></td>
+                <td data-selected="false"></td>
+              </tr>
+              <tr>
+                <td>4-7</td>
+                <td data-selected="false"></td>
+                <td data-selected="false"></td>
+                <td data-selected="false"></td>
+                <td data-selected="false"></td>
+                <td data-selected="false"></td>
+                <td data-selected="false"></td>
+                <td data-selected="false"></td>
+              </tr>
+              <tr>
+                <td>6+</td>
+                <td data-selected="false"></td>
+                <td data-selected="false"></td>
+                <td data-selected="false"></td>
+                <td data-selected="false"></td>
+                <td data-selected="false"></td>
+                <td data-selected="false"></td>
+                <td data-selected="false"></td>
+              </tr>
+
+            </table>
+          </div>
+
+        </div>
+      </form>
+    </div>
+
+    <div id="test">
+
+      <form>
+
+      </form>
+    </div>
   </div>
 
-  <div id="">
-
-    <form>
-
-    </form>
-  </div>
-
-  <div id="footer">
-    <img src="img/footer.png">
-  </div>
+  <img src="img/footer.png" class="bulletin">
 
 </body>
 
