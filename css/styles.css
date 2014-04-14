@@ -47,13 +47,12 @@ img.bulletin {
   background-color: #fff;
 }
 
-#search form {
+#search form, #search table, .searchBtn {
   width: 600px;
 }
 
 input[type="text"], select, input[type="button"] {
-  width: 400px;
-  float: right;
+  width: 100%
 }
 
 .formGroup {
@@ -107,10 +106,3 @@ ul#courseLevel {
   width: 50px;
   height: 50px;
 }
-
-
-
-
-
-
-

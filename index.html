@@ -30,28 +30,48 @@
     <div id="search">
       <form id="searchForm">
         <div id="basic">
-          <div class="formGroup">
-            <label>Semester</label>
-            <select>
-              <option value="2014fa">Fall 2014</option>
-              <option value="2014su">Summer 2014</option>
-              <option value="2014sp">Spring 2014</option>
-              <option value="all">Historic Course Listings</option>
-            </select>
-          </div>
 
-          <div class="formGroup">
-            <div><label>Department</label><input type="text" value="Enter a department name" /></div>
-            <div><label>Course Number</label><input type="text" /></div>
-            <div><label>Keyword(s)</label><input type="text" /></div>
-            <div><label>Title Keyword(s)</label><input type="text" /></div>
-          </div>
-        
-          <div class="formGroup">
-            <div><label>Instructor(s)</label><input type="text" /></div>
-          </div>
+          <table>
+            <tr>
+              <td class="formLabel" for="inputSemester"><label>Semester:</label></td>
+              <td class="formInput">
+                <select id="inputSemester">
+                  <option value="2014fa">Fall 2014</option>
+                  <option value="2014su">Summer 2014</option>
+                  <option value="2014sp">Spring 2014</option>
+                  <option value="all">Historic Course Listings</option>
+                </select>
+              </td>
+            </tr>
+
+            <tr>
+              <td class="formLabel"><label for="inputDepartment">Department:</label></td>
+              <td class="formInput"><input type="text" id="inputDepartment"/></td>
+            </tr>
+            
+            <tr>
+              <td class="formLabel"><label>Course Number:</label></td>
+              <td class="formInput"><input type="text" /></td>
+            </tr>
+            
+            <tr>
+              <td class="formLabel"><label>Keyword(s):</label></td>
+              <td class="formInput"><input type="text" /></td>
+            </tr>
+
+            <tr>
+              <td class="formLabel"><label>Title Keyword(s):</label></td>
+              <td class="formInput"><input type="text" /></td>
+            </tr>
+            
+            <tr>
+              <td class="formLabel"><label>Instructor(s):</label></td>
+              <td class="formInput"><input type="text" /></td>
+            </tr>
+          </table>
+
+          <input type="button" value="Search" class="searchBtn"/>
           
-          <div><input type="button" value="Search" class="searchBtn"/></div>
         </div>
 
         <div id="toggleAdvSearch"><span id="advancedState">Show</span> Advanced Search Options</div>
@@ -92,8 +112,9 @@
                 <li><input type="checkbox" id="upperDiv" /><label for="upperDiv">Upper Division (100-199)</label></li>
                 <li><input type="checkbox" id="graduate" /><label for="graduate">Graduate (200-299)</label></li>
                 <li><input type="checkbox" id="professional" /><label for="professional">Professional (300-399)</label></li>
-              </div>
-          </div>
+              </ul>
+            </div>
+          </div><!-- #advCheckboxes -->
 
           <div id="requirements">
             Campus Breadth Requirements
@@ -117,11 +138,10 @@
             <div>
               <label>Major</label>
               <input type="text" />
-          </div>
-          </div>
+            </div>
+          </div> <!-- #requirements -->
 
           <div id="time" class="formGroup">
-            <!-- there is probably a good argument that this should semantically be divs and not a table, but I am cheating -->
             <table>
               <tr>
                 <td></td>
@@ -195,10 +215,10 @@
               </tr>
 
             </table>
-          </div>
+          </div> <!-- #time -->
 
-        </div>
           <div><input type="button" value="Search" class="searchBtn"/></div>
+        </div>
       </form>
     </div>
 
