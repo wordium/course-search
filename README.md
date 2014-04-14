@@ -10,4 +10,8 @@ Description: This is a functional prototype intended to provide visual and inter
 To use the prototype, it is recommended to use a browser capable of rendering HTML5 and CSS3, such as current versions of Chrome or Firefox are recommended. IE10, IE11, or Safari will likely display properly, but may have some quirks.
 
 Demo search functionality:
- - Search examples
+ 1. Find Public Health major classes offered in the upcoming semester (the Utilitarian)
+ 2. Find classes that meet L&S Breadth requirements other than Arts and Lit (the Planner)
+ 3. Find classes related to sustainability (the Focused Explorer)
+ 4. Find classes that meet MW morning only and anytime TTh (the Utilitarian)
+ 5. Find backup classes with open seats (the Seeker)
