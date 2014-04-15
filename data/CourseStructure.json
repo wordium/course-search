@@ -43,13 +43,13 @@
 			},
 			{
 				"semester": "Fall 2014",
-				"days": ["M", "W", "F"],
+				"days": "MWF",
 				"time": "10-11 a.m.",
 				"location": {
 					"room": "room number",
 					"building": "building name"
 				},
-				"instructor": ["T. Eacher"],
+				"instructor": "T. Eacher",
 				"ccn": 12346,
 				"seats": {
 					"max": 15,
@@ -94,7 +94,7 @@
 					"room": "room number 2",
 					"building": "building name 2"
 					},
-				"instructor": ["A. Professor 2"],
+				"instructor": "A. Professor 2",
 				"ccn": 22222,
 				"seats": {
 					"max": 2,
