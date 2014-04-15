@@ -24,6 +24,7 @@ body {
   background-color: #53626F;
   font-family: "Open Sans", sans-serif;
   min-width: 1280px;
+  color: #003262;
 }
 
 img.bulletin {
@@ -51,8 +52,11 @@ img.bulletin {
   width: 600px;
 }
 
-input[type="text"], select, input[type="button"] {
+select {
   width: 100%
+}
+input[type="text"] {
+  width: 99%;
 }
 
 .formGroup {
@@ -65,11 +69,11 @@ label {
 }
 
 #basic, #advanced {
+  padding-bottom: 50px;
 }
 
 /* basic search */
 #basic {
-  padding-bottom: 50px;
 }
 
 /* advanced search */
@@ -105,4 +109,18 @@ ul#courseLevel {
   border: 1px solid black;
   width: 50px;
   height: 50px;
+  text-align: center;
+}
+
+td#BLAH { width: 125px;}
+
+.searchBtn {
+  margin-top: 25px;
+}
+
+td.formInput {
+  padding: 2px;
+}
+td {
+  vertical-align: middle;
 }

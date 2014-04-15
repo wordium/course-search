@@ -32,42 +32,53 @@
         <div id="basic">
 
           <table>
-            <tr>
-              <td class="formLabel" for="inputSemester"><label>Semester:</label></td>
-              <td class="formInput">
-                <select id="inputSemester">
-                  <option value="2014fa">Fall 2014</option>
-                  <option value="2014su">Summer 2014</option>
-                  <option value="2014sp">Spring 2014</option>
-                  <option value="all">Historic Course Listings</option>
-                </select>
-              </td>
-            </tr>
+            <tbody>
+              <tr>
+                <td class="form"><label for="inputSemester">Semester:</label></td>
+                <td class="formInput">
+                  <select id="inputSemester">
+                    <option value="2014fa">Fall 2014</option>
+                    <option value="2014su">Summer 2014</option>
+                    <option value="2014sp">Spring 2014</option>
+                    <option value="all">Historic Course Listings</option>
+                  </select>
+                </td>
+              </tr>
+              <tr><td>&nbsp;</td></tr>
+            </tbody>
 
-            <tr>
-              <td class="formLabel"><label for="inputDepartment">Department:</label></td>
-              <td class="formInput"><input type="text" id="inputDepartment"/></td>
-            </tr>
+            <tbody>
+              <tr>
+                <td class="formLabel"><label for="inputDepartment">Department:</label></td>
+                <td class="formInput"><input type="text" id="inputDepartment"/></td>
+              </tr>
+              
+              <tr>
+                <td class="formLabel"><label>Course Number:</label></td>
+                <td class="formInput"><input type="text" /></td>
+              </tr>
+              <tr><td>&nbsp;</td></tr>
+            </tbody>
             
-            <tr>
-              <td class="formLabel"><label>Course Number:</label></td>
-              <td class="formInput"><input type="text" /></td>
-            </tr>
-            
-            <tr>
-              <td class="formLabel"><label>Keyword(s):</label></td>
-              <td class="formInput"><input type="text" /></td>
-            </tr>
+            <tbody>
+              <tr>
+                <td class="formLabel"><label>Keyword(s):</label></td>
+                <td class="formInput"><input type="text" /></td>
+              </tr>
 
-            <tr>
-              <td class="formLabel"><label>Title Keyword(s):</label></td>
-              <td class="formInput"><input type="text" /></td>
-            </tr>
+              <tr>
+                <td class="formLabel"><label>Title Keyword(s):</label></td>
+                <td class="formInput"><input type="text" /></td>
+              </tr>
+              <tr><td>&nbsp;</td></tr>
+            </tbody>
             
-            <tr>
-              <td class="formLabel"><label>Instructor(s):</label></td>
-              <td class="formInput"><input type="text" /></td>
-            </tr>
+            <tbody>
+              <tr>
+                <td class="formLabel"><label>Instructor(s):</label></td>
+                <td class="formInput"><input type="text" /></td>
+              </tr>
+            </tbody>
           </table>
 
           <input type="button" value="Search" class="searchBtn"/>
@@ -79,14 +90,14 @@
         <div id="advanced">
           <div id="advCheckboxes">
             <ul class="formGroup">
-              <li><input type="checkbox" id="openSeats"><label for="openSeats">Open Seats</label></input></li>
-              <li><input type="checkbox" id="openWaitlist"><label for="openWaitlist">Open Waitlist</label></input></li>
-              <li><input type="checkbox" id="exclude"><label for="exclude">Exclude Discussions and Labs</label></input></li>
+              <li><input type="checkbox" id="openSeats"> <label for="openSeats">Open Seats</label></input></li>
+              <li><input type="checkbox" id="openWaitlist"> <label for="openWaitlist">Open Waitlist</label></input></li>
+              <li><input type="checkbox" id="exclude"> <label for="exclude">Exclude Discussions and Labs</label></input></li>
             </ul>
 
             <div class="formGroup">
-              Units
-              <label>Min</label>
+              Units:
+              <label>Min:</label>
               <select class="units">
                 <option value="0">0</option>
                 <option value="0">1</option>
@@ -95,7 +106,7 @@
                 <option value="0">4</option>
                 <option value="0">5+</option>
               </select>
-              <label>Max</label>
+              <label>Max:</label>
               <select class="units">
                 <option value="0">0</option>
                 <option value="0">1</option>
@@ -106,45 +117,46 @@
               </select>
             </div>
             <div class="formGroup">
-              Course Classification
+              Course Classification:
               <ul id="courseLevel">
-                <li><input type="checkbox" id="lowerDiv" /><label for="lowerDiv">Lower Division (1-99)</label></li>
-                <li><input type="checkbox" id="upperDiv" /><label for="upperDiv">Upper Division (100-199)</label></li>
-                <li><input type="checkbox" id="graduate" /><label for="graduate">Graduate (200-299)</label></li>
-                <li><input type="checkbox" id="professional" /><label for="professional">Professional (300-399)</label></li>
+                <li><input type="checkbox" id="lowerDiv" /> <label for="lowerDiv">Lower Division (1-99)</label></li>
+                <li><input type="checkbox" id="upperDiv" /> <label for="upperDiv">Upper Division (100-199)</label></li>
+                <li><input type="checkbox" id="graduate" /> <label for="graduate">Graduate (200-299)</label></li>
+                <li><input type="checkbox" id="professional" /> <label for="professional">Professional (300-399)</label></li>
               </ul>
             </div>
           </div><!-- #advCheckboxes -->
 
           <div id="requirements">
-            Campus Breadth Requirements
+            Campus Breadth Requirements:
             <ul class="formGroup">
-              <li><input type="checkbox" id="r-AC"/><label for="r-AC">American Cultures</label></li>
-              <li><input type="checkbox" id="r-RCA"/><label for="r-RCA">Reading and Composition A</label></li>
-              <li><input type="checkbox" id="r-RCB"/><label for="r-RCB">Reading and Composition B</label></li>
+              <li><input type="checkbox" id="r-AC"/> <label for="r-AC">American Cultures</label></li>
+              <li><input type="checkbox" id="r-RCA"/> <label for="r-RCA">Reading and Composition A</label></li>
+              <li><input type="checkbox" id="r-RCB"/> <label for="r-RCB">Reading and Composition B</label></li>
             </ul>
 
-            Letters & Science 7 Course Breadth Requirements
+            Letters & Science 7 Course Breadth Requirements:
             <ul class="formGroup" id="lsBreadth">
-              <li><input type="checkbox" id="r-AL"/><label for="r-AL">Arts and Literature</label></li>
-              <li><input type="checkbox" id="r-BS"/><label for="r-BS">Biological Science</label></li>
-              <li><input type="checkbox" id="r-HS"/><label for="r-HS">Historical Studies</label></li>
-              <li><input type="checkbox" id="r-IS"/><label for="r-IS">International Studies</label></li>
-              <li><input type="checkbox" id="r-PV"/><label for="r-PV">Philosophy and Values</label></li>
-              <li><input type="checkbox" id="r-PS"/><label for="r-PS">Physical Science</label></li>
-              <li><input type="checkbox" id="r-SBS"/><label for="r-SBS">Social and Behavioral Science</label></li>
+              <li><input type="checkbox" id="r-AL"/> <label for="r-AL">Arts and Literature</label></li>
+              <li><input type="checkbox" id="r-BS"/> <label for="r-BS">Biological Science</label></li>
+              <li><input type="checkbox" id="r-HS"/> <label for="r-HS">Historical Studies</label></li>
+              <li><input type="checkbox" id="r-IS"/> <label for="r-IS">International Studies</label></li>
+              <li><input type="checkbox" id="r-PV"/> <label for="r-PV">Philosophy and Values</label></li>
+              <li><input type="checkbox" id="r-PS"/> <label for="r-PS">Physical Science</label></li>
+              <li><input type="checkbox" id="r-SBS"/> <label for="r-SBS">Social and Behavioral Science</label></li>
             </ul>
 
             <div>
-              <label>Major</label>
+              <label>Major:</label>
               <input type="text" />
             </div>
           </div> <!-- #requirements -->
 
           <div id="time" class="formGroup">
+            Day and Time:
             <table>
               <tr>
-                <td></td>
+                <td id="BLAH"></td>
                 <td>Mon</td>
                 <td>Tue</td>
                 <td>Wed</td>
