@@ -41,7 +41,6 @@ img.bulletin {
   padding: 15px 25px;
 }
 
-
 /* search form */
 #search {
   padding: 25px;
@@ -52,34 +51,15 @@ img.bulletin {
   width: 600px;
 }
 
-select {
-  width: 100%
-}
-input[type="text"] {
-  width: 99%;
-}
-
 .formGroup {
   margin-bottom: 25px;
-}
-
-label {
-  padding-bottom: 5px;
-  margin-bottom: 5px;
 }
 
 #basic, #advanced {
   padding-bottom: 50px;
 }
 
-/* basic search */
-#basic {
-}
-
 /* advanced search */
-#advanced {
-}
-
 #toggleAdvSearch {
   text-decoration: underline;
 }
@@ -87,9 +67,31 @@ label {
   cursor: pointer;
 }
 
-select.units {
+/* time and day */
+#time td {
+  border: 1px solid black;
   width: 50px;
+  height: 50px;
+  text-align: center;
 }
+
+
+/* TODO: clean up these */
+
+/* TODO wtf is this ID */
+td#BLAH { width: 125px;}
+
+.searchBtn {
+  margin-top: 25px;
+}
+
+td.formInput {
+  padding: 2px;
+}
+td {
+  vertical-align: middle;
+}
+
 
 ul#lsBreadth, ul#courseLevel {
     -moz-column-count: 2;
@@ -104,23 +106,18 @@ ul#courseLevel {
   height: 4em;
 }
 
-/* time and day */
-#time td {
-  border: 1px solid black;
+select.units {
   width: 50px;
-  height: 50px;
-  text-align: center;
 }
 
-td#BLAH { width: 125px;}
-
-.searchBtn {
-  margin-top: 25px;
+label {
+  padding-bottom: 5px;
+  margin-bottom: 5px;
 }
 
-td.formInput {
-  padding: 2px;
+select {
+  width: 100%
 }
-td {
-  vertical-align: middle;
+input[type="text"] {
+  width: 99%;
 }
