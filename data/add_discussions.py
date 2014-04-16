@@ -6,13 +6,13 @@ import csv
 
 courses_input = []
 
-with open("classes_for_prototype.csv", "rU") as data:
+with open("intermediate_data_file.csv", "rU") as data:
     reader = csv.reader(data)
     for row in reader:
         #print(row)
         courses_input.append(row)
 
-print(courses_input)
+#print(courses_input)
 
 courses_output = []
 
@@ -21,12 +21,15 @@ courses_output = []
 # 11: AC	12: AL	13: BS	14: HS	15: IS	16: PV	17: PS	18: SS	19: RCA	20: RCB	21: pubHealthMaj 22: type
 
 for item in courses_input:
+    #choose which courses will have current instances
+    if random.choice([0, 1]) == 1:
+        item[23] = "Y"
     courses_output.append(item)
-    if random.choice([1, 2, 3, 4, 5]) == 5:
+    if item[23] == "Y" and random.choice([1, 2, 3]) == 3:
         new = list(item)
         new[22] = "Discussion"
         courses_output.append(new)
         
-with open("with_discussions.csv", "wb") as data:
+with open("courses_for_prototype.csv", "wb") as data:
     writer = csv.writer(data)
     writer.writerows(courses_output)
