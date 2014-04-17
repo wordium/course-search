@@ -21,6 +21,10 @@ with open("courses_for_prototype.csv", "rU") as data:
 #for appending data that we don't have
 # use functions that assign value based on random number generation
 
+#make string to boolean function b/c of stupid Excel behavior
+def make_bool(s):
+        return json.loads(s.lower())
+
 #generate offering history
 def gen_hist():
     semesters = [["Fall 2013", "Fall 2012", "Fall 2011", "Fall 2010"], ["Spring 2013", "Spring 2012", "Spring 2011", "Spring 2010"], ["Fall 2013", "Spring 2013", "Fall 2012", "Spring 2012"], ["Fall 2013", "Spring 2011", "Spring 2009"], ["Spring 2013", "Fall 2012", "Fall 2011", "Spring 2010"]]
@@ -54,12 +58,10 @@ def gen_seats(type):
 def gen_instance(type, finalstatus):
     instance = {}
     if finalstatus == "Y" and type == "Lecture":
-        print("adding finalGroup for item")
         instance["finalGroup"] = random.choice(["Group 1--Monday, December 15, 2014, 1 p.m.", "Group 2--Tuesday, December 16, 2014, 9 a.m.", "Group 3--Wednesday, December 17, 2014, 12 p.m.", "Group 4--Thursday, December 18, 2014, 3 p.m.", "Group 5--Friday, December 15, 2014, 1 p.m."])
         
     else: 
         instance["finalGroup"] = "Not applicable"
-        print("adding n/a for finalGroup")
     instance["semester"] = "Fall 2014"
     sched = gen_sched(type)
     instance["days"] = sched[0]
@@ -89,14 +91,16 @@ for item in courses_input:
         course["crossListing"] = item[2]
         course["department"] = item[3]
         course["title"] = item[4]
-        course["credit"] = item[5]
+        course["credit"] = int(item[5])
         course["description"] = item[6]
         course["format"] = item[7]
         course["prereqs"] = item[9]
         course["restrictions"] = item[10]
-        course["breadth"] = {"AC": item[11], "AL": item[12], "BS": item[13], "HS": item[14], "IS": item[15], "PV": item[16], "PS": item[17], "SS": item[18], "RCA": item[19], "RCB": item[20]}
+        course["breadth"] = {"AC": make_bool(item[11]), "AL": make_bool(item[12]), "BS": make_bool(item[13]), "HS": make_bool(item[14]), "IS": make_bool(item[15]), "PV": make_bool(item[16]), "PS": make_bool(item[17]), "SS": make_bool(item[18]), "RCA": make_bool(item[19]), "RCB": make_bool(item[20])}
+        print(course["breadth"])
         course["offerHist"] = gen_hist()
         course["type"] = item[22]
+        course["pubHealthMaj"] = make_bool(item[21])
         #then course data that is not in the spreadsheet
         # dummy data just to append the same data to a selection if it's a lecture:
         if random.randint(1, 5) == 5 and item[22] == "Lecture":
