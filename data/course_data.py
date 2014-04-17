@@ -54,14 +54,16 @@ def gen_seats(type):
 def gen_instance(type, finalstatus):
     instance = {}
     if finalstatus == "Y" and type == "Lecture":
+        print("adding finalGroup for item")
         instance["finalGroup"] = random.choice(["Group 1--Monday, December 15, 2014, 1 p.m.", "Group 2--Tuesday, December 16, 2014, 9 a.m.", "Group 3--Wednesday, December 17, 2014, 12 p.m.", "Group 4--Thursday, December 18, 2014, 3 p.m.", "Group 5--Friday, December 15, 2014, 1 p.m."])
+        
     else: 
         instance["finalGroup"] = "Not applicable"
-        
+        print("adding n/a for finalGroup")
     instance["semester"] = "Fall 2014"
     sched = gen_sched(type)
     instance["days"] = sched[0]
-    instance["times"] = sched[1]
+    instance["time"] = sched[1]
     instance["location"] = {"room": random.randint(1, 299), "building": random.choice(["Evans", "Barrows", "Dwinelle", "Wheeler", "Soda", "Wurster"])}
     instance["instructor"] = random.choice(["I. Jaskolski", "M. Wetterman", "O. Bandyopadhyay", "B. Varela", "S. Abdullah", "G. Burke", "W. Hopkins, M. Anson", "M. Sarka", "C. Giorgano", "A. Kennard", "M. Mhasalkar, U. Jehlicka", "C. Marquez", "V. Benbow, Z. Alberts", "D. Matousek, C. Stoddard", "K. Serafini, M. Ferrero"])
     instance["ccn"] = random.randint(10000, 99999)
@@ -76,57 +78,67 @@ courses_output = []
 # 11: AC    12: AL  13: BS  14: HS  15: IS  16: PV  17: PS  18: SS  19: RCA 20: RCB 21: pubHealthMaj
 
 for item in courses_input:
-    #print(item)
-    course = {}
-    #first populate the course data from the spreadsheet
-    course["deptAbbrev"] = item[0]
-    course["number"] = item[1]
-    course["crossListing"] = item[2]
-    course["department"] = item[3]
-    course["title"] = item[4]
-    course["credit"] = item[5]
-    course["description"] = item[6]
-    course["format"] = item[7]
-    course["prereqs"] = item[9]
-    course["restrictions"] = item[10]
-    course["breadth"] = {"AC": item[11], "AL": item[12], "BS": item[13], "HS": item[14], "IS": item[15], "PV": item[16], "PS": item[17], "SS": item[18], "RCA": item[19], "RCB": item[20]}
-    course["offerHist"] = gen_hist()
-    course["type"] = item[22]
-    #then course data that is not in the spreadsheet
-    # dummy data just to append the same data to a selection if it's a lecture:
-    if random.randint(1, 5) == 5 and item[22] == "Lecture":
-        course["courseThread"] = "This course is part of the Cultural Forms in Transit Course Thread."
+    #skip header row
+    if item == courses_input[0]:
+        pass
     else:
-        course["courseThread"] = ""
+        course = {}
+        #first populate the course data from the spreadsheet
+        course["deptAbbrev"] = item[0]
+        course["number"] = item[1]
+        course["crossListing"] = item[2]
+        course["department"] = item[3]
+        course["title"] = item[4]
+        course["credit"] = item[5]
+        course["description"] = item[6]
+        course["format"] = item[7]
+        course["prereqs"] = item[9]
+        course["restrictions"] = item[10]
+        course["breadth"] = {"AC": item[11], "AL": item[12], "BS": item[13], "HS": item[14], "IS": item[15], "PV": item[16], "PS": item[17], "SS": item[18], "RCA": item[19], "RCB": item[20]}
+        course["offerHist"] = gen_hist()
+        course["type"] = item[22]
+        #then course data that is not in the spreadsheet
+        # dummy data just to append the same data to a selection if it's a lecture:
+        if random.randint(1, 5) == 5 and item[22] == "Lecture":
+            course["courseThread"] = "This course is part of the Cultural Forms in Transit Course Thread."
+        else:
+            course["courseThread"] = ""
     
-    if random.randint(1, 10) == 10 and item[22] == "Lecture":
-        course["berkeleyConnect"] = True
-    else: 
-        course["berkeleyConnect"] = False
+        if random.randint(1, 10) == 10 and item[22] == "Lecture":
+            course["berkeleyConnect"] = True
+        else: 
+            course["berkeleyConnect"] = False
     
-    if random.randint(1, 3) == 3 and item[22] == "Lecture":
-        course["isPrereqFor"] = "This class is a prerequisite for " + item[0] + " 151."
-    else:
-        course["isPrereqFor"] = ""
+        if random.randint(1, 3) == 3 and item[22] == "Lecture":
+            course["isPrereqFor"] = "This class is a prerequisite for " + item[0] + " 151."
+        else:
+            course["isPrereqFor"] = ""
     
-    if random.randint(1, 15) == 15 and item[22] == "Lecture":
-        course["hasCoreqs"] = item[0] + " 1A must be taken concurrently."
+        if random.randint(1, 15) == 15 and item[22] == "Lecture":
+            course["hasCoreqs"] = item[0] + " 1A must be taken concurrently."
+        else:
+            course["hasCoreqs"] = ""
+        if random.randint(1, 10) == 10:
+            course["note"] = "This is a note."
+        else:
+            course["note"] = ""
     
-    #then populate the instance data if it's supposed to have any
-    instances = []
-    #give one instance for all that need it
-    if item[23] == "Y":
-        instances.append(gen_instance(course["type"], item[8]))
-        #for lectures, populate more than one for some subset
-        if random.randint(1, 7) == 7 and course["type"] == "Lecture":
+        #then populate the instance data if it's supposed to have any
+        instances = []
+        #give one instance for all that need it
+        if item[23] == "Y":
             instances.append(gen_instance(course["type"], item[8]))
-        #for discussions, populate with an extra random # of instances
-        if course["type"] == "Discussion":
-            for x in range(random.randint(1, 5)):
-                instances.append(gen_instance(course["type"], "N"))
+            #for lectures, populate more than one for some subset
+            if random.randint(1, 7) == 7 and course["type"] == "Lecture":
+                instances.append(gen_instance(course["type"], item[8]))
+            #for discussions, populate with an extra random # of instances
+            if course["type"] == "Discussion":
+                for x in range(random.randint(1, 5)):
+                    instances.append(gen_instance(course["type"], "N"))
 
-    course["classInstance"] = instances
-    courses_output.append(course)
+        course["classInstance"] = instances
+        courses_output.append(course)
+
     
 
 #write the data to a text file
