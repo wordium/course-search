@@ -21,8 +21,27 @@ schedule = []
 open_seats = []
 
 for course in courses_list:
-    if course[1]["pubHealthMaj"]:
+    #handle search 1
+    if course[1]["pubHealthMaj"] and len(course[1]["classInstance"]) > 0:
+        del course[1]["pubHealthMaj"]
         pub_health.append(course)
+    
+    #handle search 2
+    if True in course[1]["breadth"].values():
+        breadth.append(course)
 
-print(pub_health)
-print(len(pub_health), "items")
+file = open("s1_pub_health.json", "w")
+for course in pub_health:
+    file.write('\"' + course[0] + '\":')
+    file.write(json.dumps(course[1], sort_keys = True, indent = 4, ensure_ascii=False))
+    file.write(", \n")
+file.close()
+
+file = open("s2_breadth.json", "w")
+for course in breadth:
+    file.write('\"' + course[0] + '\":')
+    file.write(json.dumps(course[1], sort_keys = True, indent = 4, ensure_ascii=False))
+    file.write(", \n")
+file.close()
+
+
