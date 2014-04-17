@@ -97,7 +97,6 @@ for item in courses_input:
         course["prereqs"] = item[9]
         course["restrictions"] = item[10]
         course["breadth"] = {"AC": make_bool(item[11]), "AL": make_bool(item[12]), "BS": make_bool(item[13]), "HS": make_bool(item[14]), "IS": make_bool(item[15]), "PV": make_bool(item[16]), "PS": make_bool(item[17]), "SS": make_bool(item[18]), "RCA": make_bool(item[19]), "RCB": make_bool(item[20])}
-        print(course["breadth"])
         course["offerHist"] = gen_hist()
         course["type"] = item[22]
         course["pubHealthMaj"] = make_bool(item[21])
@@ -146,6 +145,12 @@ for item in courses_input:
     
 
 #write the data to a text file
+
+# file = open("courses.json", "w")
+# file.write(json.dumps(courses_output))
+# file.close()
+
+
 file = open("courses.json", "w")
 for x in range(len(courses_output)):
     file.write('\"course' + str(x) + '\":')
@@ -153,4 +158,6 @@ for x in range(len(courses_output)):
     file.write(", \n")
 
 file.close()
+
+
 
