@@ -68,7 +68,6 @@
         "Spring 2010"
     ], 
     "prereqs": "", 
-    "pubHealthMaj": false, 
     "restrictions": "", 
     "title": "Cases and Conflicts in Engineering Ethics", 
     "type": "Lecture"
@@ -106,7 +105,6 @@
         "Fall 2010"
     ], 
     "prereqs": "Graduate standing, or consent of instructor, especially for students not in engineering, business, or other management of technology programs. ", 
-    "pubHealthMaj": false, 
     "restrictions": "", 
     "title": "Sustainable Manufacturing", 
     "type": "Lecture"
@@ -181,7 +179,6 @@
         "Spring 2010"
     ], 
     "prereqs": "Consent of instructor. ", 
-    "pubHealthMaj": false, 
     "restrictions": "", 
     "title": "Wildland Fire Science", 
     "type": "Lecture"
@@ -309,7 +306,6 @@
         "Spring 2009"
     ], 
     "prereqs": "Consent of instructor. ", 
-    "pubHealthMaj": false, 
     "restrictions": "", 
     "title": "Wildland Fire Science", 
     "type": "Discussion"
@@ -361,6 +357,24 @@
                 "enrolled": 3, 
                 "max": 10, 
                 "waitlist": 2
+            }, 
+            "semester": "Fall 2014", 
+            "time": "5-6 p.m."
+        }, 
+        {
+            "ccn": 70176, 
+            "days": "F", 
+            "finalGroup": "Not applicable", 
+            "instructor": "C. Marquez", 
+            "location": {
+                "building": "Wheeler", 
+                "room": 246
+            }, 
+            "seats": {
+                "available": 9, 
+                "enrolled": 3, 
+                "max": 12, 
+                "waitlist": 10
             }, 
             "semester": "Fall 2014", 
             "time": "5-6 p.m."
@@ -437,7 +451,6 @@
         "Spring 2009"
     ], 
     "prereqs": "Basic ecology, microeconomics, and resource management. ", 
-    "pubHealthMaj": false, 
     "restrictions": "", 
     "title": "Ecosystem Management", 
     "type": "Discussion"
@@ -475,7 +488,6 @@
         "Spring 2012"
     ], 
     "prereqs": "Graduate standing or consent of instructor. ", 
-    "pubHealthMaj": false, 
     "restrictions": "", 
     "title": "Sustainability and Society", 
     "type": "Lecture"
@@ -513,7 +525,6 @@
         "Spring 2012"
     ], 
     "prereqs": "", 
-    "pubHealthMaj": false, 
     "restrictions": "", 
     "title": "Critical Debates in Sustainable Urbanism", 
     "type": "Lecture"
@@ -550,7 +561,6 @@
         "Spring 2009"
     ], 
     "prereqs": "", 
-    "pubHealthMaj": false, 
     "restrictions": "", 
     "title": "Sustainable Landscapes and Cities", 
     "type": "Lecture"
@@ -587,7 +597,6 @@
         "Spring 2009"
     ], 
     "prereqs": "", 
-    "pubHealthMaj": false, 
     "restrictions": "", 
     "title": "Sustainability Colloquium", 
     "type": "Lecture"
@@ -624,7 +633,6 @@
         "Spring 2009"
     ], 
     "prereqs": "Junior or senior standing or consent of instructor. ", 
-    "pubHealthMaj": false, 
     "restrictions": "", 
     "title": "Internship in Agroecology and Sustainable Development", 
     "type": "Lecture"
@@ -681,7 +689,6 @@
         "Fall 2010"
     ], 
     "prereqs": "", 
-    "pubHealthMaj": false, 
     "restrictions": "", 
     "title": "Sustainability Colloquium", 
     "type": "Lecture"
@@ -772,6 +779,24 @@
             }, 
             "semester": "Fall 2014", 
             "time": "11 a.m.-12 p.m."
+        }, 
+        {
+            "ccn": 19587, 
+            "days": "F", 
+            "finalGroup": "Not applicable", 
+            "instructor": "I. Jaskolski", 
+            "location": {
+                "building": "Dwinelle", 
+                "room": 197
+            }, 
+            "seats": {
+                "available": 6, 
+                "enrolled": 14, 
+                "max": 20, 
+                "waitlist": 0
+            }, 
+            "semester": "Fall 2014", 
+            "time": "1-2 p.m."
         }
     ], 
     "courseThread": "", 
@@ -792,7 +817,6 @@
         "Spring 2010"
     ], 
     "prereqs": "", 
-    "pubHealthMaj": false, 
     "restrictions": "", 
     "title": "Sustainability Colloquium", 
     "type": "Discussion"
@@ -812,6 +836,24 @@
         "SS": false
     }, 
     "classInstance": [
+        {
+            "ccn": 99685, 
+            "days": "MW", 
+            "finalGroup": "Group 5--Friday, December 15, 2014, 1 p.m.", 
+            "instructor": "A. Kennard", 
+            "location": {
+                "building": "Wurster", 
+                "room": 153
+            }, 
+            "seats": {
+                "available": 115, 
+                "enrolled": 35, 
+                "max": 150, 
+                "waitlist": 5
+            }, 
+            "semester": "Fall 2014", 
+            "time": "4:30-6 p.m."
+        }, 
         {
             "ccn": 60480, 
             "days": "TuTh", 
@@ -848,7 +890,6 @@
         "Spring 2009"
     ], 
     "prereqs": "", 
-    "pubHealthMaj": false, 
     "restrictions": "", 
     "title": "Special Topics Seminar: Forests and Water", 
     "type": "Lecture"
@@ -886,7 +927,6 @@
         "Spring 2010"
     ], 
     "prereqs": "", 
-    "pubHealthMaj": false, 
     "restrictions": "", 
     "title": "Introduction to Environmental Design Summer Lectures", 
     "type": "Lecture"
@@ -943,7 +983,6 @@
         "Spring 2010"
     ], 
     "prereqs": "Graduate standing or consent of instructor. ", 
-    "pubHealthMaj": false, 
     "restrictions": "", 
     "title": "Internship in Agroecology and Sustainable Development", 
     "type": "Lecture"
@@ -1000,7 +1039,6 @@
         "Spring 2012"
     ], 
     "prereqs": "Graduate standing or consent of instructor. ", 
-    "pubHealthMaj": false, 
     "restrictions": "", 
     "title": "Technologies for Sustainable Societies", 
     "type": "Lecture"
@@ -1057,7 +1095,6 @@
         "Fall 2010"
     ], 
     "prereqs": "Graduate student standing or consent of instructor. ", 
-    "pubHealthMaj": false, 
     "restrictions": "", 
     "title": "Principles of Natural Resource Management", 
     "type": "Lecture"
@@ -1114,7 +1151,6 @@
         "Spring 2010"
     ], 
     "prereqs": "50 or equivalent. ", 
-    "pubHealthMaj": false, 
     "restrictions": "", 
     "title": "Environmental Geology and Earth Resources", 
     "type": "Lecture"
@@ -1171,7 +1207,6 @@
         "Spring 2012"
     ], 
     "prereqs": "Basic ecology, microeconomics, and resource management. ", 
-    "pubHealthMaj": false, 
     "restrictions": "", 
     "title": "Ecosystem Management", 
     "type": "Lecture"
@@ -1209,7 +1244,6 @@
         "Spring 2010"
     ], 
     "prereqs": "Consent of instructor. ", 
-    "pubHealthMaj": false, 
     "restrictions": "", 
     "title": "Wildland Fire Science", 
     "type": "Lecture"
@@ -1266,7 +1300,6 @@
         "Spring 2010"
     ], 
     "prereqs": "Civil and Environmental Engineering 100, 111. ", 
-    "pubHealthMaj": false, 
     "restrictions": "", 
     "title": "Environmental Engineering Design", 
     "type": "Lecture"
@@ -1323,7 +1356,6 @@
         "Spring 2010"
     ], 
     "prereqs": "262 or City and Regional Planning 204 or equivalent. ", 
-    "pubHealthMaj": false, 
     "restrictions": "", 
     "title": "Behavioral Modeling for Engineering, Planning, and Policy Analysis", 
     "type": "Lecture"
@@ -1361,7 +1393,6 @@
         "Fall 2010"
     ], 
     "prereqs": "Microeconomics and econometrics at the undergraduate upper-division or Master's level. ", 
-    "pubHealthMaj": false, 
     "restrictions": "", 
     "title": "Economic Development and Policy", 
     "type": "Lecture"
@@ -1398,7 +1429,6 @@
         "Spring 2009"
     ], 
     "prereqs": "Successful completion of the first semester of Reading and Composition. ", 
-    "pubHealthMaj": false, 
     "restrictions": "", 
     "title": "Advanced Composition: Community-Based Ethics", 
     "type": "Lecture"
@@ -1436,7 +1466,6 @@
         "Fall 2010"
     ], 
     "prereqs": "Graduate standing or consent of instructor. ", 
-    "pubHealthMaj": false, 
     "restrictions": "", 
     "title": "Sustainable Communities", 
     "type": "Lecture"
@@ -1493,7 +1522,6 @@
         "Spring 2012"
     ], 
     "prereqs": "Open to majors in all fields. ", 
-    "pubHealthMaj": false, 
     "restrictions": "", 
     "title": "Planning for Sustainability", 
     "type": "Lecture"
@@ -1568,7 +1596,6 @@
         "Spring 2010"
     ], 
     "prereqs": "Graduate standing or consent of instructor. ", 
-    "pubHealthMaj": false, 
     "restrictions": "", 
     "title": "Design for Sustainable Communities", 
     "type": "Lecture"
@@ -1605,7 +1632,6 @@
         "Spring 2009"
     ], 
     "prereqs": "Chemistry 1A, Mathematics 1A. ", 
-    "pubHealthMaj": false, 
     "restrictions": "", 
     "title": "Engineered Systems and Sustainability", 
     "type": "Lecture"
@@ -1662,7 +1688,6 @@
         "Spring 2012"
     ], 
     "prereqs": "Environmental Design 102. ", 
-    "pubHealthMaj": false, 
     "restrictions": "", 
     "title": "Sustainable Environmental Design Workshop", 
     "type": "Lecture"
@@ -1737,7 +1762,6 @@
         "Spring 2010"
     ], 
     "prereqs": "Environmental Design 102. ", 
-    "pubHealthMaj": false, 
     "restrictions": "", 
     "title": "Sustainable Environmental Design Workshop", 
     "type": "Discussion"
@@ -1794,7 +1818,6 @@
         "Spring 2012"
     ], 
     "prereqs": "", 
-    "pubHealthMaj": false, 
     "restrictions": "", 
     "title": "Environmental Science for Sustainable Development", 
     "type": "Lecture"
@@ -1905,7 +1928,6 @@
         "Spring 2010"
     ], 
     "prereqs": "", 
-    "pubHealthMaj": false, 
     "restrictions": "", 
     "title": "Environmental Science for Sustainable Development", 
     "type": "Discussion"
@@ -1943,7 +1965,6 @@
         "Spring 2010"
     ], 
     "prereqs": "", 
-    "pubHealthMaj": false, 
     "restrictions": "", 
     "title": "Environmental Science for Sustainable Development", 
     "type": "Lecture"
@@ -1981,7 +2002,6 @@
         "Spring 2012"
     ], 
     "prereqs": "101, Architecture 100A, or consent of instructor. ", 
-    "pubHealthMaj": false, 
     "restrictions": "", 
     "title": "Design in Detail: Introduction to Landscape Materials and Construction", 
     "type": "Lecture"
@@ -2018,7 +2038,6 @@
         "Spring 2009"
     ], 
     "prereqs": "", 
-    "pubHealthMaj": false, 
     "restrictions": "", 
     "title": "Environmental Science for Sustainable Development", 
     "type": "Lecture"
@@ -2056,7 +2075,6 @@
         "Spring 2012"
     ], 
     "prereqs": "", 
-    "pubHealthMaj": false, 
     "restrictions": "", 
     "title": "Environmental Science for Sustainable Development", 
     "type": "Lecture"
@@ -2094,7 +2112,6 @@
         "Spring 2010"
     ], 
     "prereqs": "", 
-    "pubHealthMaj": false, 
     "restrictions": "", 
     "title": "Introduction to Peace and Conflict Studies", 
     "type": "Lecture"
@@ -2151,7 +2168,6 @@
         "Spring 2010"
     ], 
     "prereqs": "Education 131. ", 
-    "pubHealthMaj": false, 
     "restrictions": "", 
     "title": "Project-Based Instruction", 
     "type": "Lecture"
@@ -2189,7 +2205,6 @@
         "Fall 2010"
     ], 
     "prereqs": "", 
-    "pubHealthMaj": false, 
     "restrictions": "", 
     "title": "Global Ecology and Development", 
     "type": "Lecture"
@@ -2227,7 +2242,6 @@
         "Spring 2012"
     ], 
     "prereqs": "100, 101. ", 
-    "pubHealthMaj": false, 
     "restrictions": "", 
     "title": "Natural Resource Economics", 
     "type": "Lecture"
@@ -2264,7 +2278,6 @@
         "Spring 2009"
     ], 
     "prereqs": "Consent of instructor. ", 
-    "pubHealthMaj": false, 
     "restrictions": "", 
     "title": "Environmental Science Education Practicum", 
     "type": "Lecture"
@@ -2320,7 +2333,6 @@
         "Spring 2009"
     ], 
     "prereqs": "", 
-    "pubHealthMaj": false, 
     "restrictions": "", 
     "title": "International Economic Development Policy", 
     "type": "Lecture"
@@ -2358,7 +2370,6 @@
         "Fall 2010"
     ], 
     "prereqs": "", 
-    "pubHealthMaj": false, 
     "restrictions": "", 
     "title": "International Economic Development Policy", 
     "type": "Lecture"
@@ -2396,7 +2407,6 @@
         "Spring 2012"
     ], 
     "prereqs": "Graduate standing in Engineering or Information, or consent of instructor. ", 
-    "pubHealthMaj": false, 
     "restrictions": "", 
     "title": "Green Product Development: Design for Sustainability", 
     "type": "Lecture"
@@ -2452,7 +2462,6 @@
         "Spring 2009"
     ], 
     "prereqs": "100 or Economics 100A or Economics 101A; 101 recommended. ", 
-    "pubHealthMaj": false, 
     "restrictions": "", 
     "title": "Advanced Topics in Environmental and Resource Economics", 
     "type": "Lecture"
@@ -2527,7 +2536,6 @@
         "Spring 2010"
     ], 
     "prereqs": "100, or Economics 100A or 100B. ", 
-    "pubHealthMaj": false, 
     "restrictions": "", 
     "title": "Natural Resource Economics", 
     "type": "Lecture"
@@ -2564,7 +2572,6 @@
         "Spring 2009"
     ], 
     "prereqs": "100, or Economics 100A or 100B. ", 
-    "pubHealthMaj": false, 
     "restrictions": "", 
     "title": "Natural Resource Economics", 
     "type": "Lecture"
@@ -2621,7 +2628,6 @@
         "Fall 2010"
     ], 
     "prereqs": "UC Entry Writing Requirement or UC Analytical Writing Placement Exam. R1A or equivalent course is prerequisite to R1B. ", 
-    "pubHealthMaj": false, 
     "restrictions": "", 
     "title": "Reading and Composition in Energy, Society, and Environmental Design", 
     "type": "Lecture"
@@ -2678,7 +2684,6 @@
         "Spring 2010"
     ], 
     "prereqs": "The course is open to upper division undergraduates and graduate students. ", 
-    "pubHealthMaj": false, 
     "restrictions": "", 
     "title": "Introduction to Architectural Theory 1945 - Present", 
     "type": "Lecture"
@@ -2716,7 +2721,6 @@
         "Spring 2010"
     ], 
     "prereqs": "Open to upper division undergraduates and graduate students. ", 
-    "pubHealthMaj": false, 
     "restrictions": "", 
     "title": "Introduction to Architectural Theory 1945-Present", 
     "type": "Lecture"
@@ -2754,7 +2758,6 @@
         "Spring 2012"
     ], 
     "prereqs": "One year of chemistry, including a semester of organic chemistry, or consent of instructors based on previous experience. ", 
-    "pubHealthMaj": false, 
     "restrictions": "", 
     "title": "Green Chemistry: An Interdisciplonary Approach to Sustainability", 
     "type": "Lecture"
@@ -2811,7 +2814,6 @@
         "Spring 2012"
     ], 
     "prereqs": "One year of chemistry, including a semester of organic chemistry, or consent of instructors based on previous experience. ", 
-    "pubHealthMaj": false, 
     "restrictions": "", 
     "title": "Green Chemistry: An Interdisciplonary Approach to Sustainability", 
     "type": "Lecture"
@@ -2849,7 +2851,6 @@
         "Spring 2010"
     ], 
     "prereqs": "Business Administration 206 or equivalent. ", 
-    "pubHealthMaj": false, 
     "restrictions": "", 
     "title": "Global Marketing Strategy", 
     "type": "Lecture"
@@ -2906,7 +2907,6 @@
         "Spring 2010"
     ], 
     "prereqs": "Ph.D.-level economic theory or consent of instructor. ", 
-    "pubHealthMaj": false, 
     "restrictions": "", 
     "title": "Environmental and Resource Economics", 
     "type": "Lecture"
@@ -2945,6 +2945,24 @@
             "time": "4-5 p.m."
         }, 
         {
+            "ccn": 62922, 
+            "days": "F", 
+            "finalGroup": "Not applicable", 
+            "instructor": "M. Mhasalkar, U. Jehlicka", 
+            "location": {
+                "building": "Wurster", 
+                "room": 297
+            }, 
+            "seats": {
+                "available": 0, 
+                "enrolled": 20, 
+                "max": 20, 
+                "waitlist": 1
+            }, 
+            "semester": "Fall 2014", 
+            "time": "1-2 p.m."
+        }, 
+        {
             "ccn": 13963, 
             "days": "F", 
             "finalGroup": "Not applicable", 
@@ -2958,6 +2976,24 @@
                 "enrolled": 3, 
                 "max": 15, 
                 "waitlist": 1
+            }, 
+            "semester": "Fall 2014", 
+            "time": "4-5 p.m."
+        }, 
+        {
+            "ccn": 80393, 
+            "days": "M", 
+            "finalGroup": "Not applicable", 
+            "instructor": "S. Abdullah", 
+            "location": {
+                "building": "Barrows", 
+                "room": 277
+            }, 
+            "seats": {
+                "available": 12, 
+                "enrolled": 0, 
+                "max": 12, 
+                "waitlist": 0
             }, 
             "semester": "Fall 2014", 
             "time": "4-5 p.m."
@@ -2999,7 +3035,6 @@
         "Spring 2012"
     ], 
     "prereqs": "Ph.D.-level economic theory or consent of instructor. ", 
-    "pubHealthMaj": false, 
     "restrictions": "", 
     "title": "Environmental and Resource Economics", 
     "type": "Discussion"
@@ -3037,7 +3072,6 @@
         "Spring 2010"
     ], 
     "prereqs": "140 or consent of instructor. ", 
-    "pubHealthMaj": false, 
     "restrictions": "", 
     "title": "Advanced Study of Energy and Environment", 
     "type": "Lecture"
@@ -3075,7 +3109,6 @@
         "Spring 2010"
     ], 
     "prereqs": "One year of chemistry, including a semester of organic chemistry, or consent of instructors based on previous experience. ", 
-    "pubHealthMaj": false, 
     "restrictions": "", 
     "title": "Green Chemistry: An Interdisciplonary Approach to Sustainability", 
     "type": "Lecture"
@@ -3132,7 +3165,6 @@
         "Spring 2010"
     ], 
     "prereqs": "", 
-    "pubHealthMaj": false, 
     "restrictions": "", 
     "title": "Comparative International Topics in Transportation", 
     "type": "Lecture"
