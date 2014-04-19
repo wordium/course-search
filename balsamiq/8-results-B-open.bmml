@@ -1,0 +1,516 @@
+<mockup version="1.0" skin="wireframe" fontFace="Balsamiq Sans" measuredW="1331" measuredH="1729" mockupW="1200" mockupH="1695">
+  <controls>
+    <control controlID="10" controlTypeID="com.balsamiq.mockups::Canvas" x="208" y="227" w="1046" h="1207" measuredW="100" measuredH="70" zOrder="2" locked="true" isInGroup="-1"/>
+    <control controlID="12" controlTypeID="com.balsamiq.mockups::Image" x="131" y="1417" w="1200" h="312" measuredW="1080" measuredH="312" zOrder="3" locked="true" isInGroup="-1">
+      <controlProperties>
+        <src>./footer.png</src>
+        <text/>
+      </controlProperties>
+    </control>
+    <control controlID="16" controlTypeID="com.balsamiq.mockups::Image" x="131" y="34" w="1200" h="148" measuredW="1080" measuredH="148" zOrder="1" locked="true" isInGroup="-1">
+      <controlProperties>
+        <src>./header.png</src>
+        <text/>
+      </controlProperties>
+    </control>
+    <control controlID="18" controlTypeID="com.balsamiq.mockups::Canvas" x="131" y="170" w="1200" h="1278" measuredW="100" measuredH="70" zOrder="0" locked="true" isInGroup="-1">
+      <controlProperties>
+        <borderStyle>square</borderStyle>
+        <color>5464687</color>
+      </controlProperties>
+    </control>
+    <control controlID="33" controlTypeID="com.balsamiq.mockups::Canvas" x="208" y="201" w="1046" h="37" measuredW="100" measuredH="70" zOrder="4" locked="true" isInGroup="-1">
+      <controlProperties>
+        <borderStyle>none</borderStyle>
+        <color>545684</color>
+      </controlProperties>
+    </control>
+    <control controlID="34" controlTypeID="com.balsamiq.mockups::Title" x="219" y="209" w="1050" h="-1" measuredW="172" measuredH="23" zOrder="5" locked="false" isInGroup="-1">
+      <controlProperties>
+        <align>left</align>
+        <color>16777215</color>
+        <size>20</size>
+        <text>COURSE%20SEARCH</text>
+      </controlProperties>
+    </control>
+    <control controlID="64" controlTypeID="com.balsamiq.mockups::Canvas" x="1028" y="236" w="222" h="1061" measuredW="100" measuredH="70" zOrder="7" locked="false" isInGroup="-1">
+      <controlProperties>
+        <borderStyle>none</borderStyle>
+      </controlProperties>
+    </control>
+    <control controlID="65" controlTypeID="com.balsamiq.mockups::VRule" x="1018" y="253" w="-1" h="1164" measuredW="10" measuredH="100" zOrder="8" locked="false" isInGroup="-1"/>
+    <control controlID="66" controlTypeID="com.balsamiq.mockups::Label" x="1030" y="253" w="-1" h="-1" measuredW="197" measuredH="28" zOrder="9" locked="false" isInGroup="-1">
+      <controlProperties>
+        <bold>true</bold>
+        <size>20</size>
+        <text>Anthropology%20C262B</text>
+      </controlProperties>
+    </control>
+    <control controlID="69" controlTypeID="com.balsamiq.mockups::VRule" x="430" y="238" w="-1" h="1087" measuredW="10" measuredH="100" zOrder="6" locked="false" isInGroup="-1"/>
+    <control controlID="89" controlTypeID="com.balsamiq.mockups::Label" x="442" y="248" w="-1" h="-1" measuredW="189" measuredH="22" zOrder="10" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>14</size>
+        <text>9%20results%20for%20keyword%3A%20modern</text>
+      </controlProperties>
+    </control>
+    <control controlID="90" controlTypeID="com.balsamiq.mockups::Link" x="889" y="249" w="-1" h="-1" measuredW="120" measuredH="20" zOrder="11" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>14</size>
+        <text>Saved%20Courses%20%280%29</text>
+      </controlProperties>
+    </control>
+    <control controlID="108" controlTypeID="__group__" x="454" y="536" w="555" h="96" measuredW="555" measuredH="96" zOrder="12" locked="false" isInGroup="-1">
+      <controlProperties/>
+      <groupChildrenDescriptors>
+        <control controlID="0" controlTypeID="com.balsamiq.mockups::Paragraph" x="51" y="0" w="504" h="96" measuredW="200" measuredH="80" zOrder="0" locked="false" isInGroup="108">
+          <controlProperties>
+            <size>14</size>
+            <text>*Anthropology%20C262B*%2C%204%20units%0ATheories%20of%20Traditionality%20and%20Modernity%0ASpring%202014%3A%20Th%203-6%20p.m.%2C%206415%20%5BDwinnelle%5D%0AInstructor%3A%20D.%20Richards%0ACCN%3A%2012345</text>
+          </controlProperties>
+        </control>
+        <control controlID="1" controlTypeID="__group__" x="0" y="18" w="30" h="31" measuredW="30" measuredH="31" zOrder="1" locked="false" isInGroup="108">
+          <groupChildrenDescriptors>
+            <control controlID="1" controlTypeID="com.balsamiq.mockups::IconLabel" x="0" y="0" w="-1" h="-1" measuredW="30" measuredH="31" zOrder="0" locked="false" isInGroup="1">
+              <controlProperties>
+                <icon>SquaredPlusIcon%7Cxsmall</icon>
+                <text>Save</text>
+              </controlProperties>
+            </control>
+          </groupChildrenDescriptors>
+        </control>
+      </groupChildrenDescriptors>
+    </control>
+    <control controlID="110" controlTypeID="__group__" x="454" y="849" w="555" h="96" measuredW="555" measuredH="96" zOrder="13" locked="false" isInGroup="-1">
+      <groupChildrenDescriptors>
+        <control controlID="0" controlTypeID="com.balsamiq.mockups::Paragraph" x="51" y="0" w="504" h="96" measuredW="200" measuredH="80" zOrder="0" locked="false" isInGroup="110">
+          <controlProperties>
+            <size>14</size>
+            <text>*Math%20172*%2C%203%20units%0AThe%20New%20Math%0ASpring%202014%3A%20MWF%202-3%20p.m.%2C%2052%20%5BEvans%5D%0AInstructor%3A%20A.%20Dishon%0ACCN%3A%2047384</text>
+          </controlProperties>
+        </control>
+        <control controlID="1" controlTypeID="__group__" x="0" y="18" w="30" h="31" measuredW="30" measuredH="31" zOrder="1" locked="false" isInGroup="110">
+          <groupChildrenDescriptors>
+            <control controlID="1" controlTypeID="com.balsamiq.mockups::IconLabel" x="0" y="0" w="-1" h="-1" measuredW="30" measuredH="31" zOrder="0" locked="false" isInGroup="1">
+              <controlProperties>
+                <icon>SquaredPlusIcon%7Cxsmall</icon>
+                <text>Save</text>
+              </controlProperties>
+            </control>
+          </groupChildrenDescriptors>
+        </control>
+      </groupChildrenDescriptors>
+    </control>
+    <control controlID="111" controlTypeID="__group__" x="454" y="951" w="555" h="96" measuredW="555" measuredH="96" zOrder="14" locked="false" isInGroup="-1">
+      <groupChildrenDescriptors>
+        <control controlID="0" controlTypeID="com.balsamiq.mockups::Paragraph" x="51" y="0" w="504" h="96" measuredW="200" measuredH="80" zOrder="0" locked="false" isInGroup="111">
+          <controlProperties>
+            <size>14</size>
+            <text>*Architecture%20252*%2C%203%20units%0AThe%20City%20and%20Modernity%0ANot%20currently%20offered</text>
+          </controlProperties>
+        </control>
+        <control controlID="1" controlTypeID="__group__" x="0" y="18" w="30" h="31" measuredW="30" measuredH="31" zOrder="1" locked="false" isInGroup="111">
+          <groupChildrenDescriptors>
+            <control controlID="1" controlTypeID="com.balsamiq.mockups::IconLabel" x="0" y="0" w="-1" h="-1" measuredW="30" measuredH="31" zOrder="0" locked="false" isInGroup="1">
+              <controlProperties>
+                <icon>SquaredPlusIcon%7Cxsmall</icon>
+                <text>Save</text>
+              </controlProperties>
+            </control>
+          </groupChildrenDescriptors>
+        </control>
+      </groupChildrenDescriptors>
+    </control>
+    <control controlID="112" controlTypeID="__group__" x="454" y="1052" w="555" h="96" measuredW="555" measuredH="96" zOrder="15" locked="false" isInGroup="-1">
+      <groupChildrenDescriptors>
+        <control controlID="0" controlTypeID="com.balsamiq.mockups::Paragraph" x="51" y="0" w="504" h="96" measuredW="200" measuredH="80" zOrder="0" locked="false" isInGroup="112">
+          <controlProperties>
+            <size>14</size>
+            <text>*Anthropology%20150*%2C%203%20units%0AArt%20and%20Power%20in%20Modern%20Society%0ANot%20currently%20offered</text>
+          </controlProperties>
+        </control>
+        <control controlID="1" controlTypeID="__group__" x="0" y="18" w="30" h="31" measuredW="30" measuredH="31" zOrder="1" locked="false" isInGroup="112">
+          <groupChildrenDescriptors>
+            <control controlID="1" controlTypeID="com.balsamiq.mockups::IconLabel" x="0" y="0" w="-1" h="-1" measuredW="30" measuredH="31" zOrder="0" locked="false" isInGroup="1">
+              <controlProperties>
+                <icon>SquaredPlusIcon%7Cxsmall</icon>
+                <text>Save</text>
+              </controlProperties>
+            </control>
+          </groupChildrenDescriptors>
+        </control>
+      </groupChildrenDescriptors>
+    </control>
+    <control controlID="113" controlTypeID="__group__" x="454" y="1150" w="555" h="96" measuredW="555" measuredH="96" zOrder="16" locked="false" isInGroup="-1">
+      <controlProperties>
+        <href>9-results-B-open-2%26bm%3B9-results-B-open-2.bmml%26bm%3B9-results-B-open-2.bmml%26bm%3B9-results-B-open-2.bmml</href>
+        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%22323%2C1116%2C878%2C1212%22%20href%3D%229-results-B-open-2.bmml%22%20alt%3D%229-results-B-open-2%22%20id%3D%22113%22/%3E</map>
+      </controlProperties>
+      <groupChildrenDescriptors>
+        <control controlID="0" controlTypeID="com.balsamiq.mockups::Paragraph" x="51" y="0" w="504" h="96" measuredW="200" measuredH="80" zOrder="0" locked="false" isInGroup="113">
+          <controlProperties>
+            <size>14</size>
+            <text>*Anthropology%20151*%2C%203%20units%0ADystopia%3A%20Modern%20Visions%0ANot%20currently%20offered</text>
+          </controlProperties>
+        </control>
+        <control controlID="1" controlTypeID="__group__" x="0" y="18" w="30" h="31" measuredW="30" measuredH="31" zOrder="1" locked="false" isInGroup="113">
+          <groupChildrenDescriptors>
+            <control controlID="1" controlTypeID="com.balsamiq.mockups::IconLabel" x="0" y="0" w="-1" h="-1" measuredW="30" measuredH="31" zOrder="0" locked="false" isInGroup="1">
+              <controlProperties>
+                <icon>SquaredPlusIcon%7Cxsmall</icon>
+                <text>Save</text>
+              </controlProperties>
+            </control>
+          </groupChildrenDescriptors>
+        </control>
+      </groupChildrenDescriptors>
+    </control>
+    <control controlID="115" controlTypeID="com.balsamiq.mockups::VerticalScrollBar" x="1003" y="305" w="-1" h="1020" measuredW="16" measuredH="100" zOrder="17" locked="false" isInGroup="-1"/>
+    <control controlID="119" controlTypeID="__group__" x="454" y="306" w="555" h="99" measuredW="555" measuredH="99" zOrder="18" locked="false" isInGroup="-1">
+      <groupChildrenDescriptors>
+        <control controlID="0" controlTypeID="__group__" x="0" y="3" w="555" h="96" measuredW="555" measuredH="96" zOrder="0" locked="false" isInGroup="119">
+          <groupChildrenDescriptors>
+            <control controlID="0" controlTypeID="com.balsamiq.mockups::Paragraph" x="51" y="0" w="504" h="96" measuredW="200" measuredH="80" zOrder="0" locked="false" isInGroup="0">
+              <controlProperties>
+                <size>14</size>
+                <text>*African%20American%20Studies%2013*%2C%203%20units%0AModern%20Social%20and%20Political%20Thought%20in%20the%20Diaspora%0ASpring%202014%3A%20MWF%209-10%20a.m.%2C%20115%20%5BBarrows%5D%0AInstructor%3A%20M.%20Cyril%0ACCN%3A%2014937</text>
+              </controlProperties>
+            </control>
+            <control controlID="1" controlTypeID="__group__" x="0" y="24" w="30" h="31" measuredW="30" measuredH="31" zOrder="1" locked="false" isInGroup="0">
+              <groupChildrenDescriptors>
+                <control controlID="1" controlTypeID="com.balsamiq.mockups::IconLabel" x="0" y="0" w="-1" h="-1" measuredW="30" measuredH="31" zOrder="0" locked="false" isInGroup="1">
+                  <controlProperties>
+                    <icon>SquaredPlusIcon%7Cxsmall</icon>
+                    <text>Save</text>
+                  </controlProperties>
+                </control>
+              </groupChildrenDescriptors>
+            </control>
+          </groupChildrenDescriptors>
+        </control>
+        <control controlID="1" controlTypeID="com.balsamiq.mockups::RoundButton" x="420" y="0" w="-1" h="-1" measuredW="32" measuredH="32" zOrder="1" locked="false" isInGroup="119">
+          <controlProperties>
+            <backgroundAlpha>1</backgroundAlpha>
+            <color>6770343</color>
+            <size>11</size>
+            <text>AC</text>
+          </controlProperties>
+        </control>
+        <control controlID="2" controlTypeID="com.balsamiq.mockups::RoundButton" x="455" y="0" w="-1" h="-1" measuredW="32" measuredH="32" zOrder="2" locked="false" isInGroup="119">
+          <controlProperties>
+            <color>7317724</color>
+            <size>11</size>
+            <text>RCA</text>
+          </controlProperties>
+        </control>
+      </groupChildrenDescriptors>
+    </control>
+    <control controlID="121" controlTypeID="__group__" x="454" y="418" w="555" h="96" measuredW="555" measuredH="96" zOrder="19" locked="false" isInGroup="-1">
+      <groupChildrenDescriptors>
+        <control controlID="0" controlTypeID="__group__" x="0" y="0" w="555" h="96" measuredW="555" measuredH="96" zOrder="0" locked="false" isInGroup="121">
+          <groupChildrenDescriptors>
+            <control controlID="0" controlTypeID="com.balsamiq.mockups::Paragraph" x="51" y="0" w="504" h="96" measuredW="200" measuredH="80" zOrder="0" locked="false" isInGroup="0">
+              <controlProperties>
+                <size>14</size>
+                <text>*Architecture%20100*%2C%204%20units%0AModern%20Building%20Materials%0ASpring%202014%3A%20TuTh%2012-1%3A30%20p.m.%2C%20202%20%5BWurster%5D%0AInstructor%3A%20B.%20LeDing%0ACCN%3A%2028739</text>
+              </controlProperties>
+            </control>
+            <control controlID="1" controlTypeID="__group__" x="0" y="18" w="30" h="31" measuredW="30" measuredH="31" zOrder="1" locked="false" isInGroup="0">
+              <groupChildrenDescriptors>
+                <control controlID="1" controlTypeID="com.balsamiq.mockups::IconLabel" x="0" y="0" w="-1" h="-1" measuredW="30" measuredH="31" zOrder="0" locked="false" isInGroup="1">
+                  <controlProperties>
+                    <icon>SquaredPlusIcon%7Cxsmall</icon>
+                    <text>Save</text>
+                  </controlProperties>
+                </control>
+              </groupChildrenDescriptors>
+            </control>
+          </groupChildrenDescriptors>
+        </control>
+        <control controlID="1" controlTypeID="com.balsamiq.mockups::RoundButton" x="455" y="1" w="-1" h="-1" measuredW="32" measuredH="32" zOrder="1" locked="false" isInGroup="121">
+          <controlProperties>
+            <color>3700253</color>
+            <size>11</size>
+            <text>PS</text>
+          </controlProperties>
+        </control>
+      </groupChildrenDescriptors>
+    </control>
+    <control controlID="123" controlTypeID="__group__" x="454" y="747" w="555" h="96" measuredW="555" measuredH="96" zOrder="20" locked="false" isInGroup="-1">
+      <groupChildrenDescriptors>
+        <control controlID="0" controlTypeID="__group__" x="0" y="0" w="555" h="96" measuredW="555" measuredH="96" zOrder="0" locked="false" isInGroup="123">
+          <groupChildrenDescriptors>
+            <control controlID="0" controlTypeID="com.balsamiq.mockups::Paragraph" x="51" y="0" w="504" h="96" measuredW="200" measuredH="80" zOrder="0" locked="false" isInGroup="0">
+              <controlProperties>
+                <size>14</size>
+                <text>*Astronomy%203*%2C%202%20units%0AIntroduction%20to%20Modern%20Cosmology%0ASpring%202014%3A%20F%2012-2P%2C%20B1%20%5BHearst%20Annex%5D%0AInstructor%3A%20A.%20Nova%0ACCN%3A%2037895</text>
+              </controlProperties>
+            </control>
+            <control controlID="1" controlTypeID="__group__" x="0" y="18" w="30" h="31" measuredW="30" measuredH="31" zOrder="1" locked="false" isInGroup="0">
+              <groupChildrenDescriptors>
+                <control controlID="1" controlTypeID="com.balsamiq.mockups::IconLabel" x="0" y="0" w="-1" h="-1" measuredW="30" measuredH="31" zOrder="0" locked="false" isInGroup="1">
+                  <controlProperties>
+                    <icon>SquaredPlusIcon%7Cxsmall</icon>
+                    <text>Save</text>
+                  </controlProperties>
+                </control>
+              </groupChildrenDescriptors>
+            </control>
+          </groupChildrenDescriptors>
+        </control>
+        <control controlID="1" controlTypeID="com.balsamiq.mockups::RoundButton" x="455" y="0" w="-1" h="-1" measuredW="32" measuredH="32" zOrder="1" locked="false" isInGroup="123">
+          <controlProperties>
+            <color>3700253</color>
+            <size>11</size>
+            <text>PS</text>
+          </controlProperties>
+        </control>
+      </groupChildrenDescriptors>
+    </control>
+    <control controlID="127" controlTypeID="com.balsamiq.mockups::RoundButton" x="909" y="1150" w="-1" h="-1" measuredW="32" measuredH="32" zOrder="22" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>7317724</color>
+        <size>11</size>
+        <text>RCB</text>
+      </controlProperties>
+    </control>
+    <control controlID="128" controlTypeID="__group__" x="454" y="1249" w="555" h="96" measuredW="555" measuredH="96" zOrder="21" locked="false" isInGroup="-1">
+      <groupChildrenDescriptors>
+        <control controlID="0" controlTypeID="__group__" x="0" y="0" w="555" h="96" measuredW="555" measuredH="96" zOrder="0" locked="false" isInGroup="128">
+          <groupChildrenDescriptors>
+            <control controlID="0" controlTypeID="com.balsamiq.mockups::Paragraph" x="51" y="0" w="504" h="96" measuredW="200" measuredH="80" zOrder="0" locked="false" isInGroup="0">
+              <controlProperties>
+                <size>14</size>
+                <text>*Celtic%20Studies%20110*%2C%204%20units%0AIntroduction%20to%20Modern%20Gaelic%0ANot%20currently%20offered</text>
+              </controlProperties>
+            </control>
+            <control controlID="1" controlTypeID="__group__" x="0" y="18" w="30" h="31" measuredW="30" measuredH="31" zOrder="1" locked="false" isInGroup="0">
+              <groupChildrenDescriptors>
+                <control controlID="1" controlTypeID="com.balsamiq.mockups::IconLabel" x="0" y="0" w="-1" h="-1" measuredW="30" measuredH="31" zOrder="0" locked="false" isInGroup="1">
+                  <controlProperties>
+                    <icon>SquaredPlusIcon%7Cxsmall</icon>
+                    <text>Save</text>
+                  </controlProperties>
+                </control>
+              </groupChildrenDescriptors>
+            </control>
+          </groupChildrenDescriptors>
+        </control>
+        <control controlID="1" controlTypeID="com.balsamiq.mockups::RoundButton" x="455" y="1" w="-1" h="-1" measuredW="32" measuredH="32" zOrder="1" locked="false" isInGroup="128">
+          <controlProperties>
+            <color>6684672</color>
+            <size>11</size>
+            <text>L</text>
+          </controlProperties>
+        </control>
+      </groupChildrenDescriptors>
+    </control>
+    <control controlID="141" controlTypeID="com.balsamiq.mockups::Canvas" x="436" y="302" w="567" h="98" measuredW="100" measuredH="70" zOrder="23" locked="false" isInGroup="-1">
+      <controlProperties>
+        <backgroundAlpha>0.25</backgroundAlpha>
+        <borderStyle>none</borderStyle>
+        <color>6710886</color>
+      </controlProperties>
+    </control>
+    <control controlID="142" controlTypeID="com.balsamiq.mockups::Canvas" x="436" y="524" w="567" h="113" measuredW="100" measuredH="70" zOrder="24" locked="false" isInGroup="-1">
+      <controlProperties>
+        <backgroundAlpha>0.5</backgroundAlpha>
+        <borderStyle>none</borderStyle>
+        <color>545684</color>
+        <href>7-results-B%26bm%3B7-results-B.bmml%26bm%3B7-results-B.bmml%26bm%3B7-results-B.bmml</href>
+        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%22305%2C490%2C872%2C603%22%20href%3D%227-results-B.bmml%22%20alt%3D%227-results-B%22%20id%3D%22142%22/%3E</map>
+      </controlProperties>
+    </control>
+    <control controlID="143" controlTypeID="com.balsamiq.mockups::Canvas" x="436" y="734" w="567" h="102" measuredW="100" measuredH="70" zOrder="25" locked="false" isInGroup="-1">
+      <controlProperties>
+        <backgroundAlpha>0.25</backgroundAlpha>
+        <borderStyle>none</borderStyle>
+        <color>6710886</color>
+      </controlProperties>
+    </control>
+    <control controlID="144" controlTypeID="com.balsamiq.mockups::Canvas" x="436" y="936" w="567" h="100" measuredW="100" measuredH="70" zOrder="26" locked="false" isInGroup="-1">
+      <controlProperties>
+        <backgroundAlpha>0.25</backgroundAlpha>
+        <borderStyle>none</borderStyle>
+        <color>6710886</color>
+      </controlProperties>
+    </control>
+    <control controlID="145" controlTypeID="com.balsamiq.mockups::Canvas" x="436" y="1137" w="567" h="108" measuredW="100" measuredH="70" zOrder="27" locked="false" isInGroup="-1">
+      <controlProperties>
+        <backgroundAlpha>0.25</backgroundAlpha>
+        <borderStyle>none</borderStyle>
+        <color>6710886</color>
+        <href>9-results-B-open-2%26bm%3B9-results-B-open-2.bmml%26bm%3B9-results-B-open-2.bmml%26bm%3B9-results-B-open-2.bmml</href>
+        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%22305%2C1103%2C872%2C1211%22%20href%3D%229-results-B-open-2.bmml%22%20alt%3D%229-results-B-open-2%22%20id%3D%22145%22/%3E</map>
+      </controlProperties>
+    </control>
+    <control controlID="147" controlTypeID="com.balsamiq.mockups::Link" x="226" y="1271" w="-1" h="-1" measuredW="96" measuredH="20" zOrder="31" locked="false" isInGroup="-1">
+      <controlProperties>
+        <href>1-basic-search-title-B%26bm%3B1-basic-search-title-B.bmml%26bm%3B1-basic-search-title-B.bmml%26bm%3B1-basic-search-title-B.bmml</href>
+        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%2295%2C1237%2C191%2C1257%22%20href%3D%221-basic-search-title-B.bmml%22%20alt%3D%221-basic-search-title-B%22%20id%3D%22147%22/%3E</map>
+        <size>14</size>
+        <text>Back%20to%20Search</text>
+      </controlProperties>
+    </control>
+    <control controlID="148" controlTypeID="com.balsamiq.mockups::Canvas" x="436" y="836" w="567" h="10" measuredW="100" measuredH="70" zOrder="32" locked="false" isInGroup="-1">
+      <controlProperties>
+        <backgroundAlpha>1</backgroundAlpha>
+        <borderStyle>none</borderStyle>
+        <color>6710886</color>
+      </controlProperties>
+    </control>
+    <control controlID="172" controlTypeID="com.balsamiq.mockups::Canvas" x="202" y="237" w="232" h="1181" measuredW="100" measuredH="70" zOrder="33" locked="false" isInGroup="-1">
+      <controlProperties>
+        <borderStyle>none</borderStyle>
+      </controlProperties>
+    </control>
+    <control controlID="173" controlTypeID="com.balsamiq.mockups::CheckBoxGroup" x="220" y="279" w="203" h="145" measuredW="208" measuredH="133" zOrder="34" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>14</size>
+        <text>*Departments*%0A%5B%20%5D%20African%20American%20Studies%20%281%29%0A%5B%20%5D%20Architecture%20%282%29%0A%5B%20%5D%20Anthropology%20%285%29%0A%5B%20%5D%20Celtic%20Studies%20%281%29%0A%5B%20%5D%20Math%20%281%29</text>
+      </controlProperties>
+    </control>
+    <control controlID="174" controlTypeID="com.balsamiq.mockups::Icon" x="403" y="278" w="-1" h="-1" measuredW="16" measuredH="16" zOrder="35" locked="false" isInGroup="-1">
+      <controlProperties>
+        <icon>DownFillTriangleIcon%7Cxsmall</icon>
+      </controlProperties>
+    </control>
+    <control controlID="175" controlTypeID="com.balsamiq.mockups::CheckBoxGroup" x="219" y="424" w="180" h="64" measuredW="180" measuredH="64" zOrder="36" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>14</size>
+        <text>*Semester*%0A%5B%5D%20Spring%202014%20%287%29%0A%5B%5D%20Not%20currently%20offered%20%284%29</text>
+      </controlProperties>
+    </control>
+    <control controlID="176" controlTypeID="com.balsamiq.mockups::CheckBoxGroup" x="219" y="500" w="166" h="110" measuredW="166" measuredH="110" zOrder="37" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>14</size>
+        <text>*Requirements*%0A%5B%5D%20American%20Cultures%20%282%29%0A%5B%5D%20R+C%20A%20%281%29%0A%5B%5D%20R+C%20B%20%281%29%0A%5B%5D%20Language%20%281%29</text>
+      </controlProperties>
+    </control>
+    <control controlID="177" controlTypeID="com.balsamiq.mockups::Icon" x="399" y="500" w="-1" h="-1" measuredW="16" measuredH="16" zOrder="38" locked="false" isInGroup="-1">
+      <controlProperties>
+        <icon>DownFillTriangleIcon%7Cxsmall</icon>
+      </controlProperties>
+    </control>
+    <control controlID="178" controlTypeID="com.balsamiq.mockups::Icon" x="403" y="424" w="-1" h="-1" measuredW="16" measuredH="16" zOrder="39" locked="false" isInGroup="-1">
+      <controlProperties>
+        <icon>DownFillTriangleIcon%7Cxsmall</icon>
+      </controlProperties>
+    </control>
+    <control controlID="179" controlTypeID="com.balsamiq.mockups::CheckBoxGroup" x="220" y="622" w="79" h="64" measuredW="79" measuredH="64" zOrder="40" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>14</size>
+        <text>*Seats*%0A%5B%5D%20Available%0A%5B%5D%20Waitlist</text>
+      </controlProperties>
+    </control>
+    <control controlID="180" controlTypeID="com.balsamiq.mockups::Icon" x="403" y="622" w="-1" h="-1" measuredW="16" measuredH="16" zOrder="41" locked="false" isInGroup="-1">
+      <controlProperties>
+        <icon>DownFillTriangleIcon%7Cxsmall</icon>
+      </controlProperties>
+    </control>
+    <control controlID="181" controlTypeID="com.balsamiq.mockups::CheckBoxGroup" x="220" y="692" w="80" h="133" measuredW="80" measuredH="133" zOrder="42" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>14</size>
+        <text>*Day*%0A%5B%5D%20MWF%20%282%29%0A%5B%5D%20TuTh%20%281%29%0A%5B%5D%20Tu%20%282%29%0A%5B%5D%20Th%20%281%29%0A%5B%5D%20F%20%281%29</text>
+      </controlProperties>
+    </control>
+    <control controlID="182" controlTypeID="com.balsamiq.mockups::Icon" x="403" y="692" w="-1" h="-1" measuredW="16" measuredH="16" zOrder="43" locked="false" isInGroup="-1">
+      <controlProperties>
+        <icon>DownFillTriangleIcon%7Cxsmall</icon>
+      </controlProperties>
+    </control>
+    <control controlID="183" controlTypeID="com.balsamiq.mockups::CheckBoxGroup" x="220" y="833" w="111" h="64" measuredW="111" measuredH="64" zOrder="44" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>14</size>
+        <text>*Time*%0A%5B%5D%20Morning%20%281%29%0A%5B%5D%20Afternoon%20%286%29</text>
+      </controlProperties>
+    </control>
+    <control controlID="184" controlTypeID="com.balsamiq.mockups::Icon" x="403" y="833" w="-1" h="-1" measuredW="16" measuredH="16" zOrder="45" locked="false" isInGroup="-1">
+      <controlProperties>
+        <icon>DownFillTriangleIcon%7Cxsmall</icon>
+      </controlProperties>
+    </control>
+    <control controlID="185" controlTypeID="com.balsamiq.mockups::CheckBoxGroup" x="214" y="1153" w="117" h="64" measuredW="117" measuredH="64" zOrder="46" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>14</size>
+        <text>*Meeting%20type*%0A%5B%5D%20Lecture%20%289%29%0A%5B%5D%20Discussion%20%282%29</text>
+      </controlProperties>
+    </control>
+    <control controlID="186" controlTypeID="com.balsamiq.mockups::Icon" x="395" y="1153" w="-1" h="-1" measuredW="16" measuredH="16" zOrder="47" locked="false" isInGroup="-1">
+      <controlProperties>
+        <icon>DownFillTriangleIcon%7Cxsmall</icon>
+      </controlProperties>
+    </control>
+    <control controlID="187" controlTypeID="com.balsamiq.mockups::CheckBoxGroup" x="214" y="1223" w="139" h="87" measuredW="139" measuredH="87" zOrder="48" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>14</size>
+        <text>*Level*%0A%5B%5D%20Lower%20division%20%284%29%0A%5B%5D%20Upper%20division%20%283%29%0A%5B%5D%20Graduate%20%284%29</text>
+      </controlProperties>
+    </control>
+    <control controlID="188" controlTypeID="com.balsamiq.mockups::Icon" x="393" y="1235" w="-1" h="-1" measuredW="16" measuredH="16" zOrder="49" locked="false" isInGroup="-1">
+      <controlProperties>
+        <icon>DownFillTriangleIcon%7Cxsmall</icon>
+      </controlProperties>
+    </control>
+    <control controlID="189" controlTypeID="com.balsamiq.mockups::CheckBoxGroup" x="217" y="905" w="57" h="87" measuredW="57" measuredH="87" zOrder="50" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>14</size>
+        <text>*Units*%0A%5B%5D%202%20%281%29%0A%5B%5D%203%20%285%29%0A%5B%5D%204%20%283%29</text>
+      </controlProperties>
+    </control>
+    <control controlID="190" controlTypeID="com.balsamiq.mockups::Icon" x="398" y="905" w="-1" h="-1" measuredW="16" measuredH="16" zOrder="51" locked="false" isInGroup="-1">
+      <controlProperties>
+        <icon>DownFillTriangleIcon%7Cxsmall</icon>
+      </controlProperties>
+    </control>
+    <control controlID="191" controlTypeID="com.balsamiq.mockups::SubTitle" x="206" y="248" w="182" h="-1" measuredW="182" measuredH="23" zOrder="52" locked="false" isInGroup="-1">
+      <controlProperties>
+        <bold>true</bold>
+        <size>20</size>
+        <text>Refine%20your%20results</text>
+      </controlProperties>
+    </control>
+    <control controlID="192" controlTypeID="com.balsamiq.mockups::CheckBoxGroup" x="213" y="1006" w="130" h="133" measuredW="130" measuredH="133" zOrder="53" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>14</size>
+        <text>*Class%20Size*%0A%5B%5D%2015%20and%20under%20%283%29%0A%5B%5D%2016%20to%2035%20%281%29%0A%5B%5D%2036%20to%2075%20%282%29%0A%5B%5D%2075%20to%20150%20%283%29%0A%5B%5D%20151%20and%20up%20%282%29</text>
+      </controlProperties>
+    </control>
+    <control controlID="193" controlTypeID="com.balsamiq.mockups::Icon" x="397" y="1006" w="-1" h="-1" measuredW="16" measuredH="16" zOrder="54" locked="false" isInGroup="-1">
+      <controlProperties>
+        <icon>DownFillTriangleIcon%7Cxsmall</icon>
+      </controlProperties>
+    </control>
+    <control controlID="194" controlTypeID="com.balsamiq.mockups::Paragraph" x="1028" y="295" w="200" h="1122" measuredW="200" measuredH="80" zOrder="28" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>*Description*%3A%20This%20lecture%20on%20modernity%20and%20traditionality%20explores%20the%20modern%20viewpoint%20on%20traditional%20experiences.%20We%20love%20to%20discuss%20modern%20things%20in%20traditional%20contexts%20and%20traditional%20things%20in%20modern%20contexts.%20Lorem%20ipsum%20dolor%20sit%20amet%2C%20consectetur%20adipisicing%20elit%2C%20sed%20do%20eiusmod%20tempor%20incididunt%20ut%20labore%20et%20dolore%20magna%20aliqua.%20Ut%20enim%20ad%20minim%20veniam%2C%20quis%20nostrud%20exercitation%20ullamco%20laboris%20nisi%20ut%20aliquip%20ex%20ea%20commodo%20consequat.%20%0A%20%0A*Prerequisites*%3A%20Graduate%20standing%20in%20the%20Anthropology%20Department%0A%20%0A*Seat%20Availability*%0A%u2022%20Limit%3A%2010%0A%u2022%20Enrolled%3A%209%0A%u2022%20Waitlist%3A%200%0A%u2022%20Available%20seats%3A%201%0A%20%0A*Format*%3A%203%20hours%20of%20lecture%20and%201%20hour%20of%20discussion%20per%20week.%0A%20%0A*Final%20exam%20group*%3A%20None%0A%20%0A*Textbooks*%0A%u2022%20%5BA%20History%20of%20Tradition%5D%2C%20E.M.%20Forster%0A%u2022%20%5BThe%20Most%20Modern%20of%20Moderns%5D%2C%20Michel%20Foucault%0A%20%0A*Restrictions*%3A%20Assumenda%20hoodie%20twee%20PBR%2C%20+1%20Schlitz%20retro%20aliquip%20ad%20minim%20hella.%20Brunch%20wolf%20bespoke%20swag.%20Ea%20assumenda%20gluten-free%20art%20party.%0A%20%0A*Notes*%3A%20Enim%20odio%20blog%20nostrud%20cupidatat%20DIY%20nulla%2C%20+1%20direct%20trade%20dreamcatcher%20officia%20ugh%20reprehenderit%20authentic.%20Fixie%20sint%20fingerstache%20mixtape%2C%20kitsch%20tattooed%20kogi%20whatever%20fugiat%20leggings%20officia.%20%0A%20%0A*Offering%20History*%0A%u2022%20Spring%202013%20-%20R.%20Ess%2C%20C.%20Dee%0A%u2022%20Spring%202012%20-%20R.%20Ess%2C%20C.%20Dee%0A%u2022%20Spring%202011%20-%20R.%20Ess%2C%20C.%20Dee%0A%u2022%20Spring%202010%20-%20R.%20Ess%2C%20C.%20Dee%0A%20%0A*Ratings*%0A8/10%20average%0A%22great%20class%22%AD%u20147.5%0A%22loved%20the%20exam%22%u20149%0A%22could%20be%20more%20modern%22%u20148%0A%20%0A*Grades*%0AAverage%3A%20A-</text>
+      </controlProperties>
+    </control>
+    <control controlID="195" controlTypeID="com.balsamiq.mockups::Icon" x="1133" y="588" w="-1" h="-1" measuredW="16" measuredH="16" zOrder="29" locked="false" isInGroup="-1">
+      <controlProperties>
+        <icon>Info2Icon%7Cxsmall</icon>
+      </controlProperties>
+    </control>
+    <control controlID="196" controlTypeID="com.balsamiq.mockups::Image" x="1034" y="1297" w="177" h="100" measuredW="835" measuredH="795" zOrder="30" locked="false" isInGroup="-1">
+      <controlProperties>
+        <src>./chart.png</src>
+      </controlProperties>
+    </control>
+    <control controlID="197" controlTypeID="com.balsamiq.mockups::Paragraph" x="499" y="646" w="504" h="96" measuredW="200" measuredH="80" zOrder="55" locked="false" isInGroup="-1">
+      <controlProperties>
+        <href>10-results-B-open-discussions%26bm%3B10-results-B-open-discussions.bmml%26bm%3B10-results-B-open-discussions.bmml%26bm%3B10-results-B-open-discussions.bmml</href>
+        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%22368%2C612%2C872%2C708%22%20href%3D%2210-results-B-open-discussions.bmml%22%20alt%3D%2210-results-B-open-discussions%22%20id%3D%22197%22/%3E</map>
+        <size>14</size>
+        <text>*Anthropology%20C262B*%0ATheories%20of%20Traditionality%20and%20Modernity%u2014Discussion%0A2%20discussion%20sections</text>
+      </controlProperties>
+    </control>
+    <control controlID="198" controlTypeID="com.balsamiq.mockups::Link" x="436" y="1371" w="-1" h="-1" measuredW="95" measuredH="20" zOrder="56" locked="false" isInGroup="-1">
+      <controlProperties>
+        <href>1-basic-search-title%26bm%3B1-basic-search-title.bmml%26bm%3B1-basic-search-title.bmml%26bm%3B1-basic-search-title.bmml</href>
+        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%22305%2C1337%2C400%2C1357%22%20href%3D%221-basic-search-title.bmml%22%20alt%3D%221-basic-search-title%22%20id%3D%22198%22/%3E</map>
+        <size>14</size>
+        <text>Back%20to%20search</text>
+      </controlProperties>
+    </control>
+    <control controlID="199" controlTypeID="com.balsamiq.mockups::HRule" x="436" y="1319" w="569" h="-1" measuredW="100" measuredH="10" zOrder="57" locked="false" isInGroup="-1"/>
+  </controls>
+</mockup>
