@@ -7,6 +7,8 @@ $(document).ready(function () {
   // uncomment when done testing:
   //$advanced.hide();
 
+  departmentAutocomplete();
+
   // show/hide the advanced search stuff
   $('#toggleAdvSearch').on('click', function () {
     

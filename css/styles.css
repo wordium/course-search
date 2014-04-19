@@ -41,6 +41,7 @@ img.bulletin {
   padding: 15px 25px;
 }
 
+
 /* search form */
 #search {
   padding: 25px;
@@ -51,20 +52,88 @@ img.bulletin {
   width: 600px;
 }
 
+#basic, #advanced {
+  padding-bottom: 50px;
+}
+
 .formGroup {
   margin-bottom: 25px;
 }
 
-#basic, #advanced {
-  padding-bottom: 50px;
+.searchBtn {
+  margin-top: 25px;
 }
+
+
+/* search form table spacing */
+td {
+  vertical-align: middle;
+}
+
+td.formInput {
+  padding: 2px;
+}
+
+label {
+  padding-bottom: 5px;
+  margin-bottom: 5px;
+}
+
+select {
+  width: 100%
+
+}
+input[type="text"] {
+  width: 99%;
+}
+
+
+/* department autocomplete */
+#inputDepartment + span.ui-helper-hidden-accessible {
+  background-color: black;
+}
+
 
 /* advanced search */
 #toggleAdvSearch {
   text-decoration: underline;
 }
+
 #toggleAdvSearch:hover {
   cursor: pointer;
+}
+
+
+/* units */
+select.units {
+  width: 50px;
+}
+
+
+/* course levels */
+ul#courseLevel {
+  height: 4em;
+}
+
+
+/* breadth requirements */
+ul#lsBreadth, ul#courseLevel {
+    -moz-column-count: 2;
+    -moz-column-gap: 20px;
+    -webkit-column-count: 2;
+    -webkit-column-gap: 20px;
+    column-count: 2;
+    column-gap: 20px;
+}
+
+
+
+
+/* test */
+ul.ui-autocomplete {
+  background: white;
+  border: 1px solid black;
+  width: 350px;
 }
 
 /* time and day */
@@ -75,49 +144,7 @@ img.bulletin {
   text-align: center;
 }
 
-
-/* TODO: clean up these */
-
-/* TODO wtf is this ID */
-td#BLAH { width: 125px;}
-
-.searchBtn {
-  margin-top: 25px;
+td#emptyTD { 
+  width: 125px;
 }
 
-td.formInput {
-  padding: 2px;
-}
-td {
-  vertical-align: middle;
-}
-
-
-ul#lsBreadth, ul#courseLevel {
-    -moz-column-count: 2;
-    -moz-column-gap: 20px;
-    -webkit-column-count: 2;
-    -webkit-column-gap: 20px;
-    column-count: 2;
-    column-gap: 20px;
-}
-
-ul#courseLevel {
-  height: 4em;
-}
-
-select.units {
-  width: 50px;
-}
-
-label {
-  padding-bottom: 5px;
-  margin-bottom: 5px;
-}
-
-select {
-  width: 100%
-}
-input[type="text"] {
-  width: 99%;
-}
