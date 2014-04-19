@@ -105,24 +105,6 @@
             "time": "2-3 p.m."
         }, 
         {
-            "ccn": 78577, 
-            "days": "M", 
-            "finalGroup": "Not applicable", 
-            "instructor": "O. Bandyopadhyay", 
-            "location": {
-                "building": "Soda", 
-                "room": 293
-            }, 
-            "seats": {
-                "available": 11, 
-                "enrolled": 14, 
-                "max": 25, 
-                "waitlist": 10
-            }, 
-            "semester": "Fall 2014", 
-            "time": "12-1 p.m."
-        }, 
-        {
             "ccn": 96584, 
             "days": "Th", 
             "finalGroup": "Not applicable", 
@@ -139,24 +121,6 @@
             }, 
             "semester": "Fall 2014", 
             "time": "8-9 a.m."
-        }, 
-        {
-            "ccn": 67911, 
-            "days": "M", 
-            "finalGroup": "Not applicable", 
-            "instructor": "M. Sarka", 
-            "location": {
-                "building": "Wurster", 
-                "room": 292
-            }, 
-            "seats": {
-                "available": 23, 
-                "enrolled": 2, 
-                "max": 25, 
-                "waitlist": 9
-            }, 
-            "semester": "Fall 2014", 
-            "time": "1-2 p.m."
         }, 
         {
             "ccn": 43660, 
@@ -381,24 +345,6 @@
         "SS": false
     }, 
     "classInstance": [
-        {
-            "ccn": 93167, 
-            "days": "F", 
-            "finalGroup": "Not applicable", 
-            "instructor": "S. Abdullah", 
-            "location": {
-                "building": "Evans", 
-                "room": 40
-            }, 
-            "seats": {
-                "available": 0, 
-                "enrolled": 15, 
-                "max": 15, 
-                "waitlist": 0
-            }, 
-            "semester": "Fall 2014", 
-            "time": "2-3 p.m."
-        }, 
         {
             "ccn": 52578, 
             "days": "W", 
@@ -827,24 +773,6 @@
     }, 
     "classInstance": [
         {
-            "ccn": 26041, 
-            "days": "M", 
-            "finalGroup": "Not applicable", 
-            "instructor": "A. Kennard", 
-            "location": {
-                "building": "Wheeler", 
-                "room": 20
-            }, 
-            "seats": {
-                "available": 8, 
-                "enrolled": 7, 
-                "max": 15, 
-                "waitlist": 4
-            }, 
-            "semester": "Fall 2014", 
-            "time": "2-3 p.m."
-        }, 
-        {
             "ccn": 61785, 
             "days": "Tu", 
             "finalGroup": "Not applicable", 
@@ -879,24 +807,6 @@
             }, 
             "semester": "Fall 2014", 
             "time": "9-10 a.m."
-        }, 
-        {
-            "ccn": 25158, 
-            "days": "F", 
-            "finalGroup": "Not applicable", 
-            "instructor": "C. Marquez", 
-            "location": {
-                "building": "Evans", 
-                "room": 289
-            }, 
-            "seats": {
-                "available": 7, 
-                "enrolled": 8, 
-                "max": 15, 
-                "waitlist": 9
-            }, 
-            "semester": "Fall 2014", 
-            "time": "4-5 p.m."
         }
     ], 
     "courseThread": "", 

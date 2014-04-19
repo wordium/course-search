@@ -240,24 +240,6 @@
             "time": "1-2 p.m."
         }, 
         {
-            "ccn": 61905, 
-            "days": "M", 
-            "finalGroup": "Not applicable", 
-            "instructor": "I. Jaskolski", 
-            "location": {
-                "building": "Evans", 
-                "room": 52
-            }, 
-            "seats": {
-                "available": 9, 
-                "enrolled": 1, 
-                "max": 10, 
-                "waitlist": 2
-            }, 
-            "semester": "Fall 2014", 
-            "time": "12-1 p.m."
-        }, 
-        {
             "ccn": 61201, 
             "days": "Tu", 
             "finalGroup": "Not applicable", 
@@ -1122,24 +1104,6 @@
             }, 
             "semester": "Fall 2014", 
             "time": "10-11 a.m."
-        }, 
-        {
-            "ccn": 71138, 
-            "days": "F", 
-            "finalGroup": "Not applicable", 
-            "instructor": "A. Kennard", 
-            "location": {
-                "building": "Wurster", 
-                "room": 228
-            }, 
-            "seats": {
-                "available": 5, 
-                "enrolled": 20, 
-                "max": 25, 
-                "waitlist": 5
-            }, 
-            "semester": "Fall 2014", 
-            "time": "8-9 a.m."
         }
     ], 
     "courseThread": "", 
@@ -1743,24 +1707,6 @@
             }, 
             "semester": "Fall 2014", 
             "time": "9-10 a.m."
-        }, 
-        {
-            "ccn": 50963, 
-            "days": "F", 
-            "finalGroup": "Not applicable", 
-            "instructor": "S. Abdullah", 
-            "location": {
-                "building": "Dwinelle", 
-                "room": 97
-            }, 
-            "seats": {
-                "available": 10, 
-                "enrolled": 10, 
-                "max": 20, 
-                "waitlist": 7
-            }, 
-            "semester": "Fall 2014", 
-            "time": "2-3 p.m."
         }
     ], 
     "courseThread": "", 
@@ -2215,24 +2161,6 @@
             }, 
             "semester": "Fall 2014", 
             "time": "12-1 p.m."
-        }, 
-        {
-            "ccn": 57383, 
-            "days": "MWF", 
-            "finalGroup": "Group 2--Tuesday, December 16, 2014, 9 a.m.", 
-            "instructor": "B. Varela", 
-            "location": {
-                "building": "Evans", 
-                "room": 206
-            }, 
-            "seats": {
-                "available": 19, 
-                "enrolled": 21, 
-                "max": 40, 
-                "waitlist": 1
-            }, 
-            "semester": "Fall 2014", 
-            "time": "1-2 p.m."
         }
     ], 
     "courseThread": "This course is part of the Cultural Forms in Transit Course Thread.", 
@@ -3177,24 +3105,6 @@
             "time": "12-1 p.m."
         }, 
         {
-            "ccn": 94275, 
-            "days": "F", 
-            "finalGroup": "Not applicable", 
-            "instructor": "I. Jaskolski", 
-            "location": {
-                "building": "Evans", 
-                "room": 117
-            }, 
-            "seats": {
-                "available": 13, 
-                "enrolled": 2, 
-                "max": 15, 
-                "waitlist": 3
-            }, 
-            "semester": "Fall 2014", 
-            "time": "11 a.m.-12 p.m."
-        }, 
-        {
             "ccn": 50972, 
             "days": "Th", 
             "finalGroup": "Not applicable", 
@@ -3208,24 +3118,6 @@
                 "enrolled": 5, 
                 "max": 12, 
                 "waitlist": 10
-            }, 
-            "semester": "Fall 2014", 
-            "time": "1-2 p.m."
-        }, 
-        {
-            "ccn": 33541, 
-            "days": "F", 
-            "finalGroup": "Not applicable", 
-            "instructor": "A. Kennard", 
-            "location": {
-                "building": "Wheeler", 
-                "room": 202
-            }, 
-            "seats": {
-                "available": 1, 
-                "enrolled": 24, 
-                "max": 25, 
-                "waitlist": 2
             }, 
             "semester": "Fall 2014", 
             "time": "1-2 p.m."
@@ -3472,24 +3364,6 @@
             }, 
             "semester": "Fall 2014", 
             "time": "12-1 p.m."
-        }, 
-        {
-            "ccn": 37260, 
-            "days": "M", 
-            "finalGroup": "Not applicable", 
-            "instructor": "K. Serafini, M. Ferrero", 
-            "location": {
-                "building": "Wheeler", 
-                "room": 84
-            }, 
-            "seats": {
-                "available": 5, 
-                "enrolled": 20, 
-                "max": 25, 
-                "waitlist": 2
-            }, 
-            "semester": "Fall 2014", 
-            "time": "3-4 p.m."
         }, 
         {
             "ccn": 61005, 
@@ -4112,24 +3986,6 @@
     }, 
     "classInstance": [
         {
-            "ccn": 67921, 
-            "days": "M", 
-            "finalGroup": "Not applicable", 
-            "instructor": "W. Hopkins, M. Anson", 
-            "location": {
-                "building": "Evans", 
-                "room": 7
-            }, 
-            "seats": {
-                "available": 6, 
-                "enrolled": 6, 
-                "max": 12, 
-                "waitlist": 3
-            }, 
-            "semester": "Fall 2014", 
-            "time": "2-3 p.m."
-        }, 
-        {
             "ccn": 48545, 
             "days": "M", 
             "finalGroup": "Not applicable", 
@@ -4146,24 +4002,6 @@
             }, 
             "semester": "Fall 2014", 
             "time": "4-5 p.m."
-        }, 
-        {
-            "ccn": 77451, 
-            "days": "F", 
-            "finalGroup": "Not applicable", 
-            "instructor": "A. Kennard", 
-            "location": {
-                "building": "Evans", 
-                "room": 66
-            }, 
-            "seats": {
-                "available": 19, 
-                "enrolled": 6, 
-                "max": 25, 
-                "waitlist": 8
-            }, 
-            "semester": "Fall 2014", 
-            "time": "3-4 p.m."
         }, 
         {
             "ccn": 65988, 
@@ -4258,24 +4096,6 @@
         "SS": false
     }, 
     "classInstance": [
-        {
-            "ccn": 93167, 
-            "days": "F", 
-            "finalGroup": "Not applicable", 
-            "instructor": "S. Abdullah", 
-            "location": {
-                "building": "Evans", 
-                "room": 40
-            }, 
-            "seats": {
-                "available": 0, 
-                "enrolled": 15, 
-                "max": 15, 
-                "waitlist": 0
-            }, 
-            "semester": "Fall 2014", 
-            "time": "2-3 p.m."
-        }, 
         {
             "ccn": 52578, 
             "days": "W", 
@@ -4917,24 +4737,6 @@
             "time": "4-5 p.m."
         }, 
         {
-            "ccn": 62922, 
-            "days": "F", 
-            "finalGroup": "Not applicable", 
-            "instructor": "M. Mhasalkar, U. Jehlicka", 
-            "location": {
-                "building": "Wurster", 
-                "room": 297
-            }, 
-            "seats": {
-                "available": 0, 
-                "enrolled": 20, 
-                "max": 20, 
-                "waitlist": 1
-            }, 
-            "semester": "Fall 2014", 
-            "time": "1-2 p.m."
-        }, 
-        {
             "ccn": 13963, 
             "days": "F", 
             "finalGroup": "Not applicable", 
@@ -4948,24 +4750,6 @@
                 "enrolled": 3, 
                 "max": 15, 
                 "waitlist": 1
-            }, 
-            "semester": "Fall 2014", 
-            "time": "4-5 p.m."
-        }, 
-        {
-            "ccn": 80393, 
-            "days": "M", 
-            "finalGroup": "Not applicable", 
-            "instructor": "S. Abdullah", 
-            "location": {
-                "building": "Barrows", 
-                "room": 277
-            }, 
-            "seats": {
-                "available": 12, 
-                "enrolled": 0, 
-                "max": 12, 
-                "waitlist": 0
             }, 
             "semester": "Fall 2014", 
             "time": "4-5 p.m."
@@ -5085,24 +4869,6 @@
     }, 
     "classInstance": [
         {
-            "ccn": 26041, 
-            "days": "M", 
-            "finalGroup": "Not applicable", 
-            "instructor": "A. Kennard", 
-            "location": {
-                "building": "Wheeler", 
-                "room": 20
-            }, 
-            "seats": {
-                "available": 8, 
-                "enrolled": 7, 
-                "max": 15, 
-                "waitlist": 4
-            }, 
-            "semester": "Fall 2014", 
-            "time": "2-3 p.m."
-        }, 
-        {
             "ccn": 61785, 
             "days": "Tu", 
             "finalGroup": "Not applicable", 
@@ -5137,24 +4903,6 @@
             }, 
             "semester": "Fall 2014", 
             "time": "9-10 a.m."
-        }, 
-        {
-            "ccn": 25158, 
-            "days": "F", 
-            "finalGroup": "Not applicable", 
-            "instructor": "C. Marquez", 
-            "location": {
-                "building": "Evans", 
-                "room": 289
-            }, 
-            "seats": {
-                "available": 7, 
-                "enrolled": 8, 
-                "max": 15, 
-                "waitlist": 9
-            }, 
-            "semester": "Fall 2014", 
-            "time": "4-5 p.m."
         }
     ], 
     "courseThread": "", 
