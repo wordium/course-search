@@ -9,3 +9,11 @@ Changes to our Balsamiq interactions
   15-saving-interaction and 16-after-saving)
 	-Note: I did not update any of the other results pages to include the changed icons that would result from them being on the 
 	saved list; this seemed like it would be confusing to users unless we took them through saving interactions for each one
+• Added a Compare interaction:
+    -From the Saved Courses screen, selecting any one of ARCH 100, ANTH C262B, and ANTH 151 takes you to a screen where all 
+    three are selected (17-compare-choose)
+    -From there, clicking either of the Compare Selected buttons takes you to a comparison screen (18-compare), 
+    showing three classes and a dropdown to add more (which is viewable but not interactive (19-compare-dropdown)
+• Note: all Save and Compare interactions are linked only to Results A screens
+
+THESE CHANGES HAVE ALL BEEN QA'd BY LJ BUT SHOULD BE QA'd AGAIN BY SYH.
