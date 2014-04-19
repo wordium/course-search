@@ -1,0 +1,476 @@
+<mockup version="1.0" skin="wireframe" fontFace="Balsamiq Sans" measuredW="1331" measuredH="1731" mockupW="1200" mockupH="1697">
+  <controls>
+    <control controlID="10" controlTypeID="com.balsamiq.mockups::Canvas" x="208" y="227" w="1046" h="1182" measuredW="100" measuredH="70" zOrder="2" locked="true" isInGroup="-1"/>
+    <control controlID="12" controlTypeID="com.balsamiq.mockups::Image" x="131" y="1419" w="1200" h="312" measuredW="1080" measuredH="312" zOrder="4" locked="true" isInGroup="-1">
+      <controlProperties>
+        <src>./footer.png</src>
+        <text/>
+      </controlProperties>
+    </control>
+    <control controlID="16" controlTypeID="com.balsamiq.mockups::Image" x="131" y="34" w="1200" h="148" measuredW="1080" measuredH="148" zOrder="1" locked="true" isInGroup="-1">
+      <controlProperties>
+        <src>./header.png</src>
+        <text/>
+      </controlProperties>
+    </control>
+    <control controlID="18" controlTypeID="com.balsamiq.mockups::Canvas" x="131" y="170" w="1200" h="1278" measuredW="100" measuredH="70" zOrder="0" locked="true" isInGroup="-1">
+      <controlProperties>
+        <borderStyle>square</borderStyle>
+        <color>5464687</color>
+      </controlProperties>
+    </control>
+    <control controlID="33" controlTypeID="com.balsamiq.mockups::Canvas" x="208" y="201" w="1046" h="37" measuredW="100" measuredH="70" zOrder="5" locked="true" isInGroup="-1">
+      <controlProperties>
+        <borderStyle>none</borderStyle>
+        <color>545684</color>
+      </controlProperties>
+    </control>
+    <control controlID="34" controlTypeID="com.balsamiq.mockups::Title" x="219" y="209" w="1050" h="-1" measuredW="172" measuredH="23" zOrder="6" locked="false" isInGroup="-1">
+      <controlProperties>
+        <align>left</align>
+        <color>16777215</color>
+        <size>20</size>
+        <text>COURSE%20SEARCH</text>
+      </controlProperties>
+    </control>
+    <control controlID="36" controlTypeID="com.balsamiq.mockups::Label" x="252" y="383" w="103" h="-1" measuredW="103" measuredH="22" zOrder="7" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>14</size>
+        <text>Course%20Number%3A</text>
+      </controlProperties>
+    </control>
+    <control controlID="38" controlTypeID="com.balsamiq.mockups::TextInput" x="419" y="352" w="350" h="-1" measuredW="176" measuredH="25" zOrder="8" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>14</size>
+        <state>disabled</state>
+        <text>Enter%20a%20department%20name</text>
+      </controlProperties>
+    </control>
+    <control controlID="39" controlTypeID="com.balsamiq.mockups::ComboBox" x="419" y="300" w="350" h="-1" measuredW="46" measuredH="25" zOrder="9" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>14</size>
+        <state>closed</state>
+        <text>All%0ASpring%202014%0ASpring%202014%0AFall%202013%0ASummer%202013%0ASpring%202013</text>
+      </controlProperties>
+    </control>
+    <control controlID="41" controlTypeID="com.balsamiq.mockups::Label" x="252" y="353" w="79" h="-1" measuredW="79" measuredH="22" zOrder="10" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>14</size>
+        <text>Department%3A</text>
+      </controlProperties>
+    </control>
+    <control controlID="44" controlTypeID="com.balsamiq.mockups::Label" x="252" y="509" w="-1" h="-1" measuredW="66" measuredH="22" zOrder="11" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>14</size>
+        <text>Instructor%3A</text>
+      </controlProperties>
+    </control>
+    <control controlID="45" controlTypeID="com.balsamiq.mockups::Label" x="252" y="301" w="66" h="-1" measuredW="66" measuredH="22" zOrder="12" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>14</size>
+        <text>Semester%3A</text>
+      </controlProperties>
+    </control>
+    <control controlID="46" controlTypeID="com.balsamiq.mockups::TextInput" x="419" y="382" w="350" h="-1" measuredW="56" measuredH="25" zOrder="13" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>14</size>
+        <state>disabled</state>
+        <text>E.g.%2C%201A</text>
+      </controlProperties>
+    </control>
+    <control controlID="49" controlTypeID="com.balsamiq.mockups::Label" x="252" y="461" w="107" h="-1" measuredW="107" measuredH="22" zOrder="14" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>14</size>
+        <text>Title%20Keyword%28s%29%3A</text>
+      </controlProperties>
+    </control>
+    <control controlID="50" controlTypeID="com.balsamiq.mockups::TextInput" x="419" y="430" w="350" h="-1" measuredW="279" measuredH="25" zOrder="15" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>14</size>
+        <state>disabled</state>
+        <text>Enter%20keywords%20for%20searching%20descriptions</text>
+      </controlProperties>
+    </control>
+    <control controlID="51" controlTypeID="com.balsamiq.mockups::Label" x="252" y="431" w="75" h="-1" measuredW="75" measuredH="22" zOrder="16" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>14</size>
+        <text>Keyword%28s%29%3A</text>
+      </controlProperties>
+    </control>
+    <control controlID="57" controlTypeID="com.balsamiq.mockups::TextInput" x="419" y="508" w="350" h="-1" measuredW="265" measuredH="25" zOrder="17" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>14</size>
+        <state>disabled</state>
+        <text>Enter%20instructor%27s%20first%20and/or%20last%20name</text>
+      </controlProperties>
+    </control>
+    <control controlID="58" controlTypeID="com.balsamiq.mockups::Canvas" x="233" y="283" w="558" h="1126" measuredW="100" measuredH="70" zOrder="3" locked="false" isInGroup="-1"/>
+    <control controlID="59" controlTypeID="com.balsamiq.mockups::Button" x="419" y="553" w="350" h="24" measuredW="68" measuredH="24" zOrder="18" locked="false" isInGroup="-1">
+      <controlProperties>
+        <bold>true</bold>
+        <size>14</size>
+        <text>Search</text>
+      </controlProperties>
+    </control>
+    <control controlID="60" controlTypeID="com.balsamiq.mockups::Link" x="252" y="598" w="-1" h="-1" measuredW="193" measuredH="20" zOrder="19" locked="false" isInGroup="-1">
+      <controlProperties>
+        <href>0-basic-search%26bm%3B0-basic-search.bmml%26bm%3B0-basic-search.bmml%26bm%3B0-basic-search.bmml</href>
+        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%22121%2C564%2C314%2C584%22%20href%3D%220-basic-search.bmml%22%20alt%3D%220-basic-search%22%20id%3D%2260%22/%3E</map>
+        <size>14</size>
+        <text>Close%20Advanced%20Filter%20Options</text>
+      </controlProperties>
+    </control>
+    <control controlID="66" controlTypeID="com.balsamiq.mockups::CheckBox" x="252" y="641" w="-1" h="-1" measuredW="92" measuredH="23" zOrder="20" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>14</size>
+        <text>Open%20Seats</text>
+      </controlProperties>
+    </control>
+    <control controlID="67" controlTypeID="com.balsamiq.mockups::CheckBox" x="252" y="662" w="-1" h="-1" measuredW="101" measuredH="23" zOrder="21" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>14</size>
+        <text>Open%20Waitlist</text>
+      </controlProperties>
+    </control>
+    <control controlID="91" controlTypeID="com.balsamiq.mockups::Button" x="419" y="1374" w="350" h="24" measuredW="68" measuredH="24" zOrder="23" locked="false" isInGroup="-1">
+      <controlProperties>
+        <bold>true</bold>
+        <size>14</size>
+        <text>Search</text>
+      </controlProperties>
+    </control>
+    <control controlID="97" controlTypeID="com.balsamiq.mockups::CheckBox" x="252" y="683" w="219" h="22" measuredW="203" measuredH="23" zOrder="26" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>14</size>
+        <text>Exclude%20discussions%20and%20labs</text>
+      </controlProperties>
+    </control>
+    <control controlID="98" controlTypeID="com.balsamiq.mockups::Label" x="252" y="747" w="-1" h="-1" measuredW="138" measuredH="22" zOrder="27" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>14</size>
+        <text>Course%20Classification%3A</text>
+      </controlProperties>
+    </control>
+    <control controlID="102" controlTypeID="__group__" x="252" y="715" w="334" h="24" measuredW="334" measuredH="24" zOrder="22" locked="false" isInGroup="-1">
+      <groupChildrenDescriptors>
+        <control controlID="0" controlTypeID="com.balsamiq.mockups::Label" x="0" y="1" w="-1" h="-1" measuredW="36" measuredH="22" zOrder="0" locked="false" isInGroup="102">
+          <controlProperties>
+            <size>14</size>
+            <text>Units%3A</text>
+          </controlProperties>
+        </control>
+        <control controlID="1" controlTypeID="com.balsamiq.mockups::ComboBox" x="165" y="0" w="75" h="-1" measuredW="51" measuredH="24" zOrder="1" locked="false" isInGroup="102">
+          <controlProperties>
+            <state>closed</state>
+            <text>_Min_%0A0%0A0.5%0A1%0A2%0A3%0A4%0A5+</text>
+          </controlProperties>
+        </control>
+        <control controlID="2" controlTypeID="com.balsamiq.mockups::ComboBox" x="259" y="0" w="75" h="-1" measuredW="55" measuredH="24" zOrder="2" locked="false" isInGroup="102">
+          <controlProperties>
+            <state>closed</state>
+            <text>_Max_%0A0%0A0.5%0A1%0A2%0A3%0A4%0A5+</text>
+          </controlProperties>
+        </control>
+      </groupChildrenDescriptors>
+    </control>
+    <control controlID="103" controlTypeID="com.balsamiq.mockups::HRule" x="252" y="826" w="515" h="-1" measuredW="100" measuredH="10" zOrder="28" locked="false" isInGroup="-1"/>
+    <control controlID="104" controlTypeID="com.balsamiq.mockups::HRule" x="252" y="625" w="515" h="-1" measuredW="100" measuredH="10" zOrder="29" locked="false" isInGroup="-1"/>
+    <control controlID="108" controlTypeID="com.balsamiq.mockups::HRule" x="252" y="1116" w="515" h="-1" measuredW="100" measuredH="10" zOrder="30" locked="false" isInGroup="-1"/>
+    <control controlID="113" controlTypeID="com.balsamiq.mockups::TextInput" x="314" y="1083" w="421" h="-1" measuredW="420" measuredH="25" zOrder="24" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>14</size>
+        <state>disabled</state>
+        <text>Enter%20a%20major%20to%20see%20courses%20that%20count%20toward%20its%20requirements</text>
+      </controlProperties>
+    </control>
+    <control controlID="114" controlTypeID="com.balsamiq.mockups::Label" x="252" y="1084" w="-1" h="-1" measuredW="57" measuredH="22" zOrder="25" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>14</size>
+        <text>Major%28s%29%3A</text>
+      </controlProperties>
+    </control>
+    <control controlID="115" controlTypeID="com.balsamiq.mockups::CheckBox" x="252" y="1002" w="-1" h="-1" measuredW="162" measuredH="23" zOrder="33" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>14</size>
+        <text>Biological%20Science%20%28BS%29</text>
+      </controlProperties>
+    </control>
+    <control controlID="116" controlTypeID="com.balsamiq.mockups::CheckBox" x="252" y="980" w="-1" h="-1" measuredW="169" measuredH="23" zOrder="34" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>14</size>
+        <text>Arts%20and%20Literature%20%28AL%29</text>
+      </controlProperties>
+    </control>
+    <control controlID="117" controlTypeID="com.balsamiq.mockups::CheckBox" x="252" y="1046" w="-1" h="-1" measuredW="177" measuredH="23" zOrder="35" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>14</size>
+        <text>International%20Studies%20%28IS%29</text>
+      </controlProperties>
+    </control>
+    <control controlID="118" controlTypeID="com.balsamiq.mockups::CheckBox" x="252" y="1024" w="-1" h="-1" measuredW="161" measuredH="23" zOrder="36" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>14</size>
+        <text>Historical%20Studies%20%28HS%29</text>
+      </controlProperties>
+    </control>
+    <control controlID="119" controlTypeID="com.balsamiq.mockups::CheckBox" x="531" y="1026" w="-1" h="-1" measuredW="248" measuredH="23" zOrder="37" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>14</size>
+        <text>Social%20and%20Behavioral%20Science%20%28SBS%29</text>
+      </controlProperties>
+    </control>
+    <control controlID="120" controlTypeID="com.balsamiq.mockups::CheckBox" x="531" y="1004" w="-1" h="-1" measuredW="156" measuredH="23" zOrder="38" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>14</size>
+        <text>Physical%20Science%20%28PS%29</text>
+      </controlProperties>
+    </control>
+    <control controlID="121" controlTypeID="com.balsamiq.mockups::CheckBox" x="531" y="885" w="-1" h="-1" measuredW="235" measuredH="23" zOrder="39" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>14</size>
+        <text>Reading%20and%20Composition%20B%20%28RCB%29</text>
+      </controlProperties>
+    </control>
+    <control controlID="122" controlTypeID="com.balsamiq.mockups::CheckBox" x="531" y="862" w="-1" h="-1" measuredW="236" measuredH="23" zOrder="40" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>14</size>
+        <text>Reading%20and%20Composition%20A%20%28RCA%29</text>
+      </controlProperties>
+    </control>
+    <control controlID="123" controlTypeID="com.balsamiq.mockups::CheckBox" x="252" y="862" w="-1" h="-1" measuredW="168" measuredH="23" zOrder="41" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>14</size>
+        <text>American%20Cultures%20%28AC%29</text>
+      </controlProperties>
+    </control>
+    <control controlID="124" controlTypeID="com.balsamiq.mockups::CheckBox" x="531" y="982" w="-1" h="-1" measuredW="189" measuredH="23" zOrder="42" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>14</size>
+        <text>Philosophy%20and%20Values%20%28PV%29</text>
+      </controlProperties>
+    </control>
+    <control controlID="128" controlTypeID="com.balsamiq.mockups::CheckBox" x="252" y="770" w="-1" h="-1" measuredW="150" measuredH="23" zOrder="43" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>14</size>
+        <text>Lower%20Division%20%281-99%29</text>
+      </controlProperties>
+    </control>
+    <control controlID="129" controlTypeID="com.balsamiq.mockups::CheckBox" x="252" y="793" w="-1" h="-1" measuredW="173" measuredH="23" zOrder="44" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>14</size>
+        <text>Upper%20Division%20%28100-199%29</text>
+      </controlProperties>
+    </control>
+    <control controlID="130" controlTypeID="com.balsamiq.mockups::CheckBox" x="531" y="770" w="-1" h="-1" measuredW="145" measuredH="23" zOrder="45" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>14</size>
+        <text>Graduate%20%28200-299%29</text>
+      </controlProperties>
+    </control>
+    <control controlID="131" controlTypeID="com.balsamiq.mockups::CheckBox" x="531" y="793" w="-1" h="-1" measuredW="164" measuredH="23" zOrder="46" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>14</size>
+        <text>Professional%20%28300-399%29</text>
+      </controlProperties>
+    </control>
+    <control controlID="132" controlTypeID="__group__" x="419" y="460" w="350" h="25" measuredW="350" measuredH="25" zOrder="47" locked="false" isInGroup="-1">
+      <groupChildrenDescriptors>
+        <control controlID="0" controlTypeID="com.balsamiq.mockups::TextInput" x="0" y="0" w="350" h="-1" measuredW="280" measuredH="25" zOrder="0" locked="false" isInGroup="132">
+          <controlProperties>
+            <size>14</size>
+            <state>disabled</state>
+            <text>Enter%20keywords%20for%20searching%20course%20titles</text>
+          </controlProperties>
+        </control>
+      </groupChildrenDescriptors>
+    </control>
+    <control controlID="134" controlTypeID="com.balsamiq.mockups::Canvas" x="813" y="282" w="419" h="45" measuredW="100" measuredH="70" zOrder="48" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>15658734</color>
+      </controlProperties>
+    </control>
+    <control controlID="135" controlTypeID="com.balsamiq.mockups::Paragraph" x="827" y="289" w="390" h="30" measuredW="200" measuredH="80" zOrder="49" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>0</color>
+        <text>*Semester*%3A%20see%20current%20and%20past%20semesters%2C%20or%20all%20courses%20ever%20offered%20at%20Berkeley.</text>
+      </controlProperties>
+    </control>
+    <control controlID="136" controlTypeID="com.balsamiq.mockups::Label" x="233" y="255" w="558" h="-1" measuredW="536" measuredH="21" zOrder="50" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>All%20search%20fields%20are%20optional.%20Leave%20fields%20blank%20to%20see%20all%20courses%20for%20a%20selected%20semester.</text>
+      </controlProperties>
+    </control>
+    <control controlID="137" controlTypeID="com.balsamiq.mockups::Canvas" x="813" y="354" w="419" h="45" measuredW="100" measuredH="70" zOrder="51" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>15658734</color>
+      </controlProperties>
+    </control>
+    <control controlID="138" controlTypeID="com.balsamiq.mockups::Paragraph" x="827" y="361" w="390" h="30" measuredW="200" measuredH="80" zOrder="52" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>0</color>
+        <text>*Department*%3A%20start%20typing%20to%20see%20a%20list%20of%20suggestions.%0A*Course%20Number*%3A%20will%20autosuggest%20if%20Department%20is%20entered.%20</text>
+      </controlProperties>
+    </control>
+    <control controlID="139" controlTypeID="com.balsamiq.mockups::Canvas" x="813" y="432" w="419" h="45" measuredW="100" measuredH="70" zOrder="53" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>15658734</color>
+      </controlProperties>
+    </control>
+    <control controlID="140" controlTypeID="com.balsamiq.mockups::Paragraph" x="827" y="439" w="390" h="30" measuredW="200" measuredH="80" zOrder="54" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>0</color>
+        <text>*Keyword%28s%29*%3A%20enter%20one%20or%20more%20to%20search%20course%20descriptions.%0A*Title%20Keyword%28s%29*%3A%20enter%20one%20or%20more%20to%20search%20course%20titles%20only.</text>
+      </controlProperties>
+    </control>
+    <control controlID="141" controlTypeID="com.balsamiq.mockups::Canvas" x="813" y="507" w="419" h="30" measuredW="100" measuredH="70" zOrder="55" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>15658734</color>
+      </controlProperties>
+    </control>
+    <control controlID="142" controlTypeID="com.balsamiq.mockups::Paragraph" x="827" y="516" w="390" h="15" measuredW="200" measuredH="80" zOrder="56" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>0</color>
+        <text>%20*Instructor*%3A%20enter%20any%20part%20of%20the%20first%20and/or%20last%20name.%20</text>
+      </controlProperties>
+    </control>
+    <control controlID="143" controlTypeID="com.balsamiq.mockups::Canvas" x="813" y="579" w="419" h="45" measuredW="100" measuredH="70" zOrder="57" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>15658734</color>
+      </controlProperties>
+    </control>
+    <control controlID="144" controlTypeID="com.balsamiq.mockups::Paragraph" x="827" y="586" w="390" h="30" measuredW="200" measuredH="80" zOrder="58" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>0</color>
+        <text>*Advanced%20Filter%20Options*%20let%20you%20search%20according%20to%20seat%20availability%2C%20units%2C%20breadth%20requirements%2C%20time%20and%20day%2C%20and%20more.</text>
+      </controlProperties>
+    </control>
+    <control controlID="147" controlTypeID="com.balsamiq.mockups::Paragraph" x="252" y="927" w="517" h="58" measuredW="200" measuredH="80" zOrder="59" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>14</size>
+        <text>L%26S%20Breadth%20Requirements%0AMost%20courses%20that%20meet%20L%26S%20Breadth%20requirements%20will%20do%20so%20for%20other%20colleges%20as%20well.%20If%20you%20are%20unsure%2C%20check%20with%20your%20advisor%20or%20your%20college%27s%20handbook.</text>
+      </controlProperties>
+    </control>
+    <control controlID="148" controlTypeID="com.balsamiq.mockups::Label" x="252" y="840" w="-1" h="-1" measuredW="146" measuredH="22" zOrder="60" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>14</size>
+        <text>Campus%20Requirements</text>
+      </controlProperties>
+    </control>
+    <control controlID="149" controlTypeID="com.balsamiq.mockups::CheckBox" x="252" y="885" w="-1" h="-1" measuredW="276" measuredH="23" zOrder="61" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>14</size>
+        <text>American%20History%20and%20Institutions%20%28AH%26I%29</text>
+      </controlProperties>
+    </control>
+    <control controlID="150" controlTypeID="com.balsamiq.mockups::Canvas" x="813" y="644" w="419" h="59" measuredW="100" measuredH="70" zOrder="62" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>15658734</color>
+      </controlProperties>
+    </control>
+    <control controlID="151" controlTypeID="com.balsamiq.mockups::Paragraph" x="827" y="651" w="390" h="52" measuredW="200" measuredH="80" zOrder="63" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>0</color>
+        <text>*Seats*%3A%20Check%20to%20search%20only%20classes%20with%20open%20seats.%0A*Waitlist*%3A%20Check%20to%20search%20classes%20where%20the%20waitlist%20is%20open.%0A*Exclude*%3A%20Check%20to%20exclude%20discussions%20and%20labs%20from%20your%20search.</text>
+      </controlProperties>
+    </control>
+    <control controlID="153" controlTypeID="com.balsamiq.mockups::Canvas" x="813" y="712" w="419" h="30" measuredW="100" measuredH="70" zOrder="64" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>15658734</color>
+      </controlProperties>
+    </control>
+    <control controlID="154" controlTypeID="com.balsamiq.mockups::Paragraph" x="827" y="720" w="390" h="15" measuredW="200" measuredH="80" zOrder="65" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>0</color>
+        <text>*Units*%3A%20Enter%20a%20minimum%20and/or%20maximum.</text>
+      </controlProperties>
+    </control>
+    <control controlID="155" controlTypeID="com.balsamiq.mockups::Canvas" x="813" y="771" w="419" h="30" measuredW="100" measuredH="70" zOrder="66" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>15658734</color>
+      </controlProperties>
+    </control>
+    <control controlID="156" controlTypeID="com.balsamiq.mockups::Paragraph" x="827" y="779" w="390" h="15" measuredW="200" measuredH="80" zOrder="67" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>0</color>
+        <text>*Course%20Classification*%3A%20Select%20the%20course%20level%20you%20wish%20to%20search.</text>
+      </controlProperties>
+    </control>
+    <control controlID="157" controlTypeID="com.balsamiq.mockups::Canvas" x="813" y="849" w="419" h="48" measuredW="100" measuredH="70" zOrder="68" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>15658734</color>
+      </controlProperties>
+    </control>
+    <control controlID="158" controlTypeID="com.balsamiq.mockups::Paragraph" x="827" y="856" w="390" h="35" measuredW="200" measuredH="80" zOrder="69" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>0</color>
+        <text>*Campus%20Requirements*%3A%20Check%20boxes%20to%20search%20for%20classes%20that%20meet%20the%20selected%20campus%20requirements.</text>
+      </controlProperties>
+    </control>
+    <control controlID="159" controlTypeID="com.balsamiq.mockups::Canvas" x="813" y="944" w="419" h="112" measuredW="100" measuredH="70" zOrder="70" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>15658734</color>
+      </controlProperties>
+    </control>
+    <control controlID="160" controlTypeID="com.balsamiq.mockups::Paragraph" x="827" y="951" w="390" h="99" measuredW="200" measuredH="80" zOrder="71" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>0</color>
+        <text>*L%20%26%20S%20Breadth%20Requirements*%3A%20Check%20boxes%20to%20search%20for%20courses%20that%20fulfill%20the%20selected%20breadth%20requirements.%20Note%20that%20although%20most%20courses%20that%20meet%20L%26S%20requirements%20will%20also%20do%20so%20for%20other%20colleges%2C%20students%20in%20other%20colleges%20are%20advised%20to%20double-check%20with%20their%20advisor%20and/or%20the%20handbook%20that%20documents%20their%20requirements.</text>
+      </controlProperties>
+    </control>
+    <control controlID="162" controlTypeID="com.balsamiq.mockups::Icon" x="743" y="1087" w="-1" h="-1" measuredW="16" measuredH="16" zOrder="72" locked="false" isInGroup="-1">
+      <controlProperties>
+        <icon>CircledPlusIcon%7Cxsmall</icon>
+      </controlProperties>
+    </control>
+    <control controlID="163" controlTypeID="com.balsamiq.mockups::Canvas" x="813" y="1078" w="419" h="41" measuredW="100" measuredH="70" zOrder="73" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>15658734</color>
+      </controlProperties>
+    </control>
+    <control controlID="164" controlTypeID="com.balsamiq.mockups::Paragraph" x="827" y="1084" w="390" h="34" measuredW="200" measuredH="80" zOrder="74" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>0</color>
+        <text>*Major%28s%29*%3A%20Add%20a%20major%20to%20search%20for%20courses%20which%20count%20toward%20its%20requirements.%20Click%20the%20plus%20sign%20to%20add%20an%20additional%20major.</text>
+      </controlProperties>
+    </control>
+    <control controlID="165" controlTypeID="com.balsamiq.mockups::Canvas" x="813" y="1155" w="419" h="48" measuredW="100" measuredH="70" zOrder="75" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>15658734</color>
+      </controlProperties>
+    </control>
+    <control controlID="166" controlTypeID="com.balsamiq.mockups::Paragraph" x="827" y="1162" w="390" h="35" measuredW="200" measuredH="80" zOrder="76" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>0</color>
+        <text>*Day%20and%20time*%3A%20Click%20the%20boxes%20to%20find%20results%20that%20meet%20during%20the%20selected%20times%20and%20days.</text>
+      </controlProperties>
+    </control>
+    <control controlID="168" controlTypeID="com.balsamiq.mockups::DataGrid" x="252" y="1172" w="515" h="192" measuredW="342" measuredH="192" zOrder="31" locked="false" isInGroup="-1">
+      <controlProperties>
+        <alternateRowColor>16777215</alternateRowColor>
+        <borderStyle>none</borderStyle>
+        <color>16777215</color>
+        <hasHeader>true</hasHeader>
+        <hLines>true</hLines>
+        <rowHeight>29</rowHeight>
+        <text>%2CMon%2CTue%20%2CWed%2CThu%20%2CFri%20%20%2CSat%20%2CSun%0A*8am-10am*%0A*10am-12pm*%0A*12pm-2pm*%0A*2pm-4pm*%0A*4pm-6pm*%0A*After%206pm*</text>
+      </controlProperties>
+    </control>
+    <control controlID="170" controlTypeID="com.balsamiq.mockups::RoundButton" x="384" y="1218" w="53" h="59" measuredW="32" measuredH="32" zOrder="32" locked="false" isInGroup="-1">
+      <controlProperties>
+        <backgroundAlpha>1</backgroundAlpha>
+        <borderColor>16777215</borderColor>
+        <color>40463</color>
+        <href>2-adv-search%26bm%3B2-adv-search.bmml%26bm%3B2-adv-search.bmml%26bm%3B2-adv-search.bmml</href>
+        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%22253%2C1184%2C306%2C1243%22%20href%3D%222-adv-search.bmml%22%20alt%3D%222-adv-search%22%20id%3D%22170%22/%3E</map>
+        <shape>rectangle</shape>
+        <text/>
+      </controlProperties>
+    </control>
+    <control controlID="171" controlTypeID="com.balsamiq.mockups::Paragraph" x="252" y="1132" w="498" h="40" measuredW="200" measuredH="80" zOrder="77" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>14</size>
+        <text>Day%20and%20time%0ASelect%20time%20blocks%20to%20find%20classes%20that%20meet%20only%20during%20hours%20selected.</text>
+      </controlProperties>
+    </control>
+  </controls>
+</mockup>
