@@ -1,4 +1,4 @@
-"course38":{
+{"course38":{
     "berkeleyConnect": false, 
     "breadth": {
         "AC": false, 
@@ -5184,4 +5184,5 @@
     "restrictions": "Students will receive 2 units of credit for 102 after taking 100 or C100A/Chemistry C130. Students will receive no credit for 102 after taking 110 and any of 100, 100B or C100A/Chemistry C130. No credit for 102 after taking Chemistry 135. ", 
     "title": "Survey of the Principles of Biochemistry and Molecular Biology", 
     "type": "Lecture"
-}, 
+}
+}

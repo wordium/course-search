@@ -1,4 +1,4 @@
-"course38":{
+{"course38":{
     "berkeleyConnect": false, 
     "breadth": {
         "AC": false, 
@@ -3168,4 +3168,5 @@
     "restrictions": "", 
     "title": "Comparative International Topics in Transportation", 
     "type": "Lecture"
-}, 
+}
+}
