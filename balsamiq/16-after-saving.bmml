@@ -1,13 +1,13 @@
 <mockup version="1.0" skin="wireframe" fontFace="Balsamiq Sans" measuredW="1331" measuredH="1641" mockupW="1200" mockupH="1607">
   <controls>
     <control controlID="10" controlTypeID="com.balsamiq.mockups::Canvas" x="208" y="227" w="1046" h="1090" measuredW="100" measuredH="70" zOrder="2" locked="true" isInGroup="-1"/>
-    <control controlID="12" controlTypeID="com.balsamiq.mockups::Image" x="131" y="1329" w="1200" h="312" measuredW="1080" measuredH="312" zOrder="3" locked="true" isInGroup="-1">
+    <control controlID="12" controlTypeID="com.balsamiq.mockups::Image" x="131" y="1329" w="1200" h="312" measuredW="77" measuredH="79" zOrder="3" locked="true" isInGroup="-1">
       <controlProperties>
         <src>./footer.png</src>
         <text/>
       </controlProperties>
     </control>
-    <control controlID="16" controlTypeID="com.balsamiq.mockups::Image" x="131" y="34" w="1200" h="148" measuredW="1080" measuredH="148" zOrder="1" locked="true" isInGroup="-1">
+    <control controlID="16" controlTypeID="com.balsamiq.mockups::Image" x="131" y="34" w="1200" h="148" measuredW="77" measuredH="79" zOrder="1" locked="true" isInGroup="-1">
       <controlProperties>
         <src>./header.png</src>
         <text/>
@@ -39,12 +39,12 @@
         <text>11%20results%20for%20keyword%3A%20modern</text>
       </controlProperties>
     </control>
-    <control controlID="53" controlTypeID="com.balsamiq.mockups::Link" x="1117" y="253" w="-1" h="-1" measuredW="120" measuredH="20" zOrder="7" locked="false" isInGroup="-1">
+    <control controlID="53" controlTypeID="com.balsamiq.mockups::Link" x="1117" y="253" w="-1" h="-1" measuredW="117" measuredH="20" zOrder="7" locked="false" isInGroup="-1">
       <controlProperties>
         <href>14-saved%26bm%3B14-saved.bmml%26bm%3B14-saved.bmml%26bm%3B14-saved.bmml</href>
-        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%22986%2C219%2C1106%2C239%22%20href%3D%2214-saved.bmml%22%20alt%3D%2214-saved%22%20id%3D%2253%22/%3E</map>
+        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%22986%2C219%2C1103%2C239%22%20href%3D%2214-saved.bmml%22%20alt%3D%2214-saved%22%20id%3D%2253%22/%3E</map>
         <size>14</size>
-        <text>Saved%20Courses%20%280%29</text>
+        <text>Saved%20Courses%20%281%29</text>
       </controlProperties>
     </control>
     <control controlID="54" controlTypeID="com.balsamiq.mockups::Link" x="463" y="937" w="-1" h="-1" measuredW="95" measuredH="20" zOrder="8" locked="false" isInGroup="-1">
@@ -371,9 +371,7 @@
     <control controlID="197" controlTypeID="com.balsamiq.mockups::Icon" x="1206" y="378" w="-1" h="-1" measuredW="24" measuredH="24" zOrder="44" locked="false" isInGroup="-1">
       <controlProperties>
         <borderStyle>square</borderStyle>
-        <href>15-saving-interaction%26bm%3B15-saving-interaction.bmml%26bm%3B15-saving-interaction.bmml%26bm%3B15-saving-interaction.bmml</href>
-        <icon>StarIcon%7Csmall</icon>
-        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%221075%2C344%2C1099%2C368%22%20href%3D%2215-saving-interaction.bmml%22%20alt%3D%2215-saving-interaction%22%20id%3D%22197%22/%3E</map>
+        <icon>XIcon%7Csmall</icon>
       </controlProperties>
     </control>
     <control controlID="198" controlTypeID="com.balsamiq.mockups::Paragraph" x="463" y="430" w="65" h="47" measuredW="200" measuredH="80" zOrder="45" locked="false" isInGroup="-1">

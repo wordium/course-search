@@ -1,0 +1,11 @@
+Changes to our Balsamiq interactions
+====================================
+
+4/19
+• Changed save icons to reduce confusion about the + button meaning "expand" rather than "save"
+• Linked all "Saved Courses" links on Results A pages to 14-saved
+	-Note: did not update the number on that link, I figured it was equally confusing to change it and to leave it
+• Added a saving interaction on ARCH 100, Modern Building Materials, from 3-results-A-doubleheight (see pages 
+  15-saving-interaction and 16-after-saving)
+	-Note: I did not update any of the other results pages to include the changed icons that would result from them being on the 
+	saved list; this seemed like it would be confusing to users unless we took them through saving interactions for each one
