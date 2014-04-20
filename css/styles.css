@@ -27,6 +27,10 @@ body {
   color: #003262;
 }
 
+h1,h2,h3,h4,h5,h6 {
+  font-weight: bold;
+}
+
 img.bulletin {
   width: 100%;
 }
@@ -36,9 +40,10 @@ img.bulletin {
 }
 
 #header {
-  background-color: #2D637F;
-  color: #fff;
-  padding: 15px 25px;
+  background-color: #fff;
+  color: #2D637F;
+  margin-top: 15px;
+  padding: 25px 25px 0;
 }
 
 
@@ -48,8 +53,13 @@ img.bulletin {
   background-color: #fff;
 }
 
+#searchForm {
+  border: 3px solid #2D637F;
+  padding: 15px;
+}
+
 #search form, #search table, .searchBtn {
-  width: 600px;
+  width: 700px;
 }
 
 #basic, #advanced {
@@ -72,6 +82,7 @@ td {
 
 td.formInput {
   padding: 2px;
+  width: 500px;
 }
 
 label {
@@ -97,6 +108,8 @@ ul.ui-autocomplete {
   background: white;
   border: 1px solid black;
   width: 350px;
+  max-height: 250px;
+  overflow-y: auto;
 }
 
 li.ui-menu-item:hover {
