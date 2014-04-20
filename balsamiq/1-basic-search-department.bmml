@@ -203,5 +203,13 @@
         <text>*Advanced%20Filter%20Options*%20let%20you%20search%20according%20to%20seat%20availability%2C%20units%2C%20breadth%20requirements%2C%20time%20and%20day%2C%20and%20more.</text>
       </controlProperties>
     </control>
+    <control controlID="83" controlTypeID="com.balsamiq.mockups::Canvas" x="419" y="376" w="350" h="162" measuredW="100" measuredH="70" zOrder="33" locked="false" isInGroup="-1">
+      <controlProperties>
+        <backgroundAlpha>0</backgroundAlpha>
+        <borderStyle>none</borderStyle>
+        <href>0-basic-search%26bm%3B0-basic-search.bmml%26bm%3B0-basic-search.bmml%26bm%3B0-basic-search.bmml</href>
+        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%22288%2C342%2C638%2C504%22%20href%3D%220-basic-search.bmml%22%20alt%3D%220-basic-search%22%20id%3D%2283%22/%3E</map>
+      </controlProperties>
+    </control>
   </controls>
 </mockup>
