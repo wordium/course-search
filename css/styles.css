@@ -89,8 +89,18 @@ input[type="text"] {
 
 
 /* department autocomplete */
-#inputDepartment + span.ui-helper-hidden-accessible {
-  background-color: black;
+span.ui-helper-hidden-accessible {
+  display: none;
+}
+
+ul.ui-autocomplete {
+  background: white;
+  border: 1px solid black;
+  width: 350px;
+}
+
+li.ui-menu-item:hover {
+  cursor: default;
 }
 
 
@@ -126,15 +136,6 @@ ul#lsBreadth, ul#courseLevel {
     column-gap: 20px;
 }
 
-
-
-
-/* test */
-ul.ui-autocomplete {
-  background: white;
-  border: 1px solid black;
-  width: 350px;
-}
 
 /* time and day */
 #time td {
