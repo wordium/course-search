@@ -113,7 +113,7 @@ function testJSON () {
     });
 
   });
-} // testJSON()
+} // getJSON()
 
 
 

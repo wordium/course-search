@@ -358,5 +358,7 @@ function departmentAutocomplete() {
         "Yiddish (YIDDISH)"
     ];
 
-    $('#inputDepartment').autocomplete({source: departmentListAbbrev});
+    $('#inputDepartment').autocomplete({
+        source: departmentListAbbrev
+    });
 }

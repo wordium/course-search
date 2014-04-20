@@ -58,7 +58,7 @@ img.bulletin {
   padding: 15px;
 }
 
-#search form, #search table, .searchBtn {
+#searchForm, #search table, .searchBtn {
   width: 700px;
 }
 
@@ -96,6 +96,7 @@ select {
 }
 input[type="text"] {
   width: 99%;
+  color: #003262;
 }
 
 
@@ -105,7 +106,7 @@ span.ui-helper-hidden-accessible {
 }
 
 ul.ui-autocomplete {
-  background: white;
+  background-color: #fff;
   border: 1px solid black;
   width: 350px;
   max-height: 250px;
@@ -114,6 +115,7 @@ ul.ui-autocomplete {
 
 li.ui-menu-item:hover {
   cursor: default;
+  background-color: rgba(224,158,025,0.5);
 }
 
 
