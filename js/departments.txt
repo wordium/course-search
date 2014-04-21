@@ -1,3 +1,7 @@
+List is compiled from these pages:
+ - http://registrar.berkeley.edu/?PageID=deptabb.html
+ - department <select> on schedule page
+
 "Aerospace Studies (AEROSPC)",
 "Afrikaans (AFRKANS)",
 "African American Studies (AFRICAM)",

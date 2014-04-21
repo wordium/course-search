@@ -1,0 +1,19 @@
+/* results */
+
+#facets, #results {
+  display: inline;
+}
+
+#facets {
+  width: 400px;
+}
+
+#results {
+  width: 500px;
+}
+
+td,th {
+  background-color: #fff;
+  border: 1px solid #000;
+  padding: 10px;
+}
