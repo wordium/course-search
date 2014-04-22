@@ -3,7 +3,7 @@ $(document).ready(function () {
   $('#fileChange li').on('click', function() {
     var filename = $(this).text();
     getJSON(filename);
-  })
+  });
 
 });
 //asdf
@@ -32,7 +32,8 @@ function getJSON (filename) {
          + '<td>' + course.title + '</td>'
          + '<td>' + instance[i].instructor + '</td>'
          + '<td>' + instance[i].time + '</td>'
-         + '<td>' + instance[i].location.room + ' <a href="">' + instance[i].location.building + '</a></td>'
+         + '<td>' + instance[i].location.room + ' <a href="http://www.berkeley.edu/map/googlemap/?' + instance[i].location.building.toLowerCase() + '" target="new">'
+                                              + instance[i].location.building + '</a></td>'
          + '<td>' + course.credit + '</td>'
          + '<td>' + instance[i].ccn + '</td>'
          + '<td>' + 'badges' + '</td>'
