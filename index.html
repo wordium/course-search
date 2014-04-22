@@ -91,33 +91,39 @@
 
         <div id="advanced">
           <div id="advCheckboxes">
-            <ul class="formGroup">
-              <li><input type="checkbox" id="openSeats"> <label for="openSeats">Open Seats</label></input></li>
-              <li><input type="checkbox" id="openWaitlist"> <label for="openWaitlist">Open Waitlist</label></input></li>
-              <li><input type="checkbox" id="exclude"> <label for="exclude">Exclude Discussions and Labs</label></input></li>
-            </ul>
 
-            <div class="formGroup">
-              Units:
-              <label>Min:</label>
-              <select class="units">
-                <option value="0">0</option>
-                <option value="0">1</option>
-                <option value="0">2</option>
-                <option value="0">3</option>
-                <option value="0">4</option>
-                <option value="0">5+</option>
-              </select>
-              <label>Max:</label>
-              <select class="units">
-                <option value="0">0</option>
-                <option value="0">1</option>
-                <option value="0">2</option>
-                <option value="0">3</option>
-                <option value="0">4</option>
-                <option value="0">5+</option>
-              </select>
+            <div id="seats-units">
+              <ul class="formGroup">
+                <li><input type="checkbox" id="openSeats"> <label for="openSeats">Open Seats</label></input></li>
+                <li><input type="checkbox" id="openWaitlist"> <label for="openWaitlist">Open Waitlist</label></input></li>
+                <li><input type="checkbox" id="exclude"> <label for="exclude">Exclude Discussions and Labs</label></input></li>
+              </ul>
+
+              <div class="formGroup">
+                <label id="unitsLabel">Units:</label>
+
+                <select class="units">
+                  <option value="0">Min</option>
+                  <option value="0">0</option>
+                  <option value="1">1</option>
+                  <option value="2">2</option>
+                  <option value="3">3</option>
+                  <option value="4">4</option>
+                  <option value="5">5+</option>
+                </select>
+
+                <select class="units">
+                  <option value="10">Max</option>
+                  <option value="0">0</option>
+                  <option value="1">1</option>
+                  <option value="2">2</option>
+                  <option value="3">3</option>
+                  <option value="4">4</option>
+                  <option value="5">5+</option>
+                </select>
+              </div>
             </div>
+
             <div class="formGroup">
               Course Classification:
               <ul id="courseLevel">
@@ -131,12 +137,13 @@
 
           <div id="requirements">
             Campus Breadth Requirements:
-            <ul class="formGroup">
+            <ul class="formGroup" id="campusReq">
               <li><input type="checkbox" id="r-AC"/> <label for="r-AC">American Cultures</label></li>
+              <li><input type="checkbox" id="r-AHI"/> <label for="r-AHI">American History and Institutions</label></li>
               <li><input type="checkbox" id="r-RCA"/> <label for="r-RCA">Reading and Composition A</label></li>
               <li><input type="checkbox" id="r-RCB"/> <label for="r-RCB">Reading and Composition B</label></li>
             </ul>
-
+            
             Letters & Science 7 Course Breadth Requirements:
             <ul class="formGroup" id="lsBreadth">
               <li><input type="checkbox" id="r-AL"/> <label for="r-AL">Arts and Literature</label></li>
