@@ -60,7 +60,7 @@ function submitForm () {
 }
 
 
-
+/*
 function testJSON () {
 
   var $test = $('#test');
@@ -114,7 +114,7 @@ function testJSON () {
 
   });
 } // getJSON()
-
+*/
 
 
 

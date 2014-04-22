@@ -1,18 +1,23 @@
 $(document).ready(function () {
 
-  getJSON('s1_pub_health');
+  $('#fileChange li').on('click', function() {
+    var filename = $(this).text();
+    getJSON(filename);
+  })
 
 });
 //asdf
 
-/* assumes filename being passed does not include the file type */
+/* assumes filename being passed does include the file type */
 function getJSON (filename) {
 
-  var path = 'data/' + filename + '.json';
+  var path = 'data/' + filename;
   var results = '';
   var instance = [];
 
   $.getJSON(path, function (data) {
+
+    $('#resultsHeaderRow').siblings().remove();
 
     $.each( data, function( key, course ) {
 
