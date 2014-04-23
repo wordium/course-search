@@ -154,85 +154,90 @@
               <li><input type="checkbox" id="r-PS"/> <label for="r-PS">Physical Science</label></li>
               <li><input type="checkbox" id="r-SBS"/> <label for="r-SBS">Social and Behavioral Science</label></li>
             </ul>
-
-            <div>
-              <label>Major:</label>
-              <input type="text" />
-            </div>
           </div> <!-- #requirements -->
+
+            <div id="majorMinor">
+              <div class="formGroup">
+                <label>Major:</label>
+                <input type="text" />
+                <label>Minor:</label>
+                <input type="text" />
+              </div>
+            </div><!-- #majorMinor -->
+          
 
           <div id="time" class="formGroup">
             Day and Time:
             <table>
               <tr>
                 <td id="emptyTD"></td>
-                <td>Mon</td>
-                <td>Tue</td>
-                <td>Wed</td>
-                <td>Thu</td>
-                <td>Fri</td>
-                <td>Sat</td>
-                <td>Sun</td>
+                <td data-selected="false" data-day="mon" class="selectDay">Mon</td>
+                <td data-selected="false" data-day="tue" class="selectDay">Tue</td>
+                <td data-selected="false" data-day="wed" class="selectDay">Wed</td>
+                <td data-selected="false" data-day="thu" class="selectDay">Thu</td>
+                <td data-selected="false" data-day="fri" class="selectDay">Fri</td>
+                <td data-selected="false" data-day="sat" class="selectDay">Sat</td>
+                <td data-selected="false" data-day="sun" class="selectDay">Sun</td>
               </tr>
               <tr>
-                <td>8-11</td>
-                <td data-selected="false"></td>
-                <td data-selected="false"></td>
-                <td data-selected="false"></td>
-                <td data-selected="false"></td>
-                <td data-selected="false"></td>
-                <td data-selected="false"></td>
-                <td data-selected="false"></td>
+                <td data-selected="false" data-time="time-1" class="selectTime">8-11</td>
+                <td data-selected="false" class="time-1 mon selectable"></td>
+                <td data-selected="false" class="time-1 tue selectable"></td>
+                <td data-selected="false" class="time-1 wed selectable"></td>
+                <td data-selected="false" class="time-1 thu selectable"></td>
+                <td data-selected="false" class="time-1 fri selectable"></td>
+                <td data-selected="false" class="time-1 sat selectable"></td>
+                <td data-selected="false" class="time-1 sun selectable"></td>
               </tr>
               <tr>
-                <td>10-1</td>
-                <td data-selected="false"></td>
-                <td data-selected="false"></td>
-                <td data-selected="false"></td>
-                <td data-selected="false"></td>
-                <td data-selected="false"></td>
-                <td data-selected="false"></td>
-                <td data-selected="false"></td>
+                <td data-selected="false" data-time="time-2" class="selectTime">10-1</td>
+                <td data-selected="false" class="time-2 mon selectable"></td>
+                <td data-selected="false" class="time-2 tue selectable"></td>
+                <td data-selected="false" class="time-2 wed selectable"></td>
+                <td data-selected="false" class="time-2 thu selectable"></td>
+                <td data-selected="false" class="time-2 fri selectable"></td>
+                <td data-selected="false" class="time-2 sat selectable"></td>
+                <td data-selected="false" class="time-2 sun selectable"></td>
               </tr>
               <tr>
-                <td>12-3</td>
-                <td data-selected="false"></td>
-                <td data-selected="false"></td>
-                <td data-selected="false"></td>
-                <td data-selected="false"></td>
-                <td data-selected="false"></td>
-                <td data-selected="false"></td>
-                <td data-selected="false"></td>
+                <td data-selected="false" data-time="time-3" class="selectTime">12-3</td>
+                <td data-selected="false" class="time-3 mon selectable"></td>
+                <td data-selected="false" class="time-3 tue selectable"></td>
+                <td data-selected="false" class="time-3 wed selectable"></td>
+                <td data-selected="false" class="time-3 thu selectable"></td>
+                <td data-selected="false" class="time-3 fri selectable"></td>
+                <td data-selected="false" class="time-3 sat selectable"></td>
+                <td data-selected="false" class="time-3 sun selectable"></td>
               </tr>
               <tr>
-                <td>2-5</td>
-                <td data-selected="false"></td>
-                <td data-selected="false"></td>
-                <td data-selected="false"></td>
-                <td data-selected="false"></td>
-                <td data-selected="false"></td>
-                <td data-selected="false"></td>
-                <td data-selected="false"></td>
+                <td data-selected="false" data-time="time-4" class="selectTime">2-5</td>
+                <td data-selected="false" class="time-4 mon selectable"></td>
+                <td data-selected="false" class="time-4 tue selectable"></td>
+                <td data-selected="false" class="time-4 wed selectable"></td>
+                <td data-selected="false" class="time-4 thu selectable"></td>
+                <td data-selected="false" class="time-4 fri selectable"></td>
+                <td data-selected="false" class="time-4 sat selectable"></td>
+                <td data-selected="false" class="time-4 sun selectable"></td>
               </tr>
               <tr>
-                <td>4-7</td>
-                <td data-selected="false"></td>
-                <td data-selected="false"></td>
-                <td data-selected="false"></td>
-                <td data-selected="false"></td>
-                <td data-selected="false"></td>
-                <td data-selected="false"></td>
-                <td data-selected="false"></td>
+                <td data-selected="false" data-time="time-5" class="selectTime">4-7</td>
+                <td data-selected="false" class="time-5 mon selectable"></td>
+                <td data-selected="false" class="time-5 tue selectable"></td>
+                <td data-selected="false" class="time-5 wed selectable"></td>
+                <td data-selected="false" class="time-5 thu selectable"></td>
+                <td data-selected="false" class="time-5 fri selectable"></td>
+                <td data-selected="false" class="time-5 sat selectable"></td>
+                <td data-selected="false" class="time-5 sun selectable"></td>
               </tr>
               <tr>
-                <td>6+</td>
-                <td data-selected="false"></td>
-                <td data-selected="false"></td>
-                <td data-selected="false"></td>
-                <td data-selected="false"></td>
-                <td data-selected="false"></td>
-                <td data-selected="false"></td>
-                <td data-selected="false"></td>
+                <td data-selected="false" data-time="time-6" class="selectTime">6+</td>
+                <td data-selected="false" class="time-6 mon selectable"></td>
+                <td data-selected="false" class="time-6 tue selectable"></td>
+                <td data-selected="false" class="time-6 wed selectable"></td>
+                <td data-selected="false" class="time-6 thu selectable"></td>
+                <td data-selected="false" class="time-6 fri selectable"></td>
+                <td data-selected="false" class="time-6 sat selectable"></td>
+                <td data-selected="false" class="time-6 sun selectable"></td>
               </tr>
 
             </table>

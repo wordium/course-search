@@ -36,9 +36,9 @@ $(document).ready(function () {
   });
 
 
-  $('#time td').on('click', function() {
+  $('.selectable').on('click', function() {
     var $td = $(this);
-    console.log($td.attr('data-selected'));
+    //console.log($td.attr('data-selected'));
 
     if($td.attr('data-selected') === 'true'){
       $td.css('background-color', '#fff')
@@ -51,14 +51,41 @@ $(document).ready(function () {
     }
   });
 
-	testJSON();
+  $('.selectDay').on('click', function () {
+    var classname = '.' + $(this).attr('data-day');
+    dateTime($(this), classname);
+  });
+
+  $('.selectTime').on('click', function () {
+    var classname = '.' + $(this).attr('data-time');
+    dateTime($(this), classname);
+  });
 
 });
+
+function dateTime ($this, classname) {
+  console.log($this);
+  console.log(classname);
+  if($this.attr('data-selected') === 'true') {
+    $(classname).attr('data-selected', 'false')
+                .css('background-color', '#fff');
+
+    $this.attr('data-selected', 'false')
+         .css('background-color', '#fff');
+  }
+  else {
+    $(classname).attr('data-selected', 'true')
+                .css('background-color', '#B9D3B6');
+
+    $this.attr('data-selected', 'true')
+         .css('background-color', '#B9D3B6');
+  }
+}
+
 
 function submitForm () {
   
 }
-
 
 /*
 function testJSON () {
