@@ -1,4 +1,4 @@
-<mockup version="1.0" skin="wireframe" fontFace="Balsamiq Sans" measuredW="1331" measuredH="1641" mockupW="1200" mockupH="1607">
+<mockup version="1.0" skin="sketch" fontFace="Balsamiq Sans" measuredW="1331" measuredH="1641" mockupW="1200" mockupH="1607">
   <controls>
     <control controlID="10" controlTypeID="com.balsamiq.mockups::Canvas" x="208" y="227" w="1046" h="1090" measuredW="100" measuredH="70" zOrder="2" locked="true" isInGroup="-1"/>
     <control controlID="12" controlTypeID="com.balsamiq.mockups::Image" x="131" y="1329" w="1200" h="312" measuredW="1080" measuredH="312" zOrder="3" locked="true" isInGroup="-1">
@@ -567,8 +567,8 @@
     </control>
     <control controlID="316" controlTypeID="com.balsamiq.mockups::Button" x="962" y="280" w="-1" h="-1" measuredW="132" measuredH="24" zOrder="98" locked="false" isInGroup="-1">
       <controlProperties>
-        <href>18-compare%26bm%3B18-compare.bmml%26bm%3B18-compare.bmml%26bm%3B18-compare.bmml</href>
-        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%22831%2C246%2C963%2C270%22%20href%3D%2218-compare.bmml%22%20alt%3D%2218-compare%22%20id%3D%22316%22/%3E</map>
+        <href>18-compare-some-closed%26bm%3B18-compare-some-closed.bmml%26bm%3B18-compare-some-closed.bmml%26bm%3B18-compare-some-closed.bmml</href>
+        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%22831%2C246%2C963%2C270%22%20href%3D%2218-compare-some-closed.bmml%22%20alt%3D%2218-compare-some-closed%22%20id%3D%22316%22/%3E</map>
         <text>Compare%20Selected</text>
       </controlProperties>
     </control>
@@ -579,8 +579,8 @@
     </control>
     <control controlID="319" controlTypeID="com.balsamiq.mockups::Button" x="962" y="742" w="-1" h="-1" measuredW="132" measuredH="24" zOrder="100" locked="false" isInGroup="-1">
       <controlProperties>
-        <href>18-compare%26bm%3B18-compare.bmml%26bm%3B18-compare.bmml%26bm%3B18-compare.bmml</href>
-        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%22831%2C708%2C963%2C732%22%20href%3D%2218-compare.bmml%22%20alt%3D%2218-compare%22%20id%3D%22319%22/%3E</map>
+        <href>18-compare-some-closed%26bm%3B18-compare-some-closed.bmml%26bm%3B18-compare-some-closed.bmml%26bm%3B18-compare-some-closed.bmml</href>
+        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%22831%2C708%2C963%2C732%22%20href%3D%2218-compare-some-closed.bmml%22%20alt%3D%2218-compare-some-closed%22%20id%3D%22319%22/%3E</map>
         <text>Compare%20Selected</text>
       </controlProperties>
     </control>

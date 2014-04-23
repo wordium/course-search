@@ -1,4 +1,4 @@
-<mockup version="1.0" skin="wireframe" fontFace="Balsamiq Sans" measuredW="1431" measuredH="1641" mockupW="1300" mockupH="1607">
+<mockup version="1.0" skin="sketch" fontFace="Balsamiq Sans" measuredW="1431" measuredH="1641" mockupW="1300" mockupH="1607">
   <controls>
     <control controlID="10" controlTypeID="com.balsamiq.mockups::Canvas" x="208" y="227" w="1046" h="1079" measuredW="100" measuredH="70" zOrder="2" locked="true" isInGroup="-1"/>
     <control controlID="12" controlTypeID="com.balsamiq.mockups::Image" x="131" y="1329" w="1200" h="312" measuredW="1080" measuredH="312" zOrder="3" locked="true" isInGroup="-1">
@@ -36,8 +36,8 @@
     </control>
     <control controlID="39" controlTypeID="com.balsamiq.mockups::ComboBox" x="929" y="273" w="319" h="-1" measuredW="319" measuredH="98" zOrder="59" locked="false" isInGroup="-1">
       <controlProperties>
-        <href>18-compare%26bm%3B18-compare.bmml%26bm%3B18-compare.bmml%26bm%3B18-compare.bmml</href>
-        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%22798%2C239%2C1117%2C337%22%20href%3D%2218-compare.bmml%22%20alt%3D%2218-compare%22%20id%3D%2239%22/%3E</map>
+        <href>18B-compare-all-open%26bm%3B18B-compare-all-open.bmml%26bm%3B18B-compare-all-open.bmml%26bm%3B18B-compare-all-open.bmml</href>
+        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%22798%2C239%2C1117%2C337%22%20href%3D%2218B-compare-all-open.bmml%22%20alt%3D%2218B-compare-all-open%22%20id%3D%2239%22/%3E</map>
         <size>14</size>
         <text>Add%20more%20from%20Saved%20Courses%20to%20comparison%0AAFRICAM13%3A%20Modern%20Social%20and%20Political%20Thought%20in%20the%20Diaspora%0AARCH252%3AThe%20City%20and%20Modernity%0AANTH150%3A%20Art%20and%20Power%20in%20Modern%20Society%0A%20</text>
       </controlProperties>
