@@ -1,6 +1,13 @@
 Changes to our Balsamiq interactions
 ====================================
 
+4/22
+• Modified the comparison screen to have some data elements closed by default, and to add 
+  a calendar at the bottom. 
+      -NOTE: There are now two compare screens, one with all elements open and one with some closed.
+      The closed one is the one that everything links to.
+      -NOTE: No interactions have been created for opening and closing compare screen data elements.
+
 4/19
 • Changed save icons to reduce confusion about the + button meaning "expand" rather than "save"
 • Linked all "Saved Courses" links on Results A pages to 14-saved
