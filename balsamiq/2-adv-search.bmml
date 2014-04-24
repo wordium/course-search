@@ -450,13 +450,13 @@
         <text/>
       </controlProperties>
     </control>
-    <control controlID="170" controlTypeID="com.balsamiq.mockups::RoundButton" x="384" y="1232" w="53" h="23" measuredW="32" measuredH="32" zOrder="36" locked="false" isInGroup="-1">
+    <control controlID="170" controlTypeID="com.balsamiq.mockups::RoundButton" x="384" y="1230" w="53" h="23" measuredW="32" measuredH="32" zOrder="36" locked="false" isInGroup="-1">
       <controlProperties>
         <backgroundAlpha>1</backgroundAlpha>
         <borderColor>16777215</borderColor>
         <color>16777215</color>
         <href>2-adv-search-timeselect-new%26bm%3B2-adv-search-timeselect-new.bmml%26bm%3B2-adv-search-timeselect-new.bmml%26bm%3B2-adv-search-timeselect-new.bmml</href>
-        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%22253%2C1198%2C306%2C1221%22%20href%3D%222-adv-search-timeselect-new.bmml%22%20alt%3D%222-adv-search-timeselect-new%22%20id%3D%22170%22/%3E</map>
+        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%22253%2C1196%2C306%2C1219%22%20href%3D%222-adv-search-timeselect-new.bmml%22%20alt%3D%222-adv-search-timeselect-new%22%20id%3D%22170%22/%3E</map>
         <shape>rectangle</shape>
         <text/>
       </controlProperties>
