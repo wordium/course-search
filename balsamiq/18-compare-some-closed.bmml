@@ -307,7 +307,7 @@
     </control>
     <control controlID="147" controlTypeID="com.balsamiq.mockups::DataGrid" x="227" y="891" w="1004" h="405" measuredW="388" measuredH="461" zOrder="74" locked="false" isInGroup="-1">
       <controlProperties>
-        <alternateRowColor>16777215</alternateRowColor>
+        <alternateRowColor>15594478</alternateRowColor>
         <bold>false</bold>
         <borderStyle>square</borderStyle>
         <color>16777215</color>
