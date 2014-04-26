@@ -1,4 +1,4 @@
-<mockup version="1.0" skin="wireframe" fontFace="Balsamiq Sans" measuredW="1331" measuredH="1641" mockupW="1200" mockupH="1607">
+<mockup version="1.0" skin="wireframe" fontFace="Balsamiq Sans" measuredW="1431" measuredH="2269" mockupW="1300" mockupH="2235">
   <controls>
     <control controlID="10" controlTypeID="com.balsamiq.mockups::Canvas" x="208" y="227" w="1046" h="1090" measuredW="100" measuredH="70" zOrder="2" locked="true" isInGroup="-1"/>
     <control controlID="12" controlTypeID="com.balsamiq.mockups::Image" x="131" y="1329" w="1200" h="312" measuredW="1080" measuredH="312" zOrder="3" locked="true" isInGroup="-1">
@@ -33,10 +33,10 @@
         <text>COURSE%20SEARCH</text>
       </controlProperties>
     </control>
-    <control controlID="54" controlTypeID="com.balsamiq.mockups::Link" x="249" y="841" w="-1" h="-1" measuredW="95" measuredH="20" zOrder="6" locked="false" isInGroup="-1">
+    <control controlID="54" controlTypeID="com.balsamiq.mockups::Link" x="873" y="282" w="-1" h="-1" measuredW="95" measuredH="20" zOrder="6" locked="false" isInGroup="-1">
       <controlProperties>
         <href>1-basic-search-title%26bm%3B1-basic-search-title.bmml%26bm%3B1-basic-search-title.bmml%26bm%3B1-basic-search-title.bmml</href>
-        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%22118%2C807%2C213%2C827%22%20href%3D%221-basic-search-title.bmml%22%20alt%3D%221-basic-search-title%22%20id%3D%2254%22/%3E</map>
+        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%22742%2C248%2C837%2C268%22%20href%3D%221-basic-search-title.bmml%22%20alt%3D%221-basic-search-title%22%20id%3D%2254%22/%3E</map>
         <size>14</size>
         <text>Back%20to%20search</text>
       </controlProperties>
@@ -538,17 +538,13 @@
     <control controlID="311" controlTypeID="com.balsamiq.mockups::Icon" x="1086" y="428" w="-1" h="-1" measuredW="24" measuredH="24" zOrder="93" locked="false" isInGroup="-1">
       <controlProperties>
         <borderStyle>square</borderStyle>
-        <href>17-select-calendar-view%26bm%3B17-select-calendar-view.bmml%26bm%3B17-select-calendar-view.bmml%26bm%3B17-select-calendar-view.bmml</href>
-        <icon>StopIcon%7Csmall</icon>
-        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%22955%2C394%2C979%2C418%22%20href%3D%2217-select-calendar-view.bmml%22%20alt%3D%2217-select-calendar-view%22%20id%3D%22311%22/%3E</map>
+        <icon>CheckMarkIcon%7Csmall</icon>
       </controlProperties>
     </control>
     <control controlID="312" controlTypeID="com.balsamiq.mockups::Icon" x="1086" y="490" w="-1" h="-1" measuredW="24" measuredH="24" zOrder="94" locked="false" isInGroup="-1">
       <controlProperties>
         <borderStyle>square</borderStyle>
-        <href>17-select-calendar-view%26bm%3B17-select-calendar-view.bmml%26bm%3B17-select-calendar-view.bmml%26bm%3B17-select-calendar-view.bmml</href>
-        <icon>StopIcon%7Csmall</icon>
-        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%22955%2C456%2C979%2C480%22%20href%3D%2217-select-calendar-view.bmml%22%20alt%3D%2217-select-calendar-view%22%20id%3D%22312%22/%3E</map>
+        <icon>CheckMarkIcon%7Csmall</icon>
       </controlProperties>
     </control>
     <control controlID="313" controlTypeID="com.balsamiq.mockups::Icon" x="1086" y="554" w="-1" h="-1" measuredW="24" measuredH="24" zOrder="95" locked="false" isInGroup="-1">
@@ -566,12 +562,15 @@
     <control controlID="315" controlTypeID="com.balsamiq.mockups::Icon" x="1086" y="673" w="-1" h="-1" measuredW="24" measuredH="24" zOrder="97" locked="false" isInGroup="-1">
       <controlProperties>
         <borderStyle>square</borderStyle>
-        <href>17-select-calendar-view%26bm%3B17-select-calendar-view.bmml%26bm%3B17-select-calendar-view.bmml%26bm%3B17-select-calendar-view.bmml</href>
-        <icon>StopIcon%7Csmall</icon>
-        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%22955%2C639%2C979%2C663%22%20href%3D%2217-select-calendar-view.bmml%22%20alt%3D%2217-select-calendar-view%22%20id%3D%22315%22/%3E</map>
+        <icon>CheckMarkIcon%7Csmall</icon>
       </controlProperties>
     </control>
-    <control controlID="321" controlTypeID="com.balsamiq.mockups::Canvas" x="247" y="317" w="956" h="37" measuredW="100" measuredH="70" zOrder="98" locked="false" isInGroup="-1">
+    <control controlID="318" controlTypeID="com.balsamiq.mockups::Button" x="1070" y="280" w="-1" h="-1" measuredW="117" measuredH="24" zOrder="98" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Export%20Selected</text>
+      </controlProperties>
+    </control>
+    <control controlID="321" controlTypeID="com.balsamiq.mockups::Canvas" x="247" y="317" w="956" h="37" measuredW="100" measuredH="70" zOrder="99" locked="false" isInGroup="-1">
       <controlProperties>
         <backgroundAlpha>0.5</backgroundAlpha>
         <borderColor>3355443</borderColor>
@@ -579,49 +578,255 @@
         <color>3355443</color>
       </controlProperties>
     </control>
-    <control controlID="324" controlTypeID="com.balsamiq.mockups::Paragraph" x="249" y="277" w="476" h="37" measuredW="200" measuredH="80" zOrder="99" locked="false" isInGroup="-1">
+    <control controlID="324" controlTypeID="com.balsamiq.mockups::Paragraph" x="249" y="277" w="476" h="37" measuredW="200" measuredH="80" zOrder="100" locked="false" isInGroup="-1">
       <controlProperties>
         <text>These%20classes%20will%20be%20saved%20for%20as%20long%20as%20you%20are%20on%20the%20Course%20Search%20site.%20To%20keep%20a%20longer%20record%20of%20your%20saved%20classes%2C%20export%20them%20before%20leaving%20the%20site.</text>
       </controlProperties>
     </control>
-    <control controlID="325" controlTypeID="com.balsamiq.mockups::VerticalScrollBar" x="1187" y="353" w="-1" h="363" measuredW="16" measuredH="100" zOrder="100" locked="false" isInGroup="-1"/>
-    <control controlID="328" controlTypeID="com.balsamiq.mockups::Label" x="843" y="734" w="-1" h="-1" measuredW="349" measuredH="22" zOrder="101" locked="false" isInGroup="-1">
+    <control controlID="325" controlTypeID="com.balsamiq.mockups::VerticalScrollBar" x="1187" y="353" w="-1" h="363" measuredW="16" measuredH="100" zOrder="101" locked="false" isInGroup="-1"/>
+    <control controlID="327" controlTypeID="com.balsamiq.mockups::ButtonBar" x="1042" y="734" w="-1" h="-1" measuredW="152" measuredH="22" zOrder="102" locked="false" isInGroup="-1">
+      <controlProperties>
+        <hrefs>17-select-calendar-view%26bm%3B17-select-calendar-view.bmml%26bm%3B17-select-calendar-view.bmml%26bm%3B17-select-calendar-view.bmml%2C</hrefs>
+        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%22911%2C700%2C994%2C722%22%20href%3D%2217-select-calendar-view.bmml%22%20alt%3D%2217-select-calendar-view%22%20id%3D%22327%22/%3E%0A</map>
+        <selectedIndex>1</selectedIndex>
+        <size>14</size>
+        <text>Calendar%2C%20Details</text>
+      </controlProperties>
+    </control>
+    <control controlID="328" controlTypeID="com.balsamiq.mockups::Label" x="865" y="733" w="-1" h="-1" measuredW="167" measuredH="22" zOrder="103" locked="false" isInGroup="-1">
       <controlProperties>
         <size>14</size>
-        <text>Select%20courses%20to%20view%20on%20calendar%20or%20compare%20details</text>
+        <text>View%20selected%20courses%20as%3A</text>
       </controlProperties>
     </control>
-    <control controlID="329" controlTypeID="com.balsamiq.mockups::DataGrid" x="227" y="775" w="1004" h="405" measuredW="388" measuredH="461" zOrder="102" locked="false" isInGroup="-1">
-      <controlProperties>
-        <alternateRowColor>15594478</alternateRowColor>
-        <bold>false</bold>
-        <borderStyle>square</borderStyle>
-        <color>16777215</color>
-        <hasHeader>true</hasHeader>
-        <hLines>true</hLines>
-        <rowHeight>16</rowHeight>
-        <size>14</size>
-        <text>%2C*Mon*%2C*Tue*%20%2C*Wed*%2C*Thu*%2C*Fri*%2C*Sat*%2C*Sun*%0A*8-8%3A30%20am*%0A*8%3A30-9%20am*%0A*9-9%3A30%20am*%0A*9%3A30-10%20am*%0A*10-10%3A30%20am*%0A*10%3A30-11%20am*%0A*11-11%3A30%20am*%0A*11%3A30%20am-12pm*%0A*12-12%3A30%20pm*%0A*12%3A30-1%20pm*%0A*1-1%3A30%20pm*%0A*1%3A30-2pm*%0A*2-2%3A30%20pm*%0A*2%3A30-3%20pm*%0A*3-3%3A30%20pm*%0A*3%3A30-4%20pm*%0A*4-4%3A30pm*%0A*4%3A30-5%20pm*%0A*5-5%3A30%20pm*%0A*5%3A30-6pm*%0A*6-6%3A30%20pm*%0A*6%3A30-7%20pm*%0A*7-7%3A30%20pm*%0A*7%3A30-8%20pm*%0A*8-8%3A30%20pm*%0A*8%3A30-9%20pm*%0A%7B10%2C%2012C%2C%2012C%2C%2012C%2C%2012C%2C%2012C%2C%2012C%2C%2012C%7D</text>
-        <verticalScrollbar>true</verticalScrollbar>
-      </controlProperties>
-    </control>
-    <control controlID="330" controlTypeID="com.balsamiq.mockups::Link" x="873" y="282" w="-1" h="-1" measuredW="95" measuredH="20" zOrder="103" locked="false" isInGroup="-1">
-      <controlProperties>
-        <href>1-basic-search-title%26bm%3B1-basic-search-title.bmml%26bm%3B1-basic-search-title.bmml%26bm%3B1-basic-search-title.bmml</href>
-        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%22742%2C248%2C837%2C268%22%20href%3D%221-basic-search-title.bmml%22%20alt%3D%221-basic-search-title%22%20id%3D%22330%22/%3E</map>
-        <size>14</size>
-        <text>Back%20to%20search</text>
-      </controlProperties>
-    </control>
-    <control controlID="331" controlTypeID="com.balsamiq.mockups::Button" x="1070" y="280" w="-1" h="-1" measuredW="117" measuredH="24" zOrder="104" locked="false" isInGroup="-1">
-      <controlProperties>
-        <text>Export%20Selected</text>
-      </controlProperties>
-    </control>
-    <control controlID="332" controlTypeID="com.balsamiq.mockups::Button" x="983" y="280" w="-1" h="-1" measuredW="79" measuredH="24" zOrder="105" locked="false" isInGroup="-1">
+    <control controlID="336" controlTypeID="com.balsamiq.mockups::Button" x="983" y="280" w="-1" h="-1" measuredW="79" measuredH="24" zOrder="104" locked="false" isInGroup="-1">
       <controlProperties>
         <text>Export%20All</text>
       </controlProperties>
     </control>
+    <control controlID="337" controlTypeID="com.balsamiq.mockups::HRule" x="208" y="761" w="1031" h="-1" measuredW="100" measuredH="10" zOrder="105" locked="false" isInGroup="-1"/>
+    <control controlID="338" controlTypeID="com.balsamiq.mockups::VRule" x="622" y="766" w="-1" h="552" measuredW="10" measuredH="100" zOrder="106" locked="false" isInGroup="-1"/>
+    <control controlID="339" controlTypeID="com.balsamiq.mockups::Paragraph" x="253" y="783" w="368" h="58" measuredW="200" measuredH="80" zOrder="107" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>14</size>
+        <text>*Architecture%20100*%2C%204%20units%0AModern%20Building%20Materials</text>
+      </controlProperties>
+    </control>
+    <control controlID="340" controlTypeID="com.balsamiq.mockups::VRule" x="1013" y="766" w="-1" h="554" measuredW="10" measuredH="100" zOrder="108" locked="false" isInGroup="-1"/>
+    <control controlID="341" controlTypeID="com.balsamiq.mockups::HorizontalScrollBar" x="208" y="1316" w="1031" h="-1" measuredW="100" measuredH="16" zOrder="109" locked="false" isInGroup="-1"/>
+    <control controlID="342" controlTypeID="com.balsamiq.mockups::HRule" x="208" y="823" w="385" h="-1" measuredW="100" measuredH="10" zOrder="110" locked="false" isInGroup="-1"/>
+    <control controlID="343" controlTypeID="com.balsamiq.mockups::Paragraph" x="253" y="947" w="354" h="17" measuredW="200" measuredH="80" zOrder="111" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>14</size>
+        <text>*Description*%3A%20Building%20materials%20are%20important.%20We%20live%20and%20work%20in%20buildings%20made%20from%20them.%20It%20is%20important%20for%20these%20materials%20to%20be%20modern%2C%20or%20else%20they%20might%20be%20old-fashioned%20and%20that%20is%20not%20good%20for%20buildings%20that%20are%20being%20built%20in%20modern%20times.%20%0A%20%0A*Format*%3A%20Four%20hours%20of%20lecture%20per%20week.</text>
+      </controlProperties>
+    </control>
+    <control controlID="344" controlTypeID="com.balsamiq.mockups::Paragraph" x="253" y="841" w="368" h="88" measuredW="200" measuredH="80" zOrder="112" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>14</size>
+        <text>*Spring%202014*%3A%20TuTh%2012-1%3A30%20p.m.%2C%20202%20%5BWurster%5D%0A*Instructor*%3A%20B.%20LeDing%0A*Seats*%3A%2050.%20Enrolled%3A%2035.%20Waitlist%3A%200.%20Available%3A%2015.%0A*CCN*%3A%2037568%0A*Final%20exam%20group*%3A%20Wed%2C%20May%2014%2C%202014%2C%209%20a.m.-12%20p.m.</text>
+      </controlProperties>
+    </control>
+    <control controlID="345" controlTypeID="com.balsamiq.mockups::HRule" x="208" y="929" w="385" h="-1" measuredW="100" measuredH="10" zOrder="113" locked="false" isInGroup="-1"/>
+    <control controlID="346" controlTypeID="com.balsamiq.mockups::HRule" x="208" y="969" w="385" h="-1" measuredW="100" measuredH="10" zOrder="114" locked="false" isInGroup="-1"/>
+    <control controlID="347" controlTypeID="com.balsamiq.mockups::Paragraph" x="250" y="986" w="368" h="201" measuredW="200" measuredH="80" zOrder="115" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>14</size>
+        <text>*Prerequisites*%3A%20%5BArchitecture%201%5D%0A*Is%20a%20prerequisite%20for*%3A%20%5BArchitecture%20175%5D%0A%20%0A*Restrictions*%3A%20Assumenda%20hoodie%20twee%20PBR%2C%20+1%20Schlitz%20retro%20aliquip%20ad%20minim%20hella.%20Brunch%20wolf%20bespoke%20swag.%20Ea%20assumenda%20gluten-free%20art%20party.%0A%20%0A*Notes*%3A%20Enim%20odio%20blog%20nostrud%20cupidatat%20DIY%20nulla%2C%20+1%20direct%20trade%20dreamcatcher%20officia%20ugh%20reprehenderit%20authentic.%20Fixie%20sint%20fingerstache%20mixtape%2C%20kitsch%20tattooed%20kogi%20whatever%20fugiat%20leggings%20officia.%20</text>
+      </controlProperties>
+    </control>
+    <control controlID="348" controlTypeID="com.balsamiq.mockups::Paragraph" x="253" y="1194" w="368" h="17" measuredW="200" measuredH="80" zOrder="116" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>14</size>
+        <text>*Textbooks*%0A%u2022%20%5BThe%20Big%20Book%20of%20Building%20Materials%5D%2C%20Z.%20Jones%20and%20T.%20Chang%0A%u2022%20%5BWhat%20Every%20Architect%20Should%20Know%20About%20Materials%20Science%5D%2C%20J.%20Smith</text>
+      </controlProperties>
+    </control>
+    <control controlID="349" controlTypeID="com.balsamiq.mockups::HRule" x="204" y="1177" w="385" h="-1" measuredW="100" measuredH="10" zOrder="117" locked="false" isInGroup="-1"/>
+    <control controlID="350" controlTypeID="com.balsamiq.mockups::Paragraph" x="253" y="1231" w="368" h="20" measuredW="200" measuredH="80" zOrder="118" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>14</size>
+        <text>*Offering%20history*%0A%u2022%20Spring%202013%20-%20B.%20LeDing%0A%u2022%20Spring%202012%20-%20B.%20LeDing</text>
+      </controlProperties>
+    </control>
+    <control controlID="351" controlTypeID="com.balsamiq.mockups::HRule" x="204" y="1212" w="385" h="-1" measuredW="100" measuredH="10" zOrder="119" locked="false" isInGroup="-1"/>
+    <control controlID="352" controlTypeID="com.balsamiq.mockups::Paragraph" x="253" y="1268" w="368" h="17" measuredW="200" measuredH="80" zOrder="120" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>14</size>
+        <text>*Ratings*%0A8/10%20average%0A%22better%20than%20a%20stick%20in%20the%20eye%22%AD%u20147.5%0A%22amaze%20buildings%22%u20149%0A%22could%20be%20more%20modern%22%u20148</text>
+      </controlProperties>
+    </control>
+    <control controlID="353" controlTypeID="com.balsamiq.mockups::HRule" x="204" y="1251" w="385" h="-1" measuredW="100" measuredH="10" zOrder="121" locked="false" isInGroup="-1"/>
+    <control controlID="354" controlTypeID="com.balsamiq.mockups::Paragraph" x="640" y="783" w="368" h="58" measuredW="200" measuredH="80" zOrder="122" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>14</size>
+        <text>*Anthropology%20C262B*%2C%204%20units%0ATheories%20of%20Traditionality%20and%20Modernity</text>
+      </controlProperties>
+    </control>
+    <control controlID="355" controlTypeID="com.balsamiq.mockups::HRule" x="636" y="823" w="370" h="-1" measuredW="100" measuredH="10" zOrder="123" locked="false" isInGroup="-1"/>
+    <control controlID="356" controlTypeID="com.balsamiq.mockups::Paragraph" x="640" y="947" w="368" h="17" measuredW="200" measuredH="80" zOrder="124" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>14</size>
+        <text>*Description*%3AThis%20seminar%20on%20modernity%20and%20traditionality%20explores%20the%20modern%20viewpoint%20on%20traditional%20experiences.%20We%20love%20to%20discuss%20modern%20things%20in%20traditional%20contexts%20and%20traditional%20things%20in%20modern%20contexts.%20Lorem%20ipsum%20dolor%20sit%20amet%2C%20consectetur%20adipisicing%20elit%2C%20sed%20do%20eiusmod%20tempor%20incididunt%20ut%20labore%20et%20dolore.%0A%20%0A*Format*%3A%20Four%20hours%20of%20seminar%20per%20week.</text>
+      </controlProperties>
+    </control>
+    <control controlID="357" controlTypeID="com.balsamiq.mockups::Paragraph" x="640" y="841" w="368" h="88" measuredW="200" measuredH="80" zOrder="125" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>14</size>
+        <text>*Spring%202014*%3A%20Spring%202014%3A%20Th%203-6%20p.m.%2C%206415%20%5BDwinelle%5D%0A*Instructor*%3A%20D.%20Richards%0A*Seats*%3A%2010.%20Enrolled%3A%209.%20Waitlist%3A%200.%20Available%3A%201.%0A*CCN*%3A%2012345%0A*Final%20exam%20group*%3A%20Not%20applicable</text>
+      </controlProperties>
+    </control>
+    <control controlID="358" controlTypeID="com.balsamiq.mockups::HRule" x="636" y="929" w="370" h="-1" measuredW="100" measuredH="10" zOrder="126" locked="false" isInGroup="-1"/>
+    <control controlID="359" controlTypeID="com.balsamiq.mockups::HRule" x="636" y="969" w="370" h="-1" measuredW="100" measuredH="10" zOrder="127" locked="false" isInGroup="-1"/>
+    <control controlID="360" controlTypeID="com.balsamiq.mockups::Paragraph" x="637" y="986" w="368" h="201" measuredW="200" measuredH="80" zOrder="128" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>14</size>
+        <text>*Prerequisites*%3A%20Graduate%20standing%20in%20the%20Anthropology%20Department%0A%20%0A*Restrictions*%3A%20May%20be%20repeated%20for%20credit%20when%20our%20era%20becomes%20more%20modern.%0A%20%0A*Notes*%3A%20Fixie%20sint%20fingerstache%20mixtape%2C%20kitsch%20tattooed%20kogi%20whatever%20fugiat%20leggings%20officia.%20</text>
+      </controlProperties>
+    </control>
+    <control controlID="361" controlTypeID="com.balsamiq.mockups::Paragraph" x="640" y="1194" w="368" h="17" measuredW="200" measuredH="80" zOrder="129" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>14</size>
+        <text>*Textbooks*%0A%u2022%20%5BA%20History%20of%20Tradition%5D%2C%20E.M.%20Forster%0A%u2022%20%5BThe%20Most%20Modern%20of%20Moderns%5D%2C%20Michel%20Foucault</text>
+      </controlProperties>
+    </control>
+    <control controlID="362" controlTypeID="com.balsamiq.mockups::HRule" x="632" y="1177" w="370" h="-1" measuredW="100" measuredH="10" zOrder="130" locked="false" isInGroup="-1"/>
+    <control controlID="363" controlTypeID="com.balsamiq.mockups::Paragraph" x="640" y="1231" w="368" h="20" measuredW="200" measuredH="80" zOrder="131" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>14</size>
+        <text>*Offering%20history*%0A%u2022%20Spring%202013%20-%20R.%20Ess%2C%20C.%20Dee%0A%u2022%20Spring%202012%20-%20R.%20Ess%2C%20C.%20Dee%0A%u2022%20Spring%202011%20-%20R.%20Ess%2C%20C.%20Dee</text>
+      </controlProperties>
+    </control>
+    <control controlID="364" controlTypeID="com.balsamiq.mockups::HRule" x="632" y="1212" w="370" h="-1" measuredW="100" measuredH="10" zOrder="132" locked="false" isInGroup="-1"/>
+    <control controlID="365" controlTypeID="com.balsamiq.mockups::Paragraph" x="640" y="1268" w="368" h="17" measuredW="200" measuredH="80" zOrder="133" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>14</size>
+        <text>*Ratings*%0A8/10%20average%0A%22it%20was%20ok%22%AD%u20147.5%0A%22loved%20the%20exam%22%u20149%0A%22could%20be%20more%20modern%22%u20148</text>
+      </controlProperties>
+    </control>
+    <control controlID="366" controlTypeID="com.balsamiq.mockups::HRule" x="632" y="1251" w="370" h="-1" measuredW="100" measuredH="10" zOrder="134" locked="false" isInGroup="-1"/>
+    <control controlID="367" controlTypeID="com.balsamiq.mockups::HRule" x="1023" y="1177" w="370" h="-1" measuredW="100" measuredH="10" zOrder="135" locked="false" isInGroup="-1"/>
+    <control controlID="368" controlTypeID="com.balsamiq.mockups::HRule" x="1023" y="1212" w="370" h="-1" measuredW="100" measuredH="10" zOrder="136" locked="false" isInGroup="-1"/>
+    <control controlID="369" controlTypeID="com.balsamiq.mockups::HRule" x="1023" y="1251" w="370" h="-1" measuredW="100" measuredH="10" zOrder="137" locked="false" isInGroup="-1"/>
+    <control controlID="370" controlTypeID="com.balsamiq.mockups::Paragraph" x="1031" y="781" w="368" h="58" measuredW="200" measuredH="80" zOrder="138" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>14</size>
+        <text>*Anthropology%20151*%2C%203%20units%0ADystopia%3A%20Modern%20Visions</text>
+      </controlProperties>
+    </control>
+    <control controlID="371" controlTypeID="com.balsamiq.mockups::HRule" x="1027" y="823" w="370" h="-1" measuredW="100" measuredH="10" zOrder="139" locked="false" isInGroup="-1"/>
+    <control controlID="372" controlTypeID="com.balsamiq.mockups::Paragraph" x="1031" y="945" w="368" h="19" measuredW="200" measuredH="80" zOrder="140" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>14</size>
+        <text>*Description*%3A%20This%20seminar%20explores%20the%20themes%20of%20dystopic%20societies%20from%20the%20viewpoint%20of%20several%20modern%20and%20postmodern%20authors.%20Selection%20of%20books%20varies%20according%20to%20the%20instructor%27s%20discretion%2C%20but%20it%20will%20probably%20be%20awesome.%20Lorem%20ipsum%20dolor%20sit%20amet%2C%20consectetur%20adipisicing%20elit%2C%20sed%20do.%20%0A%20%0A*Format*%3A%20Three%20hours%20of%20lecture%20and%20one%20hour%20of%20discussion%20per%20week.</text>
+      </controlProperties>
+    </control>
+    <control controlID="373" controlTypeID="com.balsamiq.mockups::Paragraph" x="1031" y="839" w="368" h="88" measuredW="200" measuredH="80" zOrder="141" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>14</size>
+        <text>Not%20currently%20offered</text>
+      </controlProperties>
+    </control>
+    <control controlID="374" controlTypeID="com.balsamiq.mockups::HRule" x="1027" y="929" w="370" h="-1" measuredW="100" measuredH="10" zOrder="142" locked="false" isInGroup="-1"/>
+    <control controlID="375" controlTypeID="com.balsamiq.mockups::HRule" x="1027" y="969" w="370" h="-1" measuredW="100" measuredH="10" zOrder="143" locked="false" isInGroup="-1"/>
+    <control controlID="376" controlTypeID="com.balsamiq.mockups::Paragraph" x="1028" y="984" w="368" h="201" measuredW="200" measuredH="80" zOrder="144" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>14</size>
+        <text>*Prerequisites*%3A%20%5BAnthropology%2051%5D%20and%20consent%20of%20the%20instructor%0A%20%0A*Restrictions*%3A%20Assumenda%20hoodie%20twee%20PBR%2C%20+1%20Schlitz%20retro%20aliquip%20ad%20minim%20hella.%20Brunch%20wolf%20bespoke%20swag.%20%0A%20%0A*Notes*%3A%20Enim%20odio%20blog%20nostrud%20cupidatat%20DIY%20nulla%2C%20+1%20direct%20trade%20dreamcatcher%20officia%20ugh%20reprehenderit%20authentic.%20Fixie%20sint%20fingerstache%20mixtape%2C%20kitsch%20tattooed%20kogi%20whatever%20fugiat%20leggings%20officia.%20</text>
+      </controlProperties>
+    </control>
+    <control controlID="377" controlTypeID="com.balsamiq.mockups::Paragraph" x="1031" y="1192" w="368" h="19" measuredW="200" measuredH="80" zOrder="145" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>14</size>
+        <text>*Textbooks*%0AInformation%20not%20available</text>
+      </controlProperties>
+    </control>
+    <control controlID="378" controlTypeID="com.balsamiq.mockups::Paragraph" x="1031" y="1229" w="368" h="17" measuredW="200" measuredH="80" zOrder="146" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>14</size>
+        <text>*Offering%20history*%0A%u2022%20Spring%202013%20-%20A.%20Smith%0A%u2022%20Spring%202011%20-%20A.%20Smith%0A%u2022%20Fall%202009%20-%20G.%20George</text>
+      </controlProperties>
+    </control>
+    <control controlID="379" controlTypeID="com.balsamiq.mockups::Paragraph" x="1031" y="1266" w="368" h="17" measuredW="200" measuredH="80" zOrder="147" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>14</size>
+        <text>*Ratings*%0A9/10%20average%0A%22I%20loved%20every%20minute%20of%20it%21%22%AD%u201410%0A%22hella%20dystopian%22%u20149%0A%22could%20be%20more%20modern%22%u20148</text>
+      </controlProperties>
+    </control>
+    <control controlID="380" controlTypeID="com.balsamiq.mockups::HRule" x="1027" y="1285" w="370" h="-1" measuredW="100" measuredH="10" zOrder="148" locked="false" isInGroup="-1"/>
+    <control controlID="381" controlTypeID="com.balsamiq.mockups::VerticalScrollBar" x="1238" y="766" w="-1" h="552" measuredW="16" measuredH="100" zOrder="149" locked="false" isInGroup="-1"/>
+    <control controlID="382" controlTypeID="com.balsamiq.mockups::Icon" x="603" y="777" w="-1" h="-1" measuredW="16" measuredH="16" zOrder="150" locked="false" isInGroup="-1">
+      <controlProperties>
+        <icon>CircledXIcon%7Cxsmall</icon>
+      </controlProperties>
+    </control>
+    <control controlID="383" controlTypeID="com.balsamiq.mockups::Icon" x="994" y="777" w="-1" h="-1" measuredW="16" measuredH="16" zOrder="151" locked="false" isInGroup="-1">
+      <controlProperties>
+        <icon>CircledXIcon%7Cxsmall</icon>
+      </controlProperties>
+    </control>
+    <control controlID="385" controlTypeID="com.balsamiq.mockups::HRule" x="208" y="1285" w="385" h="-1" measuredW="100" measuredH="10" zOrder="152" locked="false" isInGroup="-1"/>
+    <control controlID="386" controlTypeID="com.balsamiq.mockups::HRule" x="636" y="1285" w="370" h="-1" measuredW="100" measuredH="10" zOrder="153" locked="false" isInGroup="-1"/>
+    <control controlID="387" controlTypeID="com.balsamiq.mockups::Icon" x="219" y="833" w="-1" h="-1" measuredW="16" measuredH="16" zOrder="154" locked="false" isInGroup="-1">
+      <controlProperties>
+        <icon>DownFillTriangleIcon%7Cxsmall</icon>
+      </controlProperties>
+    </control>
+    <control controlID="388" controlTypeID="com.balsamiq.mockups::Icon" x="219" y="939" w="-1" h="-1" measuredW="16" measuredH="16" zOrder="155" locked="false" isInGroup="-1">
+      <controlProperties>
+        <icon>RightFillTriangleIcon%7Cxsmall</icon>
+      </controlProperties>
+    </control>
+    <control controlID="389" controlTypeID="com.balsamiq.mockups::Icon" x="219" y="977" w="-1" h="-1" measuredW="16" measuredH="16" zOrder="156" locked="false" isInGroup="-1">
+      <controlProperties>
+        <icon>DownFillTriangleIcon%7Cxsmall</icon>
+      </controlProperties>
+    </control>
+    <control controlID="390" controlTypeID="com.balsamiq.mockups::Icon" x="219" y="1187" w="-1" h="-1" measuredW="16" measuredH="16" zOrder="157" locked="false" isInGroup="-1">
+      <controlProperties>
+        <icon>RightFillTriangleIcon%7Cxsmall</icon>
+      </controlProperties>
+    </control>
+    <control controlID="391" controlTypeID="com.balsamiq.mockups::Icon" x="219" y="1226" w="-1" h="-1" measuredW="16" measuredH="16" zOrder="158" locked="false" isInGroup="-1">
+      <controlProperties>
+        <icon>RightFillTriangleIcon%7Cxsmall</icon>
+      </controlProperties>
+    </control>
+    <control controlID="392" controlTypeID="com.balsamiq.mockups::Icon" x="219" y="1259" w="-1" h="-1" measuredW="16" measuredH="16" zOrder="159" locked="false" isInGroup="-1">
+      <controlProperties>
+        <icon>RightFillTriangleIcon%7Cxsmall</icon>
+      </controlProperties>
+    </control>
+    <control controlID="393" controlTypeID="com.balsamiq.mockups::Icon" x="219" y="1295" w="-1" h="-1" measuredW="16" measuredH="16" zOrder="160" locked="false" isInGroup="-1">
+      <controlProperties>
+        <icon>RightFillTriangleIcon%7Cxsmall</icon>
+      </controlProperties>
+    </control>
+    <control controlID="394" controlTypeID="com.balsamiq.mockups::Paragraph" x="250" y="1295" w="200" h="23" measuredW="200" measuredH="80" zOrder="161" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>14</size>
+        <text>*Grades*%0AAverage%3A%20A-</text>
+      </controlProperties>
+    </control>
+    <control controlID="395" controlTypeID="com.balsamiq.mockups::Paragraph" x="636" y="1295" w="200" h="16" measuredW="200" measuredH="80" zOrder="162" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>14</size>
+        <text>*Grades*%0AAverage%3A%20A-</text>
+      </controlProperties>
+    </control>
+    <control controlID="396" controlTypeID="com.balsamiq.mockups::Paragraph" x="1031" y="1295" w="200" h="16" measuredW="200" measuredH="80" zOrder="163" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>14</size>
+        <text>*Grades*%0AAverage%3A%20A-</text>
+      </controlProperties>
+    </control>
+    <control controlID="397" controlTypeID="com.balsamiq.mockups::Canvas" x="1239" y="1317" w="15" h="15" measuredW="100" measuredH="70" zOrder="164" locked="false" isInGroup="-1"/>
+    <control controlID="398" controlTypeID="com.balsamiq.mockups::Canvas" x="1254" y="810" w="77" h="521" measuredW="100" measuredH="70" zOrder="165" locked="false" isInGroup="-1">
+      <controlProperties>
+        <borderStyle>none</borderStyle>
+        <color>5464687</color>
+        <verticalScrollbar>false</verticalScrollbar>
+      </controlProperties>
+    </control>
+    <control controlID="399" controlTypeID="com.balsamiq.mockups::Canvas" x="1331" y="662" w="100" h="1607" measuredW="100" measuredH="70" zOrder="166" locked="false" isInGroup="-1"/>
   </controls>
 </mockup>

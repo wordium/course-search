@@ -1,6 +1,10 @@
 Changes to our Balsamiq interactions
 ====================================
 
+4/26
+• modified the comparison stuff to be at the bottom of the Saved screen with toggle btwn calendar and details
+• deprecated the old Save and Compare screens (so we have things for our presentation screenshots)
+
 4/22
 • Modified the comparison screen to have some data elements closed by default, and to add 
   a calendar at the bottom. 

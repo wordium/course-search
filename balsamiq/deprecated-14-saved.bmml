@@ -33,10 +33,10 @@
         <text>COURSE%20SEARCH</text>
       </controlProperties>
     </control>
-    <control controlID="54" controlTypeID="com.balsamiq.mockups::Link" x="249" y="841" w="-1" h="-1" measuredW="95" measuredH="20" zOrder="6" locked="false" isInGroup="-1">
+    <control controlID="54" controlTypeID="com.balsamiq.mockups::Link" x="249" y="957" w="-1" h="-1" measuredW="95" measuredH="20" zOrder="6" locked="false" isInGroup="-1">
       <controlProperties>
         <href>1-basic-search-title%26bm%3B1-basic-search-title.bmml%26bm%3B1-basic-search-title.bmml%26bm%3B1-basic-search-title.bmml</href>
-        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%22118%2C807%2C213%2C827%22%20href%3D%221-basic-search-title.bmml%22%20alt%3D%221-basic-search-title%22%20id%3D%2254%22/%3E</map>
+        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%22118%2C923%2C213%2C943%22%20href%3D%221-basic-search-title.bmml%22%20alt%3D%221-basic-search-title%22%20id%3D%2254%22/%3E</map>
         <size>14</size>
         <text>Back%20to%20search</text>
       </controlProperties>
@@ -522,11 +522,11 @@
         <color>6710886</color>
       </controlProperties>
     </control>
-    <control controlID="309" controlTypeID="com.balsamiq.mockups::Label" x="1069" y="326" w="49" h="-1" measuredW="44" measuredH="22" zOrder="91" locked="false" isInGroup="-1">
+    <control controlID="309" controlTypeID="com.balsamiq.mockups::Label" x="1061" y="326" w="64" h="-1" measuredW="61" measuredH="22" zOrder="91" locked="false" isInGroup="-1">
       <controlProperties>
         <bold>true</bold>
         <size>14</size>
-        <text>Select</text>
+        <text>Compare</text>
       </controlProperties>
     </control>
     <control controlID="310" controlTypeID="com.balsamiq.mockups::Icon" x="1086" y="365" w="-1" h="-1" measuredW="24" measuredH="24" zOrder="92" locked="false" isInGroup="-1">
@@ -538,17 +538,17 @@
     <control controlID="311" controlTypeID="com.balsamiq.mockups::Icon" x="1086" y="428" w="-1" h="-1" measuredW="24" measuredH="24" zOrder="93" locked="false" isInGroup="-1">
       <controlProperties>
         <borderStyle>square</borderStyle>
-        <href>17-select-calendar-view%26bm%3B17-select-calendar-view.bmml%26bm%3B17-select-calendar-view.bmml%26bm%3B17-select-calendar-view.bmml</href>
+        <href>17-compare-choose%26bm%3B17-compare-choose.bmml%26bm%3B17-compare-choose.bmml%26bm%3B17-compare-choose.bmml</href>
         <icon>StopIcon%7Csmall</icon>
-        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%22955%2C394%2C979%2C418%22%20href%3D%2217-select-calendar-view.bmml%22%20alt%3D%2217-select-calendar-view%22%20id%3D%22311%22/%3E</map>
+        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%22955%2C394%2C979%2C418%22%20href%3D%2217-compare-choose.bmml%22%20alt%3D%2217-compare-choose%22%20id%3D%22311%22/%3E</map>
       </controlProperties>
     </control>
     <control controlID="312" controlTypeID="com.balsamiq.mockups::Icon" x="1086" y="490" w="-1" h="-1" measuredW="24" measuredH="24" zOrder="94" locked="false" isInGroup="-1">
       <controlProperties>
         <borderStyle>square</borderStyle>
-        <href>17-select-calendar-view%26bm%3B17-select-calendar-view.bmml%26bm%3B17-select-calendar-view.bmml%26bm%3B17-select-calendar-view.bmml</href>
+        <href>17-compare-choose%26bm%3B17-compare-choose.bmml%26bm%3B17-compare-choose.bmml%26bm%3B17-compare-choose.bmml</href>
         <icon>StopIcon%7Csmall</icon>
-        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%22955%2C456%2C979%2C480%22%20href%3D%2217-select-calendar-view.bmml%22%20alt%3D%2217-select-calendar-view%22%20id%3D%22312%22/%3E</map>
+        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%22955%2C456%2C979%2C480%22%20href%3D%2217-compare-choose.bmml%22%20alt%3D%2217-compare-choose%22%20id%3D%22312%22/%3E</map>
       </controlProperties>
     </control>
     <control controlID="313" controlTypeID="com.balsamiq.mockups::Icon" x="1086" y="554" w="-1" h="-1" measuredW="24" measuredH="24" zOrder="95" locked="false" isInGroup="-1">
@@ -566,61 +566,42 @@
     <control controlID="315" controlTypeID="com.balsamiq.mockups::Icon" x="1086" y="673" w="-1" h="-1" measuredW="24" measuredH="24" zOrder="97" locked="false" isInGroup="-1">
       <controlProperties>
         <borderStyle>square</borderStyle>
-        <href>17-select-calendar-view%26bm%3B17-select-calendar-view.bmml%26bm%3B17-select-calendar-view.bmml%26bm%3B17-select-calendar-view.bmml</href>
+        <href>17-compare-choose%26bm%3B17-compare-choose.bmml%26bm%3B17-compare-choose.bmml%26bm%3B17-compare-choose.bmml</href>
         <icon>StopIcon%7Csmall</icon>
-        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%22955%2C639%2C979%2C663%22%20href%3D%2217-select-calendar-view.bmml%22%20alt%3D%2217-select-calendar-view%22%20id%3D%22315%22/%3E</map>
+        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%22955%2C639%2C979%2C663%22%20href%3D%2217-compare-choose.bmml%22%20alt%3D%2217-compare-choose%22%20id%3D%22315%22/%3E</map>
       </controlProperties>
     </control>
-    <control controlID="321" controlTypeID="com.balsamiq.mockups::Canvas" x="247" y="317" w="956" h="37" measuredW="100" measuredH="70" zOrder="98" locked="false" isInGroup="-1">
+    <control controlID="316" controlTypeID="com.balsamiq.mockups::Button" x="962" y="280" w="-1" h="-1" measuredW="132" measuredH="24" zOrder="98" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Compare%20Selected</text>
+      </controlProperties>
+    </control>
+    <control controlID="318" controlTypeID="com.balsamiq.mockups::Button" x="1110" y="280" w="-1" h="-1" measuredW="79" measuredH="24" zOrder="99" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Export%20All</text>
+      </controlProperties>
+    </control>
+    <control controlID="319" controlTypeID="com.balsamiq.mockups::Button" x="962" y="742" w="-1" h="-1" measuredW="132" measuredH="24" zOrder="100" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Compare%20Selected</text>
+      </controlProperties>
+    </control>
+    <control controlID="320" controlTypeID="com.balsamiq.mockups::Button" x="1110" y="742" w="-1" h="-1" measuredW="79" measuredH="24" zOrder="101" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Export%20All</text>
+      </controlProperties>
+    </control>
+    <control controlID="321" controlTypeID="com.balsamiq.mockups::Canvas" x="248" y="318" w="939" h="35" measuredW="100" measuredH="70" zOrder="102" locked="false" isInGroup="-1">
       <controlProperties>
         <backgroundAlpha>0.5</backgroundAlpha>
         <borderColor>3355443</borderColor>
-        <borderStyle>square</borderStyle>
+        <borderStyle>none</borderStyle>
         <color>3355443</color>
       </controlProperties>
     </control>
-    <control controlID="324" controlTypeID="com.balsamiq.mockups::Paragraph" x="249" y="277" w="476" h="37" measuredW="200" measuredH="80" zOrder="99" locked="false" isInGroup="-1">
+    <control controlID="324" controlTypeID="com.balsamiq.mockups::Paragraph" x="249" y="277" w="690" h="37" measuredW="200" measuredH="80" zOrder="103" locked="false" isInGroup="-1">
       <controlProperties>
         <text>These%20classes%20will%20be%20saved%20for%20as%20long%20as%20you%20are%20on%20the%20Course%20Search%20site.%20To%20keep%20a%20longer%20record%20of%20your%20saved%20classes%2C%20export%20them%20before%20leaving%20the%20site.</text>
-      </controlProperties>
-    </control>
-    <control controlID="325" controlTypeID="com.balsamiq.mockups::VerticalScrollBar" x="1187" y="353" w="-1" h="363" measuredW="16" measuredH="100" zOrder="100" locked="false" isInGroup="-1"/>
-    <control controlID="328" controlTypeID="com.balsamiq.mockups::Label" x="843" y="734" w="-1" h="-1" measuredW="349" measuredH="22" zOrder="101" locked="false" isInGroup="-1">
-      <controlProperties>
-        <size>14</size>
-        <text>Select%20courses%20to%20view%20on%20calendar%20or%20compare%20details</text>
-      </controlProperties>
-    </control>
-    <control controlID="329" controlTypeID="com.balsamiq.mockups::DataGrid" x="227" y="775" w="1004" h="405" measuredW="388" measuredH="461" zOrder="102" locked="false" isInGroup="-1">
-      <controlProperties>
-        <alternateRowColor>15594478</alternateRowColor>
-        <bold>false</bold>
-        <borderStyle>square</borderStyle>
-        <color>16777215</color>
-        <hasHeader>true</hasHeader>
-        <hLines>true</hLines>
-        <rowHeight>16</rowHeight>
-        <size>14</size>
-        <text>%2C*Mon*%2C*Tue*%20%2C*Wed*%2C*Thu*%2C*Fri*%2C*Sat*%2C*Sun*%0A*8-8%3A30%20am*%0A*8%3A30-9%20am*%0A*9-9%3A30%20am*%0A*9%3A30-10%20am*%0A*10-10%3A30%20am*%0A*10%3A30-11%20am*%0A*11-11%3A30%20am*%0A*11%3A30%20am-12pm*%0A*12-12%3A30%20pm*%0A*12%3A30-1%20pm*%0A*1-1%3A30%20pm*%0A*1%3A30-2pm*%0A*2-2%3A30%20pm*%0A*2%3A30-3%20pm*%0A*3-3%3A30%20pm*%0A*3%3A30-4%20pm*%0A*4-4%3A30pm*%0A*4%3A30-5%20pm*%0A*5-5%3A30%20pm*%0A*5%3A30-6pm*%0A*6-6%3A30%20pm*%0A*6%3A30-7%20pm*%0A*7-7%3A30%20pm*%0A*7%3A30-8%20pm*%0A*8-8%3A30%20pm*%0A*8%3A30-9%20pm*%0A%7B10%2C%2012C%2C%2012C%2C%2012C%2C%2012C%2C%2012C%2C%2012C%2C%2012C%7D</text>
-        <verticalScrollbar>true</verticalScrollbar>
-      </controlProperties>
-    </control>
-    <control controlID="330" controlTypeID="com.balsamiq.mockups::Link" x="873" y="282" w="-1" h="-1" measuredW="95" measuredH="20" zOrder="103" locked="false" isInGroup="-1">
-      <controlProperties>
-        <href>1-basic-search-title%26bm%3B1-basic-search-title.bmml%26bm%3B1-basic-search-title.bmml%26bm%3B1-basic-search-title.bmml</href>
-        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%22742%2C248%2C837%2C268%22%20href%3D%221-basic-search-title.bmml%22%20alt%3D%221-basic-search-title%22%20id%3D%22330%22/%3E</map>
-        <size>14</size>
-        <text>Back%20to%20search</text>
-      </controlProperties>
-    </control>
-    <control controlID="331" controlTypeID="com.balsamiq.mockups::Button" x="1070" y="280" w="-1" h="-1" measuredW="117" measuredH="24" zOrder="104" locked="false" isInGroup="-1">
-      <controlProperties>
-        <text>Export%20Selected</text>
-      </controlProperties>
-    </control>
-    <control controlID="332" controlTypeID="com.balsamiq.mockups::Button" x="983" y="280" w="-1" h="-1" measuredW="79" measuredH="24" zOrder="105" locked="false" isInGroup="-1">
-      <controlProperties>
-        <text>Export%20All</text>
       </controlProperties>
     </control>
   </controls>
