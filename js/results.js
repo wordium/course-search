@@ -25,21 +25,31 @@ function getJSON (filename) {
 
       instance = course.classInstance;
 
-      console.log(instance);
+      if (instance.length === 0) {
+        row += '<td class="deptAbbrev">' + course.deptAbbrev + '</td>'
+         + '<td class="courseNum">' + course.number + '</td>'
+         + '<td class="courseTitle">' + course.title + '</td>'
+         + '<td colspan="3" class="notOfferedTD"> ---- Not offered this semester. ---- </td>'
+         + '<td class="courseUnits">' + course.credit + '</td>'
+         + '<td class="notOfferedTD"> N/A </td>'
+         + '<td class="badges">' + 'badges' + '</td>'
+         + '<td class="save">' + 'save button' + '</td>'
+         + '</tr>';
+      }
 
       for (var i=0; i<instance.length; i++){
 
-        row += '<td>' + course.deptAbbrev + '</td>'
-         + '<td>' + course.number + '</td>'
-         + '<td>' + course.title + '</td>'
-         + '<td>' + instance[i].instructor + '</td>'
-         + '<td>' + instance[i].time + '</td>'
-         + '<td>' + instance[i].location.room + ' <a href="http://www.berkeley.edu/map/googlemap/?' + instance[i].location.building.toLowerCase() + '" target="new">'
+        row += '<td class="deptAbbrev">' + course.deptAbbrev + '</td>'
+         + '<td class="courseNum">' + course.number + '</td>'
+         + '<td class="courseTitle">' + course.title + '</td>'
+         + '<td class="instanceInstructor">' + instance[i].instructor + '</td>'
+         + '<td class="instanceTime">' + instance[i].time + '</td>'
+         + '<td class="instancePlace">' + instance[i].location.room + ' <a href="http://www.berkeley.edu/map/googlemap/?' + instance[i].location.building.toLowerCase() + '" target="new">'
                                               + instance[i].location.building + '</a></td>'
-         + '<td>' + course.credit + '</td>'
-         + '<td>' + instance[i].ccn + '</td>'
-         + '<td>' + 'badges' + '</td>'
-         + '<td>' + 'save button' + '</td>'
+         + '<td class="courseUnits">' + course.credit + '</td>'
+         + '<td class="instanceCCN">' + instance[i].ccn + '</td>'
+         + '<td class="badges">' + 'badges' + '</td>'
+         + '<td class="save">' + 'save button' + '</td>'
          + '</tr>';
       }
 

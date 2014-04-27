@@ -15,14 +15,17 @@
 td,th {
   background-color: #fff;
   border: 1px solid #000;
-  padding: 1px;
+  padding: 3px;
+  height: 40px;
 }
 
 
 
 
 
-
+.notOfferedTD {
+  text-align: center;
+}
 
 #fileChange li {
   display: inline;
@@ -32,3 +35,39 @@ td,th {
 #fileChange li:hover {
   cursor: pointer;
 }
+
+.deptAbbrev {
+  width: 75px;
+}
+.courseNum {
+  width: 50px;
+}
+.courseTitle {
+  width: 300px;
+}
+.instanceInstructor{
+  width: 110px;
+}
+.instanceTime{
+  width: 80px;
+}
+.instancePlace{
+  width: 75px
+}
+.courseUnits{
+  width: 20px;
+}
+.instanceCCN{
+  width: 50px;
+}
+.badges{
+  width: 70px;
+}
+.save{
+  width: 40px;
+}
+
+
+
+
+
