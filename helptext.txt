@@ -1,0 +1,40 @@
+BASIC SEARCH SIDEBAR HELP TEXT
+
+Semester: Limit your search to a specific semester, or see all Berkeley courses, including those that are not currently scheduled.
+
+Department: Start typing to see a list of suggestions.
+Course Number: When text is entered, suggestions will appear if a department is selected.
+
+Keyword(s): Enter one or more to search for your term(s) in course descriptions.
+Title Keyword(s): Enter one or more to search for your term(s) in course titles only.
+
+Instructor: Enter a full or partial last name. 
+
+ADVANCED SEARCH SIDEBAR HELP TEXT
+
+Advanced Search Options let you search according to seat availability, units, breadth requirements, time and day, and more.
+
+Seats: Check the box to search only for classes with open seats.
+Waitlist: Check the box to search only for classes with a waitlist that is open for additions.
+Exclude: Check to exclude discussion sections and labs from your search results.
+
+Units: Enter a minimum and/or maximum to search for a specific number or a range of units.
+
+Course Classification: Select the course level you wish to search.
+
+Campus Requirements: Check boxes to search for courses that meet the selected UC Berkeley requirements.
+
+L&S Breadth Requirements: Check boxes to search for courses that fulfill the selected breadth requirements. Note that although most courses that meet L&S requirements will also do so for other colleges, students outside of L&S should double-check with their advisor and/or the handbook that documents their requirements.
+
+Major(s): Add a major to search for courses that are included in its requirements. Click the plus sign to add an additional major. When searching for more than one major, results will display courses that are included in at least one of them. 
+
+Minor(s): Add a minor to search for courses that are included in its requirements. Click the plus sign to add an additional minor. When searching for more than one minor, results will display courses that are included in at least one of them. 
+
+Day and time: Click on time blocks to select them and search for classes that meet during the selected times and days.
+
+ADVANCED SEARCH OPTIONS IN-PLACE TEXT
+
+Breadth: Most courses that meet L&S Breadth requirements will do so for other colleges as well. If you are unsure, check with your advisor or your college's handbook.
+
+Calendar: Select time blocks to search for classes that meet only during hours selected.
+
