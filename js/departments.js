@@ -44,6 +44,7 @@ function departmentAutocomplete() {
         "Critical Theory",
         "Cuneiform",
         "Demography",
+        "Decal",
         "Development Practice",
         "Development Studies",
         "Dutch Studies",

@@ -44,6 +44,7 @@ $(document).ready(function () {
       $td.css('background-color', '#fff')
          .attr('data-selected', 'false');
 
+      // set appropriate .selectDay and .selectTime to data-selected='false'
     }
     else {
       $td.css('background-color', '#B9D3B6')

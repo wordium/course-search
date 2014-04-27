@@ -25,6 +25,8 @@ function getJSON (filename) {
 
       instance = course.classInstance;
 
+      console.log(instance);
+
       for (var i=0; i<instance.length; i++){
 
         row += '<td>' + course.deptAbbrev + '</td>'

@@ -48,6 +48,7 @@ List is compiled from these pages:
 "Critical Theory Graduate Group (CRIT TH)",
 "Cuneiform (CUNEIF)",
 "Data Science  (DATASCI)",
+"Decal",
 "Demography (DEMOG)",
 "Development Engineering (DEV ENG)",
 "Development Practice (DEVP)",

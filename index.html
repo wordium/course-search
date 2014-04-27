@@ -94,6 +94,7 @@
 
             <div id="seats-units">
               <ul class="formGroup">
+                <div class="sectionTitle">Seats and Type:</div>
                 <li><input type="checkbox" id="openSeats"> <label for="openSeats">Open Seats</label></input></li>
                 <li><input type="checkbox" id="openWaitlist"> <label for="openWaitlist">Open Waitlist</label></input></li>
                 <li><input type="checkbox" id="exclude"> <label for="exclude">Exclude Discussions and Labs</label></input></li>
@@ -103,7 +104,7 @@
                 <label id="unitsLabel">Units:</label>
 
                 <select class="units">
-                  <option value="0">Min</option>
+                  <option value="-1">Min</option>
                   <option value="0">0</option>
                   <option value="1">1</option>
                   <option value="2">2</option>
@@ -119,13 +120,13 @@
                   <option value="3">3</option>
                   <option value="4">4</option>
                   <option value="5">5</option>
-                  <option value="15">6+</option>
+                  <option value="6">6+</option>
                 </select>
               </div>
             </div>
 
             <div class="formGroup">
-              Course Classification:
+              <div class="sectionTitle">Course Classification:</div>
               <ul id="courseLevel">
                 <li><input type="checkbox" id="lowerDiv" /> <label for="lowerDiv">Lower Division (1-99)</label></li>
                 <li><input type="checkbox" id="upperDiv" /> <label for="upperDiv">Upper Division (100-199)</label></li>
@@ -136,7 +137,7 @@
           </div><!-- #advCheckboxes -->
 
           <div id="requirements">
-            Campus Requirements:
+            <div class="sectionTitle">Campus Requirements:</div>
             <ul class="formGroup" id="campusReq">
               <li><input type="checkbox" id="r-AC"/> <label for="r-AC">American Cultures</label></li>
               <li><input type="checkbox" id="r-AHI"/> <label for="r-AHI">American History and Institutions</label></li>
@@ -144,7 +145,8 @@
               <li><input type="checkbox" id="r-RCB"/> <label for="r-RCB">Reading and Composition B</label></li>
             </ul>
 
-            Letters & Science 7 Course Breadth:
+            <div class="sectionTitle">Letters & Science 7 Course Breadth:</div>
+            <div class="note">Most courses that meet L&S Breadth requirements will do so for other colleges as well. If you are unsure, check with your advisor or your college's handbook.</div>
             <ul class="formGroup" id="lsBreadth">
               <li><input type="checkbox" id="r-AL"/> <label for="r-AL">Arts and Literature</label></li>
               <li><input type="checkbox" id="r-BS"/> <label for="r-BS">Biological Science</label></li>
@@ -167,7 +169,8 @@
           
 
           <div id="time" class="formGroup">
-            Day and Time:
+            <div class="sectionTitle">Day and Time:</div>
+            <div class="note">Select time blocks to find classes that meet only during hours selected.</div>
             <table>
               <tr>
                 <td id="emptyTD"></td>
