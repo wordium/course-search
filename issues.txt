@@ -1,0 +1,5 @@
+SEARCH SCREEN
+• American History and Institutions are actually 2 separate requirements.
+• L&S Breadth and Calendar sections need a div for a note under the subhead (not just
+    off to side with the other help text)
+• Units default items behaving strangely in Firefox (fine in Chrome)
