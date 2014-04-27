@@ -33,7 +33,7 @@ function getJSON (filename) {
          + '<td class="courseUnits">' + course.credit + '</td>'
          + '<td class="notOfferedTD"> N/A </td>'
          + '<td class="badges">' + 'badges' + '</td>'
-         + '<td class="save">' + 'save button' + '</td>'
+         + '<td class="save"> <input type="checkbox"> </td>'
          + '</tr>';
       }
 
@@ -49,7 +49,7 @@ function getJSON (filename) {
          + '<td class="courseUnits">' + course.credit + '</td>'
          + '<td class="instanceCCN">' + instance[i].ccn + '</td>'
          + '<td class="badges">' + 'badges' + '</td>'
-         + '<td class="save">' + 'save button' + '</td>'
+         + '<td class="save"> <input type="checkbox"> </td>'
          + '</tr>';
       }
 

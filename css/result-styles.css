@@ -49,7 +49,7 @@ td,th {
   width: 110px;
 }
 .instanceTime{
-  width: 80px;
+  width: 65px;
 }
 .instancePlace{
   width: 75px
@@ -58,15 +58,18 @@ td,th {
   width: 20px;
 }
 .instanceCCN{
-  width: 50px;
+  width: 45px;
 }
 .badges{
   width: 70px;
 }
 .save{
-  width: 40px;
+  width: 30px;
 }
 
+th, .courseUnits, .instanceCCN, .badges, .save {
+  text-align: center;  
+}
 
 
 
