@@ -127,7 +127,7 @@
         {
             "ccn": 65355, 
             "days": "MW", 
-            "finalGroup": "Group 4--Thursday, December 18, 2014, 3P", 
+            "finalGroup": "Group 4--Thursday, December 18, 2014, 3 p.m.", 
             "instructor": "V. Benbow, Z. Alberts", 
             "location": {
                 "building": "Barrows", 
@@ -145,7 +145,7 @@
         {
             "ccn": 81809, 
             "days": "MW", 
-            "finalGroup": "Group 4--Thursday, December 18, 2014, 3P", 
+            "finalGroup": "Group 4--Thursday, December 18, 2014, 3 p.m.", 
             "instructor": "S. Abdullah", 
             "location": {
                 "building": "Dwinelle", 
@@ -839,7 +839,7 @@
         {
             "ccn": 99685, 
             "days": "MW", 
-            "finalGroup": "Group 5--Friday, December 15, 2014, 1P", 
+            "finalGroup": "Group 5--Friday, December 15, 2014, 1 p.m.", 
             "instructor": "A. Kennard", 
             "location": {
                 "building": "Wurster", 
@@ -857,7 +857,7 @@
         {
             "ccn": 60480, 
             "days": "TuTh", 
-            "finalGroup": "Group 2--Tuesday, December 16, 2014, 9A", 
+            "finalGroup": "Group 2--Tuesday, December 16, 2014, 9 a.m.", 
             "instructor": "V. Benbow, Z. Alberts", 
             "location": {
                 "building": "Barrows", 
@@ -1117,7 +1117,7 @@
         {
             "ccn": 43691, 
             "days": "TuTh", 
-            "finalGroup": "Group 3--Wednesday, December 17, 2014, 12P", 
+            "finalGroup": "Group 3--Wednesday, December 17, 2014, 12 p.m.", 
             "instructor": "S. Abdullah", 
             "location": {
                 "building": "Dwinelle", 
@@ -1322,7 +1322,7 @@
         {
             "ccn": 29639, 
             "days": "MWF", 
-            "finalGroup": "Group 1--Monday, December 15, 2014, 1P", 
+            "finalGroup": "Group 1--Monday, December 15, 2014, 1 p.m.", 
             "instructor": "S. Abdullah", 
             "location": {
                 "building": "Dwinelle", 
@@ -1488,7 +1488,7 @@
         {
             "ccn": 93735, 
             "days": "MWF", 
-            "finalGroup": "Group 3--Wednesday, December 17, 2014, 12P", 
+            "finalGroup": "Group 3--Wednesday, December 17, 2014, 12 p.m.", 
             "instructor": "S. Abdullah", 
             "location": {
                 "building": "Evans", 
@@ -1784,7 +1784,7 @@
         {
             "ccn": 18783, 
             "days": "MW", 
-            "finalGroup": "Group 2--Tuesday, December 16, 2014, 9A", 
+            "finalGroup": "Group 2--Tuesday, December 16, 2014, 9 a.m.", 
             "instructor": "C. Marquez", 
             "location": {
                 "building": "Barrows", 
@@ -2429,7 +2429,7 @@
         {
             "ccn": 99333, 
             "days": "F", 
-            "finalGroup": "Group 2--Tuesday, December 16, 2014, 9A", 
+            "finalGroup": "Group 2--Tuesday, December 16, 2014, 9 a.m.", 
             "instructor": "B. Varela", 
             "location": {
                 "building": "Soda", 
@@ -2484,7 +2484,7 @@
         {
             "ccn": 72414, 
             "days": "TuTh", 
-            "finalGroup": "Group 1--Monday, December 15, 2014, 1P", 
+            "finalGroup": "Group 1--Monday, December 15, 2014, 1 p.m.", 
             "instructor": "C. Giorgano", 
             "location": {
                 "building": "Dwinelle", 
@@ -2502,7 +2502,7 @@
         {
             "ccn": 43379, 
             "days": "MW", 
-            "finalGroup": "Group 4--Thursday, December 18, 2014, 3P", 
+            "finalGroup": "Group 4--Thursday, December 18, 2014, 3 p.m.", 
             "instructor": "C. Giorgano", 
             "location": {
                 "building": "Wurster", 

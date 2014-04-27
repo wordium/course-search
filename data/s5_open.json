@@ -29,7 +29,7 @@
                 "waitlist": 10
             }, 
             "semester": "Fall 2014", 
-            "time": "2:30-4 p.m."
+            "time": "230-4P"
         }, 
         {
             "ccn": 60147, 
@@ -47,7 +47,7 @@
                 "waitlist": 4
             }, 
             "semester": "Fall 2014", 
-            "time": "3-4:30 p.m."
+            "time": "3-430P"
         }
     ], 
     "courseThread": "", 
@@ -90,7 +90,7 @@
         {
             "ccn": 65355, 
             "days": "MW", 
-            "finalGroup": "Group 4--Thursday, December 18, 2014, 3 p.m.", 
+            "finalGroup": "Group 4--Thursday, December 18, 2014, 3P", 
             "instructor": "V. Benbow, Z. Alberts", 
             "location": {
                 "building": "Barrows", 
@@ -103,12 +103,12 @@
                 "waitlist": 6
             }, 
             "semester": "Fall 2014", 
-            "time": "3-4:30 p.m."
+            "time": "3-430P"
         }, 
         {
             "ccn": 81809, 
             "days": "MW", 
-            "finalGroup": "Group 4--Thursday, December 18, 2014, 3 p.m.", 
+            "finalGroup": "Group 4--Thursday, December 18, 2014, 3P", 
             "instructor": "S. Abdullah", 
             "location": {
                 "building": "Dwinelle", 
@@ -121,7 +121,7 @@
                 "waitlist": 5
             }, 
             "semester": "Fall 2014", 
-            "time": "12-1 p.m."
+            "time": "12-1P"
         }
     ], 
     "courseThread": "", 
@@ -177,7 +177,7 @@
                 "waitlist": 9
             }, 
             "semester": "Fall 2014", 
-            "time": "5-6 p.m."
+            "time": "5-6P"
         }, 
         {
             "ccn": 15607, 
@@ -195,7 +195,7 @@
                 "waitlist": 1
             }, 
             "semester": "Fall 2014", 
-            "time": "12-1 p.m."
+            "time": "12-1P"
         }, 
         {
             "ccn": 96862, 
@@ -213,7 +213,7 @@
                 "waitlist": 9
             }, 
             "semester": "Fall 2014", 
-            "time": "11 a.m.-12 p.m."
+            "time": "11A-12P"
         }, 
         {
             "ccn": 57456, 
@@ -231,7 +231,7 @@
                 "waitlist": 4
             }, 
             "semester": "Fall 2014", 
-            "time": "11 a.m.-12 p.m."
+            "time": "11A-12P"
         }
     ], 
     "courseThread": "", 
@@ -286,7 +286,7 @@
                 "waitlist": 5
             }, 
             "semester": "Fall 2014", 
-            "time": "1-2 p.m."
+            "time": "1-2P"
         }, 
         {
             "ccn": 36014, 
@@ -304,7 +304,7 @@
                 "waitlist": 2
             }, 
             "semester": "Fall 2014", 
-            "time": "5-6 p.m."
+            "time": "5-6P"
         }, 
         {
             "ccn": 70176, 
@@ -322,7 +322,7 @@
                 "waitlist": 10
             }, 
             "semester": "Fall 2014", 
-            "time": "5-6 p.m."
+            "time": "5-6P"
         }, 
         {
             "ccn": 40685, 
@@ -340,7 +340,7 @@
                 "waitlist": 10
             }, 
             "semester": "Fall 2014", 
-            "time": "5-6 p.m."
+            "time": "5-6P"
         }, 
         {
             "ccn": 49642, 
@@ -358,7 +358,7 @@
                 "waitlist": 10
             }, 
             "semester": "Fall 2014", 
-            "time": "1-2 p.m."
+            "time": "1-2P"
         }, 
         {
             "ccn": 59213, 
@@ -376,7 +376,7 @@
                 "waitlist": 6
             }, 
             "semester": "Fall 2014", 
-            "time": "11 a.m.-12 p.m."
+            "time": "11A-12P"
         }
     ], 
     "courseThread": "", 
@@ -418,7 +418,7 @@
         {
             "ccn": 64944, 
             "days": "TuTh", 
-            "finalGroup": "Group 5--Friday, December 15, 2014, 1 p.m.", 
+            "finalGroup": "Group 5--Friday, December 15, 2014, 1P", 
             "instructor": "B. Varela", 
             "location": {
                 "building": "Barrows", 
@@ -431,7 +431,7 @@
                 "waitlist": 7
             }, 
             "semester": "Fall 2014", 
-            "time": "3-4:30 p.m."
+            "time": "3-430P"
         }
     ], 
     "courseThread": "", 
@@ -487,7 +487,7 @@
                 "waitlist": 2
             }, 
             "semester": "Fall 2014", 
-            "time": "9-10 a.m."
+            "time": "9-10A"
         }, 
         {
             "ccn": 58234, 
@@ -505,7 +505,7 @@
                 "waitlist": 5
             }, 
             "semester": "Fall 2014", 
-            "time": "10-11 a.m."
+            "time": "10-11A"
         }, 
         {
             "ccn": 56609, 
@@ -523,7 +523,7 @@
                 "waitlist": 4
             }, 
             "semester": "Fall 2014", 
-            "time": "4-5 p.m."
+            "time": "4-5P"
         }
     ], 
     "courseThread": "", 
@@ -579,7 +579,7 @@
                 "waitlist": 4
             }, 
             "semester": "Fall 2014", 
-            "time": "4:30-6 p.m."
+            "time": "430-6P"
         }
     ], 
     "courseThread": "", 
@@ -635,7 +635,7 @@
                 "waitlist": 4
             }, 
             "semester": "Fall 2014", 
-            "time": "10-11 a.m."
+            "time": "10-11A"
         }, 
         {
             "ccn": 55916, 
@@ -653,7 +653,7 @@
                 "waitlist": 2
             }, 
             "semester": "Fall 2014", 
-            "time": "12-1 p.m."
+            "time": "12-1P"
         }, 
         {
             "ccn": 48777, 
@@ -671,7 +671,7 @@
                 "waitlist": 1
             }, 
             "semester": "Fall 2014", 
-            "time": "9-10 a.m."
+            "time": "9-10A"
         }, 
         {
             "ccn": 19358, 
@@ -689,7 +689,7 @@
                 "waitlist": 8
             }, 
             "semester": "Fall 2014", 
-            "time": "11 a.m.-12 p.m."
+            "time": "11A-12P"
         }, 
         {
             "ccn": 19587, 
@@ -707,7 +707,7 @@
                 "waitlist": 0
             }, 
             "semester": "Fall 2014", 
-            "time": "1-2 p.m."
+            "time": "1-2P"
         }
     ], 
     "courseThread": "", 
@@ -750,7 +750,7 @@
         {
             "ccn": 99685, 
             "days": "MW", 
-            "finalGroup": "Group 5--Friday, December 15, 2014, 1 p.m.", 
+            "finalGroup": "Group 5--Friday, December 15, 2014, 1P", 
             "instructor": "A. Kennard", 
             "location": {
                 "building": "Wurster", 
@@ -763,7 +763,7 @@
                 "waitlist": 5
             }, 
             "semester": "Fall 2014", 
-            "time": "4:30-6 p.m."
+            "time": "430-6P"
         }, 
         {
             "ccn": 60480, 
@@ -781,7 +781,7 @@
                 "waitlist": 3
             }, 
             "semester": "Fall 2014", 
-            "time": "2-3 p.m."
+            "time": "2-3P"
         }
     ], 
     "courseThread": "This course is part of the Cultural Forms in Transit Course Thread.", 
@@ -836,7 +836,7 @@
                 "waitlist": 10
             }, 
             "semester": "Fall 2014", 
-            "time": "10-11 a.m."
+            "time": "10-11A"
         }
     ], 
     "courseThread": "", 
@@ -892,7 +892,7 @@
                 "waitlist": 4
             }, 
             "semester": "Fall 2014", 
-            "time": "1-2 p.m."
+            "time": "1-2P"
         }
     ], 
     "courseThread": "", 
@@ -948,7 +948,7 @@
                 "waitlist": 3
             }, 
             "semester": "Fall 2014", 
-            "time": "8-9 a.m."
+            "time": "8-9A"
         }
     ], 
     "courseThread": "", 
@@ -991,7 +991,7 @@
         {
             "ccn": 43691, 
             "days": "TuTh", 
-            "finalGroup": "Group 3--Wednesday, December 17, 2014, 12 p.m.", 
+            "finalGroup": "Group 3--Wednesday, December 17, 2014, 12P", 
             "instructor": "S. Abdullah", 
             "location": {
                 "building": "Dwinelle", 
@@ -1004,7 +1004,7 @@
                 "waitlist": 5
             }, 
             "semester": "Fall 2014", 
-            "time": "4:30-6 p.m."
+            "time": "430-6P"
         }
     ], 
     "courseThread": "This course is part of the Cultural Forms in Transit Course Thread.", 
@@ -1060,7 +1060,7 @@
                 "waitlist": 4
             }, 
             "semester": "Fall 2014", 
-            "time": "1-2 p.m."
+            "time": "1-2P"
         }, 
         {
             "ccn": 61905, 
@@ -1078,7 +1078,7 @@
                 "waitlist": 2
             }, 
             "semester": "Fall 2014", 
-            "time": "12-1 p.m."
+            "time": "12-1P"
         }, 
         {
             "ccn": 61201, 
@@ -1096,7 +1096,7 @@
                 "waitlist": 1
             }, 
             "semester": "Fall 2014", 
-            "time": "9-10 a.m."
+            "time": "9-10A"
         }, 
         {
             "ccn": 50417, 
@@ -1114,7 +1114,7 @@
                 "waitlist": 9
             }, 
             "semester": "Fall 2014", 
-            "time": "4-5 p.m."
+            "time": "4-5P"
         }, 
         {
             "ccn": 78956, 
@@ -1132,7 +1132,7 @@
                 "waitlist": 2
             }, 
             "semester": "Fall 2014", 
-            "time": "4-5 p.m."
+            "time": "4-5P"
         }
     ], 
     "courseThread": "", 
@@ -1175,7 +1175,7 @@
         {
             "ccn": 73993, 
             "days": "TuTh", 
-            "finalGroup": "Group 4--Thursday, December 18, 2014, 3 p.m.", 
+            "finalGroup": "Group 4--Thursday, December 18, 2014, 3P", 
             "instructor": "C. Giorgano", 
             "location": {
                 "building": "Barrows", 
@@ -1188,7 +1188,7 @@
                 "waitlist": 4
             }, 
             "semester": "Fall 2014", 
-            "time": "8-9 a.m."
+            "time": "8-9A"
         }
     ], 
     "courseThread": "", 
@@ -1231,7 +1231,7 @@
         {
             "ccn": 64725, 
             "days": "M", 
-            "finalGroup": "Group 4--Thursday, December 18, 2014, 3 p.m.", 
+            "finalGroup": "Group 4--Thursday, December 18, 2014, 3P", 
             "instructor": "D. Matousek, C. Stoddard", 
             "location": {
                 "building": "Dwinelle", 
@@ -1244,7 +1244,7 @@
                 "waitlist": 4
             }, 
             "semester": "Fall 2014", 
-            "time": "10-11 a.m."
+            "time": "10-11A"
         }
     ], 
     "courseThread": "", 
@@ -1299,7 +1299,7 @@
                 "waitlist": 2
             }, 
             "semester": "Fall 2014", 
-            "time": "1-2:30 p.m."
+            "time": "1-230P"
         }
     ], 
     "courseThread": "", 
@@ -1355,7 +1355,7 @@
                 "waitlist": 6
             }, 
             "semester": "Fall 2014", 
-            "time": "9-10 a.m."
+            "time": "9-10A"
         }
     ], 
     "courseThread": "", 
@@ -1411,7 +1411,7 @@
                 "waitlist": 9
             }, 
             "semester": "Fall 2014", 
-            "time": "2-3 p.m."
+            "time": "2-3P"
         }
     ], 
     "courseThread": "This course is part of the Cultural Forms in Transit Course Thread.", 
@@ -1454,7 +1454,7 @@
         {
             "ccn": 29639, 
             "days": "MWF", 
-            "finalGroup": "Group 1--Monday, December 15, 2014, 1 p.m.", 
+            "finalGroup": "Group 1--Monday, December 15, 2014, 1P", 
             "instructor": "S. Abdullah", 
             "location": {
                 "building": "Dwinelle", 
@@ -1467,7 +1467,7 @@
                 "waitlist": 8
             }, 
             "semester": "Fall 2014", 
-            "time": "1-2 p.m."
+            "time": "1-2P"
         }
     ], 
     "courseThread": "This course is part of the Cultural Forms in Transit Course Thread.", 
@@ -1510,7 +1510,7 @@
         {
             "ccn": 93735, 
             "days": "MWF", 
-            "finalGroup": "Group 3--Wednesday, December 17, 2014, 12 p.m.", 
+            "finalGroup": "Group 3--Wednesday, December 17, 2014, 12P", 
             "instructor": "S. Abdullah", 
             "location": {
                 "building": "Evans", 
@@ -1523,7 +1523,7 @@
                 "waitlist": 9
             }, 
             "semester": "Fall 2014", 
-            "time": "2-3 p.m."
+            "time": "2-3P"
         }
     ], 
     "courseThread": "", 
@@ -1579,7 +1579,7 @@
                 "waitlist": 7
             }, 
             "semester": "Fall 2014", 
-            "time": "10-11:30 a.m."
+            "time": "10-1130A"
         }, 
         {
             "ccn": 99018, 
@@ -1597,7 +1597,7 @@
                 "waitlist": 0
             }, 
             "semester": "Fall 2014", 
-            "time": "11:30 a.m.-1 p.m."
+            "time": "1130A-1P"
         }
     ], 
     "courseThread": "", 
@@ -1640,7 +1640,7 @@
         {
             "ccn": 72987, 
             "days": "F", 
-            "finalGroup": "Group 3--Wednesday, December 17, 2014, 12 p.m.", 
+            "finalGroup": "Group 3--Wednesday, December 17, 2014, 12P", 
             "instructor": "S. Abdullah", 
             "location": {
                 "building": "Wurster", 
@@ -1653,7 +1653,7 @@
                 "waitlist": 3
             }, 
             "semester": "Fall 2014", 
-            "time": "10-11 a.m."
+            "time": "10-11A"
         }
     ], 
     "courseThread": "", 
@@ -1696,7 +1696,7 @@
         {
             "ccn": 53855, 
             "days": "MWF", 
-            "finalGroup": "Group 3--Wednesday, December 17, 2014, 12 p.m.", 
+            "finalGroup": "Group 3--Wednesday, December 17, 2014, 12P", 
             "instructor": "O. Bandyopadhyay", 
             "location": {
                 "building": "Soda", 
@@ -1709,7 +1709,7 @@
                 "waitlist": 7
             }, 
             "semester": "Fall 2014", 
-            "time": "11 a.m.-12 p.m."
+            "time": "11A-12P"
         }
     ], 
     "courseThread": "This course is part of the Cultural Forms in Transit Course Thread.", 
@@ -1752,7 +1752,7 @@
         {
             "ccn": 19876, 
             "days": "F", 
-            "finalGroup": "Group 1--Monday, December 15, 2014, 1 p.m.", 
+            "finalGroup": "Group 1--Monday, December 15, 2014, 1P", 
             "instructor": "A. Kennard", 
             "location": {
                 "building": "Barrows", 
@@ -1765,7 +1765,7 @@
                 "waitlist": 7
             }, 
             "semester": "Fall 2014", 
-            "time": "10-11 a.m."
+            "time": "10-11A"
         }
     ], 
     "courseThread": "This course is part of the Cultural Forms in Transit Course Thread.", 
@@ -1808,7 +1808,7 @@
         {
             "ccn": 13154, 
             "days": "MWF", 
-            "finalGroup": "Group 5--Friday, December 15, 2014, 1 p.m.", 
+            "finalGroup": "Group 5--Friday, December 15, 2014, 1P", 
             "instructor": "M. Wetterman", 
             "location": {
                 "building": "Wurster", 
@@ -1821,7 +1821,7 @@
                 "waitlist": 7
             }, 
             "semester": "Fall 2014", 
-            "time": "1-2:30 p.m."
+            "time": "1-230P"
         }
     ], 
     "courseThread": "", 
@@ -1877,7 +1877,7 @@
                 "waitlist": 10
             }, 
             "semester": "Fall 2014", 
-            "time": "2:30-4 p.m."
+            "time": "230-4P"
         }
     ], 
     "courseThread": "", 
@@ -1920,7 +1920,7 @@
         {
             "ccn": 18010, 
             "days": "TuTh", 
-            "finalGroup": "Group 4--Thursday, December 18, 2014, 3 p.m.", 
+            "finalGroup": "Group 4--Thursday, December 18, 2014, 3P", 
             "instructor": "I. Jaskolski", 
             "location": {
                 "building": "Dwinelle", 
@@ -1933,7 +1933,7 @@
                 "waitlist": 6
             }, 
             "semester": "Fall 2014", 
-            "time": "1-2 p.m."
+            "time": "1-2P"
         }
     ], 
     "courseThread": "", 
@@ -1988,7 +1988,7 @@
                 "waitlist": 2
             }, 
             "semester": "Fall 2014", 
-            "time": "11 a.m.-12 p.m."
+            "time": "11A-12P"
         }, 
         {
             "ccn": 67728, 
@@ -2006,7 +2006,7 @@
                 "waitlist": 7
             }, 
             "semester": "Fall 2014", 
-            "time": "10-11 a.m."
+            "time": "10-11A"
         }, 
         {
             "ccn": 35161, 
@@ -2024,7 +2024,7 @@
                 "waitlist": 9
             }, 
             "semester": "Fall 2014", 
-            "time": "10-11 a.m."
+            "time": "10-11A"
         }, 
         {
             "ccn": 71138, 
@@ -2042,7 +2042,7 @@
                 "waitlist": 5
             }, 
             "semester": "Fall 2014", 
-            "time": "8-9 a.m."
+            "time": "8-9A"
         }
     ], 
     "courseThread": "", 
@@ -2098,7 +2098,7 @@
                 "waitlist": 5
             }, 
             "semester": "Fall 2014", 
-            "time": "8-9 a.m."
+            "time": "8-9A"
         }
     ], 
     "courseThread": "", 
@@ -2154,7 +2154,7 @@
                 "waitlist": 4
             }, 
             "semester": "Fall 2014", 
-            "time": "1-2 p.m."
+            "time": "1-2P"
         }, 
         {
             "ccn": 19028, 
@@ -2172,7 +2172,7 @@
                 "waitlist": 2
             }, 
             "semester": "Fall 2014", 
-            "time": "11 a.m.-12 p.m."
+            "time": "11A-12P"
         }
     ], 
     "courseThread": "", 
@@ -2228,7 +2228,7 @@
                 "waitlist": 1
             }, 
             "semester": "Fall 2014", 
-            "time": "1-2 p.m."
+            "time": "1-2P"
         }
     ], 
     "courseThread": "", 
@@ -2284,7 +2284,7 @@
                 "waitlist": 6
             }, 
             "semester": "Fall 2014", 
-            "time": "4-5 p.m."
+            "time": "4-5P"
         }, 
         {
             "ccn": 22718, 
@@ -2302,7 +2302,7 @@
                 "waitlist": 1
             }, 
             "semester": "Fall 2014", 
-            "time": "8-9 a.m."
+            "time": "8-9A"
         }, 
         {
             "ccn": 52837, 
@@ -2320,7 +2320,7 @@
                 "waitlist": 2
             }, 
             "semester": "Fall 2014", 
-            "time": "9-10 a.m."
+            "time": "9-10A"
         }
     ], 
     "courseThread": "", 
@@ -2376,7 +2376,7 @@
                 "waitlist": 8
             }, 
             "semester": "Fall 2014", 
-            "time": "11:30 a.m.-1 p.m."
+            "time": "1130A-1P"
         }
     ], 
     "courseThread": "", 
@@ -2432,7 +2432,7 @@
                 "waitlist": 9
             }, 
             "semester": "Fall 2014", 
-            "time": "10-11:30 a.m."
+            "time": "10-1130A"
         }
     ], 
     "courseThread": "", 
@@ -2488,7 +2488,7 @@
                 "waitlist": 7
             }, 
             "semester": "Fall 2014", 
-            "time": "2-3 p.m."
+            "time": "2-3P"
         }
     ], 
     "courseThread": "", 
@@ -2544,7 +2544,7 @@
                 "waitlist": 7
             }, 
             "semester": "Fall 2014", 
-            "time": "9-10 a.m."
+            "time": "9-10A"
         }, 
         {
             "ccn": 50963, 
@@ -2562,7 +2562,7 @@
                 "waitlist": 7
             }, 
             "semester": "Fall 2014", 
-            "time": "2-3 p.m."
+            "time": "2-3P"
         }
     ], 
     "courseThread": "", 
@@ -2605,7 +2605,7 @@
         {
             "ccn": 96590, 
             "days": "TuTh", 
-            "finalGroup": "Group 1--Monday, December 15, 2014, 1 p.m.", 
+            "finalGroup": "Group 1--Monday, December 15, 2014, 1P", 
             "instructor": "K. Serafini, M. Ferrero", 
             "location": {
                 "building": "Barrows", 
@@ -2618,12 +2618,12 @@
                 "waitlist": 5
             }, 
             "semester": "Fall 2014", 
-            "time": "10-11 a.m."
+            "time": "10-11A"
         }, 
         {
             "ccn": 72470, 
             "days": "TuTh", 
-            "finalGroup": "Group 3--Wednesday, December 17, 2014, 12 p.m.", 
+            "finalGroup": "Group 3--Wednesday, December 17, 2014, 12P", 
             "instructor": "W. Hopkins, M. Anson", 
             "location": {
                 "building": "Evans", 
@@ -2636,7 +2636,7 @@
                 "waitlist": 3
             }, 
             "semester": "Fall 2014", 
-            "time": "2-3 p.m."
+            "time": "2-3P"
         }
     ], 
     "courseThread": "This course is part of the Cultural Forms in Transit Course Thread.", 
@@ -2679,7 +2679,7 @@
         {
             "ccn": 43835, 
             "days": "TuTh", 
-            "finalGroup": "Group 5--Friday, December 15, 2014, 1 p.m.", 
+            "finalGroup": "Group 5--Friday, December 15, 2014, 1P", 
             "instructor": "B. Varela", 
             "location": {
                 "building": "Wurster", 
@@ -2692,7 +2692,7 @@
                 "waitlist": 0
             }, 
             "semester": "Fall 2014", 
-            "time": "1-2 p.m."
+            "time": "1-2P"
         }
     ], 
     "courseThread": "This course is part of the Cultural Forms in Transit Course Thread.", 
@@ -2735,7 +2735,7 @@
         {
             "ccn": 18137, 
             "days": "TuTh", 
-            "finalGroup": "Group 3--Wednesday, December 17, 2014, 12 p.m.", 
+            "finalGroup": "Group 3--Wednesday, December 17, 2014, 12P", 
             "instructor": "V. Benbow, Z. Alberts", 
             "location": {
                 "building": "Wurster", 
@@ -2748,7 +2748,7 @@
                 "waitlist": 8
             }, 
             "semester": "Fall 2014", 
-            "time": "12-1 p.m."
+            "time": "12-1P"
         }, 
         {
             "ccn": 57383, 
@@ -2766,7 +2766,7 @@
                 "waitlist": 1
             }, 
             "semester": "Fall 2014", 
-            "time": "1-2 p.m."
+            "time": "1-2P"
         }
     ], 
     "courseThread": "This course is part of the Cultural Forms in Transit Course Thread.", 
@@ -2808,7 +2808,7 @@
         {
             "ccn": 69633, 
             "days": "MW", 
-            "finalGroup": "Group 4--Thursday, December 18, 2014, 3 p.m.", 
+            "finalGroup": "Group 4--Thursday, December 18, 2014, 3P", 
             "instructor": "M. Wetterman", 
             "location": {
                 "building": "Wheeler", 
@@ -2821,12 +2821,12 @@
                 "waitlist": 3
             }, 
             "semester": "Fall 2014", 
-            "time": "12-1 p.m."
+            "time": "12-1P"
         }, 
         {
             "ccn": 11716, 
             "days": "MW", 
-            "finalGroup": "Group 3--Wednesday, December 17, 2014, 12 p.m.", 
+            "finalGroup": "Group 3--Wednesday, December 17, 2014, 12P", 
             "instructor": "M. Sarka", 
             "location": {
                 "building": "Soda", 
@@ -2839,7 +2839,7 @@
                 "waitlist": 10
             }, 
             "semester": "Fall 2014", 
-            "time": "1-2 p.m."
+            "time": "1-2P"
         }
     ], 
     "courseThread": "", 
@@ -2895,7 +2895,7 @@
                 "waitlist": 7
             }, 
             "semester": "Fall 2014", 
-            "time": "4:30-6 p.m."
+            "time": "430-6P"
         }
     ], 
     "courseThread": "This course is part of the Cultural Forms in Transit Course Thread.", 
@@ -2950,7 +2950,7 @@
                 "waitlist": 5
             }, 
             "semester": "Fall 2014", 
-            "time": "3-4:30 p.m."
+            "time": "3-430P"
         }
     ], 
     "courseThread": "", 
@@ -2992,7 +2992,7 @@
         {
             "ccn": 72414, 
             "days": "TuTh", 
-            "finalGroup": "Group 1--Monday, December 15, 2014, 1 p.m.", 
+            "finalGroup": "Group 1--Monday, December 15, 2014, 1P", 
             "instructor": "C. Giorgano", 
             "location": {
                 "building": "Dwinelle", 
@@ -3005,12 +3005,12 @@
                 "waitlist": 6
             }, 
             "semester": "Fall 2014", 
-            "time": "11:30 a.m.-1 p.m."
+            "time": "1130A-1P"
         }, 
         {
             "ccn": 43379, 
             "days": "MW", 
-            "finalGroup": "Group 4--Thursday, December 18, 2014, 3 p.m.", 
+            "finalGroup": "Group 4--Thursday, December 18, 2014, 3P", 
             "instructor": "C. Giorgano", 
             "location": {
                 "building": "Wurster", 
@@ -3023,7 +3023,7 @@
                 "waitlist": 1
             }, 
             "semester": "Fall 2014", 
-            "time": "11 a.m.-12 p.m."
+            "time": "11A-12P"
         }
     ], 
     "courseThread": "", 
@@ -3079,7 +3079,7 @@
                 "waitlist": 8
             }, 
             "semester": "Fall 2014", 
-            "time": "3-4:30 p.m."
+            "time": "3-430P"
         }
     ], 
     "courseThread": "", 
@@ -3122,7 +3122,7 @@
         {
             "ccn": 44165, 
             "days": "F", 
-            "finalGroup": "Group 4--Thursday, December 18, 2014, 3 p.m.", 
+            "finalGroup": "Group 4--Thursday, December 18, 2014, 3P", 
             "instructor": "I. Jaskolski", 
             "location": {
                 "building": "Wurster", 
@@ -3135,7 +3135,7 @@
                 "waitlist": 5
             }, 
             "semester": "Fall 2014", 
-            "time": "11 a.m.-12 p.m."
+            "time": "11A-12P"
         }
     ], 
     "courseThread": "", 
@@ -3178,7 +3178,7 @@
         {
             "ccn": 21851, 
             "days": "F", 
-            "finalGroup": "Group 1--Monday, December 15, 2014, 1 p.m.", 
+            "finalGroup": "Group 1--Monday, December 15, 2014, 1P", 
             "instructor": "M. Wetterman", 
             "location": {
                 "building": "Barrows", 
@@ -3191,7 +3191,7 @@
                 "waitlist": 9
             }, 
             "semester": "Fall 2014", 
-            "time": "2:30-4 p.m."
+            "time": "230-4P"
         }
     ], 
     "courseThread": "", 
@@ -3247,7 +3247,7 @@
                 "waitlist": 0
             }, 
             "semester": "Fall 2014", 
-            "time": "12-1 p.m."
+            "time": "12-1P"
         }, 
         {
             "ccn": 94275, 
@@ -3265,7 +3265,7 @@
                 "waitlist": 3
             }, 
             "semester": "Fall 2014", 
-            "time": "11 a.m.-12 p.m."
+            "time": "11A-12P"
         }, 
         {
             "ccn": 50972, 
@@ -3283,7 +3283,7 @@
                 "waitlist": 10
             }, 
             "semester": "Fall 2014", 
-            "time": "1-2 p.m."
+            "time": "1-2P"
         }, 
         {
             "ccn": 33541, 
@@ -3301,7 +3301,7 @@
                 "waitlist": 2
             }, 
             "semester": "Fall 2014", 
-            "time": "1-2 p.m."
+            "time": "1-2P"
         }
     ], 
     "courseThread": "", 
@@ -3357,7 +3357,7 @@
                 "waitlist": 5
             }, 
             "semester": "Fall 2014", 
-            "time": "11 a.m.-12 p.m."
+            "time": "11A-12P"
         }
     ], 
     "courseThread": "", 
@@ -3413,7 +3413,7 @@
                 "waitlist": 0
             }, 
             "semester": "Fall 2014", 
-            "time": "2-3 p.m."
+            "time": "2-3P"
         }, 
         {
             "ccn": 81271, 
@@ -3431,7 +3431,7 @@
                 "waitlist": 6
             }, 
             "semester": "Fall 2014", 
-            "time": "8-9 a.m."
+            "time": "8-9A"
         }, 
         {
             "ccn": 75049, 
@@ -3449,7 +3449,7 @@
                 "waitlist": 5
             }, 
             "semester": "Fall 2014", 
-            "time": "1-2 p.m."
+            "time": "1-2P"
         }, 
         {
             "ccn": 93822, 
@@ -3467,7 +3467,7 @@
                 "waitlist": 0
             }, 
             "semester": "Fall 2014", 
-            "time": "10-11 a.m."
+            "time": "10-11A"
         }
     ], 
     "courseThread": "", 
@@ -3523,7 +3523,7 @@
                 "waitlist": 10
             }, 
             "semester": "Fall 2014", 
-            "time": "12-1 p.m."
+            "time": "12-1P"
         }, 
         {
             "ccn": 37260, 
@@ -3541,7 +3541,7 @@
                 "waitlist": 2
             }, 
             "semester": "Fall 2014", 
-            "time": "3-4 p.m."
+            "time": "3-4P"
         }, 
         {
             "ccn": 61005, 
@@ -3559,7 +3559,7 @@
                 "waitlist": 8
             }, 
             "semester": "Fall 2014", 
-            "time": "9-10 a.m."
+            "time": "9-10A"
         }, 
         {
             "ccn": 10474, 
@@ -3577,7 +3577,7 @@
                 "waitlist": 6
             }, 
             "semester": "Fall 2014", 
-            "time": "12-1 p.m."
+            "time": "12-1P"
         }, 
         {
             "ccn": 92889, 
@@ -3595,7 +3595,7 @@
                 "waitlist": 9
             }, 
             "semester": "Fall 2014", 
-            "time": "9-10 a.m."
+            "time": "9-10A"
         }
     ], 
     "courseThread": "", 
@@ -3638,7 +3638,7 @@
         {
             "ccn": 94156, 
             "days": "TuTh", 
-            "finalGroup": "Group 3--Wednesday, December 17, 2014, 12 p.m.", 
+            "finalGroup": "Group 3--Wednesday, December 17, 2014, 12P", 
             "instructor": "C. Marquez", 
             "location": {
                 "building": "Wheeler", 
@@ -3651,12 +3651,12 @@
                 "waitlist": 4
             }, 
             "semester": "Fall 2014", 
-            "time": "11 a.m.-12 p.m."
+            "time": "11A-12P"
         }, 
         {
             "ccn": 39702, 
             "days": "TuTh", 
-            "finalGroup": "Group 1--Monday, December 15, 2014, 1 p.m.", 
+            "finalGroup": "Group 1--Monday, December 15, 2014, 1P", 
             "instructor": "G. Burke", 
             "location": {
                 "building": "Evans", 
@@ -3669,7 +3669,7 @@
                 "waitlist": 6
             }, 
             "semester": "Fall 2014", 
-            "time": "1-2:30 p.m."
+            "time": "1-230P"
         }
     ], 
     "courseThread": "", 
@@ -3712,7 +3712,7 @@
         {
             "ccn": 23635, 
             "days": "M", 
-            "finalGroup": "Group 3--Wednesday, December 17, 2014, 12 p.m.", 
+            "finalGroup": "Group 3--Wednesday, December 17, 2014, 12P", 
             "instructor": "M. Wetterman", 
             "location": {
                 "building": "Wurster", 
@@ -3725,7 +3725,7 @@
                 "waitlist": 3
             }, 
             "semester": "Fall 2014", 
-            "time": "11 a.m.-12 p.m."
+            "time": "11A-12P"
         }
     ], 
     "courseThread": "This course is part of the Cultural Forms in Transit Course Thread.", 
@@ -3768,7 +3768,7 @@
         {
             "ccn": 80878, 
             "days": "MWF", 
-            "finalGroup": "Group 3--Wednesday, December 17, 2014, 12 p.m.", 
+            "finalGroup": "Group 3--Wednesday, December 17, 2014, 12P", 
             "instructor": "M. Wetterman", 
             "location": {
                 "building": "Dwinelle", 
@@ -3781,7 +3781,7 @@
                 "waitlist": 0
             }, 
             "semester": "Fall 2014", 
-            "time": "3-4:30 p.m."
+            "time": "3-430P"
         }
     ], 
     "courseThread": "", 
@@ -3837,7 +3837,7 @@
                 "waitlist": 1
             }, 
             "semester": "Fall 2014", 
-            "time": "11 a.m.-12 p.m."
+            "time": "11A-12P"
         }, 
         {
             "ccn": 83463, 
@@ -3855,7 +3855,7 @@
                 "waitlist": 3
             }, 
             "semester": "Fall 2014", 
-            "time": "5-6 p.m."
+            "time": "5-6P"
         }
     ], 
     "courseThread": "", 
@@ -3911,7 +3911,7 @@
                 "waitlist": 2
             }, 
             "semester": "Fall 2014", 
-            "time": "3-4:30 p.m."
+            "time": "3-430P"
         }
     ], 
     "courseThread": "", 
@@ -3967,7 +3967,7 @@
                 "waitlist": 8
             }, 
             "semester": "Fall 2014", 
-            "time": "10-11 a.m."
+            "time": "10-11A"
         }
     ], 
     "courseThread": "", 
@@ -4022,7 +4022,7 @@
                 "waitlist": 0
             }, 
             "semester": "Fall 2014", 
-            "time": "2-3 p.m."
+            "time": "2-3P"
         }, 
         {
             "ccn": 78577, 
@@ -4040,7 +4040,7 @@
                 "waitlist": 10
             }, 
             "semester": "Fall 2014", 
-            "time": "12-1 p.m."
+            "time": "12-1P"
         }, 
         {
             "ccn": 96584, 
@@ -4058,7 +4058,7 @@
                 "waitlist": 6
             }, 
             "semester": "Fall 2014", 
-            "time": "8-9 a.m."
+            "time": "8-9A"
         }, 
         {
             "ccn": 67911, 
@@ -4076,7 +4076,7 @@
                 "waitlist": 9
             }, 
             "semester": "Fall 2014", 
-            "time": "1-2 p.m."
+            "time": "1-2P"
         }
     ], 
     "courseThread": "", 
@@ -4118,7 +4118,7 @@
         {
             "ccn": 64408, 
             "days": "F", 
-            "finalGroup": "Group 1--Monday, December 15, 2014, 1 p.m.", 
+            "finalGroup": "Group 1--Monday, December 15, 2014, 1P", 
             "instructor": "M. Wetterman", 
             "location": {
                 "building": "Evans", 
@@ -4131,7 +4131,7 @@
                 "waitlist": 6
             }, 
             "semester": "Fall 2014", 
-            "time": "1-2 p.m."
+            "time": "1-2P"
         }
     ], 
     "courseThread": "", 
@@ -4174,7 +4174,7 @@
         {
             "ccn": 52982, 
             "days": "TuTh", 
-            "finalGroup": "Group 4--Thursday, December 18, 2014, 3 p.m.", 
+            "finalGroup": "Group 4--Thursday, December 18, 2014, 3P", 
             "instructor": "O. Bandyopadhyay", 
             "location": {
                 "building": "Wurster", 
@@ -4187,7 +4187,7 @@
                 "waitlist": 1
             }, 
             "semester": "Fall 2014", 
-            "time": "2-3 p.m."
+            "time": "2-3P"
         }
     ], 
     "courseThread": "", 
@@ -4230,7 +4230,7 @@
         {
             "ccn": 44327, 
             "days": "TuTh", 
-            "finalGroup": "Group 1--Monday, December 15, 2014, 1 p.m.", 
+            "finalGroup": "Group 1--Monday, December 15, 2014, 1P", 
             "instructor": "M. Sarka", 
             "location": {
                 "building": "Barrows", 
@@ -4243,7 +4243,7 @@
                 "waitlist": 2
             }, 
             "semester": "Fall 2014", 
-            "time": "11 a.m.-12 p.m."
+            "time": "11A-12P"
         }
     ], 
     "courseThread": "This course is part of the Cultural Forms in Transit Course Thread.", 
@@ -4299,7 +4299,7 @@
                 "waitlist": 4
             }, 
             "semester": "Fall 2014", 
-            "time": "11:30 a.m.-1 p.m."
+            "time": "1130A-1P"
         }
     ], 
     "courseThread": "", 
@@ -4354,7 +4354,7 @@
                 "waitlist": 3
             }, 
             "semester": "Fall 2014", 
-            "time": "2-3 p.m."
+            "time": "2-3P"
         }, 
         {
             "ccn": 48545, 
@@ -4372,7 +4372,7 @@
                 "waitlist": 8
             }, 
             "semester": "Fall 2014", 
-            "time": "4-5 p.m."
+            "time": "4-5P"
         }, 
         {
             "ccn": 77451, 
@@ -4390,7 +4390,7 @@
                 "waitlist": 8
             }, 
             "semester": "Fall 2014", 
-            "time": "3-4 p.m."
+            "time": "3-4P"
         }, 
         {
             "ccn": 65988, 
@@ -4408,7 +4408,7 @@
                 "waitlist": 5
             }, 
             "semester": "Fall 2014", 
-            "time": "10-11 a.m."
+            "time": "10-11A"
         }, 
         {
             "ccn": 74215, 
@@ -4426,7 +4426,7 @@
                 "waitlist": 0
             }, 
             "semester": "Fall 2014", 
-            "time": "11 a.m.-12 p.m."
+            "time": "11A-12P"
         }, 
         {
             "ccn": 68502, 
@@ -4444,7 +4444,7 @@
                 "waitlist": 3
             }, 
             "semester": "Fall 2014", 
-            "time": "9-10 a.m."
+            "time": "9-10A"
         }
     ], 
     "courseThread": "", 
@@ -4500,7 +4500,7 @@
                 "waitlist": 2
             }, 
             "semester": "Fall 2014", 
-            "time": "11 a.m.-12 p.m."
+            "time": "11A-12P"
         }, 
         {
             "ccn": 69787, 
@@ -4518,7 +4518,7 @@
                 "waitlist": 2
             }, 
             "semester": "Fall 2014", 
-            "time": "10-11 a.m."
+            "time": "10-11A"
         }
     ], 
     "courseThread": "", 
@@ -4561,7 +4561,7 @@
         {
             "ccn": 61827, 
             "days": "M", 
-            "finalGroup": "Group 3--Wednesday, December 17, 2014, 12 p.m.", 
+            "finalGroup": "Group 3--Wednesday, December 17, 2014, 12P", 
             "instructor": "M. Wetterman", 
             "location": {
                 "building": "Wheeler", 
@@ -4574,7 +4574,7 @@
                 "waitlist": 3
             }, 
             "semester": "Fall 2014", 
-            "time": "2:30-4 p.m."
+            "time": "230-4P"
         }
     ], 
     "courseThread": "This course is part of the Cultural Forms in Transit Course Thread.", 
@@ -4617,7 +4617,7 @@
         {
             "ccn": 36637, 
             "days": "MWF", 
-            "finalGroup": "Group 3--Wednesday, December 17, 2014, 12 p.m.", 
+            "finalGroup": "Group 3--Wednesday, December 17, 2014, 12P", 
             "instructor": "W. Hopkins, M. Anson", 
             "location": {
                 "building": "Wheeler", 
@@ -4630,7 +4630,7 @@
                 "waitlist": 3
             }, 
             "semester": "Fall 2014", 
-            "time": "9-10 a.m."
+            "time": "9-10A"
         }
     ], 
     "courseThread": "This course is part of the Cultural Forms in Transit Course Thread.", 
@@ -4673,7 +4673,7 @@
         {
             "ccn": 96627, 
             "days": "MW", 
-            "finalGroup": "Group 1--Monday, December 15, 2014, 1 p.m.", 
+            "finalGroup": "Group 1--Monday, December 15, 2014, 1P", 
             "instructor": "C. Giorgano", 
             "location": {
                 "building": "Evans", 
@@ -4686,7 +4686,7 @@
                 "waitlist": 0
             }, 
             "semester": "Fall 2014", 
-            "time": "9-10 a.m."
+            "time": "9-10A"
         }
     ], 
     "courseThread": "", 
@@ -4741,7 +4741,7 @@
                 "waitlist": 2
             }, 
             "semester": "Fall 2014", 
-            "time": "11:30 a.m.-1 p.m."
+            "time": "1130A-1P"
         }
     ], 
     "courseThread": "This course is part of the Cultural Forms in Transit Course Thread.", 
@@ -4797,7 +4797,7 @@
                 "waitlist": 0
             }, 
             "semester": "Fall 2014", 
-            "time": "2:30-4 p.m."
+            "time": "230-4P"
         }
     ], 
     "courseThread": "", 
@@ -4853,7 +4853,7 @@
                 "waitlist": 10
             }, 
             "semester": "Fall 2014", 
-            "time": "11 a.m.-12 p.m."
+            "time": "11A-12P"
         }
     ], 
     "courseThread": "", 
@@ -4909,7 +4909,7 @@
                 "waitlist": 8
             }, 
             "semester": "Fall 2014", 
-            "time": "11:30 a.m.-1 p.m."
+            "time": "1130A-1P"
         }
     ], 
     "courseThread": "", 
@@ -4965,7 +4965,7 @@
                 "waitlist": 10
             }, 
             "semester": "Fall 2014", 
-            "time": "3-4:30 p.m."
+            "time": "3-430P"
         }
     ], 
     "courseThread": "", 
@@ -5021,7 +5021,7 @@
                 "waitlist": 3
             }, 
             "semester": "Fall 2014", 
-            "time": "4-5 p.m."
+            "time": "4-5P"
         }, 
         {
             "ccn": 13963, 
@@ -5039,7 +5039,7 @@
                 "waitlist": 1
             }, 
             "semester": "Fall 2014", 
-            "time": "4-5 p.m."
+            "time": "4-5P"
         }, 
         {
             "ccn": 80393, 
@@ -5057,7 +5057,7 @@
                 "waitlist": 0
             }, 
             "semester": "Fall 2014", 
-            "time": "4-5 p.m."
+            "time": "4-5P"
         }, 
         {
             "ccn": 21392, 
@@ -5075,7 +5075,7 @@
                 "waitlist": 3
             }, 
             "semester": "Fall 2014", 
-            "time": "12-1 p.m."
+            "time": "12-1P"
         }
     ], 
     "courseThread": "", 
@@ -5131,7 +5131,7 @@
                 "waitlist": 7
             }, 
             "semester": "Fall 2014", 
-            "time": "12-1 p.m."
+            "time": "12-1P"
         }
     ], 
     "courseThread": "", 
@@ -5174,7 +5174,7 @@
         {
             "ccn": 71430, 
             "days": "TuTh", 
-            "finalGroup": "Group 5--Friday, December 15, 2014, 1 p.m.", 
+            "finalGroup": "Group 5--Friday, December 15, 2014, 1P", 
             "instructor": "D. Matousek, C. Stoddard", 
             "location": {
                 "building": "Evans", 
@@ -5187,12 +5187,12 @@
                 "waitlist": 9
             }, 
             "semester": "Fall 2014", 
-            "time": "10-11:30 a.m."
+            "time": "10-1130A"
         }, 
         {
             "ccn": 78078, 
             "days": "TuTh", 
-            "finalGroup": "Group 4--Thursday, December 18, 2014, 3 p.m.", 
+            "finalGroup": "Group 4--Thursday, December 18, 2014, 3P", 
             "instructor": "D. Matousek, C. Stoddard", 
             "location": {
                 "building": "Evans", 
@@ -5205,7 +5205,7 @@
                 "waitlist": 6
             }, 
             "semester": "Fall 2014", 
-            "time": "10-11:30 a.m."
+            "time": "10-1130A"
         }
     ], 
     "courseThread": "This course is part of the Cultural Forms in Transit Course Thread.", 
@@ -5261,7 +5261,7 @@
                 "waitlist": 4
             }, 
             "semester": "Fall 2014", 
-            "time": "2-3 p.m."
+            "time": "2-3P"
         }, 
         {
             "ccn": 61785, 
@@ -5279,7 +5279,7 @@
                 "waitlist": 2
             }, 
             "semester": "Fall 2014", 
-            "time": "8-9 a.m."
+            "time": "8-9A"
         }, 
         {
             "ccn": 48391, 
@@ -5297,7 +5297,7 @@
                 "waitlist": 0
             }, 
             "semester": "Fall 2014", 
-            "time": "9-10 a.m."
+            "time": "9-10A"
         }, 
         {
             "ccn": 25158, 
@@ -5315,7 +5315,7 @@
                 "waitlist": 9
             }, 
             "semester": "Fall 2014", 
-            "time": "4-5 p.m."
+            "time": "4-5P"
         }
     ], 
     "courseThread": "", 
@@ -5358,7 +5358,7 @@
         {
             "ccn": 68674, 
             "days": "M", 
-            "finalGroup": "Group 3--Wednesday, December 17, 2014, 12 p.m.", 
+            "finalGroup": "Group 3--Wednesday, December 17, 2014, 12P", 
             "instructor": "B. Varela", 
             "location": {
                 "building": "Evans", 
@@ -5371,7 +5371,7 @@
                 "waitlist": 4
             }, 
             "semester": "Fall 2014", 
-            "time": "2-3 p.m."
+            "time": "2-3P"
         }
     ], 
     "courseThread": "", 
@@ -5427,7 +5427,7 @@
                 "waitlist": 6
             }, 
             "semester": "Fall 2014", 
-            "time": "11 a.m.-12 p.m."
+            "time": "11A-12P"
         }, 
         {
             "ccn": 25344, 
@@ -5445,7 +5445,7 @@
                 "waitlist": 6
             }, 
             "semester": "Fall 2014", 
-            "time": "10-11 a.m."
+            "time": "10-11A"
         }, 
         {
             "ccn": 63106, 
@@ -5463,7 +5463,7 @@
                 "waitlist": 7
             }, 
             "semester": "Fall 2014", 
-            "time": "9-10 a.m."
+            "time": "9-10A"
         }
     ], 
     "courseThread": "", 
@@ -5506,7 +5506,7 @@
         {
             "ccn": 59456, 
             "days": "F", 
-            "finalGroup": "Group 1--Monday, December 15, 2014, 1 p.m.", 
+            "finalGroup": "Group 1--Monday, December 15, 2014, 1P", 
             "instructor": "M. Wetterman", 
             "location": {
                 "building": "Wheeler", 
@@ -5519,7 +5519,7 @@
                 "waitlist": 0
             }, 
             "semester": "Fall 2014", 
-            "time": "10-11:30 a.m."
+            "time": "10-1130A"
         }
     ], 
     "courseThread": "", 
@@ -5562,7 +5562,7 @@
         {
             "ccn": 84933, 
             "days": "TuTh", 
-            "finalGroup": "Group 4--Thursday, December 18, 2014, 3 p.m.", 
+            "finalGroup": "Group 4--Thursday, December 18, 2014, 3P", 
             "instructor": "O. Bandyopadhyay", 
             "location": {
                 "building": "Dwinelle", 
@@ -5575,7 +5575,7 @@
                 "waitlist": 10
             }, 
             "semester": "Fall 2014", 
-            "time": "9-10 a.m."
+            "time": "9-10A"
         }
     ], 
     "courseThread": "", 

@@ -26,7 +26,7 @@
 			{
 				"semester": "Fall 2014",
 				"days": "MWF",
-				"time": "9-10 a.m.",
+				"time": "9-10A",
 				"location": {
 					"room": "room number",
 					"building": "building name"
@@ -44,7 +44,7 @@
 			{
 				"semester": "Fall 2014",
 				"days": "MWF",
-				"time": "10-11 a.m.",
+				"time": "10-11A",
 				"location": {
 					"room": "room number",
 					"building": "building name"
