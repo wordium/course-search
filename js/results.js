@@ -100,7 +100,7 @@ function getJSON (filename) {
 
       if (instance.length === 0) {
         row += '<td class="deptAbbrev">' + course.deptAbbrev + '</td>'
-         + '<td class="courseNum">' + courseNumber + '</td>'
+         + '<td class="courseNum">' + course.number + '</td>'
          + '<td class="courseTitle">' + course.title + '</td>'
          + '<td colspan="3" class="notOfferedTD"> ---- Not offered this semester. ---- </td>'
          + '<td class="courseUnits">' + course.credit + '</td>'
@@ -117,7 +117,7 @@ function getJSON (filename) {
           //console.log(instance[i].semester);
 
           row += '<td class="deptAbbrev">' + course.deptAbbrev + '</td>'
-           + '<td class="courseNum">' + courseNumber + '</td>'
+           + '<td class="courseNum">' + course.number + '</td>'
            + '<td class="courseTitle">' + course.title + '</td>'
            + '<td class="instanceInstructor">' + instance[i].instructor + '</td>'
            + '<td class="instanceTime">' + instance[i].time + '</td>'
@@ -162,7 +162,7 @@ function getJSON (filename) {
           // instance[i].time
           //QUESTION: are we going to do start time, or start/end time, and in the case of the latter, how do we handle classes 
           // go over noon time?
-          // may need to separate start time, or else do some regex to grab the first character and guess at start time?
+          // may need to separate start time, or else do some regex to figure out start time?
 
         }
       }
@@ -186,7 +186,70 @@ function getJSON (filename) {
   */
 
   // display facets
+/*
 
+
+      <ul id="facetsDay"></ul>
+      <ul id=""></ul>
+      <ul id=""></ul>
+      <ul id=""></ul>
+      <ul id=""></ul>
+      <ul id=""></ul>
+      */
+
+    var $ulDept = $('#facetsDepartments');
+    $ulDept.children().remove();
+    for (var item in fDepartment) {
+      $ulDept.prepend('<li> <input type="checkbox"/>' + item + " (" + fDepartment[item] + ")</li>");
+    }
+
+    var $ulRequirements = $('#facetsRequirements');
+    $ulRequirements.children().remove();
+    for (var item in fBreadth) {
+      $ulRequirements.prepend('<li> <input type="checkbox"/>' + item + " (" + fBreadth[item] + ")</li>");
+    }
+
+    var $ulSeats = $('#facetsSeats');
+    $ulSeats.children().remove();
+    for (var item in fSeats) {
+      $ulSeats.prepend('<li> <input type="checkbox"/>' + item + " (" + fSeats[item] + ")</li>");
+    }
+
+    var $ulDay = $('#facetsDay');
+    $ulDay.children().remove();
+    for (var item in fDays) {
+      $ulDay.prepend('<li> <input type="checkbox"/>' + item + " (" + fDays[item] + ")</li>");
+    }
+
+    var $ulTime = $('#facetsTime');
+    $ulTime.children().remove();
+    for (var item in fTime) {
+      $ulTime.prepend('<li> <input type="checkbox"/>' + item + " (" + fTime[item] + ")</li>");
+    }
+
+    var $ulUnits = $('#facetsUnits');
+    $ulUnits.children().remove();
+    for (var item in fUnits) {
+      $ulUnits.prepend('<li> <input type="checkbox"/>' + item + " (" + fUnits[item] + ")</li>");
+    }
+
+    var $ulSize = $('#facetsSize');
+    $ulSize.children().remove();
+    for (var item in fSize) {
+      $ulSize.prepend('<li> <input type="checkbox"/>' + item + " (" + fSize[item] + ")</li>");
+    }
+
+    var $ulType = $('#facetsType');
+    $ulType.children().remove();
+    for (var item in fMeeting) {
+      $ulType.prepend('<li> <input type="checkbox"/>' + item + " (" + fMeeting[item] + ")</li>");
+    }
+
+    var $ulLevel = $('#facetsLevel');
+    $ulLevel.children().remove();
+    for (var item in fLevel) {
+      $ulLevel.prepend('<li> <input type="checkbox"/>' + item + " (" + fLevel[item] + ")</li>");
+    }
   });
 
 

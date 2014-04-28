@@ -1,15 +1,15 @@
 /* results */
 
 #facets, #results {
-  display: inline;
+  display: inline-table;
 }
 
 #facets {
-  width: 400px;
+  width: 300px;
 }
 
 #results {
-  width: 500px;
+  width: 800px;
 }
 
 td,th {
@@ -40,7 +40,7 @@ td,th {
   width: 75px;
 }
 .courseNum {
-  width: 50px;
+  width: 45px;
 }
 .courseTitle {
   width: 300px;
