@@ -54,6 +54,11 @@ function getJSON (filename) {
       //semester
       //console.log(course.offerHist);
       //QUESTION: how to handle offer history as well as current semester?
+      //LJ comment: I didn't think we were doing anything about offer history in the facets.
+      //Our design calls for just showing current semester (or current and next if that schedule
+      //is available) and "All." I think it would get cluttered and confusing if we included
+      //facets for the semesters in the offering history, and it doesn't add anything
+      //necessary for a use case that I can discern. 
 
 
       // requirements
@@ -87,6 +92,8 @@ function getJSON (filename) {
       //fLevel
       //QUESTION: Do we want a facet that calls out Berkeley Connect or Freshman/Sophomore Seminars, 
       // or do we want another category in Levels/classifications?
+      //LJ comment: I think we do want that as another facet, since they are orthogonal to 
+      //rather than part of the upper/lower div stuff
       var courseNumber = (course.number).match(/\d+/)[0]; //numbers only
       if (courseNumber < 100)
         fLevel["Lower Division"]+=1;
@@ -134,6 +141,9 @@ function getJSON (filename) {
 
           //seats - available, waitlist, ?
           //QUESTION: how do we know if a course is or isn't accepting students on a waitlist? Are there other options?
+          //LJ comment: Oops, this is missing from our data model. I see two options: 1) I update the scripts and produce new
+          //data that includes; 2) We assume that for any class that has a waitlist, the waitlist is still open. Given the importance
+          //of this item, I vote for 2. 
           if (instance[i].seats.available > 0)
             fSeats["Available"]+=1;
           else
@@ -165,6 +175,7 @@ function getJSON (filename) {
           //QUESTION: are we going to do start time, or start/end time, and in the case of the latter, how do we handle classes 
           // go over noon time?
           // may need to separate start time, or else do some regex to figure out start time?
+           //LJ comment: Damn, another flaw in our data model. In this case, I think it is likely worth updating the model/scripts/data.
 
         }
       }
