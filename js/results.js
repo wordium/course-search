@@ -85,6 +85,8 @@ function getJSON (filename) {
       fMeeting[course.type]+=1;
 
       //fLevel
+      //QUESTION: Do we want a facet that calls out Berkeley Connect or Freshman/Sophomore Seminars, 
+      // or do we want another category in Levels/classifications?
       var courseNumber = (course.number).match(/\d+/)[0]; //numbers only
       if (courseNumber < 100)
         fLevel["Lower Division"]+=1;
