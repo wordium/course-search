@@ -2,8 +2,8 @@ course-search
 =============
 Authors: Sandra Helsley, Lisa Jervis
 
-Functioning version of this prototype is available here:
-http://people.ischool.berkeley.edu/~syh/course-search/
+In-progress version of this prototype is available here:
+http://groups.ischool.berkeley.edu/course-search/course-search/index.html
 
 Description: This is a functional prototype intended to provide visual and interaction demonstrations for the look and feel of the course catalog search user interface.
 
