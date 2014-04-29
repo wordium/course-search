@@ -1,7 +1,7 @@
 {
 	"sampleCourse1": {
 		"title": "This is a course title",
-		"type": "Lecture",
+		"courseType": "LectureDiscussionLab",
 		"department": "Department",
 		"deptAbbrev": "Dept Abbrev",
 		"number": "101",
@@ -26,6 +26,7 @@
 		"seminar": true,
 		"classInstance": [
 			{
+				"instanceType": "Discussion",
 				"semester": "Fall 2014",
 				"days": "MWF",
 				"time": {

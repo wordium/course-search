@@ -22,13 +22,11 @@ courses_output = []
 
 for item in courses_input:
     #choose which courses will have current instances
-    if random.choice([0, 1]) == 1:
+    if random.randint(0,1) == 1:
         item[23] = "Y"
+        if random.randint(0, 3) == 3:
+            item[24] = "Y"
     courses_output.append(item)
-    if item[23] == "Y" and random.choice([1, 2, 3]) == 3:
-        new = list(item)
-        new[22] = "Discussion"
-        courses_output.append(new)
         
 with open("courses_for_prototype.csv", "wb") as data:
     writer = csv.writer(data)
