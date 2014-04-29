@@ -15,6 +15,7 @@ function getJSON (filename) {
 
   var path = 'data/' + filename;
   var results = '';
+  var resultsNotOff = '';
   var instance = [];
 
   //facets
@@ -128,7 +129,7 @@ function getJSON (filename) {
 
 
         // details
-        row += '<tr><td colspan="10" class="hidden">';
+        row += '<tr class="hidden"><td colspan="10">';
 
         row += '<p><span class="descriptionCategory">Description: </span>' + course.description + '</p>';
 
@@ -196,9 +197,9 @@ function getJSON (filename) {
       }
 
       // building row for table
-      // courses with one instance
       else {
         for (var i=0; i<numInstances; i++){
+
           // if multiple instances, add first row, then add course information and message
           if (i === 0) {
             row += '<td class="deptAbbrev">' + course.deptAbbrev + '</td>'
@@ -207,7 +208,7 @@ function getJSON (filename) {
                  + '<td colspan="7">' + numInstances + ' ' + course.type + 's. </td></tr>';
           }
           
-          row += '<tr><td colspan="3">&nbsp;</td>';
+          row += '<tr class="classInstance"><td colspan="3">&nbsp;</td>';
 
           // n row for multiple instances: add detail
           
@@ -289,10 +290,18 @@ function getJSON (filename) {
 
 
       row += '<p><span class="descriptionCategory">Ratings and Grades</span></p></tr>';
-      results = results + row;
+      if (numInstances === 0) // this is really shitty but it should allow putting not offered courses at bottom.
+        resultsNotOff = resultsNotOff + row;
+      else 
+        results = results + row;
     });
 
+  results = results + resultsNotOff;
+
   $('#results tbody').append(results);
+  $('.classInstance td').on('click', function() {
+    $(this).parent().next().removeClass('hidden');
+  });
 
   /*
   console.log(fDepartment);
