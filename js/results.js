@@ -225,7 +225,7 @@ function getJSON (filename) {
               + '</tr>';
 
           // details
-          row += '<tr><td colspan="10" class="hidden">';
+          row += '<tr class="hidden"><td colspan="10">';
 
           row += '<p><span class="descriptionCategory">Description: </span>' + course.description + '</p>';
 
@@ -300,7 +300,7 @@ function getJSON (filename) {
 
   $('#results tbody').append(results);
   $('.classInstance td').on('click', function() {
-    $(this).parent().next().removeClass('hidden');
+    $(this).parent().next().toggleClass('hidden');
   });
 
   /*
