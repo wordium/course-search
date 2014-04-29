@@ -1,4 +1,87 @@
-{"course78":{
+{"course53":{
+    "berkeleyConnect": false, 
+    "breadth": {
+        "AC": false, 
+        "AL": false, 
+        "BS": true, 
+        "HS": false, 
+        "IS": false, 
+        "PS": false, 
+        "PV": false, 
+        "RCA": false, 
+        "RCB": false, 
+        "SS": false
+    }, 
+    "classInstance": [
+        {
+            "ccn": 28553, 
+            "days": "TuTh", 
+            "finalGroup": "Group 1--Monday, December 15, 2014, 1 p.m.", 
+            "instanceType": "Lecture", 
+            "instructor": "M. Wetterman", 
+            "location": {
+                "building": "Dwinelle", 
+                "room": 21
+            }, 
+            "seats": {
+                "available": 17, 
+                "enrolled": 683, 
+                "max": 700, 
+                "waitlist": 7
+            }, 
+            "semester": "Fall 2014", 
+            "time": {
+                "end": "11:30A", 
+                "start": "10A"
+            }
+        }, 
+        {
+            "ccn": 75510, 
+            "days": "TuTh", 
+            "finalGroup": "Group 4--Thursday, December 18, 2014, 3 p.m.", 
+            "instanceType": "Lecture", 
+            "instructor": "W. Hopkins, M. Anson", 
+            "location": {
+                "building": "Dwinelle", 
+                "room": 254
+            }, 
+            "seats": {
+                "available": 21, 
+                "enrolled": 19, 
+                "max": 40, 
+                "waitlist": 3
+            }, 
+            "semester": "Fall 2014", 
+            "time": {
+                "end": "10A", 
+                "start": "9A"
+            }
+        }
+    ], 
+    "courseThread": "", 
+    "courseType": "Lecture", 
+    "credit": 4, 
+    "crossListing": "", 
+    "department": "Public Health", 
+    "deptAbbrev": "PB HLTH", 
+    "description": "This course provides an introduction to statistical and computational methods for the analysis of biomedical and genomic data. Statistical topics, introduced in a biological context, include numerical and graphical summaries of data; basic notions in probability; loss-based estimation (e.g., least-squares regression, maximum likelihood estimation); model selection; multiple hypothesis testing; Markov chains; hidden Markov models, resampling; simulation studies. Biological questions considered include, but are not limited to, modeling meiosis; genetic mapping; nucleotide and protein-sequence analysis; molecular evolution; computational gene finding; and DNA microarray experiments. The course also introduces statistical computing resources for the analysis of biological data, with emphasis on the R language and environment (www.r-project.org) and bioconductor packages (www.bioconductor.org). In addition, the course introduces basic notions in genetics and molecular biology and involves the critical reading of articles related to statistical analyses in the biological and medical sciences. ", 
+    "format": "Three hours of Lecture and  One hour of Laboratory per week for 15 weeks.", 
+    "freshSophSem": false, 
+    "hasCoreqs": "PB HLTH 1A must be taken concurrently.", 
+    "isPrereqFor": "This class is a prerequisite for PB HLTH 151.", 
+    "note": "This is a note.", 
+    "number": "143", 
+    "offerHist": [
+        "Fall 2013", 
+        "Fall 2012", 
+        "Fall 2011", 
+        "Fall 2010"
+    ], 
+    "prereqs": "142, Statistics 134, 135 or consent of instructor. ", 
+    "restrictions": "", 
+    "title": "Introduction to Statistical Methods in Computational and Genomic Biology"
+}, 
+"course54":{
     "berkeleyConnect": false, 
     "breadth": {
         "AC": false, 
@@ -14,70 +97,199 @@
     }, 
     "classInstance": [
         {
-            "ccn": 34993, 
-            "days": "TuTh", 
-            "finalGroup": "Group 2--Tuesday, December 16, 2014, 9 a.m.", 
-            "instructor": "K. Serafini, M. Ferrero", 
+            "ccn": 92978, 
+            "days": "M", 
+            "finalGroup": "Group 3--Wednesday, December 17, 2014, 12 p.m.", 
+            "instanceType": "Lecture", 
+            "instructor": "M. Wetterman", 
             "location": {
-                "building": "Dwinelle", 
-                "room": 248
+                "building": "Wheeler", 
+                "room": 37
             }, 
             "seats": {
-                "available": 354, 
-                "enrolled": 146, 
-                "max": 500, 
-                "waitlist": 10
-            }, 
-            "semester": "Fall 2014", 
-            "time": {
-                "end": "11:30A", 
-                "start": "10A"
-            }
-        }, 
-        {
-            "ccn": 76613, 
-            "days": "TuTh", 
-            "finalGroup": "Group 4--Thursday, December 18, 2014, 3 p.m.", 
-            "instructor": "G. Burke", 
-            "location": {
-                "building": "Wurster", 
-                "room": 205
-            }, 
-            "seats": {
-                "available": 11, 
-                "enrolled": 29, 
-                "max": 40, 
+                "available": 574, 
+                "enrolled": 126, 
+                "max": 700, 
                 "waitlist": 0
             }, 
             "semester": "Fall 2014", 
             "time": {
-                "end": "11:30A", 
-                "start": "10A"
+                "end": "2:30P", 
+                "start": "1P"
             }
         }
     ], 
     "courseThread": "", 
-    "credit": 3, 
+    "courseType": "Lecture", 
+    "credit": 4, 
     "crossListing": "", 
-    "department": "Statistics", 
-    "deptAbbrev": "STAT", 
-    "description": "Random walks, discrete time Markov chains, Poisson processes. Further topics such as: continuous time Markov chains, queueing theory, point processes, branching processes, renewal theory, stationary processes, Gaussian processes. ", 
-    "format": "Three hours of Lecture per week for 15 weeks.", 
+    "department": "Public Health", 
+    "deptAbbrev": "PB HLTH", 
+    "description": "Descriptive statistics, probability, probability distributions, point and interval estimation, hypothesis testing, chi-square, correlation and regression with biomedical applications. ", 
+    "format": "Three hours of Lecture and  Two hours of Discussion per week for 15 weeks.", 
     "freshSophSem": false, 
     "hasCoreqs": "", 
     "isPrereqFor": "", 
     "note": "", 
-    "number": "150", 
+    "number": "142", 
     "offerHist": [
         "Spring 2013", 
         "Fall 2012", 
         "Fall 2011", 
         "Spring 2010"
     ], 
-    "prereqs": "101 or 103A or 134. ", 
+    "prereqs": "High school algebra. ", 
     "restrictions": "", 
-    "title": "Stochastic Processes", 
-    "type": "Lecture"
+    "title": "Introduction to Probability and Statistics in Biology and Public Health"
+}, 
+"course55":{
+    "berkeleyConnect": false, 
+    "breadth": {
+        "AC": false, 
+        "AL": false, 
+        "BS": false, 
+        "HS": false, 
+        "IS": true, 
+        "PS": false, 
+        "PV": false, 
+        "RCA": false, 
+        "RCB": false, 
+        "SS": false
+    }, 
+    "classInstance": [
+        {
+            "ccn": 56524, 
+            "days": "F", 
+            "finalGroup": "Group 4--Thursday, December 18, 2014, 3 p.m.", 
+            "instanceType": "Lecture", 
+            "instructor": "A. Kennard", 
+            "location": {
+                "building": "Dwinelle", 
+                "room": 209
+            }, 
+            "seats": {
+                "available": 7, 
+                "enrolled": 33, 
+                "max": 40, 
+                "waitlist": 0
+            }, 
+            "semester": "Fall 2014", 
+            "time": {
+                "end": "2P", 
+                "start": "1P"
+            }
+        }, 
+        {
+            "ccn": 88177, 
+            "days": "W", 
+            "finalGroup": "Not applicable", 
+            "instanceType": "Discussion", 
+            "instructor": "S. Abdullah", 
+            "location": {
+                "building": "Soda", 
+                "room": 67
+            }, 
+            "seats": {
+                "available": 10, 
+                "enrolled": 0, 
+                "max": 10, 
+                "waitlist": 8
+            }, 
+            "semester": "Fall 2014", 
+            "time": {
+                "end": "2P", 
+                "start": "1P"
+            }
+        }, 
+        {
+            "ccn": 42140, 
+            "days": "Tu", 
+            "finalGroup": "Not applicable", 
+            "instanceType": "Discussion", 
+            "instructor": "C. Giorgano", 
+            "location": {
+                "building": "Wurster", 
+                "room": 187
+            }, 
+            "seats": {
+                "available": 5, 
+                "enrolled": 5, 
+                "max": 10, 
+                "waitlist": 6
+            }, 
+            "semester": "Fall 2014", 
+            "time": {
+                "end": "5P", 
+                "start": "4P"
+            }
+        }, 
+        {
+            "ccn": 56179, 
+            "days": "Th", 
+            "finalGroup": "Not applicable", 
+            "instanceType": "Discussion", 
+            "instructor": "I. Jaskolski", 
+            "location": {
+                "building": "Barrows", 
+                "room": 223
+            }, 
+            "seats": {
+                "available": 2, 
+                "enrolled": 8, 
+                "max": 10, 
+                "waitlist": 0
+            }, 
+            "semester": "Fall 2014", 
+            "time": {
+                "end": "11A", 
+                "start": "10A"
+            }
+        }, 
+        {
+            "ccn": 18057, 
+            "days": "W", 
+            "finalGroup": "Not applicable", 
+            "instanceType": "Discussion", 
+            "instructor": "K. Serafini, M. Ferrero", 
+            "location": {
+                "building": "Barrows", 
+                "room": 50
+            }, 
+            "seats": {
+                "available": 2, 
+                "enrolled": 13, 
+                "max": 15, 
+                "waitlist": 0
+            }, 
+            "semester": "Fall 2014", 
+            "time": {
+                "end": "12P", 
+                "start": "11A"
+            }
+        }
+    ], 
+    "courseThread": "", 
+    "courseType": "Lecture", 
+    "credit": 4, 
+    "crossListing": "", 
+    "department": "Public Health", 
+    "deptAbbrev": "PB HLTH", 
+    "description": "This course introduces epidemiological methods with the goal of teaching students to read critically and interpret published epidemiologic studies in humans. The course also exposes students to the epidemiology of diseases and conditions of current public health importance in the United States and internationally. ", 
+    "format": "Four hours of Lecture and  One hour of Discussion per week for 15 weeks.", 
+    "freshSophSem": false, 
+    "hasCoreqs": "", 
+    "isPrereqFor": "", 
+    "note": "", 
+    "number": "150A", 
+    "offerHist": [
+        "Spring 2013", 
+        "Spring 2012", 
+        "Spring 2011", 
+        "Spring 2010"
+    ], 
+    "prereqs": "A course in statistics, preferably 142. ", 
+    "restrictions": "", 
+    "title": "Introduction to Epidemiology and Human Disease"
 }, 
 "course79":{
     "berkeleyConnect": false, 
@@ -95,40 +307,103 @@
     }, 
     "classInstance": [
         {
-            "ccn": 84453, 
+            "ccn": 57056, 
             "days": "F", 
-            "finalGroup": "Not applicable", 
-            "instructor": "I. Jaskolski", 
+            "finalGroup": "Group 3--Wednesday, December 17, 2014, 12 p.m.", 
+            "instanceType": "Lecture", 
+            "instructor": "M. Sarka", 
             "location": {
-                "building": "Wurster", 
-                "room": 9
+                "building": "Dwinelle", 
+                "room": 182
             }, 
             "seats": {
-                "available": 6, 
-                "enrolled": 4, 
-                "max": 10, 
-                "waitlist": 0
+                "available": 16, 
+                "enrolled": 24, 
+                "max": 40, 
+                "waitlist": 5
             }, 
             "semester": "Fall 2014", 
             "time": {
-                "end": "9A", 
-                "start": "8A"
+                "end": "11A", 
+                "start": "10A"
+            }
+        }
+    ], 
+    "courseThread": "", 
+    "courseType": "Lecture", 
+    "credit": 3, 
+    "crossListing": "", 
+    "department": "Integrative Biology", 
+    "deptAbbrev": "INTEGBI", 
+    "description": "The functional anatomy of the human body as revealed by gross and microscopic examination. Designed to be taken concurrently with 131L. ", 
+    "format": "Three hours of Lecture per week for 15 weeks.  Six hours of Lecture per week for 8 weeks.  Eight hours of Lecture per week for 6 weeks.", 
+    "freshSophSem": false, 
+    "hasCoreqs": "", 
+    "isPrereqFor": "", 
+    "note": "", 
+    "number": "131", 
+    "offerHist": [
+        "Spring 2013", 
+        "Fall 2012", 
+        "Fall 2011", 
+        "Spring 2010"
+    ], 
+    "prereqs": "Biology 1A-1B or Chemistry 1A. ", 
+    "restrictions": "", 
+    "title": "General Human Anatomy"
+}, 
+"course77":{
+    "berkeleyConnect": false, 
+    "breadth": {
+        "AC": false, 
+        "AL": false, 
+        "BS": true, 
+        "HS": false, 
+        "IS": false, 
+        "PS": false, 
+        "PV": false, 
+        "RCA": false, 
+        "RCB": false, 
+        "SS": true
+    }, 
+    "classInstance": [
+        {
+            "ccn": 64430, 
+            "days": "MW", 
+            "finalGroup": "Group 4--Thursday, December 18, 2014, 3 p.m.", 
+            "instanceType": "Lecture", 
+            "instructor": "K. Serafini, M. Ferrero", 
+            "location": {
+                "building": "Barrows", 
+                "room": 8
+            }, 
+            "seats": {
+                "available": 29, 
+                "enrolled": 121, 
+                "max": 150, 
+                "waitlist": 4
+            }, 
+            "semester": "Fall 2014", 
+            "time": {
+                "end": "2:30P", 
+                "start": "1P"
             }
         }, 
         {
-            "ccn": 38726, 
-            "days": "M", 
+            "ccn": 35464, 
+            "days": "Th", 
             "finalGroup": "Not applicable", 
-            "instructor": "M. Wetterman", 
+            "instanceType": "Discussion", 
+            "instructor": "K. Serafini, M. Ferrero", 
             "location": {
-                "building": "Wheeler", 
-                "room": 230
+                "building": "Soda", 
+                "room": 158
             }, 
             "seats": {
-                "available": 6, 
-                "enrolled": 14, 
-                "max": 20, 
-                "waitlist": 9
+                "available": 13, 
+                "enrolled": 2, 
+                "max": 15, 
+                "waitlist": 5
             }, 
             "semester": "Fall 2014", 
             "time": {
@@ -137,114 +412,52 @@
             }
         }, 
         {
-            "ccn": 79472, 
-            "days": "F", 
+            "ccn": 52873, 
+            "days": "W", 
             "finalGroup": "Not applicable", 
-            "instructor": "W. Hopkins, M. Anson", 
-            "location": {
-                "building": "Wurster", 
-                "room": 192
-            }, 
-            "seats": {
-                "available": 13, 
-                "enrolled": 2, 
-                "max": 15, 
-                "waitlist": 8
-            }, 
-            "semester": "Fall 2014", 
-            "time": {
-                "end": "11A", 
-                "start": "10A"
-            }
-        }, 
-        {
-            "ccn": 58047, 
-            "days": "Tu", 
-            "finalGroup": "Not applicable", 
+            "instanceType": "Discussion", 
             "instructor": "C. Marquez", 
             "location": {
-                "building": "Dwinelle", 
-                "room": 136
+                "building": "Soda", 
+                "room": 202
             }, 
             "seats": {
                 "available": 7, 
-                "enrolled": 3, 
-                "max": 10, 
-                "waitlist": 0
+                "enrolled": 18, 
+                "max": 25, 
+                "waitlist": 1
             }, 
             "semester": "Fall 2014", 
             "time": {
                 "end": "5P", 
                 "start": "4P"
             }
-        }, 
-        {
-            "ccn": 19462, 
-            "days": "Th", 
-            "finalGroup": "Not applicable", 
-            "instructor": "M. Wetterman", 
-            "location": {
-                "building": "Soda", 
-                "room": 95
-            }, 
-            "seats": {
-                "available": 11, 
-                "enrolled": 1, 
-                "max": 12, 
-                "waitlist": 0
-            }, 
-            "semester": "Fall 2014", 
-            "time": {
-                "end": "12P", 
-                "start": "11A"
-            }
-        }, 
-        {
-            "ccn": 52977, 
-            "days": "F", 
-            "finalGroup": "Not applicable", 
-            "instructor": "V. Benbow, Z. Alberts", 
-            "location": {
-                "building": "Wheeler", 
-                "room": 132
-            }, 
-            "seats": {
-                "available": 2, 
-                "enrolled": 10, 
-                "max": 12, 
-                "waitlist": 0
-            }, 
-            "semester": "Fall 2014", 
-            "time": {
-                "end": "6P", 
-                "start": "5P"
-            }
         }
     ], 
     "courseThread": "", 
-    "credit": 3, 
+    "courseType": "Lecture", 
+    "credit": 4, 
     "crossListing": "", 
-    "department": "Statistics", 
-    "deptAbbrev": "STAT", 
-    "description": "Random walks, discrete time Markov chains, Poisson processes. Further topics such as: continuous time Markov chains, queueing theory, point processes, branching processes, renewal theory, stationary processes, Gaussian processes. ", 
-    "format": "Three hours of Lecture per week for 15 weeks.", 
+    "department": "Integrative Biology", 
+    "deptAbbrev": "INTEGBI", 
+    "description": "Course focuses on biological and cultural aspects of human reproduction including conception, embryology, pregnancy, labor, delivery, lactation, infant/child development, puberty, and reproductive aging. This includes study of factors that diminish and factors that enhance fertility, reproduction, and maternal-child health. We explore evolutionary, ecological, environmental, cultural, ethnobiological, and nutritional determinants of fertility, reproductive rate, infant survival, and population growth. ", 
+    "format": "Three hours of Lecture and  One hour of Discussion per week for 15 weeks.  Six hours of Lecture and  Two hours of Discussion per week for 8 weeks.", 
     "freshSophSem": false, 
     "hasCoreqs": "", 
-    "isPrereqFor": "", 
-    "note": "This is a note.", 
-    "number": "150", 
+    "isPrereqFor": "This class is a prerequisite for INTEGBI 151.", 
+    "note": "", 
+    "number": "140", 
     "offerHist": [
-        "Spring 2013", 
-        "Spring 2012", 
-        "Spring 2011", 
-        "Spring 2010"
+        "Fall 2013", 
+        "Fall 2012", 
+        "Fall 2011", 
+        "Fall 2010"
     ], 
-    "prereqs": "101 or 103A or 134. ", 
+    "prereqs": "Biology 1A or equivalent. ", 
     "restrictions": "", 
-    "title": "Stochastic Processes", 
-    "type": "Discussion"
+    "title": "Biology of Human Reproduction"
 }, 
-"course75":{
+"course74":{
     "berkeleyConnect": false, 
     "breadth": {
         "AC": false, 
@@ -260,49 +473,50 @@
     }, 
     "classInstance": [
         {
-            "ccn": 18149, 
+            "ccn": 76048, 
             "days": "M", 
-            "finalGroup": "Group 5--Friday, December 15, 2014, 1 p.m.", 
-            "instructor": "M. Mhasalkar, U. Jehlicka", 
+            "finalGroup": "Group 2--Tuesday, December 16, 2014, 9 a.m.", 
+            "instanceType": "Lecture", 
+            "instructor": "D. Matousek, C. Stoddard", 
             "location": {
-                "building": "Dwinelle", 
-                "room": 83
+                "building": "Wurster", 
+                "room": 138
             }, 
             "seats": {
-                "available": 5, 
-                "enrolled": 35, 
-                "max": 40, 
-                "waitlist": 4
+                "available": 175, 
+                "enrolled": 525, 
+                "max": 700, 
+                "waitlist": 0
             }, 
             "semester": "Fall 2014", 
             "time": {
-                "end": "5:30P", 
-                "start": "4P"
+                "end": "4:30P", 
+                "start": "3P"
             }
         }
     ], 
     "courseThread": "", 
+    "courseType": "Lecture", 
     "credit": 4, 
     "crossListing": "", 
-    "department": "Statistics", 
-    "deptAbbrev": "STAT", 
-    "description": "Theory and practice of sampling from finite populations. Simple random, stratified, cluster, and double sampling. Sampling with unequal probabilities. Properties of various estimators including ratio, regression, and difference estimators. Error estimation for complex samples. ", 
-    "format": "Three hours of Lecture and  Two hours of Laboratory per week for 15 weeks.", 
-    "freshSophSem": true, 
+    "department": "Environ Sci, Policy, and Management", 
+    "deptAbbrev": "ESPM", 
+    "description": "The course develops capacities to analyze and affect the cause, dynamics, and consequences of resources and environmental policy formation and execution. It develops concepts of public policy and how cultural, legal, political, economic, and administrative processes form, execute, and modify it. It examines the causes and outcomes of politics among groups defined by race, ethnicity, class, and scientific/religious identities and analyzes resource and environmental policies that create or reduce enduring inequalities among racial/ethnic groups. It examines the social and environmental consequences of resource policies as well as alternative policies and processes. ", 
+    "format": "Three hours of Lecture and  One hour of Discussion per week for 15 weeks.", 
+    "freshSophSem": false, 
     "hasCoreqs": "", 
     "isPrereqFor": "", 
     "note": "", 
-    "number": "152", 
+    "number": "102D", 
     "offerHist": [
-        "Spring 2013", 
+        "Fall 2013", 
         "Fall 2012", 
         "Fall 2011", 
-        "Spring 2010"
+        "Fall 2010"
     ], 
-    "prereqs": "101 or 134. 133 and 135 recommended. ", 
+    "prereqs": "Environmental Economics and Policy 1 or one lower division course in a social science, or consent of instructor. ", 
     "restrictions": "", 
-    "title": "Sampling Surveys", 
-    "type": "Lecture"
+    "title": "Resource and Environmental Policy"
 }, 
 "course72":{
     "berkeleyConnect": true, 
@@ -320,19 +534,20 @@
     }, 
     "classInstance": [
         {
-            "ccn": 32246, 
-            "days": "TuTh", 
-            "finalGroup": "Group 2--Tuesday, December 16, 2014, 9 a.m.", 
-            "instructor": "G. Burke", 
+            "ccn": 36087, 
+            "days": "F", 
+            "finalGroup": "Group 3--Wednesday, December 17, 2014, 12 p.m.", 
+            "instanceType": "Lecture", 
+            "instructor": "C. Marquez", 
             "location": {
                 "building": "Wurster", 
-                "room": 195
+                "room": 286
             }, 
             "seats": {
-                "available": 31, 
-                "enrolled": 19, 
-                "max": 50, 
-                "waitlist": 0
+                "available": 22, 
+                "enrolled": 18, 
+                "max": 40, 
+                "waitlist": 8
             }, 
             "semester": "Fall 2014", 
             "time": {
@@ -342,228 +557,148 @@
         }
     ], 
     "courseThread": "", 
-    "credit": 3, 
+    "courseType": "Lecture", 
+    "credit": 4, 
     "crossListing": "", 
-    "department": "Public Health", 
-    "deptAbbrev": "PB HLTH", 
-    "description": "Globally one million more births than deaths occur every 112 hours, 90% in the poorest countries. Between 1960 and 1980, considerable attention was focused on rapid population growth. Afterwards, the attention has faded and investment in family planning evaporated. Family size among some of the poorest women is increasing. This course seeks to provide an understanding of the relationships between population growth, poverty, women's autonomy, and health. It explores the political \"fashions\" underlying changing paradigms among demographers, and economists, and development specialists. ", 
-    "format": " Two hours of lecture/discussion per week. ", 
+    "department": "Molecular and Cell Biology", 
+    "deptAbbrev": "MCELLBI", 
+    "description": "Fundamentals of immunology with emphasis on biochemical and molecular approaches to study of the immune system and its application in medicine and biotechnology. Topics covered include description of the immune system, antibody and T-cell receptor structure and function, genes of the immunoglobulin superfamily, cells and molecular mediators that regulate the immune response, allergy, autoimmunity, immunodeficiency, tissue and organ transplants, and tumor immunology. ", 
+    "format": "Three hours of Lecture and  One hour of Discussion per week for 15 weeks.", 
+    "freshSophSem": false, 
+    "hasCoreqs": "", 
+    "isPrereqFor": "This class is a prerequisite for MCELLBI 151.", 
+    "note": "", 
+    "number": "150", 
+    "offerHist": [
+        "Spring 2013", 
+        "Spring 2012", 
+        "Spring 2011", 
+        "Spring 2010"
+    ], 
+    "prereqs": "C100A/Chemistry C130, or 102. ", 
+    "restrictions": "", 
+    "title": "Molecular Immunology"
+}, 
+"course71":{
+    "berkeleyConnect": true, 
+    "breadth": {
+        "AC": false, 
+        "AL": false, 
+        "BS": true, 
+        "HS": false, 
+        "IS": false, 
+        "PS": false, 
+        "PV": false, 
+        "RCA": false, 
+        "RCB": false, 
+        "SS": false
+    }, 
+    "classInstance": [
+        {
+            "ccn": 51199, 
+            "days": "M", 
+            "finalGroup": "Group 3--Wednesday, December 17, 2014, 12 p.m.", 
+            "instanceType": "Lecture", 
+            "instructor": "K. Serafini, M. Ferrero", 
+            "location": {
+                "building": "Wheeler", 
+                "room": 154
+            }, 
+            "seats": {
+                "available": 41, 
+                "enrolled": 9, 
+                "max": 50, 
+                "waitlist": 0
+            }, 
+            "semester": "Fall 2014", 
+            "time": {
+                "end": "10A", 
+                "start": "9A"
+            }
+        }
+    ], 
+    "courseThread": "", 
+    "courseType": "Lecture", 
+    "credit": 4, 
+    "crossListing": "", 
+    "department": "Molecular and Cell Biology", 
+    "deptAbbrev": "MCELLBI", 
+    "description": "A comprehensive survey of the fundamentals of biological chemistry, including the properties of intermediary metabolites, the structure and function of biological macromolecules, the logic of metabolic pathways (both degradative and biosynthetic) and the molecular basis of genetics and gene expression. ", 
+    "format": "Three hours of Lecture and  One hour of Discussion per week for 15 weeks.  Four hours of Lecture and  Two hours of Discussion per week for 10 weeks.  Six hours of Lecture and  Two hours of Discussion per week for 8 weeks.", 
     "freshSophSem": false, 
     "hasCoreqs": "", 
     "isPrereqFor": "", 
     "note": "", 
-    "number": "181", 
+    "number": "102", 
+    "offerHist": [
+        "Fall 2013", 
+        "Spring 2011", 
+        "Spring 2009"
+    ], 
+    "prereqs": "Biology 1A, 1AL, and Chemistry 3B (or equivalent courses). Recommended: a course in physical chemistry. ", 
+    "restrictions": "Students will receive 2 units of credit for 102 after taking 100 or C100A/Chemistry C130. Students will receive no credit for 102 after taking 110 and any of 100, 100B or C100A/Chemistry C130. No credit for 102 after taking Chemistry 135. ", 
+    "title": "Survey of the Principles of Biochemistry and Molecular Biology"
+}, 
+"course63":{
+    "berkeleyConnect": false, 
+    "breadth": {
+        "AC": false, 
+        "AL": false, 
+        "BS": false, 
+        "HS": true, 
+        "IS": false, 
+        "PS": false, 
+        "PV": false, 
+        "RCA": false, 
+        "RCB": false, 
+        "SS": false
+    }, 
+    "classInstance": [
+        {
+            "ccn": 35818, 
+            "days": "M", 
+            "finalGroup": "Group 3--Wednesday, December 17, 2014, 12 p.m.", 
+            "instanceType": "Lecture", 
+            "instructor": "I. Jaskolski", 
+            "location": {
+                "building": "Evans", 
+                "room": 71
+            }, 
+            "seats": {
+                "available": 318, 
+                "enrolled": 182, 
+                "max": 500, 
+                "waitlist": 4
+            }, 
+            "semester": "Fall 2014", 
+            "time": {
+                "end": "9A", 
+                "start": "8A"
+            }
+        }
+    ], 
+    "courseThread": "", 
+    "courseType": "Lecture", 
+    "credit": 3, 
+    "crossListing": "", 
+    "department": "Public Health", 
+    "deptAbbrev": "PB HLTH", 
+    "description": "This course will examine the historical developments of social and scientific responses to human disease from their beginnings to their current roles as major forces in modern society. It will consider the evolution of diagnoses, treatment, and prevention of human morbidity and death from both a humanistic and scientific perspective. It invites pre-medical, pre-dental, and other students preparing for careers in public health, nursing, optometry, or the other health sciences, students interested in public policy and health-related law, and students of history or the other humanities who wish an overview of medicine and health from a broad historical perspective. ", 
+    "format": "Three hours of Lecture per week for 15 weeks.", 
+    "freshSophSem": false, 
+    "hasCoreqs": "", 
+    "isPrereqFor": "", 
+    "note": "This is a note.", 
+    "number": "183", 
     "offerHist": [
         "Fall 2013", 
         "Fall 2012", 
         "Fall 2011", 
         "Fall 2010"
     ], 
-    "prereqs": "", 
+    "prereqs": "Knowledge of (and preferably a college level course which covered) basic aspects of (mammalian) physiology and anatomy. Graduate or upper division undergraduate status. ", 
     "restrictions": "", 
-    "title": "Poverty and Population", 
-    "type": "Lecture"
-}, 
-"course73":{
-    "berkeleyConnect": false, 
-    "breadth": {
-        "AC": false, 
-        "AL": false, 
-        "BS": false, 
-        "HS": false, 
-        "IS": false, 
-        "PS": false, 
-        "PV": false, 
-        "RCA": false, 
-        "RCB": false, 
-        "SS": false
-    }, 
-    "classInstance": [
-        {
-            "ccn": 95166, 
-            "days": "MWF", 
-            "finalGroup": "Group 2--Tuesday, December 16, 2014, 9 a.m.", 
-            "instructor": "C. Giorgano", 
-            "location": {
-                "building": "Barrows", 
-                "room": 181
-            }, 
-            "seats": {
-                "available": 231, 
-                "enrolled": 269, 
-                "max": 500, 
-                "waitlist": 0
-            }, 
-            "semester": "Fall 2014", 
-            "time": {
-                "end": "6P", 
-                "start": "4:30P"
-            }
-        }
-    ], 
-    "courseThread": "This course is part of the Cultural Forms in Transit Course Thread.", 
-    "credit": 2, 
-    "crossListing": "", 
-    "department": "Public Health", 
-    "deptAbbrev": "PB HLTH", 
-    "description": "An interdisciplinary approach to health and medicine administered through the Health and Medical Apprenticeship Program (HMAP). Guest lecturers will speak on the social, political, and ethical aspects of health and medicine; students will then discuss and present analyses of the reading materials as well as issues raised by the speakers. ", 
-    "format": "Two hours of Lecture and  One hour of Discussion per week for 15 weeks.", 
-    "freshSophSem": true, 
-    "hasCoreqs": "", 
-    "isPrereqFor": "", 
-    "note": "", 
-    "number": "116", 
-    "offerHist": [
-        "Fall 2013", 
-        "Spring 2013", 
-        "Fall 2012", 
-        "Spring 2012"
-    ], 
-    "prereqs": "", 
-    "restrictions": "", 
-    "title": "Seminar on Social, Political, and Ethical Issues in Health and Medicine", 
-    "type": "Lecture"
-}, 
-"course61":{
-    "berkeleyConnect": false, 
-    "breadth": {
-        "AC": false, 
-        "AL": false, 
-        "BS": true, 
-        "HS": false, 
-        "IS": false, 
-        "PS": false, 
-        "PV": false, 
-        "RCA": false, 
-        "RCB": false, 
-        "SS": false
-    }, 
-    "classInstance": [
-        {
-            "ccn": 80745, 
-            "days": "M", 
-            "finalGroup": "Not applicable", 
-            "instructor": "M. Mhasalkar, U. Jehlicka", 
-            "location": {
-                "building": "Soda", 
-                "room": 49
-            }, 
-            "seats": {
-                "available": 10, 
-                "enrolled": 2, 
-                "max": 12, 
-                "waitlist": 0
-            }, 
-            "semester": "Fall 2014", 
-            "time": {
-                "end": "4P", 
-                "start": "3P"
-            }
-        }, 
-        {
-            "ccn": 94199, 
-            "days": "Tu", 
-            "finalGroup": "Not applicable", 
-            "instructor": "V. Benbow, Z. Alberts", 
-            "location": {
-                "building": "Barrows", 
-                "room": 148
-            }, 
-            "seats": {
-                "available": 6, 
-                "enrolled": 6, 
-                "max": 12, 
-                "waitlist": 0
-            }, 
-            "semester": "Fall 2014", 
-            "time": {
-                "end": "5P", 
-                "start": "4P"
-            }
-        }
-    ], 
-    "courseThread": "", 
-    "credit": 4, 
-    "crossListing": "", 
-    "department": "Public Health", 
-    "deptAbbrev": "PB HLTH", 
-    "description": "This course provides an introduction to statistical and computational methods for the analysis of biomedical and genomic data. Statistical topics, introduced in a biological context, include numerical and graphical summaries of data; basic notions in probability; loss-based estimation (e.g., least-squares regression, maximum likelihood estimation); model selection; multiple hypothesis testing; Markov chains; hidden Markov models, resampling; simulation studies. Biological questions considered include, but are not limited to, modeling meiosis; genetic mapping; nucleotide and protein-sequence analysis; molecular evolution; computational gene finding; and DNA microarray experiments. The course also introduces statistical computing resources for the analysis of biological data, with emphasis on the R language and environment (www.r-project.org) and bioconductor packages (www.bioconductor.org). In addition, the course introduces basic notions in genetics and molecular biology and involves the critical reading of articles related to statistical analyses in the biological and medical sciences. ", 
-    "format": "Three hours of Lecture and  One hour of Laboratory per week for 15 weeks.", 
-    "freshSophSem": false, 
-    "hasCoreqs": "", 
-    "isPrereqFor": "", 
-    "note": "", 
-    "number": "143", 
-    "offerHist": [
-        "Spring 2013", 
-        "Fall 2012", 
-        "Fall 2011", 
-        "Spring 2010"
-    ], 
-    "prereqs": "142, Statistics 134, 135 or consent of instructor. ", 
-    "restrictions": "", 
-    "title": "Introduction to Statistical Methods in Computational and Genomic Biology", 
-    "type": "Discussion"
-}, 
-"course60":{
-    "berkeleyConnect": false, 
-    "breadth": {
-        "AC": false, 
-        "AL": false, 
-        "BS": true, 
-        "HS": false, 
-        "IS": false, 
-        "PS": false, 
-        "PV": false, 
-        "RCA": false, 
-        "RCB": false, 
-        "SS": false
-    }, 
-    "classInstance": [
-        {
-            "ccn": 56167, 
-            "days": "F", 
-            "finalGroup": "Group 1--Monday, December 15, 2014, 1 p.m.", 
-            "instructor": "K. Serafini, M. Ferrero", 
-            "location": {
-                "building": "Soda", 
-                "room": 288
-            }, 
-            "seats": {
-                "available": 1, 
-                "enrolled": 29, 
-                "max": 30, 
-                "waitlist": 0
-            }, 
-            "semester": "Fall 2014", 
-            "time": {
-                "end": "2:30P", 
-                "start": "1P"
-            }
-        }
-    ], 
-    "courseThread": "", 
-    "credit": 4, 
-    "crossListing": "", 
-    "department": "Public Health", 
-    "deptAbbrev": "PB HLTH", 
-    "description": "This course provides an introduction to statistical and computational methods for the analysis of biomedical and genomic data. Statistical topics, introduced in a biological context, include numerical and graphical summaries of data; basic notions in probability; loss-based estimation (e.g., least-squares regression, maximum likelihood estimation); model selection; multiple hypothesis testing; Markov chains; hidden Markov models, resampling; simulation studies. Biological questions considered include, but are not limited to, modeling meiosis; genetic mapping; nucleotide and protein-sequence analysis; molecular evolution; computational gene finding; and DNA microarray experiments. The course also introduces statistical computing resources for the analysis of biological data, with emphasis on the R language and environment (www.r-project.org) and bioconductor packages (www.bioconductor.org). In addition, the course introduces basic notions in genetics and molecular biology and involves the critical reading of articles related to statistical analyses in the biological and medical sciences. ", 
-    "format": "Three hours of Lecture and  One hour of Laboratory per week for 15 weeks.", 
-    "freshSophSem": true, 
-    "hasCoreqs": "", 
-    "isPrereqFor": "This class is a prerequisite for PB HLTH 151.", 
-    "note": "", 
-    "number": "143", 
-    "offerHist": [
-        "Spring 2013", 
-        "Fall 2012", 
-        "Fall 2011", 
-        "Spring 2010"
-    ], 
-    "prereqs": "142, Statistics 134, 135 or consent of instructor. ", 
-    "restrictions": "", 
-    "title": "Introduction to Statistical Methods in Computational and Genomic Biology", 
-    "type": "Lecture"
+    "title": "The History of Medicine, Public Health, and the Allied Health Sciences"
 }, 
 "course65":{
     "berkeleyConnect": false, 
@@ -581,617 +716,52 @@
     }, 
     "classInstance": [
         {
-            "ccn": 66597, 
-            "days": "TuTh", 
-            "finalGroup": "Group 2--Tuesday, December 16, 2014, 9 a.m.", 
-            "instructor": "C. Giorgano", 
-            "location": {
-                "building": "Wurster", 
-                "room": 121
-            }, 
-            "seats": {
-                "available": 86, 
-                "enrolled": 14, 
-                "max": 100, 
-                "waitlist": 0
-            }, 
-            "semester": "Fall 2014", 
-            "time": {
-                "end": "1P", 
-                "start": "12P"
-            }
-        }
-    ], 
-    "courseThread": "", 
-    "credit": 3, 
-    "crossListing": "", 
-    "department": "Public Health", 
-    "deptAbbrev": "PB HLTH", 
-    "description": "Introduction to trends and issues in the educational approach to health promotion at the individual and community levels. Presentation of basic information on selected topics (i.e., stress, sexuality, fitness, alcohol and drugs, environmental health), with emphasis on the social and political factors that influence both the definition of health and actual health status. ", 
-    "format": "Three hours of Lecture and  One hour of Discussion per week for 15 weeks.", 
-    "freshSophSem": false, 
-    "hasCoreqs": "", 
-    "isPrereqFor": "", 
-    "note": "", 
-    "number": "114", 
-    "offerHist": [
-        "Spring 2013", 
-        "Spring 2012", 
-        "Spring 2011", 
-        "Spring 2010"
-    ], 
-    "prereqs": "", 
-    "restrictions": "", 
-    "title": "Issues in Personal and Community Health Promotion", 
-    "type": "Lecture"
-}, 
-"course66":{
-    "berkeleyConnect": false, 
-    "breadth": {
-        "AC": false, 
-        "AL": false, 
-        "BS": false, 
-        "HS": false, 
-        "IS": false, 
-        "PS": false, 
-        "PV": false, 
-        "RCA": false, 
-        "RCB": false, 
-        "SS": false
-    }, 
-    "classInstance": [
-        {
-            "ccn": 25299, 
-            "days": "MWF", 
-            "finalGroup": "Group 1--Monday, December 15, 2014, 1 p.m.", 
-            "instructor": "C. Marquez", 
-            "location": {
-                "building": "Dwinelle", 
-                "room": 34
-            }, 
-            "seats": {
-                "available": 7, 
-                "enrolled": 23, 
-                "max": 30, 
-                "waitlist": 8
-            }, 
-            "semester": "Fall 2014", 
-            "time": {
-                "end": "4:30P", 
-                "start": "3P"
-            }
-        }
-    ], 
-    "courseThread": "", 
-    "credit": 3, 
-    "crossListing": "", 
-    "department": "Public Health", 
-    "deptAbbrev": "PB HLTH", 
-    "description": "Theory and practice of policy, planning, implementation, and evaluation of health promotion programs in a college setting. Comparison of different methodologies (peer education, teaching, problem-posing, organizational change), content areas (stress, nutrition, alcohol and drugs, AIDS, sexuality, women's health, self-care, health services), and settings (clinical, classroom, living room, campus). ", 
-    "format": " Three hours of lecture/discussion per week. ", 
-    "freshSophSem": false, 
-    "hasCoreqs": "", 
-    "isPrereqFor": "", 
-    "note": "", 
-    "number": "105", 
-    "offerHist": [
-        "Spring 2013", 
-        "Spring 2012", 
-        "Spring 2011", 
-        "Spring 2010"
-    ], 
-    "prereqs": "14, 104A or 104B, and consent of instructor. ", 
-    "restrictions": "", 
-    "title": "Policy, Planning, and Evaluation of Health Promotion in a College Setting", 
-    "type": "Lecture"
-}, 
-"course68":{
-    "berkeleyConnect": false, 
-    "breadth": {
-        "AC": false, 
-        "AL": false, 
-        "BS": true, 
-        "HS": false, 
-        "IS": true, 
-        "PS": true, 
-        "PV": false, 
-        "RCA": false, 
-        "RCB": false, 
-        "SS": false
-    }, 
-    "classInstance": [
-        {
-            "ccn": 68315, 
-            "days": "TuTh", 
-            "finalGroup": "Group 2--Tuesday, December 16, 2014, 9 a.m.", 
-            "instructor": "K. Serafini, M. Ferrero", 
-            "location": {
-                "building": "Barrows", 
-                "room": 152
-            }, 
-            "seats": {
-                "available": 18, 
-                "enrolled": 12, 
-                "max": 30, 
-                "waitlist": 0
-            }, 
-            "semester": "Fall 2014", 
-            "time": {
-                "end": "2:30P", 
-                "start": "1P"
-            }
-        }
-    ], 
-    "courseThread": "", 
-    "credit": 3, 
-    "crossListing": "", 
-    "department": "Public Health", 
-    "deptAbbrev": "PB HLTH", 
-    "description": "The course will present the major human and natural activities that lead to release of hazardous materials into the environment as well as the causal links between chemical, physical, and biological hazards in the environment and their impact on human health. The basic principles of toxicology will be presented including dose-response relationships, absorption, distribution, metabolism, and excretion of chemicals. The overall role of environmental risks in the pattern of human disease, both nationally and internationally, will be covered. The engineering and policy strategies, including risk assessment, used to evaluate and control these risks will be introduced. ", 
-    "format": "Three hours of Lecture and  One hour of Discussion per week for 15 weeks.", 
-    "freshSophSem": true, 
-    "hasCoreqs": "", 
-    "isPrereqFor": "This class is a prerequisite for PB HLTH 151.", 
-    "note": "", 
-    "number": "150B", 
-    "offerHist": [
-        "Fall 2013", 
-        "Spring 2013", 
-        "Fall 2012", 
-        "Spring 2012"
-    ], 
-    "prereqs": "142 and 150A recommended. May be taken concurrently. ", 
-    "restrictions": "", 
-    "title": "Introduction to Environmental Health Sciences", 
-    "type": "Lecture"
-}, 
-"course92":{
-    "berkeleyConnect": false, 
-    "breadth": {
-        "AC": false, 
-        "AL": true, 
-        "BS": false, 
-        "HS": false, 
-        "IS": false, 
-        "PS": false, 
-        "PV": false, 
-        "RCA": false, 
-        "RCB": false, 
-        "SS": false
-    }, 
-    "classInstance": [
-        {
-            "ccn": 61644, 
+            "ccn": 90438, 
             "days": "MW", 
-            "finalGroup": "Not applicable", 
-            "instructor": "A. Kennard", 
-            "location": {
-                "building": "Wurster", 
-                "room": 14
-            }, 
-            "seats": {
-                "available": 15, 
-                "enrolled": 15, 
-                "max": 30, 
-                "waitlist": 0
-            }, 
-            "semester": "Fall 2014", 
-            "time": {
-                "end": "2:30P", 
-                "start": "1P"
-            }
-        }
-    ], 
-    "courseThread": "", 
-    "credit": 4, 
-    "crossListing": "", 
-    "department": "Public Policy", 
-    "deptAbbrev": "PUB POL", 
-    "description": "A systematic and critical approach to evaluating and designing public policies. Combines theory and application to particular cases and problems. Diverse policy topics, including environmental, health, education, communications, safety, and arts policy issues, among others. ", 
-    "format": "Three hours of Lecture and  One hour of Discussion per week for 15 weeks.", 
-    "freshSophSem": false, 
-    "hasCoreqs": "", 
-    "isPrereqFor": "", 
-    "note": "", 
-    "number": "101", 
-    "offerHist": [
-        "Fall 2013", 
-        "Spring 2011", 
-        "Spring 2009"
-    ], 
-    "prereqs": "", 
-    "restrictions": "", 
-    "title": "Introduction to Public Policy Analysis", 
-    "type": "Lecture"
-}, 
-"course89":{
-    "berkeleyConnect": false, 
-    "breadth": {
-        "AC": false, 
-        "AL": false, 
-        "BS": false, 
-        "HS": false, 
-        "IS": false, 
-        "PS": false, 
-        "PV": false, 
-        "RCA": false, 
-        "RCB": false, 
-        "SS": false
-    }, 
-    "classInstance": [
-        {
-            "ccn": 84254, 
-            "days": "TuTh", 
             "finalGroup": "Group 1--Monday, December 15, 2014, 1 p.m.", 
-            "instructor": "A. Kennard", 
-            "location": {
-                "building": "Wheeler", 
-                "room": 104
-            }, 
-            "seats": {
-                "available": 39, 
-                "enrolled": 11, 
-                "max": 50, 
-                "waitlist": 0
-            }, 
-            "semester": "Fall 2014", 
-            "time": {
-                "end": "5:30P", 
-                "start": "4P"
-            }
-        }
-    ], 
-    "courseThread": "", 
-    "credit": 4, 
-    "crossListing": "", 
-    "department": "Integrative Biology", 
-    "deptAbbrev": "INTEGBI", 
-    "description": "Course will address the role of hormones in physiology with a focus on humans. Regulation of hormone secretion and mechanisms of hormone action will be discussed. Physiological processes to be addressed include reproduction, metabolism, water balance, growth, fetal development. Experimental and clinical aspects will be addressed. ", 
-    "format": "Three hours of Lecture and  One hour of Discussion per week for 15 weeks.", 
-    "freshSophSem": false, 
-    "hasCoreqs": "", 
-    "isPrereqFor": "", 
-    "note": "", 
-    "number": "137", 
-    "offerHist": [
-        "Spring 2013", 
-        "Spring 2012", 
-        "Spring 2011", 
-        "Spring 2010"
-    ], 
-    "prereqs": "Biology 1A-1B; human physiology (132) strongly recommended. ", 
-    "restrictions": "", 
-    "title": "Human Endocrinology", 
-    "type": "Lecture"
-}, 
-"course88":{
-    "berkeleyConnect": false, 
-    "breadth": {
-        "AC": false, 
-        "AL": false, 
-        "BS": true, 
-        "HS": false, 
-        "IS": false, 
-        "PS": false, 
-        "PV": false, 
-        "RCA": false, 
-        "RCB": false, 
-        "SS": true
-    }, 
-    "classInstance": [
-        {
-            "ccn": 27747, 
-            "days": "Tu", 
-            "finalGroup": "Not applicable", 
+            "instanceType": "Lecture", 
             "instructor": "W. Hopkins, M. Anson", 
             "location": {
                 "building": "Barrows", 
-                "room": 264
+                "room": 196
             }, 
             "seats": {
-                "available": 6, 
-                "enrolled": 14, 
-                "max": 20, 
-                "waitlist": 9
-            }, 
-            "semester": "Fall 2014", 
-            "time": {
-                "end": "6P", 
-                "start": "5P"
-            }
-        }, 
-        {
-            "ccn": 33565, 
-            "days": "Tu", 
-            "finalGroup": "Not applicable", 
-            "instructor": "B. Varela", 
-            "location": {
-                "building": "Dwinelle", 
-                "room": 200
-            }, 
-            "seats": {
-                "available": 15, 
-                "enrolled": 10, 
-                "max": 25, 
-                "waitlist": 0
-            }, 
-            "semester": "Fall 2014", 
-            "time": {
-                "end": "5P", 
-                "start": "4P"
-            }
-        }, 
-        {
-            "ccn": 76704, 
-            "days": "W", 
-            "finalGroup": "Not applicable", 
-            "instructor": "I. Jaskolski", 
-            "location": {
-                "building": "Evans", 
-                "room": 276
-            }, 
-            "seats": {
-                "available": 9, 
-                "enrolled": 16, 
-                "max": 25, 
-                "waitlist": 3
-            }, 
-            "semester": "Fall 2014", 
-            "time": {
-                "end": "9A", 
-                "start": "8A"
-            }
-        }, 
-        {
-            "ccn": 15484, 
-            "days": "Th", 
-            "finalGroup": "Not applicable", 
-            "instructor": "C. Marquez", 
-            "location": {
-                "building": "Barrows", 
-                "room": 27
-            }, 
-            "seats": {
-                "available": 7, 
-                "enrolled": 18, 
-                "max": 25, 
-                "waitlist": 0
+                "available": 148, 
+                "enrolled": 2, 
+                "max": 150, 
+                "waitlist": 6
             }, 
             "semester": "Fall 2014", 
             "time": {
                 "end": "12P", 
                 "start": "11A"
             }
-        }, 
-        {
-            "ccn": 34555, 
-            "days": "F", 
-            "finalGroup": "Not applicable", 
-            "instructor": "O. Bandyopadhyay", 
-            "location": {
-                "building": "Dwinelle", 
-                "room": 40
-            }, 
-            "seats": {
-                "available": 2, 
-                "enrolled": 23, 
-                "max": 25, 
-                "waitlist": 0
-            }, 
-            "semester": "Fall 2014", 
-            "time": {
-                "end": "11A", 
-                "start": "10A"
-            }
         }
     ], 
     "courseThread": "", 
-    "credit": 4, 
-    "crossListing": "", 
-    "department": "Integrative Biology", 
-    "deptAbbrev": "INTEGBI", 
-    "description": "Course focuses on biological and cultural aspects of human reproduction including conception, embryology, pregnancy, labor, delivery, lactation, infant/child development, puberty, and reproductive aging. This includes study of factors that diminish and factors that enhance fertility, reproduction, and maternal-child health. We explore evolutionary, ecological, environmental, cultural, ethnobiological, and nutritional determinants of fertility, reproductive rate, infant survival, and population growth. ", 
-    "format": "Three hours of Lecture and  One hour of Discussion per week for 15 weeks.  Six hours of Lecture and  Two hours of Discussion per week for 8 weeks.", 
-    "freshSophSem": false, 
-    "hasCoreqs": "", 
-    "isPrereqFor": "", 
-    "note": "", 
-    "number": "140", 
-    "offerHist": [
-        "Fall 2013", 
-        "Spring 2013", 
-        "Fall 2012", 
-        "Spring 2012"
-    ], 
-    "prereqs": "Biology 1A or equivalent. ", 
-    "restrictions": "", 
-    "title": "Biology of Human Reproduction", 
-    "type": "Discussion"
-}, 
-"course87":{
-    "berkeleyConnect": false, 
-    "breadth": {
-        "AC": false, 
-        "AL": false, 
-        "BS": true, 
-        "HS": false, 
-        "IS": false, 
-        "PS": false, 
-        "PV": false, 
-        "RCA": false, 
-        "RCB": false, 
-        "SS": true
-    }, 
-    "classInstance": [
-        {
-            "ccn": 68354, 
-            "days": "MW", 
-            "finalGroup": "Group 1--Monday, December 15, 2014, 1 p.m.", 
-            "instructor": "O. Bandyopadhyay", 
-            "location": {
-                "building": "Wurster", 
-                "room": 298
-            }, 
-            "seats": {
-                "available": 297, 
-                "enrolled": 203, 
-                "max": 500, 
-                "waitlist": 10
-            }, 
-            "semester": "Fall 2014", 
-            "time": {
-                "end": "2:30P", 
-                "start": "1P"
-            }
-        }
-    ], 
-    "courseThread": "", 
-    "credit": 4, 
-    "crossListing": "", 
-    "department": "Integrative Biology", 
-    "deptAbbrev": "INTEGBI", 
-    "description": "Course focuses on biological and cultural aspects of human reproduction including conception, embryology, pregnancy, labor, delivery, lactation, infant/child development, puberty, and reproductive aging. This includes study of factors that diminish and factors that enhance fertility, reproduction, and maternal-child health. We explore evolutionary, ecological, environmental, cultural, ethnobiological, and nutritional determinants of fertility, reproductive rate, infant survival, and population growth. ", 
-    "format": "Three hours of Lecture and  One hour of Discussion per week for 15 weeks.  Six hours of Lecture and  Two hours of Discussion per week for 8 weeks.", 
-    "freshSophSem": false, 
-    "hasCoreqs": "", 
-    "isPrereqFor": "This class is a prerequisite for INTEGBI 151.", 
-    "note": "", 
-    "number": "140", 
-    "offerHist": [
-        "Spring 2013", 
-        "Spring 2012", 
-        "Spring 2011", 
-        "Spring 2010"
-    ], 
-    "prereqs": "Biology 1A or equivalent. ", 
-    "restrictions": "", 
-    "title": "Biology of Human Reproduction", 
-    "type": "Lecture"
-}, 
-"course86":{
-    "berkeleyConnect": false, 
-    "breadth": {
-        "AC": false, 
-        "AL": false, 
-        "BS": false, 
-        "HS": false, 
-        "IS": false, 
-        "PS": false, 
-        "PV": false, 
-        "RCA": false, 
-        "RCB": false, 
-        "SS": false
-    }, 
-    "classInstance": [
-        {
-            "ccn": 17820, 
-            "days": "F", 
-            "finalGroup": "Not applicable", 
-            "instructor": "B. Varela", 
-            "location": {
-                "building": "Barrows", 
-                "room": 108
-            }, 
-            "seats": {
-                "available": 5, 
-                "enrolled": 5, 
-                "max": 10, 
-                "waitlist": 1
-            }, 
-            "semester": "Fall 2014", 
-            "time": {
-                "end": "5P", 
-                "start": "4P"
-            }
-        }, 
-        {
-            "ccn": 88594, 
-            "days": "Tu", 
-            "finalGroup": "Not applicable", 
-            "instructor": "S. Abdullah", 
-            "location": {
-                "building": "Wheeler", 
-                "room": 194
-            }, 
-            "seats": {
-                "available": 7, 
-                "enrolled": 5, 
-                "max": 12, 
-                "waitlist": 4
-            }, 
-            "semester": "Fall 2014", 
-            "time": {
-                "end": "1P", 
-                "start": "12P"
-            }
-        }, 
-        {
-            "ccn": 99905, 
-            "days": "W", 
-            "finalGroup": "Not applicable", 
-            "instructor": "A. Kennard", 
-            "location": {
-                "building": "Dwinelle", 
-                "room": 270
-            }, 
-            "seats": {
-                "available": 7, 
-                "enrolled": 3, 
-                "max": 10, 
-                "waitlist": 0
-            }, 
-            "semester": "Fall 2014", 
-            "time": {
-                "end": "1P", 
-                "start": "12P"
-            }
-        }, 
-        {
-            "ccn": 95755, 
-            "days": "Tu", 
-            "finalGroup": "Not applicable", 
-            "instructor": "C. Marquez", 
-            "location": {
-                "building": "Wurster", 
-                "room": 276
-            }, 
-            "seats": {
-                "available": 3, 
-                "enrolled": 22, 
-                "max": 25, 
-                "waitlist": 1
-            }, 
-            "semester": "Fall 2014", 
-            "time": {
-                "end": "1P", 
-                "start": "12P"
-            }
-        }
-    ], 
-    "courseThread": "", 
+    "courseType": "Lecture", 
     "credit": 2, 
     "crossListing": "", 
-    "department": "Environ Sci, Policy, and Management", 
-    "deptAbbrev": "ESPM", 
-    "description": "This course will focus on the ecology and epidemiology of zoonotic disease agents transmitted to humans by arthropods. Basic principles will be discussed, and techniques for conducting field and laboratory studies will be demonstrated. Includes methods for collecting bloodsucking arthropods and trapping selected vertebrates; processing of specimens for study; and examination of arthropod and vertebrate tissues for pathogens. ", 
-    "format": "Two hours of Lecture per week for 15 weeks.", 
+    "department": "Public Health", 
+    "deptAbbrev": "PB HLTH", 
+    "description": "An interdisciplinary approach to health and medicine administered through the Health and Medical Apprenticeship Program (HMAP). Guest lecturers will speak on the social, political, and ethical aspects of health and medicine; students will then discuss and present analyses of the reading materials as well as issues raised by the speakers. ", 
+    "format": "Two hours of Lecture and  One hour of Discussion per week for 15 weeks.", 
     "freshSophSem": false, 
     "hasCoreqs": "", 
-    "isPrereqFor": "", 
+    "isPrereqFor": "This class is a prerequisite for PB HLTH 151.", 
     "note": "", 
-    "number": "145", 
+    "number": "116", 
     "offerHist": [
         "Fall 2013", 
         "Fall 2012", 
         "Fall 2011", 
         "Fall 2010"
     ], 
-    "prereqs": "146 or consent of instructor. ", 
+    "prereqs": "", 
     "restrictions": "", 
-    "title": "Arthropod-Borne Zoonotic Diseases: Basic Principles and Methods of Study", 
-    "type": "Discussion"
+    "title": "Seminar on Social, Political, and Ethical Issues in Health and Medicine"
 }, 
-"course85":{
+"course68":{
     "berkeleyConnect": false, 
     "breadth": {
         "AC": false, 
@@ -1207,79 +777,20 @@
     }, 
     "classInstance": [
         {
-            "ccn": 41710, 
-            "days": "F", 
-            "finalGroup": "Group 3--Wednesday, December 17, 2014, 12 p.m.", 
-            "instructor": "V. Benbow, Z. Alberts", 
+            "ccn": 28218, 
+            "days": "TuTh", 
+            "finalGroup": "Group 4--Thursday, December 18, 2014, 3 p.m.", 
+            "instanceType": "Lecture", 
+            "instructor": "O. Bandyopadhyay", 
             "location": {
                 "building": "Barrows", 
-                "room": 27
+                "room": 63
             }, 
             "seats": {
-                "available": 16, 
-                "enrolled": 14, 
-                "max": 30, 
-                "waitlist": 5
-            }, 
-            "semester": "Fall 2014", 
-            "time": {
-                "end": "2P", 
-                "start": "1P"
-            }
-        }
-    ], 
-    "courseThread": "", 
-    "credit": 2, 
-    "crossListing": "", 
-    "department": "Environ Sci, Policy, and Management", 
-    "deptAbbrev": "ESPM", 
-    "description": "This course will focus on the ecology and epidemiology of zoonotic disease agents transmitted to humans by arthropods. Basic principles will be discussed, and techniques for conducting field and laboratory studies will be demonstrated. Includes methods for collecting bloodsucking arthropods and trapping selected vertebrates; processing of specimens for study; and examination of arthropod and vertebrate tissues for pathogens. ", 
-    "format": "Two hours of Lecture per week for 15 weeks.", 
-    "freshSophSem": false, 
-    "hasCoreqs": "", 
-    "isPrereqFor": "This class is a prerequisite for ESPM 151.", 
-    "note": "", 
-    "number": "145", 
-    "offerHist": [
-        "Spring 2013", 
-        "Spring 2012", 
-        "Spring 2011", 
-        "Spring 2010"
-    ], 
-    "prereqs": "146 or consent of instructor. ", 
-    "restrictions": "", 
-    "title": "Arthropod-Borne Zoonotic Diseases: Basic Principles and Methods of Study", 
-    "type": "Lecture"
-}, 
-"course84":{
-    "berkeleyConnect": false, 
-    "breadth": {
-        "AC": false, 
-        "AL": false, 
-        "BS": false, 
-        "HS": false, 
-        "IS": false, 
-        "PS": false, 
-        "PV": false, 
-        "RCA": false, 
-        "RCB": false, 
-        "SS": false
-    }, 
-    "classInstance": [
-        {
-            "ccn": 50390, 
-            "days": "TuTh", 
-            "finalGroup": "Group 1--Monday, December 15, 2014, 1 p.m.", 
-            "instructor": "M. Sarka", 
-            "location": {
-                "building": "Evans", 
-                "room": 251
-            }, 
-            "seats": {
-                "available": 36, 
-                "enrolled": 14, 
-                "max": 50, 
-                "waitlist": 0
+                "available": 126, 
+                "enrolled": 124, 
+                "max": 250, 
+                "waitlist": 4
             }, 
             "semester": "Fall 2014", 
             "time": {
@@ -1289,17 +800,79 @@
         }
     ], 
     "courseThread": "", 
-    "credit": 3, 
+    "courseType": "Lecture", 
+    "credit": 4, 
     "crossListing": "", 
-    "department": "Environ Sci, Policy, and Management", 
-    "deptAbbrev": "ESPM", 
-    "description": "The role of insects and other arthropods in the transmission and causation of diseases in humans and domestic animals, including the geographical areas and types of ecosystems inhabited by various species and the structural/behavioral adaptations associated with parasitism. Examples of vector-borne diseases considered include malaria, yellow fever, plague, typhus, filariasis, African and American trypanosomiasis, Lyme disease, Rocky Mountain spotted fever, relapsing fevers. ", 
-    "format": " Two hours of lecture and one hour of demonstration/discussion per week. ", 
+    "department": "Statistics", 
+    "deptAbbrev": "STAT", 
+    "description": "A comprehensive survey course in statistical theory and methodology. Topics include descriptive statistics, maximum likelihood estimation, non-parametric methods, introduction to optimality, goodness-of-fit tests, analysis of variance, bootstrap and computer-intensive methods and least squares estimation. The laboratory includes computer-based data-analytic applications to science and engineering. ", 
+    "format": "Three hours of Lecture and  Two hours of Laboratory per week for 15 weeks.  Six hours of Lecture and  Four hours of Laboratory per week for 8 weeks.", 
     "freshSophSem": false, 
     "hasCoreqs": "", 
-    "isPrereqFor": "This class is a prerequisite for ESPM 151.", 
-    "note": "This is a note.", 
-    "number": "146", 
+    "isPrereqFor": "", 
+    "note": "", 
+    "number": "135", 
+    "offerHist": [
+        "Spring 2013", 
+        "Spring 2012", 
+        "Spring 2011", 
+        "Spring 2010"
+    ], 
+    "prereqs": "Statistics 134 and linear algebra (Mathematics 54 or equivalent). Statistics 133 strongly recommended. ", 
+    "restrictions": "", 
+    "title": "Concepts of Statistics"
+}, 
+"course87":{
+    "berkeleyConnect": false, 
+    "breadth": {
+        "AC": false, 
+        "AL": false, 
+        "BS": false, 
+        "HS": false, 
+        "IS": false, 
+        "PS": false, 
+        "PV": false, 
+        "RCA": false, 
+        "RCB": false, 
+        "SS": false
+    }, 
+    "classInstance": [
+        {
+            "ccn": 64981, 
+            "days": "F", 
+            "finalGroup": "Group 2--Tuesday, December 16, 2014, 9 a.m.", 
+            "instanceType": "Lecture", 
+            "instructor": "M. Wetterman", 
+            "location": {
+                "building": "Evans", 
+                "room": 291
+            }, 
+            "seats": {
+                "available": 14, 
+                "enrolled": 16, 
+                "max": 30, 
+                "waitlist": 0
+            }, 
+            "semester": "Fall 2014", 
+            "time": {
+                "end": "10A", 
+                "start": "9A"
+            }
+        }
+    ], 
+    "courseThread": "", 
+    "courseType": "Lecture", 
+    "credit": 4, 
+    "crossListing": "", 
+    "department": "Legal Studies", 
+    "deptAbbrev": "LEGALST", 
+    "description": "An examination of constitutional decision-making in a number of countries based on selected high court opinions. ", 
+    "format": "Three hours of Lecture and  One hour of Discussion per week for 15 weeks.", 
+    "freshSophSem": false, 
+    "hasCoreqs": "LEGALST 1A must be taken concurrently.", 
+    "isPrereqFor": "", 
+    "note": "", 
+    "number": "179", 
     "offerHist": [
         "Fall 2013", 
         "Spring 2013", 
@@ -1308,7 +881,67 @@
     ], 
     "prereqs": "", 
     "restrictions": "", 
-    "title": "Medical/Veterinary Entomology", 
-    "type": "Lecture"
+    "title": "Comparative Constitutional Law"
+}, 
+"course82":{
+    "berkeleyConnect": false, 
+    "breadth": {
+        "AC": false, 
+        "AL": false, 
+        "BS": false, 
+        "HS": false, 
+        "IS": false, 
+        "PS": false, 
+        "PV": false, 
+        "RCA": false, 
+        "RCB": false, 
+        "SS": false
+    }, 
+    "classInstance": [
+        {
+            "ccn": 52774, 
+            "days": "M", 
+            "finalGroup": "Group 5--Friday, December 15, 2014, 1 p.m.", 
+            "instanceType": "Lecture", 
+            "instructor": "A. Kennard", 
+            "location": {
+                "building": "Dwinelle", 
+                "room": 238
+            }, 
+            "seats": {
+                "available": 135, 
+                "enrolled": 15, 
+                "max": 150, 
+                "waitlist": 0
+            }, 
+            "semester": "Fall 2014", 
+            "time": {
+                "end": "10A", 
+                "start": "9A"
+            }
+        }
+    ], 
+    "courseThread": "", 
+    "courseType": "Lecture", 
+    "credit": 4, 
+    "crossListing": "", 
+    "department": "Public Policy", 
+    "deptAbbrev": "PUB POL", 
+    "description": "Public sector budgeting incorporates many, perhaps most, of the skills of the public manager and analyst. The goal of this course is to develop and hone these skills. Using cases and readings from all levels of American government, the course will allow the student to gain and understanding of the effects and consequences of public sector budgeting, its processes and participants, and the potential impacts of various reforms. Undegraduate level of Public Policy 269. This course can be applied to the political science major. ", 
+    "format": "Three hours of Lecture per week for 15 weeks.", 
+    "freshSophSem": false, 
+    "hasCoreqs": "", 
+    "isPrereqFor": "", 
+    "note": "", 
+    "number": "179", 
+    "offerHist": [
+        "Spring 2013", 
+        "Spring 2012", 
+        "Spring 2011", 
+        "Spring 2010"
+    ], 
+    "prereqs": "", 
+    "restrictions": "", 
+    "title": "Public Budgeting"
 }
 }

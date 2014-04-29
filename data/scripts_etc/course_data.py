@@ -54,22 +54,21 @@ def gen_seats(type):
     seats = {"max": seatlimit, "enrolled": seatstaken, "waitlist": random.choice([0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 0, 0, 10]), "available": seatlimit - seatstaken} 
     return seats
 
-#generate one instance of a course, with variables of lecture/discussion and whether it has a final        
-def gen_instance(type, finalstatus):
-    instance = {}
-    if finalstatus == "Y" and type == "Lecture":
+#generate one instance of a course, with variables of whether it has a final and whether should be a lecture or discussion instance     
+def gen_instance(instanceType, finalstatus):
+    instance = {"instanceType": instanceType} #populate instancetype
+    if finalstatus == "Y":
         instance["finalGroup"] = random.choice(["Group 1--Monday, December 15, 2014, 1 p.m.", "Group 2--Tuesday, December 16, 2014, 9 a.m.", "Group 3--Wednesday, December 17, 2014, 12 p.m.", "Group 4--Thursday, December 18, 2014, 3 p.m.", "Group 5--Friday, December 15, 2014, 1 p.m."])
-        
     else: 
         instance["finalGroup"] = "Not applicable"
     instance["semester"] = "Fall 2014"
-    sched = gen_sched(type)
+    sched = gen_sched(instanceType)
     instance["days"] = sched[0]
     instance["time"] = sched[1]
     instance["location"] = {"room": random.randint(1, 299), "building": random.choice(["Evans", "Barrows", "Dwinelle", "Wheeler", "Soda", "Wurster"])}
     instance["instructor"] = random.choice(["I. Jaskolski", "M. Wetterman", "O. Bandyopadhyay", "B. Varela", "S. Abdullah", "G. Burke", "W. Hopkins, M. Anson", "M. Sarka", "C. Giorgano", "A. Kennard", "M. Mhasalkar, U. Jehlicka", "C. Marquez", "V. Benbow, Z. Alberts", "D. Matousek, C. Stoddard", "K. Serafini, M. Ferrero"])
     instance["ccn"] = random.randint(10000, 99999)
-    instance["seats"] = gen_seats(type)
+    instance["seats"] = gen_seats(instanceType)
     return instance
     
 courses_output = []
@@ -98,26 +97,27 @@ for item in courses_input:
         course["restrictions"] = item[10]
         course["breadth"] = {"AC": make_bool(item[11]), "AL": make_bool(item[12]), "BS": make_bool(item[13]), "HS": make_bool(item[14]), "IS": make_bool(item[15]), "PV": make_bool(item[16]), "PS": make_bool(item[17]), "SS": make_bool(item[18]), "RCA": make_bool(item[19]), "RCB": make_bool(item[20])}
         course["offerHist"] = gen_hist()
-        course["type"] = item[22]
+        course["courseType"] = item[22]
         course["pubHealthMaj"] = make_bool(item[21])
+
         #then course data that is not in the spreadsheet
-        # dummy data just to append the same data to a selection if it's a lecture:
-        if random.randint(1, 15) == 15 and item[22] == "Lecture":
+        # dummy data just to append the same data to a selection:
+        if random.randint(1, 15) == 15:
             course["courseThread"] = "This course is part of the Cultural Forms in Transit Course Thread."
         else:
             course["courseThread"] = ""
-    
-        if random.randint(1, 10) == 10 and item[22] == "Lecture":
+
+        if random.randint(1, 10) == 10:
             course["berkeleyConnect"] = True
         else: 
             course["berkeleyConnect"] = False
-    
-        if random.randint(1, 3) == 3 and item[22] == "Lecture":
+
+        if random.randint(1, 3) == 3:
             course["isPrereqFor"] = "This class is a prerequisite for " + item[0] + " 151."
         else:
             course["isPrereqFor"] = ""
-    
-        if random.randint(1, 15) == 15 and item[22] == "Lecture":
+
+        if random.randint(1, 15) == 15:
             course["hasCoreqs"] = item[0] + " 1A must be taken concurrently."
         else:
             course["hasCoreqs"] = ""
@@ -125,23 +125,23 @@ for item in courses_input:
             course["note"] = "This is a note."
         else:
             course["note"] = ""
-        if random.randint(1, 8) == 8 and item[22] == "Lecture":
+        if random.randint(1, 8) == 8:
             course["freshSophSem"] = True
         else:
             course["freshSophSem"] = False
-    
+
         #then populate the instance data if it's supposed to have any
         instances = []
         #give one instance for all that need it
         if item[23] == "Y":
-            instances.append(gen_instance(course["type"], item[8]))
+            instances.append(gen_instance("Lecture", item[8]))
             #for lectures, populate more than one for some subset
-            if random.randint(1, 10) == 10 and course["type"] == "Lecture":
-                instances.append(gen_instance(course["type"], item[8]))
-            #for discussions, populate with an extra random # of instances
-            if course["type"] == "Discussion":
-                for x in range(random.randint(1, 5)):
-                    instances.append(gen_instance(course["type"], "N"))
+            if random.randint(1, 10) == 10:
+                instances.append(gen_instance("Lecture", item[8]))
+                #for lectures that need discussions, make some of those
+            if item[24] == "Y":
+                for x in range(random.randint(2, 5)):
+                    instances.append(gen_instance("Discussion", "N"))
 
         course["classInstance"] = instances
         courses_output.append(course)
