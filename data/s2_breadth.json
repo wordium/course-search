@@ -14,40 +14,25 @@
     }, 
     "classInstance": [
         {
-            "ccn": 52625, 
-            "days": "MW", 
+            "ccn": 35116, 
+            "days": "MWF", 
             "finalGroup": "Not applicable", 
-            "instructor": "A. Kennard", 
+            "instructor": "B. Varela", 
             "location": {
-                "building": "Dwinelle", 
-                "room": 33
+                "building": "Barrows", 
+                "room": 277
             }, 
             "seats": {
-                "available": 245, 
-                "enrolled": 255, 
-                "max": 500, 
-                "waitlist": 10
+                "available": 9, 
+                "enrolled": 41, 
+                "max": 50, 
+                "waitlist": 9
             }, 
             "semester": "Fall 2014", 
-            "time": "230-4P"
-        }, 
-        {
-            "ccn": 60147, 
-            "days": "M", 
-            "finalGroup": "Not applicable", 
-            "instructor": "W. Hopkins, M. Anson", 
-            "location": {
-                "building": "Evans", 
-                "room": 287
-            }, 
-            "seats": {
-                "available": 142, 
-                "enrolled": 8, 
-                "max": 150, 
-                "waitlist": 4
-            }, 
-            "semester": "Fall 2014", 
-            "time": "3-430P"
+            "time": {
+                "end": "2P", 
+                "start": "1P"
+            }
         }
     ], 
     "courseThread": "", 
@@ -57,6 +42,7 @@
     "deptAbbrev": "MEC ENG", 
     "description": "Engineering is challenged by issues of security, poverty and under-development, and environmental sustainability. These issues intersect with those of race, class, and culture in U.S. society. This course focuses on engineering ethics case studies as they apply to issues of workplace diversity, sustainable practices, economic impacts on neighborhoods and nations, and issues of security and identity. The goal of this course is to broaden the understanding of engineering ethics from individual and business-based practices to those affecting communities and nations. This class cannot be used to satisfy any Engineering requirement (technical electives, engineering units, or courses). ", 
     "format": "Six hours of Lecture per week for 8 weeks.", 
+    "freshSophSem": false, 
     "hasCoreqs": "", 
     "isPrereqFor": "", 
     "note": "", 
@@ -94,15 +80,16 @@
     "deptAbbrev": "ANTHRO", 
     "description": "The structure and dynamics of human cultures and social institutions from a comparative perspective with special attention to American cultures and their roots. Case studies will illustrate the principles presented in the course. It fulfills the requirements for 3. ", 
     "format": "Three hours of Lecture and  One hour of Discussion per week for 15 weeks.  Six hours of Lecture and  One and one-half hours of Discussion per week for 8 weeks.  Eight hours of Lecture and  Two hours of Discussion per week for 6 weeks.", 
+    "freshSophSem": false, 
     "hasCoreqs": "", 
-    "isPrereqFor": "This class is a prerequisite for ANTHRO 151.", 
-    "note": "This is a note.", 
+    "isPrereqFor": "", 
+    "note": "", 
     "number": "3AC", 
     "offerHist": [
-        "Fall 2013", 
+        "Spring 2013", 
         "Fall 2012", 
         "Fall 2011", 
-        "Fall 2010"
+        "Spring 2010"
     ], 
     "prereqs": "", 
     "restrictions": "Students will receive no credit for 3AC after taking 3; deficient grade in 3AC may be removed by taking 3. ", 
@@ -124,22 +111,23 @@
         "SS": false
     }, 
     "classInstance": [], 
-    "courseThread": "This course is part of the Cultural Forms in Transit Course Thread.", 
+    "courseThread": "", 
     "credit": 3, 
     "crossListing": "", 
     "department": "American Studies", 
     "deptAbbrev": "AMERSTD", 
     "description": "This course offers students a unified course experience that examines the politics of visual representation and ways of \"seeing\" race and ethnicity in the U.S. in a comparative way. This course satisfies the American Cultures requirement by combining the following 1-unit courses: American Studies 180C - The Politics of Adverstising in the United States: Race, Ethnicity, and Representation; American Studies 181B - Writing Narratives of Race and Gender: Photography and Art;and American Studies 184I - Race and American Film. ", 
     "format": "Fifteen hours of Lecture and  One hour of Discussion per week for 3 weeks.", 
+    "freshSophSem": false, 
     "hasCoreqs": "", 
-    "isPrereqFor": "This class is a prerequisite for AMERSTD 151.", 
+    "isPrereqFor": "", 
     "note": "", 
     "number": "179AC", 
     "offerHist": [
-        "Fall 2013", 
-        "Fall 2012", 
-        "Fall 2011", 
-        "Fall 2010"
+        "Spring 2013", 
+        "Spring 2012", 
+        "Spring 2011", 
+        "Spring 2010"
     ], 
     "prereqs": "", 
     "restrictions": "Students will receive no credit or partial credit for 179AC after taking 180C, 181B, or 184I. ", 
@@ -162,40 +150,44 @@
     }, 
     "classInstance": [
         {
-            "ccn": 43691, 
+            "ccn": 24234, 
             "days": "TuTh", 
-            "finalGroup": "Group 3--Wednesday, December 17, 2014, 12 p.m.", 
-            "instructor": "S. Abdullah", 
+            "finalGroup": "Group 5--Friday, December 15, 2014, 1 p.m.", 
+            "instructor": "C. Marquez", 
             "location": {
-                "building": "Dwinelle", 
-                "room": 121
+                "building": "Wheeler", 
+                "room": 22
             }, 
             "seats": {
-                "available": 412, 
-                "enrolled": 88, 
-                "max": 500, 
-                "waitlist": 5
+                "available": 19, 
+                "enrolled": 21, 
+                "max": 40, 
+                "waitlist": 0
             }, 
             "semester": "Fall 2014", 
-            "time": "430-6P"
+            "time": {
+                "end": "3P", 
+                "start": "2P"
+            }
         }
     ], 
-    "courseThread": "This course is part of the Cultural Forms in Transit Course Thread.", 
+    "courseThread": "", 
     "credit": 2, 
     "crossListing": "", 
     "department": "Earth and Planetary Science", 
     "deptAbbrev": "EPS", 
     "description": "Formation, global distribution, and exploration for non renewable natural resources of metals, fuels, and industrial materials in the context of public land use issues, land ethics, resource literacy, sustainability, the mine life cycle, and California geology. Overview of environmental geology and geological hazards. Student research project presented in the format of a talk at a scientific meeting with follow-up written paper. ", 
     "format": "Three hours of Lecture per week for 15 weeks.", 
+    "freshSophSem": true, 
     "hasCoreqs": "", 
     "isPrereqFor": "", 
-    "note": "This is a note.", 
+    "note": "", 
     "number": "106", 
     "offerHist": [
-        "Spring 2013", 
+        "Fall 2013", 
         "Fall 2012", 
         "Fall 2011", 
-        "Spring 2010"
+        "Fall 2010"
     ], 
     "prereqs": "50 or equivalent. ", 
     "restrictions": "", 
@@ -218,94 +210,130 @@
     }, 
     "classInstance": [
         {
-            "ccn": 37102, 
-            "days": "Th", 
+            "ccn": 18461, 
+            "days": "W", 
             "finalGroup": "Not applicable", 
-            "instructor": "M. Mhasalkar, U. Jehlicka", 
+            "instructor": "V. Benbow, Z. Alberts", 
             "location": {
-                "building": "Barrows", 
-                "room": 159
+                "building": "Evans", 
+                "room": 175
             }, 
             "seats": {
-                "available": 2, 
-                "enrolled": 10, 
-                "max": 12, 
-                "waitlist": 4
+                "available": 17, 
+                "enrolled": 8, 
+                "max": 25, 
+                "waitlist": 0
             }, 
             "semester": "Fall 2014", 
-            "time": "1-2P"
+            "time": {
+                "end": "9A", 
+                "start": "8A"
+            }
         }, 
         {
-            "ccn": 61905, 
+            "ccn": 49799, 
             "days": "M", 
             "finalGroup": "Not applicable", 
-            "instructor": "I. Jaskolski", 
+            "instructor": "M. Wetterman", 
             "location": {
-                "building": "Evans", 
-                "room": 52
+                "building": "Dwinelle", 
+                "room": 183
             }, 
             "seats": {
-                "available": 9, 
-                "enrolled": 1, 
+                "available": 8, 
+                "enrolled": 2, 
                 "max": 10, 
-                "waitlist": 2
+                "waitlist": 0
             }, 
             "semester": "Fall 2014", 
-            "time": "12-1P"
+            "time": {
+                "end": "1P", 
+                "start": "12P"
+            }
         }, 
         {
-            "ccn": 61201, 
-            "days": "Tu", 
+            "ccn": 46599, 
+            "days": "F", 
             "finalGroup": "Not applicable", 
-            "instructor": "D. Matousek, C. Stoddard", 
+            "instructor": "G. Burke", 
             "location": {
-                "building": "Evans", 
-                "room": 10
+                "building": "Wurster", 
+                "room": 122
             }, 
             "seats": {
-                "available": 5, 
-                "enrolled": 15, 
+                "available": 8, 
+                "enrolled": 12, 
                 "max": 20, 
+                "waitlist": 0
+            }, 
+            "semester": "Fall 2014", 
+            "time": {
+                "end": "9A", 
+                "start": "8A"
+            }
+        }, 
+        {
+            "ccn": 63679, 
+            "days": "M", 
+            "finalGroup": "Not applicable", 
+            "instructor": "C. Giorgano", 
+            "location": {
+                "building": "Barrows", 
+                "room": 99
+            }, 
+            "seats": {
+                "available": 20, 
+                "enrolled": 5, 
+                "max": 25, 
                 "waitlist": 1
             }, 
             "semester": "Fall 2014", 
-            "time": "9-10A"
+            "time": {
+                "end": "11A", 
+                "start": "10A"
+            }
         }, 
         {
-            "ccn": 50417, 
-            "days": "W", 
-            "finalGroup": "Not applicable", 
-            "instructor": "G. Burke", 
-            "location": {
-                "building": "Soda", 
-                "room": 61
-            }, 
-            "seats": {
-                "available": 2, 
-                "enrolled": 8, 
-                "max": 10, 
-                "waitlist": 9
-            }, 
-            "semester": "Fall 2014", 
-            "time": "4-5P"
-        }, 
-        {
-            "ccn": 78956, 
+            "ccn": 95663, 
             "days": "Th", 
             "finalGroup": "Not applicable", 
-            "instructor": "G. Burke", 
+            "instructor": "I. Jaskolski", 
             "location": {
-                "building": "Evans", 
-                "room": 97
+                "building": "Dwinelle", 
+                "room": 66
             }, 
             "seats": {
-                "available": 19, 
-                "enrolled": 1, 
+                "available": 12, 
+                "enrolled": 8, 
                 "max": 20, 
                 "waitlist": 2
             }, 
             "semester": "Fall 2014", 
-            "time": "4-5P"
+            "time": {
+                "end": "3P", 
+                "start": "2P"
+            }
+        }, 
+        {
+            "ccn": 30426, 
+            "days": "W", 
+            "finalGroup": "Not applicable", 
+            "instructor": "W. Hopkins, M. Anson", 
+            "location": {
+                "building": "Evans", 
+                "room": 133
+            }, 
+            "seats": {
+                "available": 4, 
+                "enrolled": 16, 
+                "max": 20, 
+                "waitlist": 6
+            }, 
+            "semester": "Fall 2014", 
+            "time": {
+                "end": "9A", 
+                "start": "8A"
+            }
         }
     ], 
     "courseThread": "", 
@@ -315,15 +343,16 @@
     "deptAbbrev": "AMERSTD", 
     "description": "This course is designed primarily to allow faculty to develop focused interdisciplinary courses that address specific issues, themes, or problems in American society and American cultures. Topics vary from semester to semester. ", 
     "format": " Three or four hours of lecture per week. ", 
+    "freshSophSem": false, 
     "hasCoreqs": "", 
     "isPrereqFor": "", 
     "note": "", 
     "number": "110AC", 
     "offerHist": [
         "Fall 2013", 
+        "Spring 2013", 
         "Fall 2012", 
-        "Fall 2011", 
-        "Fall 2010"
+        "Spring 2012"
     ], 
     "prereqs": "", 
     "restrictions": "", 
@@ -346,22 +375,25 @@
     }, 
     "classInstance": [
         {
-            "ccn": 73993, 
-            "days": "TuTh", 
-            "finalGroup": "Group 4--Thursday, December 18, 2014, 3 p.m.", 
-            "instructor": "C. Giorgano", 
+            "ccn": 44867, 
+            "days": "MWF", 
+            "finalGroup": "Group 2--Tuesday, December 16, 2014, 9 a.m.", 
+            "instructor": "K. Serafini, M. Ferrero", 
             "location": {
-                "building": "Barrows", 
-                "room": 183
+                "building": "Soda", 
+                "room": 22
             }, 
             "seats": {
-                "available": 104, 
-                "enrolled": 46, 
-                "max": 150, 
-                "waitlist": 4
+                "available": 2, 
+                "enrolled": 98, 
+                "max": 100, 
+                "waitlist": 0
             }, 
             "semester": "Fall 2014", 
-            "time": "8-9A"
+            "time": {
+                "end": "4P", 
+                "start": "2:30P"
+            }
         }
     ], 
     "courseThread": "", 
@@ -371,15 +403,16 @@
     "deptAbbrev": "AMERSTD", 
     "description": "This course is designed primarily to allow faculty to develop focused interdisciplinary courses that address specific issues, themes, or problems in American society and American cultures. Topics vary from semester to semester. ", 
     "format": " Three or four hours of lecture per week. ", 
+    "freshSophSem": true, 
     "hasCoreqs": "", 
     "isPrereqFor": "", 
     "note": "", 
     "number": "110AC", 
     "offerHist": [
         "Fall 2013", 
-        "Spring 2013", 
         "Fall 2012", 
-        "Spring 2012"
+        "Fall 2011", 
+        "Fall 2010"
     ], 
     "prereqs": "", 
     "restrictions": "", 
@@ -402,22 +435,25 @@
     }, 
     "classInstance": [
         {
-            "ccn": 64725, 
-            "days": "M", 
-            "finalGroup": "Group 4--Thursday, December 18, 2014, 3 p.m.", 
-            "instructor": "D. Matousek, C. Stoddard", 
+            "ccn": 62951, 
+            "days": "MW", 
+            "finalGroup": "Group 2--Tuesday, December 16, 2014, 9 a.m.", 
+            "instructor": "G. Burke", 
             "location": {
-                "building": "Dwinelle", 
-                "room": 158
+                "building": "Evans", 
+                "room": 88
             }, 
             "seats": {
-                "available": 46, 
-                "enrolled": 4, 
-                "max": 50, 
-                "waitlist": 4
+                "available": 24, 
+                "enrolled": 76, 
+                "max": 100, 
+                "waitlist": 0
             }, 
             "semester": "Fall 2014", 
-            "time": "10-11A"
+            "time": {
+                "end": "6P", 
+                "start": "4:30P"
+            }
         }
     ], 
     "courseThread": "", 
@@ -427,14 +463,16 @@
     "deptAbbrev": "AMERSTD", 
     "description": "American culture and cultural change, with attention to the multicultural basis of American society and emphasis on the need for multiple methods of analysis. The course will consistently draw on the arts, material culture, and various fields affecting cultural production and meaning. Those areas include literature, film, history, architecture, history of art, religion, music, engineering, environmental studies, anthropology, politics, economics, law, and medicine. ", 
     "format": "Three hours of Lecture and  One hour of Discussion per week for 15 weeks.", 
+    "freshSophSem": false, 
     "hasCoreqs": "", 
-    "isPrereqFor": "This class is a prerequisite for AMERSTD 151.", 
+    "isPrereqFor": "", 
     "note": "", 
     "number": "10AC", 
     "offerHist": [
         "Fall 2013", 
-        "Spring 2011", 
-        "Spring 2009"
+        "Spring 2013", 
+        "Fall 2012", 
+        "Spring 2012"
     ], 
     "prereqs": "", 
     "restrictions": "Students will receive no credit for 10AC after taking 10 or Undergraduate and Interdisciplinary Studies 10. ", 
@@ -457,22 +495,25 @@
     }, 
     "classInstance": [
         {
-            "ccn": 58588, 
-            "days": "M", 
+            "ccn": 44880, 
+            "days": "MWF", 
             "finalGroup": "Not applicable", 
-            "instructor": "V. Benbow, Z. Alberts", 
+            "instructor": "A. Kennard", 
             "location": {
-                "building": "Barrows", 
-                "room": 123
+                "building": "Soda", 
+                "room": 288
             }, 
             "seats": {
-                "available": 6, 
-                "enrolled": 24, 
-                "max": 30, 
-                "waitlist": 2
+                "available": 29, 
+                "enrolled": 71, 
+                "max": 100, 
+                "waitlist": 0
             }, 
             "semester": "Fall 2014", 
-            "time": "1-230P"
+            "time": {
+                "end": "6P", 
+                "start": "4:30P"
+            }
         }
     ], 
     "courseThread": "", 
@@ -482,15 +523,16 @@
     "deptAbbrev": "AMERSTD", 
     "description": "American culture and cultural change, with attention to the multicultural basis of American society and emphasis on the need for multiple methods of analysis. The course will consistently draw on the arts, material culture, and various fields affecting cultural production and meaning. Those areas include literature, film, history, architecture, history of art, religion, music, engineering, environmental studies, anthropology, politics, economics, law, and medicine. ", 
     "format": "", 
-    "hasCoreqs": "AMERSTD 1A must be taken concurrently.", 
-    "isPrereqFor": "This class is a prerequisite for AMERSTD 151.", 
-    "note": "This is a note.", 
+    "freshSophSem": false, 
+    "hasCoreqs": "", 
+    "isPrereqFor": "", 
+    "note": "", 
     "number": "111AC", 
     "offerHist": [
-        "Spring 2013", 
+        "Fall 2013", 
         "Fall 2012", 
         "Fall 2011", 
-        "Spring 2010"
+        "Fall 2010"
     ], 
     "prereqs": "", 
     "restrictions": "Students will receive no credit for 10AC after taking 10 or Undergraduate and Interdisciplinary Studies 10. ", 
@@ -513,31 +555,35 @@
     }, 
     "classInstance": [
         {
-            "ccn": 54319, 
-            "days": "TuTh", 
+            "ccn": 97192, 
+            "days": "M", 
             "finalGroup": "Not applicable", 
-            "instructor": "S. Abdullah", 
+            "instructor": "C. Marquez", 
             "location": {
-                "building": "Dwinelle", 
-                "room": 21
+                "building": "Evans", 
+                "room": 196
             }, 
             "seats": {
-                "available": 38, 
-                "enrolled": 12, 
-                "max": 50, 
-                "waitlist": 9
+                "available": 1, 
+                "enrolled": 29, 
+                "max": 30, 
+                "waitlist": 0
             }, 
             "semester": "Fall 2014", 
-            "time": "2-3P"
+            "time": {
+                "end": "6P", 
+                "start": "4:30P"
+            }
         }
     ], 
-    "courseThread": "This course is part of the Cultural Forms in Transit Course Thread.", 
+    "courseThread": "", 
     "credit": 3, 
     "crossListing": "", 
     "department": "Civil and Environmental Engineering", 
     "deptAbbrev": "CIV ENG", 
     "description": "Engineering design and project management of environmental systems. Students will complete a design project focusing on pollution control in a selected environmental system. Lectures and project activities will address process design, economic optimization, legal and institutional constraints on design, and project management. Additional components of design (e.g., hydraulics, engineering sustainability, plant structures) will be included. ", 
     "format": "Two hours of Lecture and  Three hours of Laboratory per week for 15 weeks.", 
+    "freshSophSem": false, 
     "hasCoreqs": "", 
     "isPrereqFor": "", 
     "note": "", 
@@ -554,7 +600,7 @@
     "type": "Lecture"
 }, 
 "course27":{
-    "berkeleyConnect": false, 
+    "berkeleyConnect": true, 
     "breadth": {
         "AC": false, 
         "AL": false, 
@@ -575,15 +621,16 @@
     "deptAbbrev": "DEVP", 
     "description": "Learn to apply the tools of economic analysis to problems of growth, poverty, and environmental sustainability in developing countries and to understand what can be done to promote development through policies and investment projects, and learn to analyze the economic, social, and environmental impacts of specific initiatives. This course will teach students to use data to conduct development analyses and learn to prepare the corresponding reports for international development agencies and policymakers. ", 
     "format": "Three hours of Lecture per week for 15 weeks.", 
-    "hasCoreqs": "DEVP 1A must be taken concurrently.", 
+    "freshSophSem": false, 
+    "hasCoreqs": "", 
     "isPrereqFor": "", 
     "note": "", 
     "number": "235", 
     "offerHist": [
         "Fall 2013", 
+        "Spring 2013", 
         "Fall 2012", 
-        "Fall 2011", 
-        "Fall 2010"
+        "Spring 2012"
     ], 
     "prereqs": "Microeconomics and econometrics at the undergraduate upper-division or Master's level. ", 
     "restrictions": "", 
@@ -612,8 +659,9 @@
     "deptAbbrev": "COLWRIT", 
     "description": "Communities are challenged by issues of security, poverty, and environmental sustainability. These issues intersect with those of race, class, and culture in U.S. society. This course focuses on ethical decisions as they apply to issues of diversity, sustainable practices, economic impacts on neighborhoods and nations, and issues of security and identity. This course focuses on writing and research skills. ", 
     "format": "Three hours of Lecture per week for 15 weeks.  Seven and one-half hours of Lecture per week for 6 weeks.", 
+    "freshSophSem": false, 
     "hasCoreqs": "", 
-    "isPrereqFor": "This class is a prerequisite for COLWRIT 151.", 
+    "isPrereqFor": "", 
     "note": "", 
     "number": "192AC", 
     "offerHist": [
@@ -627,7 +675,7 @@
     "type": "Lecture"
 }, 
 "course118":{
-    "berkeleyConnect": false, 
+    "berkeleyConnect": true, 
     "breadth": {
         "AC": true, 
         "AL": false, 
@@ -642,22 +690,46 @@
     }, 
     "classInstance": [
         {
-            "ccn": 72987, 
-            "days": "F", 
+            "ccn": 96307, 
+            "days": "M", 
             "finalGroup": "Group 3--Wednesday, December 17, 2014, 12 p.m.", 
-            "instructor": "S. Abdullah", 
+            "instructor": "D. Matousek, C. Stoddard", 
             "location": {
-                "building": "Wurster", 
-                "room": 195
+                "building": "Evans", 
+                "room": 50
             }, 
             "seats": {
-                "available": 118, 
-                "enrolled": 32, 
-                "max": 150, 
-                "waitlist": 3
+                "available": 18, 
+                "enrolled": 22, 
+                "max": 40, 
+                "waitlist": 6
             }, 
             "semester": "Fall 2014", 
-            "time": "10-11A"
+            "time": {
+                "end": "9A", 
+                "start": "8A"
+            }
+        }, 
+        {
+            "ccn": 52384, 
+            "days": "F", 
+            "finalGroup": "Group 2--Tuesday, December 16, 2014, 9 a.m.", 
+            "instructor": "O. Bandyopadhyay", 
+            "location": {
+                "building": "Barrows", 
+                "room": 19
+            }, 
+            "seats": {
+                "available": 7, 
+                "enrolled": 33, 
+                "max": 40, 
+                "waitlist": 0
+            }, 
+            "semester": "Fall 2014", 
+            "time": {
+                "end": "12P", 
+                "start": "11A"
+            }
         }
     ], 
     "courseThread": "", 
@@ -667,15 +739,16 @@
     "deptAbbrev": "ETH STD", 
     "description": "This explores the work of key theorists of race, ethnicity, and de-colonization whose work and ideas have formed the basis of scholarly work in the broad, interdisciplinary field of comparative ethnic studies. It is intended both to offer beginning students a ground in the ideas and methods they will encounter throughout their major, and to introduce names, texts, and concepts with which all majors should be familiar. This course satisfies the American cultures requirement. ", 
     "format": "Three hours of Lecture and  One hour of Discussion per week for 15 weeks.  Seven and one-half hours of Lecture and  Two and one-half hours of Discussion per week for 6 weeks.", 
+    "freshSophSem": false, 
     "hasCoreqs": "", 
-    "isPrereqFor": "", 
+    "isPrereqFor": "This class is a prerequisite for ETH STD 151.", 
     "note": "", 
     "number": "11AC", 
     "offerHist": [
-        "Fall 2013", 
         "Spring 2013", 
-        "Fall 2012", 
-        "Spring 2012"
+        "Spring 2012", 
+        "Spring 2011", 
+        "Spring 2010"
     ], 
     "prereqs": "", 
     "restrictions": "", 
@@ -698,39 +771,43 @@
     }, 
     "classInstance": [
         {
-            "ccn": 53855, 
-            "days": "MWF", 
-            "finalGroup": "Group 3--Wednesday, December 17, 2014, 12 p.m.", 
-            "instructor": "O. Bandyopadhyay", 
+            "ccn": 60024, 
+            "days": "M", 
+            "finalGroup": "Group 4--Thursday, December 18, 2014, 3 p.m.", 
+            "instructor": "K. Serafini, M. Ferrero", 
             "location": {
                 "building": "Soda", 
-                "room": 161
+                "room": 49
             }, 
             "seats": {
-                "available": 58, 
-                "enrolled": 192, 
-                "max": 250, 
-                "waitlist": 7
+                "available": 510, 
+                "enrolled": 190, 
+                "max": 700, 
+                "waitlist": 9
             }, 
             "semester": "Fall 2014", 
-            "time": "11A-12P"
+            "time": {
+                "end": "2:30P", 
+                "start": "1P"
+            }
         }
     ], 
-    "courseThread": "This course is part of the Cultural Forms in Transit Course Thread.", 
+    "courseThread": "", 
     "credit": 4, 
     "crossListing": "", 
     "department": "Practice of Art", 
     "deptAbbrev": "GWS", 
     "description": "This course will enable students to think critically about, and engage in practical experiments in, the complex interactions between new media and perceptions and performances of embodiment, agency, citizenship, collective action, individual identity, time, and spatiality. We will pay particular attention to the categories of personhood that make up the UC Berkeley American cultures rubric (race and ethnicity), as well as to gender, nation, and disability. The argument threading through the course will be the ways in which new media both reinforce preexisting social hierarchies and yet offer possibilities for the transcendence of those very categories. The new media--and we will leave the precise definition of the new media as something to be argued about over the course of the semester--can be yet another means for dividing and disenfranchising, and can be the conduit of violence and transnational dominance. ", 
     "format": " Six hours of lecture/studio per week. ", 
+    "freshSophSem": false, 
     "hasCoreqs": "", 
     "isPrereqFor": "", 
     "note": "", 
     "number": "C23AC", 
     "offerHist": [
         "Spring 2013", 
-        "Spring 2012", 
-        "Spring 2011", 
+        "Fall 2012", 
+        "Fall 2011", 
         "Spring 2010"
     ], 
     "prereqs": "", 
@@ -760,6 +837,7 @@
     "deptAbbrev": "ENGLISH", 
     "description": "Study of the ethnic diversity of American literature. The course will take substantial account of the literature of three or more of the following groups: African Americans, Native Americans, Asian Americans, Chicanos/Latinos, and European Americans. Topics vary from semester to semester. Topic for this summer: Theorizing Children's Literature in American Cultures. ", 
     "format": "Four hours of Lecture per week for 8 weeks.", 
+    "freshSophSem": false, 
     "hasCoreqs": "", 
     "isPrereqFor": "", 
     "note": "", 
@@ -776,7 +854,7 @@
     "type": "Lecture"
 }, 
 "course117":{
-    "berkeleyConnect": false, 
+    "berkeleyConnect": true, 
     "breadth": {
         "AC": true, 
         "AL": false, 
@@ -791,39 +869,43 @@
     }, 
     "classInstance": [
         {
-            "ccn": 19876, 
-            "days": "F", 
-            "finalGroup": "Group 1--Monday, December 15, 2014, 1 p.m.", 
-            "instructor": "A. Kennard", 
+            "ccn": 79671, 
+            "days": "TuTh", 
+            "finalGroup": "Group 3--Wednesday, December 17, 2014, 12 p.m.", 
+            "instructor": "K. Serafini, M. Ferrero", 
             "location": {
-                "building": "Barrows", 
-                "room": 179
+                "building": "Dwinelle", 
+                "room": 143
             }, 
             "seats": {
-                "available": 473, 
-                "enrolled": 27, 
-                "max": 500, 
-                "waitlist": 7
+                "available": 9, 
+                "enrolled": 31, 
+                "max": 40, 
+                "waitlist": 0
             }, 
             "semester": "Fall 2014", 
-            "time": "10-11A"
+            "time": {
+                "end": "3P", 
+                "start": "2P"
+            }
         }
     ], 
-    "courseThread": "This course is part of the Cultural Forms in Transit Course Thread.", 
+    "courseThread": "", 
     "credit": 4, 
     "crossListing": "L & S 170AC", 
     "department": "Earth and Planetary Science", 
     "deptAbbrev": "EPS", 
     "description": "Intersection of geological processes with American cultures in the past, present, and future. Overview of ethnogeology including traditional knowledge of sources and uses of earth materials and their cultural influences today. Scientific approach to study of tectonic controls on the genesis and global distribution of energy fuels, metals, and industrial minerals. Evolution and diversity of opinion in attitudes about resource development, environmental management, and conservation on public, private, and tribal lands. Impending crisis in renewable energy and the imperative of resource literacy. ", 
     "format": " Three hours of lecture and one hour of discussion per week, plus two-day field trip. ", 
+    "freshSophSem": false, 
     "hasCoreqs": "", 
     "isPrereqFor": "", 
     "note": "", 
     "number": "170AC", 
     "offerHist": [
         "Spring 2013", 
-        "Fall 2012", 
-        "Fall 2011", 
+        "Spring 2012", 
+        "Spring 2011", 
         "Spring 2010"
     ], 
     "prereqs": "", 
@@ -847,22 +929,25 @@
     }, 
     "classInstance": [
         {
-            "ccn": 13154, 
-            "days": "MWF", 
+            "ccn": 40995, 
+            "days": "TuTh", 
             "finalGroup": "Group 5--Friday, December 15, 2014, 1 p.m.", 
-            "instructor": "M. Wetterman", 
+            "instructor": "C. Marquez", 
             "location": {
-                "building": "Wurster", 
-                "room": 212
+                "building": "Evans", 
+                "room": 94
             }, 
             "seats": {
-                "available": 292, 
-                "enrolled": 408, 
-                "max": 700, 
-                "waitlist": 7
+                "available": 48, 
+                "enrolled": 202, 
+                "max": 250, 
+                "waitlist": 1
             }, 
             "semester": "Fall 2014", 
-            "time": "1-230P"
+            "time": {
+                "end": "6P", 
+                "start": "4:30P"
+            }
         }
     ], 
     "courseThread": "", 
@@ -872,15 +957,16 @@
     "deptAbbrev": "DEMOG", 
     "description": "The history of the United States is the history of migration. The course covers the evolution of the American population from about 20,000 BC with the goal of understanding the interdependent roles of history and demography. As an American cultures class, special attention is given to the experiences of 18th- and 19th-century African and European immigrants and 20th- and 21st-century Asian and Latin American immigrants. Two substantial laboratory assignments; facility with a spreadsheet program is assumed. ", 
     "format": " Three hours of lecture, one hour of self-paced laboratory and one hour of optional discussion section per week. ", 
+    "freshSophSem": false, 
     "hasCoreqs": "", 
     "isPrereqFor": "", 
     "note": "", 
     "number": "145AC", 
     "offerHist": [
+        "Fall 2013", 
         "Spring 2013", 
         "Fall 2012", 
-        "Fall 2011", 
-        "Spring 2010"
+        "Spring 2012"
     ], 
     "prereqs": "", 
     "restrictions": "", 
@@ -903,22 +989,25 @@
     }, 
     "classInstance": [
         {
-            "ccn": 75451, 
+            "ccn": 57777, 
             "days": "TuTh", 
             "finalGroup": "Not applicable", 
             "instructor": "A. Kennard", 
             "location": {
-                "building": "Barrows", 
-                "room": 115
+                "building": "Wheeler", 
+                "room": 149
             }, 
             "seats": {
-                "available": 80, 
-                "enrolled": 20, 
+                "available": 55, 
+                "enrolled": 45, 
                 "max": 100, 
-                "waitlist": 10
+                "waitlist": 0
             }, 
             "semester": "Fall 2014", 
-            "time": "230-4P"
+            "time": {
+                "end": "12P", 
+                "start": "11A"
+            }
         }
     ], 
     "courseThread": "", 
@@ -928,15 +1017,16 @@
     "deptAbbrev": "EDUC", 
     "description": "This course combines theory and practice in the study of literacy and development, while simultaneously introducing students to socio-cultural educational theory and research. This research perspicaciously and critically analyzes extant literature on literacy teaching and learning. This literature will be examined in practice through participation in tutoring and technology-oriented summer programs. In addition, this course satisfies the American Cultures requirement and will contribute to understanding of race, cultures, and ethnicity in the United States. We will develop a view of literacy, not as a neutral skill, but as embedded within culture and as depending for its meaning and its practice upon social institutions and conditions. In addition to lecture, students are to participate in field work hours. ", 
     "format": " Eight hours of lecture/discussion per week for six weeks, and seven hours of fieldwork per week for six weeks. ", 
+    "freshSophSem": false, 
     "hasCoreqs": "", 
-    "isPrereqFor": "This class is a prerequisite for EDUC 151.", 
+    "isPrereqFor": "", 
     "note": "", 
     "number": "N140", 
     "offerHist": [
-        "Fall 2013", 
         "Spring 2013", 
-        "Fall 2012", 
-        "Spring 2012"
+        "Spring 2012", 
+        "Spring 2011", 
+        "Spring 2010"
     ], 
     "prereqs": "", 
     "restrictions": "", 
@@ -944,7 +1034,7 @@
     "type": "Lecture"
 }, 
 "course112":{
-    "berkeleyConnect": false, 
+    "berkeleyConnect": true, 
     "breadth": {
         "AC": true, 
         "AL": false, 
@@ -965,15 +1055,16 @@
     "deptAbbrev": "ART", 
     "description": "This course will enable students to think critically about, and engage in practical experiments in, the complex interactions between new media and perceptions and performances of embodiment, agency, citizenship, collective action, individual identity, time, and spatiality. We will pay particular attention to the categories of personhood that make up the UC Berkeley American cultures rubric (race and ethnicity), as well as to gender, nation, and disability. The argument threading through the course will be the ways in which new media both reinforce preexisting social hierarchies and yet offer possibilities for the transcendence of those very categories. The new media--and we will leave the precise definition of the new media as something to be argued about over the course of the semester--can be yet another means for dividing and disenfranchising, and can be the conduit of violence and transnational dominance. ", 
     "format": " Six hours of lecture/studio per week. ", 
+    "freshSophSem": false, 
     "hasCoreqs": "", 
-    "isPrereqFor": "", 
-    "note": "", 
+    "isPrereqFor": "This class is a prerequisite for ART 151.", 
+    "note": "This is a note.", 
     "number": "C23AC", 
     "offerHist": [
-        "Fall 2013", 
         "Spring 2013", 
-        "Fall 2012", 
-        "Spring 2012"
+        "Spring 2012", 
+        "Spring 2011", 
+        "Spring 2010"
     ], 
     "prereqs": "", 
     "restrictions": "", 
@@ -996,22 +1087,25 @@
     }, 
     "classInstance": [
         {
-            "ccn": 18010, 
-            "days": "TuTh", 
+            "ccn": 49297, 
+            "days": "MW", 
             "finalGroup": "Group 4--Thursday, December 18, 2014, 3 p.m.", 
-            "instructor": "I. Jaskolski", 
+            "instructor": "K. Serafini, M. Ferrero", 
             "location": {
                 "building": "Dwinelle", 
-                "room": 164
+                "room": 159
             }, 
             "seats": {
-                "available": 61, 
-                "enrolled": 89, 
-                "max": 150, 
-                "waitlist": 6
+                "available": 66, 
+                "enrolled": 34, 
+                "max": 100, 
+                "waitlist": 10
             }, 
             "semester": "Fall 2014", 
-            "time": "1-2P"
+            "time": {
+                "end": "3P", 
+                "start": "2P"
+            }
         }
     ], 
     "courseThread": "", 
@@ -1021,14 +1115,16 @@
     "deptAbbrev": "ART", 
     "description": "This new course will enable students to think critically about, and engage in practical experiments in, the complex interactions between new media and perceptions and performances of embodiment, agency, citizenship, collective action, individual identity, time and spatiality. We will pay particular attention to the categories of personhood that make up the UC Berkeley American Cultures rubric (race and ethnicity), as well as to gender, nation, and disability. The argument threading through the course will be the ways in which new media both reinforce pre-existing social hierarchies, and yet offer possibilities for the transcendence of those very categories. The new media -- and we will leave the precise definition of the new media as something to be argued about over the course of the semester -- can be yet another means for dividing and disenfranchising, and can be the conduit of violence and transnational dominance. ", 
     "format": " Sixteen hours of lecture/studio per week for six weeks. Eleven hours oSix hours of lecture/studio per week. f lecture/studio per week for eight weeks. Nine hours of lecture/studio per week for ten weeks. ", 
+    "freshSophSem": false, 
     "hasCoreqs": "", 
     "isPrereqFor": "This class is a prerequisite for ART 151.", 
-    "note": "This is a note.", 
+    "note": "", 
     "number": "23AC", 
     "offerHist": [
         "Fall 2013", 
-        "Spring 2011", 
-        "Spring 2009"
+        "Spring 2013", 
+        "Fall 2012", 
+        "Spring 2012"
     ], 
     "prereqs": "", 
     "restrictions": "", 
@@ -1051,76 +1147,130 @@
     }, 
     "classInstance": [
         {
-            "ccn": 21595, 
-            "days": "M", 
+            "ccn": 83052, 
+            "days": "Tu", 
             "finalGroup": "Not applicable", 
-            "instructor": "W. Hopkins, M. Anson", 
+            "instructor": "O. Bandyopadhyay", 
             "location": {
-                "building": "Dwinelle", 
-                "room": 281
-            }, 
-            "seats": {
-                "available": 2, 
-                "enrolled": 10, 
-                "max": 12, 
-                "waitlist": 2
-            }, 
-            "semester": "Fall 2014", 
-            "time": "11A-12P"
-        }, 
-        {
-            "ccn": 67728, 
-            "days": "M", 
-            "finalGroup": "Not applicable", 
-            "instructor": "W. Hopkins, M. Anson", 
-            "location": {
-                "building": "Wurster", 
-                "room": 125
-            }, 
-            "seats": {
-                "available": 2, 
-                "enrolled": 8, 
-                "max": 10, 
-                "waitlist": 7
-            }, 
-            "semester": "Fall 2014", 
-            "time": "10-11A"
-        }, 
-        {
-            "ccn": 35161, 
-            "days": "M", 
-            "finalGroup": "Not applicable", 
-            "instructor": "C. Marquez", 
-            "location": {
-                "building": "Wurster", 
-                "room": 186
+                "building": "Soda", 
+                "room": 232
             }, 
             "seats": {
                 "available": 8, 
                 "enrolled": 4, 
                 "max": 12, 
-                "waitlist": 9
+                "waitlist": 7
             }, 
             "semester": "Fall 2014", 
-            "time": "10-11A"
+            "time": {
+                "end": "11A", 
+                "start": "10A"
+            }
         }, 
         {
-            "ccn": 71138, 
+            "ccn": 30234, 
             "days": "F", 
             "finalGroup": "Not applicable", 
-            "instructor": "A. Kennard", 
+            "instructor": "V. Benbow, Z. Alberts", 
             "location": {
-                "building": "Wurster", 
-                "room": 228
+                "building": "Wheeler", 
+                "room": 95
+            }, 
+            "seats": {
+                "available": 20, 
+                "enrolled": 0, 
+                "max": 20, 
+                "waitlist": 0
+            }, 
+            "semester": "Fall 2014", 
+            "time": {
+                "end": "9A", 
+                "start": "8A"
+            }
+        }, 
+        {
+            "ccn": 19114, 
+            "days": "Th", 
+            "finalGroup": "Not applicable", 
+            "instructor": "B. Varela", 
+            "location": {
+                "building": "Barrows", 
+                "room": 271
+            }, 
+            "seats": {
+                "available": 13, 
+                "enrolled": 12, 
+                "max": 25, 
+                "waitlist": 0
+            }, 
+            "semester": "Fall 2014", 
+            "time": {
+                "end": "6P", 
+                "start": "5P"
+            }
+        }, 
+        {
+            "ccn": 34342, 
+            "days": "Th", 
+            "finalGroup": "Not applicable", 
+            "instructor": "O. Bandyopadhyay", 
+            "location": {
+                "building": "Evans", 
+                "room": 160
             }, 
             "seats": {
                 "available": 5, 
-                "enrolled": 20, 
-                "max": 25, 
-                "waitlist": 5
+                "enrolled": 10, 
+                "max": 15, 
+                "waitlist": 7
             }, 
             "semester": "Fall 2014", 
-            "time": "8-9A"
+            "time": {
+                "end": "6P", 
+                "start": "5P"
+            }
+        }, 
+        {
+            "ccn": 12063, 
+            "days": "Th", 
+            "finalGroup": "Not applicable", 
+            "instructor": "K. Serafini, M. Ferrero", 
+            "location": {
+                "building": "Wheeler", 
+                "room": 187
+            }, 
+            "seats": {
+                "available": 7, 
+                "enrolled": 3, 
+                "max": 10, 
+                "waitlist": 0
+            }, 
+            "semester": "Fall 2014", 
+            "time": {
+                "end": "3P", 
+                "start": "2P"
+            }
+        }, 
+        {
+            "ccn": 10646, 
+            "days": "Th", 
+            "finalGroup": "Not applicable", 
+            "instructor": "K. Serafini, M. Ferrero", 
+            "location": {
+                "building": "Wheeler", 
+                "room": 94
+            }, 
+            "seats": {
+                "available": 4, 
+                "enrolled": 16, 
+                "max": 20, 
+                "waitlist": 0
+            }, 
+            "semester": "Fall 2014", 
+            "time": {
+                "end": "11A", 
+                "start": "10A"
+            }
         }
     ], 
     "courseThread": "", 
@@ -1130,14 +1280,15 @@
     "deptAbbrev": "ANTHRO", 
     "description": "This seminar explores social scientific approaches to ethnic humor, especially as applied to American cultures. The seminar covers three major domains: (1) sources of ethnic humor; (2) types of ethnic humor; and (3) impact of ethnic humor on individuals and groups. We shall discuss the humor of each of the following groups: African-Americans, Asian-Americans, Native-Americans, Chicanos/Latins, and Euro-Americans. ", 
     "format": "Two hours of Seminar per week for 15 weeks.  Three and one-half hours of Seminar per week for 8 weeks.  Five hours of Seminar per week for 6 weeks.", 
+    "freshSophSem": false, 
     "hasCoreqs": "", 
     "isPrereqFor": "", 
     "note": "", 
     "number": "11AC", 
     "offerHist": [
         "Spring 2013", 
-        "Fall 2012", 
-        "Fall 2011", 
+        "Spring 2012", 
+        "Spring 2011", 
         "Spring 2010"
     ], 
     "prereqs": "", 
@@ -1167,14 +1318,16 @@
     "deptAbbrev": "ARCH", 
     "description": "This course focuses on the significance of the physical environment for citizens and future design professionals. This course is an introduction to the field of human-environment studies, taught from an American Cultures perspective. Its objectives include: 1) being able to use the concepts in person-environment relations, 2) understanding how these concepts vary by subculture, primarily Anglo-, Hispanic-, and Chinese-American, 3) learning to use the methodological skills needed to conduct architectural programming and evaluation research, 4) thinking critically about the values embedded in design and the consequences for people, their behavior, and feelings. ", 
     "format": " Three hours of lecture/forum and one and one-half hours of discussion per week. ", 
+    "freshSophSem": false, 
     "hasCoreqs": "", 
     "isPrereqFor": "", 
     "note": "", 
     "number": "110AC", 
     "offerHist": [
         "Fall 2013", 
-        "Spring 2011", 
-        "Spring 2009"
+        "Spring 2013", 
+        "Fall 2012", 
+        "Spring 2012"
     ], 
     "prereqs": "", 
     "restrictions": "", 
@@ -1197,22 +1350,46 @@
     }, 
     "classInstance": [
         {
-            "ccn": 18783, 
-            "days": "MW", 
-            "finalGroup": "Group 2--Tuesday, December 16, 2014, 9 a.m.", 
-            "instructor": "C. Marquez", 
+            "ccn": 28200, 
+            "days": "MWF", 
+            "finalGroup": "Group 3--Wednesday, December 17, 2014, 12 p.m.", 
+            "instructor": "V. Benbow, Z. Alberts", 
             "location": {
-                "building": "Barrows", 
-                "room": 168
+                "building": "Evans", 
+                "room": 58
             }, 
             "seats": {
-                "available": 7, 
-                "enrolled": 23, 
-                "max": 30, 
-                "waitlist": 1
+                "available": 61, 
+                "enrolled": 189, 
+                "max": 250, 
+                "waitlist": 0
             }, 
             "semester": "Fall 2014", 
-            "time": "1-2P"
+            "time": {
+                "end": "9A", 
+                "start": "8A"
+            }
+        }, 
+        {
+            "ccn": 15451, 
+            "days": "MWF", 
+            "finalGroup": "Group 2--Tuesday, December 16, 2014, 9 a.m.", 
+            "instructor": "D. Matousek, C. Stoddard", 
+            "location": {
+                "building": "Evans", 
+                "room": 221
+            }, 
+            "seats": {
+                "available": 22, 
+                "enrolled": 18, 
+                "max": 40, 
+                "waitlist": 2
+            }, 
+            "semester": "Fall 2014", 
+            "time": {
+                "end": "1P", 
+                "start": "12P"
+            }
         }
     ], 
     "courseThread": "", 
@@ -1222,15 +1399,16 @@
     "deptAbbrev": "ENV SCI", 
     "description": "The scientific basis of sustainability, explored through study of energy, water, food, natural resources, and built environment. Physical/ecological processes and systems, and human impacts from the global scale to local energy/resource use. Energy and water audits of University of California at Berkeley, opportunities to increase sustainability of processes/practices. Discussion/lab section involves data collection/analysis (e.g., Strawberry Creek, atmospheric particulates) and integrative sustainability assessment project. ", 
     "format": " Three hours of lecture and one hour of discussion/laboratory. ", 
+    "freshSophSem": true, 
     "hasCoreqs": "", 
-    "isPrereqFor": "This class is a prerequisite for ENV SCI 151.", 
+    "isPrereqFor": "", 
     "note": "", 
     "number": "C12", 
     "offerHist": [
-        "Fall 2013", 
         "Spring 2013", 
-        "Fall 2012", 
-        "Spring 2012"
+        "Spring 2012", 
+        "Spring 2011", 
+        "Spring 2010"
     ], 
     "prereqs": "", 
     "restrictions": "", 
@@ -1253,76 +1431,67 @@
     }, 
     "classInstance": [
         {
-            "ccn": 51008, 
-            "days": "Th", 
+            "ccn": 86377, 
+            "days": "M", 
             "finalGroup": "Not applicable", 
-            "instructor": "V. Benbow, Z. Alberts", 
+            "instructor": "K. Serafini, M. Ferrero", 
             "location": {
-                "building": "Dwinelle", 
-                "room": 72
+                "building": "Wurster", 
+                "room": 193
             }, 
             "seats": {
                 "available": 20, 
                 "enrolled": 0, 
                 "max": 20, 
-                "waitlist": 6
-            }, 
-            "semester": "Fall 2014", 
-            "time": "4-5P"
-        }, 
-        {
-            "ccn": 22718, 
-            "days": "Tu", 
-            "finalGroup": "Not applicable", 
-            "instructor": "I. Jaskolski", 
-            "location": {
-                "building": "Wheeler", 
-                "room": 92
-            }, 
-            "seats": {
-                "available": 25, 
-                "enrolled": 0, 
-                "max": 25, 
                 "waitlist": 1
             }, 
             "semester": "Fall 2014", 
-            "time": "8-9A"
+            "time": {
+                "end": "12P", 
+                "start": "11A"
+            }
         }, 
         {
-            "ccn": 26708, 
-            "days": "W", 
-            "finalGroup": "Not applicable", 
-            "instructor": "M. Sarka", 
-            "location": {
-                "building": "Dwinelle", 
-                "room": 149
-            }, 
-            "seats": {
-                "available": 0, 
-                "enrolled": 12, 
-                "max": 12, 
-                "waitlist": 3
-            }, 
-            "semester": "Fall 2014", 
-            "time": "2-3P"
-        }, 
-        {
-            "ccn": 52837, 
-            "days": "M", 
+            "ccn": 23382, 
+            "days": "F", 
             "finalGroup": "Not applicable", 
             "instructor": "B. Varela", 
             "location": {
-                "building": "Evans", 
-                "room": 16
+                "building": "Wheeler", 
+                "room": 12
             }, 
             "seats": {
-                "available": 2, 
-                "enrolled": 18, 
-                "max": 20, 
-                "waitlist": 2
+                "available": 21, 
+                "enrolled": 4, 
+                "max": 25, 
+                "waitlist": 0
             }, 
             "semester": "Fall 2014", 
-            "time": "9-10A"
+            "time": {
+                "end": "3P", 
+                "start": "2P"
+            }
+        }, 
+        {
+            "ccn": 47781, 
+            "days": "Th", 
+            "finalGroup": "Not applicable", 
+            "instructor": "C. Giorgano", 
+            "location": {
+                "building": "Evans", 
+                "room": 72
+            }, 
+            "seats": {
+                "available": 17, 
+                "enrolled": 8, 
+                "max": 25, 
+                "waitlist": 0
+            }, 
+            "semester": "Fall 2014", 
+            "time": {
+                "end": "5P", 
+                "start": "4P"
+            }
         }
     ], 
     "courseThread": "", 
@@ -1332,15 +1501,15 @@
     "deptAbbrev": "ENV SCI", 
     "description": "The scientific basis of sustainability, explored through study of energy, water, food, natural resources, and built environment. Physical/ecological processes and systems, and human impacts from the global scale to local energy/resource use. Energy and water audits of University of California at Berkeley, opportunities to increase sustainability of processes/practices. Discussion/lab section involves data collection/analysis (e.g., Strawberry Creek, atmospheric particulates) and integrative sustainability assessment project. ", 
     "format": " Three hours of lecture and one hour of discussion/laboratory. ", 
+    "freshSophSem": false, 
     "hasCoreqs": "", 
     "isPrereqFor": "", 
-    "note": "This is a note.", 
+    "note": "", 
     "number": "C12", 
     "offerHist": [
-        "Spring 2013", 
-        "Fall 2012", 
-        "Fall 2011", 
-        "Spring 2010"
+        "Fall 2013", 
+        "Spring 2011", 
+        "Spring 2009"
     ], 
     "prereqs": "", 
     "restrictions": "", 
@@ -1362,22 +1531,23 @@
         "SS": false
     }, 
     "classInstance": [], 
-    "courseThread": "This course is part of the Cultural Forms in Transit Course Thread.", 
+    "courseThread": "", 
     "credit": 4, 
     "crossListing": "ENV SCI C12", 
     "department": "Landscape Architecture", 
     "deptAbbrev": "LD ARCH", 
     "description": "The scientific basis of sustainability, explored through study of energy, water, food, natural resources, and built environment. Physical/ecological processes and systems, and human impacts from the global scale to local energy/resource use. Energy and water audits of University of California at Berkeley, opportunities to increase sustainability of processes/practices. Discussion/lab section involves data collection/analysis (e.g., Strawberry Creek, atmospheric particulates) and integrative sustainability assessment project. ", 
     "format": " Three hours of lecture and one hour of discussion/laboratory. ", 
+    "freshSophSem": false, 
     "hasCoreqs": "", 
     "isPrereqFor": "", 
     "note": "", 
     "number": "C12", 
     "offerHist": [
-        "Spring 2013", 
+        "Fall 2013", 
         "Fall 2012", 
         "Fall 2011", 
-        "Spring 2010"
+        "Fall 2010"
     ], 
     "prereqs": "", 
     "restrictions": "", 
@@ -1399,13 +1569,14 @@
         "SS": false
     }, 
     "classInstance": [], 
-    "courseThread": "", 
+    "courseThread": "This course is part of the Cultural Forms in Transit Course Thread.", 
     "credit": 4, 
     "crossListing": "", 
     "department": "Landscape Architecture", 
     "deptAbbrev": "LD ARCH", 
     "description": "This course introduces the visual and physical characteristics of landscape construction materials including, but not limited to, stone, brick, concrete, metal, asphalt, and wood. Additionally, lectures cover the production and availability of these materials, any existing evaluations on their sustainability, and their potential impact on the immediate environment. Students also learn to utilize standard sources of information on building materials and the terminology typically utilized when choosing and specifying construction materials. They become familiar with dimensional standards for landscape structures, including pavements, stairs, furnishings, retaining walls, freestanding walls, fences, decks, and small overhead structures. ", 
     "format": "Three hours of Lecture and  One and one-half hours of Laboratory per week for 15 weeks.", 
+    "freshSophSem": false, 
     "hasCoreqs": "", 
     "isPrereqFor": "", 
     "note": "", 
@@ -1443,14 +1614,16 @@
     "deptAbbrev": "LD ARCH", 
     "description": "The scientific basis of sustainability, explored through study of energy, water, food, natural resources, and built environment. Physical/ecological processes and systems, and human impacts from the global scale to local energy/resource use. Energy and water audits of University of California at Berkeley, opportunities to increase sustainability of processes/practices. Discussion/lab section involves data collection/analysis (e.g., Strawberry Creek, atmospheric particulates) and integrative sustainability assessment project. ", 
     "format": "Three hours of Lecture and  Two hours of Laboratory per week for 15 weeks.", 
+    "freshSophSem": false, 
     "hasCoreqs": "", 
     "isPrereqFor": "This class is a prerequisite for LD ARCH 151.", 
     "note": "This is a note.", 
     "number": "12", 
     "offerHist": [
         "Fall 2013", 
-        "Spring 2011", 
-        "Spring 2009"
+        "Fall 2012", 
+        "Fall 2011", 
+        "Fall 2010"
     ], 
     "prereqs": "", 
     "restrictions": "", 
@@ -1479,8 +1652,9 @@
     "deptAbbrev": "LD ARCH", 
     "description": "Topics include the scientific basis of sustainablility, explored through study of energy, water, food, natural resources, and the built environment; physical/ecological processes and systems, and human impacts from the global scale to local energy/resource use; and energy and water audits of the Berkeley campus, opportunities to increase sustainability of processes/practices. Discussion/lab section involves data collection/analysis (e.g., Strawberry Creek, atmospheric particulates) and integrative sustainability assessment projects. ", 
     "format": " Three hours of lecture and two hours of discussion/laboratory per week. ", 
+    "freshSophSem": false, 
     "hasCoreqs": "", 
-    "isPrereqFor": "", 
+    "isPrereqFor": "This class is a prerequisite for LD ARCH 151.", 
     "note": "", 
     "number": "122", 
     "offerHist": [
@@ -1509,22 +1683,23 @@
         "SS": false
     }, 
     "classInstance": [], 
-    "courseThread": "This course is part of the Cultural Forms in Transit Course Thread.", 
+    "courseThread": "", 
     "credit": 4, 
     "crossListing": "", 
     "department": "New Media", 
     "deptAbbrev": "NWMEDIA", 
     "description": "This course studies the influence of new media on various cultures in the U.S. and/or the influence of American cultures on new media. Topics vary by semester. Check current Schedule of Classes or Berkeley Center for New Media web site for current course offerings (bcnm.berkeley.edu). ", 
     "format": " Seven to nine hours of lecture/discussion per week for six weeks. FiveThree to four hours of lecture/discussion per week.  to seven hours of lecture/discussion per week for eight weeks. Four to six hours of lecture/discussion per week for ten weeks. ", 
+    "freshSophSem": true, 
     "hasCoreqs": "", 
-    "isPrereqFor": "", 
+    "isPrereqFor": "This class is a prerequisite for NWMEDIA 151.", 
     "note": "", 
     "number": "150AC", 
     "offerHist": [
         "Fall 2013", 
+        "Spring 2013", 
         "Fall 2012", 
-        "Fall 2011", 
-        "Fall 2010"
+        "Spring 2012"
     ], 
     "prereqs": "", 
     "restrictions": "", 
@@ -1553,9 +1728,10 @@
     "deptAbbrev": "L & S", 
     "description": "Intersection of geological processes with American cultures in the past, present, and future. Overview of ethnogeology including traditional knowledge of sources and uses of earth materials and their cultural influences today. Scientific approach to study of tectonic controls on the genesis and global distribution of energy fuels, metals, and industrial minerals. Evolution and diversity of opinion in attitudes about resource development, environmental management, and conservation on public, private, and tribal lands. Impending crisis in renewable energy and the imperative of resource literacy. ", 
     "format": " Three hours of lecture and one hour of discussion per week, plus two-day field trip. ", 
+    "freshSophSem": false, 
     "hasCoreqs": "", 
     "isPrereqFor": "", 
-    "note": "", 
+    "note": "This is a note.", 
     "number": "170AC", 
     "offerHist": [
         "Fall 2013", 
@@ -1584,22 +1760,25 @@
     }, 
     "classInstance": [
         {
-            "ccn": 69329, 
-            "days": "MWF", 
-            "finalGroup": "Group 2--Tuesday, December 16, 2014, 9 a.m.", 
-            "instructor": "G. Burke", 
+            "ccn": 86470, 
+            "days": "MW", 
+            "finalGroup": "Group 1--Monday, December 15, 2014, 1 p.m.", 
+            "instructor": "S. Abdullah", 
             "location": {
-                "building": "Barrows", 
-                "room": 246
+                "building": "Dwinelle", 
+                "room": 278
             }, 
             "seats": {
-                "available": 104, 
-                "enrolled": 46, 
-                "max": 150, 
-                "waitlist": 9
+                "available": 61, 
+                "enrolled": 39, 
+                "max": 100, 
+                "waitlist": 3
             }, 
             "semester": "Fall 2014", 
-            "time": "10-1130A"
+            "time": {
+                "end": "4P", 
+                "start": "2:30P"
+            }
         }
     ], 
     "courseThread": "", 
@@ -1609,15 +1788,16 @@
     "deptAbbrev": "IDS", 
     "description": "The history of technology in America and the place of technology in the experience, philosophy, and culture of different American groups. The technological practices and attitudes of Native Americans and of European Americans before 1700. Technological clashes, transfers, and dialogues between different American cultures. Technology and the republic and pastoral ideals. The relationship of slavery and technology. The industrial and agricultural revolutions: winners and losers. Immigration and technological progress in the 20th century. Digital technology and the global village. Sponsoring departments: Engineering Interdisciplinary Studies and History. ", 
     "format": "Three hours of Lecture and  One hour of Discussion per week for 15 weeks.", 
+    "freshSophSem": false, 
     "hasCoreqs": "", 
     "isPrereqFor": "", 
     "note": "", 
     "number": "100AC", 
     "offerHist": [
-        "Spring 2013", 
-        "Spring 2012", 
-        "Spring 2011", 
-        "Spring 2010"
+        "Fall 2013", 
+        "Fall 2012", 
+        "Fall 2011", 
+        "Fall 2010"
     ], 
     "prereqs": "", 
     "restrictions": "", 
@@ -1640,22 +1820,25 @@
     }, 
     "classInstance": [
         {
-            "ccn": 72473, 
-            "days": "TuTh", 
-            "finalGroup": "Group 2--Tuesday, December 16, 2014, 9 a.m.", 
-            "instructor": "C. Giorgano", 
+            "ccn": 77168, 
+            "days": "M", 
+            "finalGroup": "Group 5--Friday, December 15, 2014, 1 p.m.", 
+            "instructor": "M. Sarka", 
             "location": {
                 "building": "Wheeler", 
-                "room": 190
+                "room": 152
             }, 
             "seats": {
-                "available": 25, 
-                "enrolled": 5, 
-                "max": 30, 
-                "waitlist": 7
+                "available": 11, 
+                "enrolled": 29, 
+                "max": 40, 
+                "waitlist": 0
             }, 
             "semester": "Fall 2014", 
-            "time": "2-3P"
+            "time": {
+                "end": "5:30P", 
+                "start": "4P"
+            }
         }
     ], 
     "courseThread": "", 
@@ -1665,15 +1848,16 @@
     "deptAbbrev": "HISTORY", 
     "description": "The history of the United States is the history of migration. The course covers the evolution of the American population from about 20,000 BC with the goal of understanding the interdependent roles of history and demography. As an American cultures class, special attention is given to the experiences of 18th- and 19th-century African and European immigrants and 20th- and 21st-century Asian and Latin American immigrants. Two substantial laboratory assignments; facility with a spreadsheet program is assumed. ", 
     "format": " Three hours of lecture, one hour of self-paced laboratory and one hour of optional discussion section per week. ", 
+    "freshSophSem": false, 
     "hasCoreqs": "", 
     "isPrereqFor": "", 
     "note": "", 
     "number": "C139B", 
     "offerHist": [
+        "Fall 2013", 
         "Spring 2013", 
         "Fall 2012", 
-        "Fall 2011", 
-        "Spring 2010"
+        "Spring 2012"
     ], 
     "prereqs": "", 
     "restrictions": "", 
@@ -1696,40 +1880,88 @@
     }, 
     "classInstance": [
         {
-            "ccn": 48461, 
-            "days": "M", 
+            "ccn": 28546, 
+            "days": "Th", 
             "finalGroup": "Not applicable", 
-            "instructor": "C. Marquez", 
+            "instructor": "M. Sarka", 
             "location": {
-                "building": "Dwinelle", 
-                "room": 231
+                "building": "Wheeler", 
+                "room": 181
             }, 
             "seats": {
-                "available": 24, 
-                "enrolled": 1, 
-                "max": 25, 
-                "waitlist": 7
+                "available": 5, 
+                "enrolled": 15, 
+                "max": 20, 
+                "waitlist": 2
             }, 
             "semester": "Fall 2014", 
-            "time": "9-10A"
+            "time": {
+                "end": "12P", 
+                "start": "11A"
+            }
         }, 
         {
-            "ccn": 50963, 
-            "days": "F", 
+            "ccn": 36949, 
+            "days": "Tu", 
             "finalGroup": "Not applicable", 
-            "instructor": "S. Abdullah", 
+            "instructor": "C. Giorgano", 
             "location": {
-                "building": "Dwinelle", 
-                "room": 97
+                "building": "Soda", 
+                "room": 241
             }, 
             "seats": {
-                "available": 10, 
-                "enrolled": 10, 
-                "max": 20, 
-                "waitlist": 7
+                "available": 3, 
+                "enrolled": 12, 
+                "max": 15, 
+                "waitlist": 4
             }, 
             "semester": "Fall 2014", 
-            "time": "2-3P"
+            "time": {
+                "end": "1P", 
+                "start": "12P"
+            }
+        }, 
+        {
+            "ccn": 33726, 
+            "days": "F", 
+            "finalGroup": "Not applicable", 
+            "instructor": "O. Bandyopadhyay", 
+            "location": {
+                "building": "Wurster", 
+                "room": 55
+            }, 
+            "seats": {
+                "available": 3, 
+                "enrolled": 9, 
+                "max": 12, 
+                "waitlist": 0
+            }, 
+            "semester": "Fall 2014", 
+            "time": {
+                "end": "5P", 
+                "start": "4P"
+            }
+        }, 
+        {
+            "ccn": 89639, 
+            "days": "W", 
+            "finalGroup": "Not applicable", 
+            "instructor": "M. Mhasalkar, U. Jehlicka", 
+            "location": {
+                "building": "Soda", 
+                "room": 197
+            }, 
+            "seats": {
+                "available": 4, 
+                "enrolled": 11, 
+                "max": 15, 
+                "waitlist": 0
+            }, 
+            "semester": "Fall 2014", 
+            "time": {
+                "end": "9A", 
+                "start": "8A"
+            }
         }
     ], 
     "courseThread": "", 
@@ -1739,15 +1971,15 @@
     "deptAbbrev": "RHETOR", 
     "description": "Drawing on fiction and philosophy, this course explores the nature of political, ethical, and aesthetic judgment in the absence of an agreed-upon decision-making procedure, testing the relevance of postmodern theory to American cultures. ", 
     "format": "Three hours of Lecture per week for 15 weeks.  Four and one-half hours of Lecture per week for 10 weeks.  Five and one-half hours of Lecture per week for 8 weeks.  Seven and one-half hours of Lecture per week for 6 weeks.", 
+    "freshSophSem": false, 
     "hasCoreqs": "", 
     "isPrereqFor": "", 
     "note": "", 
     "number": "141AC", 
     "offerHist": [
         "Fall 2013", 
-        "Spring 2013", 
-        "Fall 2012", 
-        "Spring 2012"
+        "Spring 2011", 
+        "Spring 2009"
     ], 
     "prereqs": "", 
     "restrictions": "", 
@@ -1770,58 +2002,43 @@
     }, 
     "classInstance": [
         {
-            "ccn": 96590, 
-            "days": "TuTh", 
-            "finalGroup": "Group 1--Monday, December 15, 2014, 1 p.m.", 
-            "instructor": "K. Serafini, M. Ferrero", 
+            "ccn": 84255, 
+            "days": "M", 
+            "finalGroup": "Group 3--Wednesday, December 17, 2014, 12 p.m.", 
+            "instructor": "D. Matousek, C. Stoddard", 
             "location": {
                 "building": "Barrows", 
-                "room": 274
+                "room": 231
             }, 
             "seats": {
-                "available": 23, 
-                "enrolled": 27, 
-                "max": 50, 
-                "waitlist": 5
+                "available": 55, 
+                "enrolled": 445, 
+                "max": 500, 
+                "waitlist": 0
             }, 
             "semester": "Fall 2014", 
-            "time": "10-11A"
-        }, 
-        {
-            "ccn": 72470, 
-            "days": "TuTh", 
-            "finalGroup": "Group 3--Wednesday, December 17, 2014, 12 p.m.", 
-            "instructor": "W. Hopkins, M. Anson", 
-            "location": {
-                "building": "Evans", 
-                "room": 47
-            }, 
-            "seats": {
-                "available": 370, 
-                "enrolled": 330, 
-                "max": 700, 
-                "waitlist": 3
-            }, 
-            "semester": "Fall 2014", 
-            "time": "2-3P"
+            "time": {
+                "end": "12P", 
+                "start": "11A"
+            }
         }
     ], 
-    "courseThread": "This course is part of the Cultural Forms in Transit Course Thread.", 
+    "courseThread": "", 
     "credit": 4, 
     "crossListing": "", 
     "department": "Rhetoric", 
     "deptAbbrev": "RHETOR", 
     "description": "Drawing on fiction and philosophy, this course explores the nature of political, ethical, and aesthetic judgment in the absence of an agreed-upon decision-making procedure, testing the relevance of postmodern theory to American cultures. ", 
     "format": "Three hours of Lecture per week for 15 weeks.  Four and one-half hours of Lecture per week for 10 weeks.  Five and one-half hours of Lecture per week for 8 weeks.  Seven and one-half hours of Lecture per week for 6 weeks.", 
+    "freshSophSem": false, 
     "hasCoreqs": "", 
     "isPrereqFor": "", 
     "note": "", 
     "number": "141AC", 
     "offerHist": [
         "Fall 2013", 
-        "Spring 2013", 
-        "Fall 2012", 
-        "Spring 2012"
+        "Spring 2011", 
+        "Spring 2009"
     ], 
     "prereqs": "", 
     "restrictions": "", 
@@ -1850,14 +2067,15 @@
     "deptAbbrev": "RHETOR", 
     "description": "Rhetorical analysis of autobiographical discourse in American cultures, with special attention to the ideology of individualism. ", 
     "format": "Three hours of Lecture per week for 15 weeks.  Four and one-half hours of Lecture per week for 10 weeks.  Six hours of Lecture per week for 8 weeks.  Seven and one-half hours of Lecture per week for 6 weeks.", 
+    "freshSophSem": false, 
     "hasCoreqs": "", 
     "isPrereqFor": "", 
-    "note": "This is a note.", 
+    "note": "", 
     "number": "129AC", 
     "offerHist": [
         "Spring 2013", 
-        "Fall 2012", 
-        "Fall 2011", 
+        "Spring 2012", 
+        "Spring 2011", 
         "Spring 2010"
     ], 
     "prereqs": "Upper division standing. ", 
@@ -1887,15 +2105,16 @@
     "deptAbbrev": "PB HLTH", 
     "description": "The goal of this seminar is to provide a critical examination of aging and health from a broad, multicultural perspective. Political economy and life course perspectives will be among the key theoretical frameworks used to examine how race, class, culture, gender, and sexual orientation interact to help shape and determine the health and well-being of the elderly and their access to and use of health care. Key programs and policies for the elderly will be examined in sociohistorical perspective with attention to their salience in a multicultural society. The course will be offered at the undergraduate (upper division) level to meet the American Cultures requirement, but is also open to graduate students and will serve as an elective for the new Multicultural Health Specialty Area in the School of Public Health. ", 
     "format": "Three hours of Lecture per week for 15 weeks.", 
+    "freshSophSem": false, 
     "hasCoreqs": "", 
-    "isPrereqFor": "This class is a prerequisite for PB HLTH 151.", 
+    "isPrereqFor": "", 
     "note": "", 
     "number": "130AC", 
     "offerHist": [
+        "Fall 2013", 
         "Spring 2013", 
         "Fall 2012", 
-        "Fall 2011", 
-        "Spring 2010"
+        "Spring 2012"
     ], 
     "prereqs": "", 
     "restrictions": "", 
@@ -1918,22 +2137,25 @@
     }, 
     "classInstance": [
         {
-            "ccn": 43835, 
+            "ccn": 47662, 
             "days": "TuTh", 
-            "finalGroup": "Group 5--Friday, December 15, 2014, 1 p.m.", 
-            "instructor": "B. Varela", 
+            "finalGroup": "Group 4--Thursday, December 18, 2014, 3 p.m.", 
+            "instructor": "S. Abdullah", 
             "location": {
-                "building": "Wurster", 
-                "room": 217
+                "building": "Dwinelle", 
+                "room": 58
             }, 
             "seats": {
-                "available": 307, 
-                "enrolled": 193, 
-                "max": 500, 
-                "waitlist": 0
+                "available": 31, 
+                "enrolled": 69, 
+                "max": 100, 
+                "waitlist": 10
             }, 
             "semester": "Fall 2014", 
-            "time": "1-2P"
+            "time": {
+                "end": "10A", 
+                "start": "9A"
+            }
         }
     ], 
     "courseThread": "This course is part of the Cultural Forms in Transit Course Thread.", 
@@ -1943,8 +2165,9 @@
     "deptAbbrev": "SOCIOL", 
     "description": "Advanced study in sociology, with specific topics that satisfy the American Cultures requirement, e.g., immigration, to be announced at the beginning of each semester. ", 
     "format": "Two hours of Seminar per week for 15 weeks.", 
+    "freshSophSem": false, 
     "hasCoreqs": "", 
-    "isPrereqFor": "", 
+    "isPrereqFor": "This class is a prerequisite for SOCIOL 151.", 
     "note": "", 
     "number": "190AC", 
     "offerHist": [
@@ -1959,7 +2182,7 @@
     "type": "Lecture"
 }, 
 "course128":{
-    "berkeleyConnect": false, 
+    "berkeleyConnect": true, 
     "breadth": {
         "AC": true, 
         "AL": false, 
@@ -1980,15 +2203,15 @@
     "deptAbbrev": "RHETOR", 
     "description": "Rhetorical analysis of autobiographical discourse in American cultures, with special attention to the ideology of individualism. ", 
     "format": "Three hours of Lecture per week for 15 weeks.  Four and one-half hours of Lecture per week for 10 weeks.  Six hours of Lecture per week for 8 weeks.  Seven and one-half hours of Lecture per week for 6 weeks.", 
+    "freshSophSem": false, 
     "hasCoreqs": "", 
     "isPrereqFor": "", 
     "note": "", 
     "number": "139AC", 
     "offerHist": [
-        "Spring 2013", 
-        "Fall 2012", 
-        "Fall 2011", 
-        "Spring 2010"
+        "Fall 2013", 
+        "Spring 2011", 
+        "Spring 2009"
     ], 
     "prereqs": "Upper division standing. ", 
     "restrictions": "", 
@@ -1996,7 +2219,7 @@
     "type": "Lecture"
 }, 
 "course141":{
-    "berkeleyConnect": false, 
+    "berkeleyConnect": true, 
     "breadth": {
         "AC": false, 
         "AL": true, 
@@ -2010,21 +2233,23 @@
         "SS": false
     }, 
     "classInstance": [], 
-    "courseThread": "This course is part of the Cultural Forms in Transit Course Thread.", 
+    "courseThread": "", 
     "credit": 4, 
     "crossListing": "", 
     "department": "Practice of Art", 
     "deptAbbrev": "ART", 
     "description": "This course provides students with a foundation for understanding their work within a cross-disciplinary critical context. Through class and individual critique, readings, guest artists, and field trips, students will explore the practical and conceptual components of their own media and practice within a broader discussion of artistic production. In addition to this focused attention on the critique process, the class with address the ongoing needs of supporting one's work within a community of artists, arts professionals, and arts organizations. Each student will work towards developing the most effective tools for communicating their work to these broader audiences using strategies that are appropriate/effective for their ideas, media, and audience. ", 
     "format": " Three hours of lecture and three hours of studio critique per week. ", 
+    "freshSophSem": false, 
     "hasCoreqs": "", 
     "isPrereqFor": "", 
     "note": "", 
     "number": "185", 
     "offerHist": [
-        "Fall 2013", 
-        "Spring 2011", 
-        "Spring 2009"
+        "Spring 2013", 
+        "Fall 2012", 
+        "Fall 2011", 
+        "Spring 2010"
     ], 
     "prereqs": "Senior level students only. ", 
     "restrictions": "", 
@@ -2053,15 +2278,16 @@
     "deptAbbrev": "ART", 
     "description": "This course will examine how visual artists have responded to illness and disability. We will consider visual representations of disability and healing, as well as the expressive work of visual artists working from within the personal experience of disability; in other words, we will look at disability as both a subject and a source of artistic creation. Several topics, historical and contemporary, will be explored. Students will complete either a semester-long internship with an arts and disability organization, a research paper, or a creative project. ", 
     "format": " Seven and one-half hours of lecture and 15 hours of studio and/or supeThree hours of lecture and six hours of studio and/or supervised researvised research and/or internship per week for six weeks. rch and/or internship per week. ", 
+    "freshSophSem": false, 
     "hasCoreqs": "", 
-    "isPrereqFor": "This class is a prerequisite for ART 151.", 
+    "isPrereqFor": "", 
     "note": "", 
     "number": "165", 
     "offerHist": [
         "Fall 2013", 
-        "Spring 2013", 
         "Fall 2012", 
-        "Spring 2012"
+        "Fall 2011", 
+        "Fall 2010"
     ], 
     "prereqs": "", 
     "restrictions": "", 
@@ -2083,22 +2309,23 @@
         "SS": false
     }, 
     "classInstance": [], 
-    "courseThread": "This course is part of the Cultural Forms in Transit Course Thread.", 
+    "courseThread": "", 
     "credit": 4, 
     "crossListing": "", 
     "department": "Asian American Studies", 
     "deptAbbrev": "ASAMST", 
     "description": "Through the study of the literary, political, social and psychological dimensions of representative works of Asian American literature, this course introduces students to close textual analysis, fosters critical judgment, and reinforces academic writing skills. Satisfies the first half of the Reading and Composition requirement. ", 
     "format": "Three hours of Lecture and  One hour of Discussion per week for 15 weeks.  Six hours of Lecture and  Two hours of Discussion per week for 8 weeks.  Seven and one-half hours of Lecture and  Two and one-half hours of Discussion per week for 6 weeks.", 
+    "freshSophSem": false, 
     "hasCoreqs": "", 
     "isPrereqFor": "", 
     "note": "", 
     "number": "R2A", 
     "offerHist": [
+        "Fall 2013", 
         "Spring 2013", 
-        "Spring 2012", 
-        "Spring 2011", 
-        "Spring 2010"
+        "Fall 2012", 
+        "Spring 2012"
     ], 
     "prereqs": "1, UC Entry Level Writing Requirement or equivalent. ", 
     "restrictions": "", 
@@ -2127,15 +2354,15 @@
     "deptAbbrev": "ASAMST", 
     "description": "This course will be presented as a proseminar with selected topics in order to give students an opportunity to participate in the dynamics of the study of Japanese American history. Topics include immigration, anti-Japanese racism, labor, concentration camps, agriculture, art and literature, and personality and culture. ", 
     "format": "Three hours of Lecture and  Zero to One hour of Discussion per week for 15 weeks.", 
+    "freshSophSem": false, 
     "hasCoreqs": "", 
-    "isPrereqFor": "This class is a prerequisite for ASAMST 151.", 
+    "isPrereqFor": "", 
     "note": "", 
     "number": "122", 
     "offerHist": [
-        "Spring 2013", 
-        "Spring 2012", 
+        "Fall 2013", 
         "Spring 2011", 
-        "Spring 2010"
+        "Spring 2009"
     ], 
     "prereqs": "20A or equivalent. ", 
     "restrictions": "", 
@@ -2158,57 +2385,65 @@
     }, 
     "classInstance": [
         {
-            "ccn": 18137, 
+            "ccn": 33770, 
             "days": "TuTh", 
             "finalGroup": "Group 3--Wednesday, December 17, 2014, 12 p.m.", 
-            "instructor": "V. Benbow, Z. Alberts", 
+            "instructor": "K. Serafini, M. Ferrero", 
             "location": {
-                "building": "Wurster", 
-                "room": 39
+                "building": "Wheeler", 
+                "room": 194
             }, 
             "seats": {
-                "available": 29, 
-                "enrolled": 1, 
-                "max": 30, 
-                "waitlist": 8
+                "available": 121, 
+                "enrolled": 29, 
+                "max": 150, 
+                "waitlist": 7
             }, 
             "semester": "Fall 2014", 
-            "time": "12-1P"
+            "time": {
+                "end": "9A", 
+                "start": "8A"
+            }
         }, 
         {
-            "ccn": 57383, 
-            "days": "MWF", 
+            "ccn": 74464, 
+            "days": "M", 
             "finalGroup": "Group 2--Tuesday, December 16, 2014, 9 a.m.", 
-            "instructor": "B. Varela", 
+            "instructor": "M. Wetterman", 
             "location": {
-                "building": "Evans", 
-                "room": 206
+                "building": "Wurster", 
+                "room": 144
             }, 
             "seats": {
-                "available": 19, 
-                "enrolled": 21, 
+                "available": 15, 
+                "enrolled": 25, 
                 "max": 40, 
-                "waitlist": 1
+                "waitlist": 0
             }, 
             "semester": "Fall 2014", 
-            "time": "1-2P"
+            "time": {
+                "end": "9A", 
+                "start": "8A"
+            }
         }
     ], 
-    "courseThread": "This course is part of the Cultural Forms in Transit Course Thread.", 
+    "courseThread": "", 
     "credit": 4, 
     "crossListing": "", 
     "department": "Classics", 
     "deptAbbrev": "CLASSIC", 
     "description": "Study of the major developments, achievements, and contradictions in Greek culture from the Bronze Age to the 4th century BCE. Key works of literature, history, and philosophy (read in English translation) will be examined in their political and social context, and in relation both to other ancient Mediterranean cultures and to subsequent developments in Western civilization. ", 
     "format": "Three hours of Lecture and  One hour of Discussion per week for 15 weeks.  Eight hours of Lecture and  Two hours of Discussion per week for 6 weeks.", 
+    "freshSophSem": false, 
     "hasCoreqs": "", 
     "isPrereqFor": "", 
     "note": "", 
     "number": "10A", 
     "offerHist": [
         "Fall 2013", 
-        "Spring 2011", 
-        "Spring 2009"
+        "Fall 2012", 
+        "Fall 2011", 
+        "Fall 2010"
     ], 
     "prereqs": "", 
     "restrictions": "", 
@@ -2237,15 +2472,16 @@
     "deptAbbrev": "ASAMST", 
     "description": "Introduces students to representative works of Asian American literature by writers from the major ethnic subgroups; examines the works in their sociohistorical context; analyzes thematic and formal elements intertextually to form a coherent understanding of the Asian American literary tradition. ", 
     "format": "Three hours of Lecture and  Zero to One hour of Discussion per week for 15 weeks.  Five and one-half hours of Lecture and  Two hours of Discussion per week for 8 weeks.  Seven and one-half hours of Lecture and  Zero to Two and one-half hours of Discussion per week for 6 weeks.", 
+    "freshSophSem": true, 
     "hasCoreqs": "", 
-    "isPrereqFor": "", 
+    "isPrereqFor": "This class is a prerequisite for ASAMST 151.", 
     "note": "", 
     "number": "172", 
     "offerHist": [
+        "Fall 2013", 
         "Spring 2013", 
         "Fall 2012", 
-        "Fall 2011", 
-        "Spring 2010"
+        "Spring 2012"
     ], 
     "prereqs": "", 
     "restrictions": "", 
@@ -2267,22 +2503,23 @@
         "SS": false
     }, 
     "classInstance": [], 
-    "courseThread": "", 
+    "courseThread": "This course is part of the Cultural Forms in Transit Course Thread.", 
     "credit": 4, 
     "crossListing": "", 
     "department": "English", 
     "deptAbbrev": "ENGLISH", 
     "description": "Literatures of various regions in which English is one of the spoken languages, such as Canada, the Caribbean, Australia, Africa, India; and the writings of specific groups or distinctive cultures in the English-speaking world, including the U.S. and the British Isles. Topics vary from semester to semester. Students should consult the department's \"Announcement of Classes\" for current offerings well before the start of the semester. ", 
     "format": " Three hours of lecture/seminar per week. ", 
+    "freshSophSem": false, 
     "hasCoreqs": "", 
     "isPrereqFor": "", 
     "note": "", 
     "number": "139", 
     "offerHist": [
-        "Spring 2013", 
-        "Spring 2012", 
-        "Spring 2011", 
-        "Spring 2010"
+        "Fall 2013", 
+        "Fall 2012", 
+        "Fall 2011", 
+        "Fall 2010"
     ], 
     "prereqs": "", 
     "restrictions": "", 
@@ -2290,7 +2527,7 @@
     "type": "Lecture"
 }, 
 "course146":{
-    "berkeleyConnect": true, 
+    "berkeleyConnect": false, 
     "breadth": {
         "AC": false, 
         "AL": true, 
@@ -2305,40 +2542,25 @@
     }, 
     "classInstance": [
         {
-            "ccn": 69633, 
-            "days": "MW", 
+            "ccn": 10324, 
+            "days": "M", 
             "finalGroup": "Group 4--Thursday, December 18, 2014, 3 p.m.", 
             "instructor": "M. Wetterman", 
             "location": {
-                "building": "Wheeler", 
-                "room": 29
+                "building": "Evans", 
+                "room": 227
             }, 
             "seats": {
-                "available": 38, 
-                "enrolled": 2, 
-                "max": 40, 
+                "available": 416, 
+                "enrolled": 84, 
+                "max": 500, 
                 "waitlist": 3
             }, 
             "semester": "Fall 2014", 
-            "time": "12-1P"
-        }, 
-        {
-            "ccn": 11716, 
-            "days": "MW", 
-            "finalGroup": "Group 3--Wednesday, December 17, 2014, 12 p.m.", 
-            "instructor": "M. Sarka", 
-            "location": {
-                "building": "Soda", 
-                "room": 248
-            }, 
-            "seats": {
-                "available": 177, 
-                "enrolled": 323, 
-                "max": 500, 
-                "waitlist": 10
-            }, 
-            "semester": "Fall 2014", 
-            "time": "1-2P"
+            "time": {
+                "end": "4P", 
+                "start": "2:30P"
+            }
         }
     ], 
     "courseThread": "", 
@@ -2348,15 +2570,16 @@
     "deptAbbrev": "ENGLISH", 
     "description": "An introductory survey of American literature. Since 1865. ", 
     "format": "Three hours of Lecture per week for 15 weeks.", 
+    "freshSophSem": false, 
     "hasCoreqs": "", 
     "isPrereqFor": "", 
-    "note": "", 
+    "note": "This is a note.", 
     "number": "30B", 
     "offerHist": [
-        "Spring 2013", 
-        "Spring 2012", 
-        "Spring 2011", 
-        "Spring 2010"
+        "Fall 2013", 
+        "Fall 2012", 
+        "Fall 2011", 
+        "Fall 2010"
     ], 
     "prereqs": "", 
     "restrictions": "Offered for 4 units in fall and in spring, 3 units in summer. ", 
@@ -2378,21 +2601,23 @@
         "SS": false
     }, 
     "classInstance": [], 
-    "courseThread": "This course is part of the Cultural Forms in Transit Course Thread.", 
+    "courseThread": "", 
     "credit": 4, 
     "crossListing": "", 
     "department": "History of Art", 
     "deptAbbrev": "HISTART", 
     "description": "Looking at major developments in architecture, decorative arts, photography, and painting from Romanticism to post-modernism, this course addresses art and its social context over the last two centuries in what is now the United States. Issues include patronage, audience, technology, and the education of the artist as well as style and cultural expression. Field trips. ", 
     "format": "Three hours of Lecture and  One hour of Discussion per week for 15 weeks.  Seven and one-half hours of Lecture and  Two and one-half hours of Discussion per week for 6 weeks.", 
+    "freshSophSem": false, 
     "hasCoreqs": "", 
     "isPrereqFor": "", 
     "note": "", 
     "number": "185A", 
     "offerHist": [
-        "Fall 2013", 
+        "Spring 2013", 
+        "Spring 2012", 
         "Spring 2011", 
-        "Spring 2009"
+        "Spring 2010"
     ], 
     "prereqs": "", 
     "restrictions": "", 
@@ -2421,15 +2646,15 @@
     "deptAbbrev": "GEOG", 
     "description": "We will look first at the role that cites--as economic units and cultural centers--played in the development of capitalism in the 19th century. A series of case studies, including Paris, Vienna, London, New York, and Chicago, will ground discussions about industry and finance, architecture and literature, and consciousness and cultural identity. >From here we will proceed thematically, to cover the major post-war issues of the automobile and suburbia; race relations, public housing, and the ghetto; and downtown redevelopment and gentrification. ", 
     "format": "Three hours of Lecture per week for 15 weeks.", 
+    "freshSophSem": false, 
     "hasCoreqs": "", 
     "isPrereqFor": "", 
     "note": "", 
     "number": "120", 
     "offerHist": [
         "Fall 2013", 
-        "Fall 2012", 
-        "Fall 2011", 
-        "Fall 2010"
+        "Spring 2011", 
+        "Spring 2009"
     ], 
     "prereqs": "", 
     "restrictions": "", 
@@ -2437,7 +2662,7 @@
     "type": "Lecture"
 }, 
 "course48":{
-    "berkeleyConnect": false, 
+    "berkeleyConnect": true, 
     "breadth": {
         "AC": false, 
         "AL": false, 
@@ -2458,15 +2683,16 @@
     "deptAbbrev": "ENVECON", 
     "description": "Introduction to the economics of natural resources. Land and the concept of economic rent. Models of optimal depletion of nonrenewable resources and optimal use of renewable resources. Application to energy, forests, fisheries, water, and climate change. Resources, growth, and sustainability. ", 
     "format": "Three hours of Lecture and  One hour of Discussion per week for 15 weeks.", 
+    "freshSophSem": false, 
     "hasCoreqs": "", 
-    "isPrereqFor": "", 
+    "isPrereqFor": "This class is a prerequisite for ENVECON 151.", 
     "note": "", 
     "number": "102", 
     "offerHist": [
-        "Fall 2013", 
         "Spring 2013", 
-        "Fall 2012", 
-        "Spring 2012"
+        "Spring 2012", 
+        "Spring 2011", 
+        "Spring 2010"
     ], 
     "prereqs": "100, 101. ", 
     "restrictions": "", 
@@ -2474,7 +2700,7 @@
     "type": "Lecture"
 }, 
 "course42":{
-    "berkeleyConnect": false, 
+    "berkeleyConnect": true, 
     "breadth": {
         "AC": false, 
         "AL": false, 
@@ -2489,39 +2715,44 @@
     }, 
     "classInstance": [
         {
-            "ccn": 44515, 
-            "days": "MWF", 
+            "ccn": 54284, 
+            "days": "TuTh", 
             "finalGroup": "Not applicable", 
             "instructor": "A. Kennard", 
             "location": {
                 "building": "Dwinelle", 
-                "room": 179
+                "room": 62
             }, 
             "seats": {
-                "available": 166, 
-                "enrolled": 334, 
-                "max": 500, 
-                "waitlist": 7
+                "available": 30, 
+                "enrolled": 10, 
+                "max": 40, 
+                "waitlist": 0
             }, 
             "semester": "Fall 2014", 
-            "time": "430-6P"
+            "time": {
+                "end": "4:30P", 
+                "start": "3P"
+            }
         }
     ], 
-    "courseThread": "This course is part of the Cultural Forms in Transit Course Thread.", 
+    "courseThread": "", 
     "credit": 3, 
     "crossListing": "", 
     "department": "Public Policy", 
     "deptAbbrev": "PUB POL", 
     "description": "This course emphasizes the development and application of policy solutions to developing-world problems related to poverty, macroeconomic policy, and environmental sustainability. Methods of statistical, economic, and policy analysis are applied to a series of case studies. The course is designed to develop practical professional skills for application in the international arena. ", 
     "format": "Three hours of Lecture per week for 15 weeks.", 
+    "freshSophSem": false, 
     "hasCoreqs": "", 
-    "isPrereqFor": "This class is a prerequisite for PUB POL 151.", 
+    "isPrereqFor": "", 
     "note": "", 
     "number": "C253", 
     "offerHist": [
-        "Fall 2013", 
+        "Spring 2013", 
+        "Spring 2012", 
         "Spring 2011", 
-        "Spring 2009"
+        "Spring 2010"
     ], 
     "prereqs": "", 
     "restrictions": "", 
@@ -2550,6 +2781,7 @@
     "deptAbbrev": "A,RESEC", 
     "description": "This course emphasizes the development and application of policy solutions to developing-world problems related to poverty, macroeconomic policy, and environmental sustainability. Methods of statistical, economic, and policy analysis are applied to a series of case studies. The course is designed to develop practical professional skills for application in the international arena. ", 
     "format": "Three hours of Lecture per week for 15 weeks.", 
+    "freshSophSem": false, 
     "hasCoreqs": "", 
     "isPrereqFor": "", 
     "note": "", 
@@ -2581,22 +2813,25 @@
     }, 
     "classInstance": [
         {
-            "ccn": 99333, 
-            "days": "F", 
-            "finalGroup": "Group 2--Tuesday, December 16, 2014, 9 a.m.", 
-            "instructor": "B. Varela", 
+            "ccn": 42934, 
+            "days": "M", 
+            "finalGroup": "Group 1--Monday, December 15, 2014, 1 p.m.", 
+            "instructor": "I. Jaskolski", 
             "location": {
-                "building": "Soda", 
-                "room": 99
+                "building": "Wurster", 
+                "room": 163
             }, 
             "seats": {
-                "available": 17, 
-                "enrolled": 13, 
-                "max": 30, 
-                "waitlist": 5
+                "available": 432, 
+                "enrolled": 68, 
+                "max": 500, 
+                "waitlist": 2
             }, 
             "semester": "Fall 2014", 
-            "time": "3-430P"
+            "time": {
+                "end": "2:30P", 
+                "start": "1P"
+            }
         }
     ], 
     "courseThread": "", 
@@ -2606,14 +2841,16 @@
     "deptAbbrev": "ENVECON", 
     "description": "The roots of environmental and resource economics. Theories of land and resource rent. Models of optimal use of renewable and nonrenewable resources with applications to energy and timber. Balancing environmental and extractive values. Resources, growth, and sustainability. Special topic: the problem of global climate change. ", 
     "format": "Three hours of Lecture and  One hour of Discussion per week for 15 weeks.", 
+    "freshSophSem": false, 
     "hasCoreqs": "", 
     "isPrereqFor": "", 
     "note": "", 
     "number": "161", 
     "offerHist": [
         "Fall 2013", 
-        "Spring 2011", 
-        "Spring 2009"
+        "Fall 2012", 
+        "Fall 2011", 
+        "Fall 2010"
     ], 
     "prereqs": "100 or Economics 100A or Economics 101A; 101 recommended. ", 
     "restrictions": "", 
@@ -2636,40 +2873,46 @@
     }, 
     "classInstance": [
         {
-            "ccn": 72414, 
-            "days": "TuTh", 
-            "finalGroup": "Group 1--Monday, December 15, 2014, 1 p.m.", 
-            "instructor": "C. Giorgano", 
+            "ccn": 73138, 
+            "days": "F", 
+            "finalGroup": "Group 5--Friday, December 15, 2014, 1 p.m.", 
+            "instructor": "V. Benbow, Z. Alberts", 
             "location": {
-                "building": "Dwinelle", 
+                "building": "Evans", 
+                "room": 41
+            }, 
+            "seats": {
+                "available": 15, 
+                "enrolled": 25, 
+                "max": 40, 
+                "waitlist": 7
+            }, 
+            "semester": "Fall 2014", 
+            "time": {
+                "end": "4P", 
+                "start": "2:30P"
+            }
+        }, 
+        {
+            "ccn": 37462, 
+            "days": "TuTh", 
+            "finalGroup": "Group 5--Friday, December 15, 2014, 1 p.m.", 
+            "instructor": "M. Mhasalkar, U. Jehlicka", 
+            "location": {
+                "building": "Evans", 
                 "room": 64
             }, 
             "seats": {
-                "available": 216, 
-                "enrolled": 284, 
-                "max": 500, 
-                "waitlist": 6
+                "available": 16, 
+                "enrolled": 34, 
+                "max": 50, 
+                "waitlist": 0
             }, 
             "semester": "Fall 2014", 
-            "time": "1130A-1P"
-        }, 
-        {
-            "ccn": 43379, 
-            "days": "MW", 
-            "finalGroup": "Group 4--Thursday, December 18, 2014, 3 p.m.", 
-            "instructor": "C. Giorgano", 
-            "location": {
-                "building": "Wurster", 
-                "room": 232
-            }, 
-            "seats": {
-                "available": 14, 
-                "enrolled": 26, 
-                "max": 40, 
-                "waitlist": 1
-            }, 
-            "semester": "Fall 2014", 
-            "time": "11A-12P"
+            "time": {
+                "end": "4P", 
+                "start": "2:30P"
+            }
         }
     ], 
     "courseThread": "", 
@@ -2679,6 +2922,7 @@
     "deptAbbrev": "ENVECON", 
     "description": "Introduction to the economics of natural resources. Land and the concept of economic rent. Models of optimal depletion of nonrenewable resources and optimal use of renewable resources. Application to energy, forests, fisheries, water, and climate change. Resources, growth, and sustainability. ", 
     "format": "Three hours of Lecture and  One hour of Discussion per week for 15 weeks.", 
+    "freshSophSem": false, 
     "hasCoreqs": "", 
     "isPrereqFor": "", 
     "note": "", 
@@ -2716,14 +2960,16 @@
     "deptAbbrev": "ECON", 
     "description": "Introduction to the economics of natural resources. Land and the concept of economic rent. Models of optimal depletion of nonrenewable resources and optimal use of renewable resources. Application to energy, forests, fisheries, water, and climate change. Resources, growth, and sustainability. ", 
     "format": "Three hours of Lecture and  One hour of Discussion per week for 15 weeks.", 
+    "freshSophSem": false, 
     "hasCoreqs": "", 
     "isPrereqFor": "", 
     "note": "", 
     "number": "C102", 
     "offerHist": [
         "Fall 2013", 
-        "Spring 2011", 
-        "Spring 2009"
+        "Spring 2013", 
+        "Fall 2012", 
+        "Spring 2012"
     ], 
     "prereqs": "100, or Economics 100A or 100B. ", 
     "restrictions": "", 
@@ -2746,22 +2992,25 @@
     }, 
     "classInstance": [
         {
-            "ccn": 92172, 
-            "days": "MWF", 
+            "ccn": 68341, 
+            "days": "M", 
             "finalGroup": "Not applicable", 
-            "instructor": "M. Wetterman", 
+            "instructor": "S. Abdullah", 
             "location": {
-                "building": "Dwinelle", 
-                "room": 105
+                "building": "Barrows", 
+                "room": 241
             }, 
             "seats": {
-                "available": 50, 
-                "enrolled": 50, 
-                "max": 100, 
-                "waitlist": 8
+                "available": 7, 
+                "enrolled": 43, 
+                "max": 50, 
+                "waitlist": 0
             }, 
             "semester": "Fall 2014", 
-            "time": "3-430P"
+            "time": {
+                "end": "4P", 
+                "start": "2:30P"
+            }
         }
     ], 
     "courseThread": "", 
@@ -2771,9 +3020,10 @@
     "deptAbbrev": "ENV DES", 
     "description": "This course will expose students to key literature that examines, primarily, the relationship between sustainability and environmental design disciplines. Our goal will be not only to investigate the central ideas that inform the design of sustainable landscapes, cities, and buildings, but also to understand how competing arguments are presented in writing. Satisfies the second half of the Reading and Composition Requirement. ", 
     "format": "Three hours of Lecture per week for 15 weeks.", 
+    "freshSophSem": false, 
     "hasCoreqs": "", 
-    "isPrereqFor": "", 
-    "note": "", 
+    "isPrereqFor": "This class is a prerequisite for ENV DES 151.", 
+    "note": "This is a note.", 
     "number": "R3B", 
     "offerHist": [
         "Fall 2013", 
@@ -2808,15 +3058,16 @@
     "deptAbbrev": "AFRICAM", 
     "description": "A large lecture/discussion class which introduces students to poetry as culture, history, criticism, politics, and practice. Focusing comparatively on poetry from three American racial/ethnic groups, this course requires students to learn both the technical structure of various forms of poetry as well as the world views which inform specific poetic traditions. The groups and traditions vary from semester to semester. This course satisfies the Arts and Literature breadth requirement. ", 
     "format": " Ten hours of lecture/discussion per week for six weeks. ", 
+    "freshSophSem": false, 
     "hasCoreqs": "", 
     "isPrereqFor": "This class is a prerequisite for AFRICAM 151.", 
-    "note": "This is a note.", 
+    "note": "", 
     "number": "156AC", 
     "offerHist": [
+        "Fall 2013", 
         "Spring 2013", 
         "Fall 2012", 
-        "Fall 2011", 
-        "Spring 2010"
+        "Spring 2012"
     ], 
     "prereqs": "", 
     "restrictions": "", 
@@ -2838,22 +3089,22 @@
         "SS": true
     }, 
     "classInstance": [], 
-    "courseThread": "This course is part of the Cultural Forms in Transit Course Thread.", 
+    "courseThread": "", 
     "credit": 4, 
     "crossListing": "", 
     "department": "African American Studies", 
     "deptAbbrev": "AFRICAM", 
     "description": "Emphasis on pre-colonial social, cultural, political, and economic structures; introduction to art, literature, oral traditions, and belief systems. ", 
     "format": "Three hours of Lecture and  One hour of Discussion per week for 15 weeks.  Seven and one-half hours of Lecture and  Two and one-half hours of Discussion per week for 6 weeks.", 
+    "freshSophSem": true, 
     "hasCoreqs": "", 
-    "isPrereqFor": "This class is a prerequisite for AFRICAM 151.", 
+    "isPrereqFor": "", 
     "note": "", 
     "number": "4A", 
     "offerHist": [
-        "Spring 2013", 
-        "Spring 2012", 
+        "Fall 2013", 
         "Spring 2011", 
-        "Spring 2010"
+        "Spring 2009"
     ], 
     "prereqs": "", 
     "restrictions": "", 
@@ -2882,6 +3133,7 @@
     "deptAbbrev": "AFRICAM", 
     "description": "The seminar provides a systemic approach to theories and practices of critical pedagogy at the university level. Examines the arts of teaching and learning and current disciplinary and cross-disciplinary issues in African and diaspora studies. Participation two hours per week as practicum in 39, \"Introduction to the University: African American Perspectives\" is mandatory. The course is required for students expecting to serve as graduate student instructors in the department. ", 
     "format": " Two hours of seminar and two hours of practicum per week. ", 
+    "freshSophSem": false, 
     "hasCoreqs": "", 
     "isPrereqFor": "", 
     "note": "", 
@@ -2919,15 +3171,16 @@
     "deptAbbrev": "AFRICAM", 
     "description": "The objective of this course is to examine substantive issues in the African American female experience from colonial times to the present. The dominant themes of this course include family, work, community, sexuality, and individual and collective activism. Particular attention will be paid to the interplay between race, class, and gender in American society. Assigned readings consist of an introduction to the scholarly secondary literature on African American women's history. Lectures and discussions will examine the readings in context. Videos will augment the lectures and discussions. ", 
     "format": "Three hours of Lecture per week for 15 weeks.", 
+    "freshSophSem": false, 
     "hasCoreqs": "", 
-    "isPrereqFor": "This class is a prerequisite for AFRICAM 151.", 
-    "note": "This is a note.", 
+    "isPrereqFor": "", 
+    "note": "", 
     "number": "126", 
     "offerHist": [
         "Fall 2013", 
-        "Spring 2013", 
         "Fall 2012", 
-        "Spring 2012"
+        "Fall 2011", 
+        "Fall 2010"
     ], 
     "prereqs": "", 
     "restrictions": "", 
@@ -2950,22 +3203,25 @@
     }, 
     "classInstance": [
         {
-            "ccn": 44165, 
+            "ccn": 78518, 
             "days": "F", 
-            "finalGroup": "Group 4--Thursday, December 18, 2014, 3 p.m.", 
-            "instructor": "I. Jaskolski", 
+            "finalGroup": "Group 2--Tuesday, December 16, 2014, 9 a.m.", 
+            "instructor": "K. Serafini, M. Ferrero", 
             "location": {
-                "building": "Wurster", 
-                "room": 289
+                "building": "Evans", 
+                "room": 187
             }, 
             "seats": {
-                "available": 45, 
-                "enrolled": 5, 
-                "max": 50, 
-                "waitlist": 5
+                "available": 578, 
+                "enrolled": 122, 
+                "max": 700, 
+                "waitlist": 0
             }, 
             "semester": "Fall 2014", 
-            "time": "11A-12P"
+            "time": {
+                "end": "4:30P", 
+                "start": "3P"
+            }
         }
     ], 
     "courseThread": "", 
@@ -2975,15 +3231,16 @@
     "deptAbbrev": "SOCIOL", 
     "description": "This course begins with an overview of urban sociology. Then it focuses on three issues through experiences of three American cultures in three American cities: rural-to-urban immigration in the case of Jewish Americans in New York; residential patterns in the case of African Americans in Chicago; and the economic restructuring of cities in the case of Mexican Americans in Los Angeles. The third section will look at three particular topics that are defined by the intersection of ethnicity and urban space: urban politics, urban crime, and suburbanization.", 
     "format": "Three hours of Lecture and  Two hours of Discussion per week for 15 weeks.", 
-    "hasCoreqs": "", 
-    "isPrereqFor": "This class is a prerequisite for SOCIOL 151.", 
-    "note": "This is a note.", 
+    "freshSophSem": false, 
+    "hasCoreqs": "SOCIOL 1A must be taken concurrently.", 
+    "isPrereqFor": "", 
+    "note": "", 
     "number": "125AC", 
     "offerHist": [
+        "Fall 2013", 
         "Spring 2013", 
-        "Spring 2012", 
-        "Spring 2011", 
-        "Spring 2010"
+        "Fall 2012", 
+        "Spring 2012"
     ], 
     "prereqs": "1 or 3 or 3AC or consent of instructor. ", 
     "restrictions": "", 
@@ -2991,7 +3248,7 @@
     "type": "Lecture"
 }, 
 "course131":{
-    "berkeleyConnect": true, 
+    "berkeleyConnect": false, 
     "breadth": {
         "AC": true, 
         "AL": false, 
@@ -3005,21 +3262,23 @@
         "SS": false
     }, 
     "classInstance": [], 
-    "courseThread": "This course is part of the Cultural Forms in Transit Course Thread.", 
+    "courseThread": "", 
     "credit": 3, 
     "crossListing": "", 
     "department": "Spanish", 
     "deptAbbrev": "SPANISH", 
     "description": "The purpose of this course is to explore the roots of Latin American cultures, the region's search for identity, and some of the main problems it faces today. We will study great social movements, like the Mexican and Cuban revolutions, and analyze their causes and consequences and, especially, their expression in art (e.g. the muralist movement in Mexico, the \"corridos\" and the narrative of the Mexican revolution, etc.). ", 
     "format": "Three hours of Lecture per week for 15 weeks.", 
+    "freshSophSem": false, 
     "hasCoreqs": "", 
     "isPrereqFor": "", 
     "note": "", 
     "number": "113", 
     "offerHist": [
         "Fall 2013", 
-        "Spring 2011", 
-        "Spring 2009"
+        "Fall 2012", 
+        "Fall 2011", 
+        "Fall 2010"
     ], 
     "prereqs": "25 or equivalent. ", 
     "restrictions": "", 
@@ -3042,22 +3301,25 @@
     }, 
     "classInstance": [
         {
-            "ccn": 21851, 
+            "ccn": 40590, 
             "days": "F", 
             "finalGroup": "Group 1--Monday, December 15, 2014, 1 p.m.", 
             "instructor": "M. Wetterman", 
             "location": {
-                "building": "Barrows", 
-                "room": 199
+                "building": "Evans", 
+                "room": 256
             }, 
             "seats": {
-                "available": 43, 
-                "enrolled": 107, 
-                "max": 150, 
-                "waitlist": 9
+                "available": 660, 
+                "enrolled": 40, 
+                "max": 700, 
+                "waitlist": 2
             }, 
             "semester": "Fall 2014", 
-            "time": "230-4P"
+            "time": {
+                "end": "4P", 
+                "start": "2:30P"
+            }
         }
     ], 
     "courseThread": "", 
@@ -3067,15 +3329,15 @@
     "deptAbbrev": "SPANISH", 
     "description": "Special topics in American cultures. ", 
     "format": "Three hours of Lecture per week for 15 weeks.", 
+    "freshSophSem": false, 
     "hasCoreqs": "", 
     "isPrereqFor": "", 
     "note": "", 
     "number": "135AC", 
     "offerHist": [
-        "Spring 2013", 
-        "Fall 2012", 
-        "Fall 2011", 
-        "Spring 2010"
+        "Fall 2013", 
+        "Spring 2011", 
+        "Spring 2009"
     ], 
     "prereqs": "", 
     "restrictions": "", 
@@ -3098,76 +3360,88 @@
     }, 
     "classInstance": [
         {
-            "ccn": 69037, 
+            "ccn": 94372, 
             "days": "Th", 
             "finalGroup": "Not applicable", 
-            "instructor": "B. Varela", 
+            "instructor": "O. Bandyopadhyay", 
             "location": {
-                "building": "Soda", 
-                "room": 125
+                "building": "Barrows", 
+                "room": 33
             }, 
             "seats": {
-                "available": 6, 
-                "enrolled": 14, 
+                "available": 2, 
+                "enrolled": 18, 
                 "max": 20, 
                 "waitlist": 0
             }, 
             "semester": "Fall 2014", 
-            "time": "12-1P"
+            "time": {
+                "end": "3P", 
+                "start": "2P"
+            }
         }, 
         {
-            "ccn": 94275, 
-            "days": "F", 
+            "ccn": 46062, 
+            "days": "W", 
             "finalGroup": "Not applicable", 
-            "instructor": "I. Jaskolski", 
-            "location": {
-                "building": "Evans", 
-                "room": 117
-            }, 
-            "seats": {
-                "available": 13, 
-                "enrolled": 2, 
-                "max": 15, 
-                "waitlist": 3
-            }, 
-            "semester": "Fall 2014", 
-            "time": "11A-12P"
-        }, 
-        {
-            "ccn": 50972, 
-            "days": "Th", 
-            "finalGroup": "Not applicable", 
-            "instructor": "K. Serafini, M. Ferrero", 
-            "location": {
-                "building": "Wurster", 
-                "room": 261
-            }, 
-            "seats": {
-                "available": 7, 
-                "enrolled": 5, 
-                "max": 12, 
-                "waitlist": 10
-            }, 
-            "semester": "Fall 2014", 
-            "time": "1-2P"
-        }, 
-        {
-            "ccn": 33541, 
-            "days": "F", 
-            "finalGroup": "Not applicable", 
-            "instructor": "A. Kennard", 
+            "instructor": "M. Wetterman", 
             "location": {
                 "building": "Wheeler", 
-                "room": 202
+                "room": 165
             }, 
             "seats": {
-                "available": 1, 
-                "enrolled": 24, 
-                "max": 25, 
-                "waitlist": 2
+                "available": 2, 
+                "enrolled": 8, 
+                "max": 10, 
+                "waitlist": 7
             }, 
             "semester": "Fall 2014", 
-            "time": "1-2P"
+            "time": {
+                "end": "11A", 
+                "start": "10A"
+            }
+        }, 
+        {
+            "ccn": 58668, 
+            "days": "Th", 
+            "finalGroup": "Not applicable", 
+            "instructor": "O. Bandyopadhyay", 
+            "location": {
+                "building": "Wurster", 
+                "room": 92
+            }, 
+            "seats": {
+                "available": 3, 
+                "enrolled": 22, 
+                "max": 25, 
+                "waitlist": 0
+            }, 
+            "semester": "Fall 2014", 
+            "time": {
+                "end": "10A", 
+                "start": "9A"
+            }
+        }, 
+        {
+            "ccn": 42324, 
+            "days": "Tu", 
+            "finalGroup": "Not applicable", 
+            "instructor": "D. Matousek, C. Stoddard", 
+            "location": {
+                "building": "Dwinelle", 
+                "room": 137
+            }, 
+            "seats": {
+                "available": 3, 
+                "enrolled": 9, 
+                "max": 12, 
+                "waitlist": 0
+            }, 
+            "semester": "Fall 2014", 
+            "time": {
+                "end": "11A", 
+                "start": "10A"
+            }
         }
     ], 
     "courseThread": "", 
@@ -3177,14 +3451,15 @@
     "deptAbbrev": "SPANISH", 
     "description": "Special topics in American cultures. ", 
     "format": "Three hours of Lecture per week for 15 weeks.", 
+    "freshSophSem": false, 
     "hasCoreqs": "", 
     "isPrereqFor": "", 
     "note": "", 
     "number": "135AC", 
     "offerHist": [
         "Spring 2013", 
-        "Spring 2012", 
-        "Spring 2011", 
+        "Fall 2012", 
+        "Fall 2011", 
         "Spring 2010"
     ], 
     "prereqs": "", 
@@ -3208,22 +3483,25 @@
     }, 
     "classInstance": [
         {
-            "ccn": 12112, 
-            "days": "TuTh", 
+            "ccn": 81814, 
+            "days": "MWF", 
             "finalGroup": "Not applicable", 
-            "instructor": "K. Serafini, M. Ferrero", 
+            "instructor": "C. Marquez", 
             "location": {
-                "building": "Barrows", 
-                "room": 25
+                "building": "Evans", 
+                "room": 242
             }, 
             "seats": {
-                "available": 384, 
-                "enrolled": 316, 
-                "max": 700, 
-                "waitlist": 5
+                "available": 42, 
+                "enrolled": 8, 
+                "max": 50, 
+                "waitlist": 0
             }, 
             "semester": "Fall 2014", 
-            "time": "11A-12P"
+            "time": {
+                "end": "12P", 
+                "start": "11A"
+            }
         }
     ], 
     "courseThread": "", 
@@ -3233,15 +3511,16 @@
     "deptAbbrev": "AFRICAM", 
     "description": "The focus of this course is on the writing of poetry, and students undertake an intensive study of both the techniques of poetry and the social and cultural context of specific poetic traditions. Students must \"imitate\" the poems they study, write critical papers comparing poetic traditions, and complete an original manuscript of new poems. In addition, they must produce an on-campus poetry reading and are required to teach for five to seven weeks at one of the assigned Poetry for the People venues. This course satisfies the Arts and Literature breadth requirement. ", 
     "format": "  Four hours of seminar per week, plus community workshop teaching. ", 
+    "freshSophSem": false, 
     "hasCoreqs": "", 
-    "isPrereqFor": "This class is a prerequisite for AFRICAM 151.", 
+    "isPrereqFor": "", 
     "note": "", 
     "number": "158A", 
     "offerHist": [
-        "Spring 2013", 
+        "Fall 2013", 
         "Fall 2012", 
         "Fall 2011", 
-        "Spring 2010"
+        "Fall 2010"
     ], 
     "prereqs": "156AC plus consent of instructor. ", 
     "restrictions": "", 
@@ -3264,94 +3543,130 @@
     }, 
     "classInstance": [
         {
-            "ccn": 67543, 
-            "days": "W", 
+            "ccn": 74246, 
+            "days": "Th", 
             "finalGroup": "Not applicable", 
-            "instructor": "I. Jaskolski", 
+            "instructor": "M. Mhasalkar, U. Jehlicka", 
             "location": {
-                "building": "Soda", 
-                "room": 271
+                "building": "Barrows", 
+                "room": 23
             }, 
             "seats": {
-                "available": 14, 
-                "enrolled": 11, 
+                "available": 17, 
+                "enrolled": 8, 
+                "max": 25, 
+                "waitlist": 2
+            }, 
+            "semester": "Fall 2014", 
+            "time": {
+                "end": "11A", 
+                "start": "10A"
+            }
+        }, 
+        {
+            "ccn": 39537, 
+            "days": "Th", 
+            "finalGroup": "Not applicable", 
+            "instructor": "V. Benbow, Z. Alberts", 
+            "location": {
+                "building": "Evans", 
+                "room": 1
+            }, 
+            "seats": {
+                "available": 0, 
+                "enrolled": 15, 
+                "max": 15, 
+                "waitlist": 6
+            }, 
+            "semester": "Fall 2014", 
+            "time": {
+                "end": "6P", 
+                "start": "5P"
+            }
+        }, 
+        {
+            "ccn": 27150, 
+            "days": "Th", 
+            "finalGroup": "Not applicable", 
+            "instructor": "M. Mhasalkar, U. Jehlicka", 
+            "location": {
+                "building": "Wheeler", 
+                "room": 210
+            }, 
+            "seats": {
+                "available": 18, 
+                "enrolled": 2, 
+                "max": 20, 
+                "waitlist": 3
+            }, 
+            "semester": "Fall 2014", 
+            "time": {
+                "end": "3P", 
+                "start": "2P"
+            }
+        }, 
+        {
+            "ccn": 17076, 
+            "days": "Tu", 
+            "finalGroup": "Not applicable", 
+            "instructor": "A. Kennard", 
+            "location": {
+                "building": "Evans", 
+                "room": 55
+            }, 
+            "seats": {
+                "available": 5, 
+                "enrolled": 20, 
                 "max": 25, 
                 "waitlist": 0
             }, 
             "semester": "Fall 2014", 
-            "time": "2-3P"
+            "time": {
+                "end": "9A", 
+                "start": "8A"
+            }
         }, 
         {
-            "ccn": 81271, 
-            "days": "Tu", 
+            "ccn": 47299, 
+            "days": "Th", 
             "finalGroup": "Not applicable", 
-            "instructor": "M. Wetterman", 
+            "instructor": "O. Bandyopadhyay", 
             "location": {
                 "building": "Barrows", 
-                "room": 50
+                "room": 63
             }, 
             "seats": {
-                "available": 2, 
-                "enrolled": 8, 
-                "max": 10, 
-                "waitlist": 6
-            }, 
-            "semester": "Fall 2014", 
-            "time": "8-9A"
-        }, 
-        {
-            "ccn": 75049, 
-            "days": "W", 
-            "finalGroup": "Not applicable", 
-            "instructor": "B. Varela", 
-            "location": {
-                "building": "Wurster", 
-                "room": 91
-            }, 
-            "seats": {
-                "available": 8, 
-                "enrolled": 12, 
+                "available": 19, 
+                "enrolled": 1, 
                 "max": 20, 
-                "waitlist": 5
+                "waitlist": 0
             }, 
             "semester": "Fall 2014", 
-            "time": "1-2P"
+            "time": {
+                "end": "12P", 
+                "start": "11A"
+            }
         }, 
         {
-            "ccn": 68279, 
-            "days": "Tu", 
-            "finalGroup": "Not applicable", 
-            "instructor": "C. Marquez", 
-            "location": {
-                "building": "Soda", 
-                "room": 252
-            }, 
-            "seats": {
-                "available": 0, 
-                "enrolled": 25, 
-                "max": 25, 
-                "waitlist": 7
-            }, 
-            "semester": "Fall 2014", 
-            "time": "5-6P"
-        }, 
-        {
-            "ccn": 93822, 
-            "days": "W", 
+            "ccn": 63920, 
+            "days": "M", 
             "finalGroup": "Not applicable", 
             "instructor": "G. Burke", 
             "location": {
-                "building": "Evans", 
-                "room": 50
+                "building": "Dwinelle", 
+                "room": 279
             }, 
             "seats": {
-                "available": 7, 
-                "enrolled": 5, 
+                "available": 10, 
+                "enrolled": 2, 
                 "max": 12, 
                 "waitlist": 0
             }, 
             "semester": "Fall 2014", 
-            "time": "10-11A"
+            "time": {
+                "end": "9A", 
+                "start": "8A"
+            }
         }
     ], 
     "courseThread": "", 
@@ -3361,15 +3676,16 @@
     "deptAbbrev": "AFRICAM", 
     "description": "The focus of this course is on the writing of poetry, and students undertake an intensive study of both the techniques of poetry and the social and cultural context of specific poetic traditions. Students must \"imitate\" the poems they study, write critical papers comparing poetic traditions, and complete an original manuscript of new poems. In addition, they must produce an on-campus poetry reading and are required to teach for five to seven weeks at one of the assigned Poetry for the People venues. This course satisfies the Arts and Literature breadth requirement. ", 
     "format": "  Four hours of seminar per week, plus community workshop teaching. ", 
+    "freshSophSem": false, 
     "hasCoreqs": "", 
     "isPrereqFor": "", 
     "note": "", 
     "number": "158A", 
     "offerHist": [
-        "Fall 2013", 
-        "Fall 2012", 
-        "Fall 2011", 
-        "Fall 2010"
+        "Spring 2013", 
+        "Spring 2012", 
+        "Spring 2011", 
+        "Spring 2010"
     ], 
     "prereqs": "156AC plus consent of instructor. ", 
     "restrictions": "", 
@@ -3392,94 +3708,88 @@
     }, 
     "classInstance": [
         {
-            "ccn": 24400, 
-            "days": "Th", 
+            "ccn": 48465, 
+            "days": "W", 
             "finalGroup": "Not applicable", 
-            "instructor": "I. Jaskolski", 
+            "instructor": "M. Sarka", 
             "location": {
-                "building": "Barrows", 
-                "room": 78
+                "building": "Dwinelle", 
+                "room": 280
             }, 
             "seats": {
-                "available": 9, 
-                "enrolled": 1, 
-                "max": 10, 
-                "waitlist": 10
+                "available": 10, 
+                "enrolled": 10, 
+                "max": 20, 
+                "waitlist": 4
             }, 
             "semester": "Fall 2014", 
-            "time": "12-1P"
+            "time": {
+                "end": "9A", 
+                "start": "8A"
+            }
         }, 
         {
-            "ccn": 37260, 
+            "ccn": 23643, 
             "days": "M", 
             "finalGroup": "Not applicable", 
-            "instructor": "K. Serafini, M. Ferrero", 
+            "instructor": "M. Wetterman", 
             "location": {
-                "building": "Wheeler", 
-                "room": 84
+                "building": "Evans", 
+                "room": 100
             }, 
             "seats": {
                 "available": 5, 
                 "enrolled": 20, 
                 "max": 25, 
-                "waitlist": 2
+                "waitlist": 4
             }, 
             "semester": "Fall 2014", 
-            "time": "3-4P"
+            "time": {
+                "end": "12P", 
+                "start": "11A"
+            }
         }, 
         {
-            "ccn": 61005, 
-            "days": "M", 
+            "ccn": 36705, 
+            "days": "F", 
             "finalGroup": "Not applicable", 
-            "instructor": "O. Bandyopadhyay", 
-            "location": {
-                "building": "Wheeler", 
-                "room": 22
-            }, 
-            "seats": {
-                "available": 18, 
-                "enrolled": 7, 
-                "max": 25, 
-                "waitlist": 8
-            }, 
-            "semester": "Fall 2014", 
-            "time": "9-10A"
-        }, 
-        {
-            "ccn": 10474, 
-            "days": "Tu", 
-            "finalGroup": "Not applicable", 
-            "instructor": "I. Jaskolski", 
+            "instructor": "S. Abdullah", 
             "location": {
                 "building": "Soda", 
-                "room": 131
+                "room": 139
+            }, 
+            "seats": {
+                "available": 0, 
+                "enrolled": 10, 
+                "max": 10, 
+                "waitlist": 5
+            }, 
+            "semester": "Fall 2014", 
+            "time": {
+                "end": "9A", 
+                "start": "8A"
+            }
+        }, 
+        {
+            "ccn": 19018, 
+            "days": "Tu", 
+            "finalGroup": "Not applicable", 
+            "instructor": "M. Mhasalkar, U. Jehlicka", 
+            "location": {
+                "building": "Dwinelle", 
+                "room": 155
             }, 
             "seats": {
                 "available": 8, 
-                "enrolled": 12, 
-                "max": 20, 
-                "waitlist": 6
+                "enrolled": 2, 
+                "max": 10, 
+                "waitlist": 0
             }, 
             "semester": "Fall 2014", 
-            "time": "12-1P"
-        }, 
-        {
-            "ccn": 92889, 
-            "days": "M", 
-            "finalGroup": "Not applicable", 
-            "instructor": "G. Burke", 
-            "location": {
-                "building": "Wheeler", 
-                "room": 289
-            }, 
-            "seats": {
-                "available": 24, 
-                "enrolled": 1, 
-                "max": 25, 
-                "waitlist": 9
-            }, 
-            "semester": "Fall 2014", 
-            "time": "9-10A"
+            "time": {
+                "end": "2P", 
+                "start": "1P"
+            }
         }
     ], 
     "courseThread": "", 
@@ -3489,6 +3799,7 @@
     "deptAbbrev": "PHILOS", 
     "description": "What sort of thing am I? And what is my relation to others, and to the world in general? We will consider versions of these questions, as they are asked and answered in a variety of classical and contemporary philosophical texts: what can we know about the world? Is the skeptic right to answer: nothing? What is it in the nature of minds (and bodies) which makes knowledge seem so problematic? How are minds and bodies related to those things which have them: persons? And how does this bear on the question of the meaning of life? ", 
     "format": "Six hours of Lecture and  Four hours of Discussion per week for 6 weeks.", 
+    "freshSophSem": false, 
     "hasCoreqs": "", 
     "isPrereqFor": "", 
     "note": "", 
@@ -3520,40 +3831,25 @@
     }, 
     "classInstance": [
         {
-            "ccn": 94156, 
-            "days": "TuTh", 
-            "finalGroup": "Group 3--Wednesday, December 17, 2014, 12 p.m.", 
-            "instructor": "C. Marquez", 
+            "ccn": 20241, 
+            "days": "MWF", 
+            "finalGroup": "Group 5--Friday, December 15, 2014, 1 p.m.", 
+            "instructor": "V. Benbow, Z. Alberts", 
             "location": {
-                "building": "Wheeler", 
-                "room": 110
+                "building": "Dwinelle", 
+                "room": 243
             }, 
             "seats": {
-                "available": 148, 
-                "enrolled": 2, 
-                "max": 150, 
-                "waitlist": 4
-            }, 
-            "semester": "Fall 2014", 
-            "time": "11A-12P"
-        }, 
-        {
-            "ccn": 39702, 
-            "days": "TuTh", 
-            "finalGroup": "Group 1--Monday, December 15, 2014, 1 p.m.", 
-            "instructor": "G. Burke", 
-            "location": {
-                "building": "Evans", 
-                "room": 248
-            }, 
-            "seats": {
-                "available": 242, 
-                "enrolled": 8, 
+                "available": 209, 
+                "enrolled": 41, 
                 "max": 250, 
-                "waitlist": 6
+                "waitlist": 0
             }, 
             "semester": "Fall 2014", 
-            "time": "1-230P"
+            "time": {
+                "end": "9A", 
+                "start": "8A"
+            }
         }
     ], 
     "courseThread": "", 
@@ -3563,15 +3859,16 @@
     "deptAbbrev": "PHILOS", 
     "description": "We will consider the following questions: Is medicine a science? What are its aims? How are the central concepts of \"health\" and \"disease\" defined? What is meant by the charge that there is an \"overmedication of everyday life\" in our society and is that charge justified? What is \"medical reductionism\" and what are its limits? What are the assumptions behind \"specialistic\" and holistic\"approaches to medicine and which of these two approaches serves better the aims of medicine? What is the proper place of medicine in the social, legal, and moral contexts? ", 
     "format": "Six hours of Lecture and  Two hours of Discussion per week for 6 weeks.", 
+    "freshSophSem": false, 
     "hasCoreqs": "", 
     "isPrereqFor": "This class is a prerequisite for PHILOS 151.", 
     "note": "", 
     "number": "23X", 
     "offerHist": [
-        "Fall 2013", 
         "Spring 2013", 
-        "Fall 2012", 
-        "Spring 2012"
+        "Spring 2012", 
+        "Spring 2011", 
+        "Spring 2010"
     ], 
     "prereqs": "", 
     "restrictions": "", 
@@ -3579,7 +3876,7 @@
     "type": "Lecture"
 }, 
 "course150":{
-    "berkeleyConnect": false, 
+    "berkeleyConnect": true, 
     "breadth": {
         "AC": false, 
         "AL": false, 
@@ -3600,15 +3897,16 @@
     "deptAbbrev": "PHILOS", 
     "description": "Are living things simply complex machines? Many philosophers and biologists think that they are, for to think otherwise seems to fly in the face of recent scientific advances and threatens to reintroduce into biology unscientific notions like \"spirit\" and \"vital force\". This course takes seriously the position that life can not be reduced to chemical and physical processes. We will also study ways this question affects our understanding of the freedom of the will, the relation of the mind to the body, and \"evolutionary\" explanations of gender differences. ", 
     "format": "Six hours of Lecture and  Four hours of Discussion per week for 6 weeks.", 
+    "freshSophSem": false, 
     "hasCoreqs": "", 
-    "isPrereqFor": "", 
+    "isPrereqFor": "This class is a prerequisite for PHILOS 151.", 
     "note": "", 
     "number": "21X", 
     "offerHist": [
         "Fall 2013", 
+        "Spring 2013", 
         "Fall 2012", 
-        "Fall 2011", 
-        "Fall 2010"
+        "Spring 2012"
     ], 
     "prereqs": "", 
     "restrictions": "", 
@@ -3616,7 +3914,7 @@
     "type": "Lecture"
 }, 
 "course151":{
-    "berkeleyConnect": true, 
+    "berkeleyConnect": false, 
     "breadth": {
         "AC": false, 
         "AL": false, 
@@ -3631,40 +3929,65 @@
     }, 
     "classInstance": [
         {
-            "ccn": 23635, 
-            "days": "M", 
-            "finalGroup": "Group 3--Wednesday, December 17, 2014, 12 p.m.", 
-            "instructor": "M. Wetterman", 
+            "ccn": 80699, 
+            "days": "MWF", 
+            "finalGroup": "Group 4--Thursday, December 18, 2014, 3 p.m.", 
+            "instructor": "S. Abdullah", 
             "location": {
-                "building": "Wurster", 
-                "room": 75
+                "building": "Barrows", 
+                "room": 275
             }, 
             "seats": {
-                "available": 25, 
-                "enrolled": 15, 
-                "max": 40, 
-                "waitlist": 3
+                "available": 0, 
+                "enrolled": 30, 
+                "max": 30, 
+                "waitlist": 2
             }, 
             "semester": "Fall 2014", 
-            "time": "11A-12P"
+            "time": {
+                "end": "11A", 
+                "start": "10A"
+            }
+        }, 
+        {
+            "ccn": 24439, 
+            "days": "TuTh", 
+            "finalGroup": "Group 2--Tuesday, December 16, 2014, 9 a.m.", 
+            "instructor": "A. Kennard", 
+            "location": {
+                "building": "Evans", 
+                "room": 209
+            }, 
+            "seats": {
+                "available": 476, 
+                "enrolled": 224, 
+                "max": 700, 
+                "waitlist": 6
+            }, 
+            "semester": "Fall 2014", 
+            "time": {
+                "end": "10A", 
+                "start": "9A"
+            }
         }
     ], 
-    "courseThread": "This course is part of the Cultural Forms in Transit Course Thread.", 
+    "courseThread": "", 
     "credit": 4, 
     "crossListing": "", 
     "department": "Philosophy", 
     "deptAbbrev": "PHILOS", 
     "description": "What sort of thing am I? And what is my relation to others, and to the world in general? We will consider versions of these questions, as they are asked and answered in a variety of classical and contemporary philosophical texts: what can we know about the world? Is the skeptic right to answer: nothing? What is it in the nature of minds (and bodies) which makes knowledge seem so problematic? How are minds and bodies related to those things which have them: persons? And how does this bear on the question of the meaning of life? ", 
     "format": "Six hours of Lecture and  Four hours of Discussion per week for 6 weeks.", 
+    "freshSophSem": false, 
     "hasCoreqs": "", 
     "isPrereqFor": "", 
     "note": "", 
     "number": "22X", 
     "offerHist": [
-        "Spring 2013", 
+        "Fall 2013", 
         "Fall 2012", 
         "Fall 2011", 
-        "Spring 2010"
+        "Fall 2010"
     ], 
     "prereqs": "", 
     "restrictions": "", 
@@ -3687,22 +4010,25 @@
     }, 
     "classInstance": [
         {
-            "ccn": 80878, 
-            "days": "MWF", 
-            "finalGroup": "Group 3--Wednesday, December 17, 2014, 12 p.m.", 
+            "ccn": 12357, 
+            "days": "F", 
+            "finalGroup": "Group 5--Friday, December 15, 2014, 1 p.m.", 
             "instructor": "M. Wetterman", 
             "location": {
-                "building": "Dwinelle", 
-                "room": 198
+                "building": "Wurster", 
+                "room": 218
             }, 
             "seats": {
-                "available": 128, 
-                "enrolled": 22, 
-                "max": 150, 
-                "waitlist": 0
+                "available": 24, 
+                "enrolled": 6, 
+                "max": 30, 
+                "waitlist": 5
             }, 
             "semester": "Fall 2014", 
-            "time": "3-430P"
+            "time": {
+                "end": "9A", 
+                "start": "8A"
+            }
         }
     ], 
     "courseThread": "", 
@@ -3712,14 +4038,15 @@
     "deptAbbrev": "POL SCI", 
     "description": "This course deals with the basic problems and processes that all political systems face and examines their particular expression in Western, Communist, and Third World settings. ", 
     "format": " Three hours of lecture and one or two hours of discussion per week. ", 
+    "freshSophSem": false, 
     "hasCoreqs": "", 
     "isPrereqFor": "", 
     "note": "", 
     "number": "2", 
     "offerHist": [
         "Spring 2013", 
-        "Fall 2012", 
-        "Fall 2011", 
+        "Spring 2012", 
+        "Spring 2011", 
         "Spring 2010"
     ], 
     "prereqs": "", 
@@ -3743,40 +4070,46 @@
     }, 
     "classInstance": [
         {
-            "ccn": 14265, 
-            "days": "Th", 
-            "finalGroup": "Not applicable", 
-            "instructor": "C. Marquez", 
-            "location": {
-                "building": "Evans", 
-                "room": 227
-            }, 
-            "seats": {
-                "available": 20, 
-                "enrolled": 0, 
-                "max": 20, 
-                "waitlist": 1
-            }, 
-            "semester": "Fall 2014", 
-            "time": "11A-12P"
-        }, 
-        {
-            "ccn": 83463, 
+            "ccn": 53215, 
             "days": "Tu", 
             "finalGroup": "Not applicable", 
-            "instructor": "G. Burke", 
+            "instructor": "B. Varela", 
             "location": {
-                "building": "Dwinelle", 
-                "room": 272
+                "building": "Evans", 
+                "room": 156
             }, 
             "seats": {
-                "available": 10, 
-                "enrolled": 5, 
-                "max": 15, 
-                "waitlist": 3
+                "available": 4, 
+                "enrolled": 21, 
+                "max": 25, 
+                "waitlist": 0
             }, 
             "semester": "Fall 2014", 
-            "time": "5-6P"
+            "time": {
+                "end": "2P", 
+                "start": "1P"
+            }
+        }, 
+        {
+            "ccn": 81944, 
+            "days": "M", 
+            "finalGroup": "Not applicable", 
+            "instructor": "K. Serafini, M. Ferrero", 
+            "location": {
+                "building": "Dwinelle", 
+                "room": 105
+            }, 
+            "seats": {
+                "available": 4, 
+                "enrolled": 8, 
+                "max": 12, 
+                "waitlist": 9
+            }, 
+            "semester": "Fall 2014", 
+            "time": {
+                "end": "12P", 
+                "start": "11A"
+            }
         }
     ], 
     "courseThread": "", 
@@ -3786,15 +4119,16 @@
     "deptAbbrev": "PHILOS", 
     "description": "We will consider the following questions: Is medicine a science? What are its aims? How are the central concepts of \"health\" and \"disease\" defined? What is meant by the charge that there is an \"overmedication of everyday life\" in our society and is that charge justified? What is \"medical reductionism\" and what are its limits? What are the assumptions behind \"specialistic\" and holistic\"approaches to medicine and which of these two approaches serves better the aims of medicine? What is the proper place of medicine in the social, legal, and moral contexts? ", 
     "format": "Six hours of Lecture and  Two hours of Discussion per week for 6 weeks.", 
+    "freshSophSem": false, 
     "hasCoreqs": "", 
     "isPrereqFor": "", 
     "note": "", 
     "number": "23X", 
     "offerHist": [
-        "Fall 2013", 
         "Spring 2013", 
         "Fall 2012", 
-        "Spring 2012"
+        "Fall 2011", 
+        "Spring 2010"
     ], 
     "prereqs": "", 
     "restrictions": "", 
@@ -3823,14 +4157,16 @@
     "deptAbbrev": "PHILOS", 
     "description": "This course will examine the values underlying different visions of a just society. Freedom, equal opportunity, and community are considered important, for example, but there is little agreement on how theses values should be realized. The course will consider various perspectives on these values and their practical implications. Special attention will be devoted to the role of the government in economic affairs, equal educational opportunities, and nationalism. ", 
     "format": "Six hours of Lecture and  Three and one-half hours of Discussion per week for 6 weeks.", 
+    "freshSophSem": false, 
     "hasCoreqs": "", 
     "isPrereqFor": "", 
     "note": "", 
     "number": "24X", 
     "offerHist": [
         "Fall 2013", 
-        "Spring 2011", 
-        "Spring 2009"
+        "Fall 2012", 
+        "Fall 2011", 
+        "Fall 2010"
     ], 
     "prereqs": "", 
     "restrictions": "", 
@@ -3853,22 +4189,25 @@
     }, 
     "classInstance": [
         {
-            "ccn": 28681, 
-            "days": "F", 
-            "finalGroup": "Group 2--Tuesday, December 16, 2014, 9 a.m.", 
-            "instructor": "C. Giorgano", 
+            "ccn": 50112, 
+            "days": "M", 
+            "finalGroup": "Group 4--Thursday, December 18, 2014, 3 p.m.", 
+            "instructor": "M. Mhasalkar, U. Jehlicka", 
             "location": {
-                "building": "Dwinelle", 
-                "room": 154
+                "building": "Soda", 
+                "room": 30
             }, 
             "seats": {
-                "available": 43, 
-                "enrolled": 7, 
-                "max": 50, 
-                "waitlist": 2
+                "available": 18, 
+                "enrolled": 12, 
+                "max": 30, 
+                "waitlist": 0
             }, 
             "semester": "Fall 2014", 
-            "time": "3-430P"
+            "time": {
+                "end": "3P", 
+                "start": "2P"
+            }
         }
     ], 
     "courseThread": "", 
@@ -3878,15 +4217,15 @@
     "deptAbbrev": "ANTHRO", 
     "description": "Various topics which meet the American cultures requirement, taught by members of the Social/Cultural faculty. See the Schedule of Classes for each semester, and the department's Internal Catalog for course title, description, instructor name, and specific format. ", 
     "format": "Three hours of Lecture per week for 15 weeks.  Six hours of Lecture per week for 8 weeks.  Eight hours of Lecture per week for 6 weeks.", 
+    "freshSophSem": false, 
     "hasCoreqs": "", 
     "isPrereqFor": "", 
     "note": "", 
     "number": "172AC", 
     "offerHist": [
-        "Spring 2013", 
-        "Fall 2012", 
-        "Fall 2011", 
-        "Spring 2010"
+        "Fall 2013", 
+        "Spring 2011", 
+        "Spring 2009"
     ], 
     "prereqs": "", 
     "restrictions": "", 
@@ -3915,15 +4254,16 @@
     "deptAbbrev": "PB HLTH", 
     "description": "This course will examine the historical developments of social and scientific responses to human disease from their beginnings to their current roles as major forces in modern society. It will consider the evolution of diagnoses, treatment, and prevention of human morbidity and death from both a humanistic and scientific perspective. It invites pre-medical, pre-dental, and other students preparing for careers in public health, nursing, optometry, or the other health sciences, students interested in public policy and health-related law, and students of history or the other humanities who wish an overview of medicine and health from a broad historical perspective. ", 
     "format": "Three hours of Lecture per week for 15 weeks.", 
-    "hasCoreqs": "PB HLTH 1A must be taken concurrently.", 
+    "freshSophSem": false, 
+    "hasCoreqs": "", 
     "isPrereqFor": "", 
     "note": "", 
     "number": "183", 
     "offerHist": [
-        "Spring 2013", 
-        "Spring 2012", 
-        "Spring 2011", 
-        "Spring 2010"
+        "Fall 2013", 
+        "Fall 2012", 
+        "Fall 2011", 
+        "Fall 2010"
     ], 
     "prereqs": "Knowledge of (and preferably a college level course which covered) basic aspects of (mammalian) physiology and anatomy. Graduate or upper division undergraduate status. ", 
     "restrictions": "", 
@@ -3931,7 +4271,7 @@
     "type": "Lecture"
 }, 
 "course109":{
-    "berkeleyConnect": false, 
+    "berkeleyConnect": true, 
     "breadth": {
         "AC": true, 
         "AL": false, 
@@ -3946,39 +4286,44 @@
     }, 
     "classInstance": [
         {
-            "ccn": 85021, 
+            "ccn": 84671, 
             "days": "MW", 
             "finalGroup": "Not applicable", 
-            "instructor": "S. Abdullah", 
+            "instructor": "K. Serafini, M. Ferrero", 
             "location": {
-                "building": "Wheeler", 
-                "room": 178
+                "building": "Wurster", 
+                "room": 125
             }, 
             "seats": {
-                "available": 338, 
-                "enrolled": 162, 
+                "available": 439, 
+                "enrolled": 61, 
                 "max": 500, 
-                "waitlist": 4
+                "waitlist": 0
             }, 
             "semester": "Fall 2014", 
-            "time": "1130A-1P"
+            "time": {
+                "end": "3P", 
+                "start": "2P"
+            }
         }
     ], 
-    "courseThread": "", 
+    "courseThread": "This course is part of the Cultural Forms in Transit Course Thread.", 
     "credit": 3, 
     "crossListing": "", 
     "department": "Anthropology", 
     "deptAbbrev": "ANTHRO", 
     "description": "This seminar explores social scientific approaches to ethnic humor, especially as applied to American cultures. The seminar covers three major domains: (1) sources of ethnic humor; (2) types of ethnic humor; and (3) impact of ethnic humor on individuals and groups. We shall discuss the humor of each of the following groups: African-Americans, Asian-Americans, Native-Americans, Chicanos/Latins, and Euro-Americans. ", 
     "format": "Two hours of Seminar per week for 15 weeks.  Three and one-half hours of Seminar per week for 8 weeks.  Five hours of Seminar per week for 6 weeks.", 
+    "freshSophSem": false, 
     "hasCoreqs": "", 
     "isPrereqFor": "", 
     "note": "", 
     "number": "11AC", 
     "offerHist": [
-        "Fall 2013", 
+        "Spring 2013", 
+        "Spring 2012", 
         "Spring 2011", 
-        "Spring 2009"
+        "Spring 2010"
     ], 
     "prereqs": "", 
     "restrictions": "", 
@@ -4007,14 +4352,16 @@
     "deptAbbrev": "ANTHRO", 
     "description": "The seminar will examine anthropologists' research and writing on American cultures (African American, American Indian, Asian American, Chicano/Latino, European American, and people of mixed heritages) plus intercultural relations. Each student will focus on two culture categories, to discover how anthropologists of diverse cultures have described and analyzed those cultures. Have they exhibited ethnocentric, colonialist or other biases? Have they exhibited cultural relativity and empathy? Is there a shared \"anthropological view\" of American cultures? If not, why not? If so, how so and what is its impact? ", 
     "format": "Two hours of Seminar per week for 15 weeks.  Three and one-half hours of Seminar per week for 8 weeks.  Five hours of Seminar per week for 6 weeks.", 
+    "freshSophSem": false, 
     "hasCoreqs": "", 
-    "isPrereqFor": "This class is a prerequisite for ANTHRO 151.", 
-    "note": "This is a note.", 
+    "isPrereqFor": "", 
+    "note": "", 
     "number": "12AC", 
     "offerHist": [
         "Fall 2013", 
-        "Spring 2011", 
-        "Spring 2009"
+        "Spring 2013", 
+        "Fall 2012", 
+        "Spring 2012"
     ], 
     "prereqs": "Limited to freshmen and sophomores. Consent of instructor. ", 
     "restrictions": "", 
@@ -4037,112 +4384,46 @@
     }, 
     "classInstance": [
         {
-            "ccn": 67921, 
+            "ccn": 79561, 
             "days": "M", 
             "finalGroup": "Not applicable", 
-            "instructor": "W. Hopkins, M. Anson", 
-            "location": {
-                "building": "Evans", 
-                "room": 7
-            }, 
-            "seats": {
-                "available": 6, 
-                "enrolled": 6, 
-                "max": 12, 
-                "waitlist": 3
-            }, 
-            "semester": "Fall 2014", 
-            "time": "2-3P"
-        }, 
-        {
-            "ccn": 48545, 
-            "days": "M", 
-            "finalGroup": "Not applicable", 
-            "instructor": "V. Benbow, Z. Alberts", 
+            "instructor": "S. Abdullah", 
             "location": {
                 "building": "Soda", 
-                "room": 112
+                "room": 266
             }, 
             "seats": {
-                "available": 7, 
-                "enrolled": 5, 
+                "available": 10, 
+                "enrolled": 2, 
                 "max": 12, 
-                "waitlist": 8
+                "waitlist": 2
             }, 
             "semester": "Fall 2014", 
-            "time": "4-5P"
+            "time": {
+                "end": "6P", 
+                "start": "5P"
+            }
         }, 
         {
-            "ccn": 77451, 
-            "days": "F", 
-            "finalGroup": "Not applicable", 
-            "instructor": "A. Kennard", 
-            "location": {
-                "building": "Evans", 
-                "room": 66
-            }, 
-            "seats": {
-                "available": 19, 
-                "enrolled": 6, 
-                "max": 25, 
-                "waitlist": 8
-            }, 
-            "semester": "Fall 2014", 
-            "time": "3-4P"
-        }, 
-        {
-            "ccn": 65988, 
-            "days": "F", 
-            "finalGroup": "Not applicable", 
-            "instructor": "C. Giorgano", 
-            "location": {
-                "building": "Wheeler", 
-                "room": 160
-            }, 
-            "seats": {
-                "available": 3, 
-                "enrolled": 7, 
-                "max": 10, 
-                "waitlist": 5
-            }, 
-            "semester": "Fall 2014", 
-            "time": "10-11A"
-        }, 
-        {
-            "ccn": 74215, 
-            "days": "M", 
+            "ccn": 48140, 
+            "days": "Th", 
             "finalGroup": "Not applicable", 
             "instructor": "K. Serafini, M. Ferrero", 
             "location": {
-                "building": "Barrows", 
-                "room": 231
+                "building": "Dwinelle", 
+                "room": 99
             }, 
             "seats": {
-                "available": 9, 
-                "enrolled": 1, 
-                "max": 10, 
-                "waitlist": 0
+                "available": 25, 
+                "enrolled": 0, 
+                "max": 25, 
+                "waitlist": 6
             }, 
             "semester": "Fall 2014", 
-            "time": "11A-12P"
-        }, 
-        {
-            "ccn": 68502, 
-            "days": "Tu", 
-            "finalGroup": "Not applicable", 
-            "instructor": "M. Sarka", 
-            "location": {
-                "building": "Barrows", 
-                "room": 135
-            }, 
-            "seats": {
-                "available": 5, 
-                "enrolled": 5, 
-                "max": 10, 
-                "waitlist": 3
-            }, 
-            "semester": "Fall 2014", 
-            "time": "9-10A"
+            "time": {
+                "end": "9A", 
+                "start": "8A"
+            }
         }
     ], 
     "courseThread": "", 
@@ -4152,15 +4433,16 @@
     "deptAbbrev": "ANTHRO", 
     "description": "Various topics which meet the American cultures requirement, taught by members of the Social/Cultural faculty. See the Schedule of Classes for each semester, and the department's Internal Catalog for course title, description, instructor name, and specific format. ", 
     "format": "Three hours of Lecture per week for 15 weeks.  Six hours of Lecture per week for 8 weeks.  Eight hours of Lecture per week for 6 weeks.", 
+    "freshSophSem": false, 
     "hasCoreqs": "", 
     "isPrereqFor": "", 
     "note": "", 
     "number": "172AC", 
     "offerHist": [
-        "Spring 2013", 
-        "Spring 2012", 
-        "Spring 2011", 
-        "Spring 2010"
+        "Fall 2013", 
+        "Fall 2012", 
+        "Fall 2011", 
+        "Fall 2010"
     ], 
     "prereqs": "", 
     "restrictions": "", 
@@ -4183,58 +4465,46 @@
     }, 
     "classInstance": [
         {
-            "ccn": 93167, 
-            "days": "F", 
-            "finalGroup": "Not applicable", 
-            "instructor": "S. Abdullah", 
-            "location": {
-                "building": "Evans", 
-                "room": 40
-            }, 
-            "seats": {
-                "available": 0, 
-                "enrolled": 15, 
-                "max": 15, 
-                "waitlist": 0
-            }, 
-            "semester": "Fall 2014", 
-            "time": "2-3P"
-        }, 
-        {
-            "ccn": 52578, 
-            "days": "W", 
+            "ccn": 80745, 
+            "days": "M", 
             "finalGroup": "Not applicable", 
             "instructor": "M. Mhasalkar, U. Jehlicka", 
             "location": {
-                "building": "Evans", 
-                "room": 230
+                "building": "Soda", 
+                "room": 49
             }, 
             "seats": {
-                "available": 16, 
-                "enrolled": 4, 
-                "max": 20, 
-                "waitlist": 2
+                "available": 10, 
+                "enrolled": 2, 
+                "max": 12, 
+                "waitlist": 0
             }, 
             "semester": "Fall 2014", 
-            "time": "11A-12P"
+            "time": {
+                "end": "4P", 
+                "start": "3P"
+            }
         }, 
         {
-            "ccn": 69787, 
-            "days": "M", 
+            "ccn": 94199, 
+            "days": "Tu", 
             "finalGroup": "Not applicable", 
-            "instructor": "B. Varela", 
+            "instructor": "V. Benbow, Z. Alberts", 
             "location": {
-                "building": "Dwinelle", 
-                "room": 144
+                "building": "Barrows", 
+                "room": 148
             }, 
             "seats": {
-                "available": 11, 
-                "enrolled": 1, 
+                "available": 6, 
+                "enrolled": 6, 
                 "max": 12, 
-                "waitlist": 2
+                "waitlist": 0
             }, 
             "semester": "Fall 2014", 
-            "time": "10-11A"
+            "time": {
+                "end": "5P", 
+                "start": "4P"
+            }
         }
     ], 
     "courseThread": "", 
@@ -4244,15 +4514,16 @@
     "deptAbbrev": "PB HLTH", 
     "description": "This course provides an introduction to statistical and computational methods for the analysis of biomedical and genomic data. Statistical topics, introduced in a biological context, include numerical and graphical summaries of data; basic notions in probability; loss-based estimation (e.g., least-squares regression, maximum likelihood estimation); model selection; multiple hypothesis testing; Markov chains; hidden Markov models, resampling; simulation studies. Biological questions considered include, but are not limited to, modeling meiosis; genetic mapping; nucleotide and protein-sequence analysis; molecular evolution; computational gene finding; and DNA microarray experiments. The course also introduces statistical computing resources for the analysis of biological data, with emphasis on the R language and environment (www.r-project.org) and bioconductor packages (www.bioconductor.org). In addition, the course introduces basic notions in genetics and molecular biology and involves the critical reading of articles related to statistical analyses in the biological and medical sciences. ", 
     "format": "Three hours of Lecture and  One hour of Laboratory per week for 15 weeks.", 
+    "freshSophSem": false, 
     "hasCoreqs": "", 
     "isPrereqFor": "", 
     "note": "", 
     "number": "143", 
     "offerHist": [
-        "Fall 2013", 
         "Spring 2013", 
         "Fall 2012", 
-        "Spring 2012"
+        "Fall 2011", 
+        "Spring 2010"
     ], 
     "prereqs": "142, Statistics 134, 135 or consent of instructor. ", 
     "restrictions": "", 
@@ -4275,39 +4546,43 @@
     }, 
     "classInstance": [
         {
-            "ccn": 61827, 
-            "days": "M", 
-            "finalGroup": "Group 3--Wednesday, December 17, 2014, 12 p.m.", 
-            "instructor": "M. Wetterman", 
+            "ccn": 56167, 
+            "days": "F", 
+            "finalGroup": "Group 1--Monday, December 15, 2014, 1 p.m.", 
+            "instructor": "K. Serafini, M. Ferrero", 
             "location": {
-                "building": "Wheeler", 
-                "room": 119
+                "building": "Soda", 
+                "room": 288
             }, 
             "seats": {
-                "available": 23, 
-                "enrolled": 17, 
-                "max": 40, 
-                "waitlist": 3
+                "available": 1, 
+                "enrolled": 29, 
+                "max": 30, 
+                "waitlist": 0
             }, 
             "semester": "Fall 2014", 
-            "time": "230-4P"
+            "time": {
+                "end": "2:30P", 
+                "start": "1P"
+            }
         }
     ], 
-    "courseThread": "This course is part of the Cultural Forms in Transit Course Thread.", 
+    "courseThread": "", 
     "credit": 4, 
     "crossListing": "", 
     "department": "Public Health", 
     "deptAbbrev": "PB HLTH", 
     "description": "This course provides an introduction to statistical and computational methods for the analysis of biomedical and genomic data. Statistical topics, introduced in a biological context, include numerical and graphical summaries of data; basic notions in probability; loss-based estimation (e.g., least-squares regression, maximum likelihood estimation); model selection; multiple hypothesis testing; Markov chains; hidden Markov models, resampling; simulation studies. Biological questions considered include, but are not limited to, modeling meiosis; genetic mapping; nucleotide and protein-sequence analysis; molecular evolution; computational gene finding; and DNA microarray experiments. The course also introduces statistical computing resources for the analysis of biological data, with emphasis on the R language and environment (www.r-project.org) and bioconductor packages (www.bioconductor.org). In addition, the course introduces basic notions in genetics and molecular biology and involves the critical reading of articles related to statistical analyses in the biological and medical sciences. ", 
     "format": "Three hours of Lecture and  One hour of Laboratory per week for 15 weeks.", 
+    "freshSophSem": true, 
     "hasCoreqs": "", 
     "isPrereqFor": "This class is a prerequisite for PB HLTH 151.", 
     "note": "", 
     "number": "143", 
     "offerHist": [
         "Spring 2013", 
-        "Spring 2012", 
-        "Spring 2011", 
+        "Fall 2012", 
+        "Fall 2011", 
         "Spring 2010"
     ], 
     "prereqs": "142, Statistics 134, 135 or consent of instructor. ", 
@@ -4337,15 +4612,16 @@
     "deptAbbrev": "PB HLTH", 
     "description": "This course introduces epidemiological methods with the goal of teaching students to read critically and interpret published epidemiologic studies in humans. The course also exposes students to the epidemiology of diseases and conditions of current public health importance in the United States and internationally. ", 
     "format": "Four hours of Lecture and  One hour of Discussion per week for 15 weeks.", 
+    "freshSophSem": false, 
     "hasCoreqs": "", 
     "isPrereqFor": "", 
     "note": "", 
     "number": "150A", 
     "offerHist": [
-        "Spring 2013", 
+        "Fall 2013", 
         "Fall 2012", 
         "Fall 2011", 
-        "Spring 2010"
+        "Fall 2010"
     ], 
     "prereqs": "A course in statistics, preferably 142. ", 
     "restrictions": "", 
@@ -4374,15 +4650,15 @@
     "deptAbbrev": "PB HLTH", 
     "description": "This course examines health at the individual and community/global level by examining the interplay of many factors, including the legal, social, political, and physical environments; economic forces; access to food, safe water, sanitation, and affordable preventive/medical care; nutrition; cultural beliefs and human behaviors; and religion; among others. Students will be expected to read, understand, and use advanced materials from diverse disciplines. Class accompanied by case-based discussions. ", 
     "format": "Three hours of Lecture and  One hour of Discussion per week for 15 weeks.", 
+    "freshSophSem": false, 
     "hasCoreqs": "", 
-    "isPrereqFor": "", 
+    "isPrereqFor": "This class is a prerequisite for PB HLTH 151.", 
     "note": "", 
     "number": "112", 
     "offerHist": [
-        "Spring 2013", 
-        "Fall 2012", 
-        "Fall 2011", 
-        "Spring 2010"
+        "Fall 2013", 
+        "Spring 2011", 
+        "Spring 2009"
     ], 
     "prereqs": "", 
     "restrictions": "", 
@@ -4405,40 +4681,44 @@
     }, 
     "classInstance": [
         {
-            "ccn": 21678, 
-            "days": "M", 
+            "ccn": 68315, 
+            "days": "TuTh", 
             "finalGroup": "Group 2--Tuesday, December 16, 2014, 9 a.m.", 
-            "instructor": "V. Benbow, Z. Alberts", 
+            "instructor": "K. Serafini, M. Ferrero", 
             "location": {
-                "building": "Wurster", 
-                "room": 112
+                "building": "Barrows", 
+                "room": 152
             }, 
             "seats": {
-                "available": 22, 
-                "enrolled": 18, 
-                "max": 40, 
-                "waitlist": 2
+                "available": 18, 
+                "enrolled": 12, 
+                "max": 30, 
+                "waitlist": 0
             }, 
             "semester": "Fall 2014", 
-            "time": "1130A-1P"
+            "time": {
+                "end": "2:30P", 
+                "start": "1P"
+            }
         }
     ], 
-    "courseThread": "This course is part of the Cultural Forms in Transit Course Thread.", 
+    "courseThread": "", 
     "credit": 3, 
     "crossListing": "", 
     "department": "Public Health", 
     "deptAbbrev": "PB HLTH", 
     "description": "The course will present the major human and natural activities that lead to release of hazardous materials into the environment as well as the causal links between chemical, physical, and biological hazards in the environment and their impact on human health. The basic principles of toxicology will be presented including dose-response relationships, absorption, distribution, metabolism, and excretion of chemicals. The overall role of environmental risks in the pattern of human disease, both nationally and internationally, will be covered. The engineering and policy strategies, including risk assessment, used to evaluate and control these risks will be introduced. ", 
     "format": "Three hours of Lecture and  One hour of Discussion per week for 15 weeks.", 
+    "freshSophSem": true, 
     "hasCoreqs": "", 
     "isPrereqFor": "This class is a prerequisite for PB HLTH 151.", 
     "note": "", 
     "number": "150B", 
     "offerHist": [
         "Fall 2013", 
+        "Spring 2013", 
         "Fall 2012", 
-        "Fall 2011", 
-        "Fall 2010"
+        "Spring 2012"
     ], 
     "prereqs": "142 and 150A recommended. May be taken concurrently. ", 
     "restrictions": "", 
@@ -4460,13 +4740,14 @@
         "SS": false
     }, 
     "classInstance": [], 
-    "courseThread": "This course is part of the Cultural Forms in Transit Course Thread.", 
+    "courseThread": "", 
     "credit": 4, 
     "crossListing": "L & S C40T", 
     "department": "American Studies", 
     "deptAbbrev": "AMERSTD", 
     "description": "This course will introduce students to the interdisciplinary field of American Studies, taking the \"Hollywood Dream Factory\" as the central theme. Focusing on both parts of that phrase, the course will proceed along a double path. We will examine the historical and geographical development of the motion picture industry from the rise of the studio system to the \"new\" entertainment economy of the 1980's and we will examine ways Hollywood is represented in literature and film. ", 
     "format": "Three hours of Lecture and  One hour of Discussion per week for 15 weeks.", 
+    "freshSophSem": true, 
     "hasCoreqs": "", 
     "isPrereqFor": "This class is a prerequisite for AMERSTD 151.", 
     "note": "", 
@@ -4483,7 +4764,7 @@
     "type": "Lecture"
 }, 
 "course96":{
-    "berkeleyConnect": true, 
+    "berkeleyConnect": false, 
     "breadth": {
         "AC": false, 
         "AL": false, 
@@ -4504,15 +4785,16 @@
     "deptAbbrev": "LEGALST", 
     "description": "Major perspectives in social and economic thought, e.g., natural law, natural right, laissez faire, \"possessive individualism,\" contractualism, pluralism, and social equality as they affect contemporary discussion of \"higher law,\" fairness, civic competence, and distributive justice. ", 
     "format": "Three hours of Lecture and  One hour of Discussion per week for 15 weeks.", 
+    "freshSophSem": false, 
     "hasCoreqs": "", 
-    "isPrereqFor": "", 
+    "isPrereqFor": "This class is a prerequisite for LEGALST 151.", 
     "note": "", 
     "number": "107", 
     "offerHist": [
-        "Fall 2013", 
-        "Fall 2012", 
-        "Fall 2011", 
-        "Fall 2010"
+        "Spring 2013", 
+        "Spring 2012", 
+        "Spring 2011", 
+        "Spring 2010"
     ], 
     "prereqs": "", 
     "restrictions": "", 
@@ -4534,15 +4816,16 @@
         "SS": false
     }, 
     "classInstance": [], 
-    "courseThread": "This course is part of the Cultural Forms in Transit Course Thread.", 
+    "courseThread": "", 
     "credit": 4, 
     "crossListing": "", 
     "department": "Legal Studies", 
     "deptAbbrev": "LEGALST", 
     "description": "An historical examination of major interpretations of law, morals and social development, with special emphasis on the social thought of the 18th and 19th centuries and including the writings of Marx, Maine, Durkheim, Weber and other contemporary figures. ", 
     "format": "Three hours of Lecture and  One hour of Discussion per week for 15 weeks.", 
-    "hasCoreqs": "", 
-    "isPrereqFor": "This class is a prerequisite for LEGALST 151.", 
+    "freshSophSem": false, 
+    "hasCoreqs": "LEGALST 1A must be taken concurrently.", 
+    "isPrereqFor": "", 
     "note": "", 
     "number": "103", 
     "offerHist": [
@@ -4572,22 +4855,25 @@
     }, 
     "classInstance": [
         {
-            "ccn": 27444, 
-            "days": "F", 
+            "ccn": 61644, 
+            "days": "MW", 
             "finalGroup": "Not applicable", 
-            "instructor": "M. Wetterman", 
+            "instructor": "A. Kennard", 
             "location": {
-                "building": "Dwinelle", 
-                "room": 176
+                "building": "Wurster", 
+                "room": 14
             }, 
             "seats": {
-                "available": 28, 
-                "enrolled": 472, 
-                "max": 500, 
+                "available": 15, 
+                "enrolled": 15, 
+                "max": 30, 
                 "waitlist": 0
             }, 
             "semester": "Fall 2014", 
-            "time": "230-4P"
+            "time": {
+                "end": "2:30P", 
+                "start": "1P"
+            }
         }
     ], 
     "courseThread": "", 
@@ -4597,15 +4883,15 @@
     "deptAbbrev": "PUB POL", 
     "description": "A systematic and critical approach to evaluating and designing public policies. Combines theory and application to particular cases and problems. Diverse policy topics, including environmental, health, education, communications, safety, and arts policy issues, among others. ", 
     "format": "Three hours of Lecture and  One hour of Discussion per week for 15 weeks.", 
+    "freshSophSem": false, 
     "hasCoreqs": "", 
     "isPrereqFor": "", 
     "note": "", 
     "number": "101", 
     "offerHist": [
         "Fall 2013", 
-        "Fall 2012", 
-        "Fall 2011", 
-        "Fall 2010"
+        "Spring 2011", 
+        "Spring 2009"
     ], 
     "prereqs": "", 
     "restrictions": "", 
@@ -4613,7 +4899,7 @@
     "type": "Lecture"
 }, 
 "course14":{
-    "berkeleyConnect": false, 
+    "berkeleyConnect": true, 
     "breadth": {
         "AC": false, 
         "AL": false, 
@@ -4628,22 +4914,25 @@
     }, 
     "classInstance": [
         {
-            "ccn": 84651, 
-            "days": "M", 
+            "ccn": 40856, 
+            "days": "TuTh", 
             "finalGroup": "Not applicable", 
-            "instructor": "M. Sarka", 
+            "instructor": "W. Hopkins, M. Anson", 
             "location": {
-                "building": "Dwinelle", 
-                "room": 76
+                "building": "Barrows", 
+                "room": 215
             }, 
             "seats": {
-                "available": 132, 
-                "enrolled": 18, 
-                "max": 150, 
-                "waitlist": 10
+                "available": 179, 
+                "enrolled": 521, 
+                "max": 700, 
+                "waitlist": 7
             }, 
             "semester": "Fall 2014", 
-            "time": "11A-12P"
+            "time": {
+                "end": "10A", 
+                "start": "9A"
+            }
         }
     ], 
     "courseThread": "", 
@@ -4653,15 +4942,16 @@
     "deptAbbrev": "ARCH", 
     "description": "This seminar provides an introduction to architectural theory since 1945, with emphasis on developments over the last three decades. Class readings, and discussions explore the post-World War II crisis within modernism, postmodernism within and beyond architectural culture, and more recent developments around issues such as rapid urbanization, sustainability, the politics of cultural identity and globalization. Transformations in architectural theory are examined in relation to historical forces such as the economy, the growth and transformation of cities, and the changing relationship between design professions and disciplines. The influences of digital media, new materials and production techniques on architectural education and practice are explored and the implications for architectural theory assessed. Key issues are anchored in case studies of buildings, urban spaces, and the institutions and agents or architectural culture. ", 
     "format": "Three hours of Seminar per week for 15 weeks.", 
+    "freshSophSem": true, 
     "hasCoreqs": "", 
     "isPrereqFor": "", 
-    "note": "This is a note.", 
+    "note": "", 
     "number": "275", 
     "offerHist": [
+        "Fall 2013", 
         "Spring 2013", 
         "Fall 2012", 
-        "Fall 2011", 
-        "Spring 2010"
+        "Spring 2012"
     ], 
     "prereqs": "The course is open to upper division undergraduates and graduate students. ", 
     "restrictions": "", 
@@ -4690,15 +4980,16 @@
     "deptAbbrev": "ARCH", 
     "description": "This seminar provides an introduction to architectural theory since 1945, with emphasis on developments over the last three decades. Class readings and discussions explore the post-World War II crisis within modernism, postmodernism within and beyond architectural culture, and more recent developments around issues such as rapid urbanization, sustainability, the politics of cultural identity, and globalization. Transformations in architectural theory are examined in relation to historical forces such as the economy, the growth and transformation of cities, and the changing relationship between design professions and disciplines. The influences of digital media, new materials and production techniques on architectural education and practice are explored and the implications for architectural theory assessed. Key issues are anchored in case studies of buildings, urban spaces, and the institutions and agents of architectural culture. ", 
     "format": "Three hours of Seminar per week for 15 weeks.", 
+    "freshSophSem": false, 
     "hasCoreqs": "", 
     "isPrereqFor": "", 
     "note": "", 
     "number": "175", 
     "offerHist": [
+        "Fall 2013", 
         "Spring 2013", 
-        "Spring 2012", 
-        "Spring 2011", 
-        "Spring 2010"
+        "Fall 2012", 
+        "Spring 2012"
     ], 
     "prereqs": "Open to upper division undergraduates and graduate students. ", 
     "restrictions": "", 
@@ -4727,15 +5018,16 @@
     "deptAbbrev": "MBA", 
     "description": "This course will cover a wide variety of topics relating to the management of international marketing strategy, including frameworks for developing international marketing strategy; sources and sustainability of competitive advantage; international market structure analysis; market entry strategy; and integration of marketing strategy with other functional strategies. ", 
     "format": "Two hours of Lecture per week for 15 weeks.", 
+    "freshSophSem": false, 
     "hasCoreqs": "", 
-    "isPrereqFor": "", 
+    "isPrereqFor": "This class is a prerequisite for MBA 151.", 
     "note": "", 
     "number": "268A", 
     "offerHist": [
+        "Fall 2013", 
         "Spring 2013", 
         "Fall 2012", 
-        "Fall 2011", 
-        "Spring 2010"
+        "Spring 2012"
     ], 
     "prereqs": "Business Administration 206 or equivalent. ", 
     "restrictions": "", 
@@ -4758,22 +5050,25 @@
     }, 
     "classInstance": [
         {
-            "ccn": 75979, 
+            "ccn": 57533, 
             "days": "MW", 
             "finalGroup": "Not applicable", 
-            "instructor": "I. Jaskolski", 
+            "instructor": "S. Abdullah", 
             "location": {
                 "building": "Dwinelle", 
-                "room": 217
+                "room": 280
             }, 
             "seats": {
-                "available": 3, 
-                "enrolled": 47, 
-                "max": 50, 
-                "waitlist": 10
+                "available": 15, 
+                "enrolled": 15, 
+                "max": 30, 
+                "waitlist": 0
             }, 
             "semester": "Fall 2014", 
-            "time": "3-430P"
+            "time": {
+                "end": "4P", 
+                "start": "2:30P"
+            }
         }
     ], 
     "courseThread": "", 
@@ -4783,14 +5078,15 @@
     "deptAbbrev": "A,RESEC", 
     "description": "Theory of renewable and nonrenewable natural resource use, with applications to forests, fisheries, energy, and climate change. Resources, growth, and sustainability. Economic theory of environmental policy. Externality; the Coasian critique; tax incidence and anomalies; indirect taxes; the double dividend; environmental standards; environmental regulation; impact of uncertainty on taxes and standards; mechanism design; monitoring, penalties, and regulatory strategy; emissions markets.", 
     "format": "Three hours of Lecture per week for 15 weeks.", 
-    "hasCoreqs": "", 
+    "freshSophSem": true, 
+    "hasCoreqs": "A,RESEC 1A must be taken concurrently.", 
     "isPrereqFor": "This class is a prerequisite for A,RESEC 151.", 
     "note": "", 
     "number": "261", 
     "offerHist": [
         "Spring 2013", 
-        "Fall 2012", 
-        "Fall 2011", 
+        "Spring 2012", 
+        "Spring 2011", 
         "Spring 2010"
     ], 
     "prereqs": "Ph.D.-level economic theory or consent of instructor. ", 
@@ -4814,94 +5110,67 @@
     }, 
     "classInstance": [
         {
-            "ccn": 22017, 
+            "ccn": 69187, 
             "days": "Th", 
             "finalGroup": "Not applicable", 
-            "instructor": "K. Serafini, M. Ferrero", 
+            "instructor": "M. Sarka", 
             "location": {
-                "building": "Dwinelle", 
-                "room": 243
+                "building": "Soda", 
+                "room": 33
             }, 
             "seats": {
-                "available": 10, 
-                "enrolled": 0, 
-                "max": 10, 
-                "waitlist": 3
-            }, 
-            "semester": "Fall 2014", 
-            "time": "4-5P"
-        }, 
-        {
-            "ccn": 62922, 
-            "days": "F", 
-            "finalGroup": "Not applicable", 
-            "instructor": "M. Mhasalkar, U. Jehlicka", 
-            "location": {
-                "building": "Wurster", 
-                "room": 297
-            }, 
-            "seats": {
-                "available": 0, 
-                "enrolled": 20, 
-                "max": 20, 
-                "waitlist": 1
-            }, 
-            "semester": "Fall 2014", 
-            "time": "1-2P"
-        }, 
-        {
-            "ccn": 13963, 
-            "days": "F", 
-            "finalGroup": "Not applicable", 
-            "instructor": "M. Wetterman", 
-            "location": {
-                "building": "Dwinelle", 
-                "room": 148
-            }, 
-            "seats": {
-                "available": 12, 
-                "enrolled": 3, 
-                "max": 15, 
-                "waitlist": 1
-            }, 
-            "semester": "Fall 2014", 
-            "time": "4-5P"
-        }, 
-        {
-            "ccn": 80393, 
-            "days": "M", 
-            "finalGroup": "Not applicable", 
-            "instructor": "S. Abdullah", 
-            "location": {
-                "building": "Barrows", 
-                "room": 277
-            }, 
-            "seats": {
-                "available": 12, 
-                "enrolled": 0, 
+                "available": 7, 
+                "enrolled": 5, 
                 "max": 12, 
                 "waitlist": 0
             }, 
             "semester": "Fall 2014", 
-            "time": "4-5P"
+            "time": {
+                "end": "1P", 
+                "start": "12P"
+            }
         }, 
         {
-            "ccn": 21392, 
+            "ccn": 32326, 
             "days": "W", 
             "finalGroup": "Not applicable", 
-            "instructor": "C. Giorgano", 
+            "instructor": "S. Abdullah", 
             "location": {
                 "building": "Wurster", 
-                "room": 76
+                "room": 148
             }, 
             "seats": {
-                "available": 7, 
-                "enrolled": 18, 
-                "max": 25, 
-                "waitlist": 3
+                "available": 0, 
+                "enrolled": 15, 
+                "max": 15, 
+                "waitlist": 5
             }, 
             "semester": "Fall 2014", 
-            "time": "12-1P"
+            "time": {
+                "end": "12P", 
+                "start": "11A"
+            }
+        }, 
+        {
+            "ccn": 52038, 
+            "days": "F", 
+            "finalGroup": "Not applicable", 
+            "instructor": "M. Wetterman", 
+            "location": {
+                "building": "Evans", 
+                "room": 68
+            }, 
+            "seats": {
+                "available": 4, 
+                "enrolled": 11, 
+                "max": 15, 
+                "waitlist": 7
+            }, 
+            "semester": "Fall 2014", 
+            "time": {
+                "end": "1P", 
+                "start": "12P"
+            }
         }
     ], 
     "courseThread": "", 
@@ -4911,15 +5180,16 @@
     "deptAbbrev": "A,RESEC", 
     "description": "Theory of renewable and nonrenewable natural resource use, with applications to forests, fisheries, energy, and climate change. Resources, growth, and sustainability. Economic theory of environmental policy. Externality; the Coasian critique; tax incidence and anomalies; indirect taxes; the double dividend; environmental standards; environmental regulation; impact of uncertainty on taxes and standards; mechanism design; monitoring, penalties, and regulatory strategy; emissions markets.", 
     "format": "Three hours of Lecture per week for 15 weeks.", 
+    "freshSophSem": false, 
     "hasCoreqs": "", 
     "isPrereqFor": "", 
     "note": "", 
     "number": "261", 
     "offerHist": [
-        "Fall 2013", 
         "Spring 2013", 
-        "Fall 2012", 
-        "Spring 2012"
+        "Spring 2012", 
+        "Spring 2011", 
+        "Spring 2010"
     ], 
     "prereqs": "Ph.D.-level economic theory or consent of instructor. ", 
     "restrictions": "", 
@@ -4942,22 +5212,25 @@
     }, 
     "classInstance": [
         {
-            "ccn": 56814, 
+            "ccn": 69416, 
             "days": "M", 
             "finalGroup": "Not applicable", 
-            "instructor": "D. Matousek, C. Stoddard", 
+            "instructor": "S. Abdullah", 
             "location": {
-                "building": "Soda", 
-                "room": 101
+                "building": "Wurster", 
+                "room": 199
             }, 
             "seats": {
-                "available": 10, 
-                "enrolled": 40, 
-                "max": 50, 
-                "waitlist": 7
+                "available": 92, 
+                "enrolled": 8, 
+                "max": 100, 
+                "waitlist": 0
             }, 
             "semester": "Fall 2014", 
-            "time": "12-1P"
+            "time": {
+                "end": "6P", 
+                "start": "4:30P"
+            }
         }
     ], 
     "courseThread": "", 
@@ -4967,14 +5240,15 @@
     "deptAbbrev": "CY PLAN", 
     "description": "Covers comparative planning and policy topics in urban, regional, and rural transportation that are transnational in nature. Builds policy lessons on planning for mobility, accessibility, and sustainability in different political and contextual settings. Case studies are drawn from both developed and developing countries. ", 
     "format": " Three hours of lecture/discussion per week. ", 
+    "freshSophSem": false, 
     "hasCoreqs": "", 
-    "isPrereqFor": "This class is a prerequisite for CY PLAN 151.", 
+    "isPrereqFor": "", 
     "note": "", 
     "number": "219", 
     "offerHist": [
         "Spring 2013", 
-        "Fall 2012", 
-        "Fall 2011", 
+        "Spring 2012", 
+        "Spring 2011", 
         "Spring 2010"
     ], 
     "prereqs": "", 
@@ -4998,76 +5272,109 @@
     }, 
     "classInstance": [
         {
-            "ccn": 26041, 
-            "days": "M", 
-            "finalGroup": "Not applicable", 
-            "instructor": "A. Kennard", 
-            "location": {
-                "building": "Wheeler", 
-                "room": 20
-            }, 
-            "seats": {
-                "available": 8, 
-                "enrolled": 7, 
-                "max": 15, 
-                "waitlist": 4
-            }, 
-            "semester": "Fall 2014", 
-            "time": "2-3P"
-        }, 
-        {
-            "ccn": 61785, 
+            "ccn": 27747, 
             "days": "Tu", 
             "finalGroup": "Not applicable", 
-            "instructor": "D. Matousek, C. Stoddard", 
+            "instructor": "W. Hopkins, M. Anson", 
             "location": {
                 "building": "Barrows", 
-                "room": 211
+                "room": 264
             }, 
             "seats": {
-                "available": 19, 
-                "enrolled": 1, 
+                "available": 6, 
+                "enrolled": 14, 
                 "max": 20, 
-                "waitlist": 2
-            }, 
-            "semester": "Fall 2014", 
-            "time": "8-9A"
-        }, 
-        {
-            "ccn": 48391, 
-            "days": "W", 
-            "finalGroup": "Not applicable", 
-            "instructor": "S. Abdullah", 
-            "location": {
-                "building": "Soda", 
-                "room": 43
-            }, 
-            "seats": {
-                "available": 9, 
-                "enrolled": 3, 
-                "max": 12, 
-                "waitlist": 0
-            }, 
-            "semester": "Fall 2014", 
-            "time": "9-10A"
-        }, 
-        {
-            "ccn": 25158, 
-            "days": "F", 
-            "finalGroup": "Not applicable", 
-            "instructor": "C. Marquez", 
-            "location": {
-                "building": "Evans", 
-                "room": 289
-            }, 
-            "seats": {
-                "available": 7, 
-                "enrolled": 8, 
-                "max": 15, 
                 "waitlist": 9
             }, 
             "semester": "Fall 2014", 
-            "time": "4-5P"
+            "time": {
+                "end": "6P", 
+                "start": "5P"
+            }
+        }, 
+        {
+            "ccn": 33565, 
+            "days": "Tu", 
+            "finalGroup": "Not applicable", 
+            "instructor": "B. Varela", 
+            "location": {
+                "building": "Dwinelle", 
+                "room": 200
+            }, 
+            "seats": {
+                "available": 15, 
+                "enrolled": 10, 
+                "max": 25, 
+                "waitlist": 0
+            }, 
+            "semester": "Fall 2014", 
+            "time": {
+                "end": "5P", 
+                "start": "4P"
+            }
+        }, 
+        {
+            "ccn": 76704, 
+            "days": "W", 
+            "finalGroup": "Not applicable", 
+            "instructor": "I. Jaskolski", 
+            "location": {
+                "building": "Evans", 
+                "room": 276
+            }, 
+            "seats": {
+                "available": 9, 
+                "enrolled": 16, 
+                "max": 25, 
+                "waitlist": 3
+            }, 
+            "semester": "Fall 2014", 
+            "time": {
+                "end": "9A", 
+                "start": "8A"
+            }
+        }, 
+        {
+            "ccn": 15484, 
+            "days": "Th", 
+            "finalGroup": "Not applicable", 
+            "instructor": "C. Marquez", 
+            "location": {
+                "building": "Barrows", 
+                "room": 27
+            }, 
+            "seats": {
+                "available": 7, 
+                "enrolled": 18, 
+                "max": 25, 
+                "waitlist": 0
+            }, 
+            "semester": "Fall 2014", 
+            "time": {
+                "end": "12P", 
+                "start": "11A"
+            }
+        }, 
+        {
+            "ccn": 34555, 
+            "days": "F", 
+            "finalGroup": "Not applicable", 
+            "instructor": "O. Bandyopadhyay", 
+            "location": {
+                "building": "Dwinelle", 
+                "room": 40
+            }, 
+            "seats": {
+                "available": 2, 
+                "enrolled": 23, 
+                "max": 25, 
+                "waitlist": 0
+            }, 
+            "semester": "Fall 2014", 
+            "time": {
+                "end": "11A", 
+                "start": "10A"
+            }
         }
     ], 
     "courseThread": "", 
@@ -5077,6 +5384,7 @@
     "deptAbbrev": "INTEGBI", 
     "description": "Course focuses on biological and cultural aspects of human reproduction including conception, embryology, pregnancy, labor, delivery, lactation, infant/child development, puberty, and reproductive aging. This includes study of factors that diminish and factors that enhance fertility, reproduction, and maternal-child health. We explore evolutionary, ecological, environmental, cultural, ethnobiological, and nutritional determinants of fertility, reproductive rate, infant survival, and population growth. ", 
     "format": "Three hours of Lecture and  One hour of Discussion per week for 15 weeks.  Six hours of Lecture and  Two hours of Discussion per week for 8 weeks.", 
+    "freshSophSem": false, 
     "hasCoreqs": "", 
     "isPrereqFor": "", 
     "note": "", 
@@ -5108,22 +5416,25 @@
     }, 
     "classInstance": [
         {
-            "ccn": 68674, 
-            "days": "M", 
-            "finalGroup": "Group 3--Wednesday, December 17, 2014, 12 p.m.", 
-            "instructor": "B. Varela", 
+            "ccn": 68354, 
+            "days": "MW", 
+            "finalGroup": "Group 1--Monday, December 15, 2014, 1 p.m.", 
+            "instructor": "O. Bandyopadhyay", 
             "location": {
-                "building": "Evans", 
-                "room": 60
+                "building": "Wurster", 
+                "room": 298
             }, 
             "seats": {
-                "available": 26, 
-                "enrolled": 14, 
-                "max": 40, 
-                "waitlist": 4
+                "available": 297, 
+                "enrolled": 203, 
+                "max": 500, 
+                "waitlist": 10
             }, 
             "semester": "Fall 2014", 
-            "time": "2-3P"
+            "time": {
+                "end": "2:30P", 
+                "start": "1P"
+            }
         }
     ], 
     "courseThread": "", 
@@ -5133,15 +5444,16 @@
     "deptAbbrev": "INTEGBI", 
     "description": "Course focuses on biological and cultural aspects of human reproduction including conception, embryology, pregnancy, labor, delivery, lactation, infant/child development, puberty, and reproductive aging. This includes study of factors that diminish and factors that enhance fertility, reproduction, and maternal-child health. We explore evolutionary, ecological, environmental, cultural, ethnobiological, and nutritional determinants of fertility, reproductive rate, infant survival, and population growth. ", 
     "format": "Three hours of Lecture and  One hour of Discussion per week for 15 weeks.  Six hours of Lecture and  Two hours of Discussion per week for 8 weeks.", 
-    "hasCoreqs": "INTEGBI 1A must be taken concurrently.", 
+    "freshSophSem": false, 
+    "hasCoreqs": "", 
     "isPrereqFor": "This class is a prerequisite for INTEGBI 151.", 
     "note": "", 
     "number": "140", 
     "offerHist": [
-        "Fall 2013", 
         "Spring 2013", 
-        "Fall 2012", 
-        "Spring 2012"
+        "Spring 2012", 
+        "Spring 2011", 
+        "Spring 2010"
     ], 
     "prereqs": "Biology 1A or equivalent. ", 
     "restrictions": "", 
@@ -5170,9 +5482,10 @@
     "deptAbbrev": "MCELLBI", 
     "description": "A comprehensive survey of the fundamentals of biological chemistry, including the properties of intermediary metabolites, the structure and function of biological macromolecules, the logic of metabolic pathways (both degradative and biosynthetic) and the molecular basis of genetics and gene expression. ", 
     "format": "Three hours of Lecture and  One hour of Discussion per week for 15 weeks.  Four hours of Lecture and  Two hours of Discussion per week for 10 weeks.  Six hours of Lecture and  Two hours of Discussion per week for 8 weeks.", 
-    "hasCoreqs": "", 
-    "isPrereqFor": "", 
-    "note": "This is a note.", 
+    "freshSophSem": false, 
+    "hasCoreqs": "MCELLBI 1A must be taken concurrently.", 
+    "isPrereqFor": "This class is a prerequisite for MCELLBI 151.", 
+    "note": "", 
     "number": "102", 
     "offerHist": [
         "Fall 2013", 

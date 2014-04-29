@@ -14,40 +14,25 @@
     }, 
     "classInstance": [
         {
-            "ccn": 52625, 
-            "days": "MW", 
+            "ccn": 35116, 
+            "days": "MWF", 
             "finalGroup": "Not applicable", 
-            "instructor": "A. Kennard", 
+            "instructor": "B. Varela", 
             "location": {
-                "building": "Dwinelle", 
-                "room": 33
+                "building": "Barrows", 
+                "room": 277
             }, 
             "seats": {
-                "available": 245, 
-                "enrolled": 255, 
-                "max": 500, 
-                "waitlist": 10
+                "available": 9, 
+                "enrolled": 41, 
+                "max": 50, 
+                "waitlist": 9
             }, 
             "semester": "Fall 2014", 
-            "time": "230-4P"
-        }, 
-        {
-            "ccn": 60147, 
-            "days": "M", 
-            "finalGroup": "Not applicable", 
-            "instructor": "W. Hopkins, M. Anson", 
-            "location": {
-                "building": "Evans", 
-                "room": 287
-            }, 
-            "seats": {
-                "available": 142, 
-                "enrolled": 8, 
-                "max": 150, 
-                "waitlist": 4
-            }, 
-            "semester": "Fall 2014", 
-            "time": "3-430P"
+            "time": {
+                "end": "2P", 
+                "start": "1P"
+            }
         }
     ], 
     "courseThread": "", 
@@ -57,6 +42,7 @@
     "deptAbbrev": "MEC ENG", 
     "description": "Engineering is challenged by issues of security, poverty and under-development, and environmental sustainability. These issues intersect with those of race, class, and culture in U.S. society. This course focuses on engineering ethics case studies as they apply to issues of workplace diversity, sustainable practices, economic impacts on neighborhoods and nations, and issues of security and identity. The goal of this course is to broaden the understanding of engineering ethics from individual and business-based practices to those affecting communities and nations. This class cannot be used to satisfy any Engineering requirement (technical electives, engineering units, or courses). ", 
     "format": "Six hours of Lecture per week for 8 weeks.", 
+    "freshSophSem": false, 
     "hasCoreqs": "", 
     "isPrereqFor": "", 
     "note": "", 
@@ -94,15 +80,16 @@
     "deptAbbrev": "MEC ENG", 
     "description": "Sustainable design, manufacturing, and management as exercised by the enterprise is a poorly understood idea and one that is not intuitively connected to business value or engineering practice. This is especially true for the manufacturing aspects of most enterprises (tools, processes, and systems). This course will provide the basis for understanding (1) what comprises sustainable practices in for-profit enterprises, (2) how to practice and measure continuous improvement using sustainability thinking, techniques, and tools for product and manufacturing process design, and (3) the techniques for and value of effective communication of sustainablilty performance to internal and external audiences. Material in the course will be supplemented by speakers with diverse backgrounds in corporate sustainability, environmental consulting, non-governmental organizations, and academia. ", 
     "format": "Three hours of Lecture and  One hour of Discussion per week for 15 weeks.", 
-    "hasCoreqs": "", 
+    "freshSophSem": true, 
+    "hasCoreqs": "MEC ENG 1A must be taken concurrently.", 
     "isPrereqFor": "", 
     "note": "", 
     "number": "290I", 
     "offerHist": [
-        "Fall 2013", 
+        "Spring 2013", 
         "Fall 2012", 
         "Fall 2011", 
-        "Fall 2010"
+        "Spring 2010"
     ], 
     "prereqs": "Graduate standing, or consent of instructor, especially for students not in engineering, business, or other management of technology programs. ", 
     "restrictions": "", 
@@ -125,40 +112,25 @@
     }, 
     "classInstance": [
         {
-            "ccn": 65355, 
+            "ccn": 77298, 
             "days": "MW", 
-            "finalGroup": "Group 4--Thursday, December 18, 2014, 3 p.m.", 
-            "instructor": "V. Benbow, Z. Alberts", 
+            "finalGroup": "Group 2--Tuesday, December 16, 2014, 9 a.m.", 
+            "instructor": "M. Sarka", 
             "location": {
-                "building": "Barrows", 
-                "room": 294
+                "building": "Wurster", 
+                "room": 94
             }, 
             "seats": {
-                "available": 80, 
-                "enrolled": 620, 
-                "max": 700, 
-                "waitlist": 6
-            }, 
-            "semester": "Fall 2014", 
-            "time": "3-430P"
-        }, 
-        {
-            "ccn": 81809, 
-            "days": "MW", 
-            "finalGroup": "Group 4--Thursday, December 18, 2014, 3 p.m.", 
-            "instructor": "S. Abdullah", 
-            "location": {
-                "building": "Dwinelle", 
-                "room": 219
-            }, 
-            "seats": {
-                "available": 25, 
-                "enrolled": 25, 
+                "available": 8, 
+                "enrolled": 42, 
                 "max": 50, 
-                "waitlist": 5
+                "waitlist": 0
             }, 
             "semester": "Fall 2014", 
-            "time": "12-1P"
+            "time": {
+                "end": "11:30A", 
+                "start": "10A"
+            }
         }
     ], 
     "courseThread": "", 
@@ -168,15 +140,16 @@
     "deptAbbrev": "ESPM", 
     "description": "Fundamentals of wildland fire including fire behavior modeling, fire history methods, prescribed fire techniques, fire ecology, fire management, fire in the urban-wildland intermix, wildland fire, and ecosystem sustainability. Laboratories on inventory methods, fire history, modeling of fire behavior and risk, and prescribed burning. ", 
     "format": "Two hours of Lecture and  Three hours of Laboratory per week for 15 weeks.", 
+    "freshSophSem": true, 
     "hasCoreqs": "", 
     "isPrereqFor": "", 
     "note": "", 
     "number": "181", 
     "offerHist": [
-        "Spring 2013", 
+        "Fall 2013", 
         "Fall 2012", 
         "Fall 2011", 
-        "Spring 2010"
+        "Fall 2010"
     ], 
     "prereqs": "Consent of instructor. ", 
     "restrictions": "", 
@@ -199,94 +172,88 @@
     }, 
     "classInstance": [
         {
-            "ccn": 86263, 
-            "days": "Tu", 
+            "ccn": 95305, 
+            "days": "F", 
             "finalGroup": "Not applicable", 
-            "instructor": "C. Giorgano", 
+            "instructor": "M. Wetterman", 
             "location": {
-                "building": "Wurster", 
-                "room": 79
+                "building": "Barrows", 
+                "room": 254
             }, 
             "seats": {
                 "available": 0, 
-                "enrolled": 20, 
-                "max": 20, 
-                "waitlist": 3
+                "enrolled": 10, 
+                "max": 10, 
+                "waitlist": 0
             }, 
             "semester": "Fall 2014", 
-            "time": "5-6P"
+            "time": {
+                "end": "5P", 
+                "start": "4P"
+            }
         }, 
         {
-            "ccn": 93759, 
+            "ccn": 63207, 
+            "days": "F", 
+            "finalGroup": "Not applicable", 
+            "instructor": "V. Benbow, Z. Alberts", 
+            "location": {
+                "building": "Wheeler", 
+                "room": 126
+            }, 
+            "seats": {
+                "available": 2, 
+                "enrolled": 23, 
+                "max": 25, 
+                "waitlist": 0
+            }, 
+            "semester": "Fall 2014", 
+            "time": {
+                "end": "4P", 
+                "start": "3P"
+            }
+        }, 
+        {
+            "ccn": 15716, 
+            "days": "M", 
+            "finalGroup": "Not applicable", 
+            "instructor": "W. Hopkins, M. Anson", 
+            "location": {
+                "building": "Wheeler", 
+                "room": 67
+            }, 
+            "seats": {
+                "available": 8, 
+                "enrolled": 2, 
+                "max": 10, 
+                "waitlist": 0
+            }, 
+            "semester": "Fall 2014", 
+            "time": {
+                "end": "3P", 
+                "start": "2P"
+            }
+        }, 
+        {
+            "ccn": 67393, 
             "days": "Tu", 
             "finalGroup": "Not applicable", 
             "instructor": "M. Mhasalkar, U. Jehlicka", 
             "location": {
-                "building": "Dwinelle", 
-                "room": 210
-            }, 
-            "seats": {
-                "available": 10, 
-                "enrolled": 2, 
-                "max": 12, 
-                "waitlist": 9
-            }, 
-            "semester": "Fall 2014", 
-            "time": "5-6P"
-        }, 
-        {
-            "ccn": 15607, 
-            "days": "Tu", 
-            "finalGroup": "Not applicable", 
-            "instructor": "C. Giorgano", 
-            "location": {
-                "building": "Barrows", 
-                "room": 287
-            }, 
-            "seats": {
-                "available": 10, 
-                "enrolled": 0, 
-                "max": 10, 
-                "waitlist": 1
-            }, 
-            "semester": "Fall 2014", 
-            "time": "12-1P"
-        }, 
-        {
-            "ccn": 96862, 
-            "days": "W", 
-            "finalGroup": "Not applicable", 
-            "instructor": "V. Benbow, Z. Alberts", 
-            "location": {
                 "building": "Soda", 
-                "room": 214
+                "room": 245
             }, 
             "seats": {
-                "available": 3, 
-                "enrolled": 7, 
-                "max": 10, 
-                "waitlist": 9
+                "available": 9, 
+                "enrolled": 6, 
+                "max": 15, 
+                "waitlist": 0
             }, 
             "semester": "Fall 2014", 
-            "time": "11A-12P"
-        }, 
-        {
-            "ccn": 57456, 
-            "days": "Th", 
-            "finalGroup": "Not applicable", 
-            "instructor": "B. Varela", 
-            "location": {
-                "building": "Wheeler", 
-                "room": 114
-            }, 
-            "seats": {
-                "available": 21, 
-                "enrolled": 4, 
-                "max": 25, 
-                "waitlist": 4
-            }, 
-            "semester": "Fall 2014", 
-            "time": "11A-12P"
+            "time": {
+                "end": "6P", 
+                "start": "5P"
+            }
         }
     ], 
     "courseThread": "", 
@@ -296,14 +263,16 @@
     "deptAbbrev": "ESPM", 
     "description": "Fundamentals of wildland fire including fire behavior modeling, fire history methods, prescribed fire techniques, fire ecology, fire management, fire in the urban-wildland intermix, wildland fire, and ecosystem sustainability. Laboratories on inventory methods, fire history, modeling of fire behavior and risk, and prescribed burning. ", 
     "format": "Two hours of Lecture and  Three hours of Laboratory per week for 15 weeks.", 
+    "freshSophSem": false, 
     "hasCoreqs": "", 
     "isPrereqFor": "", 
-    "note": "", 
+    "note": "This is a note.", 
     "number": "181", 
     "offerHist": [
         "Fall 2013", 
-        "Spring 2011", 
-        "Spring 2009"
+        "Fall 2012", 
+        "Fall 2011", 
+        "Fall 2010"
     ], 
     "prereqs": "Consent of instructor. ", 
     "restrictions": "", 
@@ -326,112 +295,67 @@
     }, 
     "classInstance": [
         {
-            "ccn": 36379, 
-            "days": "W", 
+            "ccn": 49994, 
+            "days": "Th", 
             "finalGroup": "Not applicable", 
-            "instructor": "D. Matousek, C. Stoddard", 
+            "instructor": "V. Benbow, Z. Alberts", 
             "location": {
                 "building": "Soda", 
+                "room": 179
+            }, 
+            "seats": {
+                "available": 3, 
+                "enrolled": 12, 
+                "max": 15, 
+                "waitlist": 0
+            }, 
+            "semester": "Fall 2014", 
+            "time": {
+                "end": "1P", 
+                "start": "12P"
+            }
+        }, 
+        {
+            "ccn": 14157, 
+            "days": "Tu", 
+            "finalGroup": "Not applicable", 
+            "instructor": "S. Abdullah", 
+            "location": {
+                "building": "Wheeler", 
+                "room": 14
+            }, 
+            "seats": {
+                "available": 6, 
+                "enrolled": 19, 
+                "max": 25, 
+                "waitlist": 0
+            }, 
+            "semester": "Fall 2014", 
+            "time": {
+                "end": "2P", 
+                "start": "1P"
+            }
+        }, 
+        {
+            "ccn": 83889, 
+            "days": "F", 
+            "finalGroup": "Not applicable", 
+            "instructor": "S. Abdullah", 
+            "location": {
+                "building": "Wheeler", 
                 "room": 107
             }, 
             "seats": {
-                "available": 14, 
-                "enrolled": 6, 
-                "max": 20, 
-                "waitlist": 5
-            }, 
-            "semester": "Fall 2014", 
-            "time": "1-2P"
-        }, 
-        {
-            "ccn": 36014, 
-            "days": "Th", 
-            "finalGroup": "Not applicable", 
-            "instructor": "K. Serafini, M. Ferrero", 
-            "location": {
-                "building": "Wheeler", 
-                "room": 197
-            }, 
-            "seats": {
                 "available": 7, 
-                "enrolled": 3, 
-                "max": 10, 
-                "waitlist": 2
+                "enrolled": 8, 
+                "max": 15, 
+                "waitlist": 1
             }, 
             "semester": "Fall 2014", 
-            "time": "5-6P"
-        }, 
-        {
-            "ccn": 70176, 
-            "days": "F", 
-            "finalGroup": "Not applicable", 
-            "instructor": "C. Marquez", 
-            "location": {
-                "building": "Wheeler", 
-                "room": 246
-            }, 
-            "seats": {
-                "available": 9, 
-                "enrolled": 3, 
-                "max": 12, 
-                "waitlist": 10
-            }, 
-            "semester": "Fall 2014", 
-            "time": "5-6P"
-        }, 
-        {
-            "ccn": 40685, 
-            "days": "W", 
-            "finalGroup": "Not applicable", 
-            "instructor": "C. Marquez", 
-            "location": {
-                "building": "Soda", 
-                "room": 82
-            }, 
-            "seats": {
-                "available": 1, 
-                "enrolled": 19, 
-                "max": 20, 
-                "waitlist": 10
-            }, 
-            "semester": "Fall 2014", 
-            "time": "5-6P"
-        }, 
-        {
-            "ccn": 49642, 
-            "days": "Tu", 
-            "finalGroup": "Not applicable", 
-            "instructor": "B. Varela", 
-            "location": {
-                "building": "Wurster", 
-                "room": 220
-            }, 
-            "seats": {
-                "available": 5, 
-                "enrolled": 5, 
-                "max": 10, 
-                "waitlist": 10
-            }, 
-            "semester": "Fall 2014", 
-            "time": "1-2P"
-        }, 
-        {
-            "ccn": 59213, 
-            "days": "Th", 
-            "finalGroup": "Not applicable", 
-            "instructor": "C. Giorgano", 
-            "location": {
-                "building": "Dwinelle", 
-                "room": 298
-            }, 
-            "seats": {
-                "available": 4, 
-                "enrolled": 6, 
-                "max": 10, 
-                "waitlist": 6
-            }, 
-            "semester": "Fall 2014", 
-            "time": "11A-12P"
+            "time": {
+                "end": "3P", 
+                "start": "2P"
+            }
         }
     ], 
     "courseThread": "", 
@@ -441,14 +365,16 @@
     "deptAbbrev": "ESPM", 
     "description": "Examine major issues and approaches in ecosystem management. Topics include development of the ecosystem approach, valuation of ecosystem commodities and services, assessment of ecosystem sustainability, simulation and prediction of ecosystem dynamics, decision-making methods, social and institutional aspects. Particular emphasis is given to emerging conceptual frameworks and analytical tools. ", 
     "format": "Three hours of Lecture per week for 15 weeks.", 
+    "freshSophSem": false, 
     "hasCoreqs": "", 
     "isPrereqFor": "", 
-    "note": "This is a note.", 
+    "note": "", 
     "number": "273", 
     "offerHist": [
         "Fall 2013", 
-        "Spring 2011", 
-        "Spring 2009"
+        "Fall 2012", 
+        "Fall 2011", 
+        "Fall 2010"
     ], 
     "prereqs": "Basic ecology, microeconomics, and resource management. ", 
     "restrictions": "", 
@@ -477,15 +403,16 @@
     "deptAbbrev": "ESPM", 
     "description": "Science-based technologies that are central to the search for sustainability in contemporary societies and their environmental impacts. Theoretical approaches to investigating how science, technology, and environment intersect. How societies move closer to sustainable technological systems. Redesign of existing technologies and the introduction of new technologies. How adverse impacts can be prevented through policy. Case studies of contemporary developments. ", 
     "format": "Two hours of Lecture per week for 15 weeks.", 
+    "freshSophSem": false, 
     "hasCoreqs": "", 
-    "isPrereqFor": "This class is a prerequisite for ESPM 151.", 
+    "isPrereqFor": "", 
     "note": "", 
     "number": "261", 
     "offerHist": [
-        "Fall 2013", 
         "Spring 2013", 
         "Fall 2012", 
-        "Spring 2012"
+        "Fall 2011", 
+        "Spring 2010"
     ], 
     "prereqs": "Graduate standing or consent of instructor. ", 
     "restrictions": "", 
@@ -514,15 +441,16 @@
     "deptAbbrev": "ENV DES", 
     "description": "The aim of the course is to provide students with knowledge and insight into the major issues and debates relating to sustainabiltiy. By the end of the course, students should have a critical understanding of the complexity and scale of the sustainability challenge, how different actors characterize and understand sustainability, the approaches that have been developed to implement these varyig vissions, and the institutional, political, and individual barriers to these visions ", 
     "format": "Three hours of Lecture per week for 15 weeks.", 
+    "freshSophSem": true, 
     "hasCoreqs": "", 
     "isPrereqFor": "", 
-    "note": "", 
+    "note": "This is a note.", 
     "number": "102", 
     "offerHist": [
         "Fall 2013", 
-        "Spring 2013", 
         "Fall 2012", 
-        "Spring 2012"
+        "Fall 2011", 
+        "Fall 2010"
     ], 
     "prereqs": "", 
     "restrictions": "", 
@@ -530,7 +458,7 @@
     "type": "Lecture"
 }, 
 "course35":{
-    "berkeleyConnect": false, 
+    "berkeleyConnect": true, 
     "breadth": {
         "AC": false, 
         "AL": false, 
@@ -551,8 +479,9 @@
     "deptAbbrev": "LD ARCH", 
     "description": "This course introduces the foundations of sustainability most related to the restoration, design, and creation of landscapes and cities. The underlying principles of ecology, nature, and democracy are concretized in centered-ness, connectedness, fairness, sensible status seeking, sacredness, particular-ness, selective diversity, density and smallness, limited extent, adaptability, everyday future, naturalness, inhabiting science, reciprocal stewardship, and pacing. ", 
     "format": "Three hours of Lecture per week for 15 weeks.  Six hours of Lecture per week for 8 weeks.", 
+    "freshSophSem": false, 
     "hasCoreqs": "", 
-    "isPrereqFor": "This class is a prerequisite for LD ARCH 151.", 
+    "isPrereqFor": "", 
     "note": "", 
     "number": "130", 
     "offerHist": [
@@ -566,7 +495,7 @@
     "type": "Lecture"
 }, 
 "course2":{
-    "berkeleyConnect": true, 
+    "berkeleyConnect": false, 
     "breadth": {
         "AC": false, 
         "AL": false, 
@@ -580,21 +509,23 @@
         "SS": false
     }, 
     "classInstance": [], 
-    "courseThread": "This course is part of the Cultural Forms in Transit Course Thread.", 
+    "courseThread": "", 
     "credit": 3, 
     "crossListing": "", 
     "department": "Architecture", 
     "deptAbbrev": "ARCH", 
     "description": "Presentations on a variety of topics related to sustainability, offering perspectives from leading practioners: architectural designers, city planners, consultants, engineers, and researchers. Students can enroll for one unit (required attendance plus reading) or two units (with additional writing assignments. ", 
     "format": "One and one-half hours of Seminar per week for 15 weeks.", 
+    "freshSophSem": false, 
     "hasCoreqs": "", 
     "isPrereqFor": "", 
     "note": "", 
     "number": "142", 
     "offerHist": [
-        "Fall 2013", 
+        "Spring 2013", 
+        "Spring 2012", 
         "Spring 2011", 
-        "Spring 2009"
+        "Spring 2010"
     ], 
     "prereqs": "", 
     "restrictions": "", 
@@ -623,14 +554,16 @@
     "deptAbbrev": "IAS", 
     "description": "Students work in selected internships in non-profit, government agencies, or farmer networks associated with the Brazilian Consortium on Agroecology and Sustainable Development. The purpose of the internship is to gain direct experience in agroecological techniques and methodologies to achieve sustainability in agriculture. Internships are approved in advance by the faculty coordinator with whom each student will be required to meet regularly and plan out complimentary readings and regular written reports. Work commitments will range between 180-360 hours depending upon the number of units undertaken and the length of the term enrolled. Final assessments will be based upon performance in the internship, quality of written reports, and a final assessment by the faculty advisor. Internship is repeatable for up to 16 units. Enrollment is restricted to 10 students per term selected through a special selection process. See instructor for details. ", 
     "format": " Twenty-three to forty-five hours of internship per week for eight weeks. Thirty to sixty hours of internship per week for six weeks. Eighteen to thirty-six hours of internship per week for ten weeks. ", 
+    "freshSophSem": false, 
     "hasCoreqs": "", 
     "isPrereqFor": "", 
     "note": "", 
     "number": "171", 
     "offerHist": [
         "Fall 2013", 
-        "Spring 2011", 
-        "Spring 2009"
+        "Spring 2013", 
+        "Fall 2012", 
+        "Spring 2012"
     ], 
     "prereqs": "Junior or senior standing or consent of instructor. ", 
     "restrictions": "", 
@@ -638,7 +571,7 @@
     "type": "Lecture"
 }, 
 "course0":{
-    "berkeleyConnect": true, 
+    "berkeleyConnect": false, 
     "breadth": {
         "AC": false, 
         "AL": false, 
@@ -653,40 +586,43 @@
     }, 
     "classInstance": [
         {
-            "ccn": 45996, 
+            "ccn": 90209, 
             "days": "MW", 
             "finalGroup": "Not applicable", 
-            "instructor": "M. Mhasalkar, U. Jehlicka", 
+            "instructor": "I. Jaskolski", 
             "location": {
-                "building": "Barrows", 
-                "room": 297
+                "building": "Dwinelle", 
+                "room": 92
             }, 
             "seats": {
-                "available": 114, 
-                "enrolled": 386, 
-                "max": 500, 
-                "waitlist": 4
+                "available": 17, 
+                "enrolled": 23, 
+                "max": 40, 
+                "waitlist": 6
             }, 
             "semester": "Fall 2014", 
-            "time": "430-6P"
+            "time": {
+                "end": "4P", 
+                "start": "2:30P"
+            }
         }
     ], 
-    "courseThread": "", 
+    "courseThread": "This course is part of the Cultural Forms in Transit Course Thread.", 
     "credit": 3, 
     "crossListing": "", 
     "department": "Architecture", 
     "deptAbbrev": "ARCH", 
     "description": "Presentations on a variety of topics related to sustainability, offering perspectives from leading practitioners: architectural designers, city planners, consultants, engineers, and researchers. Students can enroll for one unit (required attendance plus reading) or two units (with additional assignments. ", 
     "format": " Fifteen hours lecture/seminar per unit per semester. ", 
-    "hasCoreqs": "ARCH 1A must be taken concurrently.", 
-    "isPrereqFor": "This class is a prerequisite for ARCH 151.", 
+    "freshSophSem": false, 
+    "hasCoreqs": "", 
+    "isPrereqFor": "", 
     "note": "", 
     "number": "242", 
     "offerHist": [
         "Fall 2013", 
-        "Fall 2012", 
-        "Fall 2011", 
-        "Fall 2010"
+        "Spring 2011", 
+        "Spring 2009"
     ], 
     "prereqs": "", 
     "restrictions": "", 
@@ -709,94 +645,67 @@
     }, 
     "classInstance": [
         {
-            "ccn": 22416, 
-            "days": "Tu", 
+            "ccn": 53906, 
+            "days": "M", 
             "finalGroup": "Not applicable", 
-            "instructor": "D. Matousek, C. Stoddard", 
+            "instructor": "V. Benbow, Z. Alberts", 
             "location": {
-                "building": "Wheeler", 
-                "room": 20
+                "building": "Soda", 
+                "room": 41
             }, 
             "seats": {
                 "available": 1, 
-                "enrolled": 24, 
-                "max": 25, 
-                "waitlist": 4
-            }, 
-            "semester": "Fall 2014", 
-            "time": "10-11A"
-        }, 
-        {
-            "ccn": 55916, 
-            "days": "Th", 
-            "finalGroup": "Not applicable", 
-            "instructor": "M. Mhasalkar, U. Jehlicka", 
-            "location": {
-                "building": "Wurster", 
-                "room": 70
-            }, 
-            "seats": {
-                "available": 10, 
-                "enrolled": 0, 
-                "max": 10, 
-                "waitlist": 2
-            }, 
-            "semester": "Fall 2014", 
-            "time": "12-1P"
-        }, 
-        {
-            "ccn": 48777, 
-            "days": "Tu", 
-            "finalGroup": "Not applicable", 
-            "instructor": "O. Bandyopadhyay", 
-            "location": {
-                "building": "Soda", 
-                "room": 152
-            }, 
-            "seats": {
-                "available": 17, 
-                "enrolled": 3, 
-                "max": 20, 
-                "waitlist": 1
-            }, 
-            "semester": "Fall 2014", 
-            "time": "9-10A"
-        }, 
-        {
-            "ccn": 19358, 
-            "days": "M", 
-            "finalGroup": "Not applicable", 
-            "instructor": "C. Marquez", 
-            "location": {
-                "building": "Barrows", 
-                "room": 116
-            }, 
-            "seats": {
-                "available": 3, 
-                "enrolled": 17, 
-                "max": 20, 
-                "waitlist": 8
-            }, 
-            "semester": "Fall 2014", 
-            "time": "11A-12P"
-        }, 
-        {
-            "ccn": 19587, 
-            "days": "F", 
-            "finalGroup": "Not applicable", 
-            "instructor": "I. Jaskolski", 
-            "location": {
-                "building": "Dwinelle", 
-                "room": 197
-            }, 
-            "seats": {
-                "available": 6, 
-                "enrolled": 14, 
-                "max": 20, 
+                "enrolled": 11, 
+                "max": 12, 
                 "waitlist": 0
             }, 
             "semester": "Fall 2014", 
-            "time": "1-2P"
+            "time": {
+                "end": "4P", 
+                "start": "3P"
+            }
+        }, 
+        {
+            "ccn": 92752, 
+            "days": "Th", 
+            "finalGroup": "Not applicable", 
+            "instructor": "M. Wetterman", 
+            "location": {
+                "building": "Dwinelle", 
+                "room": 151
+            }, 
+            "seats": {
+                "available": 10, 
+                "enrolled": 2, 
+                "max": 12, 
+                "waitlist": 0
+            }, 
+            "semester": "Fall 2014", 
+            "time": {
+                "end": "3P", 
+                "start": "2P"
+            }
+        }, 
+        {
+            "ccn": 64877, 
+            "days": "F", 
+            "finalGroup": "Not applicable", 
+            "instructor": "V. Benbow, Z. Alberts", 
+            "location": {
+                "building": "Dwinelle", 
+                "room": 165
+            }, 
+            "seats": {
+                "available": 9, 
+                "enrolled": 3, 
+                "max": 12, 
+                "waitlist": 0
+            }, 
+            "semester": "Fall 2014", 
+            "time": {
+                "end": "9A", 
+                "start": "8A"
+            }
         }
     ], 
     "courseThread": "", 
@@ -806,6 +715,7 @@
     "deptAbbrev": "ARCH", 
     "description": "Presentations on a variety of topics related to sustainability, offering perspectives from leading practitioners: architectural designers, city planners, consultants, engineers, and researchers. Students can enroll for one unit (required attendance plus reading) or two units (with additional assignments. ", 
     "format": " Fifteen hours lecture/seminar per unit per semester. ", 
+    "freshSophSem": false, 
     "hasCoreqs": "", 
     "isPrereqFor": "", 
     "note": "", 
@@ -822,7 +732,7 @@
     "type": "Discussion"
 }, 
 "course6":{
-    "berkeleyConnect": true, 
+    "berkeleyConnect": false, 
     "breadth": {
         "AC": false, 
         "AL": false, 
@@ -837,57 +747,44 @@
     }, 
     "classInstance": [
         {
-            "ccn": 99685, 
-            "days": "MW", 
-            "finalGroup": "Group 5--Friday, December 15, 2014, 1 p.m.", 
-            "instructor": "A. Kennard", 
+            "ccn": 95445, 
+            "days": "MWF", 
+            "finalGroup": "Group 3--Wednesday, December 17, 2014, 12 p.m.", 
+            "instructor": "K. Serafini, M. Ferrero", 
             "location": {
-                "building": "Wurster", 
-                "room": 153
+                "building": "Wheeler", 
+                "room": 283
             }, 
             "seats": {
-                "available": 115, 
-                "enrolled": 35, 
-                "max": 150, 
-                "waitlist": 5
+                "available": 246, 
+                "enrolled": 4, 
+                "max": 250, 
+                "waitlist": 9
             }, 
             "semester": "Fall 2014", 
-            "time": "430-6P"
-        }, 
-        {
-            "ccn": 60480, 
-            "days": "TuTh", 
-            "finalGroup": "Group 2--Tuesday, December 16, 2014, 9 a.m.", 
-            "instructor": "V. Benbow, Z. Alberts", 
-            "location": {
-                "building": "Barrows", 
-                "room": 197
-            }, 
-            "seats": {
-                "available": 383, 
-                "enrolled": 117, 
-                "max": 500, 
-                "waitlist": 3
-            }, 
-            "semester": "Fall 2014", 
-            "time": "2-3P"
+            "time": {
+                "end": "10A", 
+                "start": "9A"
+            }
         }
     ], 
-    "courseThread": "This course is part of the Cultural Forms in Transit Course Thread.", 
+    "courseThread": "", 
     "credit": 1, 
     "crossListing": "", 
     "department": "Environ Sci, Policy, and Management", 
     "deptAbbrev": "ESPM", 
     "description": "Forests are vital for rural and urban populations all over the world. They are an essential natural resource providing multiple benefits to society, and play a key role in the supply of fresh water and the regulation of climate. Changes in forested landscapes raise concerns about the volume of water flowing to streams, timing of those flows, and water quality. This seminar explores hydrology in forested watersheds and its relevance to contemporary issues. A first emphasis is hydrological processes, introducing factors that affect water budgets, flow paths, and runoff generation. A second emphasis is impacts of forest management activities on water yield, water quality, and sustainability of forest resources. ", 
     "format": " One hour of lecture/readings/discussion per week. ", 
+    "freshSophSem": false, 
     "hasCoreqs": "", 
     "isPrereqFor": "This class is a prerequisite for ESPM 151.", 
     "note": "", 
     "number": "285", 
     "offerHist": [
-        "Fall 2013", 
-        "Spring 2011", 
-        "Spring 2009"
+        "Spring 2013", 
+        "Fall 2012", 
+        "Fall 2011", 
+        "Spring 2010"
     ], 
     "prereqs": "", 
     "restrictions": "", 
@@ -916,15 +813,15 @@
     "deptAbbrev": "ENV DES", 
     "description": "This course accompanies the summer studio and media classes in the architecture and landscape architecture post-baccalaureate programs, (IN)Arch and (IN)Land, of the College of Environmental Design. This series of eight lectures by faculty in the College of Environmental Design at Berkeley presents a range of approaches, theories, and practices in the design fields. Lectures will include topics in landscape architecture, architectural practice, building construction and systems, global cities, urban ecology, building sustainability, social and political aspects of architecture, and a panel discussion by professionals who are previous students of the College. ", 
     "format": "Two hours of Lecture per week for 8 weeks.  Three hours of Lecture per week for 6 weeks.", 
+    "freshSophSem": false, 
     "hasCoreqs": "", 
-    "isPrereqFor": "", 
+    "isPrereqFor": "This class is a prerequisite for ENV DES 151.", 
     "note": "", 
     "number": "2", 
     "offerHist": [
-        "Spring 2013", 
-        "Spring 2012", 
+        "Fall 2013", 
         "Spring 2011", 
-        "Spring 2010"
+        "Spring 2009"
     ], 
     "prereqs": "", 
     "restrictions": "", 
@@ -947,22 +844,25 @@
     }, 
     "classInstance": [
         {
-            "ccn": 87635, 
-            "days": "TuTh", 
+            "ccn": 56601, 
+            "days": "MWF", 
             "finalGroup": "Not applicable", 
-            "instructor": "C. Giorgano", 
+            "instructor": "I. Jaskolski", 
             "location": {
                 "building": "Evans", 
-                "room": 117
+                "room": 261
             }, 
             "seats": {
-                "available": 44, 
-                "enrolled": 6, 
-                "max": 50, 
+                "available": 328, 
+                "enrolled": 172, 
+                "max": 500, 
                 "waitlist": 10
             }, 
             "semester": "Fall 2014", 
-            "time": "10-11A"
+            "time": {
+                "end": "2P", 
+                "start": "1P"
+            }
         }
     ], 
     "courseThread": "", 
@@ -972,14 +872,15 @@
     "deptAbbrev": "IAS", 
     "description": "Students work in selected internships in non-profit, government agencies, or farmer networks associated with the Brazilian Consortium on Agroecology and Sustainable Development. The purpose of the internship is to gain direct experience in agroecological techniques and methodologies to achieve sustainability in agriculture. Internships are approved in advance by the faculty coordinator with whom each student will be required to meet regularly and plan out complementary readings and regular written reports. Work commitments will range between 180-360 hours depending upon the number of units undertaken and the length of the term enrolled. Final assessments will be based upon performance in the internship, quality of written reports and a final assessment by the faculty advisor. Internship is repeatable for up to 16 units. Enrollment is restricted to 10 students per term selected through a special selection process. See instructor for details. ", 
     "format": " Twenty-three to forty-five hours of internship per week for eight weeks. Thirty to sixty hours of internship per week for six weeks. Eighteen to thirty-six hours of internship per week for ten weeks. ", 
+    "freshSophSem": false, 
     "hasCoreqs": "", 
     "isPrereqFor": "This class is a prerequisite for IAS 151.", 
     "note": "", 
     "number": "271", 
     "offerHist": [
         "Spring 2013", 
-        "Fall 2012", 
-        "Fall 2011", 
+        "Spring 2012", 
+        "Spring 2011", 
         "Spring 2010"
     ], 
     "prereqs": "Graduate standing or consent of instructor. ", 
@@ -988,62 +889,6 @@
     "type": "Lecture"
 }, 
 "course5":{
-    "berkeleyConnect": false, 
-    "breadth": {
-        "AC": false, 
-        "AL": false, 
-        "BS": false, 
-        "HS": false, 
-        "IS": false, 
-        "PS": false, 
-        "PV": false, 
-        "RCA": false, 
-        "RCB": false, 
-        "SS": false
-    }, 
-    "classInstance": [
-        {
-            "ccn": 50951, 
-            "days": "MW", 
-            "finalGroup": "Not applicable", 
-            "instructor": "D. Matousek, C. Stoddard", 
-            "location": {
-                "building": "Wurster", 
-                "room": 222
-            }, 
-            "seats": {
-                "available": 94, 
-                "enrolled": 6, 
-                "max": 100, 
-                "waitlist": 4
-            }, 
-            "semester": "Fall 2014", 
-            "time": "1-2P"
-        }
-    ], 
-    "courseThread": "", 
-    "credit": 1, 
-    "crossListing": "", 
-    "department": "Civil and Environmental Engineering", 
-    "deptAbbrev": "CIV ENG", 
-    "description": "Exploration of selected important technologies that serve major societal needs, such as shelter, water, food, energy, and transportation, and waste management. How specific technologies or technological systems do or do not contribute to a move toward sustainability. Specific topics vary from year to year according to student and faculty interests.", 
-    "format": " One and one-half hours of seminar/discussion per week. ", 
-    "hasCoreqs": "", 
-    "isPrereqFor": "This class is a prerequisite for CIV ENG 151.", 
-    "note": "", 
-    "number": "292A", 
-    "offerHist": [
-        "Fall 2013", 
-        "Spring 2013", 
-        "Fall 2012", 
-        "Spring 2012"
-    ], 
-    "prereqs": "Graduate standing or consent of instructor. ", 
-    "restrictions": "", 
-    "title": "Technologies for Sustainable Societies", 
-    "type": "Lecture"
-}, 
-"course8":{
     "berkeleyConnect": true, 
     "breadth": {
         "AC": false, 
@@ -1059,22 +904,84 @@
     }, 
     "classInstance": [
         {
-            "ccn": 11797, 
-            "days": "M", 
+            "ccn": 22621, 
+            "days": "MW", 
             "finalGroup": "Not applicable", 
-            "instructor": "M. Sarka", 
+            "instructor": "D. Matousek, C. Stoddard", 
             "location": {
-                "building": "Evans", 
-                "room": 19
+                "building": "Soda", 
+                "room": 264
             }, 
             "seats": {
-                "available": 18, 
-                "enrolled": 12, 
-                "max": 30, 
-                "waitlist": 3
+                "available": 23, 
+                "enrolled": 27, 
+                "max": 50, 
+                "waitlist": 5
             }, 
             "semester": "Fall 2014", 
-            "time": "8-9A"
+            "time": {
+                "end": "10A", 
+                "start": "9A"
+            }
+        }
+    ], 
+    "courseThread": "", 
+    "credit": 1, 
+    "crossListing": "", 
+    "department": "Civil and Environmental Engineering", 
+    "deptAbbrev": "CIV ENG", 
+    "description": "Exploration of selected important technologies that serve major societal needs, such as shelter, water, food, energy, and transportation, and waste management. How specific technologies or technological systems do or do not contribute to a move toward sustainability. Specific topics vary from year to year according to student and faculty interests.", 
+    "format": " One and one-half hours of seminar/discussion per week. ", 
+    "freshSophSem": false, 
+    "hasCoreqs": "", 
+    "isPrereqFor": "", 
+    "note": "This is a note.", 
+    "number": "292A", 
+    "offerHist": [
+        "Fall 2013", 
+        "Spring 2011", 
+        "Spring 2009"
+    ], 
+    "prereqs": "Graduate standing or consent of instructor. ", 
+    "restrictions": "", 
+    "title": "Technologies for Sustainable Societies", 
+    "type": "Lecture"
+}, 
+"course8":{
+    "berkeleyConnect": false, 
+    "breadth": {
+        "AC": false, 
+        "AL": false, 
+        "BS": false, 
+        "HS": false, 
+        "IS": false, 
+        "PS": false, 
+        "PV": false, 
+        "RCA": false, 
+        "RCB": false, 
+        "SS": false
+    }, 
+    "classInstance": [
+        {
+            "ccn": 13695, 
+            "days": "F", 
+            "finalGroup": "Not applicable", 
+            "instructor": "B. Varela", 
+            "location": {
+                "building": "Wheeler", 
+                "room": 168
+            }, 
+            "seats": {
+                "available": 87, 
+                "enrolled": 13, 
+                "max": 100, 
+                "waitlist": 4
+            }, 
+            "semester": "Fall 2014", 
+            "time": {
+                "end": "1P", 
+                "start": "11:30A"
+            }
         }
     ], 
     "courseThread": "", 
@@ -1084,15 +991,16 @@
     "deptAbbrev": "DEVP", 
     "description": "This course will introduce concepts in natural resource management. Segment 1 will cover basic modeling, techniques, and methodology in natural resource mamangement and sustainability. Segment 2 will address genetic resources and agriculture. Segment 3 will cover principles of natural resource management, namely water and air, in the development context. Segment 4 profides an overview of major concepts in the conservation of biodiversity. Students are expected to present research reports based on case studies. ", 
     "format": "Two hours of Lecture per week for 15 weeks.", 
+    "freshSophSem": false, 
     "hasCoreqs": "", 
-    "isPrereqFor": "This class is a prerequisite for DEVP 151.", 
+    "isPrereqFor": "", 
     "note": "", 
     "number": "227", 
     "offerHist": [
         "Fall 2013", 
+        "Spring 2013", 
         "Fall 2012", 
-        "Fall 2011", 
-        "Fall 2010"
+        "Spring 2012"
     ], 
     "prereqs": "Graduate student standing or consent of instructor. ", 
     "restrictions": "", 
@@ -1115,40 +1023,44 @@
     }, 
     "classInstance": [
         {
-            "ccn": 43691, 
+            "ccn": 24234, 
             "days": "TuTh", 
-            "finalGroup": "Group 3--Wednesday, December 17, 2014, 12 p.m.", 
-            "instructor": "S. Abdullah", 
+            "finalGroup": "Group 5--Friday, December 15, 2014, 1 p.m.", 
+            "instructor": "C. Marquez", 
             "location": {
-                "building": "Dwinelle", 
-                "room": 121
+                "building": "Wheeler", 
+                "room": 22
             }, 
             "seats": {
-                "available": 412, 
-                "enrolled": 88, 
-                "max": 500, 
-                "waitlist": 5
+                "available": 19, 
+                "enrolled": 21, 
+                "max": 40, 
+                "waitlist": 0
             }, 
             "semester": "Fall 2014", 
-            "time": "430-6P"
+            "time": {
+                "end": "3P", 
+                "start": "2P"
+            }
         }
     ], 
-    "courseThread": "This course is part of the Cultural Forms in Transit Course Thread.", 
+    "courseThread": "", 
     "credit": 2, 
     "crossListing": "", 
     "department": "Earth and Planetary Science", 
     "deptAbbrev": "EPS", 
     "description": "Formation, global distribution, and exploration for non renewable natural resources of metals, fuels, and industrial materials in the context of public land use issues, land ethics, resource literacy, sustainability, the mine life cycle, and California geology. Overview of environmental geology and geological hazards. Student research project presented in the format of a talk at a scientific meeting with follow-up written paper. ", 
     "format": "Three hours of Lecture per week for 15 weeks.", 
+    "freshSophSem": true, 
     "hasCoreqs": "", 
     "isPrereqFor": "", 
-    "note": "This is a note.", 
+    "note": "", 
     "number": "106", 
     "offerHist": [
-        "Spring 2013", 
+        "Fall 2013", 
         "Fall 2012", 
         "Fall 2011", 
-        "Spring 2010"
+        "Fall 2010"
     ], 
     "prereqs": "50 or equivalent. ", 
     "restrictions": "", 
@@ -1171,22 +1083,25 @@
     }, 
     "classInstance": [
         {
-            "ccn": 26168, 
-            "days": "TuTh", 
+            "ccn": 26833, 
+            "days": "MW", 
             "finalGroup": "Not applicable", 
-            "instructor": "C. Giorgano", 
+            "instructor": "I. Jaskolski", 
             "location": {
                 "building": "Wurster", 
-                "room": 189
+                "room": 3
             }, 
             "seats": {
-                "available": 28, 
-                "enrolled": 72, 
-                "max": 100, 
-                "waitlist": 6
+                "available": 82, 
+                "enrolled": 168, 
+                "max": 250, 
+                "waitlist": 0
             }, 
             "semester": "Fall 2014", 
-            "time": "9-10A"
+            "time": {
+                "end": "12P", 
+                "start": "11A"
+            }
         }
     ], 
     "courseThread": "", 
@@ -1196,15 +1111,16 @@
     "deptAbbrev": "ESPM", 
     "description": "Examine major issues and approaches in ecosystem management. Topics include development of the ecosystem approach, valuation of ecosystem commodities and services, assessment of ecosystem sustainability, simulation and prediction of ecosystem dynamics, decision-making methods, social and institutional aspects. Particular emphasis is given to emerging conceptual frameworks and analytical tools. ", 
     "format": "Three hours of Lecture per week for 15 weeks.", 
+    "freshSophSem": false, 
     "hasCoreqs": "", 
     "isPrereqFor": "This class is a prerequisite for ESPM 151.", 
     "note": "", 
     "number": "273", 
     "offerHist": [
-        "Fall 2013", 
         "Spring 2013", 
         "Fall 2012", 
-        "Spring 2012"
+        "Fall 2011", 
+        "Spring 2010"
     ], 
     "prereqs": "Basic ecology, microeconomics, and resource management. ", 
     "restrictions": "", 
@@ -1233,15 +1149,16 @@
     "deptAbbrev": "ESPM", 
     "description": "Fundamentals of wildland fire including fire behavior modeling, fire history methods, prescribed fire techniques, fire ecology, fire management, fire in the urban-wildland intermix, wildland fire, and ecosystem sustainability. Laboratories on inventory methods, fire history, modeling of fire behavior and risk, and prescribed burning. ", 
     "format": "Two hours of Lecture and  Three hours of Laboratory per week for 15 weeks.", 
-    "hasCoreqs": "ESPM 1A must be taken concurrently.", 
-    "isPrereqFor": "This class is a prerequisite for ESPM 151.", 
+    "freshSophSem": false, 
+    "hasCoreqs": "", 
+    "isPrereqFor": "", 
     "note": "", 
     "number": "181A", 
     "offerHist": [
+        "Fall 2013", 
         "Spring 2013", 
-        "Spring 2012", 
-        "Spring 2011", 
-        "Spring 2010"
+        "Fall 2012", 
+        "Spring 2012"
     ], 
     "prereqs": "Consent of instructor. ", 
     "restrictions": "", 
@@ -1264,31 +1181,35 @@
     }, 
     "classInstance": [
         {
-            "ccn": 54319, 
-            "days": "TuTh", 
+            "ccn": 97192, 
+            "days": "M", 
             "finalGroup": "Not applicable", 
-            "instructor": "S. Abdullah", 
+            "instructor": "C. Marquez", 
             "location": {
-                "building": "Dwinelle", 
-                "room": 21
+                "building": "Evans", 
+                "room": 196
             }, 
             "seats": {
-                "available": 38, 
-                "enrolled": 12, 
-                "max": 50, 
-                "waitlist": 9
+                "available": 1, 
+                "enrolled": 29, 
+                "max": 30, 
+                "waitlist": 0
             }, 
             "semester": "Fall 2014", 
-            "time": "2-3P"
+            "time": {
+                "end": "6P", 
+                "start": "4:30P"
+            }
         }
     ], 
-    "courseThread": "This course is part of the Cultural Forms in Transit Course Thread.", 
+    "courseThread": "", 
     "credit": 3, 
     "crossListing": "", 
     "department": "Civil and Environmental Engineering", 
     "deptAbbrev": "CIV ENG", 
     "description": "Engineering design and project management of environmental systems. Students will complete a design project focusing on pollution control in a selected environmental system. Lectures and project activities will address process design, economic optimization, legal and institutional constraints on design, and project management. Additional components of design (e.g., hydraulics, engineering sustainability, plant structures) will be included. ", 
     "format": "Two hours of Lecture and  Three hours of Laboratory per week for 15 weeks.", 
+    "freshSophSem": false, 
     "hasCoreqs": "", 
     "isPrereqFor": "", 
     "note": "", 
@@ -1320,40 +1241,43 @@
     }, 
     "classInstance": [
         {
-            "ccn": 29639, 
-            "days": "MWF", 
-            "finalGroup": "Group 1--Monday, December 15, 2014, 1 p.m.", 
-            "instructor": "S. Abdullah", 
+            "ccn": 24942, 
+            "days": "MW", 
+            "finalGroup": "Group 2--Tuesday, December 16, 2014, 9 a.m.", 
+            "instructor": "K. Serafini, M. Ferrero", 
             "location": {
-                "building": "Dwinelle", 
-                "room": 230
+                "building": "Wurster", 
+                "room": 59
             }, 
             "seats": {
-                "available": 79, 
-                "enrolled": 71, 
-                "max": 150, 
-                "waitlist": 8
+                "available": 6, 
+                "enrolled": 34, 
+                "max": 40, 
+                "waitlist": 0
             }, 
             "semester": "Fall 2014", 
-            "time": "1-2P"
+            "time": {
+                "end": "10A", 
+                "start": "9A"
+            }
         }
     ], 
-    "courseThread": "This course is part of the Cultural Forms in Transit Course Thread.", 
+    "courseThread": "", 
     "credit": 3, 
     "crossListing": "", 
     "department": "Civil and Environmental Engineering", 
     "deptAbbrev": "CIV ENG", 
     "description": "Many aspects of engineering, planning, and policy involve a human element, be it consumers, businesses, governments, or other organizations. Effective design and management requires understanding this human response. This course focuses on behavioral theories and the use of quantitative methods to analyze human response. A mix of theory and practical tools are covered, with applications drawn from infrastructure investment and use, urban growth and design, health, and sustainability. ", 
     "format": "Three hours of Lecture per week for 15 weeks.", 
+    "freshSophSem": false, 
     "hasCoreqs": "", 
     "isPrereqFor": "", 
     "note": "", 
     "number": "264", 
     "offerHist": [
-        "Spring 2013", 
-        "Fall 2012", 
-        "Fall 2011", 
-        "Spring 2010"
+        "Fall 2013", 
+        "Spring 2011", 
+        "Spring 2009"
     ], 
     "prereqs": "262 or City and Regional Planning 204 or equivalent. ", 
     "restrictions": "", 
@@ -1361,7 +1285,7 @@
     "type": "Lecture"
 }, 
 "course27":{
-    "berkeleyConnect": false, 
+    "berkeleyConnect": true, 
     "breadth": {
         "AC": false, 
         "AL": false, 
@@ -1382,15 +1306,16 @@
     "deptAbbrev": "DEVP", 
     "description": "Learn to apply the tools of economic analysis to problems of growth, poverty, and environmental sustainability in developing countries and to understand what can be done to promote development through policies and investment projects, and learn to analyze the economic, social, and environmental impacts of specific initiatives. This course will teach students to use data to conduct development analyses and learn to prepare the corresponding reports for international development agencies and policymakers. ", 
     "format": "Three hours of Lecture per week for 15 weeks.", 
-    "hasCoreqs": "DEVP 1A must be taken concurrently.", 
+    "freshSophSem": false, 
+    "hasCoreqs": "", 
     "isPrereqFor": "", 
     "note": "", 
     "number": "235", 
     "offerHist": [
         "Fall 2013", 
+        "Spring 2013", 
         "Fall 2012", 
-        "Fall 2011", 
-        "Fall 2010"
+        "Spring 2012"
     ], 
     "prereqs": "Microeconomics and econometrics at the undergraduate upper-division or Master's level. ", 
     "restrictions": "", 
@@ -1419,8 +1344,9 @@
     "deptAbbrev": "COLWRIT", 
     "description": "Communities are challenged by issues of security, poverty, and environmental sustainability. These issues intersect with those of race, class, and culture in U.S. society. This course focuses on ethical decisions as they apply to issues of diversity, sustainable practices, economic impacts on neighborhoods and nations, and issues of security and identity. This course focuses on writing and research skills. ", 
     "format": "Three hours of Lecture per week for 15 weeks.  Seven and one-half hours of Lecture per week for 6 weeks.", 
+    "freshSophSem": false, 
     "hasCoreqs": "", 
-    "isPrereqFor": "This class is a prerequisite for COLWRIT 151.", 
+    "isPrereqFor": "", 
     "note": "", 
     "number": "192AC", 
     "offerHist": [
@@ -1455,8 +1381,9 @@
     "deptAbbrev": "CY PLAN", 
     "description": "This course examines and explores the concept of sustainable development at the community level. The course has three sections: (1) an introduction to the discourse on sustainable development; (2) an exploration of several leading attempts to incorporate sustainability principles into plans, planning, and urban design; (3) an examination of European attempts to establish metropolitan patterns and urban designs for a more sustainable \"green urbanism.\" ", 
     "format": " Three hours of lecture/discussion per week. ", 
+    "freshSophSem": false, 
     "hasCoreqs": "", 
-    "isPrereqFor": "This class is a prerequisite for CY PLAN 151.", 
+    "isPrereqFor": "", 
     "note": "", 
     "number": "254", 
     "offerHist": [
@@ -1486,22 +1413,25 @@
     }, 
     "classInstance": [
         {
-            "ccn": 93735, 
+            "ccn": 11202, 
             "days": "MWF", 
-            "finalGroup": "Group 3--Wednesday, December 17, 2014, 12 p.m.", 
-            "instructor": "S. Abdullah", 
+            "finalGroup": "Group 5--Friday, December 15, 2014, 1 p.m.", 
+            "instructor": "B. Varela", 
             "location": {
-                "building": "Evans", 
-                "room": 48
+                "building": "Wurster", 
+                "room": 284
             }, 
             "seats": {
-                "available": 7, 
-                "enrolled": 23, 
-                "max": 30, 
-                "waitlist": 9
+                "available": 395, 
+                "enrolled": 105, 
+                "max": 500, 
+                "waitlist": 6
             }, 
             "semester": "Fall 2014", 
-            "time": "2-3P"
+            "time": {
+                "end": "4P", 
+                "start": "2:30P"
+            }
         }
     ], 
     "courseThread": "", 
@@ -1511,15 +1441,16 @@
     "deptAbbrev": "CY PLAN", 
     "description": "This course examines how the concept of sustainable development applies to cities and urban regions and gives students insight into a variety of contemporary urban planning issues through the sustainability lens. The course combines lectures, discussions, student projects, and guest appearances by leading practitioners in Bay Area sustainability efforts. Ways to coordinate goals of environment, economy, and equity at different scales of planning are addressed, including the region, the city, the neighborhood, and the site. ", 
     "format": " Three hours of lecture/discussion per week. ", 
+    "freshSophSem": false, 
     "hasCoreqs": "", 
     "isPrereqFor": "", 
-    "note": "This is a note.", 
+    "note": "", 
     "number": "119", 
     "offerHist": [
-        "Fall 2013", 
         "Spring 2013", 
-        "Fall 2012", 
-        "Spring 2012"
+        "Spring 2012", 
+        "Spring 2011", 
+        "Spring 2010"
     ], 
     "prereqs": "Open to majors in all fields. ", 
     "restrictions": "", 
@@ -1542,40 +1473,25 @@
     }, 
     "classInstance": [
         {
-            "ccn": 54686, 
-            "days": "F", 
+            "ccn": 37079, 
+            "days": "M", 
             "finalGroup": "Not applicable", 
-            "instructor": "D. Matousek, C. Stoddard", 
+            "instructor": "V. Benbow, Z. Alberts", 
             "location": {
-                "building": "Evans", 
-                "room": 54
+                "building": "Wurster", 
+                "room": 184
             }, 
             "seats": {
-                "available": 80, 
-                "enrolled": 170, 
-                "max": 250, 
-                "waitlist": 7
+                "available": 46, 
+                "enrolled": 654, 
+                "max": 700, 
+                "waitlist": 4
             }, 
             "semester": "Fall 2014", 
-            "time": "10-1130A"
-        }, 
-        {
-            "ccn": 99018, 
-            "days": "MWF", 
-            "finalGroup": "Not applicable", 
-            "instructor": "G. Burke", 
-            "location": {
-                "building": "Evans", 
-                "room": 1
-            }, 
-            "seats": {
-                "available": 17, 
-                "enrolled": 13, 
-                "max": 30, 
-                "waitlist": 0
-            }, 
-            "semester": "Fall 2014", 
-            "time": "1130A-1P"
+            "time": {
+                "end": "2:30P", 
+                "start": "1P"
+            }
         }
     ], 
     "courseThread": "", 
@@ -1585,15 +1501,15 @@
     "deptAbbrev": "CIV ENG", 
     "description": "This course provides conceptual and hands-on experience in design and implementation of innovative products or processes for improving the sustainability of resource-constrained communities (mostly poor ones in the developing countries). Teams of students will take on practical projects, with guidance from subject experts. ", 
     "format": "Three hours of Lecture per week for 15 weeks.", 
+    "freshSophSem": false, 
     "hasCoreqs": "", 
     "isPrereqFor": "This class is a prerequisite for CIV ENG 151.", 
     "note": "", 
     "number": "209", 
     "offerHist": [
-        "Spring 2013", 
-        "Spring 2012", 
+        "Fall 2013", 
         "Spring 2011", 
-        "Spring 2010"
+        "Spring 2009"
     ], 
     "prereqs": "Graduate standing or consent of instructor. ", 
     "restrictions": "", 
@@ -1615,21 +1531,23 @@
         "SS": false
     }, 
     "classInstance": [], 
-    "courseThread": "This course is part of the Cultural Forms in Transit Course Thread.", 
+    "courseThread": "", 
     "credit": 3, 
     "crossListing": "", 
     "department": "Civil and Environmental Engineering", 
     "deptAbbrev": "CIV ENG", 
     "description": "An introduction to key engineered systems (e.g., energy, water supply, buildings, transportation) and their environmental impacts. Basic principles of environmental science needed to understand natural processes as they are influenced by human activities. Overview of concepts and methods of sustainability analysis. Critical evaluation of engineering approaches to address sustainability. ", 
     "format": "Three hours of Lecture per week for 15 weeks.", 
+    "freshSophSem": false, 
     "hasCoreqs": "", 
-    "isPrereqFor": "", 
+    "isPrereqFor": "This class is a prerequisite for CIV ENG 151.", 
     "note": "", 
     "number": "11", 
     "offerHist": [
-        "Fall 2013", 
-        "Spring 2011", 
-        "Spring 2009"
+        "Spring 2013", 
+        "Fall 2012", 
+        "Fall 2011", 
+        "Spring 2010"
     ], 
     "prereqs": "Chemistry 1A, Mathematics 1A. ", 
     "restrictions": "", 
@@ -1652,22 +1570,46 @@
     }, 
     "classInstance": [
         {
-            "ccn": 29860, 
-            "days": "MWF", 
+            "ccn": 11207, 
+            "days": "M", 
             "finalGroup": "Not applicable", 
             "instructor": "B. Varela", 
             "location": {
-                "building": "Barrows", 
-                "room": 219
+                "building": "Soda", 
+                "room": 149
             }, 
             "seats": {
-                "available": 86, 
-                "enrolled": 14, 
-                "max": 100, 
+                "available": 81, 
+                "enrolled": 69, 
+                "max": 150, 
+                "waitlist": 0
+            }, 
+            "semester": "Fall 2014", 
+            "time": {
+                "end": "4P", 
+                "start": "2:30P"
+            }
+        }, 
+        {
+            "ccn": 72529, 
+            "days": "MW", 
+            "finalGroup": "Not applicable", 
+            "instructor": "C. Giorgano", 
+            "location": {
+                "building": "Wurster", 
+                "room": 225
+            }, 
+            "seats": {
+                "available": 185, 
+                "enrolled": 65, 
+                "max": 250, 
                 "waitlist": 5
             }, 
             "semester": "Fall 2014", 
-            "time": "8-9A"
+            "time": {
+                "end": "12P", 
+                "start": "11A"
+            }
         }
     ], 
     "courseThread": "", 
@@ -1677,15 +1619,15 @@
     "deptAbbrev": "ENV DES", 
     "description": "This course asks students to reflect back, reviewing the various disciplinary approaches introduced toward sustainability and to look forward by proposing interdisciplinary ways to affect the environment. Each year will be organized around a theme and project advanced by the faculty of the College. The workshop will require independent as well as collaborative research often in partnership with an external 'client' organization. ", 
     "format": "Four hours of Lecture and  Four hours of Studio per week for 15 weeks.", 
+    "freshSophSem": false, 
     "hasCoreqs": "", 
-    "isPrereqFor": "", 
+    "isPrereqFor": "This class is a prerequisite for ENV DES 151.", 
     "note": "", 
     "number": "106", 
     "offerHist": [
         "Fall 2013", 
-        "Spring 2013", 
-        "Fall 2012", 
-        "Spring 2012"
+        "Spring 2011", 
+        "Spring 2009"
     ], 
     "prereqs": "Environmental Design 102. ", 
     "restrictions": "", 
@@ -1708,40 +1650,109 @@
     }, 
     "classInstance": [
         {
-            "ccn": 26073, 
+            "ccn": 45641, 
             "days": "Tu", 
+            "finalGroup": "Not applicable", 
+            "instructor": "S. Abdullah", 
+            "location": {
+                "building": "Soda", 
+                "room": 278
+            }, 
+            "seats": {
+                "available": 5, 
+                "enrolled": 15, 
+                "max": 20, 
+                "waitlist": 8
+            }, 
+            "semester": "Fall 2014", 
+            "time": {
+                "end": "5P", 
+                "start": "4P"
+            }
+        }, 
+        {
+            "ccn": 92895, 
+            "days": "F", 
+            "finalGroup": "Not applicable", 
+            "instructor": "A. Kennard", 
+            "location": {
+                "building": "Dwinelle", 
+                "room": 173
+            }, 
+            "seats": {
+                "available": 7, 
+                "enrolled": 3, 
+                "max": 10, 
+                "waitlist": 8
+            }, 
+            "semester": "Fall 2014", 
+            "time": {
+                "end": "10A", 
+                "start": "9A"
+            }
+        }, 
+        {
+            "ccn": 35212, 
+            "days": "M", 
+            "finalGroup": "Not applicable", 
+            "instructor": "S. Abdullah", 
+            "location": {
+                "building": "Soda", 
+                "room": 17
+            }, 
+            "seats": {
+                "available": 2, 
+                "enrolled": 13, 
+                "max": 15, 
+                "waitlist": 0
+            }, 
+            "semester": "Fall 2014", 
+            "time": {
+                "end": "9A", 
+                "start": "8A"
+            }
+        }, 
+        {
+            "ccn": 95997, 
+            "days": "Th", 
             "finalGroup": "Not applicable", 
             "instructor": "I. Jaskolski", 
             "location": {
                 "building": "Soda", 
-                "room": 24
+                "room": 147
             }, 
             "seats": {
                 "available": 3, 
-                "enrolled": 17, 
-                "max": 20, 
-                "waitlist": 4
+                "enrolled": 9, 
+                "max": 12, 
+                "waitlist": 0
             }, 
             "semester": "Fall 2014", 
-            "time": "1-2P"
+            "time": {
+                "end": "3P", 
+                "start": "2P"
+            }
         }, 
         {
-            "ccn": 19028, 
+            "ccn": 23390, 
             "days": "Tu", 
             "finalGroup": "Not applicable", 
-            "instructor": "V. Benbow, Z. Alberts", 
+            "instructor": "W. Hopkins, M. Anson", 
             "location": {
-                "building": "Soda", 
-                "room": 59
+                "building": "Wurster", 
+                "room": 39
             }, 
             "seats": {
-                "available": 23, 
-                "enrolled": 2, 
-                "max": 25, 
-                "waitlist": 2
+                "available": 1, 
+                "enrolled": 19, 
+                "max": 20, 
+                "waitlist": 0
             }, 
             "semester": "Fall 2014", 
-            "time": "11A-12P"
+            "time": {
+                "end": "1P", 
+                "start": "12P"
+            }
         }
     ], 
     "courseThread": "", 
@@ -1751,14 +1762,15 @@
     "deptAbbrev": "ENV DES", 
     "description": "This course asks students to reflect back, reviewing the various disciplinary approaches introduced toward sustainability and to look forward by proposing interdisciplinary ways to affect the environment. Each year will be organized around a theme and project advanced by the faculty of the College. The workshop will require independent as well as collaborative research often in partnership with an external 'client' organization. ", 
     "format": "Four hours of Lecture and  Four hours of Studio per week for 15 weeks.", 
+    "freshSophSem": false, 
     "hasCoreqs": "", 
     "isPrereqFor": "", 
     "note": "", 
     "number": "106", 
     "offerHist": [
         "Spring 2013", 
-        "Spring 2012", 
-        "Spring 2011", 
+        "Fall 2012", 
+        "Fall 2011", 
         "Spring 2010"
     ], 
     "prereqs": "Environmental Design 102. ", 
@@ -1782,22 +1794,46 @@
     }, 
     "classInstance": [
         {
-            "ccn": 18783, 
-            "days": "MW", 
-            "finalGroup": "Group 2--Tuesday, December 16, 2014, 9 a.m.", 
-            "instructor": "C. Marquez", 
+            "ccn": 28200, 
+            "days": "MWF", 
+            "finalGroup": "Group 3--Wednesday, December 17, 2014, 12 p.m.", 
+            "instructor": "V. Benbow, Z. Alberts", 
             "location": {
-                "building": "Barrows", 
-                "room": 168
+                "building": "Evans", 
+                "room": 58
             }, 
             "seats": {
-                "available": 7, 
-                "enrolled": 23, 
-                "max": 30, 
-                "waitlist": 1
+                "available": 61, 
+                "enrolled": 189, 
+                "max": 250, 
+                "waitlist": 0
             }, 
             "semester": "Fall 2014", 
-            "time": "1-2P"
+            "time": {
+                "end": "9A", 
+                "start": "8A"
+            }
+        }, 
+        {
+            "ccn": 15451, 
+            "days": "MWF", 
+            "finalGroup": "Group 2--Tuesday, December 16, 2014, 9 a.m.", 
+            "instructor": "D. Matousek, C. Stoddard", 
+            "location": {
+                "building": "Evans", 
+                "room": 221
+            }, 
+            "seats": {
+                "available": 22, 
+                "enrolled": 18, 
+                "max": 40, 
+                "waitlist": 2
+            }, 
+            "semester": "Fall 2014", 
+            "time": {
+                "end": "1P", 
+                "start": "12P"
+            }
         }
     ], 
     "courseThread": "", 
@@ -1807,15 +1843,16 @@
     "deptAbbrev": "ENV SCI", 
     "description": "The scientific basis of sustainability, explored through study of energy, water, food, natural resources, and built environment. Physical/ecological processes and systems, and human impacts from the global scale to local energy/resource use. Energy and water audits of University of California at Berkeley, opportunities to increase sustainability of processes/practices. Discussion/lab section involves data collection/analysis (e.g., Strawberry Creek, atmospheric particulates) and integrative sustainability assessment project. ", 
     "format": " Three hours of lecture and one hour of discussion/laboratory. ", 
+    "freshSophSem": true, 
     "hasCoreqs": "", 
-    "isPrereqFor": "This class is a prerequisite for ENV SCI 151.", 
+    "isPrereqFor": "", 
     "note": "", 
     "number": "C12", 
     "offerHist": [
-        "Fall 2013", 
         "Spring 2013", 
-        "Fall 2012", 
-        "Spring 2012"
+        "Spring 2012", 
+        "Spring 2011", 
+        "Spring 2010"
     ], 
     "prereqs": "", 
     "restrictions": "", 
@@ -1838,76 +1875,67 @@
     }, 
     "classInstance": [
         {
-            "ccn": 51008, 
-            "days": "Th", 
+            "ccn": 86377, 
+            "days": "M", 
             "finalGroup": "Not applicable", 
-            "instructor": "V. Benbow, Z. Alberts", 
+            "instructor": "K. Serafini, M. Ferrero", 
             "location": {
-                "building": "Dwinelle", 
-                "room": 72
+                "building": "Wurster", 
+                "room": 193
             }, 
             "seats": {
                 "available": 20, 
                 "enrolled": 0, 
                 "max": 20, 
-                "waitlist": 6
-            }, 
-            "semester": "Fall 2014", 
-            "time": "4-5P"
-        }, 
-        {
-            "ccn": 22718, 
-            "days": "Tu", 
-            "finalGroup": "Not applicable", 
-            "instructor": "I. Jaskolski", 
-            "location": {
-                "building": "Wheeler", 
-                "room": 92
-            }, 
-            "seats": {
-                "available": 25, 
-                "enrolled": 0, 
-                "max": 25, 
                 "waitlist": 1
             }, 
             "semester": "Fall 2014", 
-            "time": "8-9A"
+            "time": {
+                "end": "12P", 
+                "start": "11A"
+            }
         }, 
         {
-            "ccn": 26708, 
-            "days": "W", 
-            "finalGroup": "Not applicable", 
-            "instructor": "M. Sarka", 
-            "location": {
-                "building": "Dwinelle", 
-                "room": 149
-            }, 
-            "seats": {
-                "available": 0, 
-                "enrolled": 12, 
-                "max": 12, 
-                "waitlist": 3
-            }, 
-            "semester": "Fall 2014", 
-            "time": "2-3P"
-        }, 
-        {
-            "ccn": 52837, 
-            "days": "M", 
+            "ccn": 23382, 
+            "days": "F", 
             "finalGroup": "Not applicable", 
             "instructor": "B. Varela", 
             "location": {
-                "building": "Evans", 
-                "room": 16
+                "building": "Wheeler", 
+                "room": 12
             }, 
             "seats": {
-                "available": 2, 
-                "enrolled": 18, 
-                "max": 20, 
-                "waitlist": 2
+                "available": 21, 
+                "enrolled": 4, 
+                "max": 25, 
+                "waitlist": 0
             }, 
             "semester": "Fall 2014", 
-            "time": "9-10A"
+            "time": {
+                "end": "3P", 
+                "start": "2P"
+            }
+        }, 
+        {
+            "ccn": 47781, 
+            "days": "Th", 
+            "finalGroup": "Not applicable", 
+            "instructor": "C. Giorgano", 
+            "location": {
+                "building": "Evans", 
+                "room": 72
+            }, 
+            "seats": {
+                "available": 17, 
+                "enrolled": 8, 
+                "max": 25, 
+                "waitlist": 0
+            }, 
+            "semester": "Fall 2014", 
+            "time": {
+                "end": "5P", 
+                "start": "4P"
+            }
         }
     ], 
     "courseThread": "", 
@@ -1917,15 +1945,15 @@
     "deptAbbrev": "ENV SCI", 
     "description": "The scientific basis of sustainability, explored through study of energy, water, food, natural resources, and built environment. Physical/ecological processes and systems, and human impacts from the global scale to local energy/resource use. Energy and water audits of University of California at Berkeley, opportunities to increase sustainability of processes/practices. Discussion/lab section involves data collection/analysis (e.g., Strawberry Creek, atmospheric particulates) and integrative sustainability assessment project. ", 
     "format": " Three hours of lecture and one hour of discussion/laboratory. ", 
+    "freshSophSem": false, 
     "hasCoreqs": "", 
     "isPrereqFor": "", 
-    "note": "This is a note.", 
+    "note": "", 
     "number": "C12", 
     "offerHist": [
-        "Spring 2013", 
-        "Fall 2012", 
-        "Fall 2011", 
-        "Spring 2010"
+        "Fall 2013", 
+        "Spring 2011", 
+        "Spring 2009"
     ], 
     "prereqs": "", 
     "restrictions": "", 
@@ -1947,22 +1975,23 @@
         "SS": false
     }, 
     "classInstance": [], 
-    "courseThread": "This course is part of the Cultural Forms in Transit Course Thread.", 
+    "courseThread": "", 
     "credit": 4, 
     "crossListing": "ENV SCI C12", 
     "department": "Landscape Architecture", 
     "deptAbbrev": "LD ARCH", 
     "description": "The scientific basis of sustainability, explored through study of energy, water, food, natural resources, and built environment. Physical/ecological processes and systems, and human impacts from the global scale to local energy/resource use. Energy and water audits of University of California at Berkeley, opportunities to increase sustainability of processes/practices. Discussion/lab section involves data collection/analysis (e.g., Strawberry Creek, atmospheric particulates) and integrative sustainability assessment project. ", 
     "format": " Three hours of lecture and one hour of discussion/laboratory. ", 
+    "freshSophSem": false, 
     "hasCoreqs": "", 
     "isPrereqFor": "", 
     "note": "", 
     "number": "C12", 
     "offerHist": [
-        "Spring 2013", 
+        "Fall 2013", 
         "Fall 2012", 
         "Fall 2011", 
-        "Spring 2010"
+        "Fall 2010"
     ], 
     "prereqs": "", 
     "restrictions": "", 
@@ -1984,13 +2013,14 @@
         "SS": false
     }, 
     "classInstance": [], 
-    "courseThread": "", 
+    "courseThread": "This course is part of the Cultural Forms in Transit Course Thread.", 
     "credit": 4, 
     "crossListing": "", 
     "department": "Landscape Architecture", 
     "deptAbbrev": "LD ARCH", 
     "description": "This course introduces the visual and physical characteristics of landscape construction materials including, but not limited to, stone, brick, concrete, metal, asphalt, and wood. Additionally, lectures cover the production and availability of these materials, any existing evaluations on their sustainability, and their potential impact on the immediate environment. Students also learn to utilize standard sources of information on building materials and the terminology typically utilized when choosing and specifying construction materials. They become familiar with dimensional standards for landscape structures, including pavements, stairs, furnishings, retaining walls, freestanding walls, fences, decks, and small overhead structures. ", 
     "format": "Three hours of Lecture and  One and one-half hours of Laboratory per week for 15 weeks.", 
+    "freshSophSem": false, 
     "hasCoreqs": "", 
     "isPrereqFor": "", 
     "note": "", 
@@ -2028,14 +2058,16 @@
     "deptAbbrev": "LD ARCH", 
     "description": "The scientific basis of sustainability, explored through study of energy, water, food, natural resources, and built environment. Physical/ecological processes and systems, and human impacts from the global scale to local energy/resource use. Energy and water audits of University of California at Berkeley, opportunities to increase sustainability of processes/practices. Discussion/lab section involves data collection/analysis (e.g., Strawberry Creek, atmospheric particulates) and integrative sustainability assessment project. ", 
     "format": "Three hours of Lecture and  Two hours of Laboratory per week for 15 weeks.", 
+    "freshSophSem": false, 
     "hasCoreqs": "", 
     "isPrereqFor": "This class is a prerequisite for LD ARCH 151.", 
     "note": "This is a note.", 
     "number": "12", 
     "offerHist": [
         "Fall 2013", 
-        "Spring 2011", 
-        "Spring 2009"
+        "Fall 2012", 
+        "Fall 2011", 
+        "Fall 2010"
     ], 
     "prereqs": "", 
     "restrictions": "", 
@@ -2064,8 +2096,9 @@
     "deptAbbrev": "LD ARCH", 
     "description": "Topics include the scientific basis of sustainablility, explored through study of energy, water, food, natural resources, and the built environment; physical/ecological processes and systems, and human impacts from the global scale to local energy/resource use; and energy and water audits of the Berkeley campus, opportunities to increase sustainability of processes/practices. Discussion/lab section involves data collection/analysis (e.g., Strawberry Creek, atmospheric particulates) and integrative sustainability assessment projects. ", 
     "format": " Three hours of lecture and two hours of discussion/laboratory per week. ", 
+    "freshSophSem": false, 
     "hasCoreqs": "", 
-    "isPrereqFor": "", 
+    "isPrereqFor": "This class is a prerequisite for LD ARCH 151.", 
     "note": "", 
     "number": "122", 
     "offerHist": [
@@ -2101,14 +2134,15 @@
     "deptAbbrev": "PACS", 
     "description": "This course introduces students to a broad range of issues, concepts, and approaches integral to the study of peace and conflict. Subject areas include the war system and war prevention, conflict resolution and nonviolence, human rights and social justice, development and environmental sustainability. Required of all Peace and Conflict Studies majors. ", 
     "format": "Four hours of Lecture and  One hour of Discussion per week for 15 weeks.  Seven hours of Lecture and  Two hours of Discussion per week for 8 weeks.  Ten hours of Lecture and  Two and one-half hours of Discussion per week for 6 weeks.", 
+    "freshSophSem": false, 
     "hasCoreqs": "", 
     "isPrereqFor": "", 
     "note": "", 
     "number": "10", 
     "offerHist": [
         "Spring 2013", 
-        "Spring 2012", 
-        "Spring 2011", 
+        "Fall 2012", 
+        "Fall 2011", 
         "Spring 2010"
     ], 
     "prereqs": "", 
@@ -2132,22 +2166,46 @@
     }, 
     "classInstance": [
         {
-            "ccn": 64963, 
+            "ccn": 24774, 
             "days": "MW", 
             "finalGroup": "Not applicable", 
-            "instructor": "S. Abdullah", 
+            "instructor": "A. Kennard", 
             "location": {
-                "building": "Barrows", 
-                "room": 195
+                "building": "Wurster", 
+                "room": 20
             }, 
             "seats": {
-                "available": 23, 
-                "enrolled": 17, 
-                "max": 40, 
-                "waitlist": 8
+                "available": 60, 
+                "enrolled": 40, 
+                "max": 100, 
+                "waitlist": 4
             }, 
             "semester": "Fall 2014", 
-            "time": "1130A-1P"
+            "time": {
+                "end": "1P", 
+                "start": "12P"
+            }
+        }, 
+        {
+            "ccn": 47636, 
+            "days": "TuTh", 
+            "finalGroup": "Not applicable", 
+            "instructor": "C. Giorgano", 
+            "location": {
+                "building": "Dwinelle", 
+                "room": 108
+            }, 
+            "seats": {
+                "available": 3, 
+                "enrolled": 47, 
+                "max": 50, 
+                "waitlist": 0
+            }, 
+            "semester": "Fall 2014", 
+            "time": {
+                "end": "2:30P", 
+                "start": "1P"
+            }
         }
     ], 
     "courseThread": "", 
@@ -2157,14 +2215,15 @@
     "deptAbbrev": "UGIS", 
     "description": "Framed around the topic of sustainability, the course engages students from different math, science, and engineering majors in the process of applying the content knowledge from their discipline to build project-based curricula for presentation as part of a 45-hour field placement in a local high school classroom. Students develop pedagogical content knowledge and relate teaching theory to practice through readings, classroom activities, discussion, lesson planning, and field observations.", 
     "format": "Two hours of lecture and three hours of fieldwork and one hour of discussion per week. ", 
+    "freshSophSem": false, 
     "hasCoreqs": "", 
     "isPrereqFor": "This class is a prerequisite for UGIS 151.", 
     "note": "", 
     "number": "187", 
     "offerHist": [
         "Spring 2013", 
-        "Spring 2012", 
-        "Spring 2011", 
+        "Fall 2012", 
+        "Fall 2011", 
         "Spring 2010"
     ], 
     "prereqs": "Education 131. ", 
@@ -2194,15 +2253,16 @@
     "deptAbbrev": "GEOG", 
     "description": "Problems of Third World poverty and development have come to be seen as inseparable from environmental health and sustainability. The course explores the global and interconnected character of environment and development in the less developed world. Drawing on case studies of the environmental problems of the newly industrializing states, food problems, and environmental security in Africa, and the global consequences of tropical deforestation in Amazonia and carbon dioxide emissions in China, this course explores how growth and stagnation are linked to problems of environmental sustainability. ", 
     "format": "Three hours of Lecture and  One hour of Discussion per week for 15 weeks.  Six hours of Lecture and  One and one-half hours of Discussion per week for 8 weeks.  Eight hours of Lecture and  Two hours of Discussion per week for 6 weeks.", 
+    "freshSophSem": false, 
     "hasCoreqs": "", 
     "isPrereqFor": "", 
-    "note": "This is a note.", 
+    "note": "", 
     "number": "35", 
     "offerHist": [
-        "Fall 2013", 
-        "Fall 2012", 
-        "Fall 2011", 
-        "Fall 2010"
+        "Spring 2013", 
+        "Spring 2012", 
+        "Spring 2011", 
+        "Spring 2010"
     ], 
     "prereqs": "", 
     "restrictions": "", 
@@ -2210,7 +2270,7 @@
     "type": "Lecture"
 }, 
 "course48":{
-    "berkeleyConnect": false, 
+    "berkeleyConnect": true, 
     "breadth": {
         "AC": false, 
         "AL": false, 
@@ -2231,15 +2291,16 @@
     "deptAbbrev": "ENVECON", 
     "description": "Introduction to the economics of natural resources. Land and the concept of economic rent. Models of optimal depletion of nonrenewable resources and optimal use of renewable resources. Application to energy, forests, fisheries, water, and climate change. Resources, growth, and sustainability. ", 
     "format": "Three hours of Lecture and  One hour of Discussion per week for 15 weeks.", 
+    "freshSophSem": false, 
     "hasCoreqs": "", 
-    "isPrereqFor": "", 
+    "isPrereqFor": "This class is a prerequisite for ENVECON 151.", 
     "note": "", 
     "number": "102", 
     "offerHist": [
-        "Fall 2013", 
         "Spring 2013", 
-        "Fall 2012", 
-        "Spring 2012"
+        "Spring 2012", 
+        "Spring 2011", 
+        "Spring 2010"
     ], 
     "prereqs": "100, 101. ", 
     "restrictions": "", 
@@ -2268,14 +2329,16 @@
     "deptAbbrev": "ESPM", 
     "description": "Framed around the topic of sustainability, the course engages students from different science majors to apply the content knowledge from their discipline to build curriculum pieces for presentation in high school classrooms. Students develop pedagogical content knowledge and relate teaching theory to practice. Additional topics covered include classroom management and leadership, lesson planning, presentation skills, and readings in science education. ", 
     "format": "Three hours of Lecture, One hour of Discussion, and  Three hours of Fieldwork per week for 15 weeks.", 
-    "hasCoreqs": "ESPM 1A must be taken concurrently.", 
+    "freshSophSem": false, 
+    "hasCoreqs": "", 
     "isPrereqFor": "", 
     "note": "", 
     "number": "178B", 
     "offerHist": [
-        "Fall 2013", 
+        "Spring 2013", 
+        "Spring 2012", 
         "Spring 2011", 
-        "Spring 2009"
+        "Spring 2010"
     ], 
     "prereqs": "Consent of instructor. ", 
     "restrictions": "", 
@@ -2283,7 +2346,7 @@
     "type": "Lecture"
 }, 
 "course42":{
-    "berkeleyConnect": false, 
+    "berkeleyConnect": true, 
     "breadth": {
         "AC": false, 
         "AL": false, 
@@ -2298,39 +2361,44 @@
     }, 
     "classInstance": [
         {
-            "ccn": 44515, 
-            "days": "MWF", 
+            "ccn": 54284, 
+            "days": "TuTh", 
             "finalGroup": "Not applicable", 
             "instructor": "A. Kennard", 
             "location": {
                 "building": "Dwinelle", 
-                "room": 179
+                "room": 62
             }, 
             "seats": {
-                "available": 166, 
-                "enrolled": 334, 
-                "max": 500, 
-                "waitlist": 7
+                "available": 30, 
+                "enrolled": 10, 
+                "max": 40, 
+                "waitlist": 0
             }, 
             "semester": "Fall 2014", 
-            "time": "430-6P"
+            "time": {
+                "end": "4:30P", 
+                "start": "3P"
+            }
         }
     ], 
-    "courseThread": "This course is part of the Cultural Forms in Transit Course Thread.", 
+    "courseThread": "", 
     "credit": 3, 
     "crossListing": "", 
     "department": "Public Policy", 
     "deptAbbrev": "PUB POL", 
     "description": "This course emphasizes the development and application of policy solutions to developing-world problems related to poverty, macroeconomic policy, and environmental sustainability. Methods of statistical, economic, and policy analysis are applied to a series of case studies. The course is designed to develop practical professional skills for application in the international arena. ", 
     "format": "Three hours of Lecture per week for 15 weeks.", 
+    "freshSophSem": false, 
     "hasCoreqs": "", 
-    "isPrereqFor": "This class is a prerequisite for PUB POL 151.", 
+    "isPrereqFor": "", 
     "note": "", 
     "number": "C253", 
     "offerHist": [
-        "Fall 2013", 
+        "Spring 2013", 
+        "Spring 2012", 
         "Spring 2011", 
-        "Spring 2009"
+        "Spring 2010"
     ], 
     "prereqs": "", 
     "restrictions": "", 
@@ -2359,6 +2427,7 @@
     "deptAbbrev": "A,RESEC", 
     "description": "This course emphasizes the development and application of policy solutions to developing-world problems related to poverty, macroeconomic policy, and environmental sustainability. Methods of statistical, economic, and policy analysis are applied to a series of case studies. The course is designed to develop practical professional skills for application in the international arena. ", 
     "format": "Three hours of Lecture per week for 15 weeks.", 
+    "freshSophSem": false, 
     "hasCoreqs": "", 
     "isPrereqFor": "", 
     "note": "", 
@@ -2396,6 +2465,7 @@
     "deptAbbrev": "MEC ENG", 
     "description": "The focus of the course is management of innovation processes for sustainable products, from product definition to sustainable manufacturing and financial models. Using a project in which students will be asked to design and develop a product or service focused on sustainability, we will teach processes for collecting customer and user needs data, prioritizing that data, developing a product specification, sketching and building product prototypes, and interacting with the customer/community during product development. The course is intended as a very hands-on experience in the \"green\" product development process. The course will be a Management of Technology course offered jointly with the College of Engineering and the Haas School of Business. In addition, it will also receive credit towards the new Certificate on Engineering Sustainability and Environmental Management program. We aim to have half MBA students and half Engineering students (with a few other students, such as from the School of Information) in the class. The instructors will facilitate students to form mixed disciplinary reams for the development of their \"green\" products. ", 
     "format": " Three hours of lecture per week, plus optional discussion section. ", 
+    "freshSophSem": false, 
     "hasCoreqs": "", 
     "isPrereqFor": "", 
     "note": "", 
@@ -2427,22 +2497,25 @@
     }, 
     "classInstance": [
         {
-            "ccn": 99333, 
-            "days": "F", 
-            "finalGroup": "Group 2--Tuesday, December 16, 2014, 9 a.m.", 
-            "instructor": "B. Varela", 
+            "ccn": 42934, 
+            "days": "M", 
+            "finalGroup": "Group 1--Monday, December 15, 2014, 1 p.m.", 
+            "instructor": "I. Jaskolski", 
             "location": {
-                "building": "Soda", 
-                "room": 99
+                "building": "Wurster", 
+                "room": 163
             }, 
             "seats": {
-                "available": 17, 
-                "enrolled": 13, 
-                "max": 30, 
-                "waitlist": 5
+                "available": 432, 
+                "enrolled": 68, 
+                "max": 500, 
+                "waitlist": 2
             }, 
             "semester": "Fall 2014", 
-            "time": "3-430P"
+            "time": {
+                "end": "2:30P", 
+                "start": "1P"
+            }
         }
     ], 
     "courseThread": "", 
@@ -2452,14 +2525,16 @@
     "deptAbbrev": "ENVECON", 
     "description": "The roots of environmental and resource economics. Theories of land and resource rent. Models of optimal use of renewable and nonrenewable resources with applications to energy and timber. Balancing environmental and extractive values. Resources, growth, and sustainability. Special topic: the problem of global climate change. ", 
     "format": "Three hours of Lecture and  One hour of Discussion per week for 15 weeks.", 
+    "freshSophSem": false, 
     "hasCoreqs": "", 
     "isPrereqFor": "", 
     "note": "", 
     "number": "161", 
     "offerHist": [
         "Fall 2013", 
-        "Spring 2011", 
-        "Spring 2009"
+        "Fall 2012", 
+        "Fall 2011", 
+        "Fall 2010"
     ], 
     "prereqs": "100 or Economics 100A or Economics 101A; 101 recommended. ", 
     "restrictions": "", 
@@ -2482,40 +2557,46 @@
     }, 
     "classInstance": [
         {
-            "ccn": 72414, 
-            "days": "TuTh", 
-            "finalGroup": "Group 1--Monday, December 15, 2014, 1 p.m.", 
-            "instructor": "C. Giorgano", 
+            "ccn": 73138, 
+            "days": "F", 
+            "finalGroup": "Group 5--Friday, December 15, 2014, 1 p.m.", 
+            "instructor": "V. Benbow, Z. Alberts", 
             "location": {
-                "building": "Dwinelle", 
+                "building": "Evans", 
+                "room": 41
+            }, 
+            "seats": {
+                "available": 15, 
+                "enrolled": 25, 
+                "max": 40, 
+                "waitlist": 7
+            }, 
+            "semester": "Fall 2014", 
+            "time": {
+                "end": "4P", 
+                "start": "2:30P"
+            }
+        }, 
+        {
+            "ccn": 37462, 
+            "days": "TuTh", 
+            "finalGroup": "Group 5--Friday, December 15, 2014, 1 p.m.", 
+            "instructor": "M. Mhasalkar, U. Jehlicka", 
+            "location": {
+                "building": "Evans", 
                 "room": 64
             }, 
             "seats": {
-                "available": 216, 
-                "enrolled": 284, 
-                "max": 500, 
-                "waitlist": 6
+                "available": 16, 
+                "enrolled": 34, 
+                "max": 50, 
+                "waitlist": 0
             }, 
             "semester": "Fall 2014", 
-            "time": "1130A-1P"
-        }, 
-        {
-            "ccn": 43379, 
-            "days": "MW", 
-            "finalGroup": "Group 4--Thursday, December 18, 2014, 3 p.m.", 
-            "instructor": "C. Giorgano", 
-            "location": {
-                "building": "Wurster", 
-                "room": 232
-            }, 
-            "seats": {
-                "available": 14, 
-                "enrolled": 26, 
-                "max": 40, 
-                "waitlist": 1
-            }, 
-            "semester": "Fall 2014", 
-            "time": "11A-12P"
+            "time": {
+                "end": "4P", 
+                "start": "2:30P"
+            }
         }
     ], 
     "courseThread": "", 
@@ -2525,6 +2606,7 @@
     "deptAbbrev": "ENVECON", 
     "description": "Introduction to the economics of natural resources. Land and the concept of economic rent. Models of optimal depletion of nonrenewable resources and optimal use of renewable resources. Application to energy, forests, fisheries, water, and climate change. Resources, growth, and sustainability. ", 
     "format": "Three hours of Lecture and  One hour of Discussion per week for 15 weeks.", 
+    "freshSophSem": false, 
     "hasCoreqs": "", 
     "isPrereqFor": "", 
     "note": "", 
@@ -2562,14 +2644,16 @@
     "deptAbbrev": "ECON", 
     "description": "Introduction to the economics of natural resources. Land and the concept of economic rent. Models of optimal depletion of nonrenewable resources and optimal use of renewable resources. Application to energy, forests, fisheries, water, and climate change. Resources, growth, and sustainability. ", 
     "format": "Three hours of Lecture and  One hour of Discussion per week for 15 weeks.", 
+    "freshSophSem": false, 
     "hasCoreqs": "", 
     "isPrereqFor": "", 
     "note": "", 
     "number": "C102", 
     "offerHist": [
         "Fall 2013", 
-        "Spring 2011", 
-        "Spring 2009"
+        "Spring 2013", 
+        "Fall 2012", 
+        "Spring 2012"
     ], 
     "prereqs": "100, or Economics 100A or 100B. ", 
     "restrictions": "", 
@@ -2592,22 +2676,25 @@
     }, 
     "classInstance": [
         {
-            "ccn": 92172, 
-            "days": "MWF", 
+            "ccn": 68341, 
+            "days": "M", 
             "finalGroup": "Not applicable", 
-            "instructor": "M. Wetterman", 
+            "instructor": "S. Abdullah", 
             "location": {
-                "building": "Dwinelle", 
-                "room": 105
+                "building": "Barrows", 
+                "room": 241
             }, 
             "seats": {
-                "available": 50, 
-                "enrolled": 50, 
-                "max": 100, 
-                "waitlist": 8
+                "available": 7, 
+                "enrolled": 43, 
+                "max": 50, 
+                "waitlist": 0
             }, 
             "semester": "Fall 2014", 
-            "time": "3-430P"
+            "time": {
+                "end": "4P", 
+                "start": "2:30P"
+            }
         }
     ], 
     "courseThread": "", 
@@ -2617,9 +2704,10 @@
     "deptAbbrev": "ENV DES", 
     "description": "This course will expose students to key literature that examines, primarily, the relationship between sustainability and environmental design disciplines. Our goal will be not only to investigate the central ideas that inform the design of sustainable landscapes, cities, and buildings, but also to understand how competing arguments are presented in writing. Satisfies the second half of the Reading and Composition Requirement. ", 
     "format": "Three hours of Lecture per week for 15 weeks.", 
+    "freshSophSem": false, 
     "hasCoreqs": "", 
-    "isPrereqFor": "", 
-    "note": "", 
+    "isPrereqFor": "This class is a prerequisite for ENV DES 151.", 
+    "note": "This is a note.", 
     "number": "R3B", 
     "offerHist": [
         "Fall 2013", 
@@ -2633,7 +2721,7 @@
     "type": "Lecture"
 }, 
 "course14":{
-    "berkeleyConnect": false, 
+    "berkeleyConnect": true, 
     "breadth": {
         "AC": false, 
         "AL": false, 
@@ -2648,22 +2736,25 @@
     }, 
     "classInstance": [
         {
-            "ccn": 84651, 
-            "days": "M", 
+            "ccn": 40856, 
+            "days": "TuTh", 
             "finalGroup": "Not applicable", 
-            "instructor": "M. Sarka", 
+            "instructor": "W. Hopkins, M. Anson", 
             "location": {
-                "building": "Dwinelle", 
-                "room": 76
+                "building": "Barrows", 
+                "room": 215
             }, 
             "seats": {
-                "available": 132, 
-                "enrolled": 18, 
-                "max": 150, 
-                "waitlist": 10
+                "available": 179, 
+                "enrolled": 521, 
+                "max": 700, 
+                "waitlist": 7
             }, 
             "semester": "Fall 2014", 
-            "time": "11A-12P"
+            "time": {
+                "end": "10A", 
+                "start": "9A"
+            }
         }
     ], 
     "courseThread": "", 
@@ -2673,15 +2764,16 @@
     "deptAbbrev": "ARCH", 
     "description": "This seminar provides an introduction to architectural theory since 1945, with emphasis on developments over the last three decades. Class readings, and discussions explore the post-World War II crisis within modernism, postmodernism within and beyond architectural culture, and more recent developments around issues such as rapid urbanization, sustainability, the politics of cultural identity and globalization. Transformations in architectural theory are examined in relation to historical forces such as the economy, the growth and transformation of cities, and the changing relationship between design professions and disciplines. The influences of digital media, new materials and production techniques on architectural education and practice are explored and the implications for architectural theory assessed. Key issues are anchored in case studies of buildings, urban spaces, and the institutions and agents or architectural culture. ", 
     "format": "Three hours of Seminar per week for 15 weeks.", 
+    "freshSophSem": true, 
     "hasCoreqs": "", 
     "isPrereqFor": "", 
-    "note": "This is a note.", 
+    "note": "", 
     "number": "275", 
     "offerHist": [
+        "Fall 2013", 
         "Spring 2013", 
         "Fall 2012", 
-        "Fall 2011", 
-        "Spring 2010"
+        "Spring 2012"
     ], 
     "prereqs": "The course is open to upper division undergraduates and graduate students. ", 
     "restrictions": "", 
@@ -2710,15 +2802,16 @@
     "deptAbbrev": "ARCH", 
     "description": "This seminar provides an introduction to architectural theory since 1945, with emphasis on developments over the last three decades. Class readings and discussions explore the post-World War II crisis within modernism, postmodernism within and beyond architectural culture, and more recent developments around issues such as rapid urbanization, sustainability, the politics of cultural identity, and globalization. Transformations in architectural theory are examined in relation to historical forces such as the economy, the growth and transformation of cities, and the changing relationship between design professions and disciplines. The influences of digital media, new materials and production techniques on architectural education and practice are explored and the implications for architectural theory assessed. Key issues are anchored in case studies of buildings, urban spaces, and the institutions and agents of architectural culture. ", 
     "format": "Three hours of Seminar per week for 15 weeks.", 
+    "freshSophSem": false, 
     "hasCoreqs": "", 
     "isPrereqFor": "", 
     "note": "", 
     "number": "175", 
     "offerHist": [
+        "Fall 2013", 
         "Spring 2013", 
-        "Spring 2012", 
-        "Spring 2011", 
-        "Spring 2010"
+        "Fall 2012", 
+        "Spring 2012"
     ], 
     "prereqs": "Open to upper division undergraduates and graduate students. ", 
     "restrictions": "", 
@@ -2726,7 +2819,7 @@
     "type": "Lecture"
 }, 
 "course16":{
-    "berkeleyConnect": true, 
+    "berkeleyConnect": false, 
     "breadth": {
         "AC": false, 
         "AL": false, 
@@ -2747,15 +2840,16 @@
     "deptAbbrev": "CHEM", 
     "description": "Meeting the challenge of global sustainability will require interdisciplinary approaches to research and education, as well as the integration of this new knowledge into society, policymaking, and business. Green Chemistry is an intellectual framework created to meet these challenges and guide technological development. It encourages the design and production of safer and more sustainable chemicals and products. ", 
     "format": "Three hours of Lecture per week for 15 weeks.  Twenty hours of Lecture per week for 6 weeks.", 
+    "freshSophSem": false, 
     "hasCoreqs": "", 
     "isPrereqFor": "", 
     "note": "", 
     "number": "C234", 
     "offerHist": [
-        "Fall 2013", 
         "Spring 2013", 
-        "Fall 2012", 
-        "Spring 2012"
+        "Spring 2012", 
+        "Spring 2011", 
+        "Spring 2010"
     ], 
     "prereqs": "One year of chemistry, including a semester of organic chemistry, or consent of instructors based on previous experience. ", 
     "restrictions": "", 
@@ -2763,7 +2857,7 @@
     "type": "Lecture"
 }, 
 "course17":{
-    "berkeleyConnect": false, 
+    "berkeleyConnect": true, 
     "breadth": {
         "AC": false, 
         "AL": false, 
@@ -2778,22 +2872,25 @@
     }, 
     "classInstance": [
         {
-            "ccn": 47360, 
+            "ccn": 65139, 
             "days": "MW", 
             "finalGroup": "Not applicable", 
-            "instructor": "A. Kennard", 
+            "instructor": "O. Bandyopadhyay", 
             "location": {
-                "building": "Dwinelle", 
-                "room": 164
+                "building": "Evans", 
+                "room": 263
             }, 
             "seats": {
-                "available": 81, 
-                "enrolled": 19, 
-                "max": 100, 
-                "waitlist": 8
+                "available": 18, 
+                "enrolled": 12, 
+                "max": 30, 
+                "waitlist": 1
             }, 
             "semester": "Fall 2014", 
-            "time": "1130A-1P"
+            "time": {
+                "end": "2:30P", 
+                "start": "1P"
+            }
         }
     ], 
     "courseThread": "", 
@@ -2803,15 +2900,16 @@
     "deptAbbrev": "ESPM", 
     "description": "Meeting the challenge of global sustainability will require interdisciplinary approaches to research and education, as well as the integration of this new knowledge into society, policymaking, and business. Green Chemistry is an intellectual framework created to meet these challenges and guide technological development. It encourages the design and production of safer and more sustainable chemicals and products. ", 
     "format": "Three hours of Lecture per week for 15 weeks.  Twenty hours of Lecture per week for 6 weeks.", 
+    "freshSophSem": false, 
     "hasCoreqs": "", 
     "isPrereqFor": "This class is a prerequisite for ESPM 151.", 
     "note": "", 
     "number": "C234", 
     "offerHist": [
         "Fall 2013", 
-        "Spring 2013", 
         "Fall 2012", 
-        "Spring 2012"
+        "Fall 2011", 
+        "Fall 2010"
     ], 
     "prereqs": "One year of chemistry, including a semester of organic chemistry, or consent of instructors based on previous experience. ", 
     "restrictions": "", 
@@ -2840,15 +2938,16 @@
     "deptAbbrev": "MBA", 
     "description": "This course will cover a wide variety of topics relating to the management of international marketing strategy, including frameworks for developing international marketing strategy; sources and sustainability of competitive advantage; international market structure analysis; market entry strategy; and integration of marketing strategy with other functional strategies. ", 
     "format": "Two hours of Lecture per week for 15 weeks.", 
+    "freshSophSem": false, 
     "hasCoreqs": "", 
-    "isPrereqFor": "", 
+    "isPrereqFor": "This class is a prerequisite for MBA 151.", 
     "note": "", 
     "number": "268A", 
     "offerHist": [
+        "Fall 2013", 
         "Spring 2013", 
         "Fall 2012", 
-        "Fall 2011", 
-        "Spring 2010"
+        "Spring 2012"
     ], 
     "prereqs": "Business Administration 206 or equivalent. ", 
     "restrictions": "", 
@@ -2871,22 +2970,25 @@
     }, 
     "classInstance": [
         {
-            "ccn": 75979, 
+            "ccn": 57533, 
             "days": "MW", 
             "finalGroup": "Not applicable", 
-            "instructor": "I. Jaskolski", 
+            "instructor": "S. Abdullah", 
             "location": {
                 "building": "Dwinelle", 
-                "room": 217
+                "room": 280
             }, 
             "seats": {
-                "available": 3, 
-                "enrolled": 47, 
-                "max": 50, 
-                "waitlist": 10
+                "available": 15, 
+                "enrolled": 15, 
+                "max": 30, 
+                "waitlist": 0
             }, 
             "semester": "Fall 2014", 
-            "time": "3-430P"
+            "time": {
+                "end": "4P", 
+                "start": "2:30P"
+            }
         }
     ], 
     "courseThread": "", 
@@ -2896,14 +2998,15 @@
     "deptAbbrev": "A,RESEC", 
     "description": "Theory of renewable and nonrenewable natural resource use, with applications to forests, fisheries, energy, and climate change. Resources, growth, and sustainability. Economic theory of environmental policy. Externality; the Coasian critique; tax incidence and anomalies; indirect taxes; the double dividend; environmental standards; environmental regulation; impact of uncertainty on taxes and standards; mechanism design; monitoring, penalties, and regulatory strategy; emissions markets.", 
     "format": "Three hours of Lecture per week for 15 weeks.", 
-    "hasCoreqs": "", 
+    "freshSophSem": true, 
+    "hasCoreqs": "A,RESEC 1A must be taken concurrently.", 
     "isPrereqFor": "This class is a prerequisite for A,RESEC 151.", 
     "note": "", 
     "number": "261", 
     "offerHist": [
         "Spring 2013", 
-        "Fall 2012", 
-        "Fall 2011", 
+        "Spring 2012", 
+        "Spring 2011", 
         "Spring 2010"
     ], 
     "prereqs": "Ph.D.-level economic theory or consent of instructor. ", 
@@ -2927,94 +3030,67 @@
     }, 
     "classInstance": [
         {
-            "ccn": 22017, 
+            "ccn": 69187, 
             "days": "Th", 
             "finalGroup": "Not applicable", 
-            "instructor": "K. Serafini, M. Ferrero", 
+            "instructor": "M. Sarka", 
             "location": {
-                "building": "Dwinelle", 
-                "room": 243
+                "building": "Soda", 
+                "room": 33
             }, 
             "seats": {
-                "available": 10, 
-                "enrolled": 0, 
-                "max": 10, 
-                "waitlist": 3
-            }, 
-            "semester": "Fall 2014", 
-            "time": "4-5P"
-        }, 
-        {
-            "ccn": 62922, 
-            "days": "F", 
-            "finalGroup": "Not applicable", 
-            "instructor": "M. Mhasalkar, U. Jehlicka", 
-            "location": {
-                "building": "Wurster", 
-                "room": 297
-            }, 
-            "seats": {
-                "available": 0, 
-                "enrolled": 20, 
-                "max": 20, 
-                "waitlist": 1
-            }, 
-            "semester": "Fall 2014", 
-            "time": "1-2P"
-        }, 
-        {
-            "ccn": 13963, 
-            "days": "F", 
-            "finalGroup": "Not applicable", 
-            "instructor": "M. Wetterman", 
-            "location": {
-                "building": "Dwinelle", 
-                "room": 148
-            }, 
-            "seats": {
-                "available": 12, 
-                "enrolled": 3, 
-                "max": 15, 
-                "waitlist": 1
-            }, 
-            "semester": "Fall 2014", 
-            "time": "4-5P"
-        }, 
-        {
-            "ccn": 80393, 
-            "days": "M", 
-            "finalGroup": "Not applicable", 
-            "instructor": "S. Abdullah", 
-            "location": {
-                "building": "Barrows", 
-                "room": 277
-            }, 
-            "seats": {
-                "available": 12, 
-                "enrolled": 0, 
+                "available": 7, 
+                "enrolled": 5, 
                 "max": 12, 
                 "waitlist": 0
             }, 
             "semester": "Fall 2014", 
-            "time": "4-5P"
+            "time": {
+                "end": "1P", 
+                "start": "12P"
+            }
         }, 
         {
-            "ccn": 21392, 
+            "ccn": 32326, 
             "days": "W", 
             "finalGroup": "Not applicable", 
-            "instructor": "C. Giorgano", 
+            "instructor": "S. Abdullah", 
             "location": {
                 "building": "Wurster", 
-                "room": 76
+                "room": 148
             }, 
             "seats": {
-                "available": 7, 
-                "enrolled": 18, 
-                "max": 25, 
-                "waitlist": 3
+                "available": 0, 
+                "enrolled": 15, 
+                "max": 15, 
+                "waitlist": 5
             }, 
             "semester": "Fall 2014", 
-            "time": "12-1P"
+            "time": {
+                "end": "12P", 
+                "start": "11A"
+            }
+        }, 
+        {
+            "ccn": 52038, 
+            "days": "F", 
+            "finalGroup": "Not applicable", 
+            "instructor": "M. Wetterman", 
+            "location": {
+                "building": "Evans", 
+                "room": 68
+            }, 
+            "seats": {
+                "available": 4, 
+                "enrolled": 11, 
+                "max": 15, 
+                "waitlist": 7
+            }, 
+            "semester": "Fall 2014", 
+            "time": {
+                "end": "1P", 
+                "start": "12P"
+            }
         }
     ], 
     "courseThread": "", 
@@ -3024,15 +3100,16 @@
     "deptAbbrev": "A,RESEC", 
     "description": "Theory of renewable and nonrenewable natural resource use, with applications to forests, fisheries, energy, and climate change. Resources, growth, and sustainability. Economic theory of environmental policy. Externality; the Coasian critique; tax incidence and anomalies; indirect taxes; the double dividend; environmental standards; environmental regulation; impact of uncertainty on taxes and standards; mechanism design; monitoring, penalties, and regulatory strategy; emissions markets.", 
     "format": "Three hours of Lecture per week for 15 weeks.", 
+    "freshSophSem": false, 
     "hasCoreqs": "", 
     "isPrereqFor": "", 
     "note": "", 
     "number": "261", 
     "offerHist": [
-        "Fall 2013", 
         "Spring 2013", 
-        "Fall 2012", 
-        "Spring 2012"
+        "Spring 2012", 
+        "Spring 2011", 
+        "Spring 2010"
     ], 
     "prereqs": "Ph.D.-level economic theory or consent of instructor. ", 
     "restrictions": "", 
@@ -3061,15 +3138,15 @@
     "deptAbbrev": "ARCH", 
     "description": "Minimizing energy use is a cornerstone of designing and operating sustainable buildings, and attention to energy issues can often lead to greatly improved indoor environmental quality. For designers, using computer-based energy analysis tools are important not only to qualify for sustainability ratings and meet energy codes, but also to develop intuition about what makes buildings perform well. This course will present quantitative and qualitative methods for assessing energy performance during design of both residential and commercial buildings. Students will get hands-on experience with state-of-the-art software -- ranging from simple to complex -- to assess the performance of building components and whole-building designs. ", 
     "format": " Three hours of lecture/seminar per week. ", 
-    "hasCoreqs": "", 
+    "freshSophSem": false, 
+    "hasCoreqs": "ARCH 1A must be taken concurrently.", 
     "isPrereqFor": "", 
     "note": "", 
     "number": "240", 
     "offerHist": [
-        "Spring 2013", 
-        "Spring 2012", 
+        "Fall 2013", 
         "Spring 2011", 
-        "Spring 2010"
+        "Spring 2009"
     ], 
     "prereqs": "140 or consent of instructor. ", 
     "restrictions": "", 
@@ -3091,22 +3168,23 @@
         "SS": false
     }, 
     "classInstance": [], 
-    "courseThread": "This course is part of the Cultural Forms in Transit Course Thread.", 
+    "courseThread": "", 
     "credit": 3, 
     "crossListing": "ESPM C234, PB HLTH C234", 
     "department": "Chemistry", 
     "deptAbbrev": "PB HLTH", 
     "description": "Meeting the challenge of global sustainability will require interdisciplinary approaches to research and education, as well as the integration of this new knowledge into society, policymaking, and business. Green Chemistry is an intellectual framework created to meet these challenges and guide technological development. It encourages the design and production of safer and more sustainable chemicals and products. ", 
     "format": "Three hours of Lecture per week for 15 weeks.  Twenty hours of Lecture per week for 6 weeks.", 
+    "freshSophSem": true, 
     "hasCoreqs": "", 
     "isPrereqFor": "", 
     "note": "", 
     "number": "C234", 
     "offerHist": [
-        "Spring 2013", 
-        "Spring 2012", 
-        "Spring 2011", 
-        "Spring 2010"
+        "Fall 2013", 
+        "Fall 2012", 
+        "Fall 2011", 
+        "Fall 2010"
     ], 
     "prereqs": "One year of chemistry, including a semester of organic chemistry, or consent of instructors based on previous experience. ", 
     "restrictions": "", 
@@ -3129,22 +3207,25 @@
     }, 
     "classInstance": [
         {
-            "ccn": 56814, 
+            "ccn": 69416, 
             "days": "M", 
             "finalGroup": "Not applicable", 
-            "instructor": "D. Matousek, C. Stoddard", 
+            "instructor": "S. Abdullah", 
             "location": {
-                "building": "Soda", 
-                "room": 101
+                "building": "Wurster", 
+                "room": 199
             }, 
             "seats": {
-                "available": 10, 
-                "enrolled": 40, 
-                "max": 50, 
-                "waitlist": 7
+                "available": 92, 
+                "enrolled": 8, 
+                "max": 100, 
+                "waitlist": 0
             }, 
             "semester": "Fall 2014", 
-            "time": "12-1P"
+            "time": {
+                "end": "6P", 
+                "start": "4:30P"
+            }
         }
     ], 
     "courseThread": "", 
@@ -3154,14 +3235,15 @@
     "deptAbbrev": "CY PLAN", 
     "description": "Covers comparative planning and policy topics in urban, regional, and rural transportation that are transnational in nature. Builds policy lessons on planning for mobility, accessibility, and sustainability in different political and contextual settings. Case studies are drawn from both developed and developing countries. ", 
     "format": " Three hours of lecture/discussion per week. ", 
+    "freshSophSem": false, 
     "hasCoreqs": "", 
-    "isPrereqFor": "This class is a prerequisite for CY PLAN 151.", 
+    "isPrereqFor": "", 
     "note": "", 
     "number": "219", 
     "offerHist": [
         "Spring 2013", 
-        "Fall 2012", 
-        "Fall 2011", 
+        "Spring 2012", 
+        "Spring 2011", 
         "Spring 2010"
     ], 
     "prereqs": "", 
