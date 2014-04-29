@@ -35,10 +35,10 @@ def gen_sched(type):
     sched = []
     if type == "Lecture":
         days = ["MWF", "MW", "TuTh", "M", "F"]
-        times = ["8-9 a.m.", "9-10 a.m.", "10-11 a.m.", "11 a.m.-12 p.m.", "12-1 p.m.", "1-2 p.m.", "2-3 p.m.", "10-11:30 a.m.", "11:30 a.m.-1 p.m.", "1-2:30 p.m.", "2:30-4 p.m.", "3-4:30 p.m.", "4-5:30 p.m.", "4:30-6 p.m."]
+        times = [{"start": "8A", "end": "9A"}, {"start": "9A", "end": "10A"}, {"start": "10A", "end": "11A"}, {"start": "11A", "end": "12P"}, {"start": "12P", "end": "1P"}, {"start": "1P", "end": "2P"}, {"start": "2P", "end": "3P"}, {"start": "10A", "end": "11:30A"}, {"start": "11:30A", "end": "1P"}, {"start": "1P", "end": "2:30P"}, {"start": "2:30P", "end": "4P"}, {"start": "3P", "end": "4:30P"}, {"start": "4P", "end": "5:30P"}, {"start": "4:30P", "end": "6P"}]
     else: 
         days = ["M", "Tu", "W", "Th", "F"]
-        times = ["8-9 a.m.", "9-10 a.m.", "10-11 a.m.", "11 a.m.-12 p.m.", "12-1 p.m.", "1-2 p.m.", "2-3 p.m.", "3-4 p.m.", "4-5 p.m.", "5-6 p.m."]
+        times = [{"start": "8A", "end": "9A"}, {"start": "9A", "end": "10A"}, {"start": "10A", "end": "11A"}, {"start": "11A", "end": "12P"}, {"start": "12P", "end": "1P"}, {"start": "1P", "end": "2P"}, {"start": "2P", "end": "3P"}, {"start": "3P", "end": "4P"}, {"start": "4P", "end": "5P"}, {"start": "5P", "end": "6P"}]
     sched.append(random.choice(days))
     sched.append(random.choice(times))
     return sched
@@ -51,7 +51,7 @@ def gen_seats(type):
     else:
         seatlimit = random.choice([10, 12, 15, 20, 25])
     seatstaken = random.randint(0, seatlimit)
-    seats = {"max": seatlimit, "enrolled": seatstaken, "waitlist": random.randint(0, 10), "available": seatlimit - seatstaken} 
+    seats = {"max": seatlimit, "enrolled": seatstaken, "waitlist": random.choice([0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 0, 0, 10]), "available": seatlimit - seatstaken} 
     return seats
 
 #generate one instance of a course, with variables of lecture/discussion and whether it has a final        
@@ -102,7 +102,7 @@ for item in courses_input:
         course["pubHealthMaj"] = make_bool(item[21])
         #then course data that is not in the spreadsheet
         # dummy data just to append the same data to a selection if it's a lecture:
-        if random.randint(1, 5) == 5 and item[22] == "Lecture":
+        if random.randint(1, 15) == 15 and item[22] == "Lecture":
             course["courseThread"] = "This course is part of the Cultural Forms in Transit Course Thread."
         else:
             course["courseThread"] = ""
@@ -125,6 +125,10 @@ for item in courses_input:
             course["note"] = "This is a note."
         else:
             course["note"] = ""
+        if random.randint(1, 8) == 8 and item[22] == "Lecture":
+            course["freshSophSem"] = True
+        else:
+            course["freshSophSem"] = False
     
         #then populate the instance data if it's supposed to have any
         instances = []
@@ -132,7 +136,7 @@ for item in courses_input:
         if item[23] == "Y":
             instances.append(gen_instance(course["type"], item[8]))
             #for lectures, populate more than one for some subset
-            if random.randint(1, 7) == 7 and course["type"] == "Lecture":
+            if random.randint(1, 10) == 10 and course["type"] == "Lecture":
                 instances.append(gen_instance(course["type"], item[8]))
             #for discussions, populate with an extra random # of instances
             if course["type"] == "Discussion":
