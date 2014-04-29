@@ -404,7 +404,7 @@
     <control controlID="203" controlTypeID="com.balsamiq.mockups::Paragraph" x="852" y="430" w="97" h="47" measuredW="200" measuredH="80" zOrder="50" locked="false" isInGroup="-1">
       <controlProperties>
         <size>14</size>
-        <text>Spring%202014%0ATu%201-2%20p.m.</text>
+        <text>Spring%202014%0ATh%203-6%20p.m.</text>
       </controlProperties>
     </control>
     <control controlID="204" controlTypeID="com.balsamiq.mockups::Paragraph" x="957" y="430" w="87" h="40" measuredW="200" measuredH="80" zOrder="51" locked="false" isInGroup="-1">
@@ -851,7 +851,7 @@
         <color>6710886</color>
       </controlProperties>
     </control>
-    <control controlID="300" controlTypeID="com.balsamiq.mockups::Canvas" x="461" y="426" w="778" h="61" measuredW="100" measuredH="70" zOrder="130" locked="false" isInGroup="-1">
+    <control controlID="300" controlTypeID="com.balsamiq.mockups::Canvas" x="461" y="425" w="778" h="61" measuredW="100" measuredH="70" zOrder="130" locked="false" isInGroup="-1">
       <controlProperties>
         <backgroundAlpha>0.25</backgroundAlpha>
         <borderStyle>none</borderStyle>

@@ -251,7 +251,7 @@
     <control controlID="203" controlTypeID="com.balsamiq.mockups::Paragraph" x="706" y="479" w="97" h="47" measuredW="200" measuredH="80" zOrder="44" locked="false" isInGroup="-1">
       <controlProperties>
         <size>14</size>
-        <text>Spring%202014%0ATu%201-2%20p.m.</text>
+        <text>Spring%202014%0ATh%203-6%20p.m.</text>
       </controlProperties>
     </control>
     <control controlID="204" controlTypeID="com.balsamiq.mockups::Paragraph" x="825" y="479" w="87" h="40" measuredW="200" measuredH="80" zOrder="45" locked="false" isInGroup="-1">
