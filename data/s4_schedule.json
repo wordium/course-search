@@ -1,4 +1,4 @@
-"course32":{
+{"course32":{
     "berkeleyConnect": false, 
     "breadth": {
         "AC": false, 
@@ -3044,4 +3044,5 @@
     "restrictions": "", 
     "title": "Medical/Veterinary Entomology", 
     "type": "Lecture"
-}, 
+}
+}
