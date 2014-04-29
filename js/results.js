@@ -44,6 +44,7 @@ function getJSON (filename) {
       var row = '<tr>';
 
       instance = course.classInstance;
+      var numInstances = instance.length;
 
       // add to facet information lists
 
@@ -112,8 +113,9 @@ function getJSON (filename) {
       if (course.berkeleyConnect)
         fMisc["Berkeley Connect"]+=1;
 
-
-      if (instance.length === 0) {
+      // building row for table
+      // classes not offered next semester
+      if (numInstances === 0) {
         row += '<td class="deptAbbrev">' + course.deptAbbrev + '</td>'
          + '<td class="courseNum">' + course.number + '</td>'
          + '<td class="courseTitle">' + course.title + '</td>'
@@ -125,8 +127,8 @@ function getJSON (filename) {
          + '</tr>';
 
 
+        // details
         row += '<tr><td colspan="10" class="hidden">';
-
 
         row += '<p><span class="descriptionCategory">Description: </span>' + course.description + '</p>';
 
@@ -147,30 +149,54 @@ function getJSON (filename) {
           row += '</ul>';
         }
 
-        row += '<p><span class="descriptionCategory">Ratings and Grades</span></p></tr>';
-
 
       }
 
+      // building row for table
+      // courses with one instance
+      else if (numInstances === 1) {
+        var classInfo = instance[0];
+        row += '<td class="deptAbbrev">' + course.deptAbbrev + '</td>'
+             + '<td class="courseNum">' + course.number + '</td>'
+             + '<td class="courseTitle">' + course.title + '</td>'
+             + '<td class="instanceInstructor">' + classInfo.instructor + '</td>'
+             + '<td class="instanceTime">' + classInfo.time.start + '-' + classInfo.time.end + '</td>'
+             + '<td class="instancePlace">' + classInfo.location.room + ' <a href="http://www.berkeley.edu/map/googlemap/?' 
+                                           + classInfo.location.building.toLowerCase() + '" target="new">'
+                                           + classInfo.location.building + '</a></td>'
+             + '<td class="courseUnits">' + course.credit + '</td>'
+             + '<td class="instanceCCN">' + classInfo.ccn + '</td>'
+             + '<td class="badges">' + 'badges' + '</td>'
+             + '<td class="save"> <input type="checkbox"> </td>'
+             + '</tr>';
+      }
+
+      // building row for table
+      // courses with one instance
       else {
-        for (var i=0; i<instance.length; i++){
+        for (var i=0; i<numInstances; i++){
+          // if multiple instances, add first row, then add course information and message
+          if (i === 0) {
+            row += '<td class="deptAbbrev">' + course.deptAbbrev + '</td>'
+                 + '<td class="courseNum">' + course.number + '</td>'
+                 + '<td class="courseTitle">' + course.title + '</td>'
+                 + '<td colspan="7">' + numInstances + ' ' + course.type + 's. </td></tr>';
+          }
+          
+          row += '<tr><td colspan="3">&nbsp;</td>';
 
-          // semester
-          //console.log(instance[i].semester);
-
-          row += '<td class="deptAbbrev">' + course.deptAbbrev + '</td>'
-           + '<td class="courseNum">' + course.number + '</td>'
-           + '<td class="courseTitle">' + course.title + '</td>'
-           + '<td class="instanceInstructor">' + instance[i].instructor + '</td>'
-           + '<td class="instanceTime">' + instance[i].time + '</td>'
-           + '<td class="instancePlace">' + instance[i].location.room + ' <a href="http://www.berkeley.edu/map/googlemap/?' 
-                                          + instance[i].location.building.toLowerCase() + '" target="new">'
-                                          + instance[i].location.building + '</a></td>'
-           + '<td class="courseUnits">' + course.credit + '</td>'
-           + '<td class="instanceCCN">' + instance[i].ccn + '</td>'
-           + '<td class="badges">' + 'badges' + '</td>'
-           + '<td class="save"> <input type="checkbox"> </td>'
-           + '</tr>';
+          // n row for multiple instances: add detail
+          
+          row += '<td class="instanceInstructor">' + instance[i].instructor + '</td>'
+              + '<td class="instanceTime">' + instance[i].time.start + '-' + instance[i].time.end + '</td>'
+              + '<td class="instancePlace">' + instance[i].location.room + ' <a href="http://www.berkeley.edu/map/googlemap/?' 
+                                            + instance[i].location.building.toLowerCase() + '" target="new">'
+                                            + instance[i].location.building + '</a></td>'
+              + '<td class="courseUnits">' + course.credit + '</td>'
+              + '<td class="instanceCCN">' + instance[i].ccn + '</td>'
+              + '<td class="badges">' + 'badges' + '</td>'
+              + '<td class="save"> <input type="checkbox"> </td>'
+              + '</tr>';
 
           //seats - available, waitlist, ?
           //QUESTION: how do we know if a course is or isn't accepting students on a waitlist? Are there other options?
@@ -213,7 +239,9 @@ function getJSON (filename) {
         }
       }
 
-      results = row + results;
+
+      row += '<p><span class="descriptionCategory">Ratings and Grades</span></p></tr>';
+      results = results + row;
     });
 
   $('#results tbody').append(results);

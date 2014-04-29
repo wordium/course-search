@@ -1,50 +1,77 @@
 {
-	.sampleCourse1 {
-		.title 
-		.type 
-		.department 
-		.deptAbbrev 
-		.number
-		.crossListing
-		.credit: int
-		.description 
-		.format 
-		.prereqs 
-		.isPrereqFor 
-		.hasCoreqs 
-		.restrictions 
-		.offerHist: []
-		.note 
-		.courseThread 
-		.breadth: { //these are all boolean
-			.AC
-			.PS
-			.RCA 
-		},
-		.berkeleyConnect 
-		.classInstance: [
-			{
-				.semester 
-				.days 
-				.time 
-				.location: {
-					.room 
-					.building 
-				},
-				.instructor 
-				.ccn: int
-				.seats { //these are int
-					.max:
-					.enrolled:
-					.waitlist:
-					.available:
-				},
-				.finalGroup 
-			},
-			...
-		]
-	},
-
-	...
-}
-  
+	course78:{
+    berkeleyConnect
+    breadth
+        AC
+        AL
+        BS
+        HS
+        IS
+        PS
+        PV
+        RCA
+        RCB
+        SS
+    }, 
+    classInstance
+        {
+            ccn
+            days
+            finalGroup
+            instructor
+            location
+                building
+                room
+            }, 
+            seats
+                available
+                enrolled
+                max
+                waitlist
+            }, 
+            semester
+            time
+                end
+                start
+            }
+        }, 
+        {
+            ccn
+            days
+            finalGroup
+            instructor
+            location
+                building
+                room
+            }, 
+            seats
+                available
+                enrolled
+                max
+                waitlist
+            }, 
+            semester
+            time
+                end
+                start
+            }
+        }
+    ], 
+    courseThread
+    credit
+    crossListing
+    department
+    deptAbbrev
+    description
+    format
+    freshSophSem
+    hasCoreqs
+    isPrereqFor
+    note
+    number
+    offerHist [ ], 
+    prereqs
+    restrictions
+    title
+    type
+}, 
