@@ -5,6 +5,9 @@ $(document).ready(function () {
     getJSON(filename);
   });
 
+  var filename = $('#main').attr('data-file');
+  getJSON(filename);
+
 });
 
 /* assumes filename being passed does include the file type */
@@ -106,6 +109,9 @@ function getJSON (filename) {
       else
         fLevel["Other"]+=1;
 
+      if (course.berkeleyConnect)
+        fMisc["Berkeley Connect"]+=1;
+
 
       if (instance.length === 0) {
         row += '<td class="deptAbbrev">' + course.deptAbbrev + '</td>'
@@ -117,6 +123,33 @@ function getJSON (filename) {
          + '<td class="badges">' + 'badges' + '</td>'
          + '<td class="save"> <input type="checkbox"> </td>'
          + '</tr>';
+
+
+        row += '<tr><td colspan="10" class="hidden">';
+
+
+        row += '<p><span class="descriptionCategory">Description: </span>' + course.description + '</p>';
+
+        if ((course.prereqs).length > 0)
+          row += '<p><span class="descriptionCategory">Prerequisites: </span>' + course.prereqs + '</p>';
+
+        if ((course.restrictions).length > 0)
+          row += '<p><span class="descriptionCategory">Restrictions: </span>' + course.restrictions + '</p>';
+
+        if ((course.note).length > 0)
+          row += '<p><span class="descriptionCategory">Notes: </span>' + course.note + '</p>';
+
+        var offerHistory = course.offerHist;
+        if (offerHistory.length > 0) {
+          row += '<p><span class="descriptionCategory">Offering History: </span></p><ul>';
+          for (var i = 0; i < offerHistory.length; i++)
+            row += '<li>' + offerHistory[i] + '</li>';
+          row += '</ul>';
+        }
+
+        row += '<p><span class="descriptionCategory">Ratings and Grades</span></p></tr>';
+
+
       }
 
       else {
@@ -180,7 +213,6 @@ function getJSON (filename) {
         }
       }
 
-      row += '</tr>';
       results = row + results;
     });
 
@@ -221,7 +253,7 @@ function getJSON (filename) {
     $ulRequirements.children().remove();
     for (var item in fBreadth) {
       if (fBreadth[item] > 0)
-        $ulRequirements.prepend('<li> <input type="checkbox"/>' + item + " (" + fBreadth[item] + ")</li>");
+        $ulRequirements.append('<li> <input type="checkbox"/>' + item + " (" + fBreadth[item] + ")</li>");
     }
 
     var $ulSeats = $('#facetsSeats');
@@ -249,14 +281,14 @@ function getJSON (filename) {
     $ulUnits.children().remove();
     for (var item in fUnits) {
       if (fUnits[item] > 0)
-        $ulUnits.prepend('<li> <input type="checkbox"/>' + item + " (" + fUnits[item] + ")</li>");
+        $ulUnits.append('<li> <input type="checkbox"/>' + item + " (" + fUnits[item] + ")</li>");
     }
 
     var $ulSize = $('#facetsSize');
     $ulSize.children().remove();
     for (var item in fSize) {
       if (fSize[item] > 0)
-        $ulSize.prepend('<li> <input type="checkbox"/>' + item + " (" + fSize[item] + ")</li>");
+        $ulSize.append('<li> <input type="checkbox"/>' + item + " (" + fSize[item] + ")</li>");
     }
 
     var $ulType = $('#facetsType');
@@ -270,7 +302,14 @@ function getJSON (filename) {
     $ulLevel.children().remove();
     for (var item in fLevel) {
       if (fLevel[item] > 0)
-        $ulLevel.prepend('<li> <input type="checkbox"/>' + item + " (" + fLevel[item] + ")</li>");
+        $ulLevel.append('<li> <input type="checkbox"/>' + item + " (" + fLevel[item] + ")</li>");
+    }
+
+    var $ulMisc = $('#facetsMisc');
+    $ulMisc.children().remove();
+    for (var item in fMisc) {
+      if (fMisc[item] > 0)
+        $ulMisc.append('<li> <input type="checkbox"/>' + item + " (" + fMisc[item] + ")</li>");
     }
   });
 
@@ -311,8 +350,8 @@ function getJSON (filename) {
     };
 
     fLevel = {
-      "Upper Division": 0,
       "Lower Division": 0,
+      "Upper Division": 0,
       "Graduate": 0,
       "Professional": 0,
       "Other": 0
@@ -325,6 +364,12 @@ function getJSON (filename) {
       "75-150": 0,
       "151+": 0
     };
+
+    fMisc = {
+      "Berkeley Connect": 0,
+      "Freshman/Sophomore Seminar": 0,
+      "DeCal": 0
+    }
   }
 
 }

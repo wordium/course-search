@@ -62,6 +62,12 @@ $(document).ready(function () {
     dateTime($(this), classname);
   });
 
+
+  // kludge to test going to a specific file
+  $('.searchBtn').on('click', function () {
+    window.location.href = "s1_pub_health.html";
+  });
+
 });
 
 function dateTime ($this, classname) {

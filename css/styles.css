@@ -47,6 +47,9 @@ img.bulletin {
   padding: 25px 25px 0;
 }
 
+.hidden {
+  /*display: none;*/
+}
 
 /* search form */
 #search {
@@ -156,11 +159,11 @@ ul#campusReq, ul#lsBreadth, ul#courseLevel, #seats-units {
     column-gap: 20px;
 }
 
-#seats-units .formGroup {
-  height: 90px;
+#seats-units .formGroup, ul#courseLevel {
+  height: 70px;
 }
 
-ul#campusReq, ul#courseLevel {
+ul#campusReq {
   height: 50px;
 }
 
