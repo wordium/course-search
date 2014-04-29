@@ -2,7 +2,7 @@
 #search 1: fall 2014 classes in the public health major
 #search 2: all semesters L&S breadth reqs
 #search 3: all semesters keyword "sustainability"
-#search 4: fall 2014 MW before noon and anytime TuTh
+#search 4: fall 2014 MW before 12:30 PM and anytime TuTh
 #search 5: fall 2014 open seats
 
 import json
@@ -24,30 +24,39 @@ for course in courses_list:
     #there are no classes that start in the a.m. and end after noon so just a.m. is fine for that too
     for item in course[1]["classInstance"]:
         if course not in schedule_1stpass:
-            if ((("M" in item["days"] or "W" in item["days"]) and "F" not in item["days"]) and ("A" in item["time"]["end"])) or ("Tu" in item["days"] or "Th" in item["days"]):
+            if ((("M" in item["days"] or "W" in item["days"]) and "F" not in item["days"]) and (("A" in item["time"]["end"] or "12P" in item["time"]["end"]) or ("Tu" in item["days"] or "Th" in item["days"]))):
                 schedule_1stpass.append(course)
 
 
 #handle search 4 part 2--removing individual class instances from courses that have other instances that fit the criteria
 for course in schedule_1stpass:
     for item in course[1]["classInstance"]:
-        if ("F" in item["days"]) or (("M" in item["days"] or "W" in item["days"]) and "A" not in item["time"]["end"]):
+        if ("F" in item["days"]):
             course[1]["classInstance"].remove(item)
+        elif ("M" in item["days"] or "W" in item["days"]) and ("A" not in item["time"]["end"]):
+            if item["time"]["end"] != "12P":
+                course[1]["classInstance"].remove(item)
     schedule_2ndpass.append(course)
     
     
 for course in schedule_2ndpass:
     for item in course[1]["classInstance"]:
-        if ("F" in item["days"]) or (("M" in item["days"] or "W" in item["days"]) and "A" not in item["time"]["end"]):
+        if ("F" in item["days"]):
             course[1]["classInstance"].remove(item)
+        elif ("M" in item["days"] or "W" in item["days"]) and ("A" not in item["time"]["end"]):
+            if item["time"]["end"] != "12P":
+                course[1]["classInstance"].remove(item)
     schedule_3rdpass.append(course)
 
 file = open("s4_schedule_3rdpass.json", "w")
 
 for course in schedule_3rdpass:
     for item in course[1]["classInstance"]:
-        if ("F" in item["days"]) or (("M" in item["days"] or "W" in item["days"]) and "A" not in item["time"]["end"]):
+        if ("F" in item["days"]):
             course[1]["classInstance"].remove(item)
+        elif ("M" in item["days"] or "W" in item["days"]) and ("A" not in item["time"]["end"]):
+            if item["time"]["end"] != "12P":
+                course[1]["classInstance"].remove(item)
     schedule_4thpass.append(course)
 
 file = open("s4_schedule.json", "w")
