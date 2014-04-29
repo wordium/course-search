@@ -160,7 +160,8 @@ function getJSON (filename) {
              + '<td class="courseNum">' + course.number + '</td>'
              + '<td class="courseTitle">' + course.title + '</td>'
              + '<td class="instanceInstructor">' + classInfo.instructor + '</td>'
-             + '<td class="instanceTime">' + classInfo.time.start + '-' + classInfo.time.end + '</td>'
+             + '<td class="instanceTime">' + classInfo.time.start + '-' + classInfo.time.end  
+                                           + '<p>' + classInfo.days + '</p></td>'
              + '<td class="instancePlace">' + classInfo.location.room + ' <a href="http://www.berkeley.edu/map/googlemap/?' 
                                            + classInfo.location.building.toLowerCase() + '" target="new">'
                                            + classInfo.location.building + '</a></td>'
@@ -169,6 +170,29 @@ function getJSON (filename) {
              + '<td class="badges">' + 'badges' + '</td>'
              + '<td class="save"> <input type="checkbox"> </td>'
              + '</tr>';
+
+        // details
+        row += '<tr><td colspan="10" class="hidden">';
+
+        row += '<p><span class="descriptionCategory">Description: </span>' + course.description + '</p>';
+
+        if ((course.prereqs).length > 0)
+          row += '<p><span class="descriptionCategory">Prerequisites: </span>' + course.prereqs + '</p>';
+
+        if ((course.restrictions).length > 0)
+          row += '<p><span class="descriptionCategory">Restrictions: </span>' + course.restrictions + '</p>';
+
+        if ((course.note).length > 0)
+          row += '<p><span class="descriptionCategory">Notes: </span>' + course.note + '</p>';
+
+        var offerHistory = course.offerHist;
+        if (offerHistory.length > 0) {
+          row += '<p><span class="descriptionCategory">Offering History: </span></p><ul>';
+          for (var i = 0; i < offerHistory.length; i++)
+            row += '<li>' + offerHistory[i] + '</li>';
+          row += '</ul>';
+        }
+
       }
 
       // building row for table
@@ -188,7 +212,8 @@ function getJSON (filename) {
           // n row for multiple instances: add detail
           
           row += '<td class="instanceInstructor">' + instance[i].instructor + '</td>'
-              + '<td class="instanceTime">' + instance[i].time.start + '-' + instance[i].time.end + '</td>'
+              + '<td class="instanceTime">' + instance[i].time.start + '-' + instance[i].time.end 
+                                            + '<p>' + instance[i].days + '</p></td>'
               + '<td class="instancePlace">' + instance[i].location.room + ' <a href="http://www.berkeley.edu/map/googlemap/?' 
                                             + instance[i].location.building.toLowerCase() + '" target="new">'
                                             + instance[i].location.building + '</a></td>'
@@ -197,6 +222,29 @@ function getJSON (filename) {
               + '<td class="badges">' + 'badges' + '</td>'
               + '<td class="save"> <input type="checkbox"> </td>'
               + '</tr>';
+
+          // details
+          row += '<tr><td colspan="10" class="hidden">';
+
+          row += '<p><span class="descriptionCategory">Description: </span>' + course.description + '</p>';
+
+          if ((course.prereqs).length > 0)
+            row += '<p><span class="descriptionCategory">Prerequisites: </span>' + course.prereqs + '</p>';
+
+          if ((course.restrictions).length > 0)
+            row += '<p><span class="descriptionCategory">Restrictions: </span>' + course.restrictions + '</p>';
+
+          if ((course.note).length > 0)
+            row += '<p><span class="descriptionCategory">Notes: </span>' + course.note + '</p>';
+
+          var offerHistory = course.offerHist;
+          if (offerHistory.length > 0) {
+            row += '<p><span class="descriptionCategory">Offering History: </span></p><ul>';
+            for (var j = 0; j < offerHistory.length; j++){
+              row += '<li>' + offerHistory[j] + '</li>';
+            }
+            row += '</ul>';
+          }
 
           //seats - available, waitlist, ?
           //QUESTION: how do we know if a course is or isn't accepting students on a waitlist? Are there other options?
@@ -294,7 +342,7 @@ function getJSON (filename) {
     var $ulDay = $('#facetsDay');
     $ulDay.children().remove();
     for (var item in fDays) {
-      if (fDepartment[item] > 0)
+      if (fDays[item] > 0)
       $ulDay.prepend('<li> <input type="checkbox"/>' + item + " (" + fDays[item] + ")</li>");
     }
 
