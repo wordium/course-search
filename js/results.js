@@ -42,7 +42,7 @@ function getJSON (filename) {
     $.each( data, function( key, course ) {
 
       // intialize row. Add classes according to search parameters?
-      var row = '<tr>';
+      var row = '<tr class="courseHeaderRow">';
 
       instance = course.classInstance;
       var numInstances = instance.length;
@@ -50,7 +50,7 @@ function getJSON (filename) {
       // add to facet information lists
 
       //department
-      var dept = course.department;
+      var dept = course.deptAbbrev;
       if (!fDepartment[dept])
         fDepartment[dept] = 1;
       else
@@ -92,7 +92,7 @@ function getJSON (filename) {
       fUnits[course.credit]+=1;
 
       //meeting type
-      fMeeting[course.type]+=1;
+      fMeeting[course.courseType]+=1;
 
       //fLevel
       //QUESTION: Do we want a facet that calls out Berkeley Connect or Freshman/Sophomore Seminars, 
@@ -117,104 +117,51 @@ function getJSON (filename) {
       // building row for table
       // classes not offered next semester
       if (numInstances === 0) {
-        row += '<td class="deptAbbrev">' + course.deptAbbrev + '</td>'
-         + '<td class="courseNum">' + course.number + '</td>'
-         + '<td class="courseTitle">' + course.title + '</td>'
-         + '<td colspan="3" class="notOfferedTD"> ---- Not offered this semester. ---- </td>'
-         + '<td class="courseUnits">' + course.credit + '</td>'
-         + '<td class="notOfferedTD"> N/A </td>'
-         + '<td class="badges">' + 'badges' + '</td>'
-         + '<td class="save"> <input type="checkbox"> </td>'
-         + '</tr>';
-
-
-        // details
-        row += '<tr class="hidden"><td colspan="10">';
-
-        row += '<p><span class="descriptionCategory">Description: </span>' + course.description + '</p>';
-
-        if ((course.prereqs).length > 0)
-          row += '<p><span class="descriptionCategory">Prerequisites: </span>' + course.prereqs + '</p>';
-
-        if ((course.restrictions).length > 0)
-          row += '<p><span class="descriptionCategory">Restrictions: </span>' + course.restrictions + '</p>';
-
-        if ((course.note).length > 0)
-          row += '<p><span class="descriptionCategory">Notes: </span>' + course.note + '</p>';
-
-        var offerHistory = course.offerHist;
-        if (offerHistory.length > 0) {
-          row += '<p><span class="descriptionCategory">Offering History: </span></p><ul>';
-          for (var i = 0; i < offerHistory.length; i++)
-            row += '<li>' + offerHistory[i] + '</li>';
-          row += '</ul>';
-        }
-
-
+        row += notOfferedRow(course);
       }
 
       // building row for table
       // courses with one instance
       else if (numInstances === 1) {
-        var classInfo = instance[0];
-        row += '<td class="deptAbbrev">' + course.deptAbbrev + '</td>'
-             + '<td class="courseNum">' + course.number + '</td>'
-             + '<td class="courseTitle">' + course.title + '</td>'
-             + '<td class="instanceInstructor">' + classInfo.instructor + '</td>'
-             + '<td class="instanceTime">' + classInfo.time.start + '-' + classInfo.time.end  
-                                           + '<p>' + classInfo.days + '</p></td>'
-             + '<td class="instancePlace">' + classInfo.location.room + ' <a href="http://www.berkeley.edu/map/googlemap/?' 
-                                           + classInfo.location.building.toLowerCase() + '" target="new">'
-                                           + classInfo.location.building + '</a></td>'
-             + '<td class="courseUnits">' + course.credit + '</td>'
-             + '<td class="instanceCCN">' + classInfo.ccn + '</td>'
-             + '<td class="badges">' + 'badges' + '</td>'
-             + '<td class="save"> <input type="checkbox"> </td>'
-             + '</tr>';
-
-        // details
-        row += '<tr><td colspan="10" class="hidden">';
-
-        row += '<p><span class="descriptionCategory">Description: </span>' + course.description + '</p>';
-
-        if ((course.prereqs).length > 0)
-          row += '<p><span class="descriptionCategory">Prerequisites: </span>' + course.prereqs + '</p>';
-
-        if ((course.restrictions).length > 0)
-          row += '<p><span class="descriptionCategory">Restrictions: </span>' + course.restrictions + '</p>';
-
-        if ((course.note).length > 0)
-          row += '<p><span class="descriptionCategory">Notes: </span>' + course.note + '</p>';
-
-        var offerHistory = course.offerHist;
-        if (offerHistory.length > 0) {
-          row += '<p><span class="descriptionCategory">Offering History: </span></p><ul>';
-          for (var i = 0; i < offerHistory.length; i++)
-            row += '<li>' + offerHistory[i] + '</li>';
-          row += '</ul>';
-        }
+        row += oneInstanceRow(course, instance[0]);
 
       }
 
       // building row for table
       else {
-        for (var i=0; i<numInstances; i++){
+        row += '<td class="deptAbbrev">' + course.deptAbbrev + '</td>'
+             + '<td class="courseNum">' + course.number + '</td>'
+             + '<td class="courseTitle">' + course.title + '</td>'
+             + '<td colspan="7">'; 
 
-          // if multiple instances, add first row, then add course information and message
-          if (i === 0) {
-            row += '<td class="deptAbbrev">' + course.deptAbbrev + '</td>'
-                 + '<td class="courseNum">' + course.number + '</td>'
-                 + '<td class="courseTitle">' + course.title + '</td>'
-                 + '<td colspan="7">' + numInstances + ' ' + course.type + 's. </td></tr>';
-          }
-          
-          row += '<tr class="classInstance"><td colspan="3">&nbsp;</td>';
+        var instanceTypeCount = {
+          'Lecture':0,
+          'Discussion':0
+        };
+
+        for (var i=0; i<numInstances; i++)
+          instanceTypeCount[instance[i].instanceType]+=1;
+
+      console.log(instanceTypeCount);
+
+        if (instanceTypeCount['Lecture'] > 0)
+          row += '<p>' + instanceTypeCount['Lecture'] + ' Lecture' + (instanceTypeCount['Lecture']>1? 's':'') + '.</p>';
+
+        if (instanceTypeCount['Discussion'] > 0)
+          row += '<p>' + instanceTypeCount['Discussion'] + ' Discussion' + (instanceTypeCount['Discussion']>1? 's':'') + '.</p>';
+
+        row += '</td></tr>';
+
+        for (var i=0; i<numInstances; i++){
+          row += '<tr class="classInstance ' + instance[i].instanceType + '"><td colspan="3" class="textRight">' 
+                + instance[i].instanceType + '</td>';
 
           // n row for multiple instances: add detail
           
           row += '<td class="instanceInstructor">' + instance[i].instructor + '</td>'
               + '<td class="instanceTime">' + instance[i].time.start + '-' + instance[i].time.end 
-                                            + '<p>' + instance[i].days + '</p></td>'
+                                            + '<p>' + instance[i].days
+                                            + '<p>' + instance[i].semester + '</p></td>'
               + '<td class="instancePlace">' + instance[i].location.room + ' <a href="http://www.berkeley.edu/map/googlemap/?' 
                                             + instance[i].location.building.toLowerCase() + '" target="new">'
                                             + instance[i].location.building + '</a></td>'
@@ -457,5 +404,87 @@ function getJSON (filename) {
     }
   }
 
+}
+
+function notOfferedRow (course) {
+  var row = '';
+  row += '<td class="deptAbbrev">' + course.deptAbbrev + '</td>'
+   + '<td class="courseNum">' + course.number + '</td>'
+   + '<td class="courseTitle">' + course.title + '</td>'
+   + '<td colspan="3" class="notOfferedTD"> ---- Not offered this semester. ---- </td>'
+   + '<td class="courseUnits">' + course.credit + '</td>'
+   + '<td class="notOfferedTD"> N/A </td>'
+   + '<td class="badges">' + 'badges' + '</td>'
+   + '<td class="save"> <input type="checkbox"> </td>'
+   + '</tr>';
+
+
+  // details
+  row += '<tr class="hidden"><td colspan="10">';
+
+  row += '<p><span class="descriptionCategory">Description: </span>' + course.description + '</p>';
+
+  if ((course.prereqs).length > 0)
+    row += '<p><span class="descriptionCategory">Prerequisites: </span>' + course.prereqs + '</p>';
+
+  if ((course.restrictions).length > 0)
+    row += '<p><span class="descriptionCategory">Restrictions: </span>' + course.restrictions + '</p>';
+
+  if ((course.note).length > 0)
+    row += '<p><span class="descriptionCategory">Notes: </span>' + course.note + '</p>';
+
+  var offerHistory = course.offerHist;
+  if (offerHistory.length > 0) {
+    row += '<p><span class="descriptionCategory">Offering History: </span></p><ul>';
+    for (var i = 0; i < offerHistory.length; i++)
+      row += '<li>' + offerHistory[i] + '</li>';
+    row += '</ul></td></tr>';
+  }
+
+  return row;
+}
+
+function oneInstanceRow (course, classInfo) {
+
+  var row = '';
+  row += '<td class="deptAbbrev">' + course.deptAbbrev + '</td>'
+       + '<td class="courseNum">' + course.number + '</td>'
+       + '<td class="courseTitle">' + course.title + '</td>'
+       + '<td class="instanceInstructor">' + classInfo.instructor + '</td>'
+       + '<td class="instanceTime">' + classInfo.time.start + '-' + classInfo.time.end  
+                                     + '<p>' + classInfo.days + '</p>'
+                                     + '<p>' + classInfo.semester + '</p></td>'
+       + '<td class="instancePlace">' + classInfo.location.room + ' <a href="http://www.berkeley.edu/map/googlemap/?' 
+                                     + classInfo.location.building.toLowerCase() + '" target="new">'
+                                     + classInfo.location.building + '</a></td>'
+       + '<td class="courseUnits">' + course.credit + '</td>'
+       + '<td class="instanceCCN">' + classInfo.ccn + '</td>'
+       + '<td class="badges">' + 'badges' + '</td>'
+       + '<td class="save"> <input type="checkbox"> </td>'
+       + '</tr>';
+
+  // details
+  row += '<tr><td colspan="10" class="hidden">';
+
+  row += '<p><span class="descriptionCategory">Description: </span>' + course.description + '</p>';
+
+  if ((course.prereqs).length > 0)
+    row += '<p><span class="descriptionCategory">Prerequisites: </span>' + course.prereqs + '</p>';
+
+  if ((course.restrictions).length > 0)
+    row += '<p><span class="descriptionCategory">Restrictions: </span>' + course.restrictions + '</p>';
+
+  if ((course.note).length > 0)
+    row += '<p><span class="descriptionCategory">Notes: </span>' + course.note + '</p>';
+
+  var offerHistory = course.offerHist;
+  if (offerHistory.length > 0) {
+    row += '<p><span class="descriptionCategory">Offering History: </span></p><ul>';
+    for (var i = 0; i < offerHistory.length; i++)
+      row += '<li>' + offerHistory[i] + '</li>';
+    row += '</ul>';
+  }
+
+  return row;
 }
 
