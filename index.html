@@ -27,70 +27,70 @@
     </div>
 
     <div id="helpText">
-      <div id="helpSemester">Limit your search to a specific semester, or see all Berkeley courses,
+      <div id="helpSemester">Semester: Limit your search to a specific semester, or see all Berkeley courses,
        including those that are not currently scheduled.
        </div>
        
-       <div id="helpDepartment">Start typing to see a list of suggestions.
+       <div id="helpDepartment">Department: Start typing to see a list of suggestions.
        </div>
        
-       <div id="helpCourseNo">When text is entered, suggestions will appear if a department is selected.
+       <div id="helpCourseNo">Course Number: When text is entered, suggestions will appear if a department is selected.
        </div>
        
-       <div id="helpKeyword">Enter one or more to search for your term(s) in course descriptions.
+       <div id="helpKeyword">Keyword(s): Enter one or more to search for your term(s) in course descriptions.
        </div>
        
-       <div id="helpTitleKeyword">Enter one or more to search for your term(s) in course titles only.
+       <div id="helpTitleKeyword">Title Keyword(s): Enter one or more to search for your term(s) in course titles only.
        </div>
        
-       <div id="helpInstructor">Enter a full or partial last name.
+       <div id="helpInstructor">Instructor: Enter a full or partial last name.
        </div>
        
        <div id="helpAdvanced">Advanced Search Options let you search according to seat 
        availability, units, breadth requirements, time and day, and more.
        </div>
        
-       <div id="helpSeats">Check the box to search only for classes with open seats.
+       <div id="helpSeats">Open Seats: Check the box to search only for classes with open seats.
        </div>
        
-       <div id="helpWaitlist">Check the box to search only for classes with a waitlist 
+       <div id="helpWaitlist">Open Waitlist: Check the box to search only for classes with a waitlist 
        that is open for additions.
        </div>
        
-       <div id="helpExclude">Check to exclude discussion sections and labs from your search results.
+       <div id="helpExclude">Exclude Discussions and Labs: Check to exclude discussion sections and labs from your search results.
        </div>
        
-       <div id="helpUnits">Enter a minimum and/or maximum to search for a specific number or a range of units.
+       <div id="helpUnits">Units: Enter a minimum and/or maximum to search for a specific number or a range of units.
        </div>
        
-       <div id="helpLevel">Select the level of courses you wish to search.
+       <div id="helpLevel">Course Level: Select the level of courses you wish to search.
        </div>
        
-       <div id="helpCampusReqs">Check boxes to search for courses that meet the selected 
+       <div id="helpCampusReqs">Campus Requirements: Check boxes to search for courses that meet the selected 
        UC Berkeley requirements.
        </div>
        
-       <div id="helpBreadthReqs">Check boxes to search for courses that fulfill the selected 
+       <div id="helpBreadthReqs">L&S Breadth Requirements: Check boxes to search for courses that fulfill the selected 
        breadth requirements. Note that although most courses that meet L&S requirements will 
        also do so for other colleges, students outside of L&S should double-check with their 
        advisor and/or the handbook that documents their requirements.
        </div>
        
-       <div id="helpMajor">Add a major to search for courses that are included in its 
+       <div id="helpMajor">Major: Add a major to search for courses that are included in its 
        requirements. Click the plus sign to add an additional major. When searching for 
        more than one major, results will display courses that are included in at least one of them.
        </div>
        
-       <div id="helpMinor">Add a minor to search for courses that are included in its 
+       <div id="helpMinor">Minor: Add a minor to search for courses that are included in its 
        requirements. Click the plus sign to add an additional minor. When searching for 
        more than one minor, results will display courses that are included in at least one of them.
        </div>
        
-       <div id="helpCalendar">Click on time blocks to select them and search for classes 
+       <div id="helpCalendar">Time and Day: Click on time blocks to select them and search for classes 
        that meet during the selected times and days.  
        </div>	
        
-    </div>
+    </div><!-- #helpText -->
 
     <div id="search">
       <div id="searchForm">
@@ -193,11 +193,18 @@
               <ul id="courseLevel">
                 <li><input type="checkbox" id="lowerDiv" /> <label for="lowerDiv">Lower Division (1-99)</label></li>
                 <li><input type="checkbox" id="upperDiv" /> <label for="upperDiv">Upper Division (100-199)</label></li>
-                <li><input type="checkbox" id="berkeleyConnect"> <label for="berkeleyConnect">Berkeley Connect</label></input></li>
                 <li><input type="checkbox" id="graduate" /> <label for="graduate">Graduate (200-299)</label></li>
                 <li><input type="checkbox" id="professional" /> <label for="professional">Professional (300-399)</label></li>
               </ul>
+              
+              <div class="sectionTitle">Snowflake:</div>
+              <ul id="snowflake">
+                <li><input type="checkbox" id="berkeleyConnect"> <label for="berkeleyConnect">Berkeley Connect</label></input></li>
+                <li><input type="checkbox" id="courseThread" /> <label for="courseThread">Course Threads</label></li>
+                <li><input type="checkbox" id="freshSophSem" /> <label for="freshSophSem">Freshman/sophomore Seminars</label></li>
+              </ul>
             </div>
+            
           </div><!-- #advCheckboxes -->
 
           <div id="requirements">
