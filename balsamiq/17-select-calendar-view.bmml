@@ -25,10 +25,12 @@
         <color>545684</color>
       </controlProperties>
     </control>
-    <control controlID="34" controlTypeID="com.balsamiq.mockups::Title" x="219" y="209" w="1050" h="-1" measuredW="172" measuredH="23" zOrder="5" locked="false" isInGroup="-1">
+    <control controlID="34" controlTypeID="com.balsamiq.mockups::Title" x="219" y="209" w="192" h="-1" measuredW="172" measuredH="23" zOrder="5" locked="false" isInGroup="-1">
       <controlProperties>
         <align>left</align>
         <color>16777215</color>
+        <href>1-basic-search-title%26bm%3B1-basic-search-title.bmml%26bm%3B1-basic-search-title.bmml%26bm%3B1-basic-search-title.bmml</href>
+        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%2288%2C175%2C280%2C198%22%20href%3D%221-basic-search-title.bmml%22%20alt%3D%221-basic-search-title%22%20id%3D%2234%22/%3E</map>
         <size>20</size>
         <text>COURSE%20SEARCH</text>
       </controlProperties>
@@ -637,12 +639,12 @@
         <text>*Theories%20of%20Traditionality%20and%20Modernity*%2C%206415%20%5BDwinnelle%5D</text>
       </controlProperties>
     </control>
-    <control controlID="336" controlTypeID="com.balsamiq.mockups::Link" x="873" y="282" w="-1" h="-1" measuredW="95" measuredH="20" zOrder="110" locked="false" isInGroup="-1">
+    <control controlID="336" controlTypeID="com.balsamiq.mockups::Link" x="873" y="282" w="-1" h="-1" measuredW="96" measuredH="20" zOrder="110" locked="false" isInGroup="-1">
       <controlProperties>
         <href>1-basic-search-title%26bm%3B1-basic-search-title.bmml%26bm%3B1-basic-search-title.bmml%26bm%3B1-basic-search-title.bmml</href>
-        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%22742%2C248%2C837%2C268%22%20href%3D%221-basic-search-title.bmml%22%20alt%3D%221-basic-search-title%22%20id%3D%22336%22/%3E</map>
+        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%22742%2C248%2C838%2C268%22%20href%3D%221-basic-search-title.bmml%22%20alt%3D%221-basic-search-title%22%20id%3D%22336%22/%3E</map>
         <size>14</size>
-        <text>Back%20to%20search</text>
+        <text>Back%20to%20results</text>
       </controlProperties>
     </control>
     <control controlID="337" controlTypeID="com.balsamiq.mockups::Button" x="1070" y="280" w="-1" h="-1" measuredW="117" measuredH="24" zOrder="111" locked="false" isInGroup="-1">
