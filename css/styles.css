@@ -55,6 +55,13 @@ img.bulletin {
   width: 300px;
   float: right;
   margin-right: 50px;
+  margin-top: 30px;
+  font-size: 13px;
+
+}
+
+.helpHead {
+  font-weight: bold;
 }
 
 /* search form */
@@ -170,7 +177,7 @@ ul#campusReq, ul#lsBreadth, ul#courseLevel, #seats-units {
 }
 
 ul#campusReq {
-  height: 50px;
+  height: 70px;
 }
 
 /* seats and units */
