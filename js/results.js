@@ -7,7 +7,6 @@ $(document).ready(function () {
 
   var filename = $('#main').attr('data-file');
   getJSON(filename);
-
 });
 
 /* assumes filename being passed does include the file type */
@@ -42,7 +41,7 @@ function getJSON (filename) {
     $.each( data, function( key, course ) {
 
       // intialize row. Add classes according to search parameters?
-      var row = '<tr class="courseHeaderRow">';
+      var row = '';
 
       instance = course.classInstance;
       var numInstances = instance.length;
@@ -128,7 +127,9 @@ function getJSON (filename) {
       }
 
       // building row for table
+      // coruses with multiple instances
       else {
+        row += '<tr class="courseHeaderRow">';
         row += '<td class="deptAbbrev">' + course.deptAbbrev + '</td>'
              + '<td class="courseNum">' + course.number + '</td>'
              + '<td class="courseTitle">' + course.title + '</td>'
@@ -142,7 +143,7 @@ function getJSON (filename) {
         for (var i=0; i<numInstances; i++)
           instanceTypeCount[instance[i].instanceType]+=1;
 
-      console.log(instanceTypeCount);
+      // console.log(instanceTypeCount);
 
         if (instanceTypeCount['Lecture'] > 0)
           row += '<p>' + instanceTypeCount['Lecture'] + ' Lecture' + (instanceTypeCount['Lecture']>1? 's':'') + '.</p>';
@@ -152,8 +153,11 @@ function getJSON (filename) {
 
         row += '</td></tr>';
 
+        // add details?
+        row += detailsRow(course);
+
         for (var i=0; i<numInstances; i++){
-          row += '<tr class="classInstance ' + instance[i].instanceType + '"><td colspan="3" class="textRight">' 
+          row += '<tr class="classInstance ' + instance[i].instanceType + '"><td colspan="3">' 
                 + instance[i].instanceType + '</td>';
 
           // n row for multiple instances: add detail
@@ -170,29 +174,6 @@ function getJSON (filename) {
               + '<td class="badges">' + 'badges' + '</td>'
               + '<td class="save"> <input type="checkbox"> </td>'
               + '</tr>';
-
-          // details
-          row += '<tr class="hidden"><td colspan="10">';
-
-          row += '<p><span class="descriptionCategory">Description: </span>' + course.description + '</p>';
-
-          if ((course.prereqs).length > 0)
-            row += '<p><span class="descriptionCategory">Prerequisites: </span>' + course.prereqs + '</p>';
-
-          if ((course.restrictions).length > 0)
-            row += '<p><span class="descriptionCategory">Restrictions: </span>' + course.restrictions + '</p>';
-
-          if ((course.note).length > 0)
-            row += '<p><span class="descriptionCategory">Notes: </span>' + course.note + '</p>';
-
-          var offerHistory = course.offerHist;
-          if (offerHistory.length > 0) {
-            row += '<p><span class="descriptionCategory">Offering History: </span></p><ul>';
-            for (var j = 0; j < offerHistory.length; j++){
-              row += '<li>' + offerHistory[j] + '</li>';
-            }
-            row += '</ul>';
-          }
 
           //seats - available, waitlist, ?
           //QUESTION: how do we know if a course is or isn't accepting students on a waitlist? Are there other options?
@@ -246,8 +227,11 @@ function getJSON (filename) {
   results = results + resultsNotOff;
 
   $('#results tbody').append(results);
-  $('.classInstance td').on('click', function() {
-    $(this).parent().next().toggleClass('hidden');
+
+  $('.courseHeaderRow').on('click', function() {
+    var $nextRow = $(this).next();
+    if ($nextRow.hasClass('details'))
+      $nextRow.toggleClass('hidden');
   });
 
   /*
@@ -407,7 +391,7 @@ function getJSON (filename) {
 }
 
 function notOfferedRow (course) {
-  var row = '';
+  var row = '<tr class="courseHeaderRow">';
   row += '<td class="deptAbbrev">' + course.deptAbbrev + '</td>'
    + '<td class="courseNum">' + course.number + '</td>'
    + '<td class="courseTitle">' + course.title + '</td>'
@@ -420,33 +404,14 @@ function notOfferedRow (course) {
 
 
   // details
-  row += '<tr class="hidden"><td colspan="10">';
-
-  row += '<p><span class="descriptionCategory">Description: </span>' + course.description + '</p>';
-
-  if ((course.prereqs).length > 0)
-    row += '<p><span class="descriptionCategory">Prerequisites: </span>' + course.prereqs + '</p>';
-
-  if ((course.restrictions).length > 0)
-    row += '<p><span class="descriptionCategory">Restrictions: </span>' + course.restrictions + '</p>';
-
-  if ((course.note).length > 0)
-    row += '<p><span class="descriptionCategory">Notes: </span>' + course.note + '</p>';
-
-  var offerHistory = course.offerHist;
-  if (offerHistory.length > 0) {
-    row += '<p><span class="descriptionCategory">Offering History: </span></p><ul>';
-    for (var i = 0; i < offerHistory.length; i++)
-      row += '<li>' + offerHistory[i] + '</li>';
-    row += '</ul></td></tr>';
-  }
+  row += detailsRow(course);
 
   return row;
 }
 
 function oneInstanceRow (course, classInfo) {
 
-  var row = '';
+  var row = '<tr class="courseHeaderRow">';
   row += '<td class="deptAbbrev">' + course.deptAbbrev + '</td>'
        + '<td class="courseNum">' + course.number + '</td>'
        + '<td class="courseTitle">' + course.title + '</td>'
@@ -464,7 +429,13 @@ function oneInstanceRow (course, classInfo) {
        + '</tr>';
 
   // details
-  row += '<tr><td colspan="10" class="hidden">';
+  row += detailsRow(course);
+
+  return row;
+}
+
+function detailsRow (course) {
+  var row = '<tr class="hidden details"><td colspan="10" class="description">';
 
   row += '<p><span class="descriptionCategory">Description: </span>' + course.description + '</p>';
 
@@ -487,4 +458,6 @@ function oneInstanceRow (course, classInfo) {
 
   return row;
 }
+
+
 
