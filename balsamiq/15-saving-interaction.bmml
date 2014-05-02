@@ -41,8 +41,8 @@
     </control>
     <control controlID="53" controlTypeID="com.balsamiq.mockups::Link" x="1117" y="253" w="-1" h="-1" measuredW="121" measuredH="20" zOrder="7" locked="false" isInGroup="-1">
       <controlProperties>
-        <href>14-saved%26bm%3B14-saved.bmml%26bm%3B14-saved.bmml%26bm%3B14-saved.bmml</href>
-        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%22986%2C219%2C1107%2C239%22%20href%3D%2214-saved.bmml%22%20alt%3D%2214-saved%22%20id%3D%2253%22/%3E</map>
+        <href>19-new-save-compare-w-select-box%26bm%3B19-new-save-compare-w-select-box.bmml%26bm%3B19-new-save-compare-w-select-box.bmml%26bm%3B19-new-save-compare-w-select-box.bmml</href>
+        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%22986%2C219%2C1107%2C239%22%20href%3D%2219-new-save-compare-w-select-box.bmml%22%20alt%3D%2219-new-save-compare-w-select-box%22%20id%3D%2253%22/%3E</map>
         <size>14</size>
         <text>Saved%20Courses%20%286%29</text>
       </controlProperties>
@@ -73,7 +73,7 @@
             <borderStyle>none</borderStyle>
           </controlProperties>
         </control>
-        <control controlID="1" controlTypeID="com.balsamiq.mockups::CheckBoxGroup" x="16" y="41" w="203" h="145" measuredW="204" measuredH="133" zOrder="1" locked="false" isInGroup="154">
+        <control controlID="1" controlTypeID="com.balsamiq.mockups::CheckBoxGroup" x="16" y="41" w="203" h="145" measuredW="208" measuredH="133" zOrder="1" locked="false" isInGroup="154">
           <controlProperties>
             <size>14</size>
             <text>*Departments*%0A%5B%20%5D%20African%20American%20Studies%20%281%29%0A%5B%20%5D%20Architecture%20%282%29%0A%5B%20%5D%20Anthropology%20%285%29%0A%5B%20%5D%20Celtic%20Studies%20%281%29%0A%5B%20%5D%20Math%20%281%29</text>
@@ -84,13 +84,13 @@
             <icon>DownFillTriangleIcon%7Cxsmall</icon>
           </controlProperties>
         </control>
-        <control controlID="3" controlTypeID="com.balsamiq.mockups::CheckBoxGroup" x="15" y="186" w="-1" h="-1" measuredW="175" measuredH="64" zOrder="3" locked="false" isInGroup="154">
+        <control controlID="3" controlTypeID="com.balsamiq.mockups::CheckBoxGroup" x="15" y="186" w="-1" h="-1" measuredW="180" measuredH="64" zOrder="3" locked="false" isInGroup="154">
           <controlProperties>
             <size>14</size>
             <text>*Semester*%0A%5B%5D%20Spring%202014%20%287%29%0A%5B%5D%20Not%20currently%20offered%20%284%29</text>
           </controlProperties>
         </control>
-        <control controlID="4" controlTypeID="com.balsamiq.mockups::CheckBoxGroup" x="15" y="262" w="-1" h="-1" measuredW="162" measuredH="110" zOrder="4" locked="false" isInGroup="154">
+        <control controlID="4" controlTypeID="com.balsamiq.mockups::CheckBoxGroup" x="15" y="262" w="-1" h="-1" measuredW="166" measuredH="110" zOrder="4" locked="false" isInGroup="154">
           <controlProperties>
             <size>14</size>
             <text>*Requirements*%0A%5B%5D%20American%20Cultures%20%282%29%0A%5B%5D%20R+C%20A%20%281%29%0A%5B%5D%20R+C%20B%20%281%29%0A%5B%5D%20Language%20%281%29</text>
@@ -106,7 +106,7 @@
             <icon>DownFillTriangleIcon%7Cxsmall</icon>
           </controlProperties>
         </control>
-        <control controlID="7" controlTypeID="com.balsamiq.mockups::CheckBoxGroup" x="16" y="384" w="-1" h="-1" measuredW="74" measuredH="64" zOrder="7" locked="false" isInGroup="154">
+        <control controlID="7" controlTypeID="com.balsamiq.mockups::CheckBoxGroup" x="16" y="384" w="-1" h="-1" measuredW="79" measuredH="64" zOrder="7" locked="false" isInGroup="154">
           <controlProperties>
             <size>14</size>
             <text>*Seats*%0A%5B%5D%20Available%0A%5B%5D%20Waitlist</text>
@@ -117,7 +117,7 @@
             <icon>DownFillTriangleIcon%7Cxsmall</icon>
           </controlProperties>
         </control>
-        <control controlID="9" controlTypeID="com.balsamiq.mockups::CheckBoxGroup" x="16" y="454" w="-1" h="-1" measuredW="76" measuredH="133" zOrder="9" locked="false" isInGroup="154">
+        <control controlID="9" controlTypeID="com.balsamiq.mockups::CheckBoxGroup" x="16" y="454" w="-1" h="-1" measuredW="80" measuredH="133" zOrder="9" locked="false" isInGroup="154">
           <controlProperties>
             <size>14</size>
             <text>*Day*%0A%5B%5D%20MWF%20%282%29%0A%5B%5D%20TuTh%20%281%29%0A%5B%5D%20Tu%20%282%29%0A%5B%5D%20Th%20%281%29%0A%5B%5D%20F%20%281%29</text>
@@ -128,7 +128,7 @@
             <icon>DownFillTriangleIcon%7Cxsmall</icon>
           </controlProperties>
         </control>
-        <control controlID="11" controlTypeID="com.balsamiq.mockups::CheckBoxGroup" x="16" y="595" w="-1" h="-1" measuredW="107" measuredH="64" zOrder="11" locked="false" isInGroup="154">
+        <control controlID="11" controlTypeID="com.balsamiq.mockups::CheckBoxGroup" x="16" y="595" w="-1" h="-1" measuredW="111" measuredH="64" zOrder="11" locked="false" isInGroup="154">
           <controlProperties>
             <size>14</size>
             <text>*Time*%0A%5B%5D%20Morning%20%281%29%0A%5B%5D%20Afternoon%20%286%29</text>
@@ -139,7 +139,7 @@
             <icon>DownFillTriangleIcon%7Cxsmall</icon>
           </controlProperties>
         </control>
-        <control controlID="13" controlTypeID="com.balsamiq.mockups::CheckBoxGroup" x="10" y="915" w="-1" h="-1" measuredW="112" measuredH="64" zOrder="13" locked="false" isInGroup="154">
+        <control controlID="13" controlTypeID="com.balsamiq.mockups::CheckBoxGroup" x="10" y="915" w="-1" h="-1" measuredW="117" measuredH="64" zOrder="13" locked="false" isInGroup="154">
           <controlProperties>
             <size>14</size>
             <text>*Meeting%20type*%0A%5B%5D%20Lecture%20%289%29%0A%5B%5D%20Discussion%20%282%29</text>
@@ -150,7 +150,7 @@
             <icon>DownFillTriangleIcon%7Cxsmall</icon>
           </controlProperties>
         </control>
-        <control controlID="15" controlTypeID="com.balsamiq.mockups::CheckBoxGroup" x="10" y="985" w="-1" h="-1" measuredW="134" measuredH="87" zOrder="15" locked="false" isInGroup="154">
+        <control controlID="15" controlTypeID="com.balsamiq.mockups::CheckBoxGroup" x="10" y="985" w="-1" h="-1" measuredW="139" measuredH="87" zOrder="15" locked="false" isInGroup="154">
           <controlProperties>
             <size>14</size>
             <text>*Level*%0A%5B%5D%20Lower%20division%20%284%29%0A%5B%5D%20Upper%20division%20%283%29%0A%5B%5D%20Graduate%20%284%29</text>
@@ -161,7 +161,7 @@
             <icon>DownFillTriangleIcon%7Cxsmall</icon>
           </controlProperties>
         </control>
-        <control controlID="17" controlTypeID="com.balsamiq.mockups::CheckBoxGroup" x="13" y="667" w="-1" h="-1" measuredW="53" measuredH="87" zOrder="17" locked="false" isInGroup="154">
+        <control controlID="17" controlTypeID="com.balsamiq.mockups::CheckBoxGroup" x="13" y="667" w="-1" h="-1" measuredW="57" measuredH="87" zOrder="17" locked="false" isInGroup="154">
           <controlProperties>
             <size>14</size>
             <text>*Units*%0A%5B%5D%202%20%281%29%0A%5B%5D%203%20%285%29%0A%5B%5D%204%20%283%29</text>
@@ -179,7 +179,7 @@
             <text>Refine%20your%20results</text>
           </controlProperties>
         </control>
-        <control controlID="20" controlTypeID="com.balsamiq.mockups::CheckBoxGroup" x="9" y="768" w="-1" h="-1" measuredW="126" measuredH="133" zOrder="20" locked="false" isInGroup="154">
+        <control controlID="20" controlTypeID="com.balsamiq.mockups::CheckBoxGroup" x="9" y="768" w="-1" h="-1" measuredW="130" measuredH="133" zOrder="20" locked="false" isInGroup="154">
           <controlProperties>
             <size>14</size>
             <text>*Class%20Size*%0A%5B%5D%2015%20and%20under%20%283%29%0A%5B%5D%2016%20to%2035%20%281%29%0A%5B%5D%2036%20to%2075%20%282%29%0A%5B%5D%2075%20to%20150%20%283%29%0A%5B%5D%20151%20and%20up%20%282%29</text>
@@ -891,13 +891,15 @@
       </controlProperties>
     </control>
     <control controlID="308" controlTypeID="__group__" x="729" y="311" w="218" h="105" measuredW="218" measuredH="105" zOrder="135" locked="false" isInGroup="-1">
-      <controlProperties/>
+      <controlProperties>
+        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%22598%2C277%2C816%2C382%22%20href%3D%2219-new-save-compare-w-select-box.bmml%22%20alt%3D%2219-new-save-compare-w-select-box%22%20id%3D%22308%22/%3E</map>
+      </controlProperties>
       <groupChildrenDescriptors>
         <control controlID="0" controlTypeID="com.balsamiq.mockups::Canvas" x="0" y="0" w="218" h="105" measuredW="100" measuredH="70" zOrder="0" locked="false" isInGroup="308"/>
         <control controlID="1" controlTypeID="com.balsamiq.mockups::Paragraph" x="22" y="26" w="182" h="55" measuredW="200" measuredH="80" zOrder="2" locked="false" isInGroup="308">
           <controlProperties>
-            <href>14-saved%26bm%3B14-saved.bmml%26bm%3B14-saved.bmml%26bm%3B14-saved.bmml</href>
-            <map>%3Carea%20shape%3D%22rect%22%20coords%3D%22620%2C303%2C802%2C358%22%20href%3D%2214-saved.bmml%22%20alt%3D%2214-saved%22%20id%3D%221%22/%3E</map>
+            <href>19-new-save-compare-w-select-box%26bm%3B19-new-save-compare-w-select-box.bmml%26bm%3B19-new-save-compare-w-select-box.bmml%26bm%3B19-new-save-compare-w-select-box.bmml</href>
+            <map>%3Carea%20shape%3D%22rect%22%20coords%3D%22620%2C303%2C802%2C358%22%20href%3D%2219-new-save-compare-w-select-box.bmml%22%20alt%3D%2219-new-save-compare-w-select-box%22%20id%3D%221%22/%3E</map>
             <text>You%20have%20added%20ARCH%20100%2C%20Modern%20Building%20Materials%2C%20to%20your%20%5BSaved%20Courses%5D.</text>
           </controlProperties>
         </control>

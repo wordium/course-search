@@ -41,8 +41,8 @@
     </control>
     <control controlID="53" controlTypeID="com.balsamiq.mockups::Link" x="1117" y="253" w="-1" h="-1" measuredW="120" measuredH="20" zOrder="7" locked="false" isInGroup="-1">
       <controlProperties>
-        <href>14-saved%26bm%3B14-saved.bmml%26bm%3B14-saved.bmml%26bm%3B14-saved.bmml</href>
-        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%22986%2C219%2C1106%2C239%22%20href%3D%2214-saved.bmml%22%20alt%3D%2214-saved%22%20id%3D%2253%22/%3E</map>
+        <href>19-new-save-compare-w-select-box%26bm%3B19-new-save-compare-w-select-box.bmml%26bm%3B19-new-save-compare-w-select-box.bmml%26bm%3B19-new-save-compare-w-select-box.bmml</href>
+        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%22986%2C219%2C1106%2C239%22%20href%3D%2219-new-save-compare-w-select-box.bmml%22%20alt%3D%2219-new-save-compare-w-select-box%22%20id%3D%2253%22/%3E</map>
         <size>14</size>
         <text>Saved%20Courses%20%280%29</text>
       </controlProperties>
