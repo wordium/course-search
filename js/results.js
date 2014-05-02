@@ -104,13 +104,13 @@ function getJSON (filename) {
         row += '</td></tr>';
 
         // add details
-        row += detailsRow(course, false);
+        row += detailsRow(course, true);
 
         for (var i=0; i<numInstances; i++){
           row += '<tr class="classInstance ' + instance[i].instanceType + '"><td colspan="3">' 
                 + instance[i].instanceType + '</td>';
 
-          // n row for multiple instances: add detail
+          // n row for multiple instances: add header level information
           
           row += '<td class="instanceInstructor">' + instance[i].instructor + '</td>'
               + '<td class="instanceTime">' + instance[i].time.start + '-' + instance[i].time.end 
@@ -124,6 +124,12 @@ function getJSON (filename) {
               + '<td class="badges">' + 'badges' + '</td>'
               + '<td class="save"> <input type="checkbox"> </td>'
               + '</tr>';
+
+          row += '<tr><td colspan="3">&nbsp;</td><td colspan="7">' 
+              + '<p>Seats: ' + instance[0].seats.max 
+              + '. Enrolled: ' + instance[0].seats.enrolled 
+              + '. Waitlist: ' + instance[0].seats.waitlist 
+              + '. Available: ' + instance[0].seats.available + '.</p></td></tr>';
 
           // call function to enuermate facet information at the instance level
           getInstanceFacets(instance[i]);
@@ -489,8 +495,9 @@ function detailsRow (course, hasInstance) {
 
   row += '<p><span class="descriptionCategory">Description: </span>' + course.description + '</p>';
 
-  if (hasInstance) {
-    // seats
+  // seats
+  // add seats only for the one-instance case.
+  if (hasInstance && (instance.length === 1)) {
     row += '<p>Seats: ' + instance[0].seats.max 
           + '. Enrolled: ' + instance[0].seats.enrolled 
           + '. Waitlist: ' + instance[0].seats.waitlist 
