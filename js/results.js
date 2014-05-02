@@ -175,6 +175,17 @@ function getJSON (filename) {
       "5": 0
     };
 
+    fDays = {
+      "M": 0,
+      "Tu": 0,
+      "W": 0,
+      "Th": 0,
+      "F": 0,
+      "MW": 0,
+      "TuTh": 0,
+      "MWF": 0
+    };
+
     fBreadth = {
       "American Cultures": 0, 
       "Arts & Literature": 0, 
@@ -317,10 +328,7 @@ function getJSON (filename) {
 
           // days
           var days = instance.days;
-          if (!fDays[days])
-            fDays[days] = 1;
-          else
-            fDays[days] += 1;
+          fDays[days] += 1;
 
           // semester
           fSemester[instance.semester]+=1;
@@ -337,7 +345,7 @@ function getJSON (filename) {
     $ulDept.children().remove();
     for (var item in fDepartment) {
       if (fDepartment[item] > 0)
-        $ulDept.prepend('<li> <input type="checkbox"/>' + item + " (" + fDepartment[item] + ")</li>");
+        $ulDept.append('<li> <input type="checkbox"/>' + item + " (" + fDepartment[item] + ")</li>");
     }
 
     var $ulRequirements = $('#facetsRequirements');
@@ -351,21 +359,21 @@ function getJSON (filename) {
     $ulSeats.children().remove();
     for (var item in fSeats) {
       if (fSeats[item] > 0)
-        $ulSeats.prepend('<li> <input type="checkbox"/>' + item + " (" + fSeats[item] + ")</li>");
+        $ulSeats.append('<li> <input type="checkbox"/>' + item + " (" + fSeats[item] + ")</li>");
     }
 
     var $ulDay = $('#facetsDay');
     $ulDay.children().remove();
     for (var item in fDays) {
       if (fDays[item] > 0)
-      $ulDay.prepend('<li> <input type="checkbox"/>' + item + " (" + fDays[item] + ")</li>");
+      $ulDay.append('<li> <input type="checkbox"/>' + item + " (" + fDays[item] + ")</li>");
     }
 
     var $ulTime = $('#facetsTime');
     $ulTime.children().remove();
     for (var item in fTime) {
       if (fTime[item] > 0)
-        $ulTime.prepend('<li> <input type="checkbox"/>' + item + " (" + fTime[item] + ")</li>");
+        $ulTime.append('<li> <input type="checkbox"/>' + item + " (" + fTime[item] + ")</li>");
     }
 
     var $ulUnits = $('#facetsUnits');
@@ -386,7 +394,7 @@ function getJSON (filename) {
     $ulType.children().remove();
     for (var item in fMeeting) {
       if (fMeeting[item] > 0)
-       $ulType.prepend('<li> <input type="checkbox"/>' + item + " (" + fMeeting[item] + ")</li>");
+       $ulType.append('<li> <input type="checkbox"/>' + item + " (" + fMeeting[item] + ")</li>");
     }
 
     var $ulLevel = $('#facetsLevel');
@@ -432,7 +440,7 @@ function notOfferedRow (course) {
   return row;
 }
 
-// function to sort the course array according to the provided property
+// function to sort the provided array according to the provided property
 // oh my god so helpful http://stackoverflow.com/a/9188211
 function sortResults(array, prop, asc) {
   array = array.sort(function(a, b) {
