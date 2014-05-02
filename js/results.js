@@ -33,18 +33,198 @@ function getJSON (filename) {
 
   $.getJSON(path, function (data) {
 
+    // clear the table in case anything is in it already
     $('#resultsHeaderRow').siblings().remove();
 
     // initialize facet information lists
     initializeFacets();
 
-    $.each( data, function( key, course ) {
+    // copy objects into a sortable array and then do $.each on this collection instead of data?
+    var courseArr = [];
+    var i = 0;
+    $.each( data, function (key, course) {
+      courseArr[i] = course;
+      i++;
+    });
+
+    courseArr = sortResults(courseArr, 'deptAbbrev', true);
+
+    // iterate through the JSON file
+    $.each( courseArr, function (key, course) {
 
       // intialize row. Add classes according to search parameters?
       var row = '';
 
       instance = course.classInstance;
       var numInstances = instance.length;
+
+      // call function to enuermate facet information at the course level
+      getCourseFacets(course);
+
+      // building row for table
+      // classes not offered next semester
+      if (numInstances === 0) {
+        row += notOfferedRow(course);
+      }
+
+      // building row for table
+      // courses with one instance
+      else if (numInstances === 1) {
+        row += oneInstanceRow(course, instance[0]);
+
+        // call function to enuermate facet information at the instance level
+        getInstanceFacets(instance[0]);
+      }
+
+      // building row for table
+      // courses with multiple instances
+      else {
+        row += '<tr class="courseHeaderRow">';
+        row += '<td class="deptAbbrev">' + course.deptAbbrev + '</td>'
+             + '<td class="courseNum">' + course.number + '</td>'
+             + '<td class="courseTitle">' + course.title + '</td>'
+             + '<td colspan="7">'; 
+
+        // count number of lectures and discussions so we can display that information
+        var instanceTypeCount = {
+          'Lecture':0,
+          'Discussion':0
+        };
+        for (var i=0; i<numInstances; i++)
+          instanceTypeCount[instance[i].instanceType]+=1;
+
+        // showing the number of lectures
+        if (instanceTypeCount['Lecture'] > 0)
+          row += '<p>' + instanceTypeCount['Lecture'] + ' Lecture' + (instanceTypeCount['Lecture']>1? 's':'') + '.</p>';
+
+        // showing the number of dicussions
+        if (instanceTypeCount['Discussion'] > 0)
+          row += '<p>' + instanceTypeCount['Discussion'] + ' Discussion' + (instanceTypeCount['Discussion']>1? 's':'') + '.</p>';
+
+        row += '</td></tr>';
+
+        // add details
+        row += detailsRow(course);
+
+        for (var i=0; i<numInstances; i++){
+          row += '<tr class="classInstance ' + instance[i].instanceType + '"><td colspan="3">' 
+                + instance[i].instanceType + '</td>';
+
+          // n row for multiple instances: add detail
+          
+          row += '<td class="instanceInstructor">' + instance[i].instructor + '</td>'
+              + '<td class="instanceTime">' + instance[i].time.start + '-' + instance[i].time.end 
+                                            + '<p>' + instance[i].days
+                                            + '<p>' + instance[i].semester + '</p></td>'
+              + '<td class="instancePlace">' + instance[i].location.room + ' <a href="http://www.berkeley.edu/map/googlemap/?' 
+                                            + instance[i].location.building.toLowerCase() + '" target="new">'
+                                            + instance[i].location.building + '</a></td>'
+              + '<td class="courseUnits">' + course.credit + '</td>'
+              + '<td class="instanceCCN">' + instance[i].ccn + '</td>'
+              + '<td class="badges">' + 'badges' + '</td>'
+              + '<td class="save"> <input type="checkbox"> </td>'
+              + '</tr>';
+
+          // call function to enuermate facet information at the instance level
+          getInstanceFacets(instance[i]);
+
+        }
+      }
+
+      // add a count for each course
+      fSemester["All"]+=1;
+
+      row += '<p><span class="descriptionCategory">Ratings and Grades</span></p></tr>';
+
+      // this is really shitty but it should allow putting not offered courses at bottom.
+      // QUESTION: should this be its own table?
+      if (numInstances === 0) 
+        resultsNotOff = resultsNotOff + row;
+      else 
+        results = results + row;
+    });
+
+  // adding the rows to the table
+  results = results + resultsNotOff;
+
+  $('#results tbody').append(results);
+
+  // adding show/hide detail interaction
+  $('.courseHeaderRow').on('click', function() {
+    var $nextRow = $(this).next();
+    if ($nextRow.hasClass('details'))
+      $nextRow.toggleClass('hidden');
+  });
+
+  showFacets();
+
+  });
+
+  function initializeFacets() {
+
+    fSeats = {
+      "Available": 0,
+      "Waitlist": 0
+    };
+
+    fUnits = {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0
+    };
+
+    fBreadth = {
+      "American Cultures": 0, 
+      "Arts & Literature": 0, 
+      "Biological Science": 0, 
+      "Historical Studies": 0, 
+      "International Studies": 0, 
+      "Physical Science": 0, 
+      "Philosophy & Values": 0, 
+      "Reading & Composition A": 0, 
+      "Reading & Composition B": 0, 
+      "Social & Behavioral Sciences": 0
+    }
+
+    fMeeting = {
+      "Lecture": 0,
+      "Discussion": 0,
+      "Lab": 0,
+      "Other": 0
+    };
+
+    fLevel = {
+      "Lower Division": 0,
+      "Upper Division": 0,
+      "Graduate": 0,
+      "Professional": 0,
+      "Other": 0
+    };
+
+    fSize = {
+      "15 and less": 0,
+      "16-35": 0,
+      "36-75": 0,
+      "75-150": 0,
+      "151+": 0
+    };
+
+    fMisc = {
+      "Berkeley Connect": 0,
+      "Freshman/Sophomore Seminar": 0,
+      "DeCal": 0,
+      "Course Thread": 0
+    }
+
+    fSemester = {
+      "Fall 2014": 0,
+      "All": 0
+    }
+  }
+
+  function getCourseFacets (course) {
 
       // add to facet information lists
 
@@ -54,16 +234,6 @@ function getJSON (filename) {
         fDepartment[dept] = 1;
       else
         fDepartment[dept] += 1;
-
-      //semester
-      //console.log(course.offerHist);
-      //QUESTION: how to handle offer history as well as current semester?
-      //LJ comment: I didn't think we were doing anything about offer history in the facets.
-      //Our design calls for just showing current semester (or current and next if that schedule
-      //is available) and "All." I think it would get cluttered and confusing if we included
-      //facets for the semesters in the offering history, and it doesn't add anything
-      //necessary for a use case that I can discern. 
-
 
       // requirements
       if (course.breadth.AC)
@@ -94,10 +264,6 @@ function getJSON (filename) {
       fMeeting[course.courseType]+=1;
 
       //fLevel
-      //QUESTION: Do we want a facet that calls out Berkeley Connect or Freshman/Sophomore Seminars, 
-      // or do we want another category in Levels/classifications?
-      //LJ comment: I think we do want that as another facet, since they are orthogonal to 
-      //rather than part of the upper/lower div stuff
       var courseNumber = (course.number).match(/\d+/)[0]; //numbers only
       if (courseNumber < 100)
         fLevel["Lower Division"]+=1;
@@ -113,80 +279,31 @@ function getJSON (filename) {
       if (course.berkeleyConnect)
         fMisc["Berkeley Connect"]+=1;
 
-      // building row for table
-      // classes not offered next semester
-      if (numInstances === 0) {
-        row += notOfferedRow(course);
-      }
+      if (!!course.courseThread)
+        fMisc["Course Thread"]+=1;
 
-      // building row for table
-      // courses with one instance
-      else if (numInstances === 1) {
-        row += oneInstanceRow(course, instance[0]);
+      if (course.freshSophSem)
+        fMisc["Freshman/Sophomore Seminar"]+=1;
 
-      }
+      // QUESTION: is this how DeCal courses would be noted in the data?
+      if (course.dept == "DeCal")
+        fMisc["DeCal"]+=1;
+  }
 
-      // building row for table
-      // coruses with multiple instances
-      else {
-        row += '<tr class="courseHeaderRow">';
-        row += '<td class="deptAbbrev">' + course.deptAbbrev + '</td>'
-             + '<td class="courseNum">' + course.number + '</td>'
-             + '<td class="courseTitle">' + course.title + '</td>'
-             + '<td colspan="7">'; 
-
-        var instanceTypeCount = {
-          'Lecture':0,
-          'Discussion':0
-        };
-
-        for (var i=0; i<numInstances; i++)
-          instanceTypeCount[instance[i].instanceType]+=1;
-
-      // console.log(instanceTypeCount);
-
-        if (instanceTypeCount['Lecture'] > 0)
-          row += '<p>' + instanceTypeCount['Lecture'] + ' Lecture' + (instanceTypeCount['Lecture']>1? 's':'') + '.</p>';
-
-        if (instanceTypeCount['Discussion'] > 0)
-          row += '<p>' + instanceTypeCount['Discussion'] + ' Discussion' + (instanceTypeCount['Discussion']>1? 's':'') + '.</p>';
-
-        row += '</td></tr>';
-
-        // add details?
-        row += detailsRow(course);
-
-        for (var i=0; i<numInstances; i++){
-          row += '<tr class="classInstance ' + instance[i].instanceType + '"><td colspan="3">' 
-                + instance[i].instanceType + '</td>';
-
-          // n row for multiple instances: add detail
-          
-          row += '<td class="instanceInstructor">' + instance[i].instructor + '</td>'
-              + '<td class="instanceTime">' + instance[i].time.start + '-' + instance[i].time.end 
-                                            + '<p>' + instance[i].days
-                                            + '<p>' + instance[i].semester + '</p></td>'
-              + '<td class="instancePlace">' + instance[i].location.room + ' <a href="http://www.berkeley.edu/map/googlemap/?' 
-                                            + instance[i].location.building.toLowerCase() + '" target="new">'
-                                            + instance[i].location.building + '</a></td>'
-              + '<td class="courseUnits">' + course.credit + '</td>'
-              + '<td class="instanceCCN">' + instance[i].ccn + '</td>'
-              + '<td class="badges">' + 'badges' + '</td>'
-              + '<td class="save"> <input type="checkbox"> </td>'
-              + '</tr>';
+  function getInstanceFacets (instance) {
 
           //seats - available, waitlist, ?
           //QUESTION: how do we know if a course is or isn't accepting students on a waitlist? Are there other options?
           //LJ comment: Oops, this is missing from our data model. I see two options: 1) I update the scripts and produce new
           //data that includes; 2) We assume that for any class that has a waitlist, the waitlist is still open. Given the importance
           //of this item, I vote for 2. 
-          if (instance[i].seats.available > 0)
+          if (instance.seats.available > 0)
             fSeats["Available"]+=1;
           else
             fSeats["Waitlist"]+=1;
 
           // class size
-          var seatsMax = instance[i].seats.max;
+          var seatsMax = instance.seats.max;
           if (seatsMax <= 15)
             fSize["15 and less"]+=1;
           else if (seatsMax > 15 && seatsMax <= 35)
@@ -199,64 +316,22 @@ function getJSON (filename) {
             fSize["151+"]+=1;
 
           // days
-          var days = instance[i].days;
+          var days = instance.days;
           if (!fDays[days])
             fDays[days] = 1;
           else
             fDays[days] += 1;
 
+          // semester
+          fSemester[instance.semester]+=1;
+
           //TODO:
           // time
-          // instance[i].time
-          //QUESTION: are we going to do start time, or start/end time, and in the case of the latter, how do we handle classes 
-          // go over noon time?
-          // may need to separate start time, or else do some regex to figure out start time?
-           //LJ comment: Damn, another flaw in our data model. In this case, I think it is likely worth updating the model/scripts/data.
+          // instance[i].time.start
+          // instance[i].time.end
+  }
 
-        }
-      }
-
-
-      row += '<p><span class="descriptionCategory">Ratings and Grades</span></p></tr>';
-      if (numInstances === 0) // this is really shitty but it should allow putting not offered courses at bottom.
-        resultsNotOff = resultsNotOff + row;
-      else 
-        results = results + row;
-    });
-
-  results = results + resultsNotOff;
-
-  $('#results tbody').append(results);
-
-  $('.courseHeaderRow').on('click', function() {
-    var $nextRow = $(this).next();
-    if ($nextRow.hasClass('details'))
-      $nextRow.toggleClass('hidden');
-  });
-
-  /*
-  console.log(fDepartment);
-  console.log(fMeeting);
-  console.log(fLevel);
-  console.log(fSize);
-
-  console.log(fSeats);
-  console.log(fUnits);
-  console.log(fBreadth);
-  console.log(fDays);
-  */
-
-  // display facets
-/*
-
-
-      <ul id="facetsDay"></ul>
-      <ul id=""></ul>
-      <ul id=""></ul>
-      <ul id=""></ul>
-      <ul id=""></ul>
-      <ul id=""></ul>
-      */
+  function showFacets () {
 
     var $ulDept = $('#facetsDepartments');
     $ulDept.children().remove();
@@ -327,64 +402,12 @@ function getJSON (filename) {
       if (fMisc[item] > 0)
         $ulMisc.append('<li> <input type="checkbox"/>' + item + " (" + fMisc[item] + ")</li>");
     }
-  });
 
-
-  function initializeFacets() {
-
-    fSeats = {
-      "Available": 0,
-      "Waitlist": 0
-    };
-
-    fUnits = {
-      "1": 0,
-      "2": 0,
-      "3": 0,
-      "4": 0,
-      "5": 0
-    };
-
-    fBreadth = {
-      "American Cultures": 0, 
-      "Arts & Literature": 0, 
-      "Biological Science": 0, 
-      "Historical Studies": 0, 
-      "International Studies": 0, 
-      "Physical Science": 0, 
-      "Philosophy & Values": 0, 
-      "Reading & Composition A": 0, 
-      "Reading & Composition B": 0, 
-      "Social & Behavioral Sciences": 0
-    }
-
-    fMeeting = {
-      "Lecture": 0,
-      "Discussion": 0,
-      "Lab": 0,
-      "Other": 0
-    };
-
-    fLevel = {
-      "Lower Division": 0,
-      "Upper Division": 0,
-      "Graduate": 0,
-      "Professional": 0,
-      "Other": 0
-    };
-
-    fSize = {
-      "15 and less": 0,
-      "16-35": 0,
-      "36-75": 0,
-      "75-150": 0,
-      "151+": 0
-    };
-
-    fMisc = {
-      "Berkeley Connect": 0,
-      "Freshman/Sophomore Seminar": 0,
-      "DeCal": 0
+    var $ulSem = $('#facetsSemester');
+    $ulSem.children().remove();
+    for (var item in fSemester) {
+      if (fSemester[item] > 0)
+        $ulSem.append('<li> <input type="checkbox"/>' + item + " (" + fSemester[item] + ")</li>");
     }
   }
 
@@ -407,6 +430,16 @@ function notOfferedRow (course) {
   row += detailsRow(course);
 
   return row;
+}
+
+// function to sort the course array according to the provided property
+// oh my god so helpful http://stackoverflow.com/a/9188211
+function sortResults(array, prop, asc) {
+  array = array.sort(function(a, b) {
+      if (asc) return (a[prop] > b[prop]) ? 1 : ((a[prop] < b[prop]) ? -1 : 0);
+      else return (b[prop] > a[prop]) ? 1 : ((b[prop] < a[prop]) ? -1 : 0);
+  });
+  return array;
 }
 
 function oneInstanceRow (course, classInfo) {
@@ -432,6 +465,10 @@ function oneInstanceRow (course, classInfo) {
   row += detailsRow(course);
 
   return row;
+}
+
+function multiInstanceRows (course, instances) {
+
 }
 
 function detailsRow (course) {
