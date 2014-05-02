@@ -104,7 +104,7 @@ function getJSON (filename) {
         row += '</td></tr>';
 
         // add details
-        row += detailsRow(course);
+        row += detailsRow(course, false);
 
         for (var i=0; i<numInstances; i++){
           row += '<tr class="classInstance ' + instance[i].instanceType + '"><td colspan="3">' 
@@ -133,8 +133,6 @@ function getJSON (filename) {
 
       // add a count for each course
       fSemester["All"]+=1;
-
-      row += '<p><span class="descriptionCategory">Ratings and Grades</span></p></tr>';
 
       // this is really shitty but it should allow putting not offered courses at bottom.
       // QUESTION: should this be its own table?
@@ -435,7 +433,7 @@ function notOfferedRow (course) {
 
 
   // details
-  row += detailsRow(course);
+  row += detailsRow(course, false);
 
   return row;
 }
@@ -470,7 +468,7 @@ function oneInstanceRow (course, classInfo) {
        + '</tr>';
 
   // details
-  row += detailsRow(course);
+  row += detailsRow(course, true);
 
   return row;
 }
@@ -479,13 +477,41 @@ function multiInstanceRows (course, instances) {
 
 }
 
-function detailsRow (course) {
+function detailsRow (course, hasInstance) {
+
+  var instance = [];
+  if (hasInstance)
+    instance = course.classInstance;
+
   var row = '<tr class="hidden details"><td colspan="10" class="description">';
+
+  row += '<h4>' + course.department + ' ' + course.number + '</h4>';
 
   row += '<p><span class="descriptionCategory">Description: </span>' + course.description + '</p>';
 
+  if (hasInstance) {
+    // seats
+    row += '<p>Seats: ' + instance[0].seats.max 
+          + '. Enrolled: ' + instance[0].seats.enrolled 
+          + '. Waitlist: ' + instance[0].seats.waitlist 
+          + '. Available: ' + instance[0].seats.available + '.</p>';
+  }
+
   if ((course.prereqs).length > 0)
     row += '<p><span class="descriptionCategory">Prerequisites: </span>' + course.prereqs + '</p>';
+
+  // format
+  row += '<p><span class="descriptionCategory">Format: </span>' + course.format + '</p>';
+
+  
+  if (hasInstance) {
+    //final exam
+    row += '<p><span class="descriptionCategory">Exam Group: </span>' +instance[0].finalGroup + '</p>';
+
+    //textbooks/
+    row += '<p><span class="descriptionCategory">Textbooks: </span> Text information would go here </p>';
+  }
+
 
   if ((course.restrictions).length > 0)
     row += '<p><span class="descriptionCategory">Restrictions: </span>' + course.restrictions + '</p>';
@@ -501,8 +527,9 @@ function detailsRow (course) {
     row += '</ul>';
   }
 
+  row += '<p><span class="descriptionCategory">Ratings and Grades</span></p></tr>';
+
   return row;
 }
-
 
 
