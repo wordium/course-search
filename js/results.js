@@ -366,13 +366,27 @@ function getJSON (filename) {
 
         // get class names for facet interaction
         var classDept = item.replace(/[&,\s]+/g, ''); //letters only
-        $ulDept.append('<li class="facet" data-classDept="' + classDept + '"> <input type="checkbox"/>' + item + " (" + fDepartment[item] + ")</li>");
+        $ulDept.append('<li class="facet"> <input type="checkbox" value="' + classDept + '" id="facet' + classDept + '"/>' 
+                        + '<label for="facet' + classDept + '">' + item + ' (' + fDepartment[item] + ')</li>');
     }
 
-    $('.facet').on('click', function() {
-      var data = $(this).attr('data-classDept');
-      console.log(data);
-      $('.'+data + ' td').toggleClass('hidden');
+    // department facet
+    $('.facet input:checkbox').on('click', function() {
+
+      var $checked = $('#facetsDepartments input:checked');
+
+      if ($checked.length === 0)
+        $('.courseHeaderRow').removeClass('hidden');
+
+      else {
+        $('#resultsHeaderRow').siblings().addClass('hidden');
+
+        $checked.each(function() {
+          var data = $(this).val();
+          $('.'+data).removeClass('hidden');
+        });
+      }
+      
     })
 
     var $ulRequirements = $('#facetsRequirements');
