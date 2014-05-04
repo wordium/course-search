@@ -9,6 +9,31 @@ $(document).ready(function () {
   getJSON(filename);
 });
 
+// facets
+var fDepartment = {}, 
+    fSemester = {},
+    fBreadth = {},
+    fSeats = {},
+    fDays = {},
+    fTime = {},
+    fUnits = {},
+    fSize = {},
+    fMeeting = {},
+    fLevel = {};
+
+// facet class names
+var classDept = '',
+    classSemester = '',
+    classBreadth = '',
+    classSeats = '',
+    classDays = '',
+    classTime = ''
+    classUnits = ''
+    classSize = ''
+    classMeeting = ''
+    classLevel = '';
+
+
 /* assumes filename being passed does include the file type */
 function getJSON (filename) {
 
@@ -16,20 +41,6 @@ function getJSON (filename) {
   var results = '';
   var resultsNotOff = '';
   var instance = [];
-
-  //facets
-  var fDepartment = {}, 
-      fSemester = {},
-      fBreadth = {},
-      fSeats = {},
-      fDays = {},
-      fTime = {},
-      fUnits = {},
-      fSize = {},
-      fMeeting = {},
-      fLevel = {};
-
-
 
   $.getJSON(path, function (data) {
 
@@ -51,6 +62,10 @@ function getJSON (filename) {
 
     // iterate through the JSON file
     $.each( courseArr, function (key, course) {
+
+      // get class names for facet interaction
+      classDept = (course.deptAbbrev).replace(/[&,\s]+/g, ''); //letters only
+      
 
       // intialize row. Add classes according to search parameters?
       var row = '';
@@ -79,7 +94,7 @@ function getJSON (filename) {
       // building row for table
       // courses with multiple instances
       else {
-        row += '<tr class="courseHeaderRow">';
+        row += '<tr class="courseHeaderRow ' + classDept + '" data-classID="' + classDept + course.number + '"">';
         row += '<td class="deptAbbrev">' + course.deptAbbrev + '</td>'
              + '<td class="courseNum">' + course.number + '</td>'
              + '<td class="courseTitle">' + course.title + '</td>'
@@ -101,14 +116,21 @@ function getJSON (filename) {
         if (instanceTypeCount['Discussion'] > 0)
           row += '<p>' + instanceTypeCount['Discussion'] + ' Discussion' + (instanceTypeCount['Discussion']>1? 's':'') + '.</p>';
 
+        // ending the header row
         row += '</td></tr>';
 
         // add details
         row += detailsRow(course, true);
 
         for (var i=0; i<numInstances; i++){
-          row += '<tr class="classInstance ' + instance[i].instanceType + '"><td colspan="3">' 
-                + instance[i].instanceType + '</td>';
+          row += '<tr class="classInstance ' + instance[i].instanceType + ' ' + classDept + course.number + ' hidden"><td colspan="3">' 
+                + instance[i].instanceType 
+    /*            + '<p> Seats: ' + instance[0].seats.max 
+              + '. Enrolled: ' + instance[0].seats.enrolled 
+              + '. Waitlist: ' + instance[0].seats.waitlist 
+              + '. Available: ' + instance[0].seats.available;
+                + '</p>'*/
+                + '</td>';
 
           // n row for multiple instances: add header level information
           
@@ -125,11 +147,12 @@ function getJSON (filename) {
               + '<td class="save"> <input type="checkbox"> </td>'
               + '</tr>';
 
-          row += '<tr><td colspan="3">&nbsp;</td><td colspan="7">' 
+          row += '<tr class="rowSeats hidden ' + classDept + course.number + '"><td colspan="3">&nbsp;</td><td colspan="7">' 
               + '<p>Seats: ' + instance[0].seats.max 
               + '. Enrolled: ' + instance[0].seats.enrolled 
               + '. Waitlist: ' + instance[0].seats.waitlist 
               + '. Available: ' + instance[0].seats.available + '.</p></td></tr>';
+
 
           // call function to enuermate facet information at the instance level
           getInstanceFacets(instance[i]);
@@ -141,7 +164,6 @@ function getJSON (filename) {
       fSemester["All"]+=1;
 
       // this is really shitty but it should allow putting not offered courses at bottom.
-      // QUESTION: should this be its own table?
       if (numInstances === 0) 
         resultsNotOff = resultsNotOff + row;
       else 
@@ -153,11 +175,10 @@ function getJSON (filename) {
 
   $('#results tbody').append(results);
 
-  // adding show/hide detail interaction
+  // adding show/hide details and instances
   $('.courseHeaderRow').on('click', function() {
-    var $nextRow = $(this).next();
-    if ($nextRow.hasClass('details'))
-      $nextRow.toggleClass('hidden');
+    var data_classID = $(this).attr('data-classID');
+    $('.' + data_classID).toggleClass('hidden');
   });
 
   showFacets();
@@ -300,18 +321,11 @@ function getJSON (filename) {
       if (course.freshSophSem)
         fMisc["Freshman/Sophomore Seminar"]+=1;
 
-      // QUESTION: is this how DeCal courses would be noted in the data?
-      if (course.dept == "DeCal")
-        fMisc["DeCal"]+=1;
   }
 
   function getInstanceFacets (instance) {
 
-          //seats - available, waitlist, ?
-          //QUESTION: how do we know if a course is or isn't accepting students on a waitlist? Are there other options?
-          //LJ comment: Oops, this is missing from our data model. I see two options: 1) I update the scripts and produce new
-          //data that includes; 2) We assume that for any class that has a waitlist, the waitlist is still open. Given the importance
-          //of this item, I vote for 2. 
+          //seats - available, waitlist 
           if (instance.seats.available > 0)
             fSeats["Available"]+=1;
           else
@@ -349,8 +363,17 @@ function getJSON (filename) {
     $ulDept.children().remove();
     for (var item in fDepartment) {
       if (fDepartment[item] > 0)
-        $ulDept.append('<li> <input type="checkbox"/>' + item + " (" + fDepartment[item] + ")</li>");
+
+        // get class names for facet interaction
+        var classDept = item.replace(/[&,\s]+/g, ''); //letters only
+        $ulDept.append('<li class="facet" data-classDept="' + classDept + '"> <input type="checkbox"/>' + item + " (" + fDepartment[item] + ")</li>");
     }
+
+    $('.facet').on('click', function() {
+      var data = $(this).attr('data-classDept');
+      console.log(data);
+      $('.'+data + ' td').toggleClass('hidden');
+    })
 
     var $ulRequirements = $('#facetsRequirements');
     $ulRequirements.children().remove();
@@ -425,8 +448,19 @@ function getJSON (filename) {
 
 }
 
+
+// function to sort the provided array according to the provided property
+// oh my god so helpful http://stackoverflow.com/a/9188211
+function sortResults(array, prop, asc) {
+  array = array.sort(function(a, b) {
+      if (asc) return (a[prop] > b[prop]) ? 1 : ((a[prop] < b[prop]) ? -1 : 0);
+      else return (b[prop] > a[prop]) ? 1 : ((b[prop] < a[prop]) ? -1 : 0);
+  });
+  return array;
+}
+
 function notOfferedRow (course) {
-  var row = '<tr class="courseHeaderRow">';
+  var row = '<tr class="courseHeaderRow ' + classDept + '" data-classID="' + classDept + course.number + '">';
   row += '<td class="deptAbbrev">' + course.deptAbbrev + '</td>'
    + '<td class="courseNum">' + course.number + '</td>'
    + '<td class="courseTitle">' + course.title + '</td>'
@@ -444,19 +478,9 @@ function notOfferedRow (course) {
   return row;
 }
 
-// function to sort the provided array according to the provided property
-// oh my god so helpful http://stackoverflow.com/a/9188211
-function sortResults(array, prop, asc) {
-  array = array.sort(function(a, b) {
-      if (asc) return (a[prop] > b[prop]) ? 1 : ((a[prop] < b[prop]) ? -1 : 0);
-      else return (b[prop] > a[prop]) ? 1 : ((b[prop] < a[prop]) ? -1 : 0);
-  });
-  return array;
-}
-
 function oneInstanceRow (course, classInfo) {
 
-  var row = '<tr class="courseHeaderRow">';
+  var row = '<tr class="courseHeaderRow ' + classDept + '" data-classID="' + classDept + course.number + '">';
   row += '<td class="deptAbbrev">' + course.deptAbbrev + '</td>'
        + '<td class="courseNum">' + course.number + '</td>'
        + '<td class="courseTitle">' + course.title + '</td>'
@@ -480,7 +504,7 @@ function oneInstanceRow (course, classInfo) {
 }
 
 function multiInstanceRows (course, instances) {
-
+  // lol nothing in here because I never took it out
 }
 
 function detailsRow (course, hasInstance) {
@@ -489,7 +513,7 @@ function detailsRow (course, hasInstance) {
   if (hasInstance)
     instance = course.classInstance;
 
-  var row = '<tr class="hidden details"><td colspan="10" class="description">';
+  var row = '<tr class="hidden details ' + classDept + course.number + '"><td colspan="10" class="description">';
 
   row += '<h4>' + course.department + ' ' + course.number + '</h4>';
 
