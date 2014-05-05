@@ -143,7 +143,7 @@ function getJSON (filename) {
                                             + instance[i].location.building + '</a></td>'
               + '<td class="courseUnits">' + courseCredit + '</td>'
               + '<td class="instanceCCN">' + instance[i].ccn + '</td>'
-              + '<td class="badges">' + 'badges' + '</td>'
+              + '<td class="badges">' + getBadges(course) + '</td>'
               + '<td class="save"> <input type="checkbox"> </td>'
               + '</tr>';
 
@@ -533,7 +533,7 @@ function notOfferedRow (course) {
    + '<td colspan="3" class="notOfferedTD"> ---- Not offered this semester. ---- </td>'
    + '<td class="courseUnits">' + course.credit + '</td>'
    + '<td class="notOfferedTD"> N/A </td>'
-   + '<td class="badges">' + 'badges' + '</td>'
+   + '<td class="badges">' + getBadges(course) + '</td>'
    + '<td class="save"> <input type="checkbox"> </td>'
    + '</tr>';
 
@@ -560,7 +560,7 @@ function oneInstanceRow (course, classInfo) {
                                      + classInfo.location.building + '</a></td>'
        + '<td class="courseUnits">' + course.credit + '</td>'
        + '<td class="instanceCCN">' + classInfo.ccn + '</td>'
-       + '<td class="badges">' + 'badges' + '</td>'
+       + '<td class="badges">' + getBadges(course) + '</td>'
        + '<td class="save"> <input type="checkbox"> </td>'
        + '</tr>';
 
@@ -673,6 +673,36 @@ function setCourseTags (course) {
       classLevel += "Professional";
     else
       classLevel += "Other";
+}
+
+function getBadges (course) {
+  var images = '';
+
+  if (course.breadth.AC)
+    images += '<img src="img/AC.png" alt="American Cultures" title="American Cultures">';
+  if (course.breadth.AL)
+    images += '<img src="img/AL.png" alt="Arts & Literature" title="Arts & Literature">';
+  if (course.breadth.BS)
+    images += '<img src="img/BS.png" alt="Biological Science" title="Biological Science">';
+  if (course.breadth.HS)
+    images += '<img src="img/HS.png" alt="Historical Studies" title="Historical Studies">';
+  if (course.breadth.IS)
+    images += '<img src="img/IS.png" alt="International Studies" title="International Studies">';
+  if (course.breadth.PS)
+    images += '<img src="img/PS.png" alt="Physical Science" title="Physical Science">';
+  if (course.breadth.PV)
+    images += '<img src="img/PV.png" alt="Philosophy & Values" title="Philosophy & Values">';
+  if (course.breadth.RCA)
+    images += '<img src="img/RCA.png" alt="Reading & Composition A" title="Reading & Composition A">';
+  if (course.breadth.RCB)
+    images += '<img src="img/RCB.png" alt="Reading & Composition B" title="Reading & Composition B">';
+  if (course.breadth.SS)
+    images += '<img src="img/SBS.png" alt="Social & Behavioral Sciences" title="Social & Behavioral Sciences">';
+
+  if (images === '')
+    images += '--N/A--';
+
+  return images;
 }
 
 /*

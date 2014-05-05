@@ -103,3 +103,8 @@ th, .courseUnits, .instanceCCN, .badges, .save {
   margin: 0;
   height: 15px;
 }
+
+.badges img {
+  width: 30px;
+  height: 30px;
+}
