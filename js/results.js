@@ -1,46 +1,37 @@
-$(document).ready(function () {
 
-  $('#fileChange li').on('click', function() {
-    var filename = $(this).text();
-    getJSON(filename);
-  });
-
-  var filename = $('#main').attr('data-file');
-  getJSON(filename);
-});
 
 // facets
-var fDepartment = {}, 
-    fSemester = {},
-    fBreadth = {},
-    fSeats = {},
-    fDays = {},
-    fTime = {},
-    fUnits = {},
-    fSize = {},
-    fMeeting = {},
-    fLevel = {};
+var fDepartment = {},
+  fSemester = {},
+  fBreadth = {},
+  fSeats = {},
+  fDays = {},
+  fTime = {},
+  fUnits = {},
+  fSize = {},
+  fMeeting = {},
+  fLevel = {};
 
 // facet class names
 var classDept = '', // course.deptAbbrev, without space, comma, ampersand
-    classSemester = '', // classInstance.semester, without space
-    classBreadth = '', // course.breadth -- has multiple
-    classSeats = '', // classInstance.seats.available
-    classDays = '', // classInstance.days
-    classTime = '', // classInstance.time.start
-    classUnits = '', // course.credit
-    classSize = '', // classInstance.seats.max
-    classMeeting = '', // classInstance.instanceType
-    classLevel = ''; // course.number
+  classSemester = '', // classInstance.semester, without space
+  classBreadth = '', // course.breadth -- has multiple
+  classSeats = '', // classInstance.seats.available
+  classDays = '', // classInstance.days
+  classTime = '', // classInstance.time.start
+  classUnits = '', // course.credit
+  classSize = '', // classInstance.seats.max
+  classMeeting = '', // classInstance.instanceType
+  classLevel = ''; // course.number
 
 
 /* assumes filename being passed does include the file type */
 function getJSON (filename) {
 
-  var path = 'data/' + filename;
-  var results = '';
-  var resultsNotOff = '';
-  var instance = [];
+  var path = 'data/' + filename,
+    results = '',
+    resultsNotOff = '',
+    instance = [];
 
   $.getJSON(path, function (data) {
 
@@ -51,26 +42,25 @@ function getJSON (filename) {
     initializeFacets();
 
     // copy objects into a sortable array and then do $.each on this collection instead of data?
-    var courseArr = [];
-    var i = 0;
-    $.each( data, function (key, course) {
+    var courseArr = [],
+      i = 0;
+    $.each(data, function (key, course) {
       courseArr[i] = course;
-      i++;
+      i += 1;
     });
 
     courseArr = sortResults(courseArr, 'deptAbbrev', true);
 
     // iterate through the JSON file
-    $.each( courseArr, function (key, course) {
+    $.each(courseArr, function (key, course) {
 
       // get class names for facet interaction
       setCourseTags(course);
 
       // intialize row. Add classes according to search parameters?
-      var row = '';
-
       instance = course.classInstance;
-      var numInstances = instance.length;
+      var row = '',
+        numInstances = instance.length;
 
       // call function to enuermate facet information at the course level
       getCourseFacets(course);
@@ -98,32 +88,44 @@ function getJSON (filename) {
         row += '<td class="deptAbbrev">' + course.deptAbbrev + '</td>'
              + '<td class="courseNum">' + course.number + '</td>'
              + '<td class="courseTitle">' + course.title + '</td>'
-             + '<td colspan="7" class="seatSpacer">'; 
+             + '<td colspan="3" class="seatSpacer">'; 
 
         // count number of lectures and discussions so we can display that information
         var instanceTypeCount = {
           'Lecture':0,
           'Discussion':0
         };
-        for (var i=0; i<numInstances; i++)
-          instanceTypeCount[instance[i].instanceType]+=1;
+        for (var i=0; i<numInstances; i++) {
+          instanceTypeCount[instance[i].instanceType] += 1;
+        }
 
         // showing the number of lectures
-        if (instanceTypeCount['Lecture'] > 0)
+        if (instanceTypeCount['Lecture'] > 0) {
           row += '<p>' + instanceTypeCount['Lecture'] + ' Lecture' + (instanceTypeCount['Lecture']>1? 's':'') + '.</p>';
+        }
 
         // showing the number of dicussions
-        if (instanceTypeCount['Discussion'] > 0)
+        if (instanceTypeCount['Discussion'] > 0) {
           row += '<p>' + instanceTypeCount['Discussion'] + ' Discussion' + (instanceTypeCount['Discussion']>1? 's':'') + '.</p>';
+        }
+
+        // end counting cell
+        row += '<p>Click to see options.</p></td>';
+
+        // add units, a space for CCN, badges, and a space for save
+        row += '<td class="courseUnits">' + course.credit + '</td>'
+            + '<td class="instanceCCN"> &nbsp; </td>'
+            + '<td class="badges">' + getBadges(course) + '</td>'
+            + '<td class="save"> &nbsp; </td>';
 
         // ending the header row
-        row += '</td></tr>';
+        row += '</tr>';
 
         // add details
         row += detailsRow(course, true);
 
         for (var i=0; i<numInstances; i++){
-          row += '<tr class="classInstance ' + instance[i].instanceType + ' ' + classDept + course.number + ' hidden"><td colspan="3">' 
+          row += '<tr class="classInstance ' + instance[i].instanceType + ' ' + classDept + ' ' + classDept + course.number + ' hidden"><td colspan="3">' 
                 + instance[i].instanceType 
     /*            + '<p> Seats: ' + instance[0].seats.max 
               + '. Enrolled: ' + instance[0].seats.enrolled 
@@ -161,7 +163,7 @@ function getJSON (filename) {
       }
 
       // add a count for each course
-      fSemester["All"]+=1;
+      fSemester["All"] += 1;
 
       // this is really shitty but it should allow putting not offered courses at bottom.
       if (numInstances === 0) 
@@ -176,16 +178,10 @@ function getJSON (filename) {
   $('#results tbody').append(results);
 
   // adding show/hide details and instances
-  $('.courseHeaderRow').on('click', function() {
+  $('.courseHeaderRow').on('click', function () {
     var data_classID = $(this).attr('data-classID');
     var $details = $('.' + data_classID);
     $details.toggleClass('hidden');
-
-    if ($details.hasClass('hidden'))
-      $details.removeClass('showing');
-    else
-      $details.addClass('showing');
-
   });
 
   showFacets();
@@ -193,6 +189,8 @@ function getJSON (filename) {
   });
 
   function initializeFacets() {
+
+    fDepartment = {};
 
     fSeats = {
       "Available": 0,
@@ -290,53 +288,53 @@ function getJSON (filename) {
 
       // requirements
       if (course.breadth.AC)
-        fBreadth["American Cultures"]+=1;
+        fBreadth["American Cultures"] += 1;
       if (course.breadth.AL)
-        fBreadth["Arts & Literature"]+=1;
+        fBreadth["Arts & Literature"] += 1;
       if (course.breadth.BS)
-        fBreadth["Biological Science"]+=1;
+        fBreadth["Biological Science"] += 1;
       if (course.breadth.HS)
-        fBreadth["Historical Studies"]+=1;
+        fBreadth["Historical Studies"] += 1;
       if (course.breadth.IS)
-        fBreadth["International Studies"]+=1;
+        fBreadth["International Studies"] += 1;
       if (course.breadth.PS)
-        fBreadth["Physical Science"]+=1;
+        fBreadth["Physical Science"] += 1;
       if (course.breadth.PV)
-        fBreadth["Philosophy & Values"]+=1;
+        fBreadth["Philosophy & Values"] += 1;
       if (course.breadth.RCA)
-        fBreadth["Reading & Composition A"]+=1;
+        fBreadth["Reading & Composition A"] += 1;
       if (course.breadth.RCB)
-        fBreadth["Reading & Composition B"]+=1;
+        fBreadth["Reading & Composition B"] += 1;
       if (course.breadth.SS)
-        fBreadth["Social & Behavioral Sciences"]+=1;
+        fBreadth["Social & Behavioral Sciences"] += 1;
 
       // units
-      fUnits[course.credit]+=1;
+      fUnits[course.credit] += 1;
 
       //meeting type
-      fMeeting[course.courseType]+=1;
+      fMeeting[course.courseType] += 1;
 
       //fLevel
       var courseNumber = (course.number).match(/\d+/)[0]; //numbers only
       if (courseNumber < 100)
-        fLevel["Lower Division"]+=1;
+        fLevel["Lower Division"] += 1;
       else if (courseNumber >= 100 && courseNumber < 200)
-        fLevel["Upper Division"]+=1;
+        fLevel["Upper Division"] += 1;
       else if (courseNumber >= 200 && courseNumber < 300)
-        fLevel["Graduate"]+=1;
+        fLevel["Graduate"] += 1;
       else if (courseNumber >= 300 && courseNumber < 400)
-        fLevel["Professional"]+=1;
+        fLevel["Professional"] += 1;
       else
-        fLevel["Other"]+=1;
+        fLevel["Other"] += 1;
 
       if (course.berkeleyConnect)
-        fMisc["Berkeley Connect"]+=1;
+        fMisc["Berkeley Connect"] += 1;
 
       if (!!course.courseThread)
-        fMisc["Course Thread"]+=1;
+        fMisc["Course Thread"] += 1;
 
       if (course.freshSophSem)
-        fMisc["Freshman/Sophomore Seminar"]+=1;
+        fMisc["Freshman/Sophomore Seminar"] += 1;
 
   }
 
@@ -344,29 +342,29 @@ function getJSON (filename) {
 
           //seats - available, waitlist 
           if (instance.seats.available > 0)
-            fSeats["Available"]+=1;
+            fSeats["Available"] += 1;
           else
-            fSeats["Waitlist"]+=1;
+            fSeats["Waitlist"] += 1;
 
           // class size
           var seatsMax = instance.seats.max;
           if (seatsMax <= 15)
-            fSize["15 and less"]+=1;
+            fSize["15 and less"] += 1;
           else if (seatsMax > 15 && seatsMax <= 35)
-            fSize["16-35"]+=1;
+            fSize["16-35"] += 1;
           else if (seatsMax > 35 && seatsMax <= 75)
-            fSize["36-75"]+=1;
+            fSize["36-75"] += 1;
           else if (seatsMax > 75 && seatsMax <= 150)
-            fSize["75-150"]+=1;
+            fSize["75-150"] += 1;
           else
-            fSize["151+"]+=1;
+            fSize["151+"] += 1;
 
           // days
           var days = instance.days;
           fDays[days] += 1;
 
           // semester
-          fSemester[instance.semester]+=1;
+          fSemester[instance.semester] += 1;
 
           // time
           var hour = ((instance.time.start).replace(/\:/, '')).match(/^\d+/)[0];
@@ -375,19 +373,19 @@ function getJSON (filename) {
           var ampm = (instance.time.start).match(/[AP]$/)[0];
 
           if ((hour >= 800 && hour < 930) && ampm === 'A')
-            fTime['8-9:30A'] +=1;
+            fTime['8-9:30A'] += 1;
           else if ((hour >= 930 && hour < 1100) && ampm === 'A')
-            fTime['9:30-11A'] +=1;
+            fTime['9:30-11A'] += 1;
           else if (hour >= 1100 && hour < 1230)
-            fTime['11A-12:30P'] +=1;
+            fTime['11A-12:30P'] += 1;
           else if (hour >= 1230 && hour < 200)
-            fTime['12:30-2P'] +=1;
+            fTime['12:30-2P'] += 1;
           else if (hour >= 200 && hour < 330)
-            fTime['2-3:30P'] +=1;
+            fTime['2-3:30P'] += 1;
           else if (hour >= 330 && hour < 500)
-            fTime['3:30-5P'] +=1;
+            fTime['3:30-5P'] += 1;
           else
-            fTime['5-9P'] +=1;
+            fTime['5-9P'] += 1;
   }
 
   function showFacets () {
@@ -532,52 +530,48 @@ function getJSON (filename) {
 
 
     // action to take when any facet checkbox is clicked
-    $('.facet input:checkbox').on('click', function() {
+    $('.facet input:checkbox').on('click', function () {
 
       // which department boxes are checked
       var $checked = $('.facet input:checked');
 
       // if no facets are checked, display everything
       if ($checked.length === 0) {
-        $('.courseHeaderRow').removeClass('hidden')
-                             .addClass('showing');
-        $('.classInstance').addClass('hidden')
-                           .removeClass('showing');
+        $('.courseHeaderRow').removeClass('hidden');
+        $('.classInstance').addClass('hidden');
       }
 
       // if some facets are checked, hide everything then show according to checked boxes
       else {
-        $('#resultsHeaderRow').siblings().addClass('hidden')
-                                         .removeClass('showing');
+        $('#resultsHeaderRow').siblings().addClass('hidden');
         
         // show rows for appropriate checked boxes
-        $checked.each(function() {
-          var data = $(this).val();
-          $('.'+data).removeClass('hidden')
-                     .addClass('showing');
+        $checked.each(function () {
+          var checkedBox = $(this).val();
+          console.log('this box is checked: ' + checkedBox);
+          console.log($('.'+checkedBox));
+          $('.'+checkedBox).removeClass('hidden');
 
           // for multi instance rows, if none of its "children" are showing, hide it too
           $('.multiInstanceRow').each(function () {
-            var data = $(this).attr('data-classid');
-            var hasInstances = $('.' + data).hasClass('showing');
+            var classID = $(this).attr('data-classid');
+            console.log('classID: ' + classID);
+            console.log('checking these rows: ')
+            console.log($('.'+classID));
+            var hasInstances = !($('.' + classID).hasClass('hidden'));
 
-            if ($(this).hasClass('showing') && !hasInstances) {
-              $(this).addClass('hidden')
-                     .removeClass('showing');
-              console.log("hiding");
+            if (!($(this).hasClass('hidden')) && !hasInstances) {
+              $(this).addClass('hidden');
             }
 
             if ($(this).hasClass('hidden') && hasInstances) {
-              $(this).removeClass('hidden')
-                     .addClass('showing');
-                     console.log("showing");
+              $(this).removeClass('hidden');
             }
+            // is this hiding rows because none of the instances have the right class?
 
-          })
+          });
         });
-
       }
-      
     });
   }
 
@@ -587,21 +581,22 @@ function getJSON (filename) {
 // function to sort the provided array according to the provided property
 // oh my god so helpful http://stackoverflow.com/a/9188211
 function sortResults(array, prop, asc) {
-  array = array.sort(function(a, b) {
+  array = array.sort(function (a, b) {
 
     // if sorting by department, then we want to check to see if we need to reorder by number for multiple courses in a dept.
-    if (prop === 'deptAbbrev') {
-      if (a['deptAbbrev'] === b['deptAbbrev'])
-        prop = 'number';
-      else
-        prop = 'deptAbbrev'; // change it back to sorting by deptAbbrev once we are done with a particular department?
+    if (a['deptAbbrev'] === b['deptAbbrev']) {
+      // some courses have letters in their numbers, so we need to take those out first.
+      var aNumber = a['number'].match(/\d+/),
+          bNumber = a['number'].match(/\d+/);
+      return (aNumber >= bNumber) ? 1 : ((aNumber < bNumber) ? -1 : 0);
     }
 
-    // sorting
-    if (asc) 
+    // otherwise sort by department
+    if (asc) {
       return (a[prop] > b[prop]) ? 1 : ((a[prop] < b[prop]) ? -1 : 0);
-    else 
+    } else {
       return (b[prop] > a[prop]) ? 1 : ((b[prop] < a[prop]) ? -1 : 0);
+    }
   });
   return array;
 }
@@ -792,4 +787,15 @@ function getBadges (course) {
     classSize = '', // classInstance.seats.max
     classMeeting = '', // classInstance.instanceType
     */
+
+$(document).ready(function () {
+
+  $('#fileChange li').on('click', function () {
+    var filename = $(this).text();
+    getJSON(filename);
+  });
+
+  var filename = $('#main').attr('data-file');
+  getJSON(filename);
+});
 
