@@ -22,16 +22,16 @@ var fDepartment = {},
     fLevel = {};
 
 // facet class names
-var classDept = '',
-    classSemester = '',
-    classBreadth = '',
-    classSeats = '',
-    classDays = '',
-    classTime = ''
-    classUnits = ''
-    classSize = ''
-    classMeeting = ''
-    classLevel = '';
+var classDept = '', // course.deptAbbrev, without space, comma, ampersand
+    classSemester = '', // classInstance.semester, without space
+    classBreadth = '', // course.breadth -- has multiple
+    classSeats = '', // classInstance.seats.available
+    classDays = '', // classInstance.days
+    classTime = '', // classInstance.time.start
+    classUnits = '', // course.credit
+    classSize = '', // classInstance.seats.max
+    classMeeting = '', // classInstance.instanceType
+    classLevel = ''; // course.number
 
 
 /* assumes filename being passed does include the file type */
@@ -64,8 +64,7 @@ function getJSON (filename) {
     $.each( courseArr, function (key, course) {
 
       // get class names for facet interaction
-      classDept = (course.deptAbbrev).replace(/[&,\s]+/g, ''); //letters only
-      
+      setCourseTags(course);
 
       // intialize row. Add classes according to search parameters?
       var row = '';
@@ -94,11 +93,12 @@ function getJSON (filename) {
       // building row for table
       // courses with multiple instances
       else {
-        row += '<tr class="courseHeaderRow ' + classDept + '" data-classID="' + classDept + course.number + '"">';
+        row += '<tr class="courseHeaderRow ' + classDept + classBreadth + classUnits + classLevel
+                                             + '" data-classID="' + classDept + course.number + '"">';
         row += '<td class="deptAbbrev">' + course.deptAbbrev + '</td>'
              + '<td class="courseNum">' + course.number + '</td>'
              + '<td class="courseTitle">' + course.title + '</td>'
-             + '<td colspan="7">'; 
+             + '<td colspan="7" class="seatSpacer">'; 
 
         // count number of lectures and discussions so we can display that information
         var instanceTypeCount = {
@@ -132,7 +132,7 @@ function getJSON (filename) {
                 + '</p>'*/
                 + '</td>';
 
-          // n row for multiple instances: add header level information
+          var courseCredit = (instance[i].instanceType === 'Lecture')? course.credit : "--"; 
           
           row += '<td class="instanceInstructor">' + instance[i].instructor + '</td>'
               + '<td class="instanceTime">' + instance[i].time.start + '-' + instance[i].time.end 
@@ -141,7 +141,7 @@ function getJSON (filename) {
               + '<td class="instancePlace">' + instance[i].location.room + ' <a href="http://www.berkeley.edu/map/googlemap/?' 
                                             + instance[i].location.building.toLowerCase() + '" target="new">'
                                             + instance[i].location.building + '</a></td>'
-              + '<td class="courseUnits">' + course.credit + '</td>'
+              + '<td class="courseUnits">' + courseCredit + '</td>'
               + '<td class="instanceCCN">' + instance[i].ccn + '</td>'
               + '<td class="badges">' + 'badges' + '</td>'
               + '<td class="save"> <input type="checkbox"> </td>'
@@ -178,7 +178,14 @@ function getJSON (filename) {
   // adding show/hide details and instances
   $('.courseHeaderRow').on('click', function() {
     var data_classID = $(this).attr('data-classID');
-    $('.' + data_classID).toggleClass('hidden');
+    var $details = $('.' + data_classID);
+    $details.toggleClass('hidden');
+
+    if ($details.hasClass('hidden'))
+      $details.removeClass('showing');
+    else
+      $details.addClass('showing');
+
   });
 
   showFacets();
@@ -359,105 +366,148 @@ function getJSON (filename) {
 
   function showFacets () {
 
+    // department facets
+    // course.deptAbbrev, letters only
     var $ulDept = $('#facetsDepartments');
     $ulDept.children().remove();
     for (var item in fDepartment) {
-      if (fDepartment[item] > 0)
-
+      if (fDepartment[item] > 0) {
         // get class names for facet interaction
         var classDept = item.replace(/[&,\s]+/g, ''); //letters only
         $ulDept.append('<li class="facet"> <input type="checkbox" value="' + classDept + '" id="facet' + classDept + '"/>' 
-                        + '<label for="facet' + classDept + '">' + item + ' (' + fDepartment[item] + ')</li>');
+                        + '<label for="facet' + classDept + '">' + item + ' (' + fDepartment[item] + ')</label></li>');
+      }
     }
 
-    // department facet
-    $('.facet input:checkbox').on('click', function() {
-
-      var $checked = $('#facetsDepartments input:checked');
-
-      if ($checked.length === 0)
-        $('.courseHeaderRow').removeClass('hidden');
-
-      else {
-        $('#resultsHeaderRow').siblings().addClass('hidden');
-
-        $checked.each(function() {
-          var data = $(this).val();
-          $('.'+data).removeClass('hidden');
-        });
+    // semester facet
+    // classInstance.semester, without space
+    var $ulSem = $('#facetsSemester');
+    $ulSem.children().remove();
+    for (var item in fSemester) {
+      var classSemester = 'facet' + ((item === 'All')? 'All':'Fall2014');
+      console.log(classSemester);
+      if (fSemester[item] > 0) {
+        $ulSem.append('<li class="facet"> <input type="checkbox" id="' + classSemester + '" value="' + classSemester + '"/>' 
+                      + '<label for="' + classSemester + '">' + item + ' (' + fSemester[item] + ')</label></li>');
       }
-      
-    })
+    }
 
+    // breadth requirement facets
+    // course.breadth -- has multiple
     var $ulRequirements = $('#facetsRequirements');
     $ulRequirements.children().remove();
     for (var item in fBreadth) {
-      if (fBreadth[item] > 0)
-        $ulRequirements.append('<li> <input type="checkbox"/>' + item + " (" + fBreadth[item] + ")</li>");
+      if (fBreadth[item] > 0) {
+        var classBreadth = item.replace(/[&,\s]+/g, '');
+        $ulRequirements.append('<li class="facet"> <input type="checkbox" id="' + classBreadth + '" value="' + classBreadth +'"/>' 
+                              + '<label for="' + classBreadth + '">' + item + " (" + fBreadth[item] + ")</label></li>");
+      }
     }
 
+    // available/waitlist seats facet
+    // classInstance.seats.available
     var $ulSeats = $('#facetsSeats');
     $ulSeats.children().remove();
     for (var item in fSeats) {
       if (fSeats[item] > 0)
-        $ulSeats.append('<li> <input type="checkbox"/>' + item + " (" + fSeats[item] + ")</li>");
+        $ulSeats.append('<li class="facet"> <input type="checkbox"/>' + item + " (" + fSeats[item] + ")</li>");
     }
 
+    // days facet
+    // classInstance.days
     var $ulDay = $('#facetsDay');
     $ulDay.children().remove();
     for (var item in fDays) {
       if (fDays[item] > 0)
-      $ulDay.append('<li> <input type="checkbox"/>' + item + " (" + fDays[item] + ")</li>");
+      $ulDay.append('<li class="facet"> <input type="checkbox"/>' + item + " (" + fDays[item] + ")</li>");
     }
 
+    // meeting start time
+    // classInstance.time.start
     var $ulTime = $('#facetsTime');
     $ulTime.children().remove();
     for (var item in fTime) {
       if (fTime[item] > 0)
-        $ulTime.append('<li> <input type="checkbox"/>' + item + " (" + fTime[item] + ")</li>");
+        $ulTime.append('<li class="facet"> <input type="checkbox"/>' + item + " (" + fTime[item] + ")</li>");
     }
 
+    // number of units
+    // course.credit
     var $ulUnits = $('#facetsUnits');
     $ulUnits.children().remove();
     for (var item in fUnits) {
-      if (fUnits[item] > 0)
-        $ulUnits.append('<li> <input type="checkbox"/>' + item + " (" + fUnits[item] + ")</li>");
+      if (fUnits[item] > 0) {
+        var classUnits = 'units' + item;
+        $ulUnits.append('<li class="facet"> <input type="checkbox" id="' + classUnits + '" value="' + classUnits + '"/>' 
+                        + '<label for="' + classUnits + '">' + item + ' (' + fUnits[item] + ')</label></li>');
+      }
     }
 
+    // total class size
+    // classInstance.seats.max
     var $ulSize = $('#facetsSize');
     $ulSize.children().remove();
     for (var item in fSize) {
       if (fSize[item] > 0)
-        $ulSize.append('<li> <input type="checkbox"/>' + item + " (" + fSize[item] + ")</li>");
+        $ulSize.append('<li class="facet"> <input type="checkbox"/>' + item + " (" + fSize[item] + ")</li>");
     }
 
+    // meeting type
+    // classInstance.instanceType
     var $ulType = $('#facetsType');
     $ulType.children().remove();
     for (var item in fMeeting) {
       if (fMeeting[item] > 0)
-       $ulType.append('<li> <input type="checkbox"/>' + item + " (" + fMeeting[item] + ")</li>");
+       $ulType.append('<li class="facet"> <input type="checkbox"/>' + item + " (" + fMeeting[item] + ")</li>");
     }
 
+    // course level
+    // course.number
     var $ulLevel = $('#facetsLevel');
     $ulLevel.children().remove();
     for (var item in fLevel) {
-      if (fLevel[item] > 0)
-        $ulLevel.append('<li> <input type="checkbox"/>' + item + " (" + fLevel[item] + ")</li>");
+      if (fLevel[item] > 0) { 
+        var classLevel = item.replace(/[&,\s]+/g, '');
+        $ulLevel.append('<li class="facet"> <input type="checkbox" id="' + classLevel + '" value="' + classLevel + '"/>' 
+                        + '<label for="' + classLevel + '">' + item + ' (' + fLevel[item] + ')</label></li>');
+      }
     }
 
+    // misc stuff
     var $ulMisc = $('#facetsMisc');
     $ulMisc.children().remove();
     for (var item in fMisc) {
       if (fMisc[item] > 0)
-        $ulMisc.append('<li> <input type="checkbox"/>' + item + " (" + fMisc[item] + ")</li>");
+        $ulMisc.append('<li class="facet"> <input type="checkbox"/>' + item + " (" + fMisc[item] + ")</li>");
     }
 
-    var $ulSem = $('#facetsSemester');
-    $ulSem.children().remove();
-    for (var item in fSemester) {
-      if (fSemester[item] > 0)
-        $ulSem.append('<li> <input type="checkbox"/>' + item + " (" + fSemester[item] + ")</li>");
-    }
+
+    // action to take when any facet checkbox is clicked
+    $('.facet input:checkbox').on('click', function() {
+
+      // which department boxes are checked
+      var $checked = $('.facet input:checked');
+
+      // if no facets are checked, display everything
+      if ($checked.length === 0)
+        $('.courseHeaderRow').removeClass('hidden')
+                             .addClass('showing');
+
+      // if some facets are checked, hide everything then show according to checked boxes
+      else {
+        $('#resultsHeaderRow').siblings().addClass('hidden')
+                                         .removeClass('showing');
+
+        $checked.each(function() {
+          var data = $(this).val();
+          $('.'+data).removeClass('hidden')
+                     .addClass('showing');
+
+                     console.log(data);
+        });
+      }
+      
+    });
   }
 
 }
@@ -467,6 +517,7 @@ function getJSON (filename) {
 // oh my god so helpful http://stackoverflow.com/a/9188211
 function sortResults(array, prop, asc) {
   array = array.sort(function(a, b) {
+      // if a[prop] === b[prop] then sort by number
       if (asc) return (a[prop] > b[prop]) ? 1 : ((a[prop] < b[prop]) ? -1 : 0);
       else return (b[prop] > a[prop]) ? 1 : ((b[prop] < a[prop]) ? -1 : 0);
   });
@@ -474,7 +525,8 @@ function sortResults(array, prop, asc) {
 }
 
 function notOfferedRow (course) {
-  var row = '<tr class="courseHeaderRow ' + classDept + '" data-classID="' + classDept + course.number + '">';
+  var row = '<tr class="courseHeaderRow ' + classDept + classBreadth + classUnits + classLevel
+                                          + '" data-classID="' + classDept + course.number + '">';
   row += '<td class="deptAbbrev">' + course.deptAbbrev + '</td>'
    + '<td class="courseNum">' + course.number + '</td>'
    + '<td class="courseTitle">' + course.title + '</td>'
@@ -494,7 +546,8 @@ function notOfferedRow (course) {
 
 function oneInstanceRow (course, classInfo) {
 
-  var row = '<tr class="courseHeaderRow ' + classDept + '" data-classID="' + classDept + course.number + '">';
+  var row = '<tr class="courseHeaderRow ' + classDept + classBreadth + classUnits + classLevel
+                                          + '" data-classID="' + classDept + course.number + '">';
   row += '<td class="deptAbbrev">' + course.deptAbbrev + '</td>'
        + '<td class="courseNum">' + course.number + '</td>'
        + '<td class="courseTitle">' + course.title + '</td>'
@@ -577,4 +630,58 @@ function detailsRow (course, hasInstance) {
   return row;
 }
 
+function setCourseTags (course) {
+    //department
+    classDept = (course.deptAbbrev).replace(/[&,\s]+/g, ''); //letters only
+
+    // breadths
+    classBreadth = '';
+    if (course.breadth.AC)
+      classBreadth += ' AmericanCultures';
+    if (course.breadth.AL)
+      classBreadth += ' ArtsLiterature';
+    if (course.breadth.BS)
+      classBreadth += ' BiologicalScience';
+    if (course.breadth.HS)
+      classBreadth += ' HistoricalStudies';
+    if (course.breadth.IS)
+      classBreadth += ' InternationalStudies';
+    if (course.breadth.PS)
+      classBreadth += ' PhysicalScience';
+    if (course.breadth.PV)
+      classBreadth += ' PhilosophyValues';
+    if (course.breadth.RCA)
+      classBreadth += ' ReadingCompositionA';
+    if (course.breadth.RCB)
+      classBreadth += ' ReadingCompositionB';
+    if (course.breadth.SS)
+      classBreadth += ' SocialBehavioralSciences';
+
+    // units
+    classUnits = ' units' + course.credit;
+    
+    //course number
+    classLevel = ' '; 
+    var courseNumber = (course.number).match(/\d+/)[0]; //numbers only
+    if (courseNumber < 100)
+      classLevel += "LowerDivision";
+    else if (courseNumber >= 100 && courseNumber < 200)
+      classLevel += "UpperDivision";
+    else if (courseNumber >= 200 && courseNumber < 300)
+      classLevel += "Graduate";
+    else if (courseNumber >= 300 && courseNumber < 400)
+      classLevel += "Professional";
+    else
+      classLevel += "Other";
+}
+
+/*
+    classSemester = '', // classInstance.semester, without space
+    classSeats = '', // classInstance.seats.available
+    classDays = '', // classInstance.days
+    classTime = '', // classInstance.time.start
+
+    classSize = '', // classInstance.seats.max
+    classMeeting = '', // classInstance.instanceType
+    */
 

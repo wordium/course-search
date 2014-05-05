@@ -97,3 +97,9 @@ th, .courseUnits, .instanceCCN, .badges, .save {
 .courseHeaderRow td {
   background-color: rgba(194,185,167,0.75);
 }
+
+.rowSeats, .rowSeats td {
+  padding: 0;
+  margin: 0;
+  height: 15px;
+}
