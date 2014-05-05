@@ -93,7 +93,7 @@ function getJSON (filename) {
       // building row for table
       // courses with multiple instances
       else {
-        row += '<tr class="courseHeaderRow ' + classDept + classBreadth + classUnits + classLevel
+        row += '<tr class="courseHeaderRow multiInstanceRow' + classDept + classBreadth + classUnits + classLevel
                                              + '" data-classID="' + classDept + course.number + '"">';
         row += '<td class="deptAbbrev">' + course.deptAbbrev + '</td>'
              + '<td class="courseNum">' + course.number + '</td>'
@@ -368,10 +368,7 @@ function getJSON (filename) {
           // semester
           fSemester[instance.semester]+=1;
 
-          //TODO:
           // time
-          // instance[i].time.start
-          // instance[i].time.end
           var hour = ((instance.time.start).replace(/\:/, '')).match(/^\d+/)[0];
           if (hour <= 12)
             hour = hour * 100;
@@ -438,8 +435,10 @@ function getJSON (filename) {
     var $ulSeats = $('#facetsSeats');
     $ulSeats.children().remove();
     for (var item in fSeats) {
-      if (fSeats[item] > 0)
-        $ulSeats.append('<li class="facet"> <input type="checkbox"/>' + item + " (" + fSeats[item] + ")</li>");
+      if (fSeats[item] > 0) {
+        $ulSeats.append('<li class="facet"> <input type="checkbox" id="' + item + '" value="' + item + '"/>' 
+                        + '<label for="' + item + '">' + item + " (" + fSeats[item] + ")</label></li>");
+      }
     }
 
     // days facet
@@ -447,17 +446,31 @@ function getJSON (filename) {
     var $ulDay = $('#facetsDay');
     $ulDay.children().remove();
     for (var item in fDays) {
-      if (fDays[item] > 0)
-      $ulDay.append('<li class="facet"> <input type="checkbox"/>' + item + " (" + fDays[item] + ")</li>");
+      if (fDays[item] > 0) {
+        $ulDay.append('<li class="facet"> <input type="checkbox" id="days' + item + '" value="days' + item + '"/>' 
+                      + '<label for="days' + item + '">' + item + " (" + fDays[item] + ")</label></li>");
+      }
     }
 
+    // TODO
     // meeting start time
     // classInstance.time.start
     var $ulTime = $('#facetsTime');
     $ulTime.children().remove();
     for (var item in fTime) {
-      if (fTime[item] > 0)
-        $ulTime.append('<li class="facet"> <input type="checkbox"/>' + item + " (" + fTime[item] + ")</li>");
+      if (fTime[item] > 0) {
+        $ulTime.append('<li class="facet"> <input type="checkbox" id="" value=""/>' 
+                       + '<label for="">' + item + " (" + fTime[item] + ")</label></li>");
+      }
+
+      /*
+      "8-9:30A": 0,
+      "9:30-11A": 0,
+      "11A-12:30P": 0,
+      "12:30-2P": 0,
+      "2-3:30P": 0,
+      "3:30-5P": 0,
+      "5-9P": 0*/
     }
 
     // number of units
@@ -472,13 +485,16 @@ function getJSON (filename) {
       }
     }
 
+//TODO
     // total class size
     // classInstance.seats.max
     var $ulSize = $('#facetsSize');
     $ulSize.children().remove();
     for (var item in fSize) {
-      if (fSize[item] > 0)
-        $ulSize.append('<li class="facet"> <input type="checkbox"/>' + item + " (" + fSize[item] + ")</li>");
+      if (fSize[item] > 0) {
+        $ulSize.append('<li class="facet"> <input type="checkbox" id="" value=""/>' 
+                       + '<label for="">' + item + " (" + fSize[item] + ")</label></li>");
+      }
     }
 
     // meeting type
@@ -486,8 +502,10 @@ function getJSON (filename) {
     var $ulType = $('#facetsType');
     $ulType.children().remove();
     for (var item in fMeeting) {
-      if (fMeeting[item] > 0)
-       $ulType.append('<li class="facet"> <input type="checkbox"/>' + item + " (" + fMeeting[item] + ")</li>");
+      if (fMeeting[item] > 0) {
+       $ulType.append('<li class="facet"> <input type="checkbox" id="' + item + '" value="' + item + '"/>' 
+                       + '<label for="' + item + '">' + item + " (" + fMeeting[item] + ")</label></li>");
+     }
     }
 
     // course level
@@ -502,12 +520,15 @@ function getJSON (filename) {
       }
     }
 
+// TODO
     // misc stuff
     var $ulMisc = $('#facetsMisc');
     $ulMisc.children().remove();
     for (var item in fMisc) {
-      if (fMisc[item] > 0)
-        $ulMisc.append('<li class="facet"> <input type="checkbox"/>' + item + " (" + fMisc[item] + ")</li>");
+      if (fMisc[item] > 0) {
+        $ulMisc.append('<li class="facet"> <input type="checkbox" id="" value=""/>' 
+                       + '<label for="">' + item + " (" + fMisc[item] + ")</label></li>");
+      }
     }
 
 
@@ -526,12 +547,24 @@ function getJSON (filename) {
       else {
         $('#resultsHeaderRow').siblings().addClass('hidden')
                                          .removeClass('showing');
-
+        
+        // show rows for appropriate checked boxes
         $checked.each(function() {
           var data = $(this).val();
           $('.'+data).removeClass('hidden')
                      .addClass('showing');
         });
+
+        // for multi instance rows, if none of its "children" are showing, hide it too
+        $('.multiInstanceRow').each(function () {
+          var data = $(this).attr('data-classid');
+          var hasInstances = $('.' + data).hasClass('showing');
+
+          if ($(this).hasClass('showing') && !hasInstances) {
+            $(this).addClass('hidden')
+                   .removeClass('showing');
+          }
+        })
       }
       
     });
@@ -606,10 +639,6 @@ function oneInstanceRow (course, classInfo) {
   row += detailsRow(course, true);
 
   return row;
-}
-
-function multiInstanceRows (course, instances) {
-  // lol nothing in here because I never took it out
 }
 
 function detailsRow (course, hasInstance) {
