@@ -385,7 +385,6 @@ function getJSON (filename) {
     $ulSem.children().remove();
     for (var item in fSemester) {
       var classSemester = 'facet' + ((item === 'All')? 'All':'Fall2014');
-      console.log(classSemester);
       if (fSemester[item] > 0) {
         $ulSem.append('<li class="facet"> <input type="checkbox" id="' + classSemester + '" value="' + classSemester + '"/>' 
                       + '<label for="' + classSemester + '">' + item + ' (' + fSemester[item] + ')</label></li>');
@@ -502,8 +501,6 @@ function getJSON (filename) {
           var data = $(this).val();
           $('.'+data).removeClass('hidden')
                      .addClass('showing');
-
-                     console.log(data);
         });
       }
       
@@ -517,7 +514,13 @@ function getJSON (filename) {
 // oh my god so helpful http://stackoverflow.com/a/9188211
 function sortResults(array, prop, asc) {
   array = array.sort(function(a, b) {
-      // if a[prop] === b[prop] then sort by number
+
+    console.log(prop);
+      if (a['deptAbbrev'] === b['deptAbbrev'])
+        prop = 'number';
+      else
+        prop = 'deptAbbrev';
+
       if (asc) return (a[prop] > b[prop]) ? 1 : ((a[prop] < b[prop]) ? -1 : 0);
       else return (b[prop] > a[prop]) ? 1 : ((b[prop] < a[prop]) ? -1 : 0);
   });
