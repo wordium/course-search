@@ -265,6 +265,16 @@ function getJSON (filename) {
       "Fall 2014": 0,
       "All": 0
     }
+
+    fTime = {
+      "8-9:30A": 0,
+      "9:30-11A": 0,
+      "11A-12:30P": 0,
+      "12:30-2P": 0,
+      "2-3:30P": 0,
+      "3:30-5P": 0,
+      "5-9P": 0
+    }
   }
 
   function getCourseFacets (course) {
@@ -362,6 +372,26 @@ function getJSON (filename) {
           // time
           // instance[i].time.start
           // instance[i].time.end
+          var hour = ((instance.time.start).replace(/\:/, '')).match(/^\d+/)[0];
+          if (hour <= 12)
+            hour = hour * 100;
+          var ampm = (instance.time.start).match(/[AP]$/)[0];
+
+          console.log(hour + ', ' + ampm);
+          if ((hour >= 800 && hour < 930) && ampm === 'A')
+            fTime['8-9:30A'] +=1;
+          else if ((hour >= 930 && hour < 1100) && ampm === 'A')
+            fTime['9:30-11A'] +=1;
+          else if (hour >= 1100 && hour < 1230)
+            fTime['11A-12:30P'] +=1;
+          else if (hour >= 1230 && hour < 200)
+            fTime['12:30-2P'] +=1;
+          else if (hour >= 200 && hour < 330)
+            fTime['2-3:30P'] +=1;
+          else if (hour >= 330 && hour < 500)
+            fTime['3:30-5P'] +=1;
+          else
+            fTime['5-9P'] +=1;
   }
 
   function showFacets () {
@@ -515,14 +545,19 @@ function getJSON (filename) {
 function sortResults(array, prop, asc) {
   array = array.sort(function(a, b) {
 
-    console.log(prop);
+    // if sorting by department, then we want to check to see if we need to reorder by number for multiple courses in a dept.
+    if (prop === 'deptAbbrev') {
       if (a['deptAbbrev'] === b['deptAbbrev'])
         prop = 'number';
       else
-        prop = 'deptAbbrev';
+        prop = 'deptAbbrev'; // change it back to sorting by deptAbbrev once we are done with a particular department?
+    }
 
-      if (asc) return (a[prop] > b[prop]) ? 1 : ((a[prop] < b[prop]) ? -1 : 0);
-      else return (b[prop] > a[prop]) ? 1 : ((b[prop] < a[prop]) ? -1 : 0);
+    // sorting
+    if (asc) 
+      return (a[prop] > b[prop]) ? 1 : ((a[prop] < b[prop]) ? -1 : 0);
+    else 
+      return (b[prop] > a[prop]) ? 1 : ((b[prop] < a[prop]) ? -1 : 0);
   });
   return array;
 }
