@@ -93,7 +93,7 @@ function getJSON (filename) {
       // building row for table
       // courses with multiple instances
       else {
-        row += '<tr class="courseHeaderRow multiInstanceRow' + classDept + classBreadth + classUnits + classLevel
+        row += '<tr class="courseHeaderRow multiInstanceRow ' + classDept + classBreadth + classUnits + classLevel
                                              + '" data-classID="' + classDept + course.number + '"">';
         row += '<td class="deptAbbrev">' + course.deptAbbrev + '</td>'
              + '<td class="courseNum">' + course.number + '</td>'
@@ -374,7 +374,6 @@ function getJSON (filename) {
             hour = hour * 100;
           var ampm = (instance.time.start).match(/[AP]$/)[0];
 
-          console.log(hour + ', ' + ampm);
           if ((hour >= 800 && hour < 930) && ampm === 'A')
             fTime['8-9:30A'] +=1;
           else if ((hour >= 930 && hour < 1100) && ampm === 'A')
@@ -539,9 +538,12 @@ function getJSON (filename) {
       var $checked = $('.facet input:checked');
 
       // if no facets are checked, display everything
-      if ($checked.length === 0)
+      if ($checked.length === 0) {
         $('.courseHeaderRow').removeClass('hidden')
                              .addClass('showing');
+        $('.classInstance').addClass('hidden')
+                           .removeClass('showing');
+      }
 
       // if some facets are checked, hide everything then show according to checked boxes
       else {
@@ -553,18 +555,27 @@ function getJSON (filename) {
           var data = $(this).val();
           $('.'+data).removeClass('hidden')
                      .addClass('showing');
+
+          // for multi instance rows, if none of its "children" are showing, hide it too
+          $('.multiInstanceRow').each(function () {
+            var data = $(this).attr('data-classid');
+            var hasInstances = $('.' + data).hasClass('showing');
+
+            if ($(this).hasClass('showing') && !hasInstances) {
+              $(this).addClass('hidden')
+                     .removeClass('showing');
+              console.log("hiding");
+            }
+
+            if ($(this).hasClass('hidden') && hasInstances) {
+              $(this).removeClass('hidden')
+                     .addClass('showing');
+                     console.log("showing");
+            }
+
+          })
         });
 
-        // for multi instance rows, if none of its "children" are showing, hide it too
-        $('.multiInstanceRow').each(function () {
-          var data = $(this).attr('data-classid');
-          var hasInstances = $('.' + data).hasClass('showing');
-
-          if ($(this).hasClass('showing') && !hasInstances) {
-            $(this).addClass('hidden')
-                   .removeClass('showing');
-          }
-        })
       }
       
     });
