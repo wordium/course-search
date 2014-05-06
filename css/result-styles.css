@@ -118,3 +118,21 @@ th, .courseUnits, .instanceCCN, .badges, .save {
   font-weight: bold;
   margin-top: 5px;
 }
+
+.notOfferedRow td {
+  background-color: rgba(083,098,111, 0.5);
+}
+
+.notOfferedRow:hover {
+  background-color: #53626F;
+}
+
+
+
+
+
+
+
+
+
+

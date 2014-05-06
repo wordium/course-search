@@ -544,7 +544,7 @@ function notOfferedRow (course) {
 
   var courseTags = classDept + classBreadth + classLevel + classUnits + classCurricular;
 
-  var row = '<tr class="courseHeaderRow ' + courseTags + '" data-classID="' + classDept + course.number + '">';
+  var row = '<tr class="courseHeaderRow notOfferedRow ' + courseTags + '" data-classID="' + classDept + course.number + '">';
   row += '<td class="deptAbbrev">' + course.deptAbbrev + '</td>'
    + '<td class="courseNum">' + course.number + '</td>'
    + '<td class="courseTitle">' + course.title + '</td>'
