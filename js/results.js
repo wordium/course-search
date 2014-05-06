@@ -505,7 +505,7 @@ function getJSON (filename) {
           });
         });
         
-        $('.classInstance').addClass('hidden'); //re-hiding class instances.
+        //$('.classInstance').addClass('hidden'); //re-hiding class instances.
         
       }
     });
@@ -805,12 +805,21 @@ function setInstanceTags (instance) {
     classSeats = ' Available';
 
 
-  //      var className = 'size' + item.replace(/[\-\+\s]+/g, '');
+
 
   // classDays
+  classDays = ' days' + instance.days;
+
+
   // classTime
+
+
   // classSize
+    //      var className = 'size' + item.replace(/[\-\+\s]+/g, '');
+
+
   // classMeeting
+  classMeeting = ' ' + instance.instanceType;
 
 }
 
