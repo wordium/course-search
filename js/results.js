@@ -304,11 +304,13 @@ function getJSON (filename) {
     $('#results tbody').append(results);
 
     // adding show/hide details and instances
-    $('.courseHeaderRow').on('click', function () {
-      var data_classID = $(this).attr('data-classID');
+    $('.courseHeaderRow td').on('click', function () {
+      var data_classID = $(this).parent().attr('data-classID');
       var $details = $('.' + data_classID);
       $details.toggleClass('hidden');
     });
+
+    $('.save').off();
 
     showFacets();
 
@@ -911,8 +913,5 @@ $(document).ready(function () {
     var filename = $(this).text();
     getJSON(filename);
   });
-
-  var filename = $('#main').attr('data-file');
-  getJSON(filename);
 });
 
