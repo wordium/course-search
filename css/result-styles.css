@@ -108,3 +108,7 @@ th, .courseUnits, .instanceCCN, .badges, .save {
   width: 22px;
   height: 22px;
 }
+
+.courseHeaderRow:hover {
+  background-color: black;
+}

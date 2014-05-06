@@ -407,7 +407,7 @@ function getJSON (filename) {
       }
     }
 
-//TODO
+    //TODO
     // total class size
     // classInstance.seats.max
     var $ulSize = $('#facetsSize');
@@ -442,7 +442,7 @@ function getJSON (filename) {
       }
     }
 
-// TODO
+    // TODO
     // misc stuff
     var $ulMisc = $('#facetsMisc');
     $ulMisc.children().remove();
@@ -465,6 +465,8 @@ function getJSON (filename) {
       if ($checked.length === 0) {
         $('.courseHeaderRow').removeClass('hidden');
         $('.classInstance').addClass('hidden');
+        $('.rowSeats').addClass('hidden');
+        $('.details').addClass('hidden');
       }
 
       // if some facets are checked, hide everything then show according to checked boxes
@@ -474,7 +476,7 @@ function getJSON (filename) {
         // show rows for appropriate checked boxes
         $checked.each(function () {
           var checkedBox = $(this).val();
-          console.log('this box is checked: ' + checkedBox);
+          // console.log('this box is checked: ' + checkedBox);
           $('.'+checkedBox).removeClass('hidden');
 
           // for multi instance rows, if none of its "children" are showing, hide it too
@@ -506,8 +508,6 @@ function getJSON (filename) {
               $(this).removeClass('hidden');
             }
 
-
-
           });
         });
         
@@ -529,7 +529,7 @@ function sortResults(array, prop, asc) {
     if (a['deptAbbrev'] === b['deptAbbrev']) {
       // some courses have letters in their numbers, so we need to take those out first.
       var aNumber = a['number'].match(/\d+/),
-          bNumber = a['number'].match(/\d+/);
+          bNumber = b['number'].match(/\d+/);
       return (aNumber >= bNumber) ? 1 : ((aNumber < bNumber) ? -1 : 0);
     }
 
@@ -594,7 +594,7 @@ function multiInstanceRow(course, instance, numInstances) {
   var multiInstanceClassNames = classDept + classBreadth + classUnits + classLevel;
   var row = '';
 
-  row += '<tr class="courseHeaderRow multiInstanceRow ' + multiInstanceClassNames + '" data-classID="' + classDept + course.number + '"">';
+  row += '<tr class="courseHeaderRow multiInstanceRow ' + multiInstanceClassNames + '" data-classID="' + classDept + course.number + '">';
   row += '<td class="deptAbbrev">' + course.deptAbbrev + '</td>'
        + '<td class="courseNum">' + course.number + '</td>'
        + '<td class="courseTitle">' + course.title + '</td>'
@@ -665,6 +665,8 @@ function multiInstanceRow(course, instance, numInstances) {
     getInstanceFacets(instance[i]);
 
   }
+
+  return row;
 }
 
 function detailsRow (course, hasInstance) {
