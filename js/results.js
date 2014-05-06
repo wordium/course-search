@@ -90,7 +90,7 @@ function initializeFacets() {
     "151+": 0
   };
 
-  fMisc = {
+  fCurricular = {
     "Berkeley Connect": 0,
     "Freshman/Sophomore Seminar": 0,
     "DeCal": 0,
@@ -166,13 +166,13 @@ function getCourseFacets (course) {
       fLevel["Other"] += 1;
 
     if (course.berkeleyConnect)
-      fMisc["Berkeley Connect"] += 1;
+      fCurricular["Berkeley Connect"] += 1;
 
     if (!!course.courseThread)
-      fMisc["Course Thread"] += 1;
+      fCurricular["Course Thread"] += 1;
 
     if (course.freshSophSem)
-      fMisc["Freshman/Sophomore Seminar"] += 1;
+      fCurricular["Freshman/Sophomore Seminar"] += 1;
 
 }
 
@@ -437,13 +437,14 @@ function getJSON (filename) {
     }
 
     // TODO
-    // misc stuff
-    var $ulMisc = $('#facetsMisc');
-    $ulMisc.children().remove();
-    for (var item in fMisc) {
-      if (fMisc[item] > 0) {
-        $ulMisc.append('<li class="facet"> <input type="checkbox" id="" value=""/>' 
-                       + '<label for="">' + item + " (" + fMisc[item] + ")</label></li>");
+    // other curricular stuff
+    var $ulCurricular = $('#facetsCurricular');
+    $ulCurricular.children().remove();
+    for (var item in fCurricular) {
+      if (fCurricular[item] > 0) {
+        var className = item.replace(/[\s\/]+/g, '');
+        $ulCurricular.append('<li class="facet"> <input type="checkbox" id="facet' + className + '" value="' + className + '"/>' 
+                       + '<label for="facet' + className + '">' + item + " (" + fCurricular[item] + ")</label></li>");
       }
     }
 
@@ -784,7 +785,21 @@ function setCourseTags (course) {
     else
       classLevel += "Other";
 
+    // semester
     classSemester = ' All';
+
+
+    // classCurricular / "snowflakes"
+    classCurricular = '';
+    if (course.berkeleyConnect)
+      classCurricular += ' BerkeleyConnect';
+
+    if (!!course.courseThread)
+      classCurricular += ' CourseThread';
+
+    if (course.freshSophSem)
+      classCurricular += ' FreshmanSophomoreSeminar';
+
 }
 
 function resetInstanceTags () {
@@ -846,10 +861,8 @@ function setInstanceTags (instance) {
   else
     classSize += "151";
 
-
   // classMeeting
   classMeeting = ' ' + instance.instanceType;
-
 }
 
 function getBadges (course) {
