@@ -25,6 +25,206 @@ var classDept = '', // course.deptAbbrev, without space, comma, ampersand
   classLevel = ''; // course.number
 
 
+function initializeFacets() {
+
+  fDepartment = {};
+
+  fSeats = {
+    "Available": 0,
+    "Waitlist": 0
+  };
+
+  fUnits = {
+    "1": 0,
+    "2": 0,
+    "3": 0,
+    "4": 0,
+    "5": 0
+  };
+
+  fDays = {
+    "M": 0,
+    "Tu": 0,
+    "W": 0,
+    "Th": 0,
+    "F": 0,
+    "MW": 0,
+    "TuTh": 0,
+    "MWF": 0
+  };
+
+  fBreadth = {
+    "American Cultures": 0, 
+    "Arts & Literature": 0, 
+    "Biological Science": 0, 
+    "Historical Studies": 0, 
+    "International Studies": 0, 
+    "Physical Science": 0, 
+    "Philosophy & Values": 0, 
+    "Reading & Composition A": 0, 
+    "Reading & Composition B": 0, 
+    "Social & Behavioral Sciences": 0
+  }
+
+  fMeeting = {
+    "Lecture": 0,
+    "Discussion": 0,
+    "Lab": 0,
+    "Other": 0
+  };
+
+  fLevel = {
+    "Lower Division": 0,
+    "Upper Division": 0,
+    "Graduate": 0,
+    "Professional": 0,
+    "Other": 0
+  };
+
+  fSize = {
+    "15 and less": 0,
+    "16-35": 0,
+    "36-75": 0,
+    "75-150": 0,
+    "151+": 0
+  };
+
+  fMisc = {
+    "Berkeley Connect": 0,
+    "Freshman/Sophomore Seminar": 0,
+    "DeCal": 0,
+    "Course Thread": 0
+  }
+
+  fSemester = {
+    "Fall 2014": 0,
+    "All": 0
+  }
+
+  fTime = {
+    "8-9:30A": 0,
+    "9:30-11A": 0,
+    "11A-12:30P": 0,
+    "12:30-2P": 0,
+    "2-3:30P": 0,
+    "3:30-5P": 0,
+    "5-9P": 0
+  }
+}
+
+function getCourseFacets (course) {
+
+    // add to facet information lists
+
+    //department
+    var dept = course.deptAbbrev;
+    if (!fDepartment[dept])
+      fDepartment[dept] = 1;
+    else
+      fDepartment[dept] += 1;
+
+    // requirements
+    if (course.breadth.AC)
+      fBreadth["American Cultures"] += 1;
+    if (course.breadth.AL)
+      fBreadth["Arts & Literature"] += 1;
+    if (course.breadth.BS)
+      fBreadth["Biological Science"] += 1;
+    if (course.breadth.HS)
+      fBreadth["Historical Studies"] += 1;
+    if (course.breadth.IS)
+      fBreadth["International Studies"] += 1;
+    if (course.breadth.PS)
+      fBreadth["Physical Science"] += 1;
+    if (course.breadth.PV)
+      fBreadth["Philosophy & Values"] += 1;
+    if (course.breadth.RCA)
+      fBreadth["Reading & Composition A"] += 1;
+    if (course.breadth.RCB)
+      fBreadth["Reading & Composition B"] += 1;
+    if (course.breadth.SS)
+      fBreadth["Social & Behavioral Sciences"] += 1;
+
+    // units
+    fUnits[course.credit] += 1;
+
+    //meeting type
+    fMeeting[course.courseType] += 1;
+
+    //fLevel
+    var courseNumber = (course.number).match(/\d+/)[0]; //numbers only
+    if (courseNumber < 100)
+      fLevel["Lower Division"] += 1;
+    else if (courseNumber >= 100 && courseNumber < 200)
+      fLevel["Upper Division"] += 1;
+    else if (courseNumber >= 200 && courseNumber < 300)
+      fLevel["Graduate"] += 1;
+    else if (courseNumber >= 300 && courseNumber < 400)
+      fLevel["Professional"] += 1;
+    else
+      fLevel["Other"] += 1;
+
+    if (course.berkeleyConnect)
+      fMisc["Berkeley Connect"] += 1;
+
+    if (!!course.courseThread)
+      fMisc["Course Thread"] += 1;
+
+    if (course.freshSophSem)
+      fMisc["Freshman/Sophomore Seminar"] += 1;
+
+}
+
+function getInstanceFacets (instance) {
+
+        //seats - available, waitlist 
+        if (instance.seats.available > 0)
+          fSeats["Available"] += 1;
+        else
+          fSeats["Waitlist"] += 1;
+
+        // class size
+        var seatsMax = instance.seats.max;
+        if (seatsMax <= 15)
+          fSize["15 and less"] += 1;
+        else if (seatsMax > 15 && seatsMax <= 35)
+          fSize["16-35"] += 1;
+        else if (seatsMax > 35 && seatsMax <= 75)
+          fSize["36-75"] += 1;
+        else if (seatsMax > 75 && seatsMax <= 150)
+          fSize["75-150"] += 1;
+        else
+          fSize["151+"] += 1;
+
+        // days
+        var days = instance.days;
+        fDays[days] += 1;
+
+        // semester
+        fSemester[instance.semester] += 1;
+
+        // time
+        var hour = ((instance.time.start).replace(/\:/, '')).match(/^\d+/)[0];
+        if (hour <= 12)
+          hour = hour * 100;
+        var ampm = (instance.time.start).match(/[AP]$/)[0];
+
+        if ((hour >= 800 && hour < 930) && ampm === 'A')
+          fTime['8-9:30A'] += 1;
+        else if ((hour >= 930 && hour < 1100) && ampm === 'A')
+          fTime['9:30-11A'] += 1;
+        else if (hour >= 1100 && hour < 1230)
+          fTime['11A-12:30P'] += 1;
+        else if (hour >= 1230 && hour < 200)
+          fTime['12:30-2P'] += 1;
+        else if (hour >= 200 && hour < 330)
+          fTime['2-3:30P'] += 1;
+        else if (hour >= 330 && hour < 500)
+          fTime['3:30-5P'] += 1;
+        else
+          fTime['5-9P'] += 1;
+}
+
 /* assumes filename being passed does include the file type */
 function getJSON (filename) {
 
@@ -82,84 +282,9 @@ function getJSON (filename) {
 
       // building row for table
       // courses with multiple instances
-      else {
-        row += '<tr class="courseHeaderRow multiInstanceRow ' + classDept + classBreadth + classUnits + classLevel
-                                             + '" data-classID="' + classDept + course.number + '"">';
-        row += '<td class="deptAbbrev">' + course.deptAbbrev + '</td>'
-             + '<td class="courseNum">' + course.number + '</td>'
-             + '<td class="courseTitle">' + course.title + '</td>'
-             + '<td colspan="3" class="seatSpacer">'; 
+      else { 
 
-        // count number of lectures and discussions so we can display that information
-        var instanceTypeCount = {
-          'Lecture':0,
-          'Discussion':0
-        };
-        for (var i=0; i<numInstances; i++) {
-          instanceTypeCount[instance[i].instanceType] += 1;
-        }
-
-        // showing the number of lectures
-        if (instanceTypeCount['Lecture'] > 0) {
-          row += '<p>' + instanceTypeCount['Lecture'] + ' Lecture' + (instanceTypeCount['Lecture']>1? 's':'') + '.</p>';
-        }
-
-        // showing the number of dicussions
-        if (instanceTypeCount['Discussion'] > 0) {
-          row += '<p>' + instanceTypeCount['Discussion'] + ' Discussion' + (instanceTypeCount['Discussion']>1? 's':'') + '.</p>';
-        }
-
-        // end counting cell
-        row += '<p>Click to see options.</p></td>';
-
-        // add units, a space for CCN, badges, and a space for save
-        row += '<td class="courseUnits">' + course.credit + '</td>'
-            + '<td class="instanceCCN"> &nbsp; </td>'
-            + '<td class="badges">' + getBadges(course) + '</td>'
-            + '<td class="save"> &nbsp; </td>';
-
-        // ending the header row
-        row += '</tr>';
-
-        // add details
-        row += detailsRow(course, true);
-
-        for (var i=0; i<numInstances; i++){
-          row += '<tr class="classInstance ' + instance[i].instanceType + ' ' + classDept + ' ' + classDept + course.number + ' hidden"><td colspan="3">' 
-                + instance[i].instanceType 
-    /*            + '<p> Seats: ' + instance[0].seats.max 
-              + '. Enrolled: ' + instance[0].seats.enrolled 
-              + '. Waitlist: ' + instance[0].seats.waitlist 
-              + '. Available: ' + instance[0].seats.available;
-                + '</p>'*/
-                + '</td>';
-
-          var courseCredit = (instance[i].instanceType === 'Lecture')? course.credit : "--"; 
-          
-          row += '<td class="instanceInstructor">' + instance[i].instructor + '</td>'
-              + '<td class="instanceTime">' + instance[i].time.start + '-' + instance[i].time.end 
-                                            + '<p>' + instance[i].days
-                                            + '<p>' + instance[i].semester + '</p></td>'
-              + '<td class="instancePlace">' + instance[i].location.room + ' <a href="http://www.berkeley.edu/map/googlemap/?' 
-                                            + instance[i].location.building.toLowerCase() + '" target="new">'
-                                            + instance[i].location.building + '</a></td>'
-              + '<td class="courseUnits">' + courseCredit + '</td>'
-              + '<td class="instanceCCN">' + instance[i].ccn + '</td>'
-              + '<td class="badges">' + getBadges(course) + '</td>'
-              + '<td class="save"> <input type="checkbox"> </td>'
-              + '</tr>';
-
-          row += '<tr class="rowSeats hidden ' + classDept + course.number + '"><td colspan="3">&nbsp;</td><td colspan="7">' 
-              + '<p>Seats: ' + instance[0].seats.max 
-              + '. Enrolled: ' + instance[0].seats.enrolled 
-              + '. Waitlist: ' + instance[0].seats.waitlist 
-              + '. Available: ' + instance[0].seats.available + '.</p></td></tr>';
-
-
-          // call function to enuermate facet information at the instance level
-          getInstanceFacets(instance[i]);
-
-        }
+        row += multiInstanceRow(course, instance, numInstances);
       }
 
       // add a count for each course
@@ -172,221 +297,21 @@ function getJSON (filename) {
         results = results + row;
     });
 
-  // adding the rows to the table
-  results = results + resultsNotOff;
+    // adding the rows to the table
+    results = results + resultsNotOff;
 
-  $('#results tbody').append(results);
+    $('#results tbody').append(results);
 
-  // adding show/hide details and instances
-  $('.courseHeaderRow').on('click', function () {
-    var data_classID = $(this).attr('data-classID');
-    var $details = $('.' + data_classID);
-    $details.toggleClass('hidden');
+    // adding show/hide details and instances
+    $('.courseHeaderRow').on('click', function () {
+      var data_classID = $(this).attr('data-classID');
+      var $details = $('.' + data_classID);
+      $details.toggleClass('hidden');
+    });
+
+    showFacets();
+
   });
-
-  showFacets();
-
-  });
-
-  function initializeFacets() {
-
-    fDepartment = {};
-
-    fSeats = {
-      "Available": 0,
-      "Waitlist": 0
-    };
-
-    fUnits = {
-      "1": 0,
-      "2": 0,
-      "3": 0,
-      "4": 0,
-      "5": 0
-    };
-
-    fDays = {
-      "M": 0,
-      "Tu": 0,
-      "W": 0,
-      "Th": 0,
-      "F": 0,
-      "MW": 0,
-      "TuTh": 0,
-      "MWF": 0
-    };
-
-    fBreadth = {
-      "American Cultures": 0, 
-      "Arts & Literature": 0, 
-      "Biological Science": 0, 
-      "Historical Studies": 0, 
-      "International Studies": 0, 
-      "Physical Science": 0, 
-      "Philosophy & Values": 0, 
-      "Reading & Composition A": 0, 
-      "Reading & Composition B": 0, 
-      "Social & Behavioral Sciences": 0
-    }
-
-    fMeeting = {
-      "Lecture": 0,
-      "Discussion": 0,
-      "Lab": 0,
-      "Other": 0
-    };
-
-    fLevel = {
-      "Lower Division": 0,
-      "Upper Division": 0,
-      "Graduate": 0,
-      "Professional": 0,
-      "Other": 0
-    };
-
-    fSize = {
-      "15 and less": 0,
-      "16-35": 0,
-      "36-75": 0,
-      "75-150": 0,
-      "151+": 0
-    };
-
-    fMisc = {
-      "Berkeley Connect": 0,
-      "Freshman/Sophomore Seminar": 0,
-      "DeCal": 0,
-      "Course Thread": 0
-    }
-
-    fSemester = {
-      "Fall 2014": 0,
-      "All": 0
-    }
-
-    fTime = {
-      "8-9:30A": 0,
-      "9:30-11A": 0,
-      "11A-12:30P": 0,
-      "12:30-2P": 0,
-      "2-3:30P": 0,
-      "3:30-5P": 0,
-      "5-9P": 0
-    }
-  }
-
-  function getCourseFacets (course) {
-
-      // add to facet information lists
-
-      //department
-      var dept = course.deptAbbrev;
-      if (!fDepartment[dept])
-        fDepartment[dept] = 1;
-      else
-        fDepartment[dept] += 1;
-
-      // requirements
-      if (course.breadth.AC)
-        fBreadth["American Cultures"] += 1;
-      if (course.breadth.AL)
-        fBreadth["Arts & Literature"] += 1;
-      if (course.breadth.BS)
-        fBreadth["Biological Science"] += 1;
-      if (course.breadth.HS)
-        fBreadth["Historical Studies"] += 1;
-      if (course.breadth.IS)
-        fBreadth["International Studies"] += 1;
-      if (course.breadth.PS)
-        fBreadth["Physical Science"] += 1;
-      if (course.breadth.PV)
-        fBreadth["Philosophy & Values"] += 1;
-      if (course.breadth.RCA)
-        fBreadth["Reading & Composition A"] += 1;
-      if (course.breadth.RCB)
-        fBreadth["Reading & Composition B"] += 1;
-      if (course.breadth.SS)
-        fBreadth["Social & Behavioral Sciences"] += 1;
-
-      // units
-      fUnits[course.credit] += 1;
-
-      //meeting type
-      fMeeting[course.courseType] += 1;
-
-      //fLevel
-      var courseNumber = (course.number).match(/\d+/)[0]; //numbers only
-      if (courseNumber < 100)
-        fLevel["Lower Division"] += 1;
-      else if (courseNumber >= 100 && courseNumber < 200)
-        fLevel["Upper Division"] += 1;
-      else if (courseNumber >= 200 && courseNumber < 300)
-        fLevel["Graduate"] += 1;
-      else if (courseNumber >= 300 && courseNumber < 400)
-        fLevel["Professional"] += 1;
-      else
-        fLevel["Other"] += 1;
-
-      if (course.berkeleyConnect)
-        fMisc["Berkeley Connect"] += 1;
-
-      if (!!course.courseThread)
-        fMisc["Course Thread"] += 1;
-
-      if (course.freshSophSem)
-        fMisc["Freshman/Sophomore Seminar"] += 1;
-
-  }
-
-  function getInstanceFacets (instance) {
-
-          //seats - available, waitlist 
-          if (instance.seats.available > 0)
-            fSeats["Available"] += 1;
-          else
-            fSeats["Waitlist"] += 1;
-
-          // class size
-          var seatsMax = instance.seats.max;
-          if (seatsMax <= 15)
-            fSize["15 and less"] += 1;
-          else if (seatsMax > 15 && seatsMax <= 35)
-            fSize["16-35"] += 1;
-          else if (seatsMax > 35 && seatsMax <= 75)
-            fSize["36-75"] += 1;
-          else if (seatsMax > 75 && seatsMax <= 150)
-            fSize["75-150"] += 1;
-          else
-            fSize["151+"] += 1;
-
-          // days
-          var days = instance.days;
-          fDays[days] += 1;
-
-          // semester
-          fSemester[instance.semester] += 1;
-
-          // time
-          var hour = ((instance.time.start).replace(/\:/, '')).match(/^\d+/)[0];
-          if (hour <= 12)
-            hour = hour * 100;
-          var ampm = (instance.time.start).match(/[AP]$/)[0];
-
-          if ((hour >= 800 && hour < 930) && ampm === 'A')
-            fTime['8-9:30A'] += 1;
-          else if ((hour >= 930 && hour < 1100) && ampm === 'A')
-            fTime['9:30-11A'] += 1;
-          else if (hour >= 1100 && hour < 1230)
-            fTime['11A-12:30P'] += 1;
-          else if (hour >= 1230 && hour < 200)
-            fTime['12:30-2P'] += 1;
-          else if (hour >= 200 && hour < 330)
-            fTime['2-3:30P'] += 1;
-          else if (hour >= 330 && hour < 500)
-            fTime['3:30-5P'] += 1;
-          else
-            fTime['5-9P'] += 1;
-  }
 
   function showFacets () {
 
@@ -529,6 +454,7 @@ function getJSON (filename) {
     }
 
 
+    // facet interactions
     // action to take when any facet checkbox is clicked
     $('.facet input:checkbox').on('click', function () {
 
@@ -549,16 +475,28 @@ function getJSON (filename) {
         $checked.each(function () {
           var checkedBox = $(this).val();
           console.log('this box is checked: ' + checkedBox);
-          console.log($('.'+checkedBox));
           $('.'+checkedBox).removeClass('hidden');
 
           // for multi instance rows, if none of its "children" are showing, hide it too
           $('.multiInstanceRow').each(function () {
-            var classID = $(this).attr('data-classid');
-            console.log('classID: ' + classID);
-            console.log('checking these rows: ')
-            console.log($('.'+classID));
-            var hasInstances = !($('.' + classID).hasClass('hidden'));
+            var classID = $(this).attr('data-classid'),
+              instances = $('.' + classID),
+              hasInstances = false;
+
+            for (var i = 0; i < instances.length; i++) {
+              var classList = (instances[i]).classList;
+              //console.log("classlist: " + classList);
+              //console.log(classID + ' this is an instance: ' + classList.contains('classInstance')  + ' and it is showing: ' + !classList.contains('hidden'));
+              
+              if (classList.contains('classInstance') && !classList.contains('hidden')) {
+                hasInstances = true;
+              }
+              if (hasInstances) {
+                break;
+              }
+            }
+
+            //console.log(classID + " has instances: " + hasInstances);
 
             if (!($(this).hasClass('hidden')) && !hasInstances) {
               $(this).addClass('hidden');
@@ -567,10 +505,14 @@ function getJSON (filename) {
             if ($(this).hasClass('hidden') && hasInstances) {
               $(this).removeClass('hidden');
             }
-            // is this hiding rows because none of the instances have the right class?
+
+
 
           });
         });
+        
+        $('.classInstance').addClass('hidden'); //re-hiding class instances.
+        
       }
     });
   }
@@ -645,6 +587,84 @@ function oneInstanceRow (course, classInfo) {
   row += detailsRow(course, true);
 
   return row;
+}
+
+function multiInstanceRow(course, instance, numInstances) {
+
+  var multiInstanceClassNames = classDept + classBreadth + classUnits + classLevel;
+  var row = '';
+
+  row += '<tr class="courseHeaderRow multiInstanceRow ' + multiInstanceClassNames + '" data-classID="' + classDept + course.number + '"">';
+  row += '<td class="deptAbbrev">' + course.deptAbbrev + '</td>'
+       + '<td class="courseNum">' + course.number + '</td>'
+       + '<td class="courseTitle">' + course.title + '</td>'
+       + '<td colspan="3" class="seatSpacer">'; 
+
+  // count number of lectures and discussions so we can display that information
+  var instanceTypeCount = {
+    'Lecture':0,
+    'Discussion':0
+  };
+  for (var i=0; i<numInstances; i++) {
+    instanceTypeCount[instance[i].instanceType] += 1;
+  }
+
+  // showing the number of lectures
+  if (instanceTypeCount['Lecture'] > 0) {
+    row += '<p>' + instanceTypeCount['Lecture'] + ' Lecture' + (instanceTypeCount['Lecture']>1? 's':'') + '.</p>';
+  }
+
+  // showing the number of dicussions
+  if (instanceTypeCount['Discussion'] > 0) {
+    row += '<p>' + instanceTypeCount['Discussion'] + ' Discussion' + (instanceTypeCount['Discussion']>1? 's':'') + '.</p>';
+  }
+
+  // end counting cell
+  row += '<p>Click to see options.</p></td>';
+
+  // add units, a space for CCN, badges, and a space for save
+  row += '<td class="courseUnits">' + course.credit + '</td>'
+      + '<td class="instanceCCN"> &nbsp; </td>'
+      + '<td class="badges">' + getBadges(course) + '</td>'
+      + '<td class="save"> &nbsp; </td>';
+
+  // ending the header row
+  row += '</tr>';
+
+  // add details
+  row += detailsRow(course, true);
+
+  for (var i=0; i<numInstances; i++){
+    row += '<tr class="classInstance ' + instance[i].instanceType + ' ' + multiInstanceClassNames + ' ' 
+                                       + classDept + course.number + ' hidden"><td colspan="3">' 
+                                       + instance[i].instanceType + '</td>';
+
+    var courseCredit = (instance[i].instanceType === 'Lecture')? course.credit : "--"; 
+    
+    row += '<td class="instanceInstructor">' + instance[i].instructor + '</td>'
+        + '<td class="instanceTime">' + instance[i].time.start + '-' + instance[i].time.end 
+                                      + '<p>' + instance[i].days
+                                      + '<p>' + instance[i].semester + '</p></td>'
+        + '<td class="instancePlace">' + instance[i].location.room + ' <a href="http://www.berkeley.edu/map/googlemap/?' 
+                                      + instance[i].location.building.toLowerCase() + '" target="new">'
+                                      + instance[i].location.building + '</a></td>'
+        + '<td class="courseUnits">' + courseCredit + '</td>'
+        + '<td class="instanceCCN">' + instance[i].ccn + '</td>'
+        + '<td class="badges">' + getBadges(course) + '</td>'
+        + '<td class="save"> <input type="checkbox"> </td>'
+        + '</tr>';
+
+    row += '<tr class="rowSeats hidden ' + classDept + course.number + '"><td colspan="3">&nbsp;</td><td colspan="7">' 
+        + '<p>Seats: ' + instance[0].seats.max 
+        + '. Enrolled: ' + instance[0].seats.enrolled 
+        + '. Waitlist: ' + instance[0].seats.waitlist 
+        + '. Available: ' + instance[0].seats.available + '.</p></td></tr>';
+
+
+    // call function to enuermate facet information at the instance level
+    getInstanceFacets(instance[i]);
+
+  }
 }
 
 function detailsRow (course, hasInstance) {
