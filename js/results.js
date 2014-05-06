@@ -86,7 +86,7 @@ function initializeFacets() {
     "15 and less": 0,
     "16-35": 0,
     "36-75": 0,
-    "75-150": 0,
+    "76-150": 0,
     "151+": 0
   };
 
@@ -193,7 +193,7 @@ function getInstanceFacets (instance) {
         else if (seatsMax > 35 && seatsMax <= 75)
           fSize["36-75"] += 1;
         else if (seatsMax > 75 && seatsMax <= 150)
-          fSize["75-150"] += 1;
+          fSize["76-150"] += 1;
         else
           fSize["151+"] += 1;
 
@@ -505,7 +505,7 @@ function getJSON (filename) {
           });
         });
         
-        //$('.classInstance').addClass('hidden'); //re-hiding class instances.
+        $('.classInstance').addClass('hidden'); //re-hiding class instances.
         
       }
     });
@@ -662,10 +662,10 @@ function multiInstanceRow(course, instance, numInstances) {
         + '</tr>';
 
     row += '<tr class="rowSeats hidden ' + classDept + course.number + '"><td colspan="3">&nbsp;</td><td colspan="7">' 
-        + '<p>Seats: ' + instance[0].seats.max 
-        + '. Enrolled: ' + instance[0].seats.enrolled 
-        + '. Waitlist: ' + instance[0].seats.waitlist 
-        + '. Available: ' + instance[0].seats.available + '.</p></td></tr>';
+        + '<p>Seats: ' + instance[i].seats.max 
+        + '. Enrolled: ' + instance[i].seats.enrolled 
+        + '. Waitlist: ' + instance[i].seats.waitlist 
+        + '. Available: ' + instance[i].seats.available + '.</p></td></tr>';
 
 
     // call function to enuermate facet information at the instance level
@@ -804,18 +804,47 @@ function setInstanceTags (instance) {
   if ((instance.seats.available) > 0)
     classSeats = ' Available';
 
-
-
-
   // classDays
   classDays = ' days' + instance.days;
 
-
+  //TODO
   // classTime
+  classTime = ' time';
+  //var className = 'time' + item.replace(/[-:]+/g, '');
+  var hour = ((instance.time.start).replace(/\:/, '')).match(/^\d+/)[0];
+  if (hour <= 12)
+    hour = hour * 100;
+  var ampm = (instance.time.start).match(/[AP]$/)[0];
 
+  if ((hour >= 800 && hour < 930) && ampm === 'A')
+    classTime += '8930A';
+  else if ((hour >= 930 && hour < 1100) && ampm === 'A')
+    classTime += '93011A';
+  else if (hour >= 1100 && hour < 1230)
+    classTime += '11A1230P';
+  else if (hour >= 1230 && hour < 200)
+    classTime += '12302P';
+  else if (hour >= 200 && hour < 330)
+    classTime += '2330P';
+  else if (hour >= 330 && hour < 500)
+    classTime += '3305P';
+  else
+    classTime += '59P';
 
   // classSize
     //      var className = 'size' + item.replace(/[\-\+\s]+/g, '');
+  classSize = ' size';
+  var size = instance.seats.max;
+  if (size <= 15)
+    classSize += '15andless';
+  else if (size >= 16 && size <= 35)
+    classSize += '1635';
+  else if (size >= 36 && size <= 75)
+    classSize += "3675";
+  else if (size >= 76 && size <= 150)
+    classSize += "76150";
+  else
+    classSize += "151";
 
 
   // classMeeting

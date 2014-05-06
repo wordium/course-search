@@ -112,3 +112,9 @@ th, .courseUnits, .instanceCCN, .badges, .save {
 .courseHeaderRow:hover {
   background-color: black;
 }
+
+
+#facets h4 {
+  font-weight: bold;
+  margin-top: 5px;
+}
