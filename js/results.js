@@ -457,13 +457,13 @@ function getJSON (filename) {
 
       // which department boxes are checked
       var $checked = $('.facet input:checked');
+      
+      // hide open rows
+      $('.subrow').addClass('hidden');
 
       // if no facets are checked, display everything
       if ($checked.length === 0) {
         $('.courseHeaderRow').removeClass('hidden');
-        $('.classInstance').addClass('hidden');
-        $('.rowSeats').addClass('hidden');
-        $('.details').addClass('hidden');
       }
 
       // if some facets are checked, hide everything then show according to checked boxes
@@ -645,7 +645,7 @@ function multiInstanceRow(course, instance, numInstances) {
     setInstanceTags(instance[i]);
     var instanceTags = classSemester + classSeats + classDays + classTime + classSize + classMeeting;
 
-    row += '<tr class="classInstance ' + instance[i].instanceType + ' ' + courseTags + instanceTags + ' ' 
+    row += '<tr class="classInstance subrow ' + instance[i].instanceType + ' ' + courseTags + instanceTags + ' ' 
                                        + classDept + course.number + ' hidden"><td colspan="3">' 
                                        + instance[i].instanceType + '</td>';
 
@@ -664,7 +664,7 @@ function multiInstanceRow(course, instance, numInstances) {
         + '<td class="save"> <input type="checkbox"> </td>'
         + '</tr>';
 
-    row += '<tr class="rowSeats hidden ' + classDept + course.number + '"><td colspan="3">&nbsp;</td><td colspan="7">' 
+    row += '<tr class="rowSeats hidden subrow ' + classDept + course.number + '"><td colspan="3">&nbsp;</td><td colspan="7">' 
         + '<p>Seats: ' + instance[i].seats.max 
         + '. Enrolled: ' + instance[i].seats.enrolled 
         + '. Waitlist: ' + instance[i].seats.waitlist 
@@ -685,7 +685,7 @@ function detailsRow (course, hasInstance) {
   if (hasInstance)
     instance = course.classInstance;
 
-  var row = '<tr class="hidden details ' + classDept + course.number + '"><td colspan="10" class="description">';
+  var row = '<tr class="hidden details subrow ' + classDept + course.number + '"><td colspan="10" class="description">';
 
   row += '<h4>' + course.department + ' ' + course.number + '</h4>';
 
