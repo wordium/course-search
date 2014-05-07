@@ -13,7 +13,7 @@ Demo search functionality:
  1. Find Public Health major classes offered in the upcoming semester (the Utilitarian)
  	Semester field: Fall 2014, Major(s) field, "public health"
  2. Find classes that meet L&S Breadth requirements (the Planner)
- 	All L&S and Campus requirements boxes checked, Semester field: All
+ 	All L&S requirements boxes checked. RCA and RCB requirements boxes are checked. Semester field: All
  3. Find classes related to sustainability (the Focused Explorer)
  	Semester field: All, Keyword field: "sustainability"
  4. Find classes that meet MW morning only and anytime TTh (the Utilitarian)

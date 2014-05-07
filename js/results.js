@@ -944,8 +944,8 @@ function getBadges (course) {
   if (course.breadth.SS)
     images += '<img src="img/SBS.png" alt="Social & Behavioral Sciences" title="Social & Behavioral Sciences">';
 
-  if (images === '')
-    images += '--N/A--';
+  //if (images === '')
+    //images += '--N/A--';
 
   return images;
 }

@@ -57,8 +57,8 @@ function submitForm () {
     }
 
     // Search #2: Breadth Requirements - Planner
-    // All L&S and Campus requirement boxes are checked. Semester field is All.
-    else if (r_AC && r_AH && r_AI && r_RCA && r_RCB && r_AL && r_BS && r_HS && r_IS && r_PV && r_PS && r_SBS && (inputSemester === 'all')) {
+    // All L&S requirement boxes are checked. RCA and RCB boxes are checked. Semester field is All.
+    else if (r_RCA && r_RCB && r_AL && r_BS && r_HS && r_IS && r_PV && r_PS && r_SBS && (inputSemester === 'all')) {
       window.location.href = 's2_breadth.html';
     }
 
