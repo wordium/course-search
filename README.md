@@ -12,11 +12,16 @@ To use the prototype, it is recommended to use a browser capable of rendering HT
 Demo search functionality:
  1. Find Public Health major classes offered in the upcoming semester (the Utilitarian)
  	Semester field: Fall 2014, Major(s) field, "public health"
+  13 course-level results.
  2. Find classes that meet L&S Breadth requirements (the Planner)
  	All L&S requirements boxes checked. RCA and RCB requirements boxes are checked. Semester field: All
+  82 course-level results.
  3. Find classes related to sustainability (the Focused Explorer)
  	Semester field: All, Keyword field: "sustainability"
+  52 course-level results.
  4. Find classes that meet MW morning only and anytime TTh (the Utilitarian)
- 	Semester field: Fall 2014, calendar: MW 9-12:30 selected, all of TTh selected
+ 	Semester field: Fall 2014, calendar: MW 8-12:30 selected, all of TTh selected
+  22 course-level results.
  5. Find backup classes with open seats (the Seeker)
  	Semester field: Fall 2014, open seats checkbox checked
+  60 course-level results.

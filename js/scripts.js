@@ -73,20 +73,31 @@ function submitForm () {
     else if ((selectedCells.length > 0) && (inputSemester === '2014fall')) {
       var m = false,
         w = false,
+        tu = false,
         th = false;
+      // this is pretty relaxed; as long as any m and w have a morning cell selected, and any tu/th cells, it will pass.
       for (var i = 0; i < selectedCells.length; i++) {
-        if ((selectedCells[i].day === 'mon') && (selectedCells[i].time === 'time-1')) {
-          m = true;
+        var day = selectedCells[i].day,
+          time = selectedCells[i].time;
+        if (day === 'mon') {
+          if ((time === 'time-1') || (time === 'time-2') || (time === 'time-3')) {
+            m = true;
+          }
         }
-        else if ((selectedCells[i].day === 'wed') && (selectedCells[i].time === 'time-1')) {
-          w = true;
+        else if (day === 'wed') {
+          if ((time === 'time-1') || (time === 'time-2') || (time === 'time-3')) {
+            w = true;
+          }
         }
-        else if (selectedCells[i].day === 'thu') {
+        else if (day === 'tue') {
+          tu = true;
+        }
+        else if (day === 'thu') {
           th = true;
         }
       }
 
-      if (m && w && th && (inputSemester === '2014fall')) {
+      if (m && w && tu && th && (inputSemester === '2014fall')) {
         window.location.href = 's4_schedule.html';
       }
     }

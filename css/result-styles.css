@@ -17,6 +17,11 @@
   width: 910px;
 }
 
+#resultsTable, #resultsHeader {
+  width: 900px;
+  font-size: 12px;
+}
+
 /* general cell styling */
 td,th {
   background-color: #fff;
@@ -62,13 +67,13 @@ th, .courseUnits, .instanceCCN, .badges, .save {
   width: 41px;
 }
 #headerCCN {
-  width: 45px;
+  width: 40px;
 }
 #headerReq {
   width: 70px;
 }
 #headerSave {
-  width: 42px;
+  width: 30px;
 }
 
 /* Adding colour for course cells */
@@ -140,3 +145,6 @@ img.sortImg {
   cursor: pointer;
 }
 
+#savedCourses {
+  float: right;
+}
