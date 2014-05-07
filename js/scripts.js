@@ -1,3 +1,80 @@
+
+function dateTime($this, classname) {
+  console.log($this);
+  console.log(classname);
+  if($this.attr('data-selected') === 'true') {
+    $(classname).attr('data-selected', 'false')
+                .css('background-color', '#fff');
+
+    $this.attr('data-selected', 'false')
+         .css('background-color', '#fff');
+  } else {
+    $(classname).attr('data-selected', 'true')
+                .css('background-color', '#B9D3B6');
+
+    $this.attr('data-selected', 'true')
+         .css('background-color', '#B9D3B6');
+  }
+}
+
+
+function submitForm () {
+  console.log("submitform");
+
+
+  //time table
+  /*
+
+<table id="timeTable">
+  <tr>
+  <td data-selected="false" class="time-1 wed selectable"></td>
+  */
+
+  var inputSemester = $('#inputSemester').val(),
+    inputDepartment = $('#inputDepartment').val(),
+    inputCourseNumber = $('#inputCourseNumber').val(),
+    inputKeywords = $('#inputKeywords').val(),
+    inputTitle = $('#inputTitle').val(),
+    inputInstructors = $('#inputInstructors').val(),
+    openSeats = ($('#openSeats').is(':checked')) ? true:false,
+    openWaitlist = ($('#openWaitlist').is(':checked')) ? true:false,
+    exclude = ($('#exclude').is(':checked')) ? true:false,
+    unitsMin = $('#unitsMin').val(),
+    unitsMax = $('#unitsMax').val(),
+    lowerDiv = ($('#lowerDiv').is(':checked')) ? true:false,
+    upperDiv = ($('#upperDiv').is(':checked')) ? true:false,
+    graduate = ($('#graduate').is(':checked')) ? true:false,
+    professional = ($('#professional').is(':checked')) ? true:false,
+    berkeleyConnect = ($('#berkeleyConnect').is(':checked')) ? true:false,
+    courseThread = ($('#courseThread').is(':checked')) ? true:false,
+    freshSophSem = ($('#freshSophSem').is(':checked')) ? true:false,
+    r_AC = ($('#r-AC').is(':checked')) ? true:false,
+    r_AH = ($('#r-AH').is(':checked')) ? true:false,
+    r_AI = ($('#r-AI').is(':checked')) ? true:false,
+    r_RCA = ($('#r-RCA').is(':checked')) ? true:false,
+    r_RCB = ($('#r-RCB').is(':checked')) ? true:false,
+    r_AL = ($('#r-AL').is(':checked')) ? true:false,
+    r_BS = ($('#r-BS').is(':checked')) ? true:false,
+    r_HS = ($('#r-HS').is(':checked')) ? true:false,
+    r_IS = ($('#r-IS').is(':checked')) ? true:false,
+    r_PS = ($('#r-PS').is(':checked')) ? true:false,
+    r_SBS = ($('#r-SBS').is(':checked')) ? true:false,
+    reqMajor = $('#reqMajor').val(),
+    reqMinor = $('#reqMinor').val();
+
+  console.log ( inputSemester + ' ' + inputDepartment + ' ' + inputCourseNumber + ' ' + inputKeywords + ' ' + inputTitle + ' ' + inputInstructors);
+  console.log(openSeats + ' ' + openWaitlist + ' ' + exclude  + ' ' + unitsMin + ' ' + unitsMax);
+  console.log(lowerDiv + ' ' + upperDiv + ' ' + graduate + ' ' + professional );
+  console.log(berkeleyConnect + ' ' + courseThread + ' ' + freshSophSem);
+  console.log(r_AC + ' ' + r_AH + ' ' + r_AI + ' ' + r_RCA + ' ' + r_RCB);
+  console.log(r_AL + ' ' + r_BS + ' ' + r_HS + ' ' + r_HS + ' ' + r_IS + ' ' + r_PS + ' ' + r_SBS);
+  console.log(reqMajor + ' ' + reqMinor);
+
+
+  
+}
+
+
 $(document).ready(function () {
 
   var $form = $('form');
@@ -62,94 +139,11 @@ $(document).ready(function () {
     dateTime($(this), classname);
   });
 
-
-  // kludge to test going to a specific file
-  $('.searchBtn').on('click', function () {
-    window.location.href = "s1_pub_health.html";
+  $('.searchBtn').on('click', function (event) {
+    submitForm();
   });
 
 });
-
-function dateTime ($this, classname) {
-  console.log($this);
-  console.log(classname);
-  if($this.attr('data-selected') === 'true') {
-    $(classname).attr('data-selected', 'false')
-                .css('background-color', '#fff');
-
-    $this.attr('data-selected', 'false')
-         .css('background-color', '#fff');
-  }
-  else {
-    $(classname).attr('data-selected', 'true')
-                .css('background-color', '#B9D3B6');
-
-    $this.attr('data-selected', 'true')
-         .css('background-color', '#B9D3B6');
-  }
-}
-
-
-function submitForm () {
-  
-}
-
-/*
-function testJSON () {
-
-  var $test = $('#test');
-
-  $.getJSON('data/CourseStructure.json', function (data) {
-    console.log('data: ' + data);
-
-    // course info
-    $.each( data, function( key, course ) {
-
-      var BC = course.berkeleyConnect ? 'is' : 'is not',
-          AC = course.breadth.AC ? 'American Cultures' : '',
-          PS = course.breadth.PS ? 'Physical Sciences' : '',
-          RCA = course.breadth.RCA ? 'Reading & Composition A' : '';
-
-      $test.append('<p> course: ' + key +
-        '<p>title: ' + course.title + 
-        '<p>type: ' + course.type +
-        '</p><p>department: ' + course.department + 
-        '</p><p>abbreviation: ' + course.deptAbbrev + ' ' + course.number + ', ' + course.credit + ' units</p>' +
-        '<p>crosslist: ' + course.crossListing + '</p>' +
-        '<p>desc: ' + course.description + '</p>' + 
-        '<p>format: ' + course.format + '</p>' + 
-        '<p>prereq: ' + course.prereq + ', coreq: ' + course.hasCoreqs + ', prereq for: ' + course.isPrereqFor + '</p>' +
-        '<p>restrictions: ' + course.restrictions + ', notes: ' + course.note + '</p>' +
-        '<p>offer history: ' + course.offerHist + '</p>' + 
-        '<p>courseThread: ' + course.courseThread + '</p>' +
-        '<p>fulfills these breadth requirements: ' + AC + ', ' + PS + ', ' + RCA + '</p>' + 
-        '<p>' + BC + ' Berkeley Connect</p>');
-
-      // class instance info
-      var instance = [];
-      instance = course.classInstance;
-      console.log(instance + ' length ' + instance.length);
-
-      for (var i = 0; i < instance.length; i++) {
-        $test.append(
-          '<p>' + instance[i].semester + ', on ' + instance[i].days + ' at ' + instance[i].time + '</p>' + 
-          '<p>In ' + instance[i].location.room + ' ' + '<a href="">' + instance[i].location.building + '</a></p>' +
-          '<p>Taught by ' + instance[i].instructor + '.</p>' +
-          '<p>CCN: ' + instance[i].ccn + '</p>' +
-          '<p>Max seats: ' + instance[i].seats.max + ', enrolled: ' + instance[i].seats.enrolled + ', waitlist: ' +
-                             instance[i].seats.waitlist + ', available: ' + instance[i].seats.available + '</p>' +
-          '<p>Final: ' + instance[i].finalGroup + '</p>'
-        );
-      }
-
-      $test.append('<br />');
-      
-    });
-
-  });
-} // getJSON()
-*/
-
 
 
 

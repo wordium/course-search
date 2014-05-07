@@ -102,9 +102,9 @@
                 <td class="form"><label for="inputSemester">Semester:</label></td>
                 <td class="formInput">
                   <select id="inputSemester">
-                    <option value="2014fa">Fall 2014</option>
-                    <option value="2014su">Summer 2014</option>
-                    <option value="2014sp">Spring 2014</option>
+                    <option value="2014fall">Fall 2014</option>
+                    <option value="2014summer">Summer 2014</option>
+                    <option value="2014spring">Spring 2014</option>
                     <option value="all">All (includes courses not currently scheduled)</option>
                   </select>
                 </td>
@@ -119,29 +119,29 @@
               </tr>
               
               <tr>
-                <td class="formLabel"><label>Course Number:</label></td>
-                <td class="formInput"><input type="text" placeholder="E.g., 1A"/></td>
+                <td class="formLabel"><label for="inputCourseNumber">Course Number:</label></td>
+                <td class="formInput"><input type="text" id="inputCourseNumber" placeholder="E.g., 1A"/></td>
               </tr>
               <tr><td>&nbsp;</td></tr>
             </tbody>
             
             <tbody>
               <tr>
-                <td class="formLabel"><label>Keyword(s):</label></td>
-                <td class="formInput"><input type="text" placeholder="Enter text to search course descriptions"/></td>
+                <td class="formLabel"><label for="inputKeywords">Keyword(s):</label></td>
+                <td class="formInput"><input type="text" id="inputKeywords" placeholder="Enter text to search course descriptions"/></td>
               </tr>
 
               <tr>
-                <td class="formLabel"><label>Title Keyword(s):</label></td>
-                <td class="formInput"><input type="text" placeholder="Enter text to search course titles"/></td>
+                <td class="formLabel"><label for="inputTitle">Title Keyword(s):</label></td>
+                <td class="formInput"><input type="text" id="inputTitle" placeholder="Enter text to search course titles"/></td>
               </tr>
               <tr><td>&nbsp;</td></tr>
             </tbody>
             
             <tbody>
               <tr>
-                <td class="formLabel"><label>Instructor(s):</label></td>
-                <td class="formInput"><input type="text" placeholder="Enter a last name"/></td>
+                <td class="formLabel"><label for="inputInstructors">Instructor(s):</label></td>
+                <td class="formInput"><input type="text" id="inputInstructors" placeholder="Enter a last name"/></td>
               </tr>
             </tbody>
           </table>
@@ -166,7 +166,7 @@
               <div class="formGroup">
                 <label id="unitsLabel">Units:</label>
 
-                <select class="units">
+                <select class="units" id="unitsMin">
                   <option value="-1">Min</option>
                   <option value="0">0</option>
                   <option value="1">1</option>
@@ -176,7 +176,7 @@
                   <option value="5">5</option>
                 </select>
 
-                <select class="units">
+                <select class="units" id="unitsMax">
                   <option value="15">Max</option>
                   <option value="1">1</option>
                   <option value="2">2</option>
@@ -197,7 +197,7 @@
                 <li><input type="checkbox" id="professional" /> <label for="professional">Professional (300-399)</label></li>
               </ul>
               
-              <div class="sectionTitle">Snowflake:</div>
+              <div class="sectionTitle">Curricular Programs:</div>
               <ul id="snowflake">
                 <li><input type="checkbox" id="berkeleyConnect"> <label for="berkeleyConnect">Berkeley Connect</label></input></li>
                 <li><input type="checkbox" id="courseThread" /> <label for="courseThread">Course Threads</label></li>
@@ -211,8 +211,8 @@
             <div class="sectionTitle">Campus Requirements:</div>
             <ul class="formGroup" id="campusReq">
               <li><input type="checkbox" id="r-AC"/> <label for="r-AC">American Cultures</label></li>
-              <li><input type="checkbox" id="r-AH"/> <label for="r-AHI">American History</label></li>
-              <li><input type="checkbox" id="r-AI"/> <label for="r-AHI">American Institutions</label></li>
+              <li><input type="checkbox" id="r-AH"/> <label for="r-AH">American History</label></li>
+              <li><input type="checkbox" id="r-AI"/> <label for="r-AI">American Institutions</label></li>
               <li><input type="checkbox" id="r-RCA"/> <label for="r-RCA">Reading and Composition A</label></li>
               <li><input type="checkbox" id="r-RCB"/> <label for="r-RCB">Reading and Composition B</label></li>
             </ul>
@@ -232,10 +232,10 @@
 
             <div id="majorMinor">
               <div class="formGroup">
-                <label>Major:</label>
-                <input type="text" placeholder="Enter a major to search for courses that are included in its requirements"/>
-                <label>Minor:</label>
-                <input type="text" placeholder="Enter a minor to search for courses that are included in its requirements"/>
+                <label for="reqMajor">Major:</label>
+                <input type="text" id="reqMajor" placeholder="Enter a major to search for courses that are included in its requirements"/>
+                <label for="reqMinor">Minor:</label>
+                <input type="text" id="reqMinor" placeholder="Enter a minor to search for courses that are included in its requirements"/>
               </div>
             </div><!-- #majorMinor -->
           
@@ -243,7 +243,7 @@
           <div id="time" class="formGroup">
             <div class="sectionTitle">Day and Time:</div>
             <div class="note">Select time blocks to find classes that meet only during hours selected.</div>
-            <table>
+            <table id="timeTable">
               <tr>
                 <td id="emptyTD"></td>
                 <td data-selected="false" data-day="mon" class="selectDay">Mon</td>
