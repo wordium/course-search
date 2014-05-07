@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+
+  <title>Berkeley Bulletin Course Search</title>
+
+  <link rel="stylesheet" type="text/css" href="css/cssreset-min.css">
+  <link rel="stylesheet" type="text/css" href="css/styles.css">
+  <link rel="stylesheet" type="text/css" href="css/result-styles.css">
+
+
+  <script src="js/jquery-1.11.0.min.js"></script>
+  <script src="js/jquery-ui-1.10.4.min.js"></script>
+  <script src="js/results.js"></script>
+
+</head>
+
+<body>
+
+  <img src="img/header.png" class="bulletin" alt="Header Placeholder">
+
+  <div id="main" data-file="s1_pub_health.json">
+    <div id="header">
+      <h2>COURSE SEARCH RESULTS</h2>
+    </div>
+
+    <ul id="fileChange"> 
+      <li>s1_pub_health.json</li>
+      <li>s2_breadth.json</li>
+      <li>s3_sustain.json</li>
+      <li>s4_schedule.json</li>
+      <li>s5_open.json</li>
+    </ul>
+
+
+
+    <div id="facets">
+      <!--h3>Refine your search</h3-->
+      <h4>Departments:</h4>
+      <ul id="facetsDepartments"></ul>
+      <h4>Semester:</h4>
+      <ul id="facetsSemester"></ul>
+      <h4>Breadth Requirements:</h4>
+      <ul id="facetsRequirements"></ul>
+      <h4>Seats:</h4>
+      <ul id="facetsSeats"></ul>
+      <h4>Days:</h4>
+      <ul id="facetsDay"></ul>
+      <h4>Time:</h4>
+      <ul id="facetsTime"></ul>
+      <h4>Units:</h4>
+      <ul id="facetsUnits"></ul>
+      <h4>Class Size:</h4>
+      <ul id="facetsSize"></ul>
+      <h4>Meeting Type:</h4>
+      <ul id="facetsType"></ul>
+      <h4>Course Classification:</h4>
+      <ul id="facetsLevel"></ul>
+      <h4>Curricular Programs:</h4>
+      <ul id="facetsCurricular"></ul>
+    </div>
+
+    <div id="results">
+      <p>n results for search</p>
+      <div>saved courses button</div>
+
+      <table id="resultsTable">
+        <tr id="resultsHeaderRow">
+          <th>DEPT</th>
+          <th id="headerNum">NUM</th>
+          <th>TITLE</th>
+          <th>INSTRUCTOR</th>
+          <th>SCHEDULE</th>
+          <th>LOC</th>
+          <th>UNIT</th>
+          <th>CCN</th>
+          <th>REQ</th>
+          <th>SAVE</th>
+        </tr>
+      </table>
+    </div>
+
+  </div>
+  <img src="img/footer.png" class="bulletin" alt="Footer Placeholder">
+
+</body>
+
+</html>

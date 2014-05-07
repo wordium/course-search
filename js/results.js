@@ -913,5 +913,8 @@ $(document).ready(function () {
     var filename = $(this).text();
     getJSON(filename);
   });
+
+  var filename = $('#main').attr('data-file');
+  getJSON(filename);
 });
 
