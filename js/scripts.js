@@ -1,3 +1,109 @@
+function submitForm () {
+  var inputSemester = $('#inputSemester').val(),
+    inputDepartment = $('#inputDepartment').val().toLowerCase(),
+    inputCourseNumber = $('#inputCourseNumber').val(),
+    inputKeywords = $('#inputKeywords').val().toLowerCase(),
+    inputTitle = $('#inputTitle').val().toLowerCase(),
+    inputInstructors = $('#inputInstructors').val().toLowerCase(),
+    openSeats = ($('#openSeats').is(':checked')) ? true:false,
+    openWaitlist = ($('#openWaitlist').is(':checked')) ? true:false,
+    exclude = ($('#exclude').is(':checked')) ? true:false,
+    unitsMin = $('#unitsMin').val(),
+    unitsMax = $('#unitsMax').val(),
+    lowerDiv = ($('#lowerDiv').is(':checked')) ? true:false,
+    upperDiv = ($('#upperDiv').is(':checked')) ? true:false,
+    graduate = ($('#graduate').is(':checked')) ? true:false,
+    professional = ($('#professional').is(':checked')) ? true:false,
+    berkeleyConnect = ($('#berkeleyConnect').is(':checked')) ? true:false,
+    courseThread = ($('#courseThread').is(':checked')) ? true:false,
+    freshSophSem = ($('#freshSophSem').is(':checked')) ? true:false,
+    r_AC = ($('#r-AC').is(':checked')) ? true:false,
+    r_AH = ($('#r-AH').is(':checked')) ? true:false,
+    r_AI = ($('#r-AI').is(':checked')) ? true:false,
+    r_RCA = ($('#r-RCA').is(':checked')) ? true:false,
+    r_RCB = ($('#r-RCB').is(':checked')) ? true:false,
+    r_AL = ($('#r-AL').is(':checked')) ? true:false,
+    r_BS = ($('#r-BS').is(':checked')) ? true:false,
+    r_HS = ($('#r-HS').is(':checked')) ? true:false,
+    r_IS = ($('#r-IS').is(':checked')) ? true:false,
+    r_PV = ($('#r-PV').is(':checked')) ? true:false,
+    r_PS = ($('#r-PS').is(':checked')) ? true:false,
+    r_SBS = ($('#r-SBS').is(':checked')) ? true:false,
+    reqMajor = $('#reqMajor').val().toLowerCase(),
+    reqMinor = $('#reqMinor').val().toLowerCase(),
+    times = $('.selected'),
+    selectedCells = [],
+    filename = '';
+
+    // for each selected time
+    times.each(function () {
+      var time, day;
+
+      // if the selected item is a time/day cell, get the time and day attributes and add them to the array
+      if ($(this).hasClass('selectable')) {
+        time = $(this).attr('data-time');
+        day = $(this).attr('data-day');
+        selectedCells.push({'time': time, 'day': day});
+      }
+    });
+
+
+    // pre-determined search functions
+
+    // Search #1: Public Health - Utilitarian
+    // Major = Public Health, Semester = Fall 2014
+    if (((reqMajor.indexOf('public health') >= 0) || (reqMajor.indexOf('pb hlth') >= 0)) && inputSemester === '2014fall') {
+      window.location.href = 's1_pub_health.html';
+    }
+
+    // Search #2: Breadth Requirements - Planner
+    // All L&S and Campus requirement boxes are checked. Semester field is All.
+    else if (r_AC && r_AH && r_AI && r_RCA && r_RCB && r_AL && r_BS && r_HS && r_IS && r_PV && r_PS && r_SBS && (inputSemester === 'all')) {
+      window.location.href = 's2_breadth.html';
+    }
+
+    // Search #3: Sustainability - Focused Explorer
+    // Keyword has "sustainability". Semester field is All.
+    else if ((inputKeywords.indexOf('sustainability') >= 0) && (inputSemester === 'all')) {
+      window.location.href = 's3_sustain.html';
+    }
+
+    // Search #4: Time-based - Utilitarian
+    // Calendar is set to MW 9-12:30, and all of Th. Semester is Fall 2014.
+    else if ((selectedCells.length > 0) && (inputSemester === '2014fall')) {
+      var m = false,
+        w = false,
+        th = false;
+      for (var i = 0; i < selectedCells.length; i++) {
+        if ((selectedCells[i].day === 'mon') && (selectedCells[i].time === 'time-1')) {
+          m = true;
+        }
+        else if ((selectedCells[i].day === 'wed') && (selectedCells[i].time === 'time-1')) {
+          w = true;
+        }
+        else if (selectedCells[i].day === 'thu') {
+          th = true;
+        }
+      }
+
+      if (m && w && th && (inputSemester === '2014fall')) {
+        window.location.href = 's4_schedule.html';
+      }
+    }
+
+    // Search #5: Backup search - Seeker
+    // Open seats is checked. Semester is Fall 2014.
+    else if (openSeats && (inputSemester === '2014fall')) {
+      window.location.href = 's5_open.html';
+    }
+
+    // catchall
+    else {
+      // IT DOES NOTHING
+    }
+}
+
+
 $(document).ready(function () {
 
   var $form = $('form');
@@ -24,132 +130,44 @@ $(document).ready(function () {
       }
     }).fadeIn();
 
-    // less fancy way
-    /*
-    if ($text.text() === 'Show')
-      $text.text('Hide');
-    else
-      $text.text('Show');
-    $('#advanced').toggle();
-    */
-
   });
 
 
+  function dateTime($this, classname) {
+    if($this.hasClass('selected')) {
+      $(classname).removeClass('selected');
+      $this.removeClass('selected');
+    } else {
+      $(classname).addClass('selected');
+      $this.addClass('selected');
+    }
+  }
+
+  // toggle .selected on a .selectable td when clicked
   $('.selectable').on('click', function() {
-    var $td = $(this);
-    //console.log($td.attr('data-selected'));
-
-    if($td.attr('data-selected') === 'true'){
-      $td.css('background-color', '#fff')
-         .attr('data-selected', 'false');
-
-      // set appropriate .selectDay and .selectTime to data-selected='false'
-    }
-    else {
-      $td.css('background-color', '#B9D3B6')
-         .attr('data-selected', 'true');
-    }
+    $(this).toggleClass('selected');
   });
 
+  // event handler when a day is selected
+  // get the classname to figure out what day, and deal with those days as necessary
   $('.selectDay').on('click', function () {
     var classname = '.' + $(this).attr('data-day');
     dateTime($(this), classname);
   });
 
+  // event handler when a time is selected
+  // get the classname to figure out what time, and deal with those days as necessary
   $('.selectTime').on('click', function () {
     var classname = '.' + $(this).attr('data-time');
     dateTime($(this), classname);
   });
 
-
-  // kludge to test going to a specific file
-  $('.searchBtn').on('click', function () {
-    window.location.href = "s1_pub_health.html";
+  // event handler when either search button is clicked.
+  $('.searchBtn').on('click', function (event) {
+    submitForm();
   });
 
 });
-
-function dateTime ($this, classname) {
-  console.log($this);
-  console.log(classname);
-  if($this.attr('data-selected') === 'true') {
-    $(classname).attr('data-selected', 'false')
-                .css('background-color', '#fff');
-
-    $this.attr('data-selected', 'false')
-         .css('background-color', '#fff');
-  }
-  else {
-    $(classname).attr('data-selected', 'true')
-                .css('background-color', '#B9D3B6');
-
-    $this.attr('data-selected', 'true')
-         .css('background-color', '#B9D3B6');
-  }
-}
-
-
-function submitForm () {
-  
-}
-
-/*
-function testJSON () {
-
-  var $test = $('#test');
-
-  $.getJSON('data/CourseStructure.json', function (data) {
-    console.log('data: ' + data);
-
-    // course info
-    $.each( data, function( key, course ) {
-
-      var BC = course.berkeleyConnect ? 'is' : 'is not',
-          AC = course.breadth.AC ? 'American Cultures' : '',
-          PS = course.breadth.PS ? 'Physical Sciences' : '',
-          RCA = course.breadth.RCA ? 'Reading & Composition A' : '';
-
-      $test.append('<p> course: ' + key +
-        '<p>title: ' + course.title + 
-        '<p>type: ' + course.type +
-        '</p><p>department: ' + course.department + 
-        '</p><p>abbreviation: ' + course.deptAbbrev + ' ' + course.number + ', ' + course.credit + ' units</p>' +
-        '<p>crosslist: ' + course.crossListing + '</p>' +
-        '<p>desc: ' + course.description + '</p>' + 
-        '<p>format: ' + course.format + '</p>' + 
-        '<p>prereq: ' + course.prereq + ', coreq: ' + course.hasCoreqs + ', prereq for: ' + course.isPrereqFor + '</p>' +
-        '<p>restrictions: ' + course.restrictions + ', notes: ' + course.note + '</p>' +
-        '<p>offer history: ' + course.offerHist + '</p>' + 
-        '<p>courseThread: ' + course.courseThread + '</p>' +
-        '<p>fulfills these breadth requirements: ' + AC + ', ' + PS + ', ' + RCA + '</p>' + 
-        '<p>' + BC + ' Berkeley Connect</p>');
-
-      // class instance info
-      var instance = [];
-      instance = course.classInstance;
-      console.log(instance + ' length ' + instance.length);
-
-      for (var i = 0; i < instance.length; i++) {
-        $test.append(
-          '<p>' + instance[i].semester + ', on ' + instance[i].days + ' at ' + instance[i].time + '</p>' + 
-          '<p>In ' + instance[i].location.room + ' ' + '<a href="">' + instance[i].location.building + '</a></p>' +
-          '<p>Taught by ' + instance[i].instructor + '.</p>' +
-          '<p>CCN: ' + instance[i].ccn + '</p>' +
-          '<p>Max seats: ' + instance[i].seats.max + ', enrolled: ' + instance[i].seats.enrolled + ', waitlist: ' +
-                             instance[i].seats.waitlist + ', available: ' + instance[i].seats.available + '</p>' +
-          '<p>Final: ' + instance[i].finalGroup + '</p>'
-        );
-      }
-
-      $test.append('<br />');
-      
-    });
-
-  });
-} // getJSON()
-*/
-
 
 
 

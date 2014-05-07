@@ -1,5 +1,4 @@
 function departmentAutocomplete() {
-    console.log('asdf');
     var departmentList = [
         "Aerospace Studies (Air Force ROTC)",
         "African American Studies",

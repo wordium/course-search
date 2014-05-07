@@ -22,7 +22,8 @@ var classDept = '', // course.deptAbbrev, without space, comma, ampersand
   classUnits = '', // course.credit
   classSize = '', // classInstance.seats.max
   classMeeting = '', // classInstance.instanceType
-  classLevel = ''; // course.number
+  classLevel = '', // course.number
+  classCurricular = '';
 
 
 function initializeFacets() {
@@ -85,11 +86,11 @@ function initializeFacets() {
     "15 and less": 0,
     "16-35": 0,
     "36-75": 0,
-    "75-150": 0,
+    "76-150": 0,
     "151+": 0
   };
 
-  fMisc = {
+  fCurricular = {
     "Berkeley Connect": 0,
     "Freshman/Sophomore Seminar": 0,
     "DeCal": 0,
@@ -165,13 +166,13 @@ function getCourseFacets (course) {
       fLevel["Other"] += 1;
 
     if (course.berkeleyConnect)
-      fMisc["Berkeley Connect"] += 1;
+      fCurricular["Berkeley Connect"] += 1;
 
     if (!!course.courseThread)
-      fMisc["Course Thread"] += 1;
+      fCurricular["Course Thread"] += 1;
 
     if (course.freshSophSem)
-      fMisc["Freshman/Sophomore Seminar"] += 1;
+      fCurricular["Freshman/Sophomore Seminar"] += 1;
 
 }
 
@@ -192,7 +193,7 @@ function getInstanceFacets (instance) {
         else if (seatsMax > 35 && seatsMax <= 75)
           fSize["36-75"] += 1;
         else if (seatsMax > 75 && seatsMax <= 150)
-          fSize["75-150"] += 1;
+          fSize["76-150"] += 1;
         else
           fSize["151+"] += 1;
 
@@ -255,6 +256,7 @@ function getJSON (filename) {
     $.each(courseArr, function (key, course) {
 
       // get class names for facet interaction
+      resetCourseTags();
       setCourseTags(course);
 
       // intialize row. Add classes according to search parameters?
@@ -283,7 +285,6 @@ function getJSON (filename) {
       // building row for table
       // courses with multiple instances
       else { 
-
         row += multiInstanceRow(course, instance, numInstances);
       }
 
@@ -303,11 +304,13 @@ function getJSON (filename) {
     $('#results tbody').append(results);
 
     // adding show/hide details and instances
-    $('.courseHeaderRow').on('click', function () {
-      var data_classID = $(this).attr('data-classID');
+    $('.courseHeaderRow td').on('click', function () {
+      var data_classID = $(this).parent().attr('data-classID');
       var $details = $('.' + data_classID);
       $details.toggleClass('hidden');
     });
+
+    $('.save').off();
 
     showFacets();
 
@@ -333,10 +336,11 @@ function getJSON (filename) {
     var $ulSem = $('#facetsSemester');
     $ulSem.children().remove();
     for (var item in fSemester) {
-      var classSemester = 'facet' + ((item === 'All')? 'All':'Fall2014');
+      var classSemester = item.replace(/\s/, '');
+      //console.log(classSemester)
       if (fSemester[item] > 0) {
-        $ulSem.append('<li class="facet"> <input type="checkbox" id="' + classSemester + '" value="' + classSemester + '"/>' 
-                      + '<label for="' + classSemester + '">' + item + ' (' + fSemester[item] + ')</label></li>');
+        $ulSem.append('<li class="facet"> <input type="checkbox" id="facet' + classSemester + '" value="' + classSemester + '"/>' 
+                      + '<label for="facet' + classSemester + '">' + item + ' (' + fSemester[item] + ')</label></li>');
       }
     }
 
@@ -347,8 +351,8 @@ function getJSON (filename) {
     for (var item in fBreadth) {
       if (fBreadth[item] > 0) {
         var classBreadth = item.replace(/[&,\s]+/g, '');
-        $ulRequirements.append('<li class="facet"> <input type="checkbox" id="' + classBreadth + '" value="' + classBreadth +'"/>' 
-                              + '<label for="' + classBreadth + '">' + item + " (" + fBreadth[item] + ")</label></li>");
+        $ulRequirements.append('<li class="facet"> <input type="checkbox" id="facet' + classBreadth + '" value="' + classBreadth +'"/>' 
+                              + '<label for="facet' + classBreadth + '">' + item + " (" + fBreadth[item] + ")</label></li>");
       }
     }
 
@@ -358,8 +362,8 @@ function getJSON (filename) {
     $ulSeats.children().remove();
     for (var item in fSeats) {
       if (fSeats[item] > 0) {
-        $ulSeats.append('<li class="facet"> <input type="checkbox" id="' + item + '" value="' + item + '"/>' 
-                        + '<label for="' + item + '">' + item + " (" + fSeats[item] + ")</label></li>");
+        $ulSeats.append('<li class="facet"> <input type="checkbox" id="facet' + item + '" value="' + item + '"/>' 
+                        + '<label for="facet' + item + '">' + item + " (" + fSeats[item] + ")</label></li>");
       }
     }
 
@@ -369,30 +373,21 @@ function getJSON (filename) {
     $ulDay.children().remove();
     for (var item in fDays) {
       if (fDays[item] > 0) {
-        $ulDay.append('<li class="facet"> <input type="checkbox" id="days' + item + '" value="days' + item + '"/>' 
-                      + '<label for="days' + item + '">' + item + " (" + fDays[item] + ")</label></li>");
+        $ulDay.append('<li class="facet"> <input type="checkbox" id="facetDays' + item + '" value="days' + item + '"/>' 
+                      + '<label for="facetDays' + item + '">' + item + " (" + fDays[item] + ")</label></li>");
       }
     }
 
-    // TODO
     // meeting start time
     // classInstance.time.start
     var $ulTime = $('#facetsTime');
     $ulTime.children().remove();
     for (var item in fTime) {
       if (fTime[item] > 0) {
-        $ulTime.append('<li class="facet"> <input type="checkbox" id="" value=""/>' 
-                       + '<label for="">' + item + " (" + fTime[item] + ")</label></li>");
+        var className = 'time' + item.replace(/[-:]+/g, '');
+        $ulTime.append('<li class="facet"> <input type="checkbox" id="facet' + className + '" value="' + className + '"/>' 
+                       + '<label for="facet' + className + '">' + item + " (" + fTime[item] + ")</label></li>");
       }
-
-      /*
-      "8-9:30A": 0,
-      "9:30-11A": 0,
-      "11A-12:30P": 0,
-      "12:30-2P": 0,
-      "2-3:30P": 0,
-      "3:30-5P": 0,
-      "5-9P": 0*/
     }
 
     // number of units
@@ -402,20 +397,21 @@ function getJSON (filename) {
     for (var item in fUnits) {
       if (fUnits[item] > 0) {
         var classUnits = 'units' + item;
-        $ulUnits.append('<li class="facet"> <input type="checkbox" id="' + classUnits + '" value="' + classUnits + '"/>' 
-                        + '<label for="' + classUnits + '">' + item + ' (' + fUnits[item] + ')</label></li>');
+        $ulUnits.append('<li class="facet"> <input type="checkbox" id="facet' + classUnits + '" value="' + classUnits + '"/>' 
+                        + '<label for="facet' + classUnits + '">' + item + ' (' + fUnits[item] + ')</label></li>');
       }
     }
 
-//TODO
     // total class size
     // classInstance.seats.max
     var $ulSize = $('#facetsSize');
     $ulSize.children().remove();
     for (var item in fSize) {
       if (fSize[item] > 0) {
-        $ulSize.append('<li class="facet"> <input type="checkbox" id="" value=""/>' 
-                       + '<label for="">' + item + " (" + fSize[item] + ")</label></li>");
+        var className = 'size' + item.replace(/[\-\+\s]+/g, '');
+        //console.log(className);
+        $ulSize.append('<li class="facet"> <input type="checkbox" id="facet' + className + '" value="' + className + '"/>' 
+                       + '<label for="facet' + className + '">' + item + " (" + fSize[item] + ")</label></li>");
       }
     }
 
@@ -425,8 +421,8 @@ function getJSON (filename) {
     $ulType.children().remove();
     for (var item in fMeeting) {
       if (fMeeting[item] > 0) {
-       $ulType.append('<li class="facet"> <input type="checkbox" id="' + item + '" value="' + item + '"/>' 
-                       + '<label for="' + item + '">' + item + " (" + fMeeting[item] + ")</label></li>");
+       $ulType.append('<li class="facet"> <input type="checkbox" id="facet' + item + '" value="' + item + '"/>' 
+                       + '<label for="facet' + item + '">' + item + " (" + fMeeting[item] + ")</label></li>");
      }
     }
 
@@ -437,19 +433,20 @@ function getJSON (filename) {
     for (var item in fLevel) {
       if (fLevel[item] > 0) { 
         var classLevel = item.replace(/[&,\s]+/g, '');
-        $ulLevel.append('<li class="facet"> <input type="checkbox" id="' + classLevel + '" value="' + classLevel + '"/>' 
-                        + '<label for="' + classLevel + '">' + item + ' (' + fLevel[item] + ')</label></li>');
+        $ulLevel.append('<li class="facet"> <input type="checkbox" id="facet' + classLevel + '" value="' + classLevel + '"/>' 
+                        + '<label for="facet' + classLevel + '">' + item + ' (' + fLevel[item] + ')</label></li>');
       }
     }
 
-// TODO
-    // misc stuff
-    var $ulMisc = $('#facetsMisc');
-    $ulMisc.children().remove();
-    for (var item in fMisc) {
-      if (fMisc[item] > 0) {
-        $ulMisc.append('<li class="facet"> <input type="checkbox" id="" value=""/>' 
-                       + '<label for="">' + item + " (" + fMisc[item] + ")</label></li>");
+    // TODO
+    // other curricular stuff
+    var $ulCurricular = $('#facetsCurricular');
+    $ulCurricular.children().remove();
+    for (var item in fCurricular) {
+      if (fCurricular[item] > 0) {
+        var className = item.replace(/[\s\/]+/g, '');
+        $ulCurricular.append('<li class="facet"> <input type="checkbox" id="facet' + className + '" value="' + className + '"/>' 
+                       + '<label for="facet' + className + '">' + item + " (" + fCurricular[item] + ")</label></li>");
       }
     }
 
@@ -458,24 +455,79 @@ function getJSON (filename) {
     // action to take when any facet checkbox is clicked
     $('.facet input:checkbox').on('click', function () {
 
-      // which department boxes are checked
-      var $checked = $('.facet input:checked');
+      // which boxes are checked
+      var $checked = $('.facet input:checked'),
+        $checkedByCategory = [
+          $('#facetsDepartments input:checked'),
+          $('#facetsSemester input:checked'),
+          $('#facetsRequirements input:checked'),
+          $('#facetsSeats input:checked'),
+          $('#facetsDay input:checked'),
+          $('#facetsTime input:checked'),
+          $('#facetsUnits input:checked'),
+          $('#facetsSize input:checked'),
+          $('#facetsType input:checked'),
+          $('#facetsLevel input:checked'),
+          $('#facetsCurricular input:checked')],
+        classSelectors = [];
+
+      // hide open rows
+      $('.subrow').addClass('hidden');
 
       // if no facets are checked, display everything
       if ($checked.length === 0) {
         $('.courseHeaderRow').removeClass('hidden');
-        $('.classInstance').addClass('hidden');
       }
 
       // if some facets are checked, hide everything then show according to checked boxes
       else {
         $('#resultsHeaderRow').siblings().addClass('hidden');
+
+        // iterate over each category of facets.
+        for (var i = 0; i < $checkedByCategory.length; i++) {
+
+          // trying to prevent browser crashing? :)
+          if (classSelectors.length > 500) {
+            break;
+          }
+
+          // iterate over the checked facets in the current category
+          // if there is nothing checked in this category, go to the next one
+          if ($checkedByCategory[i].length === 0) {
+            continue;
+          }
+
+          // if there are no class selectors yet, then add from the first category with checked boxes
+          if (classSelectors.length === 0) {
+            for (var j = 0; j < $checkedByCategory[i].length; j++) {
+              classSelectors.push('.' + $checkedByCategory[i][j].value);
+            }
+            continue;
+          }
+
+          // concatenating the variations of classes to create array of selectors we need
+          var newClassSelectors = [];
+          for (var j = 0; j < $checkedByCategory[i].length; j++) {
+            // append classname associated with current facet to all selectors
+            var currentClass = $checkedByCategory[i][j].value;
+
+            for (var k = 0; k < classSelectors.length; k++) {
+              // console.log('adding: ' + classSelectors[k] + '.' + currentClass);
+              newClassSelectors.push(classSelectors[k] + '.' + currentClass);
+            }
+          }
+
+          // putting all selector combinations into one array to iterate over
+          classSelectors = newClassSelectors;
+          // console.log(classSelectors);
+        }
         
-        // show rows for appropriate checked boxes
-        $checked.each(function () {
-          var checkedBox = $(this).val();
-          console.log('this box is checked: ' + checkedBox);
-          $('.'+checkedBox).removeClass('hidden');
+
+        // iterate over facet selector combinations and show as needed
+        for (var x = 0; x < classSelectors.length; x++) {
+          // console.log('this box is checked: ' + checkedBox);
+          var selector = classSelectors[x];
+          $(selector).removeClass('hidden');
 
           // for multi instance rows, if none of its "children" are showing, hide it too
           $('.multiInstanceRow').each(function () {
@@ -506,10 +558,8 @@ function getJSON (filename) {
               $(this).removeClass('hidden');
             }
 
-
-
           });
-        });
+        }
         
         $('.classInstance').addClass('hidden'); //re-hiding class instances.
         
@@ -529,7 +579,7 @@ function sortResults(array, prop, asc) {
     if (a['deptAbbrev'] === b['deptAbbrev']) {
       // some courses have letters in their numbers, so we need to take those out first.
       var aNumber = a['number'].match(/\d+/),
-          bNumber = a['number'].match(/\d+/);
+          bNumber = b['number'].match(/\d+/);
       return (aNumber >= bNumber) ? 1 : ((aNumber < bNumber) ? -1 : 0);
     }
 
@@ -544,8 +594,10 @@ function sortResults(array, prop, asc) {
 }
 
 function notOfferedRow (course) {
-  var row = '<tr class="courseHeaderRow ' + classDept + classBreadth + classUnits + classLevel
-                                          + '" data-classID="' + classDept + course.number + '">';
+
+  var courseTags = classDept + classBreadth + classLevel + classUnits + classCurricular;
+
+  var row = '<tr class="courseHeaderRow notOfferedRow ' + courseTags + '" data-classID="' + classDept + course.number + '">';
   row += '<td class="deptAbbrev">' + course.deptAbbrev + '</td>'
    + '<td class="courseNum">' + course.number + '</td>'
    + '<td class="courseTitle">' + course.title + '</td>'
@@ -565,8 +617,13 @@ function notOfferedRow (course) {
 
 function oneInstanceRow (course, classInfo) {
 
-  var row = '<tr class="courseHeaderRow ' + classDept + classBreadth + classUnits + classLevel
-                                          + '" data-classID="' + classDept + course.number + '">';
+  var courseTags = classDept + classBreadth + classLevel + classUnits + classCurricular;
+
+  resetInstanceTags();
+  setInstanceTags(classInfo);
+  var instanceTags = classSemester + classSeats + classDays + classTime + classSize + classMeeting;
+
+  var row = '<tr class="courseHeaderRow ' + courseTags + instanceTags + '" data-classID="' + classDept + course.number + '">';
   row += '<td class="deptAbbrev">' + course.deptAbbrev + '</td>'
        + '<td class="courseNum">' + course.number + '</td>'
        + '<td class="courseTitle">' + course.title + '</td>'
@@ -591,10 +648,10 @@ function oneInstanceRow (course, classInfo) {
 
 function multiInstanceRow(course, instance, numInstances) {
 
-  var multiInstanceClassNames = classDept + classBreadth + classUnits + classLevel;
+  var courseTags = classDept + classBreadth + classLevel + classUnits + classCurricular;
   var row = '';
 
-  row += '<tr class="courseHeaderRow multiInstanceRow ' + multiInstanceClassNames + '" data-classID="' + classDept + course.number + '"">';
+  row += '<tr class="courseHeaderRow multiInstanceRow ' + courseTags + '" data-classID="' + classDept + course.number + '">';
   row += '<td class="deptAbbrev">' + course.deptAbbrev + '</td>'
        + '<td class="courseNum">' + course.number + '</td>'
        + '<td class="courseTitle">' + course.title + '</td>'
@@ -634,8 +691,14 @@ function multiInstanceRow(course, instance, numInstances) {
   // add details
   row += detailsRow(course, true);
 
+  // display each instance
   for (var i=0; i<numInstances; i++){
-    row += '<tr class="classInstance ' + instance[i].instanceType + ' ' + multiInstanceClassNames + ' ' 
+
+    resetInstanceTags();
+    setInstanceTags(instance[i]);
+    var instanceTags = classSemester + classSeats + classDays + classTime + classSize + classMeeting;
+
+    row += '<tr class="classInstance subrow ' + instance[i].instanceType + ' ' + courseTags + instanceTags + ' ' 
                                        + classDept + course.number + ' hidden"><td colspan="3">' 
                                        + instance[i].instanceType + '</td>';
 
@@ -654,17 +717,19 @@ function multiInstanceRow(course, instance, numInstances) {
         + '<td class="save"> <input type="checkbox"> </td>'
         + '</tr>';
 
-    row += '<tr class="rowSeats hidden ' + classDept + course.number + '"><td colspan="3">&nbsp;</td><td colspan="7">' 
-        + '<p>Seats: ' + instance[0].seats.max 
-        + '. Enrolled: ' + instance[0].seats.enrolled 
-        + '. Waitlist: ' + instance[0].seats.waitlist 
-        + '. Available: ' + instance[0].seats.available + '.</p></td></tr>';
+    row += '<tr class="rowSeats hidden subrow ' + classDept + course.number + '"><td colspan="3">&nbsp;</td><td colspan="7">' 
+        + '<p>Seats: ' + instance[i].seats.max 
+        + '. Enrolled: ' + instance[i].seats.enrolled 
+        + '. Waitlist: ' + instance[i].seats.waitlist 
+        + '. Available: ' + instance[i].seats.available + '.</p></td></tr>';
 
 
     // call function to enuermate facet information at the instance level
     getInstanceFacets(instance[i]);
 
   }
+
+  return row;
 }
 
 function detailsRow (course, hasInstance) {
@@ -673,7 +738,7 @@ function detailsRow (course, hasInstance) {
   if (hasInstance)
     instance = course.classInstance;
 
-  var row = '<tr class="hidden details ' + classDept + course.number + '"><td colspan="10" class="description">';
+  var row = '<tr class="hidden details subrow ' + classDept + course.number + '"><td colspan="10" class="description">';
 
   row += '<h4>' + course.department + ' ' + course.number + '</h4>';
 
@@ -723,6 +788,14 @@ function detailsRow (course, hasInstance) {
   return row;
 }
 
+function resetCourseTags () {
+  classDept = ''; // course.deptAbbrev, without space, comma, ampersand
+  classBreadth = ''; // course.breadth -- has multiple
+  classUnits = ''; // course.credit
+  classLevel = ''; // course.number
+  classCurricular = '';
+}
+
 function setCourseTags (course) {
     //department
     classDept = (course.deptAbbrev).replace(/[&,\s]+/g, ''); //letters only
@@ -766,6 +839,85 @@ function setCourseTags (course) {
       classLevel += "Professional";
     else
       classLevel += "Other";
+
+    // semester
+    classSemester = ' All';
+
+
+    // classCurricular / "snowflakes"
+    classCurricular = '';
+    if (course.berkeleyConnect)
+      classCurricular += ' BerkeleyConnect';
+
+    if (!!course.courseThread)
+      classCurricular += ' CourseThread';
+
+    if (course.freshSophSem)
+      classCurricular += ' FreshmanSophomoreSeminar';
+
+}
+
+function resetInstanceTags () {
+  classSeats = ''; // classInstance.seats.available
+  classDays = ''; // classInstance.days
+  classTime = ''; // classInstance.time.start
+  classSemester = ''; // classInstance.semester, without space
+  classSize = ''; // classInstance.seats.max
+  classMeeting = ''; // classInstance.instanceType
+}
+
+function setInstanceTags (instance) {
+  // classSemester
+  classSemester += ' Fall2014'
+
+  // classSeats
+  if ((instance.seats.available) > 0)
+    classSeats = ' Available';
+
+  // classDays
+  classDays = ' days' + instance.days;
+
+  //TODO
+  // classTime
+  classTime = ' time';
+  //var className = 'time' + item.replace(/[-:]+/g, '');
+  var hour = ((instance.time.start).replace(/\:/, '')).match(/^\d+/)[0];
+  if (hour <= 12)
+    hour = hour * 100;
+  var ampm = (instance.time.start).match(/[AP]$/)[0];
+
+  if ((hour >= 800 && hour < 930) && ampm === 'A')
+    classTime += '8930A';
+  else if ((hour >= 930 && hour < 1100) && ampm === 'A')
+    classTime += '93011A';
+  else if (hour >= 1100 && hour < 1230)
+    classTime += '11A1230P';
+  else if (hour >= 1230 && hour < 200)
+    classTime += '12302P';
+  else if (hour >= 200 && hour < 330)
+    classTime += '2330P';
+  else if (hour >= 330 && hour < 500)
+    classTime += '3305P';
+  else
+    classTime += '59P';
+
+  // classSize
+    //      var className = 'size' + item.replace(/[\-\+\s]+/g, '');
+  classSize = ' size';
+  var size = instance.seats.max;
+  if (size <= 15)
+    classSize += '15andless';
+  else if (size >= 16 && size <= 35)
+    classSize += '1635';
+  else if (size >= 36 && size <= 75)
+    classSize += "3675";
+  else if (size >= 76 && size <= 150)
+    classSize += "76150";
+  else
+    classSize += "151";
+
+  // classMeeting
+  classMeeting = ' ' + instance.instanceType;
 }
 
 function getBadges (course) {

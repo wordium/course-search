@@ -111,6 +111,11 @@ img.bulletin {
 /* search form table spacing */
 td {
   vertical-align: middle;
+  background-color: #fff;
+}
+
+td.selected {
+  background-color: #B9D3B6;
 }
 
 td.formInput {
@@ -206,9 +211,6 @@ select.units {
 td#emptyTD { 
   width: 125px;
 }
-
-
-
 
 
 

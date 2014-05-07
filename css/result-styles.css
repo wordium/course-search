@@ -9,7 +9,7 @@
 }
 
 #facets {
-  width: 175px;
+  width: 190px;
   padding: 15px;
   font-size: 12px;
 }
@@ -108,3 +108,31 @@ th, .courseUnits, .instanceCCN, .badges, .save {
   width: 22px;
   height: 22px;
 }
+
+.courseHeaderRow:hover {
+  background-color: black;
+}
+
+
+#facets h4 {
+  font-weight: bold;
+  margin-top: 5px;
+}
+
+.notOfferedRow td {
+  background-color: rgba(083,098,111, 0.5);
+}
+
+.notOfferedRow:hover {
+  background-color: #53626F;
+}
+
+
+
+
+
+
+
+
+
+
