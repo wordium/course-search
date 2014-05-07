@@ -337,7 +337,7 @@ function getJSON (filename) {
     $ulSem.children().remove();
     for (var item in fSemester) {
       var classSemester = item.replace(/\s/, '');
-      console.log(classSemester)
+      //console.log(classSemester)
       if (fSemester[item] > 0) {
         $ulSem.append('<li class="facet"> <input type="checkbox" id="facet' + classSemester + '" value="' + classSemester + '"/>' 
                       + '<label for="facet' + classSemester + '">' + item + ' (' + fSemester[item] + ')</label></li>');
@@ -455,9 +455,22 @@ function getJSON (filename) {
     // action to take when any facet checkbox is clicked
     $('.facet input:checkbox').on('click', function () {
 
-      // which department boxes are checked
-      var $checked = $('.facet input:checked');
-      
+      // which boxes are checked
+      var $checked = $('.facet input:checked'),
+        $checkedByCategory = [
+          $('#facetsDepartments input:checked'),
+          $('#facetsSemester input:checked'),
+          $('#facetsRequirements input:checked'),
+          $('#facetsSeats input:checked'),
+          $('#facetsDay input:checked'),
+          $('#facetsTime input:checked'),
+          $('#facetsUnits input:checked'),
+          $('#facetsSize input:checked'),
+          $('#facetsType input:checked'),
+          $('#facetsLevel input:checked'),
+          $('#facetsCurricular input:checked')],
+        classSelectors = [];
+
       // hide open rows
       $('.subrow').addClass('hidden');
 
@@ -469,12 +482,52 @@ function getJSON (filename) {
       // if some facets are checked, hide everything then show according to checked boxes
       else {
         $('#resultsHeaderRow').siblings().addClass('hidden');
+
+        // iterate over each category of facets.
+        for (var i = 0; i < $checkedByCategory.length; i++) {
+
+          // trying to prevent browser crashing? :)
+          if (classSelectors.length > 500) {
+            break;
+          }
+
+          // iterate over the checked facets in the current category
+          // if there is nothing checked in this category, go to the next one
+          if ($checkedByCategory[i].length === 0) {
+            continue;
+          }
+
+          // if there are no class selectors yet, then add from the first category with checked boxes
+          if (classSelectors.length === 0) {
+            for (var j = 0; j < $checkedByCategory[i].length; j++) {
+              classSelectors.push('.' + $checkedByCategory[i][j].value);
+            }
+            continue;
+          }
+
+          // concatenating the variations of classes to create array of selectors we need
+          var newClassSelectors = [];
+          for (var j = 0; j < $checkedByCategory[i].length; j++) {
+            // append classname associated with current facet to all selectors
+            var currentClass = $checkedByCategory[i][j].value;
+
+            for (var k = 0; k < classSelectors.length; k++) {
+              // console.log('adding: ' + classSelectors[k] + '.' + currentClass);
+              newClassSelectors.push(classSelectors[k] + '.' + currentClass);
+            }
+          }
+
+          // putting all selector combinations into one array to iterate over
+          classSelectors = newClassSelectors;
+          // console.log(classSelectors);
+        }
         
-        // show rows for appropriate checked boxes
-        $checked.each(function () {
-          var checkedBox = $(this).val();
+
+        // iterate over facet selector combinations and show as needed
+        for (var x = 0; x < classSelectors.length; x++) {
           // console.log('this box is checked: ' + checkedBox);
-          $('.'+checkedBox).removeClass('hidden');
+          var selector = classSelectors[x];
+          $(selector).removeClass('hidden');
 
           // for multi instance rows, if none of its "children" are showing, hide it too
           $('.multiInstanceRow').each(function () {
@@ -506,7 +559,7 @@ function getJSON (filename) {
             }
 
           });
-        });
+        }
         
         $('.classInstance').addClass('hidden'); //re-hiding class instances.
         
