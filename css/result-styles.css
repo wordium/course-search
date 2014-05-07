@@ -41,19 +41,19 @@ th, .courseUnits, .instanceCCN, .badges, .save {
 
 /* styling to force size on the table. WOOOOOOO */
 #headerDept {
-  width: 75px;
+  width: 65px;
 }
 #headerNum {
   width: 45px;
 }
 #headerTitle {
-  width: 300px;
+  width: 275px;
 }
 #headerInstructor {
   width: 110px;
 }
 #headerSchedule {
-  width: 65px;
+  width: 75px;
 }
 #headerLocation {
   width: 75px
