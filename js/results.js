@@ -738,7 +738,7 @@ function multiInstanceRow(course, instance, numInstances) {
         + '<p>Seats: ' + instance[i].seats.max 
         + '. Enrolled: ' + instance[i].seats.enrolled 
         + '. Waitlist: ' + instance[i].seats.waitlist 
-        + '. Available: ' + instance[i].seats.available + '.</p></td></tr>';
+        + '. Available: ' + instance[i].seats.available + '. <img src="img/info.png" alt="more information" title="more information" class="smallIcon"></p></td></tr>';
 
 
     // call function to enuermate facet information at the instance level
@@ -764,7 +764,7 @@ function detailsRow (course, hasInstance) {
   // seats
   // add seats only for the one-instance case.
   if (hasInstance && (instance.length === 1)) {
-    row += '<p><span class="descriptionCategory">Seats:</span></p><ul>'
+    row += '<p><span class="descriptionCategory">Seats:</span> <img src="img/info.png" alt="more information" title="more information" class="smallIcon"></p><ul>'
         + '<li>Max: ' + instance[0].seats.max + '</li>'
         + '<li>Enrolled: ' + instance[0].seats.enrolled + '</li>'
         + '<li>Waitlist: ' + instance[0].seats.waitlist + '</li>'
