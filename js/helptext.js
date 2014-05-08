@@ -3,6 +3,7 @@ function setupHelpText() {
   var $helpBox = $('#prototypeHelp'),
     $helpTitle = $('#prototypeHelp h3'),
     $helpText = $('#helpTextDiv');
+    $helpOff = $('#helpTextOff');
 
   // reset function to pass
   function resetHelpText () {
@@ -14,14 +15,15 @@ function setupHelpText() {
   $('#toggleHelp').on('click', function (event) {
     
     $helpTitle.toggleClass('hidden');
-    // $helpText.toggleClass('hidden');
+    $helpText.toggleClass('hidden');
+    $helpOff.toggleClass('hidden');
 
     $('#prototypeHelp').toggleClass('helpboxClose')
                        .toggleClass('helpboxOpen');
     
     if ($helpTitle.hasClass('hidden')) {
       $(this).prop('value', 'Show');
-      $helpText.html('Prototype Help Box');
+      $helpOff.html('Prototype Help Box');
     }
     else {
       $(this).prop('value', 'Hide');
