@@ -8,7 +8,7 @@ function setupHelpText() {
   // reset function to pass
   function resetHelpText () {
     $helpTitle.text('Prototype Annotations');
-    $helpText.text('We have annotated our prototype with the correct behavior. Hover over something in the search form for more information about how it should work when implemented.');
+    $helpText.text('We have annotated our prototype with the correct behavior. Hover over a page element for more information about how it should work when implemented.');
   }
 
   // hide/close the help box
@@ -155,12 +155,13 @@ function setupHelpText() {
     $helpTitle.text('Facets');
     $helpText.html('There are several important behaviors of facets that are not implemented in this prototype: <ul>'
     + '<li>Facet categories should be collapsible, as indicated by the arrow icons alongside the facet titles.</li> '
-    + '<li>Currently, when a facet option is selected and the results are narrowed, the summary line at the top of the page showing the number of overall results '
-    + 'and the search criteria stays the same. When implemented, this summary line should be updated to reflect the number of results being displayed '
+    + '<li>Currently, when a facet option is selected and the results are narrowed, the results summary at the top of the screen '
+    + 'remains the same. When implemented, this summary should be updated to reflect the number of results being displayed '
     + 'and the updated search criteria. </li>'
     + '<li>Currently, the lecture and discussion instances returned by a search are not filtered out by the facets even if a '
-    + 'facet criterion chosen should exclude the instance. For example, kdjgld'
-    + 'This should be fixed at implementation so that all displayed instances '
+    + 'facet criterion chosen should exclude the instance. For example, if a lecture is on a TuTh schedule '
+    + 'and has discussion sections on M and W, even if the "TuTh" facet option is selected all of the discussion instances '
+    + 'will be displayed. This should be fixed at implementation so that all displayed instances '
     + 'conform to all search criteria. </li><li>Note that it is not recommended to select more than 10 total facet options, as doing so may '
     + 'slow and/or crash your browser.</li></ul>');
   });
@@ -184,11 +185,15 @@ function setupHelpText() {
   
  $('.details').hover(function (event) {
     $helpTitle.text('Details');
-    $helpText.html('<ul><li><bold>Course Evaluations and Grade Distribution Information:</bold> This field is intended to display course evaluation and grade distribution data, '
-    + 'which are highly desired by students. When available, the information should be displayed '
-    + 'in a default-closed manner. </li> <li><bold>Textbook Information:</bold> Textbook information is available through an API from the CalCentral project. '
+    $helpText.html('<ul><li>Textbook Information: Textbook information is available through an API (talk to the CalCentral project folks for details). '
     + 'Text only (rather than cover images) should be used, along with a link to purchasing or other '
-    + 'information about the book if possible. </li>');
+    + 'information about the book if possible. </li>'
+    + '<li>Seats: The seat information tooltip should provide class-specific information about reserved seats and whether waitlist processing is automatic or manual.'
+    + 'If that is not possible, it should provide general information that explains why some classes have open seats and waitlists simultaneously. </li>'
+    + '<li>Offering History: Wherever possible, these should link to past course websites or syllabi.</li>'
+    + '<li>Course Evaluations and Grade Distribution Information: This field is intended to display course evaluation and grade distribution data, '
+    + 'which are highly desired by students. When available, the information should be displayed '
+    + 'in a default-closed manner. </li> ');
   });
 
   // initialize the text
