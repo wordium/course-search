@@ -311,6 +311,11 @@ $(document).ready(function () {
     + 'interaction would be preferred.</p>');
   });
 
+  $(document).keypress(function (event) {
+    if (event.which === 13) {
+      submitForm();
+    }
+  })
 
 });
 
