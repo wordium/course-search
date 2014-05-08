@@ -155,7 +155,7 @@ li.ui-menu-item:hover {
 }
 
 /* columns */
-ul#campusReq, ul#lsBreadth, ul#courseLevel, #seats-units {
+ul#campusReq, ul#lsBreadth, ul#courseLevel, #seats-units, #curriculum {
     -moz-column-count: 2;
     -moz-column-gap: 20px;
     -webkit-column-count: 2;
@@ -164,15 +164,19 @@ ul#campusReq, ul#lsBreadth, ul#courseLevel, #seats-units {
     column-gap: 20px;
 }
 
-#seats-units .formGroup, ul#courseLevel {
+#seats-units .formGroup, ul#campusReq {
   height: 70px;
 }
 
-ul#campusReq {
-  height: 70px;
+ul#courseLevel, ul#curriculum {
+  height: 60px;
 }
 
 /* seats and units */
+#seats-units {
+  margin-bottom: 10px;
+}
+
 select.units {
   width: 65px;
   margin-left: 1px;
