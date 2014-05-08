@@ -324,7 +324,7 @@ function loadJSON (filename) {
     });
 
     showFacets();
-    helpText();
+    setupHelpText();
 
   });
 
@@ -993,73 +993,5 @@ $(document).ready(function () {
   
 });
 
-function helpText() {
 
-  // on hover over various elements in the page, update the text in the box in the bottom right.
-  var $helpBox = $('#prototypeHelp'),
-    $helpTitle = $('#prototypeHelp h3'),
-    $helpText = $('#helpTextDiv');
-
-  // reset function to pass
-  var resetText = function resetHelpText () {
-   // $helpTitle.text('Prototype Help Box');
-   // $helpText.text('Hover over something in the search field for more information about it.');
-  }
-
-  $('#toggleHelp').on('click', function (event) {
-    $('#prototypeHelp').toggleClass('helpboxClose')
-                       .toggleClass('helpboxOpen');
-    $helpTitle.toggleClass('hidden');
-    $helpText.toggleClass('hidden');
-    if ($helpTitle.hasClass('hidden')) {
-      $(this).prop('value', 'Show');
-    }
-    else {
-      $(this).prop('value', 'Hide');
-    }
-  });
-
-
-  $('#facets').hover(function (event) {
-    $helpTitle.text('Facets');
-    $helpText.html('There are several important behaviors of facets that are not implemented in this prototype: <ol>'
-    + '<li>Facet categories should be collapsible, as indicated by the arrow icons alongside the facet titles.</li> '
-    + '<li>Currently, when a facet option is selected and the results are narrowed, the summary line at the top of the page showing the number of overall results '
-    + 'and the search criteria stays the same. When implemented, this summary line should be updated to reflect the number of results being displayed '
-    + 'and the updated search criteria. </li>'
-    + '<li>Currently, the lecture and discussion instances returned by a search are not filtered out by the facets even if a '
-    + 'facet criterion chosen should exclude the instance. For example, kdjgld'
-    + 'This should be fixed at implementation so that all displayed instances </li>'
-    + 'conform to all search criteria. <li>Note that it is not recommended to select more than 10 total facet options, as doing so may '
-    + 'slow and/or crash your browser.</li></ol>');
-  });
-  
-   $('#resultsSummary').hover(function (event) {
-    $helpTitle.text('Results Summary');
-    $helpText.html('This does not currently update with new search criteria when facet options are selected. At implementation, it should update.');
-  });
-  
-     $('#savedCourses').hover(function (event) {
-    $helpTitle.text('Saved Courses');
-    $helpText.html('This feature has been designed but is not built in this prototype. '
-    + 'Please see our <a href="http://www.ischool.berkeley.edu/programs/mims/projects/2014/coursesearch" target="_blank"> project report</a> for design details of this feature.');
-  });
-
- $('#resultsHeaderRow').hover(function (event) {
-    $helpTitle.text('Header Sorting');
-    $helpText.html('As indicated by the sortation icons on the column headers, the results ' 
-    + 'table should be sortable on Department, Number, Title, Instructor, Schedule, and Unit.');
-  });
-  
- $('.details').hover(function (event) {
-    $helpTitle.text('Details');
-    $helpText.html('<ul><li><bold>Course Evaluations and Grade Distribution Information:</bold> This field is intended to display course evaluation and grade distribution data, '
-    + 'which are highly desired by students. When available, the information should be displayed '
-    + 'in a default-closed manner. </li> <li><bold>Textbook Information:</bold> Textbook information is available through an API from the CalCentral project. '
-    + 'Text only (rather than cover images) should be used, along with a link to purchasing or other '
-    + 'information about the book if possible. </li>');
-  });
-  
-
-}
 

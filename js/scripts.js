@@ -4,7 +4,7 @@ function submitForm () {
     inputCourseNumber = $('#inputCourseNumber').val(),
     inputKeywords = $('#inputKeywords').val().toLowerCase(),
     inputTitle = $('#inputTitle').val().toLowerCase(),
-    inputInstructors = $('#inputInstructors').val().toLowerCase(),
+    inputInstructors = $('#inputInstructors').val().toLowerCase()
     openSeats = ($('#openSeats').is(':checked')) ? true:false,
     openWaitlist = ($('#openWaitlist').is(':checked')) ? true:false,
     exclude = ($('#exclude').is(':checked')) ? true:false,
@@ -179,143 +179,15 @@ $(document).ready(function () {
     submitForm();
   });
 
-
-  // on hover over various elements in the page, update the text in the box in the bottom right.
-  var $helpBox = $('#prototypeHelp'),
-    $helpTitle = $('#prototypeHelp h3'),
-    $helpText = $('#helpTextDiv');
-
-  // reset function to pass
-  var resetText = function resetHelpText () {
-   // $helpTitle.text('Prototype Help Box');
-   // $helpText.text('Hover over something in the search field for more information about it.');
-  }
-
-  $('#toggleHelp').on('click', function (event) {
-    $('#prototypeHelp').toggleClass('helpboxClose')
-                       .toggleClass('helpboxOpen');
-    $helpTitle.toggleClass('hidden');
-    $helpText.toggleClass('hidden');
-    if ($helpTitle.hasClass('hidden')) {
-      $(this).prop('value', 'Show');
-    }
-    else {
-      $(this).prop('value', 'Hide');
-    }
-  });
-
-
-  $('.searchBtn').hover(function (event) {
-    $helpTitle.text('Search Options');
-    $helpText.html('Supported searches: <ol>'
-    + '<li> Find Public Health major classes offered in the upcoming semester—'
-    + 'Semester field: Fall 2014, Major(s) field, "public health." </li>'
-    + '<li> Find classes that meet Campus and Breadth requirements—'
-    + 'All Campus and L&S Breadth requirements boxes checked, Semester field: All. </li>'
-    + '<li> Find classes related to sustainability—Semester field: All, Keyword field: "sustainability." </li>'
-    + '<li> Find classes in the upcoming semester that meet only MW morning and TTh—Semester field: Fall 2014,' 
-    + 'calendar: MW 9-12:30 selected, all of TTh selected.</li>'
-    + '<li> Find backup classes with open seats—Semester field: Fall 2014, open seats checkbox checked.</li>');
-  });
-
-  $('#inputSemester').hover(function (event) {
-    $helpTitle.text('Semester menu');
-    $helpText.html('<p>This menu should be populated with the current semester and upcoming '
-    + 'semesters for which schedules are available, along with "All," which when selected returns '
-    + 'any course regardless of scheduling status. When a semester ends, it should be removed '
-    + 'from the menu. This will satisfy all use cases while minimizing interface clutter.</p>');
-  });
-  
-  $('#inputDepartment').hover(function (event) {
-    $helpTitle.text('Department');
-    $helpText.html('<p>Typing in this box generates autosuggested names of departments '
-    + 'that contain the sequence of letters entered; the intent is that the suggestion list should start with '
-    + 'departments that start with the sequence, followed alphabetically by department names '
-    + 'containing the sequence internally.</p>');
-  });
-
-  $('#inputCourseNumber').hover(function (event) {
-    $helpTitle.text('Course Number');
-    $helpText.html('<p>At implementation, if the Department field is filled in, '
-    + 'this field should autosuggest valid course numbers.</p>');
-  });
-
-  $('#inputKeywords').hover(function (event) {
-    $helpTitle.text('Keyword');
-    $helpText.html('<p>For terms entered in this field, search should return results where the '
-    + 'title or course description contains the term. Boolean logic for search of multiple terms '
-    + 'should be AND. Quotes for phrase search should be supported.</p>');
-  });
-
-  $('#inputTitle').hover(function (event) {
-    $helpTitle.text('Title Keyword');
-    $helpText.html('<p>For terms entered in this field, search should return results where the '
-    + 'course title contains the term. Boolean logic for search of multiple terms should be AND. '
-    + 'Quotes for phrase search should be supported.</p>');
-  });
-
-  $('#inputInstructors').hover(function (event) {
-    $helpTitle.text('Instructors');
-    $helpText.html('<p>For terms entered in this field, search should return results of courses '
-    + 'taught by the specified instructors. Boolean logic for search of multiple terms '
-    + 'should be AND.</p>');
-  });
-
-  $('#seats-units ul.formGroup').hover(function (event) {
-    $helpTitle.text('Seats, Waitlist, Exclude');
-    $helpText.html('<p>Checkboxes to modify the search results.</p>');
-  });
-
-  $('.units').hover(function (event) {
-    $helpTitle.text('Units');
-    $helpText.html('<p>Dropdown options to set min and max units.</p>');
-  });
-
-  $('#courseLevel').hover(function (event) {
-    $helpTitle.text('Course Level');
-    $helpText.html('<p>Select multiple course levels.</p>');
-  });
-
-  $('#curriculum').hover(function (event) {
-    $helpTitle.text('Curriculum Connections');
-    $helpText.html('<p>A selection of the different types of learning opportunities at Berkeley.</p>');
-  });
-
-  $('#requirements').hover(function (event) {
-    $helpTitle.text('Breadth Requirements');
-    $helpText.html('<p>Campus and L&S Breadth requirement selections..</p>');
-  });
-
-  $('#reqMajor').hover(function (event) {
-    $helpTitle.text('Major');
-    $helpText.html('<p>This field should autosuggest similarly to Department. The results should be classes that '
-    + 'meet requirements for the chosen major. Searches on multiple majors should be supported (clicking the + icon '
-    + 'should bring up an additional entry field). Logic for multiple major searches should be Boolean OR.</p>' );
-  });
-
-  $('#reqMinor').hover(function (event) {
-    $helpTitle.text('Minor');
-    $helpText.html('<p>This field should autosuggest similarly to Department. The results should be classes that '
-    + 'meet requirements for the chosen minor. Searches on multiple minors should be supported (clicking the + icon '
-    + 'should bring up an additional entry field). Logic for multiple minor searches should be Boolean OR.</p>');
-  });
-
-  $('#timeTable').hover(function (event) {
-    $helpTitle.text('Day and Time');
-    $helpText.html('<p>This field allows the user to select time blocks when they are free. If left blank, '
-    + 'no time restrictions are placed on the results. If any blocks are selected, results are classes '
-    + 'that are fully contained within the selected blocks.</p><p> Note that time blocks have been chosen to '
-    + 'balance search flexibility with keeping the page accessible; too many blocks '
-    + 'would create arduous tabbing for users of screen readers. </p><p>Also note that current interaction '
-    + 'is to click inside am individual time block to select it; a click and drag selection '
-    + 'interaction would be preferred.</p>');
-  });
-
+  // event handler to submit on hitting enter
   $(document).keypress(function (event) {
     if (event.which === 13) {
       submitForm();
     }
   })
+
+  // call helptext stuff
+  setupHelpText();
 
 });
 
