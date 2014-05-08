@@ -132,10 +132,12 @@ $(document).ready(function () {
     $text.parent().fadeOut(function() {
       if ($text.text() === 'Show') {
         $advanced.fadeIn(50);
+        $('#advHelp').fadeIn(50);
         $text.text('Hide');
       }
       else {
         $advanced.fadeOut(50);
+        $('#advHelp').fadeOut(50);
         $text.text('Show');
       }
     }).fadeIn();
