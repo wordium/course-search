@@ -350,9 +350,14 @@ function loadJSON (filename) {
     $ulRequirements.children().remove();
     for (var item in fBreadth) {
       if (fBreadth[item] > 0) {
-        var classBreadth = item.replace(/[&,\s]+/g, '');
+        var classBreadth = item.replace(/[&,\s]+/g, ''),
+          displayBreadth = item.replace('Reading & Composition', 'Reading & Comp');
+
+        /*if (item.indexOf('Reading & Composition') > 0)
+          displayBreadth = item.replace('Reading & Composition', 'Reading & Comp');*/
+
         $ulRequirements.append('<li class="facet"> <input type="checkbox" id="facet' + classBreadth + '" value="' + classBreadth +'"/>' 
-                              + '<label for="facet' + classBreadth + '">' + item + " (" + fBreadth[item] + ")</label></li>");
+                              + '<label for="facet' + classBreadth + '">' + displayBreadth + " (" + fBreadth[item] + ")</label></li>");
       }
     }
 
