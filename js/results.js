@@ -227,7 +227,7 @@ function getInstanceFacets (instance) {
 }
 
 /* assumes filename being passed does include the file type */
-function getJSON (filename) {
+function loadJSON (filename) {
 
   var path = 'data/' + filename,
     results = '',
@@ -765,7 +765,7 @@ function detailsRow (course, hasInstance) {
     row += '<p><span class="descriptionCategory">Exam Group: </span>' +instance[0].finalGroup + '</p>';
 
     //textbooks/
-    row += '<p><span class="descriptionCategory">Textbooks: </span> Text information would go here </p>';
+    row += '<p><span class="descriptionCategory textbookInfo">Textbooks: </span> Text information would go here </p>';
   }
 
 
@@ -783,7 +783,7 @@ function detailsRow (course, hasInstance) {
     row += '</ul>';
   }
 
-  row += '<p><span class="descriptionCategory">Ratings and Grades</span></p></tr>';
+  row += '<p><span class="descriptionCategory ratingsAndGrades">Ratings and Grades</span></p></tr>';
 
   return row;
 }
@@ -964,10 +964,10 @@ $(document).ready(function () {
 
   $('#fileChange li').on('click', function () {
     var filename = $(this).text();
-    getJSON(filename);
+    loadJSON(filename);
   });
 
   var filename = $('#main').attr('data-file');
-  getJSON(filename);
+  loadJSON(filename);
 });
 
