@@ -70,9 +70,9 @@
        UC Berkeley requirements.
        </div>
        
-       <div id="helpBreadthReqs"><span class="helpHead">L&S Breadth Requirements:</span> Check boxes to search for courses that fulfill the selected 
-       breadth requirements. Note that although most courses that meet L&S requirements will 
-       also do so for other colleges, students outside of L&S should double-check with their 
+       <div id="helpBreadthReqs"><span class="helpHead">L&amp;S Breadth Requirements:</span> Check boxes to search for courses that fulfill the selected 
+       breadth requirements. Note that although most courses that meet L&amp;S requirements will 
+       also do so for other colleges, students outside of L&amp;S should double-check with their 
        advisor and/or the handbook that documents their requirements.
        </div>
        
@@ -109,7 +109,7 @@
                   </select>
                 </td>
               </tr>
-              <tr><td>&nbsp;</td></tr>
+              <tr><td colspan="2">&nbsp;</td></tr>
             </tbody>
 
             <tbody>
@@ -122,7 +122,7 @@
                 <td class="formLabel"><label for="inputCourseNumber">Course Number:</label></td>
                 <td class="formInput"><input type="text" id="inputCourseNumber" placeholder="E.g., 1A"/></td>
               </tr>
-              <tr><td>&nbsp;</td></tr>
+              <tr><td colspan="2">&nbsp;</td></tr>
             </tbody>
             
             <tbody>
@@ -135,7 +135,7 @@
                 <td class="formLabel"><label for="inputTitle">Title Keyword(s):</label></td>
                 <td class="formInput"><input type="text" id="inputTitle" placeholder="Enter text to search course titles"/></td>
               </tr>
-              <tr><td>&nbsp;</td></tr>
+              <tr><td colspan="2">&nbsp;</td></tr>
             </tbody>
             
             <tbody>
@@ -153,15 +153,166 @@
         <div id="toggleAdvSearch"><span id="advancedState">Show</span> Advanced Search Options</div>
 
         <div id="advanced">
-          <div id="advCheckboxes">
+    		<!-- 
+          		<div id="advCheckboxes">
+			 -->
+			 
+			 <!-- 
+            		<div id="seats-units">
+ -->
 
-            <div id="seats-units">
-              <ul class="formGroup">
-                <div class="sectionTitle">Seats and Type:</div>
-                <li><input type="checkbox" id="openSeats"> <label for="openSeats">Open Seats</label></input></li>
-                <li><input type="checkbox" id="openWaitlist"> <label for="openWaitlist">Open Waitlist</label></input></li>
-                <li><input type="checkbox" id="exclude"> <label for="exclude">Exclude Discussions and Labs</label></input></li>
-              </ul>
+        	<table>
+            <tbody id="seats-units"> 
+				<tr>
+            		<td colspan="2"><div class="sectionTitle">Seats and Type:</div></td>
+            	</tr>
+            	
+            	<tr>
+            		<td><input type="checkbox" id="openSeats" /><label for="openSeats">Open Seats</label></td>
+            		<td><label id="unitsLabel">Units:</label></td>
+            	</tr>
+            	
+            	<tr>
+            		<td><input type="checkbox" id="openWaitlist" /> <label for="openWaitlist">Open Waitlist</label></td>
+            		<td><select class="units" id="unitsMin">
+						  <option value="-1">Min</option>
+						  <option value="0">0</option>
+						  <option value="1">1</option>
+						  <option value="2">2</option>
+						  <option value="3">3</option>
+						  <option value="4">4</option>
+						  <option value="5">5</option>
+						</select>
+
+						<select class="units" id="unitsMax">
+						  <option value="15">Max</option>
+						  <option value="1">1</option>
+						  <option value="2">2</option>
+						  <option value="3">3</option>
+						  <option value="4">4</option>
+						  <option value="5">5</option>
+						  <option value="6">6+</option>
+						</select>
+					</td>
+				</tr>			
+				</tbody>
+				
+				<tbody>
+					<tr>
+						<td colspan="2"><div class="sectionTitle">Course Level:</div></td>
+					</tr>
+				
+					<tr>
+						<td><input type="checkbox" id="lowerDiv" /> <label for="lowerDiv">Lower Division (1-99)</label></td>
+						<td><input type="checkbox" id="graduate" /> <label for="graduate">Graduate (200-299)</label></td>
+					</tr>
+				
+					<tr>
+						<td><input type="checkbox" id="upperDiv" /> <label for="upperDiv">Upper Division (100-199)</label></td>
+						<td><input type="checkbox" id="professional" /> <label for="professional">Professional (300-399)</label></td>
+					</tr>
+				</tbody>
+				
+				<tbody>
+					<tr>
+						<td colspan="2"><div class="sectionTitle">Curricular Programs:</div></td>
+					</tr>
+				
+					<tr>
+						<td colspan="2"><input type="checkbox" id="berkeleyConnect" /> <label for="berkeleyConnect">Berkeley Connect</label></td>
+					</tr>
+				
+					<tr>
+						<td colspan="2"><input type="checkbox" id="courseThread" /> <label for="courseThread">Course Threads</label></td>
+					</tr>
+				
+					<tr>
+						<td colspan="2"><input type="checkbox" id="freshSophSem" /> <label for="freshSophSem">Freshman/sophomore Seminars</label></td>
+					</tr>
+				</tbody>
+			
+			<tbody id="requirements">
+				<tr>
+					<td colspan="2"><div class="sectionTitle">Campus Requirements:</div></td>
+				</tr>
+				
+				<tr>
+					<td><input type="checkbox" id="r-AC"/> <label for="r-AC">American Cultures</label></td>
+					<td><input type="checkbox" id="r-RCA"/> <label for="r-RCA">Reading and Composition A</label></td>
+				</tr>
+				
+				<tr>
+				    <td><input type="checkbox" id="r-AH"/> <label for="r-AH">American History</label></td>
+				    <td><input type="checkbox" id="r-RCB"/> <label for="r-RCB">Reading and Composition B</label></td>
+				</tr>
+				
+				<tr>
+					<td colspan="2"><input type="checkbox" id="r-AI"/> <label for="r-AI">American Institutions</label></td>
+				</tr>
+				    
+				<tr>
+					<td colspan="2"><div class="sectionTitle">Letters &amp; Science 7 Course Breadth:</div></td>
+				</tr>
+				
+				<tr>
+					<td colspan="2"><div class="note">Most courses that meet L&amp;S Breadth requirements will do so for other colleges as well. 
+					If you are unsure, check with your advisor or your college's handbook.</div></td>
+				</tr>
+				
+				<tr>
+					<td><input type="checkbox" id="r-AL"/> <label for="r-AL">Arts and Literature</label></td>
+					<td><input type="checkbox" id="r-PV"/> <label for="r-PV">Philosophy and Values</label></td>
+				</tr>
+				
+				<tr>
+					<td><input type="checkbox" id="r-BS"/> <label for="r-BS">Biological Science</label></td>
+					<td><input type="checkbox" id="r-PS"/> <label for="r-PS">Physical Science</label></td>
+				</tr>
+				
+				<tr>
+					<td><input type="checkbox" id="r-HS"/> <label for="r-HS">Historical Studies</label></td>
+					<td><input type="checkbox" id="r-SBS"/> <label for="r-SBS">Social and Behavioral Science</label></td>
+				</tr>
+				
+				<tr>
+					<td colspan="2"><input type="checkbox" id="r-IS"/> <label for="r-IS">International Studies</label></td>
+				</tr>
+			
+			</tbody>
+
+			<tbody id="majorMinor">
+				<tr>
+				<td colspan="2"><label for="reqMajor">Major:</label></td>
+				</tr>
+				
+				<tr>
+				<td colspan="2"><input type="text" id="reqMajor" placeholder="Enter a major to search for courses that are included in its requirements"/></td>
+				</tr>
+				
+                <tr>
+				<td colspan="2"><label for="reqMinor">Minor:</label></td>
+				</tr>
+				
+				<tr>
+				<td colspan="2"><input type="text" id="reqMinor" placeholder="Enter a minor to search for courses that are included in its requirements"/></td>
+				</tr>
+                
+            </tbody><!-- #majorMinor -->
+          
+
+			
+
+<!-- 
+			</div><!~~end of seats units div ~~>
+ -->
+			
+<!-- 
+              			<ul class="formGroup">
+                		<div class="sectionTitle">Seats and Type:</div>
+                		<li><input type="checkbox" id="openSeats"> <label for="openSeats">Open Seats</label></input></li>
+                		<li><input type="checkbox" id="openWaitlist"> <label for="openWaitlist">Open Waitlist</label></input></li>
+                		<li><input type="checkbox" id="exclude"> <label for="exclude">Exclude Discussions and Labs</label></input></li>
+              		</ul>
 
               <div class="formGroup">
                 <label id="unitsLabel">Units:</label>
@@ -186,8 +337,10 @@
                   <option value="6">6+</option>
                 </select>
               </div>
-            </div>
-
+ -->
+            
+			
+<!-- 
             <div class="formGroup">
               <div class="sectionTitle">Course Level:</div>
               <ul id="courseLevel">
@@ -205,8 +358,12 @@
               </ul>
             </div>
             
-          </div><!-- #advCheckboxes -->
+ -->
+<!-- 
+          </div><!~~ #advCheckboxes ~~>
+ -->
 
+<!-- 
           <div id="requirements">
             <div class="sectionTitle">Campus Requirements:</div>
             <ul class="formGroup" id="campusReq">
@@ -228,8 +385,10 @@
               <li><input type="checkbox" id="r-PS"/> <label for="r-PS">Physical Science</label></li>
               <li><input type="checkbox" id="r-SBS"/> <label for="r-SBS">Social and Behavioral Science</label></li>
             </ul>
-          </div> <!-- #requirements -->
+          </div> <!~~ #requirements ~~>
+ -->
 
+<!-- 
             <div id="majorMinor">
               <div class="formGroup">
                 <label for="reqMajor">Major:</label>
@@ -237,106 +396,118 @@
                 <label for="reqMinor">Minor:</label>
                 <input type="text" id="reqMinor" placeholder="Enter a minor to search for courses that are included in its requirements"/>
               </div>
-            </div><!-- #majorMinor -->
+            </div><!~~ #majorMinor ~~>
           
+ -->
 
-          <div id="time" class="formGroup">
-            <div class="sectionTitle">Day and Time:</div>
-            <div class="note">Select time blocks to find classes that meet only during hours selected.</div>
-            <table id="timeTable">
-              <tr>
-                <td id="emptyTD"></td>
-                <td data-day="mon" class="selectDay">Mon</td>
-                <td data-day="tue" class="selectDay">Tue</td>
-                <td data-day="wed" class="selectDay">Wed</td>
-                <td data-day="thu" class="selectDay">Thu</td>
-                <td data-day="fri" class="selectDay">Fri</td>
-                <td data-day="sat" class="selectDay">Sat</td>
-                <td data-day="sun" class="selectDay">Sun</td>
-              </tr>
-              <tr>
-                <td data-time="time-1" class="selectTime">8:00-9:30 a.m.</td>
-                <td data-day="mon" data-time="time-1" class="time-1 mon selectable"></td>
-                <td data-day="tue" data-time="time-1" class="time-1 tue selectable"></td>
-                <td data-day="wed" data-time="time-1" class="time-1 wed selectable"></td>
-                <td data-day="thu" data-time="time-1" class="time-1 thu selectable"></td>
-                <td data-day="fri" data-time="time-1" class="time-1 fri selectable"></td>
-                <td data-day="sat" data-time="time-1" class="time-1 sat selectable"></td>
-                <td data-day="sun" data-time="time-1" class="time-1 sun selectable"></td>
-              </tr>
-              <tr>
-                <td data-time="time-2" class="selectTime">9:30-11:00 a.m.</td>
-                <td data-day="mon" data-time="time-2" class="time-2 mon selectable"></td>
-                <td data-day="tue" data-time="time-2" class="time-2 tue selectable"></td>
-                <td data-day="wed" data-time="time-2" class="time-2 wed selectable"></td>
-                <td data-day="thu" data-time="time-2" class="time-2 thu selectable"></td>
-                <td data-day="fri" data-time="time-2" class="time-2 fri selectable"></td>
-                <td data-day="sat" data-time="time-2" class="time-2 sat selectable"></td>
-                <td data-day="sun" data-time="time-2" class="time-2 sun selectable"></td>
-              </tr>
-              <tr>
-                <td data-time="time-3" class="selectTime">11:00 a.m.-12:30 p.m.</td>
-                <td data-day="mon" data-time="time-3" class="time-3 mon selectable"></td>
-                <td data-day="tue" data-time="time-3" class="time-3 tue selectable"></td>
-                <td data-day="wed" data-time="time-3" class="time-3 wed selectable"></td>
-                <td data-day="thu" data-time="time-3" class="time-3 thu selectable"></td>
-                <td data-day="fri" data-time="time-3" class="time-3 fri selectable"></td>
-                <td data-day="sat" data-time="time-3" class="time-3 sat selectable"></td>
-                <td data-day="sun" data-time="time-3" class="time-3 sun selectable"></td>
-              </tr>
-              <tr>
-                <td data-time="time-4" class="selectTime">12:30-2:00 p.m.</td>
-                <td data-day="mon" data-time="time-4" class="time-4 mon selectable"></td>
-                <td data-day="tue" data-time="time-4" class="time-4 tue selectable"></td>
-                <td data-day="wed" data-time="time-4" class="time-4 wed selectable"></td>
-                <td data-day="thu" data-time="time-4" class="time-4 thu selectable"></td>
-                <td data-day="fri" data-time="time-4" class="time-4 fri selectable"></td>
-                <td data-day="sat" data-time="time-4" class="time-4 sat selectable"></td>
-                <td data-day="sun" data-time="time-4" class="time-4 sun selectable"></td>
-              </tr>
-              <tr>
-                <td data-time="time-5" class="selectTime">2:00-3:30 p.m.</td>
-                <td data-day="mon" data-time="time-5" class="time-5 mon selectable"></td>
-                <td data-day="tue" data-time="time-5" class="time-5 tue selectable"></td>
-                <td data-day="wed" data-time="time-5" class="time-5 wed selectable"></td>
-                <td data-day="thu" data-time="time-5" class="time-5 thu selectable"></td>
-                <td data-day="fri" data-time="time-5" class="time-5 fri selectable"></td>
-                <td data-day="sat" data-time="time-5" class="time-5 sat selectable"></td>
-                <td data-day="sun" data-time="time-5" class="time-5 sun selectable"></td>
-              </tr>
-              <tr>
-                <td data-time="time-6" class="selectTime">3:30-5:00 p.m.</td>
-                <td data-day="mon" data-time="time-6" class="time-6 mon selectable"></td>
-                <td data-day="tue" data-time="time-6" class="time-6 tue selectable"></td>
-                <td data-day="wed" data-time="time-6" class="time-6 wed selectable"></td>
-                <td data-day="thu" data-time="time-6" class="time-6 thu selectable"></td>
-                <td data-day="fri" data-time="time-6" class="time-6 fri selectable"></td>
-                <td data-day="sat" data-time="time-6" class="time-6 sat selectable"></td>
-                <td data-day="sun" data-time="time-6" class="time-6 sun selectable"></td>
-              </tr>
-              
-              <tr>
-                <td data-time="time-7" class="selectTime">5:00-9:00 p.m.</td>
-                <td data-day="mon" data-time="time-7" class="time-7 mon selectable"></td>
-                <td data-day="tue" data-time="time-7" class="time-7 tue selectable"></td>
-                <td data-day="wed" data-time="time-7" class="time-7 wed selectable"></td>
-                <td data-day="thu" data-time="time-7" class="time-7 thu selectable"></td>
-                <td data-day="fri" data-time="time-7" class="time-7 fri selectable"></td>
-                <td data-day="sat" data-time="time-7" class="time-7 sat selectable"></td>
-                <td data-day="sun" data-time="time-7" class="time-7 sun selectable"></td>
-              </tr>
-
-            </table>
-          </div> <!-- #time -->
+          <tbody id="time"><!--open #time tbody-->
+          	<tr>
+            	<td colspan="2"><div class="sectionTitle">Day and Time:</div></td>
+            </tr>
+            
+            <tr>
+            	<td colspan="2"><div class="note">Select time blocks to find classes that meet only during hours selected.</div></td>
+            </tr>
+            
+            <tr>
+            	<td colspan="2">
+					<table id="timeTable">
+					  <tr>
+						<td id="emptyTD"></td>
+						<td data-day="mon" class="selectDay">Mon</td>
+						<td data-day="tue" class="selectDay">Tue</td>
+						<td data-day="wed" class="selectDay">Wed</td>
+						<td data-day="thu" class="selectDay">Thu</td>
+						<td data-day="fri" class="selectDay">Fri</td>
+						<td data-day="sat" class="selectDay">Sat</td>
+						<td data-day="sun" class="selectDay">Sun</td>
+					  </tr>
+					  <tr>
+						<td data-time="time-1" class="selectTime">8:00-9:30 a.m.</td>
+						<td data-day="mon" data-time="time-1" class="time-1 mon selectable"></td>
+						<td data-day="tue" data-time="time-1" class="time-1 tue selectable"></td>
+						<td data-day="wed" data-time="time-1" class="time-1 wed selectable"></td>
+						<td data-day="thu" data-time="time-1" class="time-1 thu selectable"></td>
+						<td data-day="fri" data-time="time-1" class="time-1 fri selectable"></td>
+						<td data-day="sat" data-time="time-1" class="time-1 sat selectable"></td>
+						<td data-day="sun" data-time="time-1" class="time-1 sun selectable"></td>
+					  </tr>
+					  <tr>
+						<td data-time="time-2" class="selectTime">9:30-11:00 a.m.</td>
+						<td data-day="mon" data-time="time-2" class="time-2 mon selectable"></td>
+						<td data-day="tue" data-time="time-2" class="time-2 tue selectable"></td>
+						<td data-day="wed" data-time="time-2" class="time-2 wed selectable"></td>
+						<td data-day="thu" data-time="time-2" class="time-2 thu selectable"></td>
+						<td data-day="fri" data-time="time-2" class="time-2 fri selectable"></td>
+						<td data-day="sat" data-time="time-2" class="time-2 sat selectable"></td>
+						<td data-day="sun" data-time="time-2" class="time-2 sun selectable"></td>
+					  </tr>
+					  <tr>
+						<td data-time="time-3" class="selectTime">11:00 a.m.-12:30 p.m.</td>
+						<td data-day="mon" data-time="time-3" class="time-3 mon selectable"></td>
+						<td data-day="tue" data-time="time-3" class="time-3 tue selectable"></td>
+						<td data-day="wed" data-time="time-3" class="time-3 wed selectable"></td>
+						<td data-day="thu" data-time="time-3" class="time-3 thu selectable"></td>
+						<td data-day="fri" data-time="time-3" class="time-3 fri selectable"></td>
+						<td data-day="sat" data-time="time-3" class="time-3 sat selectable"></td>
+						<td data-day="sun" data-time="time-3" class="time-3 sun selectable"></td>
+					  </tr>
+					  <tr>
+						<td data-time="time-4" class="selectTime">12:30-2:00 p.m.</td>
+						<td data-day="mon" data-time="time-4" class="time-4 mon selectable"></td>
+						<td data-day="tue" data-time="time-4" class="time-4 tue selectable"></td>
+						<td data-day="wed" data-time="time-4" class="time-4 wed selectable"></td>
+						<td data-day="thu" data-time="time-4" class="time-4 thu selectable"></td>
+						<td data-day="fri" data-time="time-4" class="time-4 fri selectable"></td>
+						<td data-day="sat" data-time="time-4" class="time-4 sat selectable"></td>
+						<td data-day="sun" data-time="time-4" class="time-4 sun selectable"></td>
+					  </tr>
+					  <tr>
+						<td data-time="time-5" class="selectTime">2:00-3:30 p.m.</td>
+						<td data-day="mon" data-time="time-5" class="time-5 mon selectable"></td>
+						<td data-day="tue" data-time="time-5" class="time-5 tue selectable"></td>
+						<td data-day="wed" data-time="time-5" class="time-5 wed selectable"></td>
+						<td data-day="thu" data-time="time-5" class="time-5 thu selectable"></td>
+						<td data-day="fri" data-time="time-5" class="time-5 fri selectable"></td>
+						<td data-day="sat" data-time="time-5" class="time-5 sat selectable"></td>
+						<td data-day="sun" data-time="time-5" class="time-5 sun selectable"></td>
+					  </tr>
+					  <tr>
+						<td data-time="time-6" class="selectTime">3:30-5:00 p.m.</td>
+						<td data-day="mon" data-time="time-6" class="time-6 mon selectable"></td>
+						<td data-day="tue" data-time="time-6" class="time-6 tue selectable"></td>
+						<td data-day="wed" data-time="time-6" class="time-6 wed selectable"></td>
+						<td data-day="thu" data-time="time-6" class="time-6 thu selectable"></td>
+						<td data-day="fri" data-time="time-6" class="time-6 fri selectable"></td>
+						<td data-day="sat" data-time="time-6" class="time-6 sat selectable"></td>
+						<td data-day="sun" data-time="time-6" class="time-6 sun selectable"></td>
+					  </tr>
+			  
+					  <tr>
+						<td data-time="time-7" class="selectTime">5:00-9:00 p.m.</td>
+						<td data-day="mon" data-time="time-7" class="time-7 mon selectable"></td>
+						<td data-day="tue" data-time="time-7" class="time-7 tue selectable"></td>
+						<td data-day="wed" data-time="time-7" class="time-7 wed selectable"></td>
+						<td data-day="thu" data-time="time-7" class="time-7 thu selectable"></td>
+						<td data-day="fri" data-time="time-7" class="time-7 fri selectable"></td>
+						<td data-day="sat" data-time="time-7" class="time-7 sat selectable"></td>
+						<td data-day="sun" data-time="time-7" class="time-7 sun selectable"></td>
+					  </tr>
+				
+					</table> <!--close of #timeTable-->
+				</td>
+			</tr>
+				
+          </tbody> <!-- #time  -->
+    </table> <!-- advanced table -->
 
           <div>
             <input type="button" value="Search" class="searchBtn"/>
           </div>
-
         </div><!-- #advanced -->
       </div><!-- #searchForm -->
     </div><!-- #search -->
-  </div>
+  </div> <!--main? -->
 
   <img src="img/footer.png" class="bulletin" alt="Footer Placeholder">
   
