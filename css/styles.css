@@ -212,12 +212,36 @@ td#emptyTD {
   width: 125px;
 }
 
-
+/* prototype help box */
 #prototypeHelp {
+  transition: all 1s ease-in-out;
   position: fixed;
   right: 0;
   bottom: 0;
-  background-color: rgba(0,0,0,0.5);
+  background-color: rgba(0,0,0,0.75);
+  color: #fff;
+  padding: 15px;
+  height: 200px;
 }
 
+.helpboxOpen {
+  width: 300px;
+}
+
+.helpboxClose {
+  width: 50px;
+  background-color: rgba(0,0,0,0.25);
+}
+
+#toggleHelp {
+  float:right;
+
+}
+
+#test {
+  margin: 50px;
+}
+#test td {
+  border: 1px solid black;
+}
 

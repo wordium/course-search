@@ -114,7 +114,6 @@ function submitForm () {
     }
 }
 
-
 $(document).ready(function () {
 
   var $form = $('form');
@@ -177,6 +176,121 @@ $(document).ready(function () {
   $('.searchBtn').on('click', function (event) {
     submitForm();
   });
+
+
+  // on hover over various elements in the page, update the text in the box in the bottom right.
+  var $helpBox = $('#prototypeHelp'),
+    $helpTitle = $('#prototypeHelp h3'),
+    $helpText = $('#prototypeHelp span');
+
+  // reset function to pass
+  var resetText = function resetHelpText () {
+   // $helpTitle.text('Prototype Help Box');
+   // $helpText.text('Hover over something in the search field for more information about it.');
+  }
+
+  $('#toggleHelp').on('click', function (event) {
+    $('#prototypeHelp').toggleClass('helpboxClose')
+                       .toggleClass('helpboxOpen');
+    $helpTitle.toggleClass('hidden');
+    $helpText.toggleClass('hidden');
+    if ($helpTitle.hasClass('hidden')) {
+      $(this).prop('value', 'Show');
+    }
+    else {
+      $(this).prop('value', 'Hide');
+    }
+  });
+
+
+  $('.searchBtn').hover(function (event) {
+    $helpTitle.text('Search Options');
+    $helpText.text('These are the search options you have.');
+  });
+
+  $('#advancedState').hover(function (event) {
+    $helpTitle.text('Advanced Search Options');
+    $helpText.text('This is text about the advanced search options');
+  });
+
+
+  $('#inputDepartment').hover(function (event) {
+    $helpTitle.text('Department');
+    $helpText.text('This is text about the department input');
+  });
+
+  $('#inputCourseNumber').hover(function (event) {
+    $helpTitle.text('Course Number');
+    $helpText.text('This is text about the course number');
+  });
+
+  $('#inputKeywords').hover(function (event) {
+    $helpTitle.text('Keyword search');
+    $helpText.text('This is text about the keyword search');
+  });
+
+  $('#inputTitle').hover(function (event) {
+    $helpTitle.text('Title Keyword Search');
+    $helpText.text('This is text about the title keyword search');
+  });
+
+  $('#inputInstructors').hover(function (event) {
+    $helpTitle.text('Instructor(s)');
+    $helpText.text('This is text about the instructor search');
+  });
+
+  $('#seats-units ul.formGroup').hover(function (event) {
+    $helpTitle.text('Seats');
+    $helpText.text('This is text about the seats');
+  });
+
+  $('.units').hover(function (event) {
+    $helpTitle.text('Units');
+    $helpText.text('This is text about the units');
+  });
+
+  $('#courseLevel').hover(function (event) {
+    $helpTitle.text('Course Level');
+    $helpText.text('This is text about the course level');
+  });
+  
+  $('#curriculum').hover(function (event) {
+    $helpTitle.text('Snowflakes');
+    $helpText.text('This is text about how every snowflake is unique');
+  });
+
+  $('#campusReq').hover(function (event) {
+    $helpTitle.text('Campus Breadth Requirements');
+    $helpText.text('campus breadth requirements');
+  });
+
+  $('#lsBreadth').hover(function (event) {
+    $helpTitle.text('L&S 7-course Breadth Requirements');
+    $helpText.text('L&S breadth requirements');
+  });
+
+  $('#campusReq').hover(function (event) {
+    $helpTitle.text('Campus Breadth Requirements');
+    $helpText.text('campus breadth requirements');
+  });
+
+  $('#reqMajor').hover(function (event) {
+    $helpTitle.text('Major Requirements');
+    $helpText.text('Major requirements');
+  });
+
+  $('#reqMinor').hover(function (event) {
+    $helpTitle.text('Minor Requirements');
+    $helpText.text('Minor requirements');
+  });
+
+  $('#timeTable').hover(function (event) {
+    $helpTitle.text('Time and Day');
+    $helpText.text('SEARCHIN');
+  });
+
+  
+
 
 });
 
