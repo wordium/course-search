@@ -116,28 +116,30 @@ function submitForm () {
 
 $(document).ready(function () {
 
-  var $form = $('form');
-  console.log($form);
-  var $text = $('#advancedState');
-  var $advanced = $('#advanced');
+  var $form = $('form'),
+    $text = $('#advancedState'),
+    $advanced = $('#advanced'),
+    $advancedText = $('#advHelp');
   // uncomment when done testing:
   //$advanced.hide();
 
   departmentAutocomplete();
 
   // show/hide the advanced search stuff
+  $advanced.hide();
+  $advancedText.hide();
   $('#toggleAdvSearch').on('click', function () {
     
     // change the show/hide text in a fancy way
     $text.parent().fadeOut(function() {
       if ($text.text() === 'Show') {
         $advanced.fadeIn(50);
-        $('#advHelp').fadeIn(50);
+        $advancedText.fadeIn(50);
         $text.text('Hide');
       }
       else {
         $advanced.fadeOut(50);
-        $('#advHelp').fadeOut(50);
+        $advancedText.fadeOut(50);
         $text.text('Show');
       }
     }).fadeIn();
