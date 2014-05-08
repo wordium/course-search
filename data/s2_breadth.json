@@ -14,42 +14,42 @@
     }, 
     "classInstance": [
         {
-            "ccn": 90967, 
-            "days": "MWF", 
+            "ccn": 63558, 
+            "days": "TuTh", 
             "finalGroup": "Not applicable", 
             "instanceType": "Lecture", 
-            "instructor": "M. Wetterman", 
+            "instructor": "G. Burke", 
             "location": {
-                "building": "Barrows", 
-                "room": 220
+                "building": "Evans", 
+                "room": 99
             }, 
             "seats": {
-                "available": 32, 
-                "enrolled": 8, 
-                "max": 40, 
+                "available": 82, 
+                "enrolled": 18, 
+                "max": 100, 
                 "waitlist": 0
             }, 
             "semester": "Fall 2014", 
             "time": {
-                "end": "4P", 
-                "start": "2:30P"
+                "end": "4:30P", 
+                "start": "3P"
             }
         }, 
         {
-            "ccn": 44926, 
-            "days": "Th", 
+            "ccn": 34633, 
+            "days": "W", 
             "finalGroup": "Not applicable", 
             "instanceType": "Discussion", 
-            "instructor": "V. Benbow, Z. Alberts", 
+            "instructor": "B. Varela", 
             "location": {
-                "building": "Wheeler", 
-                "room": 111
+                "building": "Barrows", 
+                "room": 105
             }, 
             "seats": {
-                "available": 14, 
-                "enrolled": 1, 
-                "max": 15, 
-                "waitlist": 0
+                "available": 2, 
+                "enrolled": 8, 
+                "max": 10, 
+                "waitlist": 9
             }, 
             "semester": "Fall 2014", 
             "time": {
@@ -58,47 +58,25 @@
             }
         }, 
         {
-            "ccn": 66308, 
-            "days": "W", 
+            "ccn": 12806, 
+            "days": "Tu", 
             "finalGroup": "Not applicable", 
             "instanceType": "Discussion", 
-            "instructor": "M. Sarka", 
+            "instructor": "M. Mhasalkar, U. Jehlicka", 
             "location": {
-                "building": "Soda", 
-                "room": 224
+                "building": "Wurster", 
+                "room": 77
             }, 
             "seats": {
-                "available": 11, 
-                "enrolled": 1, 
-                "max": 12, 
+                "available": 5, 
+                "enrolled": 10, 
+                "max": 15, 
                 "waitlist": 0
             }, 
             "semester": "Fall 2014", 
             "time": {
-                "end": "5P", 
-                "start": "4P"
-            }
-        }, 
-        {
-            "ccn": 35033, 
-            "days": "Th", 
-            "finalGroup": "Not applicable", 
-            "instanceType": "Discussion", 
-            "instructor": "G. Burke", 
-            "location": {
-                "building": "Dwinelle", 
-                "room": 58
-            }, 
-            "seats": {
-                "available": 2, 
-                "enrolled": 23, 
-                "max": 25, 
-                "waitlist": 0
-            }, 
-            "semester": "Fall 2014", 
-            "time": {
-                "end": "11A", 
-                "start": "10A"
+                "end": "9A", 
+                "start": "8A"
             }
         }
     ], 
@@ -110,9 +88,9 @@
     "deptAbbrev": "ENV DES", 
     "description": "This course will expose students to key literature that examines, primarily, the relationship between sustainability and environmental design disciplines. Our goal will be not only to investigate the central ideas that inform the design of sustainable landscapes, cities, and buildings, but also to understand how competing arguments are presented in writing. Satisfies the second half of the Reading and Composition Requirement. ", 
     "format": "Three hours of Lecture per week for 15 weeks.", 
-    "freshSophSem": false, 
+    "freshSophSem": true, 
     "hasCoreqs": "", 
-    "isPrereqFor": "This class is a prerequisite for ENV DES 151.", 
+    "isPrereqFor": "ENV DES 151", 
     "note": "", 
     "number": "R3B", 
     "offerHist": [
@@ -150,7 +128,7 @@
     "format": "Six hours of Lecture per week for 8 weeks.", 
     "freshSophSem": false, 
     "hasCoreqs": "", 
-    "isPrereqFor": "This class is a prerequisite for MEC ENG 151.", 
+    "isPrereqFor": "", 
     "note": "", 
     "number": "191AC", 
     "offerHist": [
@@ -187,8 +165,8 @@
     "description": "This course emphasizes the development and application of policy solutions to developing-world problems related to poverty, macroeconomic policy, and environmental sustainability. Methods of statistical, economic, and policy analysis are applied to a series of case studies. The course is designed to develop practical professional skills for application in the international arena. ", 
     "format": "Three hours of Lecture per week for 15 weeks.", 
     "freshSophSem": false, 
-    "hasCoreqs": "A,RESEC 1A must be taken concurrently.", 
-    "isPrereqFor": "", 
+    "hasCoreqs": "", 
+    "isPrereqFor": "A,RESEC 151", 
     "note": "", 
     "number": "C253", 
     "offerHist": [
@@ -201,7 +179,7 @@
     "title": "International Economic Development Policy"
 }, 
 "course37":{
-    "berkeleyConnect": true, 
+    "berkeleyConnect": false, 
     "breadth": {
         "AC": false, 
         "AL": false, 
@@ -225,14 +203,14 @@
     "format": "Three hours of Lecture per week for 15 weeks.", 
     "freshSophSem": false, 
     "hasCoreqs": "", 
-    "isPrereqFor": "This class is a prerequisite for PUB POL 151.", 
+    "isPrereqFor": "", 
     "note": "", 
     "number": "C253", 
     "offerHist": [
-        "Fall 2013", 
         "Spring 2013", 
-        "Fall 2012", 
-        "Spring 2012"
+        "Spring 2012", 
+        "Spring 2011", 
+        "Spring 2010"
     ], 
     "prereqs": "", 
     "restrictions": "", 
@@ -261,16 +239,15 @@
     "deptAbbrev": "GWS", 
     "description": "This course will enable students to think critically about, and engage in practical experiments in, the complex interactions between new media and perceptions and performances of embodiment, agency, citizenship, collective action, individual identity, time, and spatiality. We will pay particular attention to the categories of personhood that make up the UC Berkeley American cultures rubric (race and ethnicity), as well as to gender, nation, and disability. The argument threading through the course will be the ways in which new media both reinforce preexisting social hierarchies and yet offer possibilities for the transcendence of those very categories. The new media--and we will leave the precise definition of the new media as something to be argued about over the course of the semester--can be yet another means for dividing and disenfranchising, and can be the conduit of violence and transnational dominance. ", 
     "format": " Six hours of lecture/studio per week. ", 
-    "freshSophSem": false, 
+    "freshSophSem": true, 
     "hasCoreqs": "", 
     "isPrereqFor": "", 
     "note": "", 
     "number": "C23AC", 
     "offerHist": [
         "Fall 2013", 
-        "Fall 2012", 
-        "Fall 2011", 
-        "Fall 2010"
+        "Spring 2011", 
+        "Spring 2009"
     ], 
     "prereqs": "", 
     "restrictions": "", 
@@ -292,29 +269,29 @@
     }, 
     "classInstance": [
         {
-            "ccn": 78419, 
+            "ccn": 89165, 
             "days": "M", 
             "finalGroup": "Group 3--Wednesday, December 17, 2014, 12 p.m.", 
             "instanceType": "Lecture", 
-            "instructor": "C. Giorgano", 
+            "instructor": "S. Abdullah", 
             "location": {
                 "building": "Wheeler", 
-                "room": 190
+                "room": 132
             }, 
             "seats": {
-                "available": 6, 
-                "enrolled": 44, 
-                "max": 50, 
-                "waitlist": 0
+                "available": 49, 
+                "enrolled": 451, 
+                "max": 500, 
+                "waitlist": 2
             }, 
             "semester": "Fall 2014", 
             "time": {
-                "end": "6P", 
-                "start": "4:30P"
+                "end": "11:30A", 
+                "start": "10A"
             }
         }
     ], 
-    "courseThread": "", 
+    "courseThread": "This course is part of the Cultural Forms in Transit Course Thread.", 
     "courseType": "Lecture", 
     "credit": 4, 
     "crossListing": "", 
@@ -328,10 +305,10 @@
     "note": "", 
     "number": "11AC", 
     "offerHist": [
-        "Fall 2013", 
-        "Fall 2012", 
-        "Fall 2011", 
-        "Fall 2010"
+        "Spring 2013", 
+        "Spring 2012", 
+        "Spring 2011", 
+        "Spring 2010"
     ], 
     "prereqs": "", 
     "restrictions": "", 
@@ -352,7 +329,7 @@
         "SS": false
     }, 
     "classInstance": [], 
-    "courseThread": "", 
+    "courseThread": "This course is part of the Cultural Forms in Transit Course Thread.", 
     "courseType": "Lecture", 
     "credit": 2, 
     "crossListing": "", 
@@ -362,14 +339,13 @@
     "format": "Three hours of Lecture per week for 15 weeks.", 
     "freshSophSem": false, 
     "hasCoreqs": "", 
-    "isPrereqFor": "This class is a prerequisite for EPS 151.", 
+    "isPrereqFor": "EPS 151", 
     "note": "", 
     "number": "106", 
     "offerHist": [
-        "Spring 2013", 
-        "Spring 2012", 
+        "Fall 2013", 
         "Spring 2011", 
-        "Spring 2010"
+        "Spring 2009"
     ], 
     "prereqs": "50 or equivalent. ", 
     "restrictions": "", 
@@ -391,69 +367,91 @@
     }, 
     "classInstance": [
         {
-            "ccn": 57862, 
-            "days": "MWF", 
+            "ccn": 85163, 
+            "days": "MW", 
             "finalGroup": "Group 3--Wednesday, December 17, 2014, 12 p.m.", 
             "instanceType": "Lecture", 
-            "instructor": "C. Giorgano", 
+            "instructor": "V. Benbow, Z. Alberts", 
             "location": {
-                "building": "Barrows", 
-                "room": 162
+                "building": "Wurster", 
+                "room": 274
             }, 
             "seats": {
-                "available": 34, 
-                "enrolled": 116, 
-                "max": 150, 
-                "waitlist": 0
+                "available": 13, 
+                "enrolled": 37, 
+                "max": 50, 
+                "waitlist": 7
             }, 
             "semester": "Fall 2014", 
             "time": {
-                "end": "4P", 
-                "start": "2:30P"
+                "end": "11A", 
+                "start": "10A"
             }
         }, 
         {
-            "ccn": 34854, 
+            "ccn": 79804, 
+            "days": "M", 
+            "finalGroup": "Not applicable", 
+            "instanceType": "Discussion", 
+            "instructor": "M. Wetterman", 
+            "location": {
+                "building": "Barrows", 
+                "room": 217
+            }, 
+            "seats": {
+                "available": 3, 
+                "enrolled": 22, 
+                "max": 25, 
+                "waitlist": 5
+            }, 
+            "semester": "Fall 2014", 
+            "time": {
+                "end": "1P", 
+                "start": "12P"
+            }
+        }, 
+        {
+            "ccn": 73838, 
             "days": "F", 
             "finalGroup": "Not applicable", 
             "instanceType": "Discussion", 
-            "instructor": "S. Abdullah", 
+            "instructor": "M. Wetterman", 
             "location": {
                 "building": "Wheeler", 
-                "room": 14
+                "room": 70
             }, 
             "seats": {
-                "available": 14, 
-                "enrolled": 1, 
-                "max": 15, 
+                "available": 13, 
+                "enrolled": 12, 
+                "max": 25, 
                 "waitlist": 0
             }, 
             "semester": "Fall 2014", 
             "time": {
-                "end": "4P", 
-                "start": "3P"
+                "end": "9A", 
+                "start": "8A"
             }
         }, 
         {
-            "ccn": 40694, 
+            "ccn": 97008, 
             "days": "Th", 
             "finalGroup": "Not applicable", 
             "instanceType": "Discussion", 
-            "instructor": "M. Mhasalkar, U. Jehlicka", 
+            "instructor": "B. Varela", 
             "location": {
                 "building": "Wurster", 
-                "room": 45
+                "room": 297
             }, 
             "seats": {
-                "available": 5, 
-                "enrolled": 15, 
-                "max": 20, 
-                "waitlist": 2
+                "available": 8, 
+                "enrolled": 7, 
+                "max": 15, 
+                "waitlist": 7
             }, 
             "semester": "Fall 2014", 
             "time": {
-                "end": "6P", 
-                "start": "5P"
+                "end": "12P", 
+                "start": "11A"
             }
         }
     ], 
@@ -467,14 +465,14 @@
     "format": "Two hours of Lecture per week for 15 weeks.", 
     "freshSophSem": false, 
     "hasCoreqs": "", 
-    "isPrereqFor": "", 
+    "isPrereqFor": "MBA 151", 
     "note": "", 
     "number": "268A", 
     "offerHist": [
+        "Fall 2013", 
         "Spring 2013", 
-        "Spring 2012", 
-        "Spring 2011", 
-        "Spring 2010"
+        "Fall 2012", 
+        "Spring 2012"
     ], 
     "prereqs": "Business Administration 206 or equivalent. ", 
     "restrictions": "", 
@@ -505,14 +503,13 @@
     "format": " Eight hours of lecture/discussion per week for six weeks, and seven hours of fieldwork per week for six weeks. ", 
     "freshSophSem": false, 
     "hasCoreqs": "", 
-    "isPrereqFor": "This class is a prerequisite for EDUC 151.", 
+    "isPrereqFor": "EDUC 151", 
     "note": "", 
     "number": "N140", 
     "offerHist": [
         "Fall 2013", 
-        "Fall 2012", 
-        "Fall 2011", 
-        "Fall 2010"
+        "Spring 2011", 
+        "Spring 2009"
     ], 
     "prereqs": "", 
     "restrictions": "", 
@@ -534,91 +531,113 @@
     }, 
     "classInstance": [
         {
-            "ccn": 61883, 
-            "days": "F", 
-            "finalGroup": "Group 3--Wednesday, December 17, 2014, 12 p.m.", 
+            "ccn": 49751, 
+            "days": "MWF", 
+            "finalGroup": "Group 2--Tuesday, December 16, 2014, 9 a.m.", 
             "instanceType": "Lecture", 
-            "instructor": "C. Marquez", 
-            "location": {
-                "building": "Wurster", 
-                "room": 105
-            }, 
-            "seats": {
-                "available": 85, 
-                "enrolled": 65, 
-                "max": 150, 
-                "waitlist": 1
-            }, 
-            "semester": "Fall 2014", 
-            "time": {
-                "end": "2P", 
-                "start": "1P"
-            }
-        }, 
-        {
-            "ccn": 15171, 
-            "days": "W", 
-            "finalGroup": "Not applicable", 
-            "instanceType": "Discussion", 
-            "instructor": "A. Kennard", 
+            "instructor": "K. Serafini, M. Ferrero", 
             "location": {
                 "building": "Barrows", 
-                "room": 15
+                "room": 40
             }, 
             "seats": {
-                "available": 13, 
-                "enrolled": 7, 
-                "max": 20, 
-                "waitlist": 1
+                "available": 175, 
+                "enrolled": 525, 
+                "max": 700, 
+                "waitlist": 9
             }, 
             "semester": "Fall 2014", 
             "time": {
-                "end": "2P", 
-                "start": "1P"
+                "end": "3P", 
+                "start": "2P"
             }
         }, 
         {
-            "ccn": 16597, 
+            "ccn": 20074, 
             "days": "F", 
             "finalGroup": "Not applicable", 
             "instanceType": "Discussion", 
-            "instructor": "C. Giorgano", 
+            "instructor": "S. Abdullah", 
             "location": {
-                "building": "Evans", 
-                "room": 216
+                "building": "Barrows", 
+                "room": 159
             }, 
             "seats": {
-                "available": 4, 
-                "enrolled": 21, 
+                "available": 16, 
+                "enrolled": 9, 
                 "max": 25, 
-                "waitlist": 1
-            }, 
-            "semester": "Fall 2014", 
-            "time": {
-                "end": "12P", 
-                "start": "11A"
-            }
-        }, 
-        {
-            "ccn": 47796, 
-            "days": "Th", 
-            "finalGroup": "Not applicable", 
-            "instanceType": "Discussion", 
-            "instructor": "D. Matousek, C. Stoddard", 
-            "location": {
-                "building": "Evans", 
-                "room": 236
-            }, 
-            "seats": {
-                "available": 2, 
-                "enrolled": 10, 
-                "max": 12, 
-                "waitlist": 5
+                "waitlist": 2
             }, 
             "semester": "Fall 2014", 
             "time": {
                 "end": "11A", 
                 "start": "10A"
+            }
+        }, 
+        {
+            "ccn": 91287, 
+            "days": "Tu", 
+            "finalGroup": "Not applicable", 
+            "instanceType": "Discussion", 
+            "instructor": "G. Burke", 
+            "location": {
+                "building": "Wurster", 
+                "room": 295
+            }, 
+            "seats": {
+                "available": 2, 
+                "enrolled": 18, 
+                "max": 20, 
+                "waitlist": 8
+            }, 
+            "semester": "Fall 2014", 
+            "time": {
+                "end": "5P", 
+                "start": "4P"
+            }
+        }, 
+        {
+            "ccn": 83908, 
+            "days": "F", 
+            "finalGroup": "Not applicable", 
+            "instanceType": "Discussion", 
+            "instructor": "W. Hopkins, M. Anson", 
+            "location": {
+                "building": "Evans", 
+                "room": 44
+            }, 
+            "seats": {
+                "available": 0, 
+                "enrolled": 20, 
+                "max": 20, 
+                "waitlist": 0
+            }, 
+            "semester": "Fall 2014", 
+            "time": {
+                "end": "11A", 
+                "start": "10A"
+            }
+        }, 
+        {
+            "ccn": 79535, 
+            "days": "M", 
+            "finalGroup": "Not applicable", 
+            "instanceType": "Discussion", 
+            "instructor": "S. Abdullah", 
+            "location": {
+                "building": "Wheeler", 
+                "room": 64
+            }, 
+            "seats": {
+                "available": 6, 
+                "enrolled": 14, 
+                "max": 20, 
+                "waitlist": 0
+            }, 
+            "semester": "Fall 2014", 
+            "time": {
+                "end": "5P", 
+                "start": "4P"
             }
         }
     ], 
@@ -637,8 +656,8 @@
     "number": "145AC", 
     "offerHist": [
         "Spring 2013", 
-        "Spring 2012", 
-        "Spring 2011", 
+        "Fall 2012", 
+        "Fall 2011", 
         "Spring 2010"
     ], 
     "prereqs": "", 
@@ -671,13 +690,13 @@
     "freshSophSem": false, 
     "hasCoreqs": "", 
     "isPrereqFor": "", 
-    "note": "", 
+    "note": "This is a note.", 
     "number": "170AC", 
     "offerHist": [
+        "Fall 2013", 
         "Spring 2013", 
         "Fall 2012", 
-        "Fall 2011", 
-        "Spring 2010"
+        "Spring 2012"
     ], 
     "prereqs": "", 
     "restrictions": "", 
@@ -699,25 +718,25 @@
     }, 
     "classInstance": [
         {
-            "ccn": 29291, 
-            "days": "M", 
+            "ccn": 47900, 
+            "days": "F", 
             "finalGroup": "Not applicable", 
             "instanceType": "Lecture", 
-            "instructor": "G. Burke", 
+            "instructor": "C. Giorgano", 
             "location": {
-                "building": "Barrows", 
-                "room": 230
+                "building": "Wurster", 
+                "room": 130
             }, 
             "seats": {
-                "available": 27, 
-                "enrolled": 23, 
-                "max": 50, 
-                "waitlist": 1
+                "available": 266, 
+                "enrolled": 434, 
+                "max": 700, 
+                "waitlist": 6
             }, 
             "semester": "Fall 2014", 
             "time": {
-                "end": "3P", 
-                "start": "2P"
+                "end": "6P", 
+                "start": "4:30P"
             }
         }
     ], 
@@ -729,8 +748,8 @@
     "deptAbbrev": "ENGLISH", 
     "description": "Study of the ethnic diversity of American literature. The course will take substantial account of the literature of three or more of the following groups: African Americans, Native Americans, Asian Americans, Chicanos/Latinos, and European Americans. Topics vary from semester to semester. Topic for this summer: Theorizing Children's Literature in American Cultures. ", 
     "format": "Four hours of Lecture per week for 8 weeks.", 
-    "freshSophSem": false, 
-    "hasCoreqs": "", 
+    "freshSophSem": true, 
+    "hasCoreqs": "ENGLISH 1A", 
     "isPrereqFor": "", 
     "note": "", 
     "number": "S135", 
@@ -758,7 +777,7 @@
         "SS": true
     }, 
     "classInstance": [], 
-    "courseThread": "This course is part of the Cultural Forms in Transit Course Thread.", 
+    "courseThread": "", 
     "courseType": "Lecture", 
     "credit": 3, 
     "crossListing": "", 
@@ -768,14 +787,14 @@
     "format": "Three hours of Lecture per week for 15 weeks.", 
     "freshSophSem": false, 
     "hasCoreqs": "", 
-    "isPrereqFor": "This class is a prerequisite for DEVP 151.", 
+    "isPrereqFor": "DEVP 151", 
     "note": "", 
     "number": "235", 
     "offerHist": [
-        "Fall 2013", 
         "Spring 2013", 
         "Fall 2012", 
-        "Spring 2012"
+        "Fall 2011", 
+        "Spring 2010"
     ], 
     "prereqs": "Microeconomics and econometrics at the undergraduate upper-division or Master's level. ", 
     "restrictions": "", 
@@ -797,25 +816,25 @@
     }, 
     "classInstance": [
         {
-            "ccn": 78215, 
+            "ccn": 26021, 
             "days": "M", 
             "finalGroup": "Not applicable", 
             "instanceType": "Lecture", 
-            "instructor": "B. Varela", 
+            "instructor": "M. Wetterman", 
             "location": {
-                "building": "Dwinelle", 
-                "room": 34
+                "building": "Wurster", 
+                "room": 146
             }, 
             "seats": {
-                "available": 48, 
-                "enrolled": 2, 
+                "available": 40, 
+                "enrolled": 10, 
                 "max": 50, 
-                "waitlist": 3
+                "waitlist": 5
             }, 
             "semester": "Fall 2014", 
             "time": {
-                "end": "2:30P", 
-                "start": "1P"
+                "end": "4:30P", 
+                "start": "3P"
             }
         }
     ], 
@@ -830,13 +849,13 @@
     "freshSophSem": false, 
     "hasCoreqs": "", 
     "isPrereqFor": "", 
-    "note": "This is a note.", 
+    "note": "", 
     "number": "192AC", 
     "offerHist": [
         "Fall 2013", 
+        "Spring 2013", 
         "Fall 2012", 
-        "Fall 2011", 
-        "Fall 2010"
+        "Spring 2012"
     ], 
     "prereqs": "Successful completion of the first semester of Reading and Composition. ", 
     "restrictions": "", 
@@ -867,13 +886,13 @@
     "format": "Two hours of Lecture and  Three hours of Laboratory per week for 15 weeks.", 
     "freshSophSem": false, 
     "hasCoreqs": "", 
-    "isPrereqFor": "This class is a prerequisite for CIV ENG 151.", 
+    "isPrereqFor": "CIV ENG 151", 
     "note": "This is a note.", 
     "number": "112", 
     "offerHist": [
         "Spring 2013", 
-        "Fall 2012", 
-        "Fall 2011", 
+        "Spring 2012", 
+        "Spring 2011", 
         "Spring 2010"
     ], 
     "prereqs": "Civil and Environmental Engineering 100, 111. ", 
@@ -905,14 +924,13 @@
     "format": " Ten hours of lecture/discussion per week for six weeks. ", 
     "freshSophSem": false, 
     "hasCoreqs": "", 
-    "isPrereqFor": "This class is a prerequisite for AFRICAM 151.", 
+    "isPrereqFor": "", 
     "note": "", 
     "number": "156AC", 
     "offerHist": [
         "Fall 2013", 
-        "Fall 2012", 
-        "Fall 2011", 
-        "Fall 2010"
+        "Spring 2011", 
+        "Spring 2009"
     ], 
     "prereqs": "", 
     "restrictions": "", 
@@ -947,16 +965,17 @@
     "note": "", 
     "number": "4A", 
     "offerHist": [
-        "Fall 2013", 
+        "Spring 2013", 
+        "Spring 2012", 
         "Spring 2011", 
-        "Spring 2009"
+        "Spring 2010"
     ], 
     "prereqs": "", 
     "restrictions": "", 
     "title": "Africa: History and Culture"
 }, 
 "course116":{
-    "berkeleyConnect": true, 
+    "berkeleyConnect": false, 
     "breadth": {
         "AC": true, 
         "AL": false, 
@@ -980,13 +999,13 @@
     "format": "Three hours of Lecture per week for 15 weeks.", 
     "freshSophSem": false, 
     "hasCoreqs": "", 
-    "isPrereqFor": "This class is a prerequisite for SPANISH 151.", 
+    "isPrereqFor": "", 
     "note": "", 
     "number": "113", 
     "offerHist": [
         "Spring 2013", 
-        "Spring 2012", 
-        "Spring 2011", 
+        "Fall 2012", 
+        "Fall 2011", 
         "Spring 2010"
     ], 
     "prereqs": "25 or equivalent. ", 
@@ -1016,16 +1035,16 @@
     "deptAbbrev": "SPANISH", 
     "description": "Special topics in American cultures. ", 
     "format": "Three hours of Lecture per week for 15 weeks.", 
-    "freshSophSem": false, 
+    "freshSophSem": true, 
     "hasCoreqs": "", 
-    "isPrereqFor": "", 
+    "isPrereqFor": "SPANISH 151", 
     "note": "", 
     "number": "135AC", 
     "offerHist": [
-        "Fall 2013", 
         "Spring 2013", 
-        "Fall 2012", 
-        "Spring 2012"
+        "Spring 2012", 
+        "Spring 2011", 
+        "Spring 2010"
     ], 
     "prereqs": "", 
     "restrictions": "", 
@@ -1055,15 +1074,14 @@
     "description": "Advanced study in sociology, with specific topics that satisfy the American Cultures requirement, e.g., immigration, to be announced at the beginning of each semester. ", 
     "format": "Two hours of Seminar per week for 15 weeks.", 
     "freshSophSem": false, 
-    "hasCoreqs": "", 
+    "hasCoreqs": "SOCIOL 1A", 
     "isPrereqFor": "", 
     "note": "", 
     "number": "190AC", 
     "offerHist": [
         "Fall 2013", 
-        "Fall 2012", 
-        "Fall 2011", 
-        "Fall 2010"
+        "Spring 2011", 
+        "Spring 2009"
     ], 
     "prereqs": "1, 3, 3AC, or consent of instructor. ", 
     "restrictions": "", 
@@ -1085,25 +1103,25 @@
     }, 
     "classInstance": [
         {
-            "ccn": 56891, 
-            "days": "M", 
-            "finalGroup": "Group 1--Monday, December 15, 2014, 1 p.m.", 
+            "ccn": 46877, 
+            "days": "MWF", 
+            "finalGroup": "Group 4--Thursday, December 18, 2014, 3 p.m.", 
             "instanceType": "Lecture", 
-            "instructor": "O. Bandyopadhyay", 
+            "instructor": "D. Matousek, C. Stoddard", 
             "location": {
-                "building": "Wheeler", 
-                "room": 143
+                "building": "Soda", 
+                "room": 103
             }, 
             "seats": {
-                "available": 257, 
-                "enrolled": 243, 
-                "max": 500, 
+                "available": 47, 
+                "enrolled": 3, 
+                "max": 50, 
                 "waitlist": 0
             }, 
             "semester": "Fall 2014", 
             "time": {
-                "end": "9A", 
-                "start": "8A"
+                "end": "12P", 
+                "start": "11A"
             }
         }
     ], 
@@ -1116,15 +1134,14 @@
     "description": "This course begins with an overview of urban sociology. Then it focuses on three issues through experiences of three American cultures in three American cities: rural-to-urban immigration in the case of Jewish Americans in New York; residential patterns in the case of African Americans in Chicago; and the economic restructuring of cities in the case of Mexican Americans in Los Angeles. The third section will look at three particular topics that are defined by the intersection of ethnicity and urban space: urban politics, urban crime, and suburbanization.", 
     "format": "Three hours of Lecture and  Two hours of Discussion per week for 15 weeks.", 
     "freshSophSem": false, 
-    "hasCoreqs": "", 
-    "isPrereqFor": "This class is a prerequisite for SOCIOL 151.", 
+    "hasCoreqs": "SOCIOL 1A", 
+    "isPrereqFor": "", 
     "note": "", 
     "number": "125AC", 
     "offerHist": [
-        "Spring 2013", 
-        "Spring 2012", 
+        "Fall 2013", 
         "Spring 2011", 
-        "Spring 2010"
+        "Spring 2009"
     ], 
     "prereqs": "1 or 3 or 3AC or consent of instructor. ", 
     "restrictions": "", 
@@ -1159,10 +1176,10 @@
     "note": "", 
     "number": "141AC", 
     "offerHist": [
-        "Fall 2013", 
         "Spring 2013", 
         "Fall 2012", 
-        "Spring 2012"
+        "Fall 2011", 
+        "Spring 2010"
     ], 
     "prereqs": "", 
     "restrictions": "", 
@@ -1193,14 +1210,14 @@
     "format": "Three hours of Lecture per week for 15 weeks.  Four and one-half hours of Lecture per week for 10 weeks.  Six hours of Lecture per week for 8 weeks.  Seven and one-half hours of Lecture per week for 6 weeks.", 
     "freshSophSem": false, 
     "hasCoreqs": "", 
-    "isPrereqFor": "", 
+    "isPrereqFor": "RHETOR 151", 
     "note": "", 
     "number": "139AC", 
     "offerHist": [
-        "Fall 2013", 
-        "Fall 2012", 
-        "Fall 2011", 
-        "Fall 2010"
+        "Spring 2013", 
+        "Spring 2012", 
+        "Spring 2011", 
+        "Spring 2010"
     ], 
     "prereqs": "Upper division standing. ", 
     "restrictions": "", 
@@ -1222,25 +1239,25 @@
     }, 
     "classInstance": [
         {
-            "ccn": 27529, 
-            "days": "M", 
-            "finalGroup": "Group 2--Tuesday, December 16, 2014, 9 a.m.", 
+            "ccn": 43825, 
+            "days": "TuTh", 
+            "finalGroup": "Group 5--Friday, December 15, 2014, 1 p.m.", 
             "instanceType": "Lecture", 
-            "instructor": "B. Varela", 
+            "instructor": "O. Bandyopadhyay", 
             "location": {
-                "building": "Barrows", 
-                "room": 157
+                "building": "Wheeler", 
+                "room": 200
             }, 
             "seats": {
-                "available": 9, 
-                "enrolled": 31, 
+                "available": 2, 
+                "enrolled": 38, 
                 "max": 40, 
-                "waitlist": 5
+                "waitlist": 0
             }, 
             "semester": "Fall 2014", 
             "time": {
-                "end": "11A", 
-                "start": "10A"
+                "end": "4P", 
+                "start": "2:30P"
             }
         }
     ], 
@@ -1258,10 +1275,9 @@
     "note": "", 
     "number": "130AC", 
     "offerHist": [
-        "Spring 2013", 
-        "Fall 2012", 
-        "Fall 2011", 
-        "Spring 2010"
+        "Fall 2013", 
+        "Spring 2011", 
+        "Spring 2009"
     ], 
     "prereqs": "", 
     "restrictions": "", 
@@ -1292,7 +1308,7 @@
     "format": "Three hours of Lecture per week for 15 weeks.  Four and one-half hours of Lecture per week for 10 weeks.  Six hours of Lecture per week for 8 weeks.  Seven and one-half hours of Lecture per week for 6 weeks.", 
     "freshSophSem": false, 
     "hasCoreqs": "", 
-    "isPrereqFor": "This class is a prerequisite for RHETOR 151.", 
+    "isPrereqFor": "", 
     "note": "", 
     "number": "129AC", 
     "offerHist": [
@@ -1320,47 +1336,25 @@
     }, 
     "classInstance": [
         {
-            "ccn": 28553, 
-            "days": "TuTh", 
-            "finalGroup": "Group 1--Monday, December 15, 2014, 1 p.m.", 
-            "instanceType": "Lecture", 
-            "instructor": "M. Wetterman", 
-            "location": {
-                "building": "Dwinelle", 
-                "room": 21
-            }, 
-            "seats": {
-                "available": 17, 
-                "enrolled": 683, 
-                "max": 700, 
-                "waitlist": 7
-            }, 
-            "semester": "Fall 2014", 
-            "time": {
-                "end": "11:30A", 
-                "start": "10A"
-            }
-        }, 
-        {
-            "ccn": 75510, 
-            "days": "TuTh", 
-            "finalGroup": "Group 4--Thursday, December 18, 2014, 3 p.m.", 
+            "ccn": 67452, 
+            "days": "M", 
+            "finalGroup": "Group 5--Friday, December 15, 2014, 1 p.m.", 
             "instanceType": "Lecture", 
             "instructor": "W. Hopkins, M. Anson", 
             "location": {
-                "building": "Dwinelle", 
-                "room": 254
+                "building": "Wheeler", 
+                "room": 90
             }, 
             "seats": {
-                "available": 21, 
-                "enrolled": 19, 
-                "max": 40, 
-                "waitlist": 3
+                "available": 602, 
+                "enrolled": 98, 
+                "max": 700, 
+                "waitlist": 9
             }, 
             "semester": "Fall 2014", 
             "time": {
-                "end": "10A", 
-                "start": "9A"
+                "end": "1P", 
+                "start": "11:30A"
             }
         }
     ], 
@@ -1373,15 +1367,15 @@
     "description": "This course provides an introduction to statistical and computational methods for the analysis of biomedical and genomic data. Statistical topics, introduced in a biological context, include numerical and graphical summaries of data; basic notions in probability; loss-based estimation (e.g., least-squares regression, maximum likelihood estimation); model selection; multiple hypothesis testing; Markov chains; hidden Markov models, resampling; simulation studies. Biological questions considered include, but are not limited to, modeling meiosis; genetic mapping; nucleotide and protein-sequence analysis; molecular evolution; computational gene finding; and DNA microarray experiments. The course also introduces statistical computing resources for the analysis of biological data, with emphasis on the R language and environment (www.r-project.org) and bioconductor packages (www.bioconductor.org). In addition, the course introduces basic notions in genetics and molecular biology and involves the critical reading of articles related to statistical analyses in the biological and medical sciences. ", 
     "format": "Three hours of Lecture and  One hour of Laboratory per week for 15 weeks.", 
     "freshSophSem": false, 
-    "hasCoreqs": "PB HLTH 1A must be taken concurrently.", 
-    "isPrereqFor": "This class is a prerequisite for PB HLTH 151.", 
+    "hasCoreqs": "", 
+    "isPrereqFor": "", 
     "note": "This is a note.", 
     "number": "143", 
     "offerHist": [
         "Fall 2013", 
+        "Spring 2013", 
         "Fall 2012", 
-        "Fall 2011", 
-        "Fall 2010"
+        "Spring 2012"
     ], 
     "prereqs": "142, Statistics 134, 135 or consent of instructor. ", 
     "restrictions": "", 
@@ -1403,113 +1397,91 @@
     }, 
     "classInstance": [
         {
-            "ccn": 56524, 
-            "days": "F", 
-            "finalGroup": "Group 4--Thursday, December 18, 2014, 3 p.m.", 
+            "ccn": 58930, 
+            "days": "MWF", 
+            "finalGroup": "Group 1--Monday, December 15, 2014, 1 p.m.", 
             "instanceType": "Lecture", 
-            "instructor": "A. Kennard", 
+            "instructor": "V. Benbow, Z. Alberts", 
             "location": {
-                "building": "Dwinelle", 
-                "room": 209
+                "building": "Evans", 
+                "room": 8
             }, 
             "seats": {
-                "available": 7, 
-                "enrolled": 33, 
-                "max": 40, 
+                "available": 33, 
+                "enrolled": 17, 
+                "max": 50, 
                 "waitlist": 0
             }, 
             "semester": "Fall 2014", 
             "time": {
-                "end": "2P", 
-                "start": "1P"
+                "end": "4P", 
+                "start": "2:30P"
             }
         }, 
         {
-            "ccn": 88177, 
-            "days": "W", 
-            "finalGroup": "Not applicable", 
-            "instanceType": "Discussion", 
-            "instructor": "S. Abdullah", 
-            "location": {
-                "building": "Soda", 
-                "room": 67
-            }, 
-            "seats": {
-                "available": 10, 
-                "enrolled": 0, 
-                "max": 10, 
-                "waitlist": 8
-            }, 
-            "semester": "Fall 2014", 
-            "time": {
-                "end": "2P", 
-                "start": "1P"
-            }
-        }, 
-        {
-            "ccn": 42140, 
+            "ccn": 83377, 
             "days": "Tu", 
             "finalGroup": "Not applicable", 
             "instanceType": "Discussion", 
-            "instructor": "C. Giorgano", 
+            "instructor": "M. Sarka", 
             "location": {
                 "building": "Wurster", 
-                "room": 187
+                "room": 167
             }, 
             "seats": {
-                "available": 5, 
-                "enrolled": 5, 
-                "max": 10, 
-                "waitlist": 6
-            }, 
-            "semester": "Fall 2014", 
-            "time": {
-                "end": "5P", 
-                "start": "4P"
-            }
-        }, 
-        {
-            "ccn": 56179, 
-            "days": "Th", 
-            "finalGroup": "Not applicable", 
-            "instanceType": "Discussion", 
-            "instructor": "I. Jaskolski", 
-            "location": {
-                "building": "Barrows", 
-                "room": 223
-            }, 
-            "seats": {
-                "available": 2, 
-                "enrolled": 8, 
-                "max": 10, 
-                "waitlist": 0
-            }, 
-            "semester": "Fall 2014", 
-            "time": {
-                "end": "11A", 
-                "start": "10A"
-            }
-        }, 
-        {
-            "ccn": 18057, 
-            "days": "W", 
-            "finalGroup": "Not applicable", 
-            "instanceType": "Discussion", 
-            "instructor": "K. Serafini, M. Ferrero", 
-            "location": {
-                "building": "Barrows", 
-                "room": 50
-            }, 
-            "seats": {
-                "available": 2, 
-                "enrolled": 13, 
-                "max": 15, 
-                "waitlist": 0
+                "available": 1, 
+                "enrolled": 19, 
+                "max": 20, 
+                "waitlist": 7
             }, 
             "semester": "Fall 2014", 
             "time": {
                 "end": "12P", 
                 "start": "11A"
+            }
+        }, 
+        {
+            "ccn": 58122, 
+            "days": "Th", 
+            "finalGroup": "Not applicable", 
+            "instanceType": "Discussion", 
+            "instructor": "M. Wetterman", 
+            "location": {
+                "building": "Wurster", 
+                "room": 11
+            }, 
+            "seats": {
+                "available": 10, 
+                "enrolled": 15, 
+                "max": 25, 
+                "waitlist": 2
+            }, 
+            "semester": "Fall 2014", 
+            "time": {
+                "end": "12P", 
+                "start": "11A"
+            }
+        }, 
+        {
+            "ccn": 87161, 
+            "days": "W", 
+            "finalGroup": "Not applicable", 
+            "instanceType": "Discussion", 
+            "instructor": "S. Abdullah", 
+            "location": {
+                "building": "Wheeler", 
+                "room": 189
+            }, 
+            "seats": {
+                "available": 10, 
+                "enrolled": 0, 
+                "max": 10, 
+                "waitlist": 7
+            }, 
+            "semester": "Fall 2014", 
+            "time": {
+                "end": "1P", 
+                "start": "12P"
             }
         }
     ], 
@@ -1523,14 +1495,14 @@
     "format": "Four hours of Lecture and  One hour of Discussion per week for 15 weeks.", 
     "freshSophSem": false, 
     "hasCoreqs": "", 
-    "isPrereqFor": "", 
+    "isPrereqFor": "PB HLTH 151", 
     "note": "", 
     "number": "150A", 
     "offerHist": [
-        "Spring 2013", 
-        "Spring 2012", 
-        "Spring 2011", 
-        "Spring 2010"
+        "Fall 2013", 
+        "Fall 2012", 
+        "Fall 2011", 
+        "Fall 2010"
     ], 
     "prereqs": "A course in statistics, preferably 142. ", 
     "restrictions": "", 
@@ -1561,14 +1533,13 @@
     "format": "Three hours of Lecture and  One hour of Discussion per week for 15 weeks.", 
     "freshSophSem": false, 
     "hasCoreqs": "", 
-    "isPrereqFor": "", 
+    "isPrereqFor": "PB HLTH 151", 
     "note": "", 
     "number": "112", 
     "offerHist": [
         "Fall 2013", 
-        "Fall 2012", 
-        "Fall 2011", 
-        "Fall 2010"
+        "Spring 2011", 
+        "Spring 2009"
     ], 
     "prereqs": "", 
     "restrictions": "", 
@@ -1590,64 +1561,42 @@
     }, 
     "classInstance": [
         {
-            "ccn": 42164, 
+            "ccn": 35627, 
             "days": "MW", 
-            "finalGroup": "Group 4--Thursday, December 18, 2014, 3 p.m.", 
+            "finalGroup": "Group 5--Friday, December 15, 2014, 1 p.m.", 
             "instanceType": "Lecture", 
-            "instructor": "S. Abdullah", 
+            "instructor": "M. Mhasalkar, U. Jehlicka", 
             "location": {
-                "building": "Dwinelle", 
-                "room": 287
+                "building": "Barrows", 
+                "room": 113
             }, 
             "seats": {
-                "available": 21, 
-                "enrolled": 229, 
-                "max": 250, 
+                "available": 0, 
+                "enrolled": 40, 
+                "max": 40, 
                 "waitlist": 0
             }, 
             "semester": "Fall 2014", 
             "time": {
-                "end": "9A", 
-                "start": "8A"
+                "end": "1P", 
+                "start": "11:30A"
             }
         }, 
         {
-            "ccn": 65298, 
-            "days": "Tu", 
+            "ccn": 77335, 
+            "days": "W", 
             "finalGroup": "Not applicable", 
             "instanceType": "Discussion", 
-            "instructor": "V. Benbow, Z. Alberts", 
+            "instructor": "M. Wetterman", 
             "location": {
                 "building": "Barrows", 
-                "room": 47
+                "room": 213
             }, 
             "seats": {
-                "available": 11, 
-                "enrolled": 14, 
-                "max": 25, 
-                "waitlist": 10
-            }, 
-            "semester": "Fall 2014", 
-            "time": {
-                "end": "6P", 
-                "start": "5P"
-            }
-        }, 
-        {
-            "ccn": 69336, 
-            "days": "Th", 
-            "finalGroup": "Not applicable", 
-            "instanceType": "Discussion", 
-            "instructor": "B. Varela", 
-            "location": {
-                "building": "Barrows", 
-                "room": 222
-            }, 
-            "seats": {
-                "available": 11, 
-                "enrolled": 14, 
-                "max": 25, 
-                "waitlist": 0
+                "available": 3, 
+                "enrolled": 12, 
+                "max": 15, 
+                "waitlist": 3
             }, 
             "semester": "Fall 2014", 
             "time": {
@@ -1656,69 +1605,47 @@
             }
         }, 
         {
-            "ccn": 47640, 
-            "days": "Tu", 
+            "ccn": 84934, 
+            "days": "W", 
             "finalGroup": "Not applicable", 
             "instanceType": "Discussion", 
-            "instructor": "A. Kennard", 
+            "instructor": "D. Matousek, C. Stoddard", 
             "location": {
-                "building": "Barrows", 
-                "room": 168
+                "building": "Evans", 
+                "room": 237
             }, 
             "seats": {
-                "available": 8, 
-                "enrolled": 2, 
-                "max": 10, 
-                "waitlist": 1
-            }, 
-            "semester": "Fall 2014", 
-            "time": {
-                "end": "10A", 
-                "start": "9A"
-            }
-        }, 
-        {
-            "ccn": 20265, 
-            "days": "F", 
-            "finalGroup": "Not applicable", 
-            "instanceType": "Discussion", 
-            "instructor": "I. Jaskolski", 
-            "location": {
-                "building": "Barrows", 
-                "room": 71
-            }, 
-            "seats": {
-                "available": 18, 
-                "enrolled": 2, 
-                "max": 20, 
-                "waitlist": 1
-            }, 
-            "semester": "Fall 2014", 
-            "time": {
-                "end": "3P", 
-                "start": "2P"
-            }
-        }, 
-        {
-            "ccn": 78006, 
-            "days": "M", 
-            "finalGroup": "Not applicable", 
-            "instanceType": "Discussion", 
-            "instructor": "S. Abdullah", 
-            "location": {
-                "building": "Dwinelle", 
-                "room": 258
-            }, 
-            "seats": {
-                "available": 4, 
-                "enrolled": 6, 
-                "max": 10, 
+                "available": 14, 
+                "enrolled": 1, 
+                "max": 15, 
                 "waitlist": 0
             }, 
             "semester": "Fall 2014", 
             "time": {
-                "end": "1P", 
-                "start": "12P"
+                "end": "2P", 
+                "start": "1P"
+            }
+        }, 
+        {
+            "ccn": 28487, 
+            "days": "F", 
+            "finalGroup": "Not applicable", 
+            "instanceType": "Discussion", 
+            "instructor": "C. Giorgano", 
+            "location": {
+                "building": "Barrows", 
+                "room": 135
+            }, 
+            "seats": {
+                "available": 1, 
+                "enrolled": 14, 
+                "max": 15, 
+                "waitlist": 0
+            }, 
+            "semester": "Fall 2014", 
+            "time": {
+                "end": "9A", 
+                "start": "8A"
             }
         }
     ], 
@@ -1732,21 +1659,20 @@
     "format": " Seven and one-half hours of lecture and 15 hours of studio and/or supeThree hours of lecture and six hours of studio and/or supervised researvised research and/or internship per week for six weeks. rch and/or internship per week. ", 
     "freshSophSem": false, 
     "hasCoreqs": "", 
-    "isPrereqFor": "", 
+    "isPrereqFor": "ART 151", 
     "note": "", 
     "number": "165", 
     "offerHist": [
         "Fall 2013", 
-        "Spring 2013", 
-        "Fall 2012", 
-        "Spring 2012"
+        "Spring 2011", 
+        "Spring 2009"
     ], 
     "prereqs": "", 
     "restrictions": "", 
     "title": "Art, Medicine, and Disabilities"
 }, 
 "course122":{
-    "berkeleyConnect": false, 
+    "berkeleyConnect": true, 
     "breadth": {
         "AC": false, 
         "AL": true, 
@@ -1760,7 +1686,7 @@
         "SS": false
     }, 
     "classInstance": [], 
-    "courseThread": "", 
+    "courseThread": "This course is part of the Cultural Forms in Transit Course Thread.", 
     "courseType": "Lecture", 
     "credit": 4, 
     "crossListing": "", 
@@ -1770,14 +1696,13 @@
     "format": "  Four hours of seminar per week, plus community workshop teaching. ", 
     "freshSophSem": false, 
     "hasCoreqs": "", 
-    "isPrereqFor": "This class is a prerequisite for AFRICAM 151.", 
+    "isPrereqFor": "", 
     "note": "", 
     "number": "158A", 
     "offerHist": [
-        "Spring 2013", 
-        "Fall 2012", 
-        "Fall 2011", 
-        "Spring 2010"
+        "Fall 2013", 
+        "Spring 2011", 
+        "Spring 2009"
     ], 
     "prereqs": "156AC plus consent of instructor. ", 
     "restrictions": "", 
@@ -1799,25 +1724,25 @@
     }, 
     "classInstance": [
         {
-            "ccn": 78707, 
-            "days": "F", 
+            "ccn": 62914, 
+            "days": "MWF", 
             "finalGroup": "Group 4--Thursday, December 18, 2014, 3 p.m.", 
             "instanceType": "Lecture", 
-            "instructor": "M. Sarka", 
+            "instructor": "C. Giorgano", 
             "location": {
-                "building": "Barrows", 
-                "room": 239
+                "building": "Wheeler", 
+                "room": 141
             }, 
             "seats": {
-                "available": 4, 
-                "enrolled": 26, 
-                "max": 30, 
-                "waitlist": 5
+                "available": 1, 
+                "enrolled": 149, 
+                "max": 150, 
+                "waitlist": 0
             }, 
             "semester": "Fall 2014", 
             "time": {
-                "end": "2:30P", 
-                "start": "1P"
+                "end": "5:30P", 
+                "start": "4P"
             }
         }
     ], 
@@ -1831,13 +1756,14 @@
     "format": "Three hours of Lecture per week for 15 weeks.", 
     "freshSophSem": false, 
     "hasCoreqs": "", 
-    "isPrereqFor": "", 
+    "isPrereqFor": "AFRICAM 151", 
     "note": "", 
     "number": "126", 
     "offerHist": [
         "Fall 2013", 
-        "Spring 2011", 
-        "Spring 2009"
+        "Fall 2012", 
+        "Fall 2011", 
+        "Fall 2010"
     ], 
     "prereqs": "", 
     "restrictions": "", 
@@ -1869,19 +1795,20 @@
     "freshSophSem": false, 
     "hasCoreqs": "", 
     "isPrereqFor": "", 
-    "note": "This is a note.", 
+    "note": "", 
     "number": "301", 
     "offerHist": [
         "Fall 2013", 
-        "Spring 2011", 
-        "Spring 2009"
+        "Spring 2013", 
+        "Fall 2012", 
+        "Spring 2012"
     ], 
     "prereqs": "", 
     "restrictions": "", 
     "title": "Critical Pedagogy: Instructor Training"
 }, 
 "course127":{
-    "berkeleyConnect": true, 
+    "berkeleyConnect": false, 
     "breadth": {
         "AC": false, 
         "AL": true, 
@@ -1896,29 +1823,29 @@
     }, 
     "classInstance": [
         {
-            "ccn": 48706, 
-            "days": "MW", 
-            "finalGroup": "Group 5--Friday, December 15, 2014, 1 p.m.", 
+            "ccn": 20599, 
+            "days": "M", 
+            "finalGroup": "Group 4--Thursday, December 18, 2014, 3 p.m.", 
             "instanceType": "Lecture", 
-            "instructor": "M. Wetterman", 
+            "instructor": "I. Jaskolski", 
             "location": {
                 "building": "Wheeler", 
-                "room": 144
+                "room": 283
             }, 
             "seats": {
-                "available": 105, 
-                "enrolled": 595, 
-                "max": 700, 
-                "waitlist": 0
+                "available": 77, 
+                "enrolled": 173, 
+                "max": 250, 
+                "waitlist": 4
             }, 
             "semester": "Fall 2014", 
             "time": {
-                "end": "1P", 
-                "start": "12P"
+                "end": "9A", 
+                "start": "8A"
             }
         }
     ], 
-    "courseThread": "", 
+    "courseThread": "This course is part of the Cultural Forms in Transit Course Thread.", 
     "courseType": "Lecture", 
     "credit": 4, 
     "crossListing": "", 
@@ -1928,13 +1855,13 @@
     "format": "Three hours of Lecture and  Zero to One hour of Discussion per week for 15 weeks.  Five and one-half hours of Lecture and  Two hours of Discussion per week for 8 weeks.  Seven and one-half hours of Lecture and  Zero to Two and one-half hours of Discussion per week for 6 weeks.", 
     "freshSophSem": false, 
     "hasCoreqs": "", 
-    "isPrereqFor": "", 
+    "isPrereqFor": "ASAMST 151", 
     "note": "", 
     "number": "172", 
     "offerHist": [
         "Spring 2013", 
-        "Spring 2012", 
-        "Spring 2011", 
+        "Fall 2012", 
+        "Fall 2011", 
         "Spring 2010"
     ], 
     "prereqs": "", 
@@ -1942,7 +1869,7 @@
     "title": "Asian American Literature"
 }, 
 "course126":{
-    "berkeleyConnect": false, 
+    "berkeleyConnect": true, 
     "breadth": {
         "AC": false, 
         "AL": true, 
@@ -1957,25 +1884,25 @@
     }, 
     "classInstance": [
         {
-            "ccn": 38433, 
-            "days": "MWF", 
+            "ccn": 22879, 
+            "days": "F", 
             "finalGroup": "Not applicable", 
             "instanceType": "Lecture", 
-            "instructor": "V. Benbow, Z. Alberts", 
+            "instructor": "B. Varela", 
             "location": {
-                "building": "Wheeler", 
-                "room": 174
+                "building": "Wurster", 
+                "room": 3
             }, 
             "seats": {
-                "available": 104, 
-                "enrolled": 46, 
-                "max": 150, 
-                "waitlist": 6
+                "available": 46, 
+                "enrolled": 4, 
+                "max": 50, 
+                "waitlist": 8
             }, 
             "semester": "Fall 2014", 
             "time": {
-                "end": "11:30A", 
-                "start": "10A"
+                "end": "6P", 
+                "start": "4:30P"
             }
         }
     ], 
@@ -1989,7 +1916,7 @@
     "format": "Three hours of Lecture and  One hour of Discussion per week for 15 weeks.  Six hours of Lecture and  Two hours of Discussion per week for 8 weeks.  Seven and one-half hours of Lecture and  Two and one-half hours of Discussion per week for 6 weeks.", 
     "freshSophSem": false, 
     "hasCoreqs": "", 
-    "isPrereqFor": "This class is a prerequisite for ASAMST 151.", 
+    "isPrereqFor": "", 
     "note": "", 
     "number": "R2A", 
     "offerHist": [
@@ -2002,7 +1929,7 @@
     "title": "Reading and Composition"
 }, 
 "course125":{
-    "berkeleyConnect": false, 
+    "berkeleyConnect": true, 
     "breadth": {
         "AC": false, 
         "AL": true, 
@@ -2017,25 +1944,25 @@
     }, 
     "classInstance": [
         {
-            "ccn": 54509, 
+            "ccn": 89282, 
             "days": "MWF", 
-            "finalGroup": "Group 2--Tuesday, December 16, 2014, 9 a.m.", 
+            "finalGroup": "Group 1--Monday, December 15, 2014, 1 p.m.", 
             "instanceType": "Lecture", 
             "instructor": "W. Hopkins, M. Anson", 
             "location": {
-                "building": "Evans", 
-                "room": 27
+                "building": "Soda", 
+                "room": 299
             }, 
             "seats": {
-                "available": 12, 
-                "enrolled": 688, 
+                "available": 524, 
+                "enrolled": 176, 
                 "max": 700, 
                 "waitlist": 0
             }, 
             "semester": "Fall 2014", 
             "time": {
-                "end": "5:30P", 
-                "start": "4P"
+                "end": "10A", 
+                "start": "9A"
             }
         }
     ], 
@@ -2053,17 +1980,17 @@
     "note": "", 
     "number": "122", 
     "offerHist": [
-        "Fall 2013", 
-        "Fall 2012", 
-        "Fall 2011", 
-        "Fall 2010"
+        "Spring 2013", 
+        "Spring 2012", 
+        "Spring 2011", 
+        "Spring 2010"
     ], 
     "prereqs": "20A or equivalent. ", 
     "restrictions": "", 
     "title": "Japanese American History"
 }, 
 "course124":{
-    "berkeleyConnect": false, 
+    "berkeleyConnect": true, 
     "breadth": {
         "AC": false, 
         "AL": true, 
@@ -2087,13 +2014,13 @@
     "format": " Three hours of lecture and three hours of studio critique per week. ", 
     "freshSophSem": false, 
     "hasCoreqs": "", 
-    "isPrereqFor": "This class is a prerequisite for ART 151.", 
-    "note": "This is a note.", 
+    "isPrereqFor": "ART 151", 
+    "note": "", 
     "number": "185", 
     "offerHist": [
         "Spring 2013", 
-        "Fall 2012", 
-        "Fall 2011", 
+        "Spring 2012", 
+        "Spring 2011", 
         "Spring 2010"
     ], 
     "prereqs": "Senior level students only. ", 
@@ -2101,7 +2028,7 @@
     "title": "Senior Projects/Professional Practices"
 }, 
 "course129":{
-    "berkeleyConnect": false, 
+    "berkeleyConnect": true, 
     "breadth": {
         "AC": false, 
         "AL": true, 
@@ -2116,47 +2043,25 @@
     }, 
     "classInstance": [
         {
-            "ccn": 81595, 
-            "days": "MW", 
-            "finalGroup": "Group 5--Friday, December 15, 2014, 1 p.m.", 
-            "instanceType": "Lecture", 
-            "instructor": "C. Giorgano", 
-            "location": {
-                "building": "Soda", 
-                "room": 260
-            }, 
-            "seats": {
-                "available": 54, 
-                "enrolled": 96, 
-                "max": 150, 
-                "waitlist": 2
-            }, 
-            "semester": "Fall 2014", 
-            "time": {
-                "end": "11A", 
-                "start": "10A"
-            }
-        }, 
-        {
-            "ccn": 93139, 
+            "ccn": 49901, 
             "days": "M", 
-            "finalGroup": "Group 1--Monday, December 15, 2014, 1 p.m.", 
+            "finalGroup": "Group 2--Tuesday, December 16, 2014, 9 a.m.", 
             "instanceType": "Lecture", 
-            "instructor": "S. Abdullah", 
+            "instructor": "G. Burke", 
             "location": {
-                "building": "Soda", 
-                "room": 144
+                "building": "Dwinelle", 
+                "room": 82
             }, 
             "seats": {
-                "available": 1, 
-                "enrolled": 29, 
-                "max": 30, 
-                "waitlist": 0
+                "available": 70, 
+                "enrolled": 30, 
+                "max": 100, 
+                "waitlist": 7
             }, 
             "semester": "Fall 2014", 
             "time": {
-                "end": "3P", 
-                "start": "2P"
+                "end": "1P", 
+                "start": "12P"
             }
         }
     ], 
@@ -2169,7 +2074,7 @@
     "description": "An introductory survey of American literature. Since 1865. ", 
     "format": "Three hours of Lecture per week for 15 weeks.", 
     "freshSophSem": false, 
-    "hasCoreqs": "", 
+    "hasCoreqs": "ENGLISH 1A", 
     "isPrereqFor": "", 
     "note": "", 
     "number": "30B", 
@@ -2184,7 +2089,7 @@
     "title": "American Literature"
 }, 
 "course128":{
-    "berkeleyConnect": false, 
+    "berkeleyConnect": true, 
     "breadth": {
         "AC": false, 
         "AL": true, 
@@ -2199,113 +2104,135 @@
     }, 
     "classInstance": [
         {
-            "ccn": 41145, 
-            "days": "M", 
-            "finalGroup": "Group 1--Monday, December 15, 2014, 1 p.m.", 
-            "instanceType": "Lecture", 
-            "instructor": "B. Varela", 
-            "location": {
-                "building": "Soda", 
-                "room": 64
-            }, 
-            "seats": {
-                "available": 22, 
-                "enrolled": 8, 
-                "max": 30, 
-                "waitlist": 5
-            }, 
-            "semester": "Fall 2014", 
-            "time": {
-                "end": "11:30A", 
-                "start": "10A"
-            }
-        }, 
-        {
-            "ccn": 59160, 
+            "ccn": 12134, 
             "days": "F", 
-            "finalGroup": "Group 3--Wednesday, December 17, 2014, 12 p.m.", 
+            "finalGroup": "Group 4--Thursday, December 18, 2014, 3 p.m.", 
             "instanceType": "Lecture", 
-            "instructor": "M. Mhasalkar, U. Jehlicka", 
-            "location": {
-                "building": "Dwinelle", 
-                "room": 164
-            }, 
-            "seats": {
-                "available": 4, 
-                "enrolled": 26, 
-                "max": 30, 
-                "waitlist": 6
-            }, 
-            "semester": "Fall 2014", 
-            "time": {
-                "end": "4:30P", 
-                "start": "3P"
-            }
-        }, 
-        {
-            "ccn": 45290, 
-            "days": "F", 
-            "finalGroup": "Not applicable", 
-            "instanceType": "Discussion", 
-            "instructor": "A. Kennard", 
+            "instructor": "I. Jaskolski", 
             "location": {
                 "building": "Barrows", 
-                "room": 262
+                "room": 39
             }, 
             "seats": {
-                "available": 4, 
-                "enrolled": 11, 
-                "max": 15, 
-                "waitlist": 8
+                "available": 1, 
+                "enrolled": 49, 
+                "max": 50, 
+                "waitlist": 9
             }, 
             "semester": "Fall 2014", 
             "time": {
-                "end": "6P", 
-                "start": "5P"
+                "end": "9A", 
+                "start": "8A"
             }
         }, 
         {
-            "ccn": 36193, 
+            "ccn": 39736, 
             "days": "W", 
             "finalGroup": "Not applicable", 
             "instanceType": "Discussion", 
-            "instructor": "D. Matousek, C. Stoddard", 
+            "instructor": "M. Sarka", 
             "location": {
-                "building": "Soda", 
-                "room": 102
+                "building": "Barrows", 
+                "room": 184
+            }, 
+            "seats": {
+                "available": 5, 
+                "enrolled": 7, 
+                "max": 12, 
+                "waitlist": 0
+            }, 
+            "semester": "Fall 2014", 
+            "time": {
+                "end": "5P", 
+                "start": "4P"
+            }
+        }, 
+        {
+            "ccn": 19295, 
+            "days": "Tu", 
+            "finalGroup": "Not applicable", 
+            "instanceType": "Discussion", 
+            "instructor": "C. Giorgano", 
+            "location": {
+                "building": "Wheeler", 
+                "room": 160
             }, 
             "seats": {
                 "available": 7, 
                 "enrolled": 3, 
                 "max": 10, 
-                "waitlist": 6
+                "waitlist": 5
             }, 
             "semester": "Fall 2014", 
             "time": {
-                "end": "6P", 
-                "start": "5P"
+                "end": "10A", 
+                "start": "9A"
             }
         }, 
         {
-            "ccn": 57784, 
-            "days": "M", 
+            "ccn": 33857, 
+            "days": "Tu", 
             "finalGroup": "Not applicable", 
             "instanceType": "Discussion", 
-            "instructor": "M. Mhasalkar, U. Jehlicka", 
+            "instructor": "I. Jaskolski", 
             "location": {
-                "building": "Dwinelle", 
-                "room": 57
+                "building": "Wurster", 
+                "room": 223
             }, 
             "seats": {
-                "available": 14, 
-                "enrolled": 11, 
-                "max": 25, 
-                "waitlist": 10
+                "available": 7, 
+                "enrolled": 8, 
+                "max": 15, 
+                "waitlist": 0
             }, 
             "semester": "Fall 2014", 
             "time": {
-                "end": "3P", 
-                "start": "2P"
+                "end": "5P", 
+                "start": "4P"
+            }
+        }, 
+        {
+            "ccn": 87257, 
+            "days": "Tu", 
+            "finalGroup": "Not applicable", 
+            "instanceType": "Discussion", 
+            "instructor": "O. Bandyopadhyay", 
+            "location": {
+                "building": "Wheeler", 
+                "room": 276
+            }, 
+            "seats": {
+                "available": 12, 
+                "enrolled": 0, 
+                "max": 12, 
+                "waitlist": 0
+            }, 
+            "semester": "Fall 2014", 
+            "time": {
+                "end": "10A", 
+                "start": "9A"
+            }
+        }, 
+        {
+            "ccn": 44611, 
+            "days": "F", 
+            "finalGroup": "Not applicable", 
+            "instanceType": "Discussion", 
+            "instructor": "A. Kennard", 
+            "location": {
+                "building": "Soda", 
+                "room": 139
+            }, 
+            "seats": {
+                "available": 18, 
+                "enrolled": 2, 
+                "max": 20, 
+                "waitlist": 0
+            }, 
+            "semester": "Fall 2014", 
+            "time": {
+                "end": "5P", 
+                "start": "4P"
             }
         }
     ], 
@@ -2318,7 +2245,7 @@
     "description": "Study of the major developments, achievements, and contradictions in Greek culture from the Bronze Age to the 4th century BCE. Key works of literature, history, and philosophy (read in English translation) will be examined in their political and social context, and in relation both to other ancient Mediterranean cultures and to subsequent developments in Western civilization. ", 
     "format": "Three hours of Lecture and  One hour of Discussion per week for 15 weeks.  Eight hours of Lecture and  Two hours of Discussion per week for 6 weeks.", 
     "freshSophSem": false, 
-    "hasCoreqs": "CLASSIC 1A must be taken concurrently.", 
+    "hasCoreqs": "", 
     "isPrereqFor": "", 
     "note": "", 
     "number": "10A", 
@@ -2348,25 +2275,25 @@
     }, 
     "classInstance": [
         {
-            "ccn": 92237, 
-            "days": "MWF", 
-            "finalGroup": "Group 1--Monday, December 15, 2014, 1 p.m.", 
+            "ccn": 70589, 
+            "days": "F", 
+            "finalGroup": "Group 5--Friday, December 15, 2014, 1 p.m.", 
             "instanceType": "Lecture", 
-            "instructor": "W. Hopkins, M. Anson", 
+            "instructor": "V. Benbow, Z. Alberts", 
             "location": {
-                "building": "Wurster", 
-                "room": 245
+                "building": "Wheeler", 
+                "room": 246
             }, 
             "seats": {
-                "available": 66, 
-                "enrolled": 84, 
-                "max": 150, 
-                "waitlist": 5
+                "available": 13, 
+                "enrolled": 487, 
+                "max": 500, 
+                "waitlist": 10
             }, 
             "semester": "Fall 2014", 
             "time": {
-                "end": "10A", 
-                "start": "9A"
+                "end": "12P", 
+                "start": "11A"
             }
         }
     ], 
@@ -2384,9 +2311,10 @@
     "note": "", 
     "number": "122", 
     "offerHist": [
-        "Fall 2013", 
-        "Spring 2011", 
-        "Spring 2009"
+        "Spring 2013", 
+        "Fall 2012", 
+        "Fall 2011", 
+        "Spring 2010"
     ], 
     "prereqs": "", 
     "restrictions": "", 
@@ -2417,14 +2345,13 @@
     "format": "Three hours of Lecture and  Two hours of Laboratory per week for 15 weeks.", 
     "freshSophSem": false, 
     "hasCoreqs": "", 
-    "isPrereqFor": "This class is a prerequisite for LD ARCH 151.", 
+    "isPrereqFor": "", 
     "note": "", 
     "number": "12", 
     "offerHist": [
         "Fall 2013", 
-        "Spring 2013", 
-        "Fall 2012", 
-        "Spring 2012"
+        "Spring 2011", 
+        "Spring 2009"
     ], 
     "prereqs": "", 
     "restrictions": "", 
@@ -2446,25 +2373,25 @@
     }, 
     "classInstance": [
         {
-            "ccn": 12854, 
-            "days": "M", 
+            "ccn": 46757, 
+            "days": "F", 
             "finalGroup": "Group 4--Thursday, December 18, 2014, 3 p.m.", 
             "instanceType": "Lecture", 
-            "instructor": "A. Kennard", 
+            "instructor": "I. Jaskolski", 
             "location": {
-                "building": "Evans", 
-                "room": 160
+                "building": "Wurster", 
+                "room": 192
             }, 
             "seats": {
-                "available": 59, 
-                "enrolled": 41, 
-                "max": 100, 
-                "waitlist": 0
+                "available": 33, 
+                "enrolled": 217, 
+                "max": 250, 
+                "waitlist": 8
             }, 
             "semester": "Fall 2014", 
             "time": {
-                "end": "2:30P", 
-                "start": "1P"
+                "end": "4P", 
+                "start": "2:30P"
             }
         }
     ], 
@@ -2483,8 +2410,9 @@
     "number": "102", 
     "offerHist": [
         "Fall 2013", 
-        "Spring 2011", 
-        "Spring 2009"
+        "Fall 2012", 
+        "Fall 2011", 
+        "Fall 2010"
     ], 
     "prereqs": "100, 101. ", 
     "restrictions": "", 
@@ -2520,8 +2448,8 @@
     "number": "161", 
     "offerHist": [
         "Spring 2013", 
-        "Spring 2012", 
-        "Spring 2011", 
+        "Fall 2012", 
+        "Fall 2011", 
         "Spring 2010"
     ], 
     "prereqs": "100 or Economics 100A or Economics 101A; 101 recommended. ", 
@@ -2544,91 +2472,69 @@
     }, 
     "classInstance": [
         {
-            "ccn": 71461, 
-            "days": "MW", 
+            "ccn": 36007, 
+            "days": "F", 
             "finalGroup": "Group 3--Wednesday, December 17, 2014, 12 p.m.", 
             "instanceType": "Lecture", 
-            "instructor": "M. Mhasalkar, U. Jehlicka", 
-            "location": {
-                "building": "Evans", 
-                "room": 65
-            }, 
-            "seats": {
-                "available": 11, 
-                "enrolled": 29, 
-                "max": 40, 
-                "waitlist": 0
-            }, 
-            "semester": "Fall 2014", 
-            "time": {
-                "end": "6P", 
-                "start": "4:30P"
-            }
-        }, 
-        {
-            "ccn": 60079, 
-            "days": "W", 
-            "finalGroup": "Not applicable", 
-            "instanceType": "Discussion", 
-            "instructor": "D. Matousek, C. Stoddard", 
-            "location": {
-                "building": "Dwinelle", 
-                "room": 96
-            }, 
-            "seats": {
-                "available": 13, 
-                "enrolled": 7, 
-                "max": 20, 
-                "waitlist": 0
-            }, 
-            "semester": "Fall 2014", 
-            "time": {
-                "end": "1P", 
-                "start": "12P"
-            }
-        }, 
-        {
-            "ccn": 64959, 
-            "days": "W", 
-            "finalGroup": "Not applicable", 
-            "instanceType": "Discussion", 
-            "instructor": "V. Benbow, Z. Alberts", 
-            "location": {
-                "building": "Dwinelle", 
-                "room": 235
-            }, 
-            "seats": {
-                "available": 18, 
-                "enrolled": 2, 
-                "max": 20, 
-                "waitlist": 0
-            }, 
-            "semester": "Fall 2014", 
-            "time": {
-                "end": "10A", 
-                "start": "9A"
-            }
-        }, 
-        {
-            "ccn": 53858, 
-            "days": "M", 
-            "finalGroup": "Not applicable", 
-            "instanceType": "Discussion", 
-            "instructor": "M. Wetterman", 
+            "instructor": "A. Kennard", 
             "location": {
                 "building": "Wheeler", 
-                "room": 215
+                "room": 94
             }, 
             "seats": {
-                "available": 8, 
-                "enrolled": 2, 
-                "max": 10, 
-                "waitlist": 0
+                "available": 0, 
+                "enrolled": 40, 
+                "max": 40, 
+                "waitlist": 8
             }, 
             "semester": "Fall 2014", 
             "time": {
                 "end": "12P", 
                 "start": "11A"
+            }
+        }, 
+        {
+            "ccn": 66876, 
+            "days": "M", 
+            "finalGroup": "Not applicable", 
+            "instanceType": "Discussion", 
+            "instructor": "I. Jaskolski", 
+            "location": {
+                "building": "Wurster", 
+                "room": 234
+            }, 
+            "seats": {
+                "available": 4, 
+                "enrolled": 11, 
+                "max": 15, 
+                "waitlist": 6
+            }, 
+            "semester": "Fall 2014", 
+            "time": {
+                "end": "12P", 
+                "start": "11A"
+            }
+        }, 
+        {
+            "ccn": 65347, 
+            "days": "W", 
+            "finalGroup": "Not applicable", 
+            "instanceType": "Discussion", 
+            "instructor": "K. Serafini, M. Ferrero", 
+            "location": {
+                "building": "Evans", 
+                "room": 142
+            }, 
+            "seats": {
+                "available": 17, 
+                "enrolled": 3, 
+                "max": 20, 
+                "waitlist": 4
+            }, 
+            "semester": "Fall 2014", 
+            "time": {
+                "end": "4P", 
+                "start": "3P"
             }
         }
     ], 
@@ -2640,15 +2546,15 @@
     "deptAbbrev": "ENVECON", 
     "description": "Introduction to the economics of natural resources. Land and the concept of economic rent. Models of optimal depletion of nonrenewable resources and optimal use of renewable resources. Application to energy, forests, fisheries, water, and climate change. Resources, growth, and sustainability. ", 
     "format": "Three hours of Lecture and  One hour of Discussion per week for 15 weeks.", 
-    "freshSophSem": true, 
+    "freshSophSem": false, 
     "hasCoreqs": "", 
     "isPrereqFor": "", 
     "note": "", 
     "number": "C102", 
     "offerHist": [
         "Spring 2013", 
-        "Fall 2012", 
-        "Fall 2011", 
+        "Spring 2012", 
+        "Spring 2011", 
         "Spring 2010"
     ], 
     "prereqs": "100, or Economics 100A or 100B. ", 
@@ -2680,13 +2586,14 @@
     "format": "Three hours of Lecture and  One hour of Discussion per week for 15 weeks.", 
     "freshSophSem": true, 
     "hasCoreqs": "", 
-    "isPrereqFor": "This class is a prerequisite for ECON 151.", 
+    "isPrereqFor": "", 
     "note": "", 
     "number": "C102", 
     "offerHist": [
         "Fall 2013", 
-        "Spring 2011", 
-        "Spring 2009"
+        "Spring 2013", 
+        "Fall 2012", 
+        "Spring 2012"
     ], 
     "prereqs": "100, or Economics 100A or 100B. ", 
     "restrictions": "", 
@@ -2715,16 +2622,16 @@
     "deptAbbrev": "LD ARCH", 
     "description": "This course introduces the visual and physical characteristics of landscape construction materials including, but not limited to, stone, brick, concrete, metal, asphalt, and wood. Additionally, lectures cover the production and availability of these materials, any existing evaluations on their sustainability, and their potential impact on the immediate environment. Students also learn to utilize standard sources of information on building materials and the terminology typically utilized when choosing and specifying construction materials. They become familiar with dimensional standards for landscape structures, including pavements, stairs, furnishings, retaining walls, freestanding walls, fences, decks, and small overhead structures. ", 
     "format": "Three hours of Lecture and  One and one-half hours of Laboratory per week for 15 weeks.", 
-    "freshSophSem": false, 
+    "freshSophSem": true, 
     "hasCoreqs": "", 
-    "isPrereqFor": "", 
+    "isPrereqFor": "LD ARCH 151", 
     "note": "", 
     "number": "121", 
     "offerHist": [
-        "Fall 2013", 
+        "Spring 2013", 
         "Fall 2012", 
         "Fall 2011", 
-        "Fall 2010"
+        "Spring 2010"
     ], 
     "prereqs": "101, Architecture 100A, or consent of instructor. ", 
     "restrictions": "", 
@@ -2746,42 +2653,20 @@
     }, 
     "classInstance": [
         {
-            "ccn": 68769, 
-            "days": "M", 
-            "finalGroup": "Group 2--Tuesday, December 16, 2014, 9 a.m.", 
+            "ccn": 40773, 
+            "days": "MWF", 
+            "finalGroup": "Group 5--Friday, December 15, 2014, 1 p.m.", 
             "instanceType": "Lecture", 
-            "instructor": "C. Giorgano", 
+            "instructor": "V. Benbow, Z. Alberts", 
             "location": {
-                "building": "Evans", 
-                "room": 16
+                "building": "Wurster", 
+                "room": 145
             }, 
             "seats": {
-                "available": 19, 
-                "enrolled": 81, 
+                "available": 10, 
+                "enrolled": 90, 
                 "max": 100, 
-                "waitlist": 0
-            }, 
-            "semester": "Fall 2014", 
-            "time": {
-                "end": "11:30A", 
-                "start": "10A"
-            }
-        }, 
-        {
-            "ccn": 16152, 
-            "days": "TuTh", 
-            "finalGroup": "Group 1--Monday, December 15, 2014, 1 p.m.", 
-            "instanceType": "Lecture", 
-            "instructor": "M. Sarka", 
-            "location": {
-                "building": "Wheeler", 
-                "room": 207
-            }, 
-            "seats": {
-                "available": 20, 
-                "enrolled": 30, 
-                "max": 50, 
-                "waitlist": 0
+                "waitlist": 5
             }, 
             "semester": "Fall 2014", 
             "time": {
@@ -2790,86 +2675,20 @@
             }
         }, 
         {
-            "ccn": 14726, 
-            "days": "F", 
-            "finalGroup": "Not applicable", 
-            "instanceType": "Discussion", 
-            "instructor": "I. Jaskolski", 
-            "location": {
-                "building": "Wheeler", 
-                "room": 201
-            }, 
-            "seats": {
-                "available": 9, 
-                "enrolled": 6, 
-                "max": 15, 
-                "waitlist": 0
-            }, 
-            "semester": "Fall 2014", 
-            "time": {
-                "end": "2P", 
-                "start": "1P"
-            }
-        }, 
-        {
-            "ccn": 68948, 
-            "days": "Th", 
-            "finalGroup": "Not applicable", 
-            "instanceType": "Discussion", 
-            "instructor": "M. Sarka", 
-            "location": {
-                "building": "Barrows", 
-                "room": 182
-            }, 
-            "seats": {
-                "available": 9, 
-                "enrolled": 3, 
-                "max": 12, 
-                "waitlist": 0
-            }, 
-            "semester": "Fall 2014", 
-            "time": {
-                "end": "5P", 
-                "start": "4P"
-            }
-        }, 
-        {
-            "ccn": 35832, 
-            "days": "M", 
-            "finalGroup": "Not applicable", 
-            "instanceType": "Discussion", 
-            "instructor": "S. Abdullah", 
-            "location": {
-                "building": "Dwinelle", 
-                "room": 249
-            }, 
-            "seats": {
-                "available": 0, 
-                "enrolled": 15, 
-                "max": 15, 
-                "waitlist": 0
-            }, 
-            "semester": "Fall 2014", 
-            "time": {
-                "end": "3P", 
-                "start": "2P"
-            }
-        }, 
-        {
-            "ccn": 64524, 
+            "ccn": 19515, 
             "days": "W", 
             "finalGroup": "Not applicable", 
             "instanceType": "Discussion", 
-            "instructor": "K. Serafini, M. Ferrero", 
+            "instructor": "V. Benbow, Z. Alberts", 
             "location": {
-                "building": "Soda", 
-                "room": 1
+                "building": "Wheeler", 
+                "room": 22
             }, 
             "seats": {
-                "available": 0, 
+                "available": 10, 
                 "enrolled": 15, 
-                "max": 15, 
-                "waitlist": 0
+                "max": 25, 
+                "waitlist": 5
             }, 
             "semester": "Fall 2014", 
             "time": {
@@ -2878,25 +2697,25 @@
             }
         }, 
         {
-            "ccn": 46945, 
-            "days": "F", 
+            "ccn": 23438, 
+            "days": "M", 
             "finalGroup": "Not applicable", 
             "instanceType": "Discussion", 
-            "instructor": "A. Kennard", 
+            "instructor": "S. Abdullah", 
             "location": {
-                "building": "Evans", 
-                "room": 93
+                "building": "Soda", 
+                "room": 168
             }, 
             "seats": {
-                "available": 9, 
-                "enrolled": 6, 
-                "max": 15, 
+                "available": 5, 
+                "enrolled": 5, 
+                "max": 10, 
                 "waitlist": 0
             }, 
             "semester": "Fall 2014", 
             "time": {
-                "end": "2P", 
-                "start": "1P"
+                "end": "6P", 
+                "start": "5P"
             }
         }
     ], 
@@ -2915,8 +2734,8 @@
     "number": "C12", 
     "offerHist": [
         "Spring 2013", 
-        "Spring 2012", 
-        "Spring 2011", 
+        "Fall 2012", 
+        "Fall 2011", 
         "Spring 2010"
     ], 
     "prereqs": "", 
@@ -2947,14 +2766,15 @@
     "description": "The scientific basis of sustainability, explored through study of energy, water, food, natural resources, and built environment. Physical/ecological processes and systems, and human impacts from the global scale to local energy/resource use. Energy and water audits of University of California at Berkeley, opportunities to increase sustainability of processes/practices. Discussion/lab section involves data collection/analysis (e.g., Strawberry Creek, atmospheric particulates) and integrative sustainability assessment project. ", 
     "format": " Three hours of lecture and one hour of discussion/laboratory. ", 
     "freshSophSem": false, 
-    "hasCoreqs": "ENV SCI 1A must be taken concurrently.", 
+    "hasCoreqs": "", 
     "isPrereqFor": "", 
     "note": "", 
     "number": "C12", 
     "offerHist": [
         "Fall 2013", 
-        "Spring 2011", 
-        "Spring 2009"
+        "Fall 2012", 
+        "Fall 2011", 
+        "Fall 2010"
     ], 
     "prereqs": "", 
     "restrictions": "", 
@@ -2983,16 +2803,16 @@
     "deptAbbrev": "PHILOS", 
     "description": "What sort of thing am I? And what is my relation to others, and to the world in general? We will consider versions of these questions, as they are asked and answered in a variety of classical and contemporary philosophical texts: what can we know about the world? Is the skeptic right to answer: nothing? What is it in the nature of minds (and bodies) which makes knowledge seem so problematic? How are minds and bodies related to those things which have them: persons? And how does this bear on the question of the meaning of life? ", 
     "format": "Six hours of Lecture and  Four hours of Discussion per week for 6 weeks.", 
-    "freshSophSem": true, 
+    "freshSophSem": false, 
     "hasCoreqs": "", 
     "isPrereqFor": "", 
     "note": "", 
     "number": "22X", 
     "offerHist": [
         "Fall 2013", 
-        "Spring 2013", 
         "Fall 2012", 
-        "Spring 2012"
+        "Fall 2011", 
+        "Fall 2010"
     ], 
     "prereqs": "", 
     "restrictions": "", 
@@ -3023,13 +2843,13 @@
     "format": "Six hours of Lecture and  Two hours of Discussion per week for 6 weeks.", 
     "freshSophSem": false, 
     "hasCoreqs": "", 
-    "isPrereqFor": "This class is a prerequisite for PHILOS 151.", 
+    "isPrereqFor": "", 
     "note": "", 
     "number": "23X", 
     "offerHist": [
         "Spring 2013", 
-        "Spring 2012", 
-        "Spring 2011", 
+        "Fall 2012", 
+        "Fall 2011", 
         "Spring 2010"
     ], 
     "prereqs": "", 
@@ -3059,16 +2879,16 @@
     "deptAbbrev": "PHILOS", 
     "description": "This course will examine the values underlying different visions of a just society. Freedom, equal opportunity, and community are considered important, for example, but there is little agreement on how theses values should be realized. The course will consider various perspectives on these values and their practical implications. Special attention will be devoted to the role of the government in economic affairs, equal educational opportunities, and nationalism. ", 
     "format": "Six hours of Lecture and  Three and one-half hours of Discussion per week for 6 weeks.", 
-    "freshSophSem": true, 
-    "hasCoreqs": "PHILOS 1A must be taken concurrently.", 
+    "freshSophSem": false, 
+    "hasCoreqs": "", 
     "isPrereqFor": "", 
     "note": "", 
     "number": "24X", 
     "offerHist": [
+        "Fall 2013", 
         "Spring 2013", 
         "Fall 2012", 
-        "Fall 2011", 
-        "Spring 2010"
+        "Spring 2012"
     ], 
     "prereqs": "", 
     "restrictions": "", 
@@ -3099,7 +2919,7 @@
     "format": " Three hours of lecture and one or two hours of discussion per week. ", 
     "freshSophSem": false, 
     "hasCoreqs": "", 
-    "isPrereqFor": "This class is a prerequisite for POL SCI 151.", 
+    "isPrereqFor": "", 
     "note": "", 
     "number": "2", 
     "offerHist": [
@@ -3128,29 +2948,29 @@
     }, 
     "classInstance": [
         {
-            "ccn": 68143, 
+            "ccn": 81850, 
             "days": "F", 
-            "finalGroup": "Group 4--Thursday, December 18, 2014, 3 p.m.", 
+            "finalGroup": "Group 3--Wednesday, December 17, 2014, 12 p.m.", 
             "instanceType": "Lecture", 
-            "instructor": "M. Mhasalkar, U. Jehlicka", 
+            "instructor": "S. Abdullah", 
             "location": {
-                "building": "Barrows", 
-                "room": 146
+                "building": "Evans", 
+                "room": 9
             }, 
             "seats": {
-                "available": 81, 
-                "enrolled": 169, 
-                "max": 250, 
+                "available": 641, 
+                "enrolled": 59, 
+                "max": 700, 
                 "waitlist": 0
             }, 
             "semester": "Fall 2014", 
             "time": {
-                "end": "10A", 
-                "start": "9A"
+                "end": "9A", 
+                "start": "8A"
             }
         }
     ], 
-    "courseThread": "This course is part of the Cultural Forms in Transit Course Thread.", 
+    "courseThread": "", 
     "courseType": "Lecture", 
     "credit": 4, 
     "crossListing": "", 
@@ -3160,7 +2980,7 @@
     "format": " Three hours of lecture/seminar per week. ", 
     "freshSophSem": false, 
     "hasCoreqs": "", 
-    "isPrereqFor": "This class is a prerequisite for ENGLISH 151.", 
+    "isPrereqFor": "", 
     "note": "", 
     "number": "139", 
     "offerHist": [
@@ -3174,7 +2994,7 @@
     "title": "The Cultures of English"
 }, 
 "course131":{
-    "berkeleyConnect": true, 
+    "berkeleyConnect": false, 
     "breadth": {
         "AC": false, 
         "AL": false, 
@@ -3189,25 +3009,25 @@
     }, 
     "classInstance": [
         {
-            "ccn": 68088, 
-            "days": "F", 
-            "finalGroup": "Group 3--Wednesday, December 17, 2014, 12 p.m.", 
+            "ccn": 79936, 
+            "days": "MW", 
+            "finalGroup": "Group 1--Monday, December 15, 2014, 1 p.m.", 
             "instanceType": "Lecture", 
-            "instructor": "G. Burke", 
+            "instructor": "M. Mhasalkar, U. Jehlicka", 
             "location": {
-                "building": "Wurster", 
-                "room": 247
+                "building": "Dwinelle", 
+                "room": 194
             }, 
             "seats": {
-                "available": 26, 
-                "enrolled": 4, 
-                "max": 30, 
+                "available": 41, 
+                "enrolled": 9, 
+                "max": 50, 
                 "waitlist": 0
             }, 
             "semester": "Fall 2014", 
             "time": {
-                "end": "6P", 
-                "start": "4:30P"
+                "end": "12P", 
+                "start": "11A"
             }
         }
     ], 
@@ -3221,14 +3041,14 @@
     "format": "Three hours of Lecture per week for 15 weeks.", 
     "freshSophSem": false, 
     "hasCoreqs": "", 
-    "isPrereqFor": "", 
+    "isPrereqFor": "GEOG 151", 
     "note": "", 
     "number": "120", 
     "offerHist": [
+        "Fall 2013", 
         "Spring 2013", 
         "Fall 2012", 
-        "Fall 2011", 
-        "Spring 2010"
+        "Spring 2012"
     ], 
     "prereqs": "", 
     "restrictions": "", 
@@ -3259,14 +3079,14 @@
     "format": "Three hours of Lecture and  One hour of Discussion per week for 15 weeks.  Seven and one-half hours of Lecture and  Two and one-half hours of Discussion per week for 6 weeks.", 
     "freshSophSem": false, 
     "hasCoreqs": "", 
-    "isPrereqFor": "This class is a prerequisite for HISTART 151.", 
+    "isPrereqFor": "", 
     "note": "", 
     "number": "185A", 
     "offerHist": [
+        "Fall 2013", 
         "Spring 2013", 
-        "Spring 2012", 
-        "Spring 2011", 
-        "Spring 2010"
+        "Fall 2012", 
+        "Spring 2012"
     ], 
     "prereqs": "", 
     "restrictions": "", 
@@ -3288,29 +3108,29 @@
     }, 
     "classInstance": [
         {
-            "ccn": 66463, 
+            "ccn": 52820, 
             "days": "M", 
             "finalGroup": "Group 4--Thursday, December 18, 2014, 3 p.m.", 
             "instanceType": "Lecture", 
-            "instructor": "I. Jaskolski", 
+            "instructor": "C. Marquez", 
             "location": {
-                "building": "Evans", 
-                "room": 38
+                "building": "Dwinelle", 
+                "room": 256
             }, 
             "seats": {
-                "available": 98, 
-                "enrolled": 2, 
-                "max": 100, 
-                "waitlist": 0
+                "available": 87, 
+                "enrolled": 163, 
+                "max": 250, 
+                "waitlist": 3
             }, 
             "semester": "Fall 2014", 
             "time": {
-                "end": "10A", 
-                "start": "9A"
+                "end": "4:30P", 
+                "start": "3P"
             }
         }
     ], 
-    "courseThread": "This course is part of the Cultural Forms in Transit Course Thread.", 
+    "courseThread": "", 
     "courseType": "Lecture", 
     "credit": 4, 
     "crossListing": "", 
@@ -3320,14 +3140,13 @@
     "format": "Six hours of Lecture and  Four hours of Discussion per week for 6 weeks.", 
     "freshSophSem": false, 
     "hasCoreqs": "", 
-    "isPrereqFor": "", 
+    "isPrereqFor": "PHILOS 151", 
     "note": "", 
     "number": "21X", 
     "offerHist": [
-        "Spring 2013", 
-        "Spring 2012", 
+        "Fall 2013", 
         "Spring 2011", 
-        "Spring 2010"
+        "Spring 2009"
     ], 
     "prereqs": "", 
     "restrictions": "", 
@@ -3349,64 +3168,42 @@
     }, 
     "classInstance": [
         {
-            "ccn": 14801, 
+            "ccn": 62125, 
             "days": "M", 
-            "finalGroup": "Group 3--Wednesday, December 17, 2014, 12 p.m.", 
+            "finalGroup": "Group 1--Monday, December 15, 2014, 1 p.m.", 
             "instanceType": "Lecture", 
-            "instructor": "I. Jaskolski", 
-            "location": {
-                "building": "Wheeler", 
-                "room": 233
-            }, 
-            "seats": {
-                "available": 18, 
-                "enrolled": 12, 
-                "max": 30, 
-                "waitlist": 10
-            }, 
-            "semester": "Fall 2014", 
-            "time": {
-                "end": "10A", 
-                "start": "9A"
-            }
-        }, 
-        {
-            "ccn": 10544, 
-            "days": "M", 
-            "finalGroup": "Group 4--Thursday, December 18, 2014, 3 p.m.", 
-            "instanceType": "Lecture", 
-            "instructor": "A. Kennard", 
+            "instructor": "B. Varela", 
             "location": {
                 "building": "Wurster", 
-                "room": 29
+                "room": 53
             }, 
             "seats": {
-                "available": 180, 
-                "enrolled": 70, 
-                "max": 250, 
+                "available": 227, 
+                "enrolled": 473, 
+                "max": 700, 
                 "waitlist": 0
             }, 
             "semester": "Fall 2014", 
             "time": {
-                "end": "6P", 
-                "start": "4:30P"
+                "end": "11:30A", 
+                "start": "10A"
             }
         }, 
         {
-            "ccn": 40247, 
-            "days": "M", 
+            "ccn": 10671, 
+            "days": "Th", 
             "finalGroup": "Not applicable", 
             "instanceType": "Discussion", 
-            "instructor": "M. Mhasalkar, U. Jehlicka", 
+            "instructor": "B. Varela", 
             "location": {
-                "building": "Soda", 
-                "room": 241
+                "building": "Barrows", 
+                "room": 52
             }, 
             "seats": {
-                "available": 8, 
-                "enrolled": 7, 
+                "available": 1, 
+                "enrolled": 14, 
                 "max": 15, 
-                "waitlist": 2
+                "waitlist": 0
             }, 
             "semester": "Fall 2014", 
             "time": {
@@ -3415,55 +3212,55 @@
             }
         }, 
         {
-            "ccn": 94542, 
+            "ccn": 88657, 
+            "days": "Th", 
+            "finalGroup": "Not applicable", 
+            "instanceType": "Discussion", 
+            "instructor": "C. Marquez", 
+            "location": {
+                "building": "Barrows", 
+                "room": 298
+            }, 
+            "seats": {
+                "available": 20, 
+                "enrolled": 5, 
+                "max": 25, 
+                "waitlist": 5
+            }, 
+            "semester": "Fall 2014", 
+            "time": {
+                "end": "11A", 
+                "start": "10A"
+            }
+        }, 
+        {
+            "ccn": 85909, 
             "days": "F", 
             "finalGroup": "Not applicable", 
             "instanceType": "Discussion", 
-            "instructor": "K. Serafini, M. Ferrero", 
+            "instructor": "A. Kennard", 
             "location": {
-                "building": "Wheeler", 
-                "room": 191
-            }, 
-            "seats": {
-                "available": 10, 
-                "enrolled": 5, 
-                "max": 15, 
-                "waitlist": 2
-            }, 
-            "semester": "Fall 2014", 
-            "time": {
-                "end": "9A", 
-                "start": "8A"
-            }
-        }, 
-        {
-            "ccn": 67075, 
-            "days": "M", 
-            "finalGroup": "Not applicable", 
-            "instanceType": "Discussion", 
-            "instructor": "I. Jaskolski", 
-            "location": {
-                "building": "Evans", 
-                "room": 232
+                "building": "Dwinelle", 
+                "room": 8
             }, 
             "seats": {
                 "available": 6, 
-                "enrolled": 14, 
-                "max": 20, 
+                "enrolled": 19, 
+                "max": 25, 
                 "waitlist": 0
             }, 
             "semester": "Fall 2014", 
             "time": {
-                "end": "9A", 
-                "start": "8A"
+                "end": "1P", 
+                "start": "12P"
             }
         }
     ], 
-    "courseThread": "", 
+    "courseThread": "This course is part of the Cultural Forms in Transit Course Thread.", 
     "courseType": "Lecture", 
     "credit": 4, 
     "crossListing": "", 
-    "department": "Demography", 
+    "department": "History", 
     "deptAbbrev": "HISTORY", 
     "description": "The history of the United States is the history of migration. The course covers the evolution of the American population from about 20,000 BC with the goal of understanding the interdependent roles of history and demography. As an American cultures class, special attention is given to the experiences of 18th- and 19th-century African and European immigrants and 20th- and 21st-century Asian and Latin American immigrants. Two substantial laboratory assignments; facility with a spreadsheet program is assumed. ", 
     "format": " Three hours of lecture, one hour of self-paced laboratory and one hour of optional discussion section per week. ", 
@@ -3473,10 +3270,10 @@
     "note": "", 
     "number": "C139B", 
     "offerHist": [
+        "Fall 2013", 
         "Spring 2013", 
         "Fall 2012", 
-        "Fall 2011", 
-        "Spring 2010"
+        "Spring 2012"
     ], 
     "prereqs": "", 
     "restrictions": "", 
@@ -3498,69 +3295,135 @@
     }, 
     "classInstance": [
         {
-            "ccn": 64430, 
-            "days": "MW", 
+            "ccn": 11975, 
+            "days": "MWF", 
             "finalGroup": "Group 4--Thursday, December 18, 2014, 3 p.m.", 
             "instanceType": "Lecture", 
             "instructor": "K. Serafini, M. Ferrero", 
             "location": {
-                "building": "Barrows", 
-                "room": 8
+                "building": "Wurster", 
+                "room": 233
             }, 
             "seats": {
-                "available": 29, 
-                "enrolled": 121, 
-                "max": 150, 
-                "waitlist": 4
+                "available": 98, 
+                "enrolled": 152, 
+                "max": 250, 
+                "waitlist": 0
             }, 
             "semester": "Fall 2014", 
             "time": {
-                "end": "2:30P", 
-                "start": "1P"
+                "end": "4P", 
+                "start": "2:30P"
             }
         }, 
         {
-            "ccn": 35464, 
-            "days": "Th", 
-            "finalGroup": "Not applicable", 
-            "instanceType": "Discussion", 
-            "instructor": "K. Serafini, M. Ferrero", 
-            "location": {
-                "building": "Soda", 
-                "room": 158
-            }, 
-            "seats": {
-                "available": 13, 
-                "enrolled": 2, 
-                "max": 15, 
-                "waitlist": 5
-            }, 
-            "semester": "Fall 2014", 
-            "time": {
-                "end": "1P", 
-                "start": "12P"
-            }
-        }, 
-        {
-            "ccn": 52873, 
-            "days": "W", 
+            "ccn": 37104, 
+            "days": "M", 
             "finalGroup": "Not applicable", 
             "instanceType": "Discussion", 
             "instructor": "C. Marquez", 
             "location": {
-                "building": "Soda", 
-                "room": 202
+                "building": "Evans", 
+                "room": 53
             }, 
             "seats": {
                 "available": 7, 
-                "enrolled": 18, 
-                "max": 25, 
-                "waitlist": 1
+                "enrolled": 13, 
+                "max": 20, 
+                "waitlist": 0
+            }, 
+            "semester": "Fall 2014", 
+            "time": {
+                "end": "3P", 
+                "start": "2P"
+            }
+        }, 
+        {
+            "ccn": 44508, 
+            "days": "M", 
+            "finalGroup": "Not applicable", 
+            "instanceType": "Discussion", 
+            "instructor": "I. Jaskolski", 
+            "location": {
+                "building": "Soda", 
+                "room": 9
+            }, 
+            "seats": {
+                "available": 16, 
+                "enrolled": 4, 
+                "max": 20, 
+                "waitlist": 0
+            }, 
+            "semester": "Fall 2014", 
+            "time": {
+                "end": "6P", 
+                "start": "5P"
+            }
+        }, 
+        {
+            "ccn": 87092, 
+            "days": "Tu", 
+            "finalGroup": "Not applicable", 
+            "instanceType": "Discussion", 
+            "instructor": "I. Jaskolski", 
+            "location": {
+                "building": "Soda", 
+                "room": 214
+            }, 
+            "seats": {
+                "available": 5, 
+                "enrolled": 7, 
+                "max": 12, 
+                "waitlist": 0
             }, 
             "semester": "Fall 2014", 
             "time": {
                 "end": "5P", 
                 "start": "4P"
+            }
+        }, 
+        {
+            "ccn": 10891, 
+            "days": "Th", 
+            "finalGroup": "Not applicable", 
+            "instanceType": "Discussion", 
+            "instructor": "A. Kennard", 
+            "location": {
+                "building": "Wheeler", 
+                "room": 136
+            }, 
+            "seats": {
+                "available": 2, 
+                "enrolled": 8, 
+                "max": 10, 
+                "waitlist": 4
+            }, 
+            "semester": "Fall 2014", 
+            "time": {
+                "end": "3P", 
+                "start": "2P"
+            }
+        }, 
+        {
+            "ccn": 93245, 
+            "days": "M", 
+            "finalGroup": "Not applicable", 
+            "instanceType": "Discussion", 
+            "instructor": "C. Giorgano", 
+            "location": {
+                "building": "Soda", 
+                "room": 144
+            }, 
+            "seats": {
+                "available": 8, 
+                "enrolled": 4, 
+                "max": 12, 
+                "waitlist": 9
+            }, 
+            "semester": "Fall 2014", 
+            "time": {
+                "end": "6P", 
+                "start": "5P"
             }
         }
     ], 
@@ -3574,14 +3437,14 @@
     "format": "Three hours of Lecture and  One hour of Discussion per week for 15 weeks.  Six hours of Lecture and  Two hours of Discussion per week for 8 weeks.", 
     "freshSophSem": false, 
     "hasCoreqs": "", 
-    "isPrereqFor": "This class is a prerequisite for INTEGBI 151.", 
+    "isPrereqFor": "", 
     "note": "", 
     "number": "140", 
     "offerHist": [
         "Fall 2013", 
+        "Spring 2013", 
         "Fall 2012", 
-        "Fall 2011", 
-        "Fall 2010"
+        "Spring 2012"
     ], 
     "prereqs": "Biology 1A or equivalent. ", 
     "restrictions": "", 
@@ -3603,25 +3466,25 @@
     }, 
     "classInstance": [
         {
-            "ccn": 51199, 
+            "ccn": 63236, 
             "days": "M", 
-            "finalGroup": "Group 3--Wednesday, December 17, 2014, 12 p.m.", 
+            "finalGroup": "Group 5--Friday, December 15, 2014, 1 p.m.", 
             "instanceType": "Lecture", 
-            "instructor": "K. Serafini, M. Ferrero", 
+            "instructor": "B. Varela", 
             "location": {
-                "building": "Wheeler", 
-                "room": 154
+                "building": "Soda", 
+                "room": 248
             }, 
             "seats": {
-                "available": 41, 
-                "enrolled": 9, 
-                "max": 50, 
-                "waitlist": 0
+                "available": 15, 
+                "enrolled": 15, 
+                "max": 30, 
+                "waitlist": 4
             }, 
             "semester": "Fall 2014", 
             "time": {
-                "end": "10A", 
-                "start": "9A"
+                "end": "5:30P", 
+                "start": "4P"
             }
         }
     ], 
@@ -3663,19 +3526,85 @@
     }, 
     "classInstance": [
         {
-            "ccn": 58268, 
-            "days": "M", 
-            "finalGroup": "Group 5--Friday, December 15, 2014, 1 p.m.", 
+            "ccn": 34583, 
+            "days": "TuTh", 
+            "finalGroup": "Group 3--Wednesday, December 17, 2014, 12 p.m.", 
             "instanceType": "Lecture", 
-            "instructor": "I. Jaskolski", 
+            "instructor": "C. Marquez", 
             "location": {
-                "building": "Barrows", 
-                "room": 272
+                "building": "Dwinelle", 
+                "room": 220
             }, 
             "seats": {
-                "available": 301, 
-                "enrolled": 199, 
-                "max": 500, 
+                "available": 5, 
+                "enrolled": 35, 
+                "max": 40, 
+                "waitlist": 5
+            }, 
+            "semester": "Fall 2014", 
+            "time": {
+                "end": "4:30P", 
+                "start": "3P"
+            }
+        }, 
+        {
+            "ccn": 72167, 
+            "days": "F", 
+            "finalGroup": "Group 1--Monday, December 15, 2014, 1 p.m.", 
+            "instanceType": "Lecture", 
+            "instructor": "M. Wetterman", 
+            "location": {
+                "building": "Wurster", 
+                "room": 241
+            }, 
+            "seats": {
+                "available": 76, 
+                "enrolled": 174, 
+                "max": 250, 
+                "waitlist": 10
+            }, 
+            "semester": "Fall 2014", 
+            "time": {
+                "end": "1P", 
+                "start": "11:30A"
+            }
+        }, 
+        {
+            "ccn": 24756, 
+            "days": "Th", 
+            "finalGroup": "Not applicable", 
+            "instanceType": "Discussion", 
+            "instructor": "B. Varela", 
+            "location": {
+                "building": "Wurster", 
+                "room": 299
+            }, 
+            "seats": {
+                "available": 1, 
+                "enrolled": 14, 
+                "max": 15, 
+                "waitlist": 0
+            }, 
+            "semester": "Fall 2014", 
+            "time": {
+                "end": "2P", 
+                "start": "1P"
+            }
+        }, 
+        {
+            "ccn": 16695, 
+            "days": "M", 
+            "finalGroup": "Not applicable", 
+            "instanceType": "Discussion", 
+            "instructor": "I. Jaskolski", 
+            "location": {
+                "building": "Wheeler", 
+                "room": 45
+            }, 
+            "seats": {
+                "available": 3, 
+                "enrolled": 7, 
+                "max": 10, 
                 "waitlist": 5
             }, 
             "semester": "Fall 2014", 
@@ -3685,69 +3614,25 @@
             }
         }, 
         {
-            "ccn": 28283, 
-            "days": "M", 
+            "ccn": 22396, 
+            "days": "Tu", 
             "finalGroup": "Not applicable", 
             "instanceType": "Discussion", 
-            "instructor": "A. Kennard", 
+            "instructor": "M. Sarka", 
             "location": {
-                "building": "Evans", 
-                "room": 49
+                "building": "Wurster", 
+                "room": 149
             }, 
             "seats": {
-                "available": 7, 
-                "enrolled": 13, 
-                "max": 20, 
-                "waitlist": 4
-            }, 
-            "semester": "Fall 2014", 
-            "time": {
-                "end": "6P", 
-                "start": "5P"
-            }
-        }, 
-        {
-            "ccn": 77130, 
-            "days": "F", 
-            "finalGroup": "Not applicable", 
-            "instanceType": "Discussion", 
-            "instructor": "S. Abdullah", 
-            "location": {
-                "building": "Wheeler", 
-                "room": 38
-            }, 
-            "seats": {
-                "available": 1, 
-                "enrolled": 9, 
-                "max": 10, 
-                "waitlist": 2
-            }, 
-            "semester": "Fall 2014", 
-            "time": {
-                "end": "4P", 
-                "start": "3P"
-            }
-        }, 
-        {
-            "ccn": 37177, 
-            "days": "M", 
-            "finalGroup": "Not applicable", 
-            "instanceType": "Discussion", 
-            "instructor": "G. Burke", 
-            "location": {
-                "building": "Barrows", 
-                "room": 170
-            }, 
-            "seats": {
-                "available": 9, 
-                "enrolled": 1, 
-                "max": 10, 
+                "available": 6, 
+                "enrolled": 19, 
+                "max": 25, 
                 "waitlist": 0
             }, 
             "semester": "Fall 2014", 
             "time": {
-                "end": "3P", 
-                "start": "2P"
+                "end": "5P", 
+                "start": "4P"
             }
         }
     ], 
@@ -3759,16 +3644,15 @@
     "deptAbbrev": "NWMEDIA", 
     "description": "This course studies the influence of new media on various cultures in the U.S. and/or the influence of American cultures on new media. Topics vary by semester. Check current Schedule of Classes or Berkeley Center for New Media web site for current course offerings (bcnm.berkeley.edu). ", 
     "format": " Seven to nine hours of lecture/discussion per week for six weeks. FiveThree to four hours of lecture/discussion per week.  to seven hours of lecture/discussion per week for eight weeks. Four to six hours of lecture/discussion per week for ten weeks. ", 
-    "freshSophSem": false, 
+    "freshSophSem": true, 
     "hasCoreqs": "", 
     "isPrereqFor": "", 
     "note": "", 
     "number": "150AC", 
     "offerHist": [
         "Fall 2013", 
-        "Spring 2013", 
-        "Fall 2012", 
-        "Spring 2012"
+        "Spring 2011", 
+        "Spring 2009"
     ], 
     "prereqs": "", 
     "restrictions": "", 
@@ -3803,9 +3687,10 @@
     "note": "", 
     "number": "170AC", 
     "offerHist": [
-        "Fall 2013", 
+        "Spring 2013", 
+        "Spring 2012", 
         "Spring 2011", 
-        "Spring 2009"
+        "Spring 2010"
     ], 
     "prereqs": "", 
     "restrictions": "", 
@@ -3834,16 +3719,16 @@
     "deptAbbrev": "IDS", 
     "description": "The history of technology in America and the place of technology in the experience, philosophy, and culture of different American groups. The technological practices and attitudes of Native Americans and of European Americans before 1700. Technological clashes, transfers, and dialogues between different American cultures. Technology and the republic and pastoral ideals. The relationship of slavery and technology. The industrial and agricultural revolutions: winners and losers. Immigration and technological progress in the 20th century. Digital technology and the global village. Sponsoring departments: Engineering Interdisciplinary Studies and History. ", 
     "format": "Three hours of Lecture and  One hour of Discussion per week for 15 weeks.", 
-    "freshSophSem": false, 
+    "freshSophSem": true, 
     "hasCoreqs": "", 
-    "isPrereqFor": "This class is a prerequisite for IDS 151.", 
+    "isPrereqFor": "", 
     "note": "", 
     "number": "100AC", 
     "offerHist": [
-        "Fall 2013", 
         "Spring 2013", 
-        "Fall 2012", 
-        "Spring 2012"
+        "Spring 2012", 
+        "Spring 2011", 
+        "Spring 2010"
     ], 
     "prereqs": "", 
     "restrictions": "", 
@@ -3874,13 +3759,13 @@
     "format": "Three hours of Lecture and  One hour of Discussion per week for 15 weeks.", 
     "freshSophSem": true, 
     "hasCoreqs": "", 
-    "isPrereqFor": "This class is a prerequisite for PB HLTH 151.", 
+    "isPrereqFor": "PB HLTH 151", 
     "note": "", 
     "number": "150B", 
     "offerHist": [
         "Spring 2013", 
-        "Fall 2012", 
-        "Fall 2011", 
+        "Spring 2012", 
+        "Spring 2011", 
         "Spring 2010"
     ], 
     "prereqs": "142 and 150A recommended. May be taken concurrently. ", 
@@ -3903,25 +3788,25 @@
     }, 
     "classInstance": [
         {
-            "ccn": 35818, 
-            "days": "M", 
+            "ccn": 84043, 
+            "days": "F", 
             "finalGroup": "Group 3--Wednesday, December 17, 2014, 12 p.m.", 
             "instanceType": "Lecture", 
             "instructor": "I. Jaskolski", 
             "location": {
                 "building": "Evans", 
-                "room": 71
+                "room": 3
             }, 
             "seats": {
-                "available": 318, 
-                "enrolled": 182, 
-                "max": 500, 
-                "waitlist": 4
+                "available": 6, 
+                "enrolled": 44, 
+                "max": 50, 
+                "waitlist": 0
             }, 
             "semester": "Fall 2014", 
             "time": {
-                "end": "9A", 
-                "start": "8A"
+                "end": "10A", 
+                "start": "9A"
             }
         }
     ], 
@@ -3933,16 +3818,15 @@
     "deptAbbrev": "PB HLTH", 
     "description": "This course will examine the historical developments of social and scientific responses to human disease from their beginnings to their current roles as major forces in modern society. It will consider the evolution of diagnoses, treatment, and prevention of human morbidity and death from both a humanistic and scientific perspective. It invites pre-medical, pre-dental, and other students preparing for careers in public health, nursing, optometry, or the other health sciences, students interested in public policy and health-related law, and students of history or the other humanities who wish an overview of medicine and health from a broad historical perspective. ", 
     "format": "Three hours of Lecture per week for 15 weeks.", 
-    "freshSophSem": false, 
+    "freshSophSem": true, 
     "hasCoreqs": "", 
-    "isPrereqFor": "", 
-    "note": "This is a note.", 
+    "isPrereqFor": "PB HLTH 151", 
+    "note": "", 
     "number": "183", 
     "offerHist": [
         "Fall 2013", 
-        "Fall 2012", 
-        "Fall 2011", 
-        "Fall 2010"
+        "Spring 2011", 
+        "Spring 2009"
     ], 
     "prereqs": "Knowledge of (and preferably a college level course which covered) basic aspects of (mammalian) physiology and anatomy. Graduate or upper division undergraduate status. ", 
     "restrictions": "", 
@@ -3974,13 +3858,13 @@
     "freshSophSem": false, 
     "hasCoreqs": "", 
     "isPrereqFor": "", 
-    "note": "This is a note.", 
+    "note": "", 
     "number": "C23AC", 
     "offerHist": [
+        "Fall 2013", 
         "Spring 2013", 
         "Fall 2012", 
-        "Fall 2011", 
-        "Spring 2010"
+        "Spring 2012"
     ], 
     "prereqs": "", 
     "restrictions": "", 
@@ -4002,29 +3886,29 @@
     }, 
     "classInstance": [
         {
-            "ccn": 49558, 
+            "ccn": 31734, 
             "days": "M", 
-            "finalGroup": "Group 1--Monday, December 15, 2014, 1 p.m.", 
+            "finalGroup": "Group 3--Wednesday, December 17, 2014, 12 p.m.", 
             "instanceType": "Lecture", 
-            "instructor": "G. Burke", 
+            "instructor": "V. Benbow, Z. Alberts", 
             "location": {
-                "building": "Dwinelle", 
-                "room": 90
+                "building": "Wurster", 
+                "room": 148
             }, 
             "seats": {
-                "available": 24, 
-                "enrolled": 6, 
-                "max": 30, 
+                "available": 44, 
+                "enrolled": 56, 
+                "max": 100, 
                 "waitlist": 0
             }, 
             "semester": "Fall 2014", 
             "time": {
-                "end": "10A", 
-                "start": "9A"
+                "end": "5:30P", 
+                "start": "4P"
             }
         }
     ], 
-    "courseThread": "This course is part of the Cultural Forms in Transit Course Thread.", 
+    "courseThread": "", 
     "courseType": "Lecture", 
     "credit": 4, 
     "crossListing": "", 
@@ -4063,20 +3947,20 @@
     }, 
     "classInstance": [
         {
-            "ccn": 79339, 
+            "ccn": 73093, 
             "days": "F", 
-            "finalGroup": "Group 2--Tuesday, December 16, 2014, 9 a.m.", 
+            "finalGroup": "Group 1--Monday, December 15, 2014, 1 p.m.", 
             "instanceType": "Lecture", 
-            "instructor": "G. Burke", 
+            "instructor": "M. Wetterman", 
             "location": {
-                "building": "Soda", 
-                "room": 287
+                "building": "Dwinelle", 
+                "room": 197
             }, 
             "seats": {
-                "available": 14, 
-                "enrolled": 36, 
-                "max": 50, 
-                "waitlist": 0
+                "available": 24, 
+                "enrolled": 6, 
+                "max": 30, 
+                "waitlist": 5
             }, 
             "semester": "Fall 2014", 
             "time": {
@@ -4096,20 +3980,20 @@
     "freshSophSem": false, 
     "hasCoreqs": "", 
     "isPrereqFor": "", 
-    "note": "This is a note.", 
+    "note": "", 
     "number": "172AC", 
     "offerHist": [
-        "Spring 2013", 
+        "Fall 2013", 
         "Fall 2012", 
         "Fall 2011", 
-        "Spring 2010"
+        "Fall 2010"
     ], 
     "prereqs": "", 
     "restrictions": "", 
     "title": "Special Topics in American Cultures"
 }, 
 "course95":{
-    "berkeleyConnect": false, 
+    "berkeleyConnect": true, 
     "breadth": {
         "AC": true, 
         "AL": false, 
@@ -4124,25 +4008,25 @@
     }, 
     "classInstance": [
         {
-            "ccn": 98609, 
-            "days": "M", 
+            "ccn": 56085, 
+            "days": "MW", 
             "finalGroup": "Group 3--Wednesday, December 17, 2014, 12 p.m.", 
             "instanceType": "Lecture", 
-            "instructor": "G. Burke", 
+            "instructor": "K. Serafini, M. Ferrero", 
             "location": {
-                "building": "Barrows", 
-                "room": 220
+                "building": "Wurster", 
+                "room": 296
             }, 
             "seats": {
-                "available": 160, 
-                "enrolled": 540, 
-                "max": 700, 
-                "waitlist": 0
+                "available": 66, 
+                "enrolled": 184, 
+                "max": 250, 
+                "waitlist": 1
             }, 
             "semester": "Fall 2014", 
             "time": {
-                "end": "11:30A", 
-                "start": "10A"
+                "end": "5:30P", 
+                "start": "4P"
             }
         }
     ], 
@@ -4156,21 +4040,20 @@
     "format": "Two hours of Seminar per week for 15 weeks.  Three and one-half hours of Seminar per week for 8 weeks.  Five hours of Seminar per week for 6 weeks.", 
     "freshSophSem": false, 
     "hasCoreqs": "", 
-    "isPrereqFor": "This class is a prerequisite for ANTHRO 151.", 
-    "note": "", 
+    "isPrereqFor": "ANTHRO 151", 
+    "note": "This is a note.", 
     "number": "12AC", 
     "offerHist": [
-        "Spring 2013", 
-        "Spring 2012", 
+        "Fall 2013", 
         "Spring 2011", 
-        "Spring 2010"
+        "Spring 2009"
     ], 
     "prereqs": "Limited to freshmen and sophomores. Consent of instructor. ", 
     "restrictions": "", 
     "title": "Anthropological Views of American Cultures"
 }, 
 "course96":{
-    "berkeleyConnect": true, 
+    "berkeleyConnect": false, 
     "breadth": {
         "AC": true, 
         "AL": false, 
@@ -4221,7 +4104,7 @@
         "SS": false
     }, 
     "classInstance": [], 
-    "courseThread": "", 
+    "courseThread": "This course is part of the Cultural Forms in Transit Course Thread.", 
     "courseType": "Lecture", 
     "credit": 4, 
     "crossListing": "", 
@@ -4235,17 +4118,17 @@
     "note": "", 
     "number": "110AC", 
     "offerHist": [
-        "Fall 2013", 
         "Spring 2013", 
         "Fall 2012", 
-        "Spring 2012"
+        "Fall 2011", 
+        "Spring 2010"
     ], 
     "prereqs": "", 
     "restrictions": "", 
     "title": "The Social and Cultural Basis of Design"
 }, 
 "course90":{
-    "berkeleyConnect": true, 
+    "berkeleyConnect": false, 
     "breadth": {
         "AC": true, 
         "AL": true, 
@@ -4259,7 +4142,7 @@
         "SS": false
     }, 
     "classInstance": [], 
-    "courseThread": "", 
+    "courseThread": "This course is part of the Cultural Forms in Transit Course Thread.", 
     "courseType": "Lecture", 
     "credit": 4, 
     "crossListing": "", 
@@ -4267,16 +4150,16 @@
     "deptAbbrev": "AMERSTD", 
     "description": "American culture and cultural change, with attention to the multicultural basis of American society and emphasis on the need for multiple methods of analysis. The course will consistently draw on the arts, material culture, and various fields affecting cultural production and meaning. Those areas include literature, film, history, architecture, history of art, religion, music, engineering, environmental studies, anthropology, politics, economics, law, and medicine. ", 
     "format": "", 
-    "freshSophSem": true, 
+    "freshSophSem": false, 
     "hasCoreqs": "", 
     "isPrereqFor": "", 
-    "note": "This is a note.", 
+    "note": "", 
     "number": "111AC", 
     "offerHist": [
+        "Fall 2013", 
         "Spring 2013", 
-        "Spring 2012", 
-        "Spring 2011", 
-        "Spring 2010"
+        "Fall 2012", 
+        "Spring 2012"
     ], 
     "prereqs": "", 
     "restrictions": "Students will receive no credit for 10AC after taking 10 or Undergraduate and Interdisciplinary Studies 10. ", 
@@ -4307,14 +4190,13 @@
     "format": "Three hours of Lecture and  One hour of Discussion per week for 15 weeks.", 
     "freshSophSem": false, 
     "hasCoreqs": "", 
-    "isPrereqFor": "This class is a prerequisite for AMERSTD 151.", 
+    "isPrereqFor": "", 
     "note": "", 
     "number": "10AC", 
     "offerHist": [
-        "Spring 2013", 
-        "Fall 2012", 
-        "Fall 2011", 
-        "Spring 2010"
+        "Fall 2013", 
+        "Spring 2011", 
+        "Spring 2009"
     ], 
     "prereqs": "", 
     "restrictions": "Students will receive no credit for 10AC after taking 10 or Undergraduate and Interdisciplinary Studies 10. ", 
@@ -4336,19 +4218,19 @@
     }, 
     "classInstance": [
         {
-            "ccn": 70419, 
-            "days": "MW", 
-            "finalGroup": "Group 3--Wednesday, December 17, 2014, 12 p.m.", 
+            "ccn": 92689, 
+            "days": "M", 
+            "finalGroup": "Group 4--Thursday, December 18, 2014, 3 p.m.", 
             "instanceType": "Lecture", 
-            "instructor": "M. Sarka", 
+            "instructor": "W. Hopkins, M. Anson", 
             "location": {
                 "building": "Wurster", 
-                "room": 267
+                "room": 205
             }, 
             "seats": {
-                "available": 102, 
-                "enrolled": 48, 
-                "max": 150, 
+                "available": 217, 
+                "enrolled": 483, 
+                "max": 700, 
                 "waitlist": 0
             }, 
             "semester": "Fall 2014", 
@@ -4381,7 +4263,7 @@
     "title": "Representing Race and Ethnicity in American Culture"
 }, 
 "course93":{
-    "berkeleyConnect": true, 
+    "berkeleyConnect": false, 
     "breadth": {
         "AC": true, 
         "AL": false, 
@@ -4405,13 +4287,14 @@
     "format": "Three hours of Lecture and  One hour of Discussion per week for 15 weeks.  Six hours of Lecture and  One and one-half hours of Discussion per week for 8 weeks.  Eight hours of Lecture and  Two hours of Discussion per week for 6 weeks.", 
     "freshSophSem": false, 
     "hasCoreqs": "", 
-    "isPrereqFor": "", 
+    "isPrereqFor": "ANTHRO 151", 
     "note": "", 
     "number": "3AC", 
     "offerHist": [
-        "Fall 2013", 
+        "Spring 2013", 
+        "Spring 2012", 
         "Spring 2011", 
-        "Spring 2009"
+        "Spring 2010"
     ], 
     "prereqs": "", 
     "restrictions": "Students will receive no credit for 3AC after taking 3; deficient grade in 3AC may be removed by taking 3. ", 
@@ -4433,51 +4316,29 @@
     }, 
     "classInstance": [
         {
-            "ccn": 38789, 
-            "days": "TuTh", 
+            "ccn": 54795, 
+            "days": "M", 
             "finalGroup": "Not applicable", 
             "instanceType": "Lecture", 
-            "instructor": "M. Wetterman", 
-            "location": {
-                "building": "Soda", 
-                "room": 140
-            }, 
-            "seats": {
-                "available": 134, 
-                "enrolled": 16, 
-                "max": 150, 
-                "waitlist": 10
-            }, 
-            "semester": "Fall 2014", 
-            "time": {
-                "end": "12P", 
-                "start": "11A"
-            }
-        }, 
-        {
-            "ccn": 62150, 
-            "days": "MWF", 
-            "finalGroup": "Not applicable", 
-            "instanceType": "Lecture", 
-            "instructor": "M. Sarka", 
+            "instructor": "C. Marquez", 
             "location": {
                 "building": "Wheeler", 
-                "room": 260
+                "room": 51
             }, 
             "seats": {
-                "available": 26, 
-                "enrolled": 4, 
-                "max": 30, 
+                "available": 10, 
+                "enrolled": 240, 
+                "max": 250, 
                 "waitlist": 0
             }, 
             "semester": "Fall 2014", 
             "time": {
-                "end": "1P", 
-                "start": "11:30A"
+                "end": "2:30P", 
+                "start": "1P"
             }
         }
     ], 
-    "courseThread": "", 
+    "courseThread": "This course is part of the Cultural Forms in Transit Course Thread.", 
     "courseType": "Lecture", 
     "credit": 3, 
     "crossListing": "", 
@@ -4488,13 +4349,13 @@
     "freshSophSem": false, 
     "hasCoreqs": "", 
     "isPrereqFor": "", 
-    "note": "", 
+    "note": "This is a note.", 
     "number": "219", 
     "offerHist": [
-        "Fall 2013", 
-        "Fall 2012", 
-        "Fall 2011", 
-        "Fall 2010"
+        "Spring 2013", 
+        "Spring 2012", 
+        "Spring 2011", 
+        "Spring 2010"
     ], 
     "prereqs": "", 
     "restrictions": "", 
@@ -4525,14 +4386,14 @@
     "format": "Three hours of Lecture per week for 15 weeks.", 
     "freshSophSem": false, 
     "hasCoreqs": "", 
-    "isPrereqFor": "This class is a prerequisite for A,RESEC 151.", 
-    "note": "", 
+    "isPrereqFor": "", 
+    "note": "This is a note.", 
     "number": "261", 
     "offerHist": [
+        "Fall 2013", 
         "Spring 2013", 
-        "Spring 2012", 
-        "Spring 2011", 
-        "Spring 2010"
+        "Fall 2012", 
+        "Spring 2012"
     ], 
     "prereqs": "Ph.D.-level economic theory or consent of instructor. ", 
     "restrictions": "", 
@@ -4554,42 +4415,108 @@
     }, 
     "classInstance": [
         {
-            "ccn": 92509, 
-            "days": "M", 
+            "ccn": 38407, 
+            "days": "F", 
             "finalGroup": "Not applicable", 
             "instanceType": "Lecture", 
             "instructor": "D. Matousek, C. Stoddard", 
             "location": {
-                "building": "Dwinelle", 
-                "room": 173
+                "building": "Wheeler", 
+                "room": 236
             }, 
             "seats": {
-                "available": 9, 
-                "enrolled": 41, 
-                "max": 50, 
+                "available": 47, 
+                "enrolled": 103, 
+                "max": 150, 
                 "waitlist": 0
             }, 
             "semester": "Fall 2014", 
             "time": {
-                "end": "11:30A", 
+                "end": "5:30P", 
+                "start": "4P"
+            }
+        }, 
+        {
+            "ccn": 67070, 
+            "days": "W", 
+            "finalGroup": "Not applicable", 
+            "instanceType": "Discussion", 
+            "instructor": "I. Jaskolski", 
+            "location": {
+                "building": "Dwinelle", 
+                "room": 278
+            }, 
+            "seats": {
+                "available": 10, 
+                "enrolled": 0, 
+                "max": 10, 
+                "waitlist": 0
+            }, 
+            "semester": "Fall 2014", 
+            "time": {
+                "end": "11A", 
                 "start": "10A"
             }
         }, 
         {
-            "ccn": 86090, 
-            "days": "Tu", 
+            "ccn": 15248, 
+            "days": "M", 
             "finalGroup": "Not applicable", 
             "instanceType": "Discussion", 
-            "instructor": "M. Mhasalkar, U. Jehlicka", 
+            "instructor": "W. Hopkins, M. Anson", 
             "location": {
-                "building": "Wurster", 
-                "room": 183
+                "building": "Wheeler", 
+                "room": 242
             }, 
             "seats": {
-                "available": 16, 
+                "available": 7, 
+                "enrolled": 3, 
+                "max": 10, 
+                "waitlist": 0
+            }, 
+            "semester": "Fall 2014", 
+            "time": {
+                "end": "1P", 
+                "start": "12P"
+            }
+        }, 
+        {
+            "ccn": 64956, 
+            "days": "M", 
+            "finalGroup": "Not applicable", 
+            "instanceType": "Discussion", 
+            "instructor": "I. Jaskolski", 
+            "location": {
+                "building": "Soda", 
+                "room": 223
+            }, 
+            "seats": {
+                "available": 6, 
                 "enrolled": 4, 
-                "max": 20, 
-                "waitlist": 2
+                "max": 10, 
+                "waitlist": 9
+            }, 
+            "semester": "Fall 2014", 
+            "time": {
+                "end": "1P", 
+                "start": "12P"
+            }
+        }, 
+        {
+            "ccn": 26299, 
+            "days": "F", 
+            "finalGroup": "Not applicable", 
+            "instanceType": "Discussion", 
+            "instructor": "I. Jaskolski", 
+            "location": {
+                "building": "Soda", 
+                "room": 136
+            }, 
+            "seats": {
+                "available": 2, 
+                "enrolled": 8, 
+                "max": 10, 
+                "waitlist": 0
             }, 
             "semester": "Fall 2014", 
             "time": {
@@ -4598,95 +4525,29 @@
             }
         }, 
         {
-            "ccn": 43064, 
-            "days": "W", 
+            "ccn": 12677, 
+            "days": "Th", 
             "finalGroup": "Not applicable", 
             "instanceType": "Discussion", 
-            "instructor": "M. Mhasalkar, U. Jehlicka", 
+            "instructor": "V. Benbow, Z. Alberts", 
             "location": {
-                "building": "Wheeler", 
-                "room": 258
+                "building": "Wurster", 
+                "room": 105
             }, 
             "seats": {
-                "available": 2, 
-                "enrolled": 10, 
-                "max": 12, 
+                "available": 7, 
+                "enrolled": 13, 
+                "max": 20, 
                 "waitlist": 0
             }, 
             "semester": "Fall 2014", 
             "time": {
-                "end": "10A", 
-                "start": "9A"
-            }
-        }, 
-        {
-            "ccn": 77963, 
-            "days": "Tu", 
-            "finalGroup": "Not applicable", 
-            "instanceType": "Discussion", 
-            "instructor": "M. Sarka", 
-            "location": {
-                "building": "Barrows", 
-                "room": 246
-            }, 
-            "seats": {
-                "available": 10, 
-                "enrolled": 15, 
-                "max": 25, 
-                "waitlist": 8
-            }, 
-            "semester": "Fall 2014", 
-            "time": {
-                "end": "2P", 
-                "start": "1P"
-            }
-        }, 
-        {
-            "ccn": 38588, 
-            "days": "Th", 
-            "finalGroup": "Not applicable", 
-            "instanceType": "Discussion", 
-            "instructor": "M. Wetterman", 
-            "location": {
-                "building": "Wheeler", 
-                "room": 212
-            }, 
-            "seats": {
-                "available": 8, 
-                "enrolled": 7, 
-                "max": 15, 
-                "waitlist": 5
-            }, 
-            "semester": "Fall 2014", 
-            "time": {
-                "end": "12P", 
-                "start": "11A"
-            }
-        }, 
-        {
-            "ccn": 87545, 
-            "days": "F", 
-            "finalGroup": "Not applicable", 
-            "instanceType": "Discussion", 
-            "instructor": "O. Bandyopadhyay", 
-            "location": {
-                "building": "Soda", 
-                "room": 278
-            }, 
-            "seats": {
-                "available": 11, 
-                "enrolled": 14, 
-                "max": 25, 
-                "waitlist": 6
-            }, 
-            "semester": "Fall 2014", 
-            "time": {
-                "end": "3P", 
-                "start": "2P"
+                "end": "6P", 
+                "start": "5P"
             }
         }
     ], 
-    "courseThread": "This course is part of the Cultural Forms in Transit Course Thread.", 
+    "courseThread": "", 
     "courseType": "Lecture", 
     "credit": 3, 
     "crossListing": "", 
@@ -4696,14 +4557,14 @@
     "format": "Three hours of Seminar per week for 15 weeks.", 
     "freshSophSem": false, 
     "hasCoreqs": "", 
-    "isPrereqFor": "This class is a prerequisite for ARCH 151.", 
+    "isPrereqFor": "", 
     "note": "", 
     "number": "275", 
     "offerHist": [
         "Fall 2013", 
-        "Spring 2013", 
         "Fall 2012", 
-        "Spring 2012"
+        "Fall 2011", 
+        "Fall 2010"
     ], 
     "prereqs": "The course is open to upper division undergraduates and graduate students. ", 
     "restrictions": "", 
@@ -4734,14 +4595,14 @@
     "format": "Three hours of Seminar per week for 15 weeks.", 
     "freshSophSem": false, 
     "hasCoreqs": "", 
-    "isPrereqFor": "This class is a prerequisite for ARCH 151.", 
+    "isPrereqFor": "ARCH 151", 
     "note": "", 
     "number": "175", 
     "offerHist": [
         "Fall 2013", 
-        "Spring 2013", 
         "Fall 2012", 
-        "Spring 2012"
+        "Fall 2011", 
+        "Fall 2010"
     ], 
     "prereqs": "Open to upper division undergraduates and graduate students. ", 
     "restrictions": "", 
@@ -4776,10 +4637,10 @@
     "note": "", 
     "number": "110AC", 
     "offerHist": [
-        "Spring 2013", 
-        "Spring 2012", 
-        "Spring 2011", 
-        "Spring 2010"
+        "Fall 2013", 
+        "Fall 2012", 
+        "Fall 2011", 
+        "Fall 2010"
     ], 
     "prereqs": "", 
     "restrictions": "", 
@@ -4808,23 +4669,23 @@
     "deptAbbrev": "AMERSTD", 
     "description": "This course will introduce students to the interdisciplinary field of American Studies, taking the \"Hollywood Dream Factory\" as the central theme. Focusing on both parts of that phrase, the course will proceed along a double path. We will examine the historical and geographical development of the motion picture industry from the rise of the studio system to the \"new\" entertainment economy of the 1980's and we will examine ways Hollywood is represented in literature and film. ", 
     "format": "Three hours of Lecture and  One hour of Discussion per week for 15 weeks.", 
-    "freshSophSem": true, 
+    "freshSophSem": false, 
     "hasCoreqs": "", 
     "isPrereqFor": "", 
     "note": "", 
     "number": "C10", 
     "offerHist": [
-        "Fall 2013", 
         "Spring 2013", 
-        "Fall 2012", 
-        "Spring 2012"
+        "Spring 2012", 
+        "Spring 2011", 
+        "Spring 2010"
     ], 
     "prereqs": "", 
     "restrictions": "", 
     "title": "Introduction to American Studies: Hollywood: the Place, the Industry, the Fantasy"
 }, 
 "course86":{
-    "berkeleyConnect": true, 
+    "berkeleyConnect": false, 
     "breadth": {
         "AC": false, 
         "AL": false, 
@@ -4846,23 +4707,23 @@
     "deptAbbrev": "LEGALST", 
     "description": "An historical examination of major interpretations of law, morals and social development, with special emphasis on the social thought of the 18th and 19th centuries and including the writings of Marx, Maine, Durkheim, Weber and other contemporary figures. ", 
     "format": "Three hours of Lecture and  One hour of Discussion per week for 15 weeks.", 
-    "freshSophSem": true, 
+    "freshSophSem": false, 
     "hasCoreqs": "", 
-    "isPrereqFor": "This class is a prerequisite for LEGALST 151.", 
+    "isPrereqFor": "LEGALST 151", 
     "note": "", 
     "number": "103", 
     "offerHist": [
-        "Fall 2013", 
+        "Spring 2013", 
         "Fall 2012", 
         "Fall 2011", 
-        "Fall 2010"
+        "Spring 2010"
     ], 
     "prereqs": "", 
     "restrictions": "", 
     "title": "Theories of Law and Society"
 }, 
 "course85":{
-    "berkeleyConnect": true, 
+    "berkeleyConnect": false, 
     "breadth": {
         "AC": false, 
         "AL": false, 
@@ -4890,9 +4751,10 @@
     "note": "", 
     "number": "107", 
     "offerHist": [
-        "Fall 2013", 
-        "Spring 2011", 
-        "Spring 2009"
+        "Spring 2013", 
+        "Fall 2012", 
+        "Fall 2011", 
+        "Spring 2010"
     ], 
     "prereqs": "", 
     "restrictions": "", 
@@ -4921,19 +4783,19 @@
     "deptAbbrev": "PUB POL", 
     "description": "A systematic and critical approach to evaluating and designing public policies. Combines theory and application to particular cases and problems. Diverse policy topics, including environmental, health, education, communications, safety, and arts policy issues, among others. ", 
     "format": "Three hours of Lecture and  One hour of Discussion per week for 15 weeks.", 
-    "freshSophSem": false, 
+    "freshSophSem": true, 
     "hasCoreqs": "", 
-    "isPrereqFor": "This class is a prerequisite for PUB POL 151.", 
+    "isPrereqFor": "", 
     "note": "", 
     "number": "101", 
     "offerHist": [
-        "Spring 2013", 
+        "Fall 2013", 
         "Fall 2012", 
         "Fall 2011", 
-        "Spring 2010"
+        "Fall 2010"
     ], 
     "prereqs": "", 
     "restrictions": "", 
     "title": "Introduction to Public Policy Analysis"
-}
+} 
 }

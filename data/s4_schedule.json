@@ -1,77 +1,55 @@
-{"course3":{
+{"course39":{
     "berkeleyConnect": false, 
     "breadth": {
         "AC": false, 
-        "AL": false, 
+        "AL": true, 
         "BS": false, 
         "HS": false, 
         "IS": false, 
         "PS": false, 
         "PV": false, 
         "RCA": false, 
-        "RCB": false, 
+        "RCB": true, 
         "SS": false
     }, 
     "classInstance": [
         {
-            "ccn": 45632, 
-            "days": "Th", 
+            "ccn": 63558, 
+            "days": "TuTh", 
             "finalGroup": "Not applicable", 
-            "instanceType": "Discussion", 
-            "instructor": "A. Kennard", 
+            "instanceType": "Lecture", 
+            "instructor": "G. Burke", 
             "location": {
-                "building": "Wheeler", 
-                "room": 16
+                "building": "Evans", 
+                "room": 99
             }, 
             "seats": {
-                "available": 1, 
-                "enrolled": 19, 
-                "max": 20, 
-                "waitlist": 9
-            }, 
-            "semester": "Fall 2014", 
-            "time": {
-                "end": "9A", 
-                "start": "8A"
-            }
-        }, 
-        {
-            "ccn": 90610, 
-            "days": "Tu", 
-            "finalGroup": "Not applicable", 
-            "instanceType": "Discussion", 
-            "instructor": "A. Kennard", 
-            "location": {
-                "building": "Soda", 
-                "room": 40
-            }, 
-            "seats": {
-                "available": 0, 
-                "enrolled": 10, 
-                "max": 10, 
+                "available": 82, 
+                "enrolled": 18, 
+                "max": 100, 
                 "waitlist": 0
             }, 
             "semester": "Fall 2014", 
             "time": {
-                "end": "5P", 
-                "start": "4P"
+                "end": "4:30P", 
+                "start": "3P"
             }
         }, 
         {
-            "ccn": 74401, 
-            "days": "M", 
+            "ccn": 34633, 
+            "days": "W", 
             "finalGroup": "Not applicable", 
             "instanceType": "Discussion", 
             "instructor": "B. Varela", 
             "location": {
-                "building": "Wheeler", 
-                "room": 289
+                "building": "Barrows", 
+                "room": 105
             }, 
             "seats": {
-                "available": 1, 
-                "enrolled": 24, 
-                "max": 25, 
-                "waitlist": 0
+                "available": 2, 
+                "enrolled": 8, 
+                "max": 10, 
+                "waitlist": 9
             }, 
             "semester": "Fall 2014", 
             "time": {
@@ -80,245 +58,19 @@
             }
         }, 
         {
-            "ccn": 76889, 
-            "days": "W", 
+            "ccn": 12806, 
+            "days": "Tu", 
             "finalGroup": "Not applicable", 
             "instanceType": "Discussion", 
-            "instructor": "W. Hopkins, M. Anson", 
+            "instructor": "M. Mhasalkar, U. Jehlicka", 
             "location": {
-                "building": "Soda", 
-                "room": 24
+                "building": "Wurster", 
+                "room": 77
             }, 
             "seats": {
-                "available": 12, 
-                "enrolled": 3, 
+                "available": 5, 
+                "enrolled": 10, 
                 "max": 15, 
-                "waitlist": 0
-            }, 
-            "semester": "Fall 2014", 
-            "time": {
-                "end": "12P", 
-                "start": "11A"
-            }
-        }
-    ], 
-    "courseThread": "", 
-    "courseType": "Lecture", 
-    "credit": 3, 
-    "crossListing": "", 
-    "department": "International and Area Studies", 
-    "deptAbbrev": "IAS", 
-    "description": "Students work in selected internships in non-profit, government agencies, or farmer networks associated with the Brazilian Consortium on Agroecology and Sustainable Development. The purpose of the internship is to gain direct experience in agroecological techniques and methodologies to achieve sustainability in agriculture. Internships are approved in advance by the faculty coordinator with whom each student will be required to meet regularly and plan out complementary readings and regular written reports. Work commitments will range between 180-360 hours depending upon the number of units undertaken and the length of the term enrolled. Final assessments will be based upon performance in the internship, quality of written reports and a final assessment by the faculty advisor. Internship is repeatable for up to 16 units. Enrollment is restricted to 10 students per term selected through a special selection process. See instructor for details. ", 
-    "format": " Twenty-three to forty-five hours of internship per week for eight weeks. Thirty to sixty hours of internship per week for six weeks. Eighteen to thirty-six hours of internship per week for ten weeks. ", 
-    "freshSophSem": false, 
-    "hasCoreqs": "", 
-    "isPrereqFor": "", 
-    "note": "", 
-    "number": "271", 
-    "offerHist": [
-        "Spring 2013", 
-        "Fall 2012", 
-        "Fall 2011", 
-        "Spring 2010"
-    ], 
-    "prereqs": "Graduate standing or consent of instructor. ", 
-    "restrictions": "", 
-    "title": "Internship in Agroecology and Sustainable Development"
-}, 
-"course29":{
-    "berkeleyConnect": false, 
-    "breadth": {
-        "AC": false, 
-        "AL": false, 
-        "BS": false, 
-        "HS": false, 
-        "IS": false, 
-        "PS": false, 
-        "PV": false, 
-        "RCA": false, 
-        "RCB": false, 
-        "SS": false
-    }, 
-    "classInstance": [
-        {
-            "ccn": 85435, 
-            "days": "M", 
-            "finalGroup": "Group 2--Tuesday, December 16, 2014, 9 a.m.", 
-            "instanceType": "Lecture", 
-            "instructor": "B. Varela", 
-            "location": {
-                "building": "Wheeler", 
-                "room": 41
-            }, 
-            "seats": {
-                "available": 174, 
-                "enrolled": 326, 
-                "max": 500, 
-                "waitlist": 0
-            }, 
-            "semester": "Fall 2014", 
-            "time": {
-                "end": "12P", 
-                "start": "11A"
-            }
-        }, 
-        {
-            "ccn": 10581, 
-            "days": "Th", 
-            "finalGroup": "Not applicable", 
-            "instanceType": "Discussion", 
-            "instructor": "C. Marquez", 
-            "location": {
-                "building": "Wheeler", 
-                "room": 249
-            }, 
-            "seats": {
-                "available": 14, 
-                "enrolled": 1, 
-                "max": 15, 
-                "waitlist": 0
-            }, 
-            "semester": "Fall 2014", 
-            "time": {
-                "end": "2P", 
-                "start": "1P"
-            }
-        }, 
-        {
-            "ccn": 84326, 
-            "days": "W", 
-            "finalGroup": "Not applicable", 
-            "instanceType": "Discussion", 
-            "instructor": "W. Hopkins, M. Anson", 
-            "location": {
-                "building": "Barrows", 
-                "room": 204
-            }, 
-            "seats": {
-                "available": 20, 
-                "enrolled": 0, 
-                "max": 20, 
-                "waitlist": 0
-            }, 
-            "semester": "Fall 2014", 
-            "time": {
-                "end": "11A", 
-                "start": "10A"
-            }
-        }
-    ], 
-    "courseThread": "", 
-    "courseType": "Lecture", 
-    "credit": 3, 
-    "crossListing": "", 
-    "department": "Environ Sci, Policy, and Management", 
-    "deptAbbrev": "ESPM", 
-    "description": "Fundamentals of wildland fire including fire behavior modeling, fire history methods, prescribed fire techniques, fire ecology, fire management, fire in the urban-wildland intermix, wildland fire, and ecosystem sustainability. Laboratories on inventory methods, fire history, modeling of fire behavior and risk, and prescribed burning. ", 
-    "format": "Two hours of Lecture and  Three hours of Laboratory per week for 15 weeks.", 
-    "freshSophSem": false, 
-    "hasCoreqs": "", 
-    "isPrereqFor": "This class is a prerequisite for ESPM 151.", 
-    "note": "", 
-    "number": "181", 
-    "offerHist": [
-        "Fall 2013", 
-        "Spring 2013", 
-        "Fall 2012", 
-        "Spring 2012"
-    ], 
-    "prereqs": "Consent of instructor. ", 
-    "restrictions": "", 
-    "title": "Wildland Fire Science"
-}, 
-"course20":{
-    "berkeleyConnect": false, 
-    "breadth": {
-        "AC": false, 
-        "AL": false, 
-        "BS": false, 
-        "HS": false, 
-        "IS": false, 
-        "PS": false, 
-        "PV": false, 
-        "RCA": false, 
-        "RCB": false, 
-        "SS": false
-    }, 
-    "classInstance": [
-        {
-            "ccn": 44917, 
-            "days": "M", 
-            "finalGroup": "Group 3--Wednesday, December 17, 2014, 12 p.m.", 
-            "instanceType": "Lecture", 
-            "instructor": "M. Sarka", 
-            "location": {
-                "building": "Barrows", 
-                "room": 88
-            }, 
-            "seats": {
-                "available": 145, 
-                "enrolled": 105, 
-                "max": 250, 
-                "waitlist": 10
-            }, 
-            "semester": "Fall 2014", 
-            "time": {
-                "end": "11A", 
-                "start": "10A"
-            }
-        }
-    ], 
-    "courseThread": "", 
-    "courseType": "Lecture", 
-    "credit": 3, 
-    "crossListing": "", 
-    "department": "Civil and Environmental Engineering", 
-    "deptAbbrev": "CIV ENG", 
-    "description": "An introduction to key engineered systems (e.g., energy, water supply, buildings, transportation) and their environmental impacts. Basic principles of environmental science needed to understand natural processes as they are influenced by human activities. Overview of concepts and methods of sustainability analysis. Critical evaluation of engineering approaches to address sustainability. ", 
-    "format": "Three hours of Lecture per week for 15 weeks.", 
-    "freshSophSem": false, 
-    "hasCoreqs": "", 
-    "isPrereqFor": "", 
-    "note": "", 
-    "number": "11", 
-    "offerHist": [
-        "Fall 2013", 
-        "Spring 2011", 
-        "Spring 2009"
-    ], 
-    "prereqs": "Chemistry 1A, Mathematics 1A. ", 
-    "restrictions": "", 
-    "title": "Engineered Systems and Sustainability"
-}, 
-"course115":{
-    "berkeleyConnect": false, 
-    "breadth": {
-        "AC": true, 
-        "AL": false, 
-        "BS": false, 
-        "HS": false, 
-        "IS": false, 
-        "PS": false, 
-        "PV": false, 
-        "RCA": false, 
-        "RCB": false, 
-        "SS": true
-    }, 
-    "classInstance": [
-        {
-            "ccn": 56891, 
-            "days": "M", 
-            "finalGroup": "Group 1--Monday, December 15, 2014, 1 p.m.", 
-            "instanceType": "Lecture", 
-            "instructor": "O. Bandyopadhyay", 
-            "location": {
-                "building": "Wheeler", 
-                "room": 143
-            }, 
-            "seats": {
-                "available": 257, 
-                "enrolled": 243, 
-                "max": 500, 
                 "waitlist": 0
             }, 
             "semester": "Fall 2014", 
@@ -332,32 +84,32 @@
     "courseType": "Lecture", 
     "credit": 4, 
     "crossListing": "", 
-    "department": "Sociology", 
-    "deptAbbrev": "SOCIOL", 
-    "description": "This course begins with an overview of urban sociology. Then it focuses on three issues through experiences of three American cultures in three American cities: rural-to-urban immigration in the case of Jewish Americans in New York; residential patterns in the case of African Americans in Chicago; and the economic restructuring of cities in the case of Mexican Americans in Los Angeles. The third section will look at three particular topics that are defined by the intersection of ethnicity and urban space: urban politics, urban crime, and suburbanization.", 
-    "format": "Three hours of Lecture and  Two hours of Discussion per week for 15 weeks.", 
-    "freshSophSem": false, 
+    "department": "Environmental Design", 
+    "deptAbbrev": "ENV DES", 
+    "description": "This course will expose students to key literature that examines, primarily, the relationship between sustainability and environmental design disciplines. Our goal will be not only to investigate the central ideas that inform the design of sustainable landscapes, cities, and buildings, but also to understand how competing arguments are presented in writing. Satisfies the second half of the Reading and Composition Requirement. ", 
+    "format": "Three hours of Lecture per week for 15 weeks.", 
+    "freshSophSem": true, 
     "hasCoreqs": "", 
-    "isPrereqFor": "This class is a prerequisite for SOCIOL 151.", 
+    "isPrereqFor": "ENV DES 151", 
     "note": "", 
-    "number": "125AC", 
+    "number": "R3B", 
     "offerHist": [
         "Spring 2013", 
-        "Spring 2012", 
-        "Spring 2011", 
+        "Fall 2012", 
+        "Fall 2011", 
         "Spring 2010"
     ], 
-    "prereqs": "1 or 3 or 3AC or consent of instructor. ", 
+    "prereqs": "UC Entry Writing Requirement or UC Analytical Writing Placement Exam. R1A or equivalent course is prerequisite to R1B. ", 
     "restrictions": "", 
-    "title": "Urban Sociology"
+    "title": "Reading and Composition in Energy, Society, and Environmental Design"
 }, 
-"course110":{
+"course34":{
     "berkeleyConnect": false, 
     "breadth": {
-        "AC": true, 
+        "AC": false, 
         "AL": false, 
         "BS": false, 
-        "HS": true, 
+        "HS": false, 
         "IS": false, 
         "PS": false, 
         "PV": false, 
@@ -367,25 +119,25 @@
     }, 
     "classInstance": [
         {
-            "ccn": 27529, 
+            "ccn": 19734, 
             "days": "M", 
-            "finalGroup": "Group 2--Tuesday, December 16, 2014, 9 a.m.", 
+            "finalGroup": "Not applicable", 
             "instanceType": "Lecture", 
-            "instructor": "B. Varela", 
+            "instructor": "S. Abdullah", 
             "location": {
-                "building": "Barrows", 
-                "room": 157
+                "building": "Dwinelle", 
+                "room": 142
             }, 
             "seats": {
-                "available": 9, 
-                "enrolled": 31, 
-                "max": 40, 
-                "waitlist": 5
+                "available": 494, 
+                "enrolled": 6, 
+                "max": 500, 
+                "waitlist": 0
             }, 
             "semester": "Fall 2014", 
             "time": {
-                "end": "11A", 
-                "start": "10A"
+                "end": "12P", 
+                "start": "11A"
             }
         }
     ], 
@@ -393,26 +145,192 @@
     "courseType": "Lecture", 
     "credit": 3, 
     "crossListing": "", 
-    "department": "Public Health", 
-    "deptAbbrev": "PB HLTH", 
-    "description": "The goal of this seminar is to provide a critical examination of aging and health from a broad, multicultural perspective. Political economy and life course perspectives will be among the key theoretical frameworks used to examine how race, class, culture, gender, and sexual orientation interact to help shape and determine the health and well-being of the elderly and their access to and use of health care. Key programs and policies for the elderly will be examined in sociohistorical perspective with attention to their salience in a multicultural society. The course will be offered at the undergraduate (upper division) level to meet the American Cultures requirement, but is also open to graduate students and will serve as an elective for the new Multicultural Health Specialty Area in the School of Public Health. ", 
-    "format": "Three hours of Lecture per week for 15 weeks.", 
+    "department": "Mechanical Engineering", 
+    "deptAbbrev": "MEC ENG", 
+    "description": "Sustainable design, manufacturing, and management as exercised by the enterprise is a poorly understood idea and one that is not intuitively connected to business value or engineering practice. This is especially true for the manufacturing aspects of most enterprises (tools, processes, and systems). This course will provide the basis for understanding (1) what comprises sustainable practices in for-profit enterprises, (2) how to practice and measure continuous improvement using sustainability thinking, techniques, and tools for product and manufacturing process design, and (3) the techniques for and value of effective communication of sustainablilty performance to internal and external audiences. Material in the course will be supplemented by speakers with diverse backgrounds in corporate sustainability, environmental consulting, non-governmental organizations, and academia. ", 
+    "format": "Three hours of Lecture and  One hour of Discussion per week for 15 weeks.", 
     "freshSophSem": false, 
     "hasCoreqs": "", 
     "isPrereqFor": "", 
     "note": "", 
-    "number": "130AC", 
+    "number": "290I", 
     "offerHist": [
         "Spring 2013", 
-        "Fall 2012", 
-        "Fall 2011", 
+        "Spring 2012", 
+        "Spring 2011", 
+        "Spring 2010"
+    ], 
+    "prereqs": "Graduate standing, or consent of instructor, especially for students not in engineering, business, or other management of technology programs. ", 
+    "restrictions": "", 
+    "title": "Sustainable Manufacturing"
+}, 
+"course3":{
+    "berkeleyConnect": false, 
+    "breadth": {
+        "AC": false, 
+        "AL": false, 
+        "BS": false, 
+        "HS": false, 
+        "IS": false, 
+        "PS": false, 
+        "PV": false, 
+        "RCA": false, 
+        "RCB": false, 
+        "SS": false
+    }, 
+    "classInstance": [
+        {
+            "ccn": 42437, 
+            "days": "Tu", 
+            "finalGroup": "Not applicable", 
+            "instanceType": "Discussion", 
+            "instructor": "M. Sarka", 
+            "location": {
+                "building": "Barrows", 
+                "room": 222
+            }, 
+            "seats": {
+                "available": 9, 
+                "enrolled": 11, 
+                "max": 20, 
+                "waitlist": 0
+            }, 
+            "semester": "Fall 2014", 
+            "time": {
+                "end": "9A", 
+                "start": "8A"
+            }
+        }, 
+        {
+            "ccn": 24934, 
+            "days": "Th", 
+            "finalGroup": "Not applicable", 
+            "instanceType": "Discussion", 
+            "instructor": "S. Abdullah", 
+            "location": {
+                "building": "Soda", 
+                "room": 171
+            }, 
+            "seats": {
+                "available": 20, 
+                "enrolled": 5, 
+                "max": 25, 
+                "waitlist": 1
+            }, 
+            "semester": "Fall 2014", 
+            "time": {
+                "end": "9A", 
+                "start": "8A"
+            }
+        }, 
+        {
+            "ccn": 71078, 
+            "days": "W", 
+            "finalGroup": "Not applicable", 
+            "instanceType": "Discussion", 
+            "instructor": "G. Burke", 
+            "location": {
+                "building": "Barrows", 
+                "room": 81
+            }, 
+            "seats": {
+                "available": 6, 
+                "enrolled": 6, 
+                "max": 12, 
+                "waitlist": 0
+            }, 
+            "semester": "Fall 2014", 
+            "time": {
+                "end": "10A", 
+                "start": "9A"
+            }
+        }
+    ], 
+    "courseThread": "", 
+    "courseType": "Lecture", 
+    "credit": 3, 
+    "crossListing": "", 
+    "department": "International and Area Studies", 
+    "deptAbbrev": "IAS", 
+    "description": "Students work in selected internships in non-profit, government agencies, or farmer networks associated with the Brazilian Consortium on Agroecology and Sustainable Development. The purpose of the internship is to gain direct experience in agroecological techniques and methodologies to achieve sustainability in agriculture. Internships are approved in advance by the faculty coordinator with whom each student will be required to meet regularly and plan out complementary readings and regular written reports. Work commitments will range between 180-360 hours depending upon the number of units undertaken and the length of the term enrolled. Final assessments will be based upon performance in the internship, quality of written reports and a final assessment by the faculty advisor. Internship is repeatable for up to 16 units. Enrollment is restricted to 10 students per term selected through a special selection process. See instructor for details. ", 
+    "format": " Twenty-three to forty-five hours of internship per week for eight weeks. Thirty to sixty hours of internship per week for six weeks. Eighteen to thirty-six hours of internship per week for ten weeks. ", 
+    "freshSophSem": false, 
+    "hasCoreqs": "", 
+    "isPrereqFor": "IAS 151", 
+    "note": "", 
+    "number": "271", 
+    "offerHist": [
+        "Spring 2013", 
+        "Spring 2012", 
+        "Spring 2011", 
+        "Spring 2010"
+    ], 
+    "prereqs": "Graduate standing or consent of instructor. ", 
+    "restrictions": "", 
+    "title": "Internship in Agroecology and Sustainable Development"
+}, 
+"course104":{
+    "berkeleyConnect": false, 
+    "breadth": {
+        "AC": true, 
+        "AL": false, 
+        "BS": false, 
+        "HS": false, 
+        "IS": false, 
+        "PS": false, 
+        "PV": false, 
+        "RCA": false, 
+        "RCB": false, 
+        "SS": false
+    }, 
+    "classInstance": [
+        {
+            "ccn": 89165, 
+            "days": "M", 
+            "finalGroup": "Group 3--Wednesday, December 17, 2014, 12 p.m.", 
+            "instanceType": "Lecture", 
+            "instructor": "S. Abdullah", 
+            "location": {
+                "building": "Wheeler", 
+                "room": 132
+            }, 
+            "seats": {
+                "available": 49, 
+                "enrolled": 451, 
+                "max": 500, 
+                "waitlist": 2
+            }, 
+            "semester": "Fall 2014", 
+            "time": {
+                "end": "11:30A", 
+                "start": "10A"
+            }
+        }
+    ], 
+    "courseThread": "This course is part of the Cultural Forms in Transit Course Thread.", 
+    "courseType": "Lecture", 
+    "credit": 4, 
+    "crossListing": "", 
+    "department": "Ethnic Studies", 
+    "deptAbbrev": "ETH STD", 
+    "description": "This explores the work of key theorists of race, ethnicity, and de-colonization whose work and ideas have formed the basis of scholarly work in the broad, interdisciplinary field of comparative ethnic studies. It is intended both to offer beginning students a ground in the ideas and methods they will encounter throughout their major, and to introduce names, texts, and concepts with which all majors should be familiar. This course satisfies the American cultures requirement. ", 
+    "format": "Three hours of Lecture and  One hour of Discussion per week for 15 weeks.  Seven and one-half hours of Lecture and  Two and one-half hours of Discussion per week for 6 weeks.", 
+    "freshSophSem": false, 
+    "hasCoreqs": "", 
+    "isPrereqFor": "", 
+    "note": "", 
+    "number": "11AC", 
+    "offerHist": [
+        "Spring 2013", 
+        "Spring 2012", 
+        "Spring 2011", 
         "Spring 2010"
     ], 
     "prereqs": "", 
     "restrictions": "", 
-    "title": "Aging, Health, and Diversity"
+    "title": "Theories and Concepts in Comparative Ethnic Studies An Introduction"
 }, 
-"course55":{
+"course9":{
     "berkeleyConnect": false, 
     "breadth": {
         "AC": false, 
@@ -428,42 +346,20 @@
     }, 
     "classInstance": [
         {
-            "ccn": 42140, 
-            "days": "Tu", 
-            "finalGroup": "Not applicable", 
-            "instanceType": "Discussion", 
-            "instructor": "C. Giorgano", 
+            "ccn": 85163, 
+            "days": "MW", 
+            "finalGroup": "Group 3--Wednesday, December 17, 2014, 12 p.m.", 
+            "instanceType": "Lecture", 
+            "instructor": "V. Benbow, Z. Alberts", 
             "location": {
                 "building": "Wurster", 
-                "room": 187
+                "room": 274
             }, 
             "seats": {
-                "available": 5, 
-                "enrolled": 5, 
-                "max": 10, 
-                "waitlist": 6
-            }, 
-            "semester": "Fall 2014", 
-            "time": {
-                "end": "5P", 
-                "start": "4P"
-            }
-        }, 
-        {
-            "ccn": 56179, 
-            "days": "Th", 
-            "finalGroup": "Not applicable", 
-            "instanceType": "Discussion", 
-            "instructor": "I. Jaskolski", 
-            "location": {
-                "building": "Barrows", 
-                "room": 223
-            }, 
-            "seats": {
-                "available": 2, 
-                "enrolled": 8, 
-                "max": 10, 
-                "waitlist": 0
+                "available": 13, 
+                "enrolled": 37, 
+                "max": 50, 
+                "waitlist": 7
             }, 
             "semester": "Fall 2014", 
             "time": {
@@ -472,20 +368,20 @@
             }
         }, 
         {
-            "ccn": 18057, 
-            "days": "W", 
+            "ccn": 97008, 
+            "days": "Th", 
             "finalGroup": "Not applicable", 
             "instanceType": "Discussion", 
-            "instructor": "K. Serafini, M. Ferrero", 
+            "instructor": "B. Varela", 
             "location": {
-                "building": "Barrows", 
-                "room": 50
+                "building": "Wurster", 
+                "room": 297
             }, 
             "seats": {
-                "available": 2, 
-                "enrolled": 13, 
+                "available": 8, 
+                "enrolled": 7, 
                 "max": 15, 
-                "waitlist": 0
+                "waitlist": 7
             }, 
             "semester": "Fall 2014", 
             "time": {
@@ -496,26 +392,191 @@
     ], 
     "courseThread": "", 
     "courseType": "Lecture", 
-    "credit": 4, 
+    "credit": 2, 
     "crossListing": "", 
-    "department": "Public Health", 
-    "deptAbbrev": "PB HLTH", 
-    "description": "This course introduces epidemiological methods with the goal of teaching students to read critically and interpret published epidemiologic studies in humans. The course also exposes students to the epidemiology of diseases and conditions of current public health importance in the United States and internationally. ", 
-    "format": "Four hours of Lecture and  One hour of Discussion per week for 15 weeks.", 
+    "department": "Masters in Business Administration", 
+    "deptAbbrev": "MBA", 
+    "description": "This course will cover a wide variety of topics relating to the management of international marketing strategy, including frameworks for developing international marketing strategy; sources and sustainability of competitive advantage; international market structure analysis; market entry strategy; and integration of marketing strategy with other functional strategies. ", 
+    "format": "Two hours of Lecture per week for 15 weeks.", 
+    "freshSophSem": false, 
+    "hasCoreqs": "", 
+    "isPrereqFor": "MBA 151", 
+    "note": "", 
+    "number": "268A", 
+    "offerHist": [
+        "Fall 2013", 
+        "Spring 2013", 
+        "Fall 2012", 
+        "Spring 2012"
+    ], 
+    "prereqs": "Business Administration 206 or equivalent. ", 
+    "restrictions": "", 
+    "title": "Global Marketing Strategy"
+}, 
+"course26":{
+    "berkeleyConnect": false, 
+    "breadth": {
+        "AC": false, 
+        "AL": false, 
+        "BS": false, 
+        "HS": false, 
+        "IS": false, 
+        "PS": false, 
+        "PV": false, 
+        "RCA": false, 
+        "RCB": false, 
+        "SS": false
+    }, 
+    "classInstance": [
+        {
+            "ccn": 81077, 
+            "days": "M", 
+            "finalGroup": "Group 2--Tuesday, December 16, 2014, 9 a.m.", 
+            "instanceType": "Lecture", 
+            "instructor": "D. Matousek, C. Stoddard", 
+            "location": {
+                "building": "Dwinelle", 
+                "room": 285
+            }, 
+            "seats": {
+                "available": 688, 
+                "enrolled": 12, 
+                "max": 700, 
+                "waitlist": 3
+            }, 
+            "semester": "Fall 2014", 
+            "time": {
+                "end": "11A", 
+                "start": "10A"
+            }
+        }, 
+        {
+            "ccn": 51489, 
+            "days": "TuTh", 
+            "finalGroup": "Group 3--Wednesday, December 17, 2014, 12 p.m.", 
+            "instanceType": "Lecture", 
+            "instructor": "M. Sarka", 
+            "location": {
+                "building": "Dwinelle", 
+                "room": 9
+            }, 
+            "seats": {
+                "available": 10, 
+                "enrolled": 20, 
+                "max": 30, 
+                "waitlist": 2
+            }, 
+            "semester": "Fall 2014", 
+            "time": {
+                "end": "9A", 
+                "start": "8A"
+            }
+        }
+    ], 
+    "courseThread": "", 
+    "courseType": "Lecture", 
+    "credit": 3, 
+    "crossListing": "", 
+    "department": "Environ Sci, Policy, and Management", 
+    "deptAbbrev": "ESPM", 
+    "description": "Fundamentals of wildland fire including fire behavior modeling, fire history methods, prescribed fire techniques, fire ecology, fire management, fire in the urban-wildland intermix, wildland fire, and ecosystem sustainability. Laboratories on inventory methods, fire history, modeling of fire behavior and risk, and prescribed burning. ", 
+    "format": "Two hours of Lecture and  Three hours of Laboratory per week for 15 weeks.", 
+    "freshSophSem": true, 
+    "hasCoreqs": "", 
+    "isPrereqFor": "", 
+    "note": "", 
+    "number": "181A", 
+    "offerHist": [
+        "Fall 2013", 
+        "Fall 2012", 
+        "Fall 2011", 
+        "Fall 2010"
+    ], 
+    "prereqs": "Consent of instructor. ", 
+    "restrictions": "", 
+    "title": "Wildland Fire Science"
+}, 
+"course21":{
+    "berkeleyConnect": false, 
+    "breadth": {
+        "AC": false, 
+        "AL": false, 
+        "BS": false, 
+        "HS": false, 
+        "IS": false, 
+        "PS": false, 
+        "PV": false, 
+        "RCA": false, 
+        "RCB": false, 
+        "SS": false
+    }, 
+    "classInstance": [
+        {
+            "ccn": 38075, 
+            "days": "TuTh", 
+            "finalGroup": "Not applicable", 
+            "instanceType": "Lecture", 
+            "instructor": "V. Benbow, Z. Alberts", 
+            "location": {
+                "building": "Dwinelle", 
+                "room": 22
+            }, 
+            "seats": {
+                "available": 3, 
+                "enrolled": 497, 
+                "max": 500, 
+                "waitlist": 3
+            }, 
+            "semester": "Fall 2014", 
+            "time": {
+                "end": "3P", 
+                "start": "2P"
+            }
+        }, 
+        {
+            "ccn": 91965, 
+            "days": "M", 
+            "finalGroup": "Not applicable", 
+            "instanceType": "Discussion", 
+            "instructor": "M. Mhasalkar, U. Jehlicka", 
+            "location": {
+                "building": "Wheeler", 
+                "room": 226
+            }, 
+            "seats": {
+                "available": 15, 
+                "enrolled": 5, 
+                "max": 20, 
+                "waitlist": 0
+            }, 
+            "semester": "Fall 2014", 
+            "time": {
+                "end": "10A", 
+                "start": "9A"
+            }
+        }
+    ], 
+    "courseThread": "", 
+    "courseType": "Lecture", 
+    "credit": 3, 
+    "crossListing": "", 
+    "department": "Civil and Environmental Engineering", 
+    "deptAbbrev": "CIV ENG", 
+    "description": "This course provides conceptual and hands-on experience in design and implementation of innovative products or processes for improving the sustainability of resource-constrained communities (mostly poor ones in the developing countries). Teams of students will take on practical projects, with guidance from subject experts. ", 
+    "format": "Three hours of Lecture per week for 15 weeks.", 
     "freshSophSem": false, 
     "hasCoreqs": "", 
     "isPrereqFor": "", 
     "note": "", 
-    "number": "150A", 
+    "number": "209", 
     "offerHist": [
-        "Spring 2013", 
-        "Spring 2012", 
+        "Fall 2013", 
         "Spring 2011", 
-        "Spring 2010"
+        "Spring 2009"
     ], 
-    "prereqs": "A course in statistics, preferably 142. ", 
+    "prereqs": "Graduate standing or consent of instructor. ", 
     "restrictions": "", 
-    "title": "Introduction to Epidemiology and Human Disease"
+    "title": "Design for Sustainable Communities"
 }, 
 "course123":{
     "berkeleyConnect": false, 
@@ -533,91 +594,25 @@
     }, 
     "classInstance": [
         {
-            "ccn": 42164, 
-            "days": "MW", 
-            "finalGroup": "Group 4--Thursday, December 18, 2014, 3 p.m.", 
-            "instanceType": "Lecture", 
-            "instructor": "S. Abdullah", 
-            "location": {
-                "building": "Dwinelle", 
-                "room": 287
-            }, 
-            "seats": {
-                "available": 21, 
-                "enrolled": 229, 
-                "max": 250, 
-                "waitlist": 0
-            }, 
-            "semester": "Fall 2014", 
-            "time": {
-                "end": "9A", 
-                "start": "8A"
-            }
-        }, 
-        {
-            "ccn": 65298, 
-            "days": "Tu", 
+            "ccn": 77335, 
+            "days": "W", 
             "finalGroup": "Not applicable", 
             "instanceType": "Discussion", 
-            "instructor": "V. Benbow, Z. Alberts", 
+            "instructor": "M. Wetterman", 
             "location": {
                 "building": "Barrows", 
-                "room": 47
+                "room": 213
             }, 
             "seats": {
-                "available": 11, 
-                "enrolled": 14, 
-                "max": 25, 
-                "waitlist": 10
-            }, 
-            "semester": "Fall 2014", 
-            "time": {
-                "end": "6P", 
-                "start": "5P"
-            }
-        }, 
-        {
-            "ccn": 69336, 
-            "days": "Th", 
-            "finalGroup": "Not applicable", 
-            "instanceType": "Discussion", 
-            "instructor": "B. Varela", 
-            "location": {
-                "building": "Barrows", 
-                "room": 222
-            }, 
-            "seats": {
-                "available": 11, 
-                "enrolled": 14, 
-                "max": 25, 
-                "waitlist": 0
+                "available": 3, 
+                "enrolled": 12, 
+                "max": 15, 
+                "waitlist": 3
             }, 
             "semester": "Fall 2014", 
             "time": {
                 "end": "11A", 
                 "start": "10A"
-            }
-        }, 
-        {
-            "ccn": 47640, 
-            "days": "Tu", 
-            "finalGroup": "Not applicable", 
-            "instanceType": "Discussion", 
-            "instructor": "A. Kennard", 
-            "location": {
-                "building": "Barrows", 
-                "room": 168
-            }, 
-            "seats": {
-                "available": 8, 
-                "enrolled": 2, 
-                "max": 10, 
-                "waitlist": 1
-            }, 
-            "semester": "Fall 2014", 
-            "time": {
-                "end": "10A", 
-                "start": "9A"
             }
         }
     ], 
@@ -631,26 +626,25 @@
     "format": " Seven and one-half hours of lecture and 15 hours of studio and/or supeThree hours of lecture and six hours of studio and/or supervised researvised research and/or internship per week for six weeks. rch and/or internship per week. ", 
     "freshSophSem": false, 
     "hasCoreqs": "", 
-    "isPrereqFor": "", 
+    "isPrereqFor": "ART 151", 
     "note": "", 
     "number": "165", 
     "offerHist": [
         "Fall 2013", 
-        "Spring 2013", 
-        "Fall 2012", 
-        "Spring 2012"
+        "Spring 2011", 
+        "Spring 2009"
     ], 
     "prereqs": "", 
     "restrictions": "", 
     "title": "Art, Medicine, and Disabilities"
 }, 
-"course129":{
+"course127":{
     "berkeleyConnect": false, 
     "breadth": {
         "AC": false, 
         "AL": true, 
         "BS": false, 
-        "HS": false, 
+        "HS": true, 
         "IS": false, 
         "PS": false, 
         "PV": false, 
@@ -660,41 +654,41 @@
     }, 
     "classInstance": [
         {
-            "ccn": 81595, 
-            "days": "MW", 
-            "finalGroup": "Group 5--Friday, December 15, 2014, 1 p.m.", 
+            "ccn": 20599, 
+            "days": "M", 
+            "finalGroup": "Group 4--Thursday, December 18, 2014, 3 p.m.", 
             "instanceType": "Lecture", 
-            "instructor": "C. Giorgano", 
+            "instructor": "I. Jaskolski", 
             "location": {
-                "building": "Soda", 
-                "room": 260
+                "building": "Wheeler", 
+                "room": 283
             }, 
             "seats": {
-                "available": 54, 
-                "enrolled": 96, 
-                "max": 150, 
-                "waitlist": 2
+                "available": 77, 
+                "enrolled": 173, 
+                "max": 250, 
+                "waitlist": 4
             }, 
             "semester": "Fall 2014", 
             "time": {
-                "end": "11A", 
-                "start": "10A"
+                "end": "9A", 
+                "start": "8A"
             }
         }
     ], 
-    "courseThread": "", 
+    "courseThread": "This course is part of the Cultural Forms in Transit Course Thread.", 
     "courseType": "Lecture", 
     "credit": 4, 
     "crossListing": "", 
-    "department": "English", 
-    "deptAbbrev": "ENGLISH", 
-    "description": "An introductory survey of American literature. Since 1865. ", 
-    "format": "Three hours of Lecture per week for 15 weeks.", 
+    "department": "Asian American Studies", 
+    "deptAbbrev": "ASAMST", 
+    "description": "Introduces students to representative works of Asian American literature by writers from the major ethnic subgroups; examines the works in their sociohistorical context; analyzes thematic and formal elements intertextually to form a coherent understanding of the Asian American literary tradition. ", 
+    "format": "Three hours of Lecture and  Zero to One hour of Discussion per week for 15 weeks.  Five and one-half hours of Lecture and  Two hours of Discussion per week for 8 weeks.  Seven and one-half hours of Lecture and  Zero to Two and one-half hours of Discussion per week for 6 weeks.", 
     "freshSophSem": false, 
     "hasCoreqs": "", 
-    "isPrereqFor": "", 
+    "isPrereqFor": "ASAMST 151", 
     "note": "", 
-    "number": "30B", 
+    "number": "172", 
     "offerHist": [
         "Spring 2013", 
         "Fall 2012", 
@@ -702,69 +696,8 @@
         "Spring 2010"
     ], 
     "prereqs": "", 
-    "restrictions": "Offered for 4 units in fall and in spring, 3 units in summer. ", 
-    "title": "American Literature"
-}, 
-"course128":{
-    "berkeleyConnect": false, 
-    "breadth": {
-        "AC": false, 
-        "AL": true, 
-        "BS": false, 
-        "HS": false, 
-        "IS": false, 
-        "PS": false, 
-        "PV": false, 
-        "RCA": false, 
-        "RCB": false, 
-        "SS": false
-    }, 
-    "classInstance": [
-        {
-            "ccn": 41145, 
-            "days": "M", 
-            "finalGroup": "Group 1--Monday, December 15, 2014, 1 p.m.", 
-            "instanceType": "Lecture", 
-            "instructor": "B. Varela", 
-            "location": {
-                "building": "Soda", 
-                "room": 64
-            }, 
-            "seats": {
-                "available": 22, 
-                "enrolled": 8, 
-                "max": 30, 
-                "waitlist": 5
-            }, 
-            "semester": "Fall 2014", 
-            "time": {
-                "end": "11:30A", 
-                "start": "10A"
-            }
-        }
-    ], 
-    "courseThread": "", 
-    "courseType": "Lecture", 
-    "credit": 4, 
-    "crossListing": "", 
-    "department": "Classics", 
-    "deptAbbrev": "CLASSIC", 
-    "description": "Study of the major developments, achievements, and contradictions in Greek culture from the Bronze Age to the 4th century BCE. Key works of literature, history, and philosophy (read in English translation) will be examined in their political and social context, and in relation both to other ancient Mediterranean cultures and to subsequent developments in Western civilization. ", 
-    "format": "Three hours of Lecture and  One hour of Discussion per week for 15 weeks.  Eight hours of Lecture and  Two hours of Discussion per week for 6 weeks.", 
-    "freshSophSem": false, 
-    "hasCoreqs": "CLASSIC 1A must be taken concurrently.", 
-    "isPrereqFor": "", 
-    "note": "", 
-    "number": "10A", 
-    "offerHist": [
-        "Spring 2013", 
-        "Spring 2012", 
-        "Spring 2011", 
-        "Spring 2010"
-    ], 
-    "prereqs": "", 
     "restrictions": "", 
-    "title": "Introduction to Greek Civilization"
+    "title": "Asian American Literature"
 }, 
 "course41":{
     "berkeleyConnect": false, 
@@ -782,42 +715,20 @@
     }, 
     "classInstance": [
         {
-            "ccn": 64959, 
-            "days": "W", 
-            "finalGroup": "Not applicable", 
-            "instanceType": "Discussion", 
-            "instructor": "V. Benbow, Z. Alberts", 
-            "location": {
-                "building": "Dwinelle", 
-                "room": 235
-            }, 
-            "seats": {
-                "available": 18, 
-                "enrolled": 2, 
-                "max": 20, 
-                "waitlist": 0
-            }, 
-            "semester": "Fall 2014", 
-            "time": {
-                "end": "10A", 
-                "start": "9A"
-            }
-        }, 
-        {
-            "ccn": 53858, 
+            "ccn": 66876, 
             "days": "M", 
             "finalGroup": "Not applicable", 
             "instanceType": "Discussion", 
-            "instructor": "M. Wetterman", 
+            "instructor": "I. Jaskolski", 
             "location": {
-                "building": "Wheeler", 
-                "room": 215
+                "building": "Wurster", 
+                "room": 234
             }, 
             "seats": {
-                "available": 8, 
-                "enrolled": 2, 
-                "max": 10, 
-                "waitlist": 0
+                "available": 4, 
+                "enrolled": 11, 
+                "max": 15, 
+                "waitlist": 6
             }, 
             "semester": "Fall 2014", 
             "time": {
@@ -834,22 +745,22 @@
     "deptAbbrev": "ENVECON", 
     "description": "Introduction to the economics of natural resources. Land and the concept of economic rent. Models of optimal depletion of nonrenewable resources and optimal use of renewable resources. Application to energy, forests, fisheries, water, and climate change. Resources, growth, and sustainability. ", 
     "format": "Three hours of Lecture and  One hour of Discussion per week for 15 weeks.", 
-    "freshSophSem": true, 
+    "freshSophSem": false, 
     "hasCoreqs": "", 
     "isPrereqFor": "", 
     "note": "", 
     "number": "C102", 
     "offerHist": [
         "Spring 2013", 
-        "Fall 2012", 
-        "Fall 2011", 
+        "Spring 2012", 
+        "Spring 2011", 
         "Spring 2010"
     ], 
     "prereqs": "100, or Economics 100A or 100B. ", 
     "restrictions": "", 
     "title": "Natural Resource Economics"
 }, 
-"course46":{
+"course131":{
     "berkeleyConnect": false, 
     "breadth": {
         "AC": false, 
@@ -857,163 +768,58 @@
         "BS": false, 
         "HS": false, 
         "IS": false, 
-        "PS": true, 
+        "PS": false, 
         "PV": false, 
         "RCA": false, 
         "RCB": false, 
-        "SS": false
+        "SS": true
     }, 
     "classInstance": [
         {
-            "ccn": 68769, 
-            "days": "M", 
-            "finalGroup": "Group 2--Tuesday, December 16, 2014, 9 a.m.", 
-            "instanceType": "Lecture", 
-            "instructor": "C. Giorgano", 
-            "location": {
-                "building": "Evans", 
-                "room": 16
-            }, 
-            "seats": {
-                "available": 19, 
-                "enrolled": 81, 
-                "max": 100, 
-                "waitlist": 0
-            }, 
-            "semester": "Fall 2014", 
-            "time": {
-                "end": "11:30A", 
-                "start": "10A"
-            }
-        }, 
-        {
-            "ccn": 16152, 
-            "days": "TuTh", 
+            "ccn": 79936, 
+            "days": "MW", 
             "finalGroup": "Group 1--Monday, December 15, 2014, 1 p.m.", 
             "instanceType": "Lecture", 
-            "instructor": "M. Sarka", 
+            "instructor": "M. Mhasalkar, U. Jehlicka", 
             "location": {
-                "building": "Wheeler", 
-                "room": 207
+                "building": "Dwinelle", 
+                "room": 194
             }, 
             "seats": {
-                "available": 20, 
-                "enrolled": 30, 
+                "available": 41, 
+                "enrolled": 9, 
                 "max": 50, 
                 "waitlist": 0
             }, 
             "semester": "Fall 2014", 
             "time": {
-                "end": "4P", 
-                "start": "2:30P"
-            }
-        }, 
-        {
-            "ccn": 68948, 
-            "days": "Th", 
-            "finalGroup": "Not applicable", 
-            "instanceType": "Discussion", 
-            "instructor": "M. Sarka", 
-            "location": {
-                "building": "Barrows", 
-                "room": 182
-            }, 
-            "seats": {
-                "available": 9, 
-                "enrolled": 3, 
-                "max": 12, 
-                "waitlist": 0
-            }, 
-            "semester": "Fall 2014", 
-            "time": {
-                "end": "5P", 
-                "start": "4P"
+                "end": "12P", 
+                "start": "11A"
             }
         }
     ], 
     "courseThread": "", 
     "courseType": "Lecture", 
     "credit": 4, 
-    "crossListing": "ENV SCI C12", 
-    "department": "Landscape Architecture", 
-    "deptAbbrev": "LD ARCH", 
-    "description": "The scientific basis of sustainability, explored through study of energy, water, food, natural resources, and built environment. Physical/ecological processes and systems, and human impacts from the global scale to local energy/resource use. Energy and water audits of University of California at Berkeley, opportunities to increase sustainability of processes/practices. Discussion/lab section involves data collection/analysis (e.g., Strawberry Creek, atmospheric particulates) and integrative sustainability assessment project. ", 
-    "format": " Three hours of lecture and one hour of discussion/laboratory. ", 
-    "freshSophSem": false, 
-    "hasCoreqs": "", 
-    "isPrereqFor": "", 
-    "note": "", 
-    "number": "C12", 
-    "offerHist": [
-        "Spring 2013", 
-        "Spring 2012", 
-        "Spring 2011", 
-        "Spring 2010"
-    ], 
-    "prereqs": "", 
-    "restrictions": "", 
-    "title": "Environmental Science for Sustainable Development"
-}, 
-"course133":{
-    "berkeleyConnect": false, 
-    "breadth": {
-        "AC": false, 
-        "AL": false, 
-        "BS": false, 
-        "HS": false, 
-        "IS": false, 
-        "PS": true, 
-        "PV": true, 
-        "RCA": false, 
-        "RCB": false, 
-        "SS": false
-    }, 
-    "classInstance": [
-        {
-            "ccn": 66463, 
-            "days": "M", 
-            "finalGroup": "Group 4--Thursday, December 18, 2014, 3 p.m.", 
-            "instanceType": "Lecture", 
-            "instructor": "I. Jaskolski", 
-            "location": {
-                "building": "Evans", 
-                "room": 38
-            }, 
-            "seats": {
-                "available": 98, 
-                "enrolled": 2, 
-                "max": 100, 
-                "waitlist": 0
-            }, 
-            "semester": "Fall 2014", 
-            "time": {
-                "end": "10A", 
-                "start": "9A"
-            }
-        }
-    ], 
-    "courseThread": "This course is part of the Cultural Forms in Transit Course Thread.", 
-    "courseType": "Lecture", 
-    "credit": 4, 
     "crossListing": "", 
-    "department": "Philosophy", 
-    "deptAbbrev": "PHILOS", 
-    "description": "Are living things simply complex machines? Many philosophers and biologists think that they are, for to think otherwise seems to fly in the face of recent scientific advances and threatens to reintroduce into biology unscientific notions like \"spirit\" and \"vital force\". This course takes seriously the position that life can not be reduced to chemical and physical processes. We will also study ways this question affects our understanding of the freedom of the will, the relation of the mind to the body, and \"evolutionary\" explanations of gender differences. ", 
-    "format": "Six hours of Lecture and  Four hours of Discussion per week for 6 weeks.", 
+    "department": "Geography", 
+    "deptAbbrev": "GEOG", 
+    "description": "We will look first at the role that cites--as economic units and cultural centers--played in the development of capitalism in the 19th century. A series of case studies, including Paris, Vienna, London, New York, and Chicago, will ground discussions about industry and finance, architecture and literature, and consciousness and cultural identity. >From here we will proceed thematically, to cover the major post-war issues of the automobile and suburbia; race relations, public housing, and the ghetto; and downtown redevelopment and gentrification. ", 
+    "format": "Three hours of Lecture per week for 15 weeks.", 
     "freshSophSem": false, 
     "hasCoreqs": "", 
-    "isPrereqFor": "", 
+    "isPrereqFor": "GEOG 151", 
     "note": "", 
-    "number": "21X", 
+    "number": "120", 
     "offerHist": [
+        "Fall 2013", 
         "Spring 2013", 
-        "Spring 2012", 
-        "Spring 2011", 
-        "Spring 2010"
+        "Fall 2012", 
+        "Spring 2012"
     ], 
     "prereqs": "", 
     "restrictions": "", 
-    "title": "Philosophy of Biology"
+    "title": "The Cultures of Cities"
 }, 
 "course106":{
     "berkeleyConnect": false, 
@@ -1031,77 +837,77 @@
     }, 
     "classInstance": [
         {
-            "ccn": 14801, 
+            "ccn": 62125, 
             "days": "M", 
-            "finalGroup": "Group 3--Wednesday, December 17, 2014, 12 p.m.", 
+            "finalGroup": "Group 1--Monday, December 15, 2014, 1 p.m.", 
             "instanceType": "Lecture", 
-            "instructor": "I. Jaskolski", 
+            "instructor": "B. Varela", 
             "location": {
-                "building": "Wheeler", 
-                "room": 233
+                "building": "Wurster", 
+                "room": 53
             }, 
             "seats": {
-                "available": 18, 
-                "enrolled": 12, 
-                "max": 30, 
-                "waitlist": 10
-            }, 
-            "semester": "Fall 2014", 
-            "time": {
-                "end": "10A", 
-                "start": "9A"
-            }
-        }, 
-        {
-            "ccn": 40247, 
-            "days": "M", 
-            "finalGroup": "Not applicable", 
-            "instanceType": "Discussion", 
-            "instructor": "M. Mhasalkar, U. Jehlicka", 
-            "location": {
-                "building": "Soda", 
-                "room": 241
-            }, 
-            "seats": {
-                "available": 8, 
-                "enrolled": 7, 
-                "max": 15, 
-                "waitlist": 2
-            }, 
-            "semester": "Fall 2014", 
-            "time": {
-                "end": "10A", 
-                "start": "9A"
-            }
-        }, 
-        {
-            "ccn": 67075, 
-            "days": "M", 
-            "finalGroup": "Not applicable", 
-            "instanceType": "Discussion", 
-            "instructor": "I. Jaskolski", 
-            "location": {
-                "building": "Evans", 
-                "room": 232
-            }, 
-            "seats": {
-                "available": 6, 
-                "enrolled": 14, 
-                "max": 20, 
+                "available": 227, 
+                "enrolled": 473, 
+                "max": 700, 
                 "waitlist": 0
             }, 
             "semester": "Fall 2014", 
             "time": {
-                "end": "9A", 
-                "start": "8A"
+                "end": "11:30A", 
+                "start": "10A"
+            }
+        }, 
+        {
+            "ccn": 10671, 
+            "days": "Th", 
+            "finalGroup": "Not applicable", 
+            "instanceType": "Discussion", 
+            "instructor": "B. Varela", 
+            "location": {
+                "building": "Barrows", 
+                "room": 52
+            }, 
+            "seats": {
+                "available": 1, 
+                "enrolled": 14, 
+                "max": 15, 
+                "waitlist": 0
+            }, 
+            "semester": "Fall 2014", 
+            "time": {
+                "end": "10A", 
+                "start": "9A"
+            }
+        }, 
+        {
+            "ccn": 88657, 
+            "days": "Th", 
+            "finalGroup": "Not applicable", 
+            "instanceType": "Discussion", 
+            "instructor": "C. Marquez", 
+            "location": {
+                "building": "Barrows", 
+                "room": 298
+            }, 
+            "seats": {
+                "available": 20, 
+                "enrolled": 5, 
+                "max": 25, 
+                "waitlist": 5
+            }, 
+            "semester": "Fall 2014", 
+            "time": {
+                "end": "11A", 
+                "start": "10A"
             }
         }
     ], 
-    "courseThread": "", 
+    "courseThread": "This course is part of the Cultural Forms in Transit Course Thread.", 
     "courseType": "Lecture", 
     "credit": 4, 
     "crossListing": "", 
-    "department": "Demography", 
+    "department": "History", 
     "deptAbbrev": "HISTORY", 
     "description": "The history of the United States is the history of migration. The course covers the evolution of the American population from about 20,000 BC with the goal of understanding the interdependent roles of history and demography. As an American cultures class, special attention is given to the experiences of 18th- and 19th-century African and European immigrants and 20th- and 21st-century Asian and Latin American immigrants. Two substantial laboratory assignments; facility with a spreadsheet program is assumed. ", 
     "format": " Three hours of lecture, one hour of self-paced laboratory and one hour of optional discussion section per week. ", 
@@ -1111,135 +917,14 @@
     "note": "", 
     "number": "C139B", 
     "offerHist": [
+        "Fall 2013", 
         "Spring 2013", 
         "Fall 2012", 
-        "Fall 2011", 
-        "Spring 2010"
+        "Spring 2012"
     ], 
     "prereqs": "", 
     "restrictions": "", 
     "title": "The American Immigrant Experience"
-}, 
-"course71":{
-    "berkeleyConnect": true, 
-    "breadth": {
-        "AC": false, 
-        "AL": false, 
-        "BS": true, 
-        "HS": false, 
-        "IS": false, 
-        "PS": false, 
-        "PV": false, 
-        "RCA": false, 
-        "RCB": false, 
-        "SS": false
-    }, 
-    "classInstance": [
-        {
-            "ccn": 51199, 
-            "days": "M", 
-            "finalGroup": "Group 3--Wednesday, December 17, 2014, 12 p.m.", 
-            "instanceType": "Lecture", 
-            "instructor": "K. Serafini, M. Ferrero", 
-            "location": {
-                "building": "Wheeler", 
-                "room": 154
-            }, 
-            "seats": {
-                "available": 41, 
-                "enrolled": 9, 
-                "max": 50, 
-                "waitlist": 0
-            }, 
-            "semester": "Fall 2014", 
-            "time": {
-                "end": "10A", 
-                "start": "9A"
-            }
-        }
-    ], 
-    "courseThread": "", 
-    "courseType": "Lecture", 
-    "credit": 4, 
-    "crossListing": "", 
-    "department": "Molecular and Cell Biology", 
-    "deptAbbrev": "MCELLBI", 
-    "description": "A comprehensive survey of the fundamentals of biological chemistry, including the properties of intermediary metabolites, the structure and function of biological macromolecules, the logic of metabolic pathways (both degradative and biosynthetic) and the molecular basis of genetics and gene expression. ", 
-    "format": "Three hours of Lecture and  One hour of Discussion per week for 15 weeks.  Four hours of Lecture and  Two hours of Discussion per week for 10 weeks.  Six hours of Lecture and  Two hours of Discussion per week for 8 weeks.", 
-    "freshSophSem": false, 
-    "hasCoreqs": "", 
-    "isPrereqFor": "", 
-    "note": "", 
-    "number": "102", 
-    "offerHist": [
-        "Fall 2013", 
-        "Spring 2011", 
-        "Spring 2009"
-    ], 
-    "prereqs": "Biology 1A, 1AL, and Chemistry 3B (or equivalent courses). Recommended: a course in physical chemistry. ", 
-    "restrictions": "Students will receive 2 units of credit for 102 after taking 100 or C100A/Chemistry C130. Students will receive no credit for 102 after taking 110 and any of 100, 100B or C100A/Chemistry C130. No credit for 102 after taking Chemistry 135. ", 
-    "title": "Survey of the Principles of Biochemistry and Molecular Biology"
-}, 
-"course63":{
-    "berkeleyConnect": false, 
-    "breadth": {
-        "AC": false, 
-        "AL": false, 
-        "BS": false, 
-        "HS": true, 
-        "IS": false, 
-        "PS": false, 
-        "PV": false, 
-        "RCA": false, 
-        "RCB": false, 
-        "SS": false
-    }, 
-    "classInstance": [
-        {
-            "ccn": 35818, 
-            "days": "M", 
-            "finalGroup": "Group 3--Wednesday, December 17, 2014, 12 p.m.", 
-            "instanceType": "Lecture", 
-            "instructor": "I. Jaskolski", 
-            "location": {
-                "building": "Evans", 
-                "room": 71
-            }, 
-            "seats": {
-                "available": 318, 
-                "enrolled": 182, 
-                "max": 500, 
-                "waitlist": 4
-            }, 
-            "semester": "Fall 2014", 
-            "time": {
-                "end": "9A", 
-                "start": "8A"
-            }
-        }
-    ], 
-    "courseThread": "", 
-    "courseType": "Lecture", 
-    "credit": 3, 
-    "crossListing": "", 
-    "department": "Public Health", 
-    "deptAbbrev": "PB HLTH", 
-    "description": "This course will examine the historical developments of social and scientific responses to human disease from their beginnings to their current roles as major forces in modern society. It will consider the evolution of diagnoses, treatment, and prevention of human morbidity and death from both a humanistic and scientific perspective. It invites pre-medical, pre-dental, and other students preparing for careers in public health, nursing, optometry, or the other health sciences, students interested in public policy and health-related law, and students of history or the other humanities who wish an overview of medicine and health from a broad historical perspective. ", 
-    "format": "Three hours of Lecture per week for 15 weeks.", 
-    "freshSophSem": false, 
-    "hasCoreqs": "", 
-    "isPrereqFor": "", 
-    "note": "This is a note.", 
-    "number": "183", 
-    "offerHist": [
-        "Fall 2013", 
-        "Fall 2012", 
-        "Fall 2011", 
-        "Fall 2010"
-    ], 
-    "prereqs": "Knowledge of (and preferably a college level course which covered) basic aspects of (mammalian) physiology and anatomy. Graduate or upper division undergraduate status. ", 
-    "restrictions": "", 
-    "title": "The History of Medicine, Public Health, and the Allied Health Sciences"
 }, 
 "course65":{
     "berkeleyConnect": false, 
@@ -1257,25 +942,25 @@
     }, 
     "classInstance": [
         {
-            "ccn": 90438, 
-            "days": "MW", 
+            "ccn": 43971, 
+            "days": "M", 
             "finalGroup": "Group 1--Monday, December 15, 2014, 1 p.m.", 
             "instanceType": "Lecture", 
-            "instructor": "W. Hopkins, M. Anson", 
+            "instructor": "I. Jaskolski", 
             "location": {
-                "building": "Barrows", 
-                "room": 196
+                "building": "Wurster", 
+                "room": 213
             }, 
             "seats": {
-                "available": 148, 
-                "enrolled": 2, 
-                "max": 150, 
-                "waitlist": 6
+                "available": 3, 
+                "enrolled": 247, 
+                "max": 250, 
+                "waitlist": 8
             }, 
             "semester": "Fall 2014", 
             "time": {
-                "end": "12P", 
-                "start": "11A"
+                "end": "11A", 
+                "start": "10A"
             }
         }
     ], 
@@ -1287,144 +972,22 @@
     "deptAbbrev": "PB HLTH", 
     "description": "An interdisciplinary approach to health and medicine administered through the Health and Medical Apprenticeship Program (HMAP). Guest lecturers will speak on the social, political, and ethical aspects of health and medicine; students will then discuss and present analyses of the reading materials as well as issues raised by the speakers. ", 
     "format": "Two hours of Lecture and  One hour of Discussion per week for 15 weeks.", 
-    "freshSophSem": false, 
+    "freshSophSem": true, 
     "hasCoreqs": "", 
-    "isPrereqFor": "This class is a prerequisite for PB HLTH 151.", 
+    "isPrereqFor": "PB HLTH 151", 
     "note": "", 
     "number": "116", 
     "offerHist": [
         "Fall 2013", 
+        "Spring 2013", 
         "Fall 2012", 
-        "Fall 2011", 
-        "Fall 2010"
+        "Spring 2012"
     ], 
     "prereqs": "", 
     "restrictions": "", 
     "title": "Seminar on Social, Political, and Ethical Issues in Health and Medicine"
 }, 
-"course99":{
-    "berkeleyConnect": false, 
-    "breadth": {
-        "AC": true, 
-        "AL": false, 
-        "BS": false, 
-        "HS": false, 
-        "IS": true, 
-        "PS": false, 
-        "PV": false, 
-        "RCA": false, 
-        "RCB": false, 
-        "SS": false
-    }, 
-    "classInstance": [
-        {
-            "ccn": 49558, 
-            "days": "M", 
-            "finalGroup": "Group 1--Monday, December 15, 2014, 1 p.m.", 
-            "instanceType": "Lecture", 
-            "instructor": "G. Burke", 
-            "location": {
-                "building": "Dwinelle", 
-                "room": 90
-            }, 
-            "seats": {
-                "available": 24, 
-                "enrolled": 6, 
-                "max": 30, 
-                "waitlist": 0
-            }, 
-            "semester": "Fall 2014", 
-            "time": {
-                "end": "10A", 
-                "start": "9A"
-            }
-        }
-    ], 
-    "courseThread": "This course is part of the Cultural Forms in Transit Course Thread.", 
-    "courseType": "Lecture", 
-    "credit": 4, 
-    "crossListing": "", 
-    "department": "Practice of Art", 
-    "deptAbbrev": "ART", 
-    "description": "This new course will enable students to think critically about, and engage in practical experiments in, the complex interactions between new media and perceptions and performances of embodiment, agency, citizenship, collective action, individual identity, time and spatiality. We will pay particular attention to the categories of personhood that make up the UC Berkeley American Cultures rubric (race and ethnicity), as well as to gender, nation, and disability. The argument threading through the course will be the ways in which new media both reinforce pre-existing social hierarchies, and yet offer possibilities for the transcendence of those very categories. The new media -- and we will leave the precise definition of the new media as something to be argued about over the course of the semester -- can be yet another means for dividing and disenfranchising, and can be the conduit of violence and transnational dominance. ", 
-    "format": " Sixteen hours of lecture/studio per week for six weeks. Eleven hours oSix hours of lecture/studio per week. f lecture/studio per week for eight weeks. Nine hours of lecture/studio per week for ten weeks. ", 
-    "freshSophSem": false, 
-    "hasCoreqs": "", 
-    "isPrereqFor": "", 
-    "note": "", 
-    "number": "23AC", 
-    "offerHist": [
-        "Fall 2013", 
-        "Fall 2012", 
-        "Fall 2011", 
-        "Fall 2010"
-    ], 
-    "prereqs": "", 
-    "restrictions": "", 
-    "title": "Foundations of American Cyber-Culture"
-}, 
-"course95":{
-    "berkeleyConnect": false, 
-    "breadth": {
-        "AC": true, 
-        "AL": false, 
-        "BS": false, 
-        "HS": false, 
-        "IS": false, 
-        "PS": false, 
-        "PV": false, 
-        "RCA": false, 
-        "RCB": false, 
-        "SS": true
-    }, 
-    "classInstance": [
-        {
-            "ccn": 98609, 
-            "days": "M", 
-            "finalGroup": "Group 3--Wednesday, December 17, 2014, 12 p.m.", 
-            "instanceType": "Lecture", 
-            "instructor": "G. Burke", 
-            "location": {
-                "building": "Barrows", 
-                "room": 220
-            }, 
-            "seats": {
-                "available": 160, 
-                "enrolled": 540, 
-                "max": 700, 
-                "waitlist": 0
-            }, 
-            "semester": "Fall 2014", 
-            "time": {
-                "end": "11:30A", 
-                "start": "10A"
-            }
-        }
-    ], 
-    "courseThread": "", 
-    "courseType": "Lecture", 
-    "credit": 3, 
-    "crossListing": "", 
-    "department": "Anthropology", 
-    "deptAbbrev": "ANTHRO", 
-    "description": "The seminar will examine anthropologists' research and writing on American cultures (African American, American Indian, Asian American, Chicano/Latino, European American, and people of mixed heritages) plus intercultural relations. Each student will focus on two culture categories, to discover how anthropologists of diverse cultures have described and analyzed those cultures. Have they exhibited ethnocentric, colonialist or other biases? Have they exhibited cultural relativity and empathy? Is there a shared \"anthropological view\" of American cultures? If not, why not? If so, how so and what is its impact? ", 
-    "format": "Two hours of Seminar per week for 15 weeks.  Three and one-half hours of Seminar per week for 8 weeks.  Five hours of Seminar per week for 6 weeks.", 
-    "freshSophSem": false, 
-    "hasCoreqs": "", 
-    "isPrereqFor": "This class is a prerequisite for ANTHRO 151.", 
-    "note": "", 
-    "number": "12AC", 
-    "offerHist": [
-        "Spring 2013", 
-        "Spring 2012", 
-        "Spring 2011", 
-        "Spring 2010"
-    ], 
-    "prereqs": "Limited to freshmen and sophomores. Consent of instructor. ", 
-    "restrictions": "", 
-    "title": "Anthropological Views of American Cultures"
-}, 
-"course14":{
+"course68":{
     "berkeleyConnect": false, 
     "breadth": {
         "AC": false, 
@@ -1440,41 +1003,19 @@
     }, 
     "classInstance": [
         {
-            "ccn": 20417, 
-            "days": "Tu", 
-            "finalGroup": "Not applicable", 
-            "instanceType": "Discussion", 
-            "instructor": "B. Varela", 
+            "ccn": 94108, 
+            "days": "MW", 
+            "finalGroup": "Group 1--Monday, December 15, 2014, 1 p.m.", 
+            "instanceType": "Lecture", 
+            "instructor": "W. Hopkins, M. Anson", 
             "location": {
-                "building": "Wurster", 
-                "room": 53
+                "building": "Wheeler", 
+                "room": 243
             }, 
             "seats": {
-                "available": 8, 
-                "enrolled": 2, 
-                "max": 10, 
-                "waitlist": 4
-            }, 
-            "semester": "Fall 2014", 
-            "time": {
-                "end": "5P", 
-                "start": "4P"
-            }
-        }, 
-        {
-            "ccn": 55222, 
-            "days": "W", 
-            "finalGroup": "Not applicable", 
-            "instanceType": "Discussion", 
-            "instructor": "S. Abdullah", 
-            "location": {
-                "building": "Barrows", 
-                "room": 9
-            }, 
-            "seats": {
-                "available": 3, 
-                "enrolled": 7, 
-                "max": 10, 
+                "available": 605, 
+                "enrolled": 95, 
+                "max": 700, 
                 "waitlist": 0
             }, 
             "semester": "Fall 2014", 
@@ -1482,52 +1023,30 @@
                 "end": "11A", 
                 "start": "10A"
             }
-        }, 
-        {
-            "ccn": 77955, 
-            "days": "Tu", 
-            "finalGroup": "Not applicable", 
-            "instanceType": "Discussion", 
-            "instructor": "M. Sarka", 
-            "location": {
-                "building": "Wurster", 
-                "room": 133
-            }, 
-            "seats": {
-                "available": 3, 
-                "enrolled": 12, 
-                "max": 15, 
-                "waitlist": 0
-            }, 
-            "semester": "Fall 2014", 
-            "time": {
-                "end": "6P", 
-                "start": "5P"
-            }
         }
     ], 
     "courseThread": "", 
     "courseType": "Lecture", 
-    "credit": 3, 
-    "crossListing": "ESPM C234, PB HLTH C234", 
-    "department": "Chemistry", 
-    "deptAbbrev": "CHEM", 
-    "description": "Meeting the challenge of global sustainability will require interdisciplinary approaches to research and education, as well as the integration of this new knowledge into society, policymaking, and business. Green Chemistry is an intellectual framework created to meet these challenges and guide technological development. It encourages the design and production of safer and more sustainable chemicals and products. ", 
-    "format": "Three hours of Lecture per week for 15 weeks.  Twenty hours of Lecture per week for 6 weeks.", 
-    "freshSophSem": false, 
+    "credit": 4, 
+    "crossListing": "", 
+    "department": "Statistics", 
+    "deptAbbrev": "STAT", 
+    "description": "A comprehensive survey course in statistical theory and methodology. Topics include descriptive statistics, maximum likelihood estimation, non-parametric methods, introduction to optimality, goodness-of-fit tests, analysis of variance, bootstrap and computer-intensive methods and least squares estimation. The laboratory includes computer-based data-analytic applications to science and engineering. ", 
+    "format": "Three hours of Lecture and  Two hours of Laboratory per week for 15 weeks.  Six hours of Lecture and  Four hours of Laboratory per week for 8 weeks.", 
+    "freshSophSem": true, 
     "hasCoreqs": "", 
-    "isPrereqFor": "This class is a prerequisite for CHEM 151.", 
-    "note": "", 
-    "number": "C234", 
+    "isPrereqFor": "STAT 151", 
+    "note": "This is a note.", 
+    "number": "135", 
     "offerHist": [
         "Spring 2013", 
-        "Fall 2012", 
-        "Fall 2011", 
+        "Spring 2012", 
+        "Spring 2011", 
         "Spring 2010"
     ], 
-    "prereqs": "One year of chemistry, including a semester of organic chemistry, or consent of instructors based on previous experience. ", 
+    "prereqs": "Statistics 134 and linear algebra (Mathematics 54 or equivalent). Statistics 133 strongly recommended. ", 
     "restrictions": "", 
-    "title": "Green Chemistry: An Interdisciplonary Approach to Sustainability"
+    "title": "Concepts of Statistics"
 }, 
 "course15":{
     "berkeleyConnect": false, 
@@ -1545,41 +1064,19 @@
     }, 
     "classInstance": [
         {
-            "ccn": 61789, 
-            "days": "TuTh", 
+            "ccn": 29932, 
+            "days": "MW", 
             "finalGroup": "Not applicable", 
             "instanceType": "Lecture", 
             "instructor": "G. Burke", 
             "location": {
                 "building": "Wurster", 
-                "room": 190
+                "room": 261
             }, 
             "seats": {
-                "available": 421, 
-                "enrolled": 279, 
-                "max": 700, 
-                "waitlist": 5
-            }, 
-            "semester": "Fall 2014", 
-            "time": {
-                "end": "3P", 
-                "start": "2P"
-            }
-        }, 
-        {
-            "ccn": 10466, 
-            "days": "M", 
-            "finalGroup": "Not applicable", 
-            "instanceType": "Discussion", 
-            "instructor": "I. Jaskolski", 
-            "location": {
-                "building": "Soda", 
-                "room": 13
-            }, 
-            "seats": {
-                "available": 15, 
-                "enrolled": 10, 
-                "max": 25, 
+                "available": 7, 
+                "enrolled": 23, 
+                "max": 30, 
                 "waitlist": 0
             }, 
             "semester": "Fall 2014", 
@@ -1603,10 +1100,93 @@
     "note": "", 
     "number": "C234", 
     "offerHist": [
-        "Fall 2013", 
         "Spring 2013", 
+        "Spring 2012", 
+        "Spring 2011", 
+        "Spring 2010"
+    ], 
+    "prereqs": "One year of chemistry, including a semester of organic chemistry, or consent of instructors based on previous experience. ", 
+    "restrictions": "", 
+    "title": "Green Chemistry: An Interdisciplonary Approach to Sustainability"
+}, 
+"course16":{
+    "berkeleyConnect": false, 
+    "breadth": {
+        "AC": false, 
+        "AL": false, 
+        "BS": false, 
+        "HS": false, 
+        "IS": false, 
+        "PS": false, 
+        "PV": false, 
+        "RCA": false, 
+        "RCB": false, 
+        "SS": false
+    }, 
+    "classInstance": [
+        {
+            "ccn": 66577, 
+            "days": "M", 
+            "finalGroup": "Not applicable", 
+            "instanceType": "Discussion", 
+            "instructor": "I. Jaskolski", 
+            "location": {
+                "building": "Evans", 
+                "room": 134
+            }, 
+            "seats": {
+                "available": 14, 
+                "enrolled": 11, 
+                "max": 25, 
+                "waitlist": 0
+            }, 
+            "semester": "Fall 2014", 
+            "time": {
+                "end": "12P", 
+                "start": "11A"
+            }
+        }, 
+        {
+            "ccn": 63156, 
+            "days": "Th", 
+            "finalGroup": "Not applicable", 
+            "instanceType": "Discussion", 
+            "instructor": "M. Mhasalkar, U. Jehlicka", 
+            "location": {
+                "building": "Wheeler", 
+                "room": 287
+            }, 
+            "seats": {
+                "available": 5, 
+                "enrolled": 15, 
+                "max": 20, 
+                "waitlist": 0
+            }, 
+            "semester": "Fall 2014", 
+            "time": {
+                "end": "12P", 
+                "start": "11A"
+            }
+        }
+    ], 
+    "courseThread": "", 
+    "courseType": "Lecture", 
+    "credit": 3, 
+    "crossListing": "ESPM C234, PB HLTH C234", 
+    "department": "Chemistry", 
+    "deptAbbrev": "PB HLTH", 
+    "description": "Meeting the challenge of global sustainability will require interdisciplinary approaches to research and education, as well as the integration of this new knowledge into society, policymaking, and business. Green Chemistry is an intellectual framework created to meet these challenges and guide technological development. It encourages the design and production of safer and more sustainable chemicals and products. ", 
+    "format": "Three hours of Lecture per week for 15 weeks.  Twenty hours of Lecture per week for 6 weeks.", 
+    "freshSophSem": false, 
+    "hasCoreqs": "", 
+    "isPrereqFor": "", 
+    "note": "", 
+    "number": "C234", 
+    "offerHist": [
+        "Fall 2013", 
         "Fall 2012", 
-        "Spring 2012"
+        "Fall 2011", 
+        "Fall 2010"
     ], 
     "prereqs": "One year of chemistry, including a semester of organic chemistry, or consent of instructors based on previous experience. ", 
     "restrictions": "", 
@@ -1628,117 +1208,51 @@
     }, 
     "classInstance": [
         {
-            "ccn": 92509, 
-            "days": "M", 
+            "ccn": 67070, 
+            "days": "W", 
             "finalGroup": "Not applicable", 
-            "instanceType": "Lecture", 
-            "instructor": "D. Matousek, C. Stoddard", 
+            "instanceType": "Discussion", 
+            "instructor": "I. Jaskolski", 
             "location": {
                 "building": "Dwinelle", 
-                "room": 173
+                "room": 278
             }, 
             "seats": {
-                "available": 9, 
-                "enrolled": 41, 
-                "max": 50, 
+                "available": 10, 
+                "enrolled": 0, 
+                "max": 10, 
                 "waitlist": 0
             }, 
             "semester": "Fall 2014", 
             "time": {
-                "end": "11:30A", 
+                "end": "11A", 
                 "start": "10A"
             }
         }, 
         {
-            "ccn": 86090, 
-            "days": "Tu", 
+            "ccn": 12677, 
+            "days": "Th", 
             "finalGroup": "Not applicable", 
             "instanceType": "Discussion", 
-            "instructor": "M. Mhasalkar, U. Jehlicka", 
+            "instructor": "V. Benbow, Z. Alberts", 
             "location": {
                 "building": "Wurster", 
-                "room": 183
+                "room": 105
             }, 
             "seats": {
-                "available": 16, 
-                "enrolled": 4, 
+                "available": 7, 
+                "enrolled": 13, 
                 "max": 20, 
-                "waitlist": 2
-            }, 
-            "semester": "Fall 2014", 
-            "time": {
-                "end": "4P", 
-                "start": "3P"
-            }
-        }, 
-        {
-            "ccn": 43064, 
-            "days": "W", 
-            "finalGroup": "Not applicable", 
-            "instanceType": "Discussion", 
-            "instructor": "M. Mhasalkar, U. Jehlicka", 
-            "location": {
-                "building": "Wheeler", 
-                "room": 258
-            }, 
-            "seats": {
-                "available": 2, 
-                "enrolled": 10, 
-                "max": 12, 
                 "waitlist": 0
             }, 
             "semester": "Fall 2014", 
             "time": {
-                "end": "10A", 
-                "start": "9A"
-            }
-        }, 
-        {
-            "ccn": 77963, 
-            "days": "Tu", 
-            "finalGroup": "Not applicable", 
-            "instanceType": "Discussion", 
-            "instructor": "M. Sarka", 
-            "location": {
-                "building": "Barrows", 
-                "room": 246
-            }, 
-            "seats": {
-                "available": 10, 
-                "enrolled": 15, 
-                "max": 25, 
-                "waitlist": 8
-            }, 
-            "semester": "Fall 2014", 
-            "time": {
-                "end": "2P", 
-                "start": "1P"
-            }
-        }, 
-        {
-            "ccn": 38588, 
-            "days": "Th", 
-            "finalGroup": "Not applicable", 
-            "instanceType": "Discussion", 
-            "instructor": "M. Wetterman", 
-            "location": {
-                "building": "Wheeler", 
-                "room": 212
-            }, 
-            "seats": {
-                "available": 8, 
-                "enrolled": 7, 
-                "max": 15, 
-                "waitlist": 5
-            }, 
-            "semester": "Fall 2014", 
-            "time": {
-                "end": "12P", 
-                "start": "11A"
+                "end": "6P", 
+                "start": "5P"
             }
         }
     ], 
-    "courseThread": "This course is part of the Cultural Forms in Transit Course Thread.", 
+    "courseThread": "", 
     "courseType": "Lecture", 
     "credit": 3, 
     "crossListing": "", 
@@ -1748,78 +1262,17 @@
     "format": "Three hours of Seminar per week for 15 weeks.", 
     "freshSophSem": false, 
     "hasCoreqs": "", 
-    "isPrereqFor": "This class is a prerequisite for ARCH 151.", 
+    "isPrereqFor": "", 
     "note": "", 
     "number": "275", 
     "offerHist": [
         "Fall 2013", 
-        "Spring 2013", 
         "Fall 2012", 
-        "Spring 2012"
+        "Fall 2011", 
+        "Fall 2010"
     ], 
     "prereqs": "The course is open to upper division undergraduates and graduate students. ", 
     "restrictions": "", 
     "title": "Introduction to Architectural Theory 1945 - Present"
-}, 
-"course82":{
-    "berkeleyConnect": false, 
-    "breadth": {
-        "AC": false, 
-        "AL": false, 
-        "BS": false, 
-        "HS": false, 
-        "IS": false, 
-        "PS": false, 
-        "PV": false, 
-        "RCA": false, 
-        "RCB": false, 
-        "SS": false
-    }, 
-    "classInstance": [
-        {
-            "ccn": 52774, 
-            "days": "M", 
-            "finalGroup": "Group 5--Friday, December 15, 2014, 1 p.m.", 
-            "instanceType": "Lecture", 
-            "instructor": "A. Kennard", 
-            "location": {
-                "building": "Dwinelle", 
-                "room": 238
-            }, 
-            "seats": {
-                "available": 135, 
-                "enrolled": 15, 
-                "max": 150, 
-                "waitlist": 0
-            }, 
-            "semester": "Fall 2014", 
-            "time": {
-                "end": "10A", 
-                "start": "9A"
-            }
-        }
-    ], 
-    "courseThread": "", 
-    "courseType": "Lecture", 
-    "credit": 4, 
-    "crossListing": "", 
-    "department": "Public Policy", 
-    "deptAbbrev": "PUB POL", 
-    "description": "Public sector budgeting incorporates many, perhaps most, of the skills of the public manager and analyst. The goal of this course is to develop and hone these skills. Using cases and readings from all levels of American government, the course will allow the student to gain and understanding of the effects and consequences of public sector budgeting, its processes and participants, and the potential impacts of various reforms. Undegraduate level of Public Policy 269. This course can be applied to the political science major. ", 
-    "format": "Three hours of Lecture per week for 15 weeks.", 
-    "freshSophSem": false, 
-    "hasCoreqs": "", 
-    "isPrereqFor": "", 
-    "note": "", 
-    "number": "179", 
-    "offerHist": [
-        "Spring 2013", 
-        "Spring 2012", 
-        "Spring 2011", 
-        "Spring 2010"
-    ], 
-    "prereqs": "", 
-    "restrictions": "", 
-    "title": "Public Budgeting"
 }
 }

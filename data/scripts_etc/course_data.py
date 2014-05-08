@@ -113,12 +113,12 @@ for item in courses_input:
             course["berkeleyConnect"] = False
 
         if random.randint(1, 3) == 3:
-            course["isPrereqFor"] = "This class is a prerequisite for " + item[0] + " 151."
+            course["isPrereqFor"] = item[0] + " 151"
         else:
             course["isPrereqFor"] = ""
 
         if random.randint(1, 15) == 15:
-            course["hasCoreqs"] = item[0] + " 1A must be taken concurrently."
+            course["hasCoreqs"] = item[0] + " 1A"
         else:
             course["hasCoreqs"] = ""
         if random.randint(1, 10) == 10:
