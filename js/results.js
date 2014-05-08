@@ -593,14 +593,14 @@ function sortResults(array, prop, asc) {
   array = array.sort(function (a, b) {
 
     // if sorting by department, then we want to check to see if we need to reorder by number for multiple courses in a dept.
-    if (a['deptAbbrev'] === b['deptAbbrev']) {
+    if ((prop === 'deptAbbrev') && (a['deptAbbrev'] === b['deptAbbrev'])) {
       // some courses have letters in their numbers, so we need to take those out first.
       var aNumber = a['number'].match(/\d+/),
           bNumber = b['number'].match(/\d+/);
       return (aNumber >= bNumber) ? 1 : ((aNumber < bNumber) ? -1 : 0);
     }
 
-    // otherwise sort by department
+    // otherwise sort as usual
     if (asc) {
       return (a[prop] > b[prop]) ? 1 : ((a[prop] < b[prop]) ? -1 : 0);
     } else {
@@ -645,8 +645,8 @@ function oneInstanceRow (course, classInfo) {
        + '<td class="courseNum">' + course.number + '</td>'
        + '<td class="courseTitle">' + course.title + '</td>'
        + '<td class="instanceInstructor">' + classInfo.instructor + '</td>'
-       + '<td class="instanceTime">' + classInfo.time.start + '-' + classInfo.time.end  
-                                     + '<p>' + classInfo.days + '</p>'
+       + '<td class="instanceTime">' + classInfo.days  
+                                     + '<p>' + classInfo.time.start + '-' + classInfo.time.end + '</p>'
                                      + '<p>' + classInfo.semester + '</p></td>'
        + '<td class="instancePlace">' + classInfo.location.room + ' <a href="http://www.berkeley.edu/map/googlemap/?' 
                                      + classInfo.location.building.toLowerCase() + '" target="new">'
@@ -722,8 +722,8 @@ function multiInstanceRow(course, instance, numInstances) {
     var courseCredit = (instance[i].instanceType === 'Lecture')? course.credit : "--"; 
     
     row += '<td class="instanceInstructor">' + instance[i].instructor + '</td>'
-        + '<td class="instanceTime">' + instance[i].time.start + '-' + instance[i].time.end 
-                                      + '<p>' + instance[i].days
+        + '<td class="instanceTime">' + instance[i].days
+                                      + '<p>' + instance[i].time.start + '-' + instance[i].time.end + '</p>'
                                       + '<p>' + instance[i].semester + '</p></td>'
         + '<td class="instancePlace">' + instance[i].location.room + ' <a href="http://www.berkeley.edu/map/googlemap/?' 
                                       + instance[i].location.building.toLowerCase() + '" target="new">'
@@ -970,16 +970,6 @@ function getBadges (course) {
   return images;
 }
 
-/*
-    classSemester = '', // classInstance.semester, without space
-    classSeats = '', // classInstance.seats.available
-    classDays = '', // classInstance.days
-    classTime = '', // classInstance.time.start
-
-    classSize = '', // classInstance.seats.max
-    classMeeting = '', // classInstance.instanceType
-    */
-
 $(document).ready(function () {
 
   $('#fileChange li').on('click', function () {
@@ -989,7 +979,6 @@ $(document).ready(function () {
 
   var filename = $('#main').attr('data-file');
   loadJSON(filename);
-  
   
 });
 

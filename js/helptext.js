@@ -14,16 +14,18 @@ function setupHelpText() {
   $('#toggleHelp').on('click', function (event) {
     
     $helpTitle.toggleClass('hidden');
-    $helpText.toggleClass('hidden');
+    // $helpText.toggleClass('hidden');
 
     $('#prototypeHelp').toggleClass('helpboxClose')
                        .toggleClass('helpboxOpen');
     
     if ($helpTitle.hasClass('hidden')) {
       $(this).prop('value', 'Show');
+      $helpText.html('Prototype Help Box');
     }
     else {
       $(this).prop('value', 'Hide');
+      resetHelpText();
     }
 
   });

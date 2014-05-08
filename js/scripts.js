@@ -144,7 +144,6 @@ $(document).ready(function () {
 
   });
 
-
   function dateTime($this, classname) {
     if($this.hasClass('selected')) {
       $(classname).removeClass('selected');
