@@ -338,6 +338,15 @@ ol li {
   list-style-type: decimal;
 }
 
+#prototypeHelp ul li {
+  margin-left: 20px;
+  list-style-type: disc;
+}
+
 #prototypeHelp a {
   color: #fff;
+}
+
+#prototypeHelp p {
+  margin-bottom: 1em; 
 }
