@@ -51,19 +51,6 @@ img.bulletin {
   display: none;
 }
 
-#helpText {
-  width: 300px;
-  float: right;
-  margin-right: 50px;
-  margin-top: 30px;
-  font-size: 13px;
-
-}
-
-.helpHead {
-  font-weight: bold;
-}
-
 /* search form */
 #search {
   padding: 25px;
@@ -218,6 +205,99 @@ td#emptyTD {
   right: 0;
   bottom: 0;
   background-color: rgba(0,0,0,0.5);
+}
+
+/* help text */
+
+#helpText {
+  width: 350px;
+  float: right;
+  margin-right: 10px;
+  margin-top: 30px;
+  font-size: 12px;
+  line-height: 15px;
+
+}
+
+.helpHead {
+  font-weight: bold;
+}
+
+#basicHelp, #advHelp {
+	margin: 0;
+	padding: 0;
+}
+
+#helpSemester {
+	height: 70px;
+}
+
+#helpDepartment {
+	height: 22px;
+}
+
+#helpCourseNo {
+	height: 50px;
+}
+
+#helpKeyword {
+	height: 31px;
+}
+
+#helpTitleKeyword {
+	height: 53px;
+}
+
+#helpInstructor {
+	height: 115px;
+}
+
+#helpAdvanced {
+	height: 50px;
+}
+
+#helpSeats {
+	height: 30px;
+}
+
+#helpUnits {
+	height: 30px;
+}
+
+#helpWaitlist {
+	height: 30px;
+}
+
+#helpExclude {
+	height: 40px;
+}
+
+#helpLevel {
+	height: 80px;
+}
+
+#helpCurriculum {
+	height: 120px;
+}
+
+#helpCampusReqs {
+	height: 120px;
+}
+
+#helpBreadthReqs {
+	height: 145px;
+}
+
+#helpMajor {
+	height: 65px;
+}
+
+#helpMinor {
+	height: 70px;
+}
+
+#helpCalendar {
+
 }
 
 
