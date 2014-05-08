@@ -319,9 +319,8 @@ td#emptyTD {
 
 }
 
-#test {
-  margin: 50px;
-}
-#test td {
-  border: 1px solid black;
+.rIcon {
+  height: 20px;
+  width: 20px;
+  vertical-align: middle;
 }
