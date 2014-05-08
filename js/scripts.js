@@ -220,63 +220,95 @@ $(document).ready(function () {
 
   $('#inputSemester').hover(function (event) {
     $helpTitle.text('Semester menu');
-    $helpText.html('This menu should be populated with the current semester and upcoming '
+    $helpText.html('<p>This menu should be populated with the current semester and upcoming '
     + 'semesters for which schedules are available, along with "All," which when selected returns '
     + 'any course regardless of scheduling status. When a semester ends, it should be removed '
-    + 'from the menu. This will satisfy all use cases while minimizing interface clutter.');
+    + 'from the menu. This will satisfy all use cases while minimizing interface clutter.</p>');
   });
   
   $('#inputDepartment').hover(function (event) {
     $helpTitle.text('Department');
-    $helpText.html('Typing in this box generates autosuggested names of departments '
-    +'that contain the sequence of letters entered; the intent is that the suggestion list should start with '
+    $helpText.html('<p>Typing in this box generates autosuggested names of departments '
+    + 'that contain the sequence of letters entered; the intent is that the suggestion list should start with '
     + 'departments that start with the sequence, followed alphabetically by department names '
-    + 'containing the sequence internally.');
+    + 'containing the sequence internally.</p>');
   });
 
   $('#inputCourseNumber').hover(function (event) {
     $helpTitle.text('Course Number');
-    $helpText.html('At implementation, if the Department field is filled in, '
-    + 'this field should autosuggest valid course numbers.');
+    $helpText.html('<p>At implementation, if the Department field is filled in, '
+    + 'this field should autosuggest valid course numbers.</p>');
   });
 
   $('#inputKeywords').hover(function (event) {
     $helpTitle.text('Keyword');
-    $helpText.html('For terms entered in this field, search should return results where the '
+    $helpText.html('<p>For terms entered in this field, search should return results where the '
     + 'title or course description contains the term. Boolean logic for search of multiple terms '
-    + 'should be AND. Quotes for phrase search should be supported.');
+    + 'should be AND. Quotes for phrase search should be supported.</p>');
   });
 
   $('#inputTitle').hover(function (event) {
     $helpTitle.text('Title Keyword');
-    $helpText.html('For terms entered in this field, search should return results where the '
+    $helpText.html('<p>For terms entered in this field, search should return results where the '
     + 'course title contains the term. Boolean logic for search of multiple terms should be AND. '
-    + 'Quotes for phrase search should be supported.');
+    + 'Quotes for phrase search should be supported.</p>');
+  });
+
+  $('#inputInstructors').hover(function (event) {
+    $helpTitle.text('Instructors');
+    $helpText.html('<p>For terms entered in this field, search should return results of courses '
+    + 'taught by the specified instructors. Boolean logic for search of multiple terms '
+    + 'should be AND.</p>');
+  });
+
+  $('#seats-units ul.formGroup').hover(function (event) {
+    $helpTitle.text('Seats, Waitlist, Exclude');
+    $helpText.html('<p>Checkboxes to modify the search results.</p>');
+  });
+
+  $('.units').hover(function (event) {
+    $helpTitle.text('Units');
+    $helpText.html('<p>Dropdown options to set min and max units.</p>');
+  });
+
+  $('#courseLevel').hover(function (event) {
+    $helpTitle.text('Course Level');
+    $helpText.html('<p>Select multiple course levels.</p>');
+  });
+
+  $('#curriculum').hover(function (event) {
+    $helpTitle.text('Curriculum Connections');
+    $helpText.html('<p>A selection of the different types of learning opportunities at Berkeley.</p>');
+  });
+
+  $('#requirements').hover(function (event) {
+    $helpTitle.text('Breadth Requirements');
+    $helpText.html('<p>Campus and L&S Breadth requirement selections..</p>');
   });
 
   $('#reqMajor').hover(function (event) {
     $helpTitle.text('Major');
-    $helpText.html('This field should autosuggest similarly to Department. The results should be classes that '
+    $helpText.html('<p>This field should autosuggest similarly to Department. The results should be classes that '
     + 'meet requirements for the chosen major. Searches on multiple majors should be supported (clicking the + icon '
-    + 'should bring up an additional entry field). Logic for multiple major searches should be Boolean OR.' );
+    + 'should bring up an additional entry field). Logic for multiple major searches should be Boolean OR.</p>' );
   });
 
   $('#reqMinor').hover(function (event) {
     $helpTitle.text('Minor');
-    $helpText.html('This field should autosuggest similarly to Department. The results should be classes that '
+    $helpText.html('<p>This field should autosuggest similarly to Department. The results should be classes that '
     + 'meet requirements for the chosen minor. Searches on multiple minors should be supported (clicking the + icon '
-    + 'should bring up an additional entry field). Logic for multiple minor searches should be Boolean OR.');
+    + 'should bring up an additional entry field). Logic for multiple minor searches should be Boolean OR.</p>');
   });
 
   $('#timeTable').hover(function (event) {
     $helpTitle.text('Day and Time');
-    $helpText.html('This field allows the user to select time blocks when they are free. If left blank, '
+    $helpText.html('<p>This field allows the user to select time blocks when they are free. If left blank, '
     + 'no time restrictions are placed on the results. If any blocks are selected, results are classes '
-    + 'that are fully contained within the selected blocks. Note that time blocks have been chosen to '
+    + 'that are fully contained within the selected blocks.</p><p> Note that time blocks have been chosen to '
     + 'balance search flexibility with keeping the page accessible; too many blocks '
-    + 'would create arduous tabbing for users of screen readers. Also note that current interaction '
+    + 'would create arduous tabbing for users of screen readers. </p><p>Also note that current interaction '
     + 'is to click inside am individual time block to select it; a click and drag selection '
-    + 'interaction would be preferred.');
+    + 'interaction would be preferred.</p>');
   });
 
 
