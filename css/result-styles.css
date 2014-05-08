@@ -2,22 +2,27 @@
   background-color: #fff;
 }
 
-/* results */
-
+/* structure and general sizing */
 #facets, #results {
   display: inline-table;
 }
 
 #facets {
-  width: 190px;
-  padding: 15px;
+  width: 170px;
+  padding: 10px;
   font-size: 12px;
 }
 
 #results {
-  width: 885px;
+  width: 910px;
 }
 
+#resultsTable, #resultsHeader {
+  width: 900px;
+  font-size: 12px;
+}
+
+/* general cell styling */
 td,th {
   background-color: #fff;
   border: 1px solid #000;
@@ -26,62 +31,52 @@ td,th {
   font-size: 12px;
 }
 
+/* alignments */
 .textRight {
   text-align: right;
 }
 
-
-
 .notOfferedTD {
   text-align: center;
-}
-
-#fileChange li {
-  display: inline;
-  padding-right: 40px;
-}
-
-#fileChange li:hover {
-  cursor: pointer;
-}
-
-.deptAbbrev {
-  width: 75px;
-}
-.courseNum {
-  width: 45px;
-}
-.courseTitle {
-  width: 300px;
-}
-.instanceInstructor{
-  width: 110px;
-}
-.instanceTime{
-  width: 65px;
-}
-.instancePlace{
-  width: 75px
-}
-.courseUnits{
-  width: 20px;
-}
-.instanceCCN{
-  width: 45px;
-}
-.badges{
-  width: 70px;
-}
-.save{
-  width: 30px;
 }
 
 th, .courseUnits, .instanceCCN, .badges, .save {
   text-align: center;  
 }
 
+/* styling to force size on the table. WOOOOOOO */
+#headerDept {
+  width: 65px;
+}
+#headerNum {
+  width: 45px;
+}
+#headerTitle {
+  width: 275px;
+}
+#headerInstructor {
+  width: 110px;
+}
+#headerSchedule {
+  width: 75px;
+}
+#headerLocation {
+  width: 75px
+}
+#headerUnits {
+  width: 41px;
+}
+#headerCCN {
+  width: 40px;
+}
+#headerReq {
+  width: 70px;
+}
+#headerSave {
+  width: 30px;
+}
 
-
+/* Adding colour for course cells */
 .Lecture td {
   background-color: rgba(194,185,167,0.5);
 }
@@ -98,29 +93,8 @@ th, .courseUnits, .instanceCCN, .badges, .save {
   background-color: rgba(194,185,167,0.75);
 }
 
-.rowSeats, .rowSeats td {
-  padding: 0;
-  margin: 0;
-  height: 15px;
-}
-
-.badges img {
-  width: 22px;
-  height: 22px;
-}
-
 .courseHeaderRow:hover {
   background-color: black;
-}
-
-
-#facets h4 {
-  font-weight: bold;
-  margin-top: 5px;
-}
-
-.notOfferedRow td {
-  background-color: rgba(083,098,111, 0.5);
 }
 
 .notOfferedRow:hover {
@@ -128,11 +102,49 @@ th, .courseUnits, .instanceCCN, .badges, .save {
 }
 
 
+/* styling for the extra row with seat info */
+.rowSeats, .rowSeats td {
+  padding: 0;
+  margin: 0;
+  height: 15px;
+}
+
+/* making the badges smaller */
+.badges img {
+  width: 22px;
+  height: 22px;
+}
+
+
+
+.notOfferedRow td {
+  background-color: rgba(083,098,111, 0.5);
+}
+
+/* sorting icons that don't do anything but pretty! */
+img.sortImg {
+  vertical-align: middle;
+}
 
 
 
 
 
+#facets h4 {
+  font-weight: bold;
+  margin-top: 5px;
+}
 
 
+/* miscellany */
+#fileChange li {
+  display: inline;
+  padding-right: 40px;
+}
+#fileChange li:hover {
+  cursor: pointer;
+}
 
+#savedCourses {
+  float: right;
+}

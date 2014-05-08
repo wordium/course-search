@@ -73,20 +73,31 @@ function submitForm () {
     else if ((selectedCells.length > 0) && (inputSemester === '2014fall')) {
       var m = false,
         w = false,
+        tu = false,
         th = false;
+      // this is pretty relaxed; as long as any m and w have a morning cell selected, and any tu/th cells, it will pass.
       for (var i = 0; i < selectedCells.length; i++) {
-        if ((selectedCells[i].day === 'mon') && (selectedCells[i].time === 'time-1')) {
-          m = true;
+        var day = selectedCells[i].day,
+          time = selectedCells[i].time;
+        if (day === 'mon') {
+          if ((time === 'time-1') || (time === 'time-2') || (time === 'time-3')) {
+            m = true;
+          }
         }
-        else if ((selectedCells[i].day === 'wed') && (selectedCells[i].time === 'time-1')) {
-          w = true;
+        else if (day === 'wed') {
+          if ((time === 'time-1') || (time === 'time-2') || (time === 'time-3')) {
+            w = true;
+          }
         }
-        else if (selectedCells[i].day === 'thu') {
+        else if (day === 'tue') {
+          tu = true;
+        }
+        else if (day === 'thu') {
           th = true;
         }
       }
 
-      if (m && w && th && (inputSemester === '2014fall')) {
+      if (m && w && tu && th && (inputSemester === '2014fall')) {
         window.location.href = 's4_schedule.html';
       }
     }
@@ -102,7 +113,6 @@ function submitForm () {
       // IT DOES NOTHING
     }
 }
-
 
 $(document).ready(function () {
 
@@ -166,6 +176,121 @@ $(document).ready(function () {
   $('.searchBtn').on('click', function (event) {
     submitForm();
   });
+
+
+  // on hover over various elements in the page, update the text in the box in the bottom right.
+  var $helpBox = $('#prototypeHelp'),
+    $helpTitle = $('#prototypeHelp h3'),
+    $helpText = $('#prototypeHelp span');
+
+  // reset function to pass
+  var resetText = function resetHelpText () {
+   // $helpTitle.text('Prototype Help Box');
+   // $helpText.text('Hover over something in the search field for more information about it.');
+  }
+
+  $('#toggleHelp').on('click', function (event) {
+    $('#prototypeHelp').toggleClass('helpboxClose')
+                       .toggleClass('helpboxOpen');
+    $helpTitle.toggleClass('hidden');
+    $helpText.toggleClass('hidden');
+    if ($helpTitle.hasClass('hidden')) {
+      $(this).prop('value', 'Show');
+    }
+    else {
+      $(this).prop('value', 'Hide');
+    }
+  });
+
+
+  $('.searchBtn').hover(function (event) {
+    $helpTitle.text('Search Options');
+    $helpText.text('These are the search options you have.');
+  });
+
+  $('#advancedState').hover(function (event) {
+    $helpTitle.text('Advanced Search Options');
+    $helpText.text('This is text about the advanced search options');
+  });
+
+
+  $('#inputDepartment').hover(function (event) {
+    $helpTitle.text('Department');
+    $helpText.text('This is text about the department input');
+  });
+
+  $('#inputCourseNumber').hover(function (event) {
+    $helpTitle.text('Course Number');
+    $helpText.text('This is text about the course number');
+  });
+
+  $('#inputKeywords').hover(function (event) {
+    $helpTitle.text('Keyword search');
+    $helpText.text('This is text about the keyword search');
+  });
+
+  $('#inputTitle').hover(function (event) {
+    $helpTitle.text('Title Keyword Search');
+    $helpText.text('This is text about the title keyword search');
+  });
+
+  $('#inputInstructors').hover(function (event) {
+    $helpTitle.text('Instructor(s)');
+    $helpText.text('This is text about the instructor search');
+  });
+
+  $('#seats-units ul.formGroup').hover(function (event) {
+    $helpTitle.text('Seats');
+    $helpText.text('This is text about the seats');
+  });
+
+  $('.units').hover(function (event) {
+    $helpTitle.text('Units');
+    $helpText.text('This is text about the units');
+  });
+
+  $('#courseLevel').hover(function (event) {
+    $helpTitle.text('Course Level');
+    $helpText.text('This is text about the course level');
+  });
+  
+  $('#curriculum').hover(function (event) {
+    $helpTitle.text('Snowflakes');
+    $helpText.text('This is text about how every snowflake is unique');
+  });
+
+  $('#campusReq').hover(function (event) {
+    $helpTitle.text('Campus Breadth Requirements');
+    $helpText.text('campus breadth requirements');
+  });
+
+  $('#lsBreadth').hover(function (event) {
+    $helpTitle.text('L&S 7-course Breadth Requirements');
+    $helpText.text('L&S breadth requirements');
+  });
+
+  $('#campusReq').hover(function (event) {
+    $helpTitle.text('Campus Breadth Requirements');
+    $helpText.text('campus breadth requirements');
+  });
+
+  $('#reqMajor').hover(function (event) {
+    $helpTitle.text('Major Requirements');
+    $helpText.text('Major requirements');
+  });
+
+  $('#reqMinor').hover(function (event) {
+    $helpTitle.text('Minor Requirements');
+    $helpText.text('Minor requirements');
+  });
+
+  $('#timeTable').hover(function (event) {
+    $helpTitle.text('Time and Day');
+    $helpText.text('SEARCHIN');
+  });
+
+  
+
 
 });
 
