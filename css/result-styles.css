@@ -162,3 +162,12 @@ img.sortImg {
   list-style-type: disc;
   margin-left: 25px;
 }
+
+#savedCourses {
+  color: blue;
+  text-decoration: underline;
+}
+
+#savedCourses:hover {
+  cursor: pointer;
+}
