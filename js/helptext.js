@@ -40,15 +40,15 @@ function setupHelpText() {
   // describe the searches that you can do with this prototype
   $('.searchBtn').hover(function (event) {
     $helpTitle.text('Search Options');
-    $helpText.html('Supported searches: <ol>'
+    $helpText.html('Please note that search works only for the following supported form entries: <ol>'
     + '<li> Find Public Health major classes offered in the upcoming semester—'
-    + 'Semester field: Fall 2014, Major(s) field, "public health." </li>'
-    + '<li> Find classes that meet Campus and Breadth requirements—'
-    + 'All Campus and L&S Breadth requirements boxes checked, Semester field: All. </li>'
-    + '<li> Find classes related to sustainability—Semester field: All, Keyword field: "sustainability." </li>'
-    + '<li> Find classes in the upcoming semester that meet only MW morning and TTh—Semester field: Fall 2014,' 
-    + 'calendar: MW 9-12:30 selected, all of TTh selected.</li>'
-    + '<li> Find backup classes with open seats—Semester field: Fall 2014, open seats checkbox checked.</li>');
+    + 'Semester field: Fall 2014; Major field: "public health." </li>'
+    + '<li> Find classes that meet the AC, R&CA, and R&CB campus requirements and all L&S breadth requirements—'
+    + 'Campus section: AC, RCA, and RCB boxes checked; L&S Breadth section: all boxes checked; Semester field: All. </li>'
+    + '<li> Find all classes related to sustainability—Semester field: All; Keyword field: "sustainability." </li>'
+    + '<li> Find classes in the upcoming semester that meet only MW morning and TTh—Semester field: Fall 2014;' 
+    + 'calendar: MW 9-12:30 selected and all of TTh selected.</li>'
+    + '<li> Find backup classes with open seats—Semester field: Fall 2014; open seats checkbox checked.</li>');
   });
 
   $('#inputSemester').hover(function (event) {
@@ -64,12 +64,12 @@ function setupHelpText() {
     $helpText.html('<p>Typing in this box generates autosuggested names of departments '
     + 'that contain the sequence of letters entered; the intent is that the suggestion list should start with '
     + 'departments that start with the sequence, followed alphabetically by department names '
-    + 'containing the sequence internally.</p>');
+    + 'containing the sequence internally. Department abbreviations in addition to full names should be supported.</p>');
   });
 
   $('#inputCourseNumber').hover(function (event) {
     $helpTitle.text('Course Number');
-    $helpText.html('<p>At implementation, if the Department field is filled in, '
+    $helpText.html('<p>If the Department field is filled in, '
     + 'this field should autosuggest valid course numbers.</p>');
   });
 
@@ -89,34 +89,40 @@ function setupHelpText() {
 
   $('#inputInstructors').hover(function (event) {
     $helpTitle.text('Instructors');
-    $helpText.html('<p>For terms entered in this field, search should return results of courses '
-    + 'taught by the specified instructors. Boolean logic for search of multiple terms '
-    + 'should be AND.</p>');
+    $helpText.html('<p>This field should support search on full or partial names and should '
+    + 'search all instructors for a given class. Boolean logic for search of multiple terms '
+    + 'should be AND. </p>');
   });
 
   $('#seats-units ul.formGroup').hover(function (event) {
     $helpTitle.text('Seats, Waitlist, Exclude');
-    $helpText.html('<p>Checkboxes to modify the search results.</p>');
+    $helpText.html('<p><ul><li>Open Seats: returns only classes with seats open for registration.</li>'
+    + '<li>Open Waitlist: returns only classes where there is a waitlist and that waitlist is open to new additions.</li>'
+    + '<li>Exclude Discussions and Labs: excludes discussion sections, labs, and any other ancillary sections from search results.</li></ul></p>'
+    + 'Multiple selections are supported.');
   });
 
   $('.units').hover(function (event) {
     $helpTitle.text('Units');
-    $helpText.html('<p>Dropdown options to set min and max units.</p>');
+    $helpText.html('<p>To minimize interface clutter, dropdown options should not include all possible unit '
+    + 'values. Since most classes are no more than four units, "6+" is a reasonably sized category. </p>');
   });
 
   $('#courseLevel').hover(function (event) {
     $helpTitle.text('Course Level');
-    $helpText.html('<p>Select multiple course levels.</p>');
+    $helpText.html('<p>Multiple selections are supported.</p>');
   });
 
   $('#curriculum').hover(function (event) {
     $helpTitle.text('Curriculum Connections');
-    $helpText.html('<p>A selection of the different types of learning opportunities at Berkeley.</p>');
+    $helpText.html('<p>The current list represents a selection of the different types of learning opportunities at Berkeley.'
+    + 'We are aware that other programs may exist. They could be added in a second column; however, it is important to keep '
+    +'in mind the principles of simplicity and presenting only the most necessary information.</p>');
   });
 
   $('#requirements').hover(function (event) {
     $helpTitle.text('Breadth Requirements');
-    $helpText.html('<p>Campus and L&S Breadth requirement selections..</p>');
+    $helpText.html('<p>Multiple selections are supported.</p>');
   });
 
   $('#reqMajor').hover(function (event) {
@@ -147,16 +153,16 @@ function setupHelpText() {
   /***** results pages help text ******/
   $('#facets').hover(function (event) {
     $helpTitle.text('Facets');
-    $helpText.html('There are several important behaviors of facets that are not implemented in this prototype: <ol>'
+    $helpText.html('There are several important behaviors of facets that are not implemented in this prototype: <ul>'
     + '<li>Facet categories should be collapsible, as indicated by the arrow icons alongside the facet titles.</li> '
     + '<li>Currently, when a facet option is selected and the results are narrowed, the summary line at the top of the page showing the number of overall results '
     + 'and the search criteria stays the same. When implemented, this summary line should be updated to reflect the number of results being displayed '
     + 'and the updated search criteria. </li>'
     + '<li>Currently, the lecture and discussion instances returned by a search are not filtered out by the facets even if a '
     + 'facet criterion chosen should exclude the instance. For example, kdjgld'
-    + 'This should be fixed at implementation so that all displayed instances </li>'
-    + 'conform to all search criteria. <li>Note that it is not recommended to select more than 10 total facet options, as doing so may '
-    + 'slow and/or crash your browser.</li></ol>');
+    + 'This should be fixed at implementation so that all displayed instances '
+    + 'conform to all search criteria. </li><li>Note that it is not recommended to select more than 10 total facet options, as doing so may '
+    + 'slow and/or crash your browser.</li></ul>');
   });
   
    $('#resultsSummary').hover(function (event) {
