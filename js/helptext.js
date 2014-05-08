@@ -56,7 +56,11 @@ function setupHelpText() {
     $helpText.html('<p>This menu should be populated with the current semester and upcoming '
     + 'semesters for which schedules are available, along with "All," which when selected returns '
     + 'any course regardless of scheduling status. When a semester ends, it should be removed '
-    + 'from the menu. This will satisfy all use cases while minimizing interface clutter.</p>');
+    + 'from the menu. This will satisfy all use cases while minimizing interface clutter.</p>'
+    + '<p>The default selection of the menu should be time-dependent: during the first half '
+    + 'of the semester the default should be the current semester; in the second half, when '
+    + 'the vast majority of students are no longer making changes to their schedules and the '
+    + 'upcoming semester\'s schedule has become available, the default should change to the upcoming semester.');
   });
   
   $('#inputDepartment').hover(function (event) {
