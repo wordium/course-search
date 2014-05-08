@@ -148,3 +148,17 @@ img.sortImg {
 #savedCourses {
   float: right;
 }
+
+
+.description p {
+  margin-top: 5px;
+}
+
+.descriptionCategory {
+  font-weight: bold;
+}
+
+.description li {
+  list-style-type: disc;
+  margin-left: 25px;
+}

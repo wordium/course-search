@@ -747,10 +747,11 @@ function detailsRow (course, hasInstance) {
   // seats
   // add seats only for the one-instance case.
   if (hasInstance && (instance.length === 1)) {
-    row += '<p>Seats: ' + instance[0].seats.max 
-          + '. Enrolled: ' + instance[0].seats.enrolled 
-          + '. Waitlist: ' + instance[0].seats.waitlist 
-          + '. Available: ' + instance[0].seats.available + '.</p>';
+    row += '<p><span class="descriptionCategory">Seats:</span></p><ul>'
+        + '<li>Max: ' + instance[0].seats.max + '</li>'
+        + '<li>Enrolled: ' + instance[0].seats.enrolled + '</li>'
+        + '<li>Waitlist: ' + instance[0].seats.waitlist + '</li>'
+        + '<li>Available: ' + instance[0].seats.available + '</li>';
   }
 
   if ((course.prereqs).length > 0)
@@ -777,13 +778,15 @@ function detailsRow (course, hasInstance) {
 
   var offerHistory = course.offerHist;
   if (offerHistory.length > 0) {
-    row += '<p><span class="descriptionCategory">Offering History: </span></p><ul>';
-    for (var i = 0; i < offerHistory.length; i++)
-      row += '<li>' + offerHistory[i] + '</li>';
-    row += '</ul>';
+    row += '<p><span class="descriptionCategory">Offering History: </span>';
+    for (var i = 0; i < offerHistory.length; i++) {
+      row += offerHistory[i] + '. ';
+    }
+    row += '</p>';
   }
 
-  row += '<p><span class="descriptionCategory ratingsAndGrades">Ratings and Grades</span></p></tr>';
+  row += '<p><img src="img/open.png" alt="Show Ratings and Grades" title="Show Ratings and Grades"> &nbsp; '
+      + '<span class="descriptionCategory ratingsAndGrades">Ratings and Grades</span></p></tr>';
 
   return row;
 }
