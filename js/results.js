@@ -311,6 +311,17 @@ function loadJSON (filename) {
     });
 
     $('.save').off();
+    $('.saveImg').on('click', function() {
+      if ($(this).hasClass('courseIsSaved')) {
+        $(this).attr('src', 'img/unsaved.png');
+        $(this).removeClass('courseIsSaved');
+      }
+      else {
+        $(this).attr('src', 'img/saved.png');
+        $(this).addClass('courseIsSaved');
+      }
+      $('#savedCoursesNum').text('(' + $('.courseIsSaved').length + ')');
+    });
 
     showFacets();
 
@@ -610,7 +621,7 @@ function notOfferedRow (course) {
    + '<td class="courseUnits">' + course.credit + '</td>'
    + '<td class="notOfferedTD"> N/A </td>'
    + '<td class="badges">' + getBadges(course) + '</td>'
-   + '<td class="save"> <input type="checkbox"> </td>'
+   + '<td class="save"> <img src="img/unsaved.png" class="saveImg" alt="Click to save this course!" title="Click to save this course!"> </td>'
    + '</tr>';
 
 
@@ -642,7 +653,7 @@ function oneInstanceRow (course, classInfo) {
        + '<td class="courseUnits">' + course.credit + '</td>'
        + '<td class="instanceCCN">' + classInfo.ccn + '</td>'
        + '<td class="badges">' + getBadges(course) + '</td>'
-       + '<td class="save"> <input type="checkbox"> </td>'
+       + '<td class="save"> <img src="img/unsaved.png" class="saveImg" alt="Click to save this course!" title="Click to save this course!"> </td>'
        + '</tr>';
 
   // details
@@ -719,7 +730,7 @@ function multiInstanceRow(course, instance, numInstances) {
         + '<td class="courseUnits">' + courseCredit + '</td>'
         + '<td class="instanceCCN">' + instance[i].ccn + '</td>'
         + '<td class="badges">' + getBadges(course) + '</td>'
-        + '<td class="save"> <input type="checkbox"> </td>'
+        + '<td class="save"> <img src="img/unsaved.png" class="saveImg" alt="Click to save this course!" title="Click to save this course!"> </td>'
         + '</tr>';
 
     row += '<tr class="rowSeats hidden subrow ' + classDept + course.number + '"><td colspan="3">&nbsp;</td><td colspan="7">' 

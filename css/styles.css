@@ -333,3 +333,7 @@ ol li {
   margin-left: 20px;
   list-style-type: decimal;
 }
+
+#prototypeHelp a {
+  color: #fff;
+}
