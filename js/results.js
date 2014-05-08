@@ -758,6 +758,10 @@ function detailsRow (course, hasInstance) {
   var row = '<tr class="hidden details subrow ' + classDept + course.number + '"><td colspan="10" class="description">';
 
   row += '<h4>' + course.department + ' ' + course.number + '</h4>';
+  
+  //crosslisting if exists
+  if ((course.crossListing).length > 0)
+  	row += '<p><span class="descriptionCategory">Cross Listed As: </span>' + course.crossListing + '</p>';
 
   row += '<p><span class="descriptionCategory">Description: </span>' + course.description + '</p>';
 
@@ -771,8 +775,19 @@ function detailsRow (course, hasInstance) {
         + '<li>Available: ' + instance[0].seats.available + '</li>';
   }
 
+ //prereqs
   if ((course.prereqs).length > 0)
     row += '<p><span class="descriptionCategory">Prerequisites: </span>' + course.prereqs + '</p>';
+    
+  //coreqs
+  if ((course.hasCoreqs).length > 0)
+  row += '<p><span class="descriptionCategory">Corequisites: </span>' + course.hasCoreqs + '</p>';
+
+    
+  //is prep for 
+  if ((course.isPrereqFor).length > 0) 
+  	row += '<p><span class="descriptionCategory">Is a Prerequisite for: </span> ' + course.isPrereqFor + '</p>';
+  	
 
   // format
   row += '<p><span class="descriptionCategory">Format: </span>' + course.format + '</p>';
