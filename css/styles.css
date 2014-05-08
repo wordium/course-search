@@ -330,6 +330,6 @@ td#emptyTD {
 }
 
 ol li {
-  margin-left: 5px;
+  margin-left: 20px;
   list-style-type: decimal;
 }
