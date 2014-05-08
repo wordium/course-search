@@ -328,3 +328,8 @@ td#emptyTD {
 #reqMajor, #reqMinor {
 	width: 95%;
 }
+
+ol li {
+  margin-left: 5px;
+  list-style-type: decimal;
+}
