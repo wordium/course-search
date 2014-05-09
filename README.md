@@ -7,7 +7,8 @@ http://groups.ischool.berkeley.edu/course-search/course-search/index.html
 
 Description: This is a functional prototype intended to provide visual and interaction demonstrations for the look and feel of the course catalog search user interface.
 
-To use the prototype, it is recommended to use a browser capable of rendering HTML5 and CSS3, such as current versions of Chrome or Firefox. IE10, IE11, or Safari will likely display properly, but may have some quirks. IE9 and lower are not recommended.
+The prototype is optimized for Firefox v.29, but is viewable in Chrome.
+It has not been tested in Safari, IE10, or IE11. IE9 and lower are not recommended.
 
 Demo search functionality:
  1. Find Public Health major classes offered in the upcoming semester (the Utilitarian)
