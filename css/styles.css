@@ -74,15 +74,13 @@ img.bulletin {
   margin-bottom: 25px;
 }
 
-
-#advCheckboxes, #requirements, #time{
-  border-top: 2px solid rgba(045,099,127,0.5);
-  padding-top: 15px;
-
-}
-
 .searchBtn {
   margin-top: 25px;
+}
+
+#advCheckboxes, #requirements, #time {
+  border-top: 2px solid rgba(045,099,127,0.5);
+  padding-top: 15px;
 }
 
 .sectionTitle {
@@ -188,8 +186,10 @@ select.units {
   padding: 0;
 }
 
-/* course levels */
-
+/* requirements */
+#reqMajor, #reqMinor {
+  width: 95%;
+}
 
 /* time and day */
 #time td {
@@ -215,8 +215,7 @@ td#emptyTD {
   min-height: 200px;
 }
 
-/* help text */
-
+/* help text styling for the static table*/
 #helpText {
   width: 30%;
   float: right;
@@ -224,7 +223,6 @@ td#emptyTD {
   margin-top: 30px;
   font-size: 12px;
   line-height: 15px;
-
 }
 
 .helpHead {
@@ -289,7 +287,6 @@ td#emptyTD {
 }
 
 #helpCalendar {
-
 }
 
 .helpboxOpen {
@@ -301,31 +298,14 @@ td#emptyTD {
   background-color: rgba(0,0,0,0.25);
 }
 
-/* other */
-#toggleHelp {
-  float:right;
-
-}
-
-.rIcon {
-  height: 20px;
-  width: 20px;
-  vertical-align: middle;
-}
-
-.smallIcon {
-  height: 12px;
-  width: 12px;
-
-}
-
-#reqMajor, #reqMinor {
-	width: 95%;
-}
-
+/* prototype help box styling */
 ol li {
   margin-left: 20px;
   list-style-type: decimal;
+}
+
+#toggleHelp {
+  float:right;
 }
 
 #prototypeHelp ul li {

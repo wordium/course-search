@@ -1,4 +1,4 @@
-
+/*** Main JS file for getting data from JSON files and filling out the search results tables ***/
 
 // facets
 var fDepartment = {},

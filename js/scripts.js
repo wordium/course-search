@@ -1,3 +1,6 @@
+/*** Main JS file for adding interactions for the search page. ***/
+
+// get data from the form
 function submitForm () {
   var inputSemester = $('#inputSemester').val(),
     inputDepartment = $('#inputDepartment').val().toLowerCase(),
@@ -120,8 +123,6 @@ $(document).ready(function () {
     $text = $('#advancedState'),
     $advanced = $('#advanced'),
     $advancedText = $('#advHelp');
-  // uncomment when done testing:
-  //$advanced.hide();
 
   departmentAutocomplete();
 

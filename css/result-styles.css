@@ -93,6 +93,10 @@ th, .courseUnits, .instanceCCN, .badges, .save {
   background-color: rgba(194,185,167,0.75);
 }
 
+.notOfferedRow td {
+  background-color: rgba(083,098,111, 0.5);
+}
+
 .courseHeaderRow:hover {
   background-color: black;
 }
@@ -101,7 +105,6 @@ th, .courseUnits, .instanceCCN, .badges, .save {
   background-color: #53626F;
 }
 
-
 /* styling for the extra row with seat info */
 .rowSeats, .rowSeats td {
   padding: 0;
@@ -109,16 +112,10 @@ th, .courseUnits, .instanceCCN, .badges, .save {
   height: 15px;
 }
 
-/* making the badges smaller */
+/* making the badges be smaller, yo */
 .badges img {
   width: 22px;
   height: 22px;
-}
-
-
-
-.notOfferedRow td {
-  background-color: rgba(083,098,111, 0.5);
 }
 
 /* sorting icons that don't do anything but pretty! */
@@ -126,30 +123,23 @@ img.sortImg {
   vertical-align: middle;
 }
 
-
-
-
-
+/* font stylings */
 #facets h4 {
   font-weight: bold;
   margin-top: 5px;
 }
 
-
-/* miscellany */
+/* styling for test files */
 #fileChange li {
   display: inline;
   padding-right: 40px;
 }
+
 #fileChange li:hover {
   cursor: pointer;
 }
 
-#savedCourses {
-  float: right;
-}
-
-
+/* course details styling */
 .description p {
   margin-top: 5px;
 }
@@ -163,9 +153,16 @@ img.sortImg {
   margin-left: 25px;
 }
 
+.smallIcon {
+  height: 12px;
+  width: 12px;
+}
+
+/* saved courses styling */
 #savedCourses {
   color: blue;
   text-decoration: underline;
+  float: right;
 }
 
 #savedCourses:hover {
