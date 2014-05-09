@@ -2,7 +2,7 @@ course-search
 =============
 Authors: Sandra Helsley, Lisa Jervis
 
-In-progress version of this prototype is available here:
+This prototype is available here:
 http://groups.ischool.berkeley.edu/course-search/course-search/index.html
 
 Description: This is a functional prototype intended to provide visual and interaction demonstrations for the look and feel of the course catalog search user interface.
@@ -26,3 +26,8 @@ Demo search functionality:
  5. Find backup classes with open seats (the Seeker)
  	Semester field: Fall 2014, open seats checkbox checked
   60 course-level results.
+
+Balsamiq Files
+Our medium-fidelity prototype is available in the balsamiq directory. Saved course interaction is viewable there. To view the files, download Balsamiq Mockups (http://balsamiq.com/products/mockups/).
+The entire mockup starts with 0-basic-search.bmml, but to view the saved screen only, open 19-new-save-compare-w-select-box.bmml.
+When a file is open, go to View -> Full Screen Presentation, or hit Command-F, to start the interactive prototype. Click on the Title Keywords box to put in the word "modern", then hit Search to see the results.
