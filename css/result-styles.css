@@ -31,6 +31,9 @@ td,th {
   font-size: 12px;
 }
 
+th {
+  background-color: rgba(083,098,111,.5);
+}
 /* alignments */
 .textRight {
   text-align: right;
