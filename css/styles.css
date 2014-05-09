@@ -203,18 +203,6 @@ td#emptyTD {
   width: 125px;
 }
 
-/* prototype help box */
-#prototypeHelp {
-  transition: all 1s ease-in-out;
-  position: fixed;
-  right: 0;
-  bottom: 0;
-  background-color: rgba(0,0,0,0.75);
-  color: #fff;
-  padding: 15px;
-  min-height: 200px;
-}
-
 /* help text styling for the static table*/
 #helpText {
   width: 30%;
@@ -289,19 +277,21 @@ td#emptyTD {
 #helpCalendar {
 }
 
-.helpboxOpen {
-  width: 300px;
-}
-
-.helpboxClose {
-  width: 50px;
-  background-color: rgba(0,0,0,0.25);
-}
-
 /* prototype help box styling */
 ol li {
   margin-left: 20px;
   list-style-type: decimal;
+}
+
+#prototypeHelp {
+  transition: all 1s ease-in-out;
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0,0,0,0.75);
+  color: #fff;
+  padding: 15px;
+  min-height: 200px;
 }
 
 #toggleHelp {
@@ -319,4 +309,18 @@ ol li {
 
 #prototypeHelp p {
   margin-bottom: 1em; 
+}
+
+.helpboxOpen {
+  width: 300px;
+}
+
+.helpboxClose {
+  width: 50px;
+  background-color: rgba(0,0,0,0.25);
+}
+
+/* back to search button */
+#searchReturn {
+  margin-top: 15px;
 }

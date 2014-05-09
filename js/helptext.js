@@ -200,6 +200,13 @@ function setupHelpText() {
     + 'in a default-closed manner. </li> ');
   });
 
+  $('#searchReturn').hover(function (event) {
+    $helpTitle.text('Return to Search');
+    $helpText.html('When this button is clicked, or when the user hits the back button on the browser, the search screen should '
+      + 'return, and the selected search options should still be selected. This will allow the user to make modifications on the'
+      + 'previous search, and prevent the need to re-enter options, especially for more complex searches.');
+  });
+
   // initialize the text
   resetHelpText();
 }
