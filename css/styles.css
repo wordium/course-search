@@ -323,4 +323,12 @@ ol li {
 /* back to search button */
 #searchReturn {
   margin-top: 15px;
+  margin-bottom: 15px;
+  background-color: #fff;
+  border: 0;
+  color: blue;
+  text-decoration: underline;
+}
+#searchReturn: hover {
+  cursor: pointer;
 }
