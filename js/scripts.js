@@ -196,7 +196,7 @@ $(document).ready(function () {
     $('input:checked').prop('checked', false);
     $('input:text').prop('value', '');
     $('select').prop('selectedIndex',0);
-    $('.selected').removeclass('selected');
+    $('.selected').removeClass('selected');
   });
 
 });
