@@ -332,3 +332,10 @@ ol li {
 #searchReturn: hover {
   cursor: pointer;
 }
+
+/* icon sizes */
+.rIcon {
+  height: 20px;
+  width: 20px;
+  vertical-align: middle;
+}
