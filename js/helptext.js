@@ -207,7 +207,7 @@ function setupHelpText() {
   });
   
     $('#clearSearch').hover(function (event) {
-    $helpTitle.text('Return to Search');
+    $helpTitle.text('Clear Search Options');
     $helpText.html('This button clears the form so a user can start fresh with a new search.');
   });
 
