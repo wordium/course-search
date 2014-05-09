@@ -202,9 +202,8 @@ function setupHelpText() {
 
   $('#searchReturn').hover(function (event) {
     $helpTitle.text('Return to Search');
-    $helpText.html('When this button is clicked, or when the user hits the back button on the browser, the search screen should '
-      + 'return, and the selected search options should still be selected. This will allow the user to make modifications on the'
-      + 'previous search, and prevent the need to re-enter options, especially for more complex searches.');
+    $helpText.html('This link sends the user back to the search screen, populated with the parameters of the original search. '
+      + 'This will allow the user to modify a search without having to fill in the form again. The browser\'s back button should also perform in this manner, for the same reason.');
   });
 
   // initialize the text
