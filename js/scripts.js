@@ -191,6 +191,14 @@ $(document).ready(function () {
   // call helptext stuff
   setupHelpText();
 
+  // clear search options 
+  $('#clearSearch').on('click', function (event) {
+    $('input:checked').prop('checked', false);
+    $('input:text').prop('value', '');
+    $('select').prop('selectedIndex',0);
+    $('.selected').removeclass('selected');
+  });
+
 });
 
 

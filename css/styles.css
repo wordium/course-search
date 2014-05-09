@@ -339,3 +339,8 @@ ol li {
   width: 20px;
   vertical-align: middle;
 }
+
+/* clear search */
+#clearSearch {
+  float: right;
+}
