@@ -46,8 +46,8 @@ function setupHelpText() {
     + '<li> Find classes that meet the AC, R&CA, and R&CB campus requirements and all L&S breadth requirements—'
     + 'Campus section: AC, RCA, and RCB boxes checked; L&S Breadth section: all boxes checked; Semester field: All. </li>'
     + '<li> Find all classes related to sustainability—Semester field: All; Keyword field: "sustainability." </li>'
-    + '<li> Find classes in the upcoming semester that meet only MW morning and TTh—Semester field: Fall 2014;' 
-    + 'calendar: MW 9-12:30 selected and all of TTh selected.</li>'
+    + '<li> Find classes in the upcoming semester that meet only MW morning and TuTh—Semester field: Fall 2014; ' 
+    + 'Day and Time: MW 9-12:30 selected and all of TuTh selected.</li>'
     + '<li> Find backup classes with open seats—Semester field: Fall 2014; open seats checkbox checked.</li>');
   });
 
@@ -205,6 +205,14 @@ function setupHelpText() {
     $helpText.html('This link sends the user back to the search screen, populated with the parameters of the original search. '
       + 'This will allow the user to modify a search without having to fill in the form again. The browser\'s back button should also perform in this manner, for the same reason.');
   });
+  
+    $('#clearSearch').hover(function (event) {
+    $helpTitle.text('Return to Search');
+    $helpText.html('This button clears the form so a user can start fresh with a new search.');
+  });
+
+  
+
 
   // initialize the text
   resetHelpText();
