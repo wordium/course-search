@@ -162,6 +162,8 @@ function setupHelpText() {
     + '<li>Currently, when a facet option is selected and the results are narrowed, the results summary at the top of the screen '
     + 'remains the same. When implemented, this summary should be updated to reflect the number of results being displayed '
     + 'and the updated search criteria. </li>'
+    + '<li>The facet options and categories should also update when options are selected; i.e., only the categories that are represented '
+    + 'in the filtered results, along with the accurate counts, should display in the facets pane.'
     + '<li>Currently, the lecture and discussion instances returned by a search are not filtered out by the facets even if a '
     + 'facet criterion chosen should exclude the instance. For example, if a lecture is on a TuTh schedule '
     + 'and has discussion sections on M and W, even if the "TuTh" facet option is selected all of the discussion instances '
